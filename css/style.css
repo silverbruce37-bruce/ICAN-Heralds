@@ -354,3 +354,263 @@ body.lang-kr .sub-title {
     font-weight: 900;
     color: #1a1a1a;
 }
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 60px 0 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+
+/* Horizontal Scroll for Events */
+.events-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding-bottom: 25px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) #f0f0f0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.events-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.events-scroll::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.events-scroll::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+.event-card {
+    min-width: 350px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.event-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--event-gold);
+    color: #000;
+    padding: 6px 14px;
+    font-weight: 900;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.event-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.event-content {
+    padding: 20px;
+}
+
+.event-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.event-content p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.location {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.location::before {
+    content: '📍';
+    margin-right: 5px;
+}
+
+/* Grid for Hidden Gems */
+.gems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.gem-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.gem-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+}
+
+.gem-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 5px 15px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 20px 20px 0;
+    border-radius: 4px;
+}
+
+.gem-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.gem-content {
+    padding: 25px;
+}
+
+.gem-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+}
+
+.gem-content p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Academy Word of the Day Banner */
+.word-banner {
+    margin: 60px 0 20px;
+    background: linear-gradient(135deg, #0047ab, #002e6e);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 71, 171, 0.25);
+}
+
+.word-banner::before {
+    content: 'ICAN';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 10rem;
+    font-weight: 900;
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.word-info {
+    flex: 1;
+}
+
+.banner-label {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.word-title {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.word-desc {
+    max-width: 650px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    font-family: 'Georgia', serif;
+}
+
+.word-grade {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px 45px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    margin-left: 40px;
+}
+
+.grade-label {
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.grade-value {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: var(--event-gold);
+    line-height: 1;
+}
+
+@media (max-width: 900px) {
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .word-grade {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .word-title {
+        font-size: 3rem;
+    }
+}
