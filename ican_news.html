@@ -350,6 +350,58 @@
         </section>
     </div>
 
+    <!-- SOS Modal -->
+    <div id="sosModal" class="sos-modal-overlay" onclick="closeSOS(event)">
+        <div class="sos-modal">
+            <button class="sos-close" onclick="closeSOS()">&times;</button>
+            <div class="sos-header">
+                <div class="sos-icon">🚨</div>
+                <h2>
+                    <span class="en-content">Emergency Contacts</span>
+                    <span class="kr-content">긴급 연락처</span>
+                </h2>
+            </div>
+            <div class="sos-grid">
+                <a href="tel:911" class="sos-card sos-police">
+                    <div class="sos-card-icon">🚔</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Police / Fire / Ambulance</span>
+                        <span class="kr-content">경찰 / 소방 / 구급</span>
+                    </div>
+                    <div class="sos-card-number">911</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-embassy">
+                    <div class="sos-card-icon">🇰🇷</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Korean Embassy</span>
+                        <span class="kr-content">주필리핀 한국대사관</span>
+                    </div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-consular">
+                    <div class="sos-card-icon">🆘</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Consular Emergency (24h)</span>
+                        <span class="kr-content">영사 긴급전화 (24시간)</span>
+                    </div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:1382" class="sos-card sos-tourist">
+                    <div class="sos-card-icon">🏖️</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Tourist Assistance</span>
+                        <span class="kr-content">관광객 도움센터</span>
+                    </div>
+                    <div class="sos-card-number">1382</div>
+                </a>
+            </div>
+            <p class="sos-footer">
+                <span class="en-content">Tap a card to call directly. Stay safe!</span>
+                <span class="kr-content">카드를 터치하면 바로 전화됩니다. 안전하세요!</span>
+            </p>
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>

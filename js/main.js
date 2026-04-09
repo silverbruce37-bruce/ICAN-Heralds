@@ -9,13 +9,25 @@ function toggleLanguage() {
     }
 }
 
-// SOS Button
+// SOS Modal
+function openSOS() {
+    document.getElementById('sosModal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeSOS(e) {
+    if (e && e.target !== e.currentTarget) return;
+    document.getElementById('sosModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeSOS();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
-    const sosBtns = document.querySelectorAll('.sos-btn');
-    sosBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            alert("🚨 EMERGENCY CONTACTS\n\n- Police: 911\n- Embassy: +63-2-8856-9210\n\nStay safe!");
-        });
+    document.querySelectorAll('.sos-btn').forEach(btn => {
+        btn.addEventListener('click', openSOS);
     });
 });
 

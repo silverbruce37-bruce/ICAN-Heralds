@@ -606,6 +606,132 @@ body.lang-kr .sub-title {
     line-height: 1;
 }
 
+/* SOS Modal */
+.sos-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.2s ease;
+}
+
+.sos-modal-overlay.active {
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.sos-modal {
+    background: #1a1a1a;
+    border: 1px solid #ff3e00;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 0 60px rgba(255, 62, 0, 0.3);
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.sos-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.sos-close:hover {
+    color: white;
+}
+
+.sos-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sos-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.sos-header h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.sos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.sos-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #333;
+    background: #222;
+}
+
+.sos-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.sos-card-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.sos-card-title {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.sos-card-number {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #ff3e00;
+}
+
+.sos-police { border-color: #ff3e00; }
+.sos-embassy { border-color: #0047ab; }
+.sos-consular { border-color: #ffd700; }
+.sos-tourist { border-color: #00c853; }
+
+.sos-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.85rem;
+}
+
 /* Mobile Responsive Adjustments */
 @media (max-width: 1000px) {
     .container {
