@@ -2,7 +2,9 @@ const CACHE_NAME = 'ican-heralds-v1';
 const urlsToCache = [
   './ican_news.html',
   './manifest.json',
-  './images/main_article.png'
+  './images/main_article.png',
+  './css/style.css',
+  './js/main.js'
 ];
 
 self.addEventListener('install', event => {

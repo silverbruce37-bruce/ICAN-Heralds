@@ -4,8 +4,8 @@
   "description": "Daily news for the Korean community in the Philippines.",
   "start_url": "./ican_news.html",
   "display": "standalone",
-  "background_color": "#fdfbf7",
-  "theme_color": "#1a1a1a",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
   "icons": [
     {
       "src": "images/main_article.png",
