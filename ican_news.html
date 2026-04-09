@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICAN HERALDS - Daily Edition</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a1a">
+    <link rel="apple-touch-icon" href="images/main_article.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="installBanner" class="install-banner" onclick="installApp()">📲 아이캔헤럴즈를 앱으로 설치하고 매일 아침 필리핀 소식을 받아보세요! (클릭)</div>
+
+    <div class="container">
+        <header>
+            <div class="toggle-container">
+                <button id="langBtn" class="toggle-btn" onclick="toggleLanguage()">English | 한국어</button>
+            </div>
+            <h1 class="logo" onclick="location.reload()">ICAN HERALDS</h1>
+            <div class="date">THURSDAY, APRIL 9, 2026 | PHILIPPINES | VOL. 01</div>
+        </header>
+
+        <section class="headline-section">
+            <h2 class="main-title">
+                <span class="en-content">Philippines-Korea Relations Hit New Heights on 'Day of Valor'</span>
+                <span class="kr-content">필리핀 '용맹의 날' 기념식 거행; 한-필 동맹 시너지 최고조 달해</span>
+            </h2>
+            <h3 class="sub-title">
+                <span class="en-content">Korean-Speaking Tourism Police Deployed Nationwide as Bilateral Ties Strengthen Amid Peninsular Tensions.</span>
+                <span class="kr-content">남북 긴장 속에서도 한-필 유대 강화; 보라카이·세부 등지에 '한국어 가능 관광 경찰' 전격 배치.</span>
+            </h3>
+            
+            <div class="main-image-container">
+                <img src="images/main_article.png" alt="Day of Valor Ceremony">
+                <div class="image-caption">Photo: Commemoration Ceremony at Mt. Samat National Shrine, Bataan (2026.04.09)</div>
+            </div>
+
+            <div class="content-columns">
+                <div class="column">
+                    <div class="en-content">
+                        South Korea remains the Philippines' #1 source of international visitors, accounting for over 20% of total arrivals. On this "Day of Valor," the Department of Tourism and the PNP have officially deployed Korean-speaking officers to key hubs. This comes as President Lee Jae Myung's recent state visit solidified 10 major agreements in shipbuilding and nuclear energy.
+                    </div>
+                    <div class="kr-content">
+                        한국은 필리핀 전체 해외 방문객의 20% 이상을 차지하는 부동의 1위 시장입니다. 필리핀 관광부와 경찰청은 오늘 '용맹의 날'을 맞아 주요 관광지에 한국어 전담 경찰관 배치를 완료했습니다. 이는 최근 이재명 대통령의 국빈 방문을 통해 체결된 조선 및 원자력 분야 10대 핵심 협정의 후속 조치로 풀이됩니다.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="news-grid-title">
+            <span class="en-content">Latest Korea-Philippines News</span>
+            <span class="kr-content">최신 한-필 주요 뉴스</span>
+        </h2>
+        
+        <div class="news-grid">
+            <!-- News 1 -->
+            <div class="news-card">
+                <span class="tag">Security</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/nk/400/200" alt="NK Missile"></div>
+                <h3>
+                    <span class="en-content">North Korea Confirms 3-Day Missile Spree</span>
+                    <span class="kr-content">북한, 3일 연속 '미사일 도발' 공식 확인</span>
+                </h3>
+                <p>
+                    <span class="en-content">Pyongyang tested cluster-bomb missiles and anti-aircraft systems from April 6-8, citing defensive measures.</span>
+                    <span class="kr-content">평양 측은 4월 6일부터 8일까지 클러스터 폭탄 미사일과 방공 시스템 테스트를 진행했다고 발표했습니다.</span>
+                </p>
+            </div>
+
+            <!-- News 2 -->
+            <div class="news-card">
+                <span class="tag">Economy</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/econ/400/200" alt="Economy"></div>
+                <h3>
+                    <span class="en-content">ASEAN+3 Tackles Energy Crisis</span>
+                    <span class="kr-content">ASEAN+3, 에너지 위기 공동 대응 논의</span>
+                </h3>
+                <p>
+                    <span class="en-content">Finance ministers from Manila and Seoul discuss fuel price subsidies amid regional volatility.</span>
+                    <span class="kr-content">마닐라와 서울의 재무 차관들이 유가 급등에 따른 보조금 지급 및 지역 경제 안정화를 논의했습니다.</span>
+                </p>
+            </div>
+
+            <!-- News 3 -->
+            <div class="news-card">
+                <span class="tag">Culture</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/kpop/400/200" alt="K-Pop"></div>
+                <h3>
+                    <span class="en-content">ROUND Festival Hits Manila on April 18</span>
+                    <span class="kr-content">라운드 뮤직 페스티벌, 4월 18일 마닐라 상륙</span>
+                </h3>
+                <p>
+                    <span class="en-content">K-pop star 10CM to host the ASEAN-Korea music exchange at Araneta Coliseum.</span>
+                    <span class="kr-content">K-팝 스타 10CM가 아라네타 콜리세움에서 열리는 한-아세안 음악 교류 행사의 진행을 맡습니다.</span>
+                </p>
+            </div>
+
+            <!-- News 4 -->
+            <div class="news-card">
+                <span class="tag">Diplomacy</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/diplomacy/400/200" alt="Diplomacy"></div>
+                <h3>
+                    <span class="en-content">EU Asked to Mediate Inter-Korean Talks</span>
+                    <span class="kr-content">한국 정부, EU에 남북 대화 중재 요청</span>
+                </h3>
+                <p>
+                    <span class="en-content">Manila-based analysts observe Seoul's push for European mediation amid rising peninsular tensions.</span>
+                    <span class="kr-content">남북 관계 경색 국면에서 한국 정부가 유럽연합(EU)에 대화 재개를 위한 중재를 공식 요청했습니다.</span>
+                </p>
+            </div>
+
+            <!-- News 5 -->
+            <div class="news-card">
+                <span class="tag">Cooperation</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/ship/400/200" alt="Cooperation"></div>
+                <h3>
+                    <span class="en-content">10 Major Agreements in Shipbuilding & Nuclear</span>
+                    <span class="kr-content">한-필, 조선 및 원자력 등 10대 핵심 협정 체결</span>
+                </h3>
+                <p>
+                    <span class="en-content">Bilateral ties solidify as both nations fast-track cooperation in critical minerals and infrastructure.</span>
+                    <span class="kr-content">양국은 핵심 광물과 인프라 분야에서도 협력을 가속화하며 강력한 파트너십을 구축하고 있습니다.</span>
+                </p>
+            </div>
+
+            <!-- News 6 -->
+            <div class="news-card">
+                <span class="tag">Safety</span>
+                <div class="news-thumb"><img src="https://picsum.photos/seed/police/400/200" alt="Police"></div>
+                <h3>
+                    <span class="en-content">Korean-Speaking Police Deployed to Hubs</span>
+                    <span class="kr-content">한국어 가능 관광 경찰, 주요 거점 배치 완료</span>
+                </h3>
+                <p>
+                    <span class="en-content">New security MOU ensures protection for Koreans in Boracay, Cebu, and Palawan.</span>
+                    <span class="kr-content">보라카이, 세부, 팔라완 등 주요 관광지에서 한국인 보호를 위한 전담 경찰력이 가동됩니다.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

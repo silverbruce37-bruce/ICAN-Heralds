@@ -1,0 +1,27 @@
+name: Daily Publication
+
+on:
+  schedule:
+    # 23:00 UTC is 7:00 AM PHT (Philippine Standard Time)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Latest News and Generate Image
+        run: |
+          echo "Placeholder script to fetch news API and run nano-banana-pro"
+          # Future implementation: script updates ican_news.html and images/main_article.png
+          
+      - name: Commit Updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto-publish daily edition" || echo "No changes to commit"
+          git push
