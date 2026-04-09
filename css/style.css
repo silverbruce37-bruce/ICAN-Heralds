@@ -732,6 +732,74 @@ body.lang-kr .sub-title {
     font-size: 0.85rem;
 }
 
+/* Scroll Animations */
+.fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.news-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 71, 171, 0.15);
+}
+
+/* Mobile Hamburger Menu */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.mobile-menu-btn span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.mobile-menu-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.mobile-menu-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid #222;
+    margin-top: 60px;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.site-footer a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
 /* Mobile Responsive Adjustments */
 @media (max-width: 1000px) {
     .container {
@@ -746,6 +814,29 @@ body.lang-kr .sub-title {
 }
 
 @media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+        border-bottom: 1px solid #333;
+    }
+    .nav-links.open {
+        display: flex;
+    }
+    .nav-container {
+        flex-wrap: wrap;
+        position: relative;
+    }
     .dashboard {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -755,32 +846,68 @@ body.lang-kr .sub-title {
     .content-columns {
         flex-direction: column;
     }
-    .nav-links {
-        display: none; /* Simple mobile nav */
-    }
     .main-image-container {
-        height: 300px;
+        height: 250px;
+    }
+    .main-title {
+        font-size: 2rem;
+    }
+    .sub-title {
+        font-size: 1.1rem;
     }
     .word-title {
         font-size: 2.5rem;
     }
-    .event-card, .gem-card {
+    .event-card {
+        min-width: 280px;
+    }
+    .gem-card {
         min-width: 100%;
+    }
+    .gems-grid {
+        grid-template-columns: 1fr;
+    }
+    .sos-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 480px) {
     .logo {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .container {
+        padding: 20px 15px;
     }
     .dashboard {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
+        gap: 10px;
+    }
+    .main-title {
+        font-size: 1.6rem;
+    }
+    .sub-title {
+        font-size: 1rem;
+        padding-left: 12px;
+    }
+    .main-image-container {
+        height: 200px;
     }
     .word-title {
         font-size: 2rem;
     }
+    .word-banner {
+        padding: 30px 20px;
+    }
     .grade-value {
         font-size: 3rem;
+    }
+    .section-title {
+        font-size: 1.4rem;
+    }
+    .event-card {
+        min-width: 260px;
     }
 }
 

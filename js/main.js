@@ -31,6 +31,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Mobile Menu
+function toggleMenu() {
+    const btn = document.querySelector('.mobile-menu-btn');
+    const links = document.querySelector('.nav-links');
+    btn.classList.toggle('active');
+    links.classList.toggle('open');
+}
+
+// Scroll Animations
+document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll('.news-card, .event-card, .gem-card, .word-banner, .headline-section, .dashboard');
+    targets.forEach(el => el.classList.add('fade-up'));
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    targets.forEach(el => observer.observe(el));
+});
+
 // PWA
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
