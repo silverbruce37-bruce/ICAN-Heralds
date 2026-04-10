@@ -1,0 +1,834 @@
+/* ═══════════════════════════════════════════ */
+/* FOOD HUNTER — Editorial Article Styles      */
+/* Manila Food Hunter Series                   */
+/* ═══════════════════════════════════════════ */
+
+/* ─── HERO ─────────────────────────────────── */
+
+.fh-hero {
+    position: relative;
+    height: 75vh;
+    min-height: 500px;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.fh-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fh-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.2) 0%,
+        rgba(10, 10, 10, 0.4) 50%,
+        rgba(10, 10, 10, 0.95) 85%,
+        rgba(10, 10, 10, 1) 100%
+    );
+    z-index: 1;
+}
+
+.fh-hero-content {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fh-series-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 6px 20px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(255, 62, 0, 0.4);
+}
+
+.fh-hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    line-height: 1.08;
+    color: white;
+    margin-bottom: 18px;
+    letter-spacing: -1px;
+    max-width: 800px;
+}
+
+.fh-hero-subtitle {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+.fh-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fh-author {
+    font-weight: 700;
+    color: var(--event-gold);
+}
+
+.fh-meta-dot {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* ─── CONTAINER ────────────────────────────── */
+
+.fh-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 40px 80px;
+}
+
+.fh-lang-toggle {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+/* ─── INTRO ────────────────────────────────── */
+
+.fh-intro {
+    margin-bottom: 50px;
+}
+
+.fh-dropcap {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    color: var(--text-secondary);
+}
+
+.fh-dropcap::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    float: left;
+    line-height: 0.8;
+    margin: 8px 15px 0 0;
+    color: var(--accent);
+    font-weight: 900;
+}
+
+body.lang-kr .fh-dropcap {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+body.lang-kr .fh-dropcap::first-letter {
+    font-size: 3.5rem;
+    margin: 5px 12px 0 0;
+}
+
+/* ─── AREA MAP ─────────────────────────────── */
+
+.fh-area-map {
+    margin-bottom: 60px;
+    padding: 30px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+}
+
+.fh-area-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--event-gold);
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.fh-areas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.fh-area-chip {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.3s, transform 0.2s;
+}
+
+.fh-area-chip:hover {
+    border-color: var(--accent-warm);
+    transform: translateY(-2px);
+}
+
+.fh-area-hot {
+    border-color: rgba(255, 62, 0, 0.3);
+    background: rgba(255, 62, 0, 0.05);
+}
+
+.fh-area-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.fh-area-chip strong {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.fh-area-chip span {
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+/* ─── AREA DIVIDER ─────────────────────────── */
+
+.fh-area-divider {
+    margin: 70px 0 40px;
+    padding-top: 20px;
+    border-top: 2px solid var(--border);
+    scroll-margin-top: 80px;
+}
+
+.fh-divider-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    color: var(--accent);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.fh-area-divider h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: var(--text);
+}
+
+.fh-divider-desc {
+    font-family: 'Georgia', serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--muted);
+    font-style: italic;
+}
+
+/* ─── SPOT (Restaurant Card) ───────────────── */
+
+.fh-spot {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.fh-spot-number {
+    font-family: 'Space Mono', monospace;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.04);
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    z-index: 0;
+    pointer-events: none;
+    line-height: 1;
+}
+
+/* Gallery */
+.fh-spot-gallery {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.fh-spot-hero {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    display: block;
+}
+
+.fh-spot-thumbs {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.fh-spot-thumbs img {
+    flex: 1;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.fh-spot-thumbs img:hover {
+    opacity: 0.75;
+}
+
+/* Spot Body */
+.fh-spot-body {
+    position: relative;
+    z-index: 1;
+}
+
+.fh-spot-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.fh-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+}
+
+.fh-tag-must {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+.fh-tag-korean {
+    background: rgba(0, 71, 171, 0.3);
+    color: #8bb8ff;
+    border-color: rgba(0, 71, 171, 0.5);
+}
+
+.fh-spot-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+    color: var(--text);
+    line-height: 1.15;
+}
+
+.fh-spot-tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--muted);
+    margin-bottom: 18px;
+}
+
+/* Rating */
+.fh-rating-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    padding: 12px 18px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+}
+
+.fh-stars {
+    color: var(--event-gold);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.fh-score {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--event-gold);
+}
+
+.fh-rating-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Editorial Text */
+.fh-editorial {
+    margin-bottom: 25px;
+}
+
+.fh-editorial p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.fh-editorial p:last-child {
+    margin-bottom: 0;
+}
+
+body.lang-kr .fh-editorial p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+/* Quote */
+.fh-quote {
+    border-left: 4px solid var(--accent-warm);
+    padding: 22px 28px;
+    margin: 30px 0;
+    background: rgba(255, 107, 53, 0.04);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+.fh-quote cite {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 12px;
+    font-style: normal;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+/* Info Grid */
+.fh-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    padding: 25px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    margin: 25px 0;
+}
+
+.fh-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.95rem;
+}
+
+.fh-info-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.fh-info-item strong {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-bottom: 3px;
+}
+
+/* Must Order */
+.fh-must-order {
+    margin: 25px 0;
+}
+
+.fh-must-order h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--accent-warm);
+    margin-bottom: 15px;
+}
+
+.fh-order-items {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.fh-order-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+}
+
+.fh-order-item:last-child {
+    border-bottom: none;
+}
+
+.fh-order-name {
+    flex: 1;
+    font-size: 0.95rem;
+    color: var(--text);
+}
+
+.fh-order-price {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    min-width: 60px;
+    text-align: right;
+}
+
+.fh-order-verdict {
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.fh-verdict-legendary {
+    background: rgba(255, 62, 0, 0.15);
+    color: var(--accent);
+    border: 1px solid rgba(255, 62, 0, 0.3);
+}
+
+.fh-verdict-musttry {
+    background: rgba(255, 215, 0, 0.1);
+    color: var(--event-gold);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+/* Tip */
+.fh-tip {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.06), rgba(255, 107, 53, 0.04));
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    margin-top: 20px;
+}
+
+.fh-tip p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-top: 8px;
+}
+
+.fh-tip-badge {
+    font-weight: 800;
+    color: var(--event-gold);
+    font-size: 0.85rem;
+}
+
+.fh-tip-inline {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 18px;
+    margin-top: 15px;
+}
+
+.fh-tip-inline p {
+    margin-top: 0;
+}
+
+.fh-tip-inline .fh-tip-badge {
+    flex-shrink: 0;
+}
+
+/* ─── COMPACT SPOT ─────────────────────────── */
+
+.fh-spot-compact {
+    margin-bottom: 50px;
+}
+
+.fh-compact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.fh-compact-layout:hover {
+    border-color: var(--accent-warm);
+}
+
+.fh-compact-image {
+    min-height: 350px;
+}
+
+.fh-compact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fh-spot-compact .fh-spot-body {
+    padding: 30px 30px 30px 0;
+}
+
+.fh-editorial-compact {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 18px;
+}
+
+body.lang-kr .fh-editorial-compact {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+.fh-compact-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 12px;
+}
+
+/* ─── CLOSING ──────────────────────────────── */
+
+.fh-closing {
+    margin: 80px 0 50px;
+    text-align: center;
+}
+
+.fh-closing-line {
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    margin: 0 auto 30px;
+    border-radius: 2px;
+}
+
+.fh-closing h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.fh-closing > p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.fh-closing-sig {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--accent-warm);
+    margin-bottom: 30px;
+}
+
+.fh-closing-author {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 25px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+}
+
+.fh-closing-author strong {
+    display: block;
+    font-size: 0.95rem;
+}
+
+.fh-closing-author span {
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+/* ─── NEXT EDITION TEASER ──────────────────── */
+
+.fh-next {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 35px;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+.fh-next:hover {
+    border-color: var(--primary);
+}
+
+.fh-next-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    color: var(--primary-light);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.fh-next h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.fh-next p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+/* ─── RESPONSIVE ───────────────────────────── */
+
+@media (max-width: 768px) {
+    .fh-hero {
+        height: 60vh;
+        min-height: 400px;
+    }
+
+    .fh-hero-content {
+        padding: 0 20px;
+        bottom: 30px;
+    }
+
+    .fh-hero-title {
+        font-size: 2rem;
+    }
+
+    .fh-hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .fh-container {
+        padding: 30px 20px 60px;
+    }
+
+    .fh-areas {
+        grid-template-columns: 1fr;
+    }
+
+    .fh-spot-hero {
+        height: 280px;
+    }
+
+    .fh-spot-thumbs img {
+        height: 65px;
+    }
+
+    .fh-spot-name {
+        font-size: 1.8rem;
+    }
+
+    .fh-area-divider h2 {
+        font-size: 1.6rem;
+    }
+
+    .fh-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fh-compact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .fh-compact-image {
+        min-height: 220px;
+    }
+
+    .fh-spot-compact .fh-spot-body {
+        padding: 25px;
+    }
+
+    .fh-closing h2 {
+        font-size: 1.6rem;
+    }
+
+    .fh-next h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .fh-hero {
+        height: 50vh;
+        min-height: 350px;
+    }
+
+    .fh-hero-title {
+        font-size: 1.6rem;
+    }
+
+    .fh-series-badge {
+        font-size: 0.6rem;
+        padding: 5px 14px;
+    }
+
+    .fh-spot-hero {
+        height: 220px;
+        border-radius: var(--radius-md);
+    }
+
+    .fh-spot-name {
+        font-size: 1.5rem;
+    }
+
+    .fh-dropcap::first-letter {
+        font-size: 3rem;
+    }
+
+    .fh-order-item {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .fh-order-price {
+        min-width: auto;
+    }
+}

@@ -39,9 +39,13 @@ function toggleMenu() {
     links.classList.toggle('open');
 }
 
-// Scroll Animations
+// Scroll Animations (staggered)
 document.addEventListener('DOMContentLoaded', () => {
-    const targets = document.querySelectorAll('.news-card, .event-card, .gem-card, .word-banner, .headline-section, .dashboard');
+    const targets = document.querySelectorAll(
+        '.news-card, .event-card, .travel-card, .food-feature, ' +
+        '.picks-card, .word-banner, .headline-section, .dashboard, ' +
+        '.featured-news, .section-title, .section-intro'
+    );
     targets.forEach(el => el.classList.add('fade-up'));
 
     const observer = new IntersectionObserver((entries) => {
@@ -51,9 +55,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
     targets.forEach(el => observer.observe(el));
+});
+
+// Smooth scroll for nav links
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+            const target = document.querySelector(link.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Close mobile menu if open
+                const navLinks = document.querySelector('.nav-links');
+                const menuBtn = document.querySelector('.mobile-menu-btn');
+                if (navLinks.classList.contains('open')) {
+                    navLinks.classList.remove('open');
+                    menuBtn.classList.remove('active');
+                }
+            }
+        });
+    });
 });
 
 // PWA
@@ -80,7 +104,7 @@ function installApp() {
     }
     if (deferredPrompt) {
         deferredPrompt.prompt();
-        deferredPrompt.userChoice.then((result) => {
+        deferredPrompt.userChoice.then(() => {
             deferredPrompt = null;
         });
     }

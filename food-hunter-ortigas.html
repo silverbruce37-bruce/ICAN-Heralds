@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICAN HERALDS — Manila Food Hunter: Ortigas Edition</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="description" content="올티가스 숨은 맛집 완전 정복 — 직접 먹고 감동한 곳만 담았습니다. ICAN Herald Food Hunter.">
+    <link rel="apple-touch-icon" href="images/main_article.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/food-hunter.css">
+</head>
+<body>
+    <!-- Cosmos Background -->
+    <div class="cosmos-bg" aria-hidden="true">
+        <div class="stars-layer"></div>
+        <div class="orbit-ring orbit-ring-1"></div>
+        <div class="orbit-ring orbit-ring-2"></div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <svg class="ican-ship" viewBox="0 0 36 56" width="22" height="34" aria-label="ICAN Ship">
+                    <defs>
+                        <linearGradient id="navBodyGrad" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#d8dce6"/>
+                            <stop offset="50%" stop-color="#b0b8c8"/>
+                            <stop offset="100%" stop-color="#8890a0"/>
+                        </linearGradient>
+                        <radialGradient id="navEngineGrad" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#80cfff" stop-opacity="0.9"/>
+                            <stop offset="60%" stop-color="#2090ff" stop-opacity="0.5"/>
+                            <stop offset="100%" stop-color="#0050cc" stop-opacity="0"/>
+                        </radialGradient>
+                    </defs>
+                    <ellipse cx="18" cy="52" rx="5" ry="4" fill="url(#navEngineGrad)" class="engine-glow"/>
+                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="url(#navBodyGrad)" stroke="#6a7080" stroke-width="0.4"/>
+                    <path d="M18 2 C18 2, 15 7, 14.5 12 L16 12 C16.5 7, 18 3, 18 3Z" fill="rgba(255,255,255,0.15)"/>
+                    <line x1="14" y1="20" x2="22" y2="20" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <line x1="13.5" y1="30" x2="22.5" y2="30" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <path d="M12.5 14 L7 20 L8 21 L12.2 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23.5 14 L29 20 L28 21 L23.8 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M13 40 L7 48 L9 48 L14 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23 40 L29 48 L27 48 L22 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" stroke="#6a7080" stroke-width="0.3"/>
+                    <rect x="15.8" y="10.5" width="4.4" height="1.5" rx="0.8" fill="#1a7aff" opacity="0.6"/>
+                    <circle cx="15.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="18" cy="47" r="1.8" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="20.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="15.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                    <circle cx="18" cy="47" r="1" fill="#80cfff" opacity="0.8" class="antenna-blink"/>
+                    <circle cx="20.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                </svg>
+                <span>ICAN HERALDS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="ican_news.html"><span class="en-content">HOME</span><span class="kr-content">홈</span></a></li>
+                <li><a href="ican_news.html#food-travel"><span class="en-content">FOOD & TRAVEL</span><span class="kr-content">맛집·여행</span></a></li>
+            </ul>
+            <button class="sos-btn">
+                <span class="en-content">SOS: EMERGENCY</span>
+                <span class="kr-content">SOS: 긴급연락망</span>
+            </button>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- HERO: Food Hunter Cover                            -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="fh-hero">
+        <div class="fh-hero-overlay"></div>
+        <img src="https://picsum.photos/seed/ortigas-night/1600/800" alt="Ortigas Skyline at Dusk" class="fh-hero-img">
+        <div class="fh-hero-content">
+            <div class="fh-series-badge">
+                <span class="en-content">MANILA FOOD HUNTER — VOL. 01</span>
+                <span class="kr-content">마닐라 맛집 헌터 — VOL. 01</span>
+            </div>
+            <h1 class="fh-hero-title">
+                <span class="en-content">Ortigas: The Hidden Kitchens Behind the Skyscrapers</span>
+                <span class="kr-content">올티가스: 마천루 뒤에 숨겨진 부엌들</span>
+            </h1>
+            <p class="fh-hero-subtitle">
+                <span class="en-content">Everyone knows the malls. Nobody talks about the alleys. We spent 30 days eating through Ortigas, Kapitolyo, and Greenhills — so you don't have to guess.</span>
+                <span class="kr-content">쇼핑몰은 다 알지만, 골목은 아무도 얘기하지 않습니다. 30일간 올티가스, 카피톨요, 그린힐스를 먹고 또 먹었습니다 — 당신이 헤매지 않도록.</span>
+            </p>
+            <div class="fh-hero-meta">
+                <span class="fh-author">By Herald Food Desk</span>
+                <span class="fh-meta-dot">·</span>
+                <span>
+                    <span class="en-content">12 min read</span>
+                    <span class="kr-content">12분 읽기</span>
+                </span>
+                <span class="fh-meta-dot">·</span>
+                <span>April 10, 2026</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="fh-container">
+
+        <!-- Toggle -->
+        <div class="fh-lang-toggle">
+            <button id="langBtn" class="toggle-btn" onclick="toggleLanguage()">English | 한국어</button>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- EDITORIAL INTRO                            -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-intro">
+            <p class="fh-dropcap">
+                <span class="en-content">There's a strange paradox about Ortigas. Over 600,000 people flood into this business district every weekday morning, sit through meetings, eat at food courts, and leave — without ever discovering that some of Metro Manila's most extraordinary meals are hiding within a 10-minute walk of their office. This is not a list of "best restaurants." This is a map of the people, the stories, and the kitchens that make Ortigas worth staying for after 6 PM.</span>
+                <span class="kr-content">올티가스에는 이상한 역설이 있습니다. 매일 아침 60만 명이 이 비즈니스 지구로 쏟아져 들어와 회의를 하고, 푸드코트에서 밥을 먹고, 퇴근합니다 — 사무실에서 걸어서 10분 거리에 메트로 마닐라 최고의 식사가 숨어 있다는 사실을 모른 채. 이것은 "베스트 레스토랑" 리스트가 아닙니다. 올티가스를 오후 6시 이후에도 머물 가치가 있게 만드는 사람들, 이야기들, 그리고 부엌들의 지도입니다.</span>
+            </p>
+        </div>
+
+        <!-- Area Map Overview -->
+        <div class="fh-area-map">
+            <h2 class="fh-area-title">
+                <span class="en-content">The Hunting Grounds</span>
+                <span class="kr-content">사냥터 지도</span>
+            </h2>
+            <div class="fh-areas">
+                <a href="#kapitolyo" class="fh-area-chip fh-area-hot">
+                    <span class="fh-area-icon">🔥</span>
+                    <div>
+                        <strong>Kapitolyo</strong>
+                        <span>
+                            <span class="en-content">Food Street Paradise</span>
+                            <span class="kr-content">먹자골목 천국</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="#ortigas-cbd" class="fh-area-chip">
+                    <span class="fh-area-icon">🏢</span>
+                    <div>
+                        <strong>Ortigas CBD</strong>
+                        <span>
+                            <span class="en-content">Office Worker's Secret</span>
+                            <span class="kr-content">직장인의 비밀</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="#greenhills" class="fh-area-chip">
+                    <span class="fh-area-icon">🛍️</span>
+                    <div>
+                        <strong>Greenhills</strong>
+                        <span>
+                            <span class="en-content">Heritage Eats</span>
+                            <span class="kr-content">전통의 맛</span>
+                        </span>
+                    </div>
+                </a>
+                <a href="#capitol-commons" class="fh-area-chip">
+                    <span class="fh-area-icon">✨</span>
+                    <div>
+                        <strong>Capitol Commons</strong>
+                        <span>
+                            <span class="en-content">New Generation</span>
+                            <span class="kr-content">뉴 제너레이션</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- SPOT 1: Kapitolyo — Main Feature            -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-area-divider" id="kapitolyo">
+            <span class="fh-divider-label">AREA 01</span>
+            <h2>
+                <span class="en-content">Kapitolyo — Where Manila's Food Revolution Started</span>
+                <span class="kr-content">카피톨요 — 마닐라 음식 혁명이 시작된 곳</span>
+            </h2>
+            <p class="fh-divider-desc">
+                <span class="en-content">A quiet residential neighborhood that became the Philippines' most concentrated strip of independent restaurants. No franchises. No chains. Just cooks who quit their corporate jobs to follow a dream.</span>
+                <span class="kr-content">조용한 주택가가 필리핀에서 가장 밀집된 독립 레스토랑 거리가 되었습니다. 프랜차이즈 없음. 체인 없음. 꿈을 좇기 위해 회사를 그만둔 요리사들만 있습니다.</span>
+            </p>
+        </div>
+
+        <!-- Restaurant 1 -->
+        <article class="fh-spot">
+            <div class="fh-spot-number">01</div>
+            <div class="fh-spot-gallery">
+                <img src="https://picsum.photos/seed/kapitolyo-bbq1/900/550" alt="Charcoal-grilled skewers" class="fh-spot-hero">
+                <div class="fh-spot-thumbs">
+                    <img src="https://picsum.photos/seed/kapitolyo-bbq2/300/300" alt="Grill station">
+                    <img src="https://picsum.photos/seed/kapitolyo-bbq3/300/300" alt="Side dishes">
+                    <img src="https://picsum.photos/seed/kapitolyo-bbq4/300/300" alt="Interior ambiance">
+                </div>
+            </div>
+            <div class="fh-spot-body">
+                <div class="fh-spot-tags">
+                    <span class="fh-tag fh-tag-must">MUST VISIT</span>
+                    <span class="fh-tag">Filipino BBQ</span>
+                    <span class="fh-tag">
+                        <span class="en-content">Late Night</span>
+                        <span class="kr-content">야식</span>
+                    </span>
+                </div>
+                <h3 class="fh-spot-name">Lolo Dad's</h3>
+                <p class="fh-spot-tagline">
+                    <span class="en-content">"The 11 PM Smokestack on United Street"</span>
+                    <span class="kr-content">"유나이티드 거리의 밤 11시 굴뚝연기"</span>
+                </p>
+                <div class="fh-rating-bar">
+                    <div class="fh-stars">★★★★★</div>
+                    <span class="fh-score">4.9</span>
+                    <span class="fh-rating-label">Herald Rating</span>
+                </div>
+
+                <div class="fh-editorial">
+                    <p>
+                        <span class="en-content">You smell it before you see it. At the corner of United Street and East Capitol Drive, sometime around 11 PM, a column of charcoal smoke rises like a beacon. Follow the smoke, and you'll find a line of people — nurses just off their shift, BPO workers in hoodies, couples who couldn't sleep — waiting for what might be the best isaw (chicken intestine) in Metro Manila.</span>
+                        <span class="kr-content">보기 전에 먼저 냄새를 맡습니다. 유나이티드 거리와 이스트 캐피톨 드라이브 모퉁이, 밤 11시쯤 숯불 연기 기둥이 봉화처럼 솟아오릅니다. 연기를 따라가면 줄 선 사람들이 보입니다 — 야간 근무를 마친 간호사들, 후드티를 입은 BPO 직원들, 잠이 안 오는 커플들 — 메트로 마닐라 최고의 이소(닭 내장구이)를 기다리며.</span>
+                    </p>
+                    <p>
+                        <span class="en-content">Lolo Dad's has been doing this for over 15 years. The owner, Kuya Ricky, marinates his meat for 24 hours in a family recipe he refuses to share with anyone — including his wife's relatives. The pork belly is glazed until it shatters like glass. The chicken skin is impossibly crispy. And the sawsawan (dipping sauce) — a soy-vinegar-calamansi mix — is adjusted daily based on the weather, the humidity, and, Kuya Ricky says, "my mood."</span>
+                        <span class="kr-content">롤로 대즈는 15년 넘게 이 자리를 지켰습니다. 주인 쿠야 리키는 24시간 동안 고기를 재우는데, 그 양념 비법은 아내의 친척에게도 절대 알려주지 않습니다. 삼겹살은 유리처럼 바삭하게 구워지고, 닭껍질은 믿기 힘들 정도로 크리스피합니다. 그리고 사우사완(디핑 소스) — 간장-식초-깔라만시 혼합 — 은 그날의 날씨, 습도, 그리고 쿠야 리키 말로는 "내 기분"에 따라 매일 조절됩니다.</span>
+                    </p>
+                </div>
+
+                <blockquote class="fh-quote">
+                    <span class="en-content">"I don't want to be in a mall. I want people to find me because they're hungry, not because they're bored."</span>
+                    <span class="kr-content">"난 쇼핑몰에 들어가고 싶지 않아요. 심심해서가 아니라 배가 고파서 날 찾는 사람들을 원합니다."</span>
+                    <cite>— Kuya Ricky, Owner</cite>
+                </blockquote>
+
+                <div class="fh-info-grid">
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <span>United St. cor. East Capitol Dr., Kapitolyo, Pasig</span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">💰</span>
+                        <div>
+                            <strong>
+                                <span class="en-content">Budget</span>
+                                <span class="kr-content">가격대</span>
+                            </strong>
+                            <span>₱150–350 /
+                                <span class="en-content">person</span>
+                                <span class="kr-content">1인</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">🕐</span>
+                        <div>
+                            <strong>
+                                <span class="en-content">Hours</span>
+                                <span class="kr-content">영업시간</span>
+                            </strong>
+                            <span>5:00 PM – 2:00 AM (
+                                <span class="en-content">Daily</span>
+                                <span class="kr-content">매일</span>
+                            )</span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">🅿️</span>
+                        <div>
+                            <strong>
+                                <span class="en-content">Parking</span>
+                                <span class="kr-content">주차</span>
+                            </strong>
+                            <span>
+                                <span class="en-content">Street only — grab a Grab</span>
+                                <span class="kr-content">길거리만 — 그랩 추천</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-must-order">
+                    <h4>
+                        <span class="en-content">Herald's Order</span>
+                        <span class="kr-content">헤럴드 추천 주문</span>
+                    </h4>
+                    <div class="fh-order-items">
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Pork Belly BBQ (3 sticks)</span>
+                            <span class="fh-order-price">₱150</span>
+                            <span class="fh-order-verdict fh-verdict-legendary">
+                                <span class="en-content">LEGENDARY</span>
+                                <span class="kr-content">레전드</span>
+                            </span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Chicken Isaw (5 sticks)</span>
+                            <span class="fh-order-price">₱100</span>
+                            <span class="fh-order-verdict fh-verdict-musttry">
+                                <span class="en-content">MUST TRY</span>
+                                <span class="kr-content">필수</span>
+                            </span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Crispy Chicken Skin</span>
+                            <span class="fh-order-price">₱80</span>
+                            <span class="fh-order-verdict fh-verdict-musttry">
+                                <span class="en-content">ADDICTIVE</span>
+                                <span class="kr-content">중독성</span>
+                            </span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Java Rice</span>
+                            <span class="fh-order-price">₱35</span>
+                            <span class="fh-order-verdict">
+                                <span class="en-content">PAIR IT</span>
+                                <span class="kr-content">곁들임</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-tip">
+                    <span class="fh-tip-badge">💡 HUNTER'S TIP</span>
+                    <p>
+                        <span class="en-content">Come between 9–10 PM on weekdays for minimal wait. On weekends, the line starts at 8. The pork belly sells out by midnight — if you see smoke, you're on time. If you don't, you're too late.</span>
+                        <span class="kr-content">평일 오후 9~10시 사이에 오면 대기가 거의 없습니다. 주말엔 8시부터 줄이 섭니다. 삼겹살은 자정이면 품절 — 연기가 보이면 아직 괜찮습니다. 안 보이면 이미 늦었습니다.</span>
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Restaurant 2 -->
+        <article class="fh-spot">
+            <div class="fh-spot-number">02</div>
+            <div class="fh-spot-gallery">
+                <img src="https://picsum.photos/seed/ramen-kap/900/550" alt="Rich tonkotsu ramen" class="fh-spot-hero">
+                <div class="fh-spot-thumbs">
+                    <img src="https://picsum.photos/seed/ramen-kap2/300/300" alt="Handmade noodles">
+                    <img src="https://picsum.photos/seed/ramen-kap3/300/300" alt="Chashu close-up">
+                    <img src="https://picsum.photos/seed/ramen-kap4/300/300" alt="Cozy interior">
+                </div>
+            </div>
+            <div class="fh-spot-body">
+                <div class="fh-spot-tags">
+                    <span class="fh-tag fh-tag-must">EDITOR'S CHOICE</span>
+                    <span class="fh-tag">Ramen</span>
+                    <span class="fh-tag">Japanese-Filipino</span>
+                </div>
+                <h3 class="fh-spot-name">Mendokoro Ramenba</h3>
+                <p class="fh-spot-tagline">
+                    <span class="en-content">"The Ramen That Made Kapitolyo Famous"</span>
+                    <span class="kr-content">"카피톨요를 유명하게 만든 라멘"</span>
+                </p>
+                <div class="fh-rating-bar">
+                    <div class="fh-stars">★★★★★</div>
+                    <span class="fh-score">4.8</span>
+                    <span class="fh-rating-label">Herald Rating</span>
+                </div>
+
+                <div class="fh-editorial">
+                    <p>
+                        <span class="en-content">Before Mendokoro, Kapitolyo was just another street in Pasig. After Mendokoro, it became a pilgrimage. The broth is boiled for 18 hours — pork bones shattered, strained, reduced, and rebuilt into a milky-white liquid that clings to the back of a spoon like cream. This is not ramen that asks you to slurp politely. This is ramen that demands you forget where you are.</span>
+                        <span class="kr-content">멘도코로 이전, 카피톨요는 파시그의 평범한 거리였습니다. 멘도코로 이후, 순례지가 되었습니다. 육수는 18시간 동안 끓입니다 — 돼지뼈를 부수고, 걸러내고, 졸이고, 다시 조립하여 숟가락 뒤에 크림처럼 달라붙는 유백색 액체로 재탄생시킵니다. 이건 정숙하게 후루룩 먹으라는 라멘이 아닙니다. 자신이 어디에 있는지 잊으라고 요구하는 라멘입니다.</span>
+                    </p>
+                    <p>
+                        <span class="en-content">The no-phone policy is real. The counter seating faces the kitchen. You watch the cook pull noodles, slice chashu, and plate your bowl with a precision that borders on ceremony. There is no menu board — you choose from three options, and each one is perfect. They close when the broth runs out, not when the clock says so.</span>
+                        <span class="kr-content">휴대폰 금지 정책은 진짜입니다. 카운터 좌석은 주방을 향합니다. 요리사가 면을 뽑고, 차슈를 자르고, 의식에 가까운 정밀함으로 그릇을 완성하는 것을 지켜봅니다. 메뉴판이 없습니다 — 세 가지 중 하나를 고르면 되고, 각각이 완벽합니다. 시계가 아니라 육수가 떨어지면 문을 닫습니다.</span>
+                    </p>
+                </div>
+
+                <blockquote class="fh-quote">
+                    <span class="en-content">"We don't serve food. We serve 18 hours of patience in a bowl."</span>
+                    <span class="kr-content">"우리는 음식을 파는 게 아닙니다. 그릇에 담긴 18시간의 인내를 팝니다."</span>
+                    <cite>— Chef Ryan, Kitchen Lead</cite>
+                </blockquote>
+
+                <div class="fh-info-grid">
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <span>V. Cruz St., Kapitolyo, Pasig City</span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">💰</span>
+                        <div>
+                            <strong>Budget</strong>
+                            <span>₱380–550 /
+                                <span class="en-content">person</span>
+                                <span class="kr-content">1인</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">🕐</span>
+                        <div>
+                            <strong>Hours</strong>
+                            <span>11:00 AM –
+                                <span class="en-content">until sold out</span>
+                                <span class="kr-content">품절 시까지</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">📵</span>
+                        <div>
+                            <strong>
+                                <span class="en-content">Note</span>
+                                <span class="kr-content">참고</span>
+                            </strong>
+                            <span>
+                                <span class="en-content">No phones at the counter</span>
+                                <span class="kr-content">카운터 휴대폰 금지</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-must-order">
+                    <h4>Herald's Order</h4>
+                    <div class="fh-order-items">
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Shio Ramen</span>
+                            <span class="fh-order-price">₱420</span>
+                            <span class="fh-order-verdict fh-verdict-legendary">SIGNATURE</span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Gyoza (6 pcs)</span>
+                            <span class="fh-order-price">₱180</span>
+                            <span class="fh-order-verdict fh-verdict-musttry">CRISPY</span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">Extra Chashu</span>
+                            <span class="fh-order-price">₱120</span>
+                            <span class="fh-order-verdict">WORTH IT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-tip">
+                    <span class="fh-tip-badge">💡 HUNTER'S TIP</span>
+                    <p>
+                        <span class="en-content">Arrive at 10:30 AM (30 min before opening) on weekdays. Weekend waits can exceed 90 minutes. No reservations. Solo diners get seated fastest. Take your photos of the exterior — you won't be using your phone inside.</span>
+                        <span class="kr-content">평일 오전 10시 30분(개장 30분 전)에 도착하세요. 주말 대기는 90분을 넘길 수 있습니다. 예약 불가. 혼자 온 손님이 가장 빨리 앉습니다. 외관 사진은 밖에서 — 안에서는 폰을 못 씁니다.</span>
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- AREA 02: Ortigas CBD                       -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-area-divider" id="ortigas-cbd">
+            <span class="fh-divider-label">AREA 02</span>
+            <h2>
+                <span class="en-content">Ortigas CBD — The Lunch Spots Nobody Shares with New Hires</span>
+                <span class="kr-content">올티가스 CBD — 신입에게 절대 알려주지 않는 점심 맛집</span>
+            </h2>
+            <p class="fh-divider-desc">
+                <span class="en-content">Inside the glass towers, there are floors. Below those floors, there are basements. And in those basements, there are kitchens that have been feeding the same loyal crowd for decades.</span>
+                <span class="kr-content">유리 타워 안에 층이 있고, 그 아래 지하가 있습니다. 그 지하에는 수십 년간 같은 단골을 먹여 온 부엌들이 있습니다.</span>
+            </p>
+        </div>
+
+        <!-- Restaurant 3 -->
+        <article class="fh-spot">
+            <div class="fh-spot-number">03</div>
+            <div class="fh-spot-gallery">
+                <img src="https://picsum.photos/seed/korean-ortigas/900/550" alt="Korean home cooking spread" class="fh-spot-hero">
+                <div class="fh-spot-thumbs">
+                    <img src="https://picsum.photos/seed/korean-ort2/300/300" alt="Kimchi jjigae">
+                    <img src="https://picsum.photos/seed/korean-ort3/300/300" alt="Banchan spread">
+                    <img src="https://picsum.photos/seed/korean-ort4/300/300" alt="Auntie cooking">
+                </div>
+            </div>
+            <div class="fh-spot-body">
+                <div class="fh-spot-tags">
+                    <span class="fh-tag fh-tag-korean">KOREAN GEM</span>
+                    <span class="fh-tag">
+                        <span class="en-content">Home Cooking</span>
+                        <span class="kr-content">집밥</span>
+                    </span>
+                    <span class="fh-tag">
+                        <span class="en-content">Hidden</span>
+                        <span class="kr-content">숨겨진 곳</span>
+                    </span>
+                </div>
+                <h3 class="fh-spot-name">
+                    <span class="en-content">Hanyang — "Auntie's Kitchen"</span>
+                    <span class="kr-content">한양 — "이모네 부엌"</span>
+                </h3>
+                <p class="fh-spot-tagline">
+                    <span class="en-content">"The Taste of Home at the Bottom of an Office Tower"</span>
+                    <span class="kr-content">"오피스 타워 맨 아래, 집밥의 맛"</span>
+                </p>
+                <div class="fh-rating-bar">
+                    <div class="fh-stars">★★★★☆</div>
+                    <span class="fh-score">4.6</span>
+                    <span class="fh-rating-label">Herald Rating</span>
+                </div>
+
+                <div class="fh-editorial">
+                    <p>
+                        <span class="en-content">You won't find this on Google Maps. Take the elevator to B2 of the Tektite Towers East Wing, turn left past the printing shop, and look for the handwritten Korean sign taped to a glass door. Inside, a woman everyone calls "Imo" (Auntie) has been cooking doenjang-jjigae and kimchi-jjigae for the Korean business community since 2009. There's no English menu. There's barely a menu at all — you tell her what you feel like, and she cooks it.</span>
+                        <span class="kr-content">구글 맵에 나오지 않습니다. 텍타이트 타워 이스트 윙 B2층으로 내려가, 인쇄소를 지나 왼쪽으로 돌면, 유리문에 손글씨로 쓴 한글 간판이 테이프로 붙어 있습니다. 모두가 "이모"라 부르는 한 여성이 2009년부터 한인 비즈니스 커뮤니티를 위해 된장찌개와 김치찌개를 끓이고 있습니다. 영어 메뉴는 없습니다. 메뉴 자체가 거의 없습니다 — 뭐가 먹고 싶은지 말하면, 이모가 해줍니다.</span>
+                    </p>
+                    <p>
+                        <span class="en-content">The banchan comes in waves — six, sometimes eight small plates of pickled radish, seasoned spinach, japchae, and whatever she made that morning. The portions are absurd for the price. The kimchi is her own — fermented in a container she keeps in the back room, aged for exactly the amount of time she considers correct. When I asked her how she knows it's ready, she said: "I just open it and ask if I would serve this to my own son."</span>
+                        <span class="kr-content">반찬은 파도처럼 밀려옵니다 — 여섯, 때로는 여덟 가지 작은 접시에 단무지, 시금치나물, 잡채, 그리고 그날 아침 만든 것들. 가격 대비 양은 말도 안 됩니다. 김치는 이모가 직접 담근 것 — 뒷방에 보관하는 용기에서 이모가 정확하다고 여기는 시간만큼 숙성시킵니다. 언제 익는지 어떻게 아느냐고 물었더니 이모는 이렇게 말했습니다: "열어보고 우리 아들한테 줘도 되겠나 물어봐요."</span>
+                    </p>
+                </div>
+
+                <blockquote class="fh-quote">
+                    <span class="en-content">"I don't cook for customers. I cook for Koreans who are far from home."</span>
+                    <span class="kr-content">"손님한테 해주는 게 아니에요. 집이 먼 한국 사람한테 해주는 거예요."</span>
+                    <cite>— Imo (이모), Owner</cite>
+                </blockquote>
+
+                <div class="fh-info-grid">
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <span>B2F, PSE Tektite Towers East Wing, Ortigas Center</span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">💰</span>
+                        <div>
+                            <strong>Budget</strong>
+                            <span>₱250–400 /
+                                <span class="en-content">person (all-in)</span>
+                                <span class="kr-content">1인 (반찬 포함)</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">🕐</span>
+                        <div>
+                            <strong>Hours</strong>
+                            <span>11:00 AM – 2:30 PM /
+                                <span class="en-content">Mon–Fri only</span>
+                                <span class="kr-content">평일만</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fh-info-item">
+                        <span class="fh-info-icon">🗣️</span>
+                        <div>
+                            <strong>
+                                <span class="en-content">Language</span>
+                                <span class="kr-content">언어</span>
+                            </strong>
+                            <span>
+                                <span class="en-content">Korean, broken English</span>
+                                <span class="kr-content">한국어, 약간의 영어</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-must-order">
+                    <h4>Herald's Order</h4>
+                    <div class="fh-order-items">
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">
+                                <span class="en-content">Kimchi Jjigae Set</span>
+                                <span class="kr-content">김치찌개 정식</span>
+                            </span>
+                            <span class="fh-order-price">₱280</span>
+                            <span class="fh-order-verdict fh-verdict-legendary">
+                                <span class="en-content">SOUL FOOD</span>
+                                <span class="kr-content">소울푸드</span>
+                            </span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">
+                                <span class="en-content">Doenjang Jjigae</span>
+                                <span class="kr-content">된장찌개</span>
+                            </span>
+                            <span class="fh-order-price">₱260</span>
+                            <span class="fh-order-verdict fh-verdict-musttry">
+                                <span class="en-content">HEALING</span>
+                                <span class="kr-content">힐링</span>
+                            </span>
+                        </div>
+                        <div class="fh-order-item">
+                            <span class="fh-order-name">
+                                <span class="en-content">Japchae (if available)</span>
+                                <span class="kr-content">잡채 (있으면)</span>
+                            </span>
+                            <span class="fh-order-price">₱150</span>
+                            <span class="fh-order-verdict">
+                                <span class="en-content">HOMEMADE</span>
+                                <span class="kr-content">수제</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fh-tip">
+                    <span class="fh-tip-badge">💡 HUNTER'S TIP</span>
+                    <p>
+                        <span class="en-content">Say "이모, 오늘 뭐가 맛있어요?" ("Imo, what's good today?") and let her decide. She always gives more food to people who speak Korean. Cash only. No receipts. Don't ask for a receipt.</span>
+                        <span class="kr-content">"이모, 오늘 뭐가 맛있어요?" 하고 이모한테 맡기세요. 한국어 하는 사람한테 항상 더 줍니다. 현금만. 영수증 없음. 영수증 달라고 하지 마세요.</span>
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- AREA 03: Greenhills                        -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-area-divider" id="greenhills">
+            <span class="fh-divider-label">AREA 03</span>
+            <h2>
+                <span class="en-content">Greenhills — Where Old Money Eats Quietly</span>
+                <span class="kr-content">그린힐스 — 올드머니가 조용히 밥 먹는 곳</span>
+            </h2>
+        </div>
+
+        <!-- Restaurant 4 (Compact Card) -->
+        <article class="fh-spot fh-spot-compact">
+            <div class="fh-spot-number">04</div>
+            <div class="fh-compact-layout">
+                <div class="fh-compact-image">
+                    <img src="https://picsum.photos/seed/viet-green/600/500" alt="Pho steaming">
+                </div>
+                <div class="fh-spot-body">
+                    <div class="fh-spot-tags">
+                        <span class="fh-tag">Vietnamese</span>
+                        <span class="fh-tag">
+                            <span class="en-content">Hole-in-the-wall</span>
+                            <span class="kr-content">허름한 맛집</span>
+                        </span>
+                    </div>
+                    <h3 class="fh-spot-name">Pho Bac</h3>
+                    <p class="fh-spot-tagline">
+                        <span class="en-content">"The 20-Year Pho That Doctors Prescribe"</span>
+                        <span class="kr-content">"의사들이 처방하는 20년 된 쌀국수"</span>
+                    </p>
+                    <div class="fh-rating-bar">
+                        <div class="fh-stars">★★★★☆</div>
+                        <span class="fh-score">4.5</span>
+                    </div>
+                    <p class="fh-editorial-compact">
+                        <span class="en-content">Hidden on the second floor of Promenade mall's old wing, Pho Bac serves a bone broth so clean and deep that regulars call it "the reset button." The Vietnamese owner, Mama Linh, still tastes every pot before it goes out. When you're sick, hungover, or heartbroken in Ortigas — this is where you go. She knows. She always knows.</span>
+                        <span class="kr-content">프로메나드 몰 구관 2층에 숨겨진 포박은 단골들이 "리셋 버튼"이라 부르는 맑고 깊은 사골 국물을 냅니다. 베트남 출신 오너 마마 린은 아직도 나가는 모든 솥의 맛을 봅니다. 올티가스에서 아프거나, 숙취이거나, 마음이 아플 때 — 여기로 갑니다. 이모는 압니다. 항상 압니다.</span>
+                    </p>
+                    <div class="fh-compact-meta">
+                        <span>📍 2F Promenade, Greenhills</span>
+                        <span>💰 ₱250–380</span>
+                        <span>🕐 10AM–9PM</span>
+                    </div>
+                    <div class="fh-tip fh-tip-inline">
+                        <span class="fh-tip-badge">💡</span>
+                        <span class="en-content">Order the Pho Tai with extra lime. Ask for the chili oil — it's homemade and not on the table by default.</span>
+                        <span class="kr-content">포타이에 라임 추가. 칠리 오일을 따로 달라고 하세요 — 수제이며 기본 세팅에 없습니다.</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- AREA 04: Capitol Commons                   -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-area-divider" id="capitol-commons">
+            <span class="fh-divider-label">AREA 04</span>
+            <h2>
+                <span class="en-content">Capitol Commons — The New Guard</span>
+                <span class="kr-content">캐피톨 커먼스 — 뉴가드</span>
+            </h2>
+        </div>
+
+        <!-- Restaurant 5 (Compact Card) -->
+        <article class="fh-spot fh-spot-compact">
+            <div class="fh-spot-number">05</div>
+            <div class="fh-compact-layout">
+                <div class="fh-compact-image">
+                    <img src="https://picsum.photos/seed/brunch-cap/600/500" alt="Brunch spread">
+                </div>
+                <div class="fh-spot-body">
+                    <div class="fh-spot-tags">
+                        <span class="fh-tag fh-tag-must">NEW</span>
+                        <span class="fh-tag">Brunch</span>
+                        <span class="fh-tag">Specialty Coffee</span>
+                    </div>
+                    <h3 class="fh-spot-name">Toby's Estate</h3>
+                    <p class="fh-spot-tagline">
+                        <span class="en-content">"Where Ortigas Goes to Think"</span>
+                        <span class="kr-content">"올티가스가 생각하러 오는 곳"</span>
+                    </p>
+                    <div class="fh-rating-bar">
+                        <div class="fh-stars">★★★★☆</div>
+                        <span class="fh-score">4.4</span>
+                    </div>
+                    <p class="fh-editorial-compact">
+                        <span class="en-content">Not hidden, but persistently underestimated by the Korean community. Toby's Estate at Estancia Mall is the kind of café where startup deals close over flat whites and eggs benedict. The beans are roasted in-house, the Wi-Fi is fast, and the staff remembers your order after three visits. For remote workers, freelancers, and anyone who needs a beautiful space to think — this is your office.</span>
+                        <span class="kr-content">숨겨진 곳은 아니지만, 한인 커뮤니티에서 지속적으로 과소평가되는 곳. 에스탄시아 몰의 토비스 에스테이트는 플랫 화이트와 에그 베네딕트 위에서 스타트업 딜이 클로징되는 카페입니다. 원두는 자체 로스팅, 와이파이는 빠르고, 세 번 가면 직원이 주문을 기억합니다. 리모트 워커, 프리랜서, 아름다운 공간에서 생각해야 하는 모든 이 — 여기가 당신의 사무실입니다.</span>
+                    </p>
+                    <div class="fh-compact-meta">
+                        <span>📍 Estancia Mall, Capitol Commons</span>
+                        <span>💰 ₱300–500</span>
+                        <span>🕐 7AM–10PM</span>
+                    </div>
+                    <div class="fh-tip fh-tip-inline">
+                        <span class="fh-tip-badge">💡</span>
+                        <span class="en-content">Weekend brunch is packed by 10 AM. The upstairs mezzanine has power outlets at every seat — the real regulars sit up there.</span>
+                        <span class="kr-content">주말 브런치는 10시면 만석. 2층 메자닌에 모든 좌석마다 콘센트 — 진짜 단골들은 위에 앉습니다.</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- CLOSING EDITORIAL                          -->
+        <!-- ═══════════════════════════════════════════ -->
+        <div class="fh-closing">
+            <div class="fh-closing-line"></div>
+            <h2>
+                <span class="en-content">The Hunt Continues</span>
+                <span class="kr-content">사냥은 계속됩니다</span>
+            </h2>
+            <p>
+                <span class="en-content">These five are just the beginning. Ortigas is a city within a city, and its kitchens hold more stories than its boardrooms. If you know a hidden spot we missed — a carinderia that cures homesickness, a bakery that smells like your grandmother's house, a turo-turo where the adobo is unreasonably good — tell us. The Herald's inbox is always open.</span>
+                <span class="kr-content">이 다섯 곳은 시작에 불과합니다. 올티가스는 도시 속의 도시이고, 이곳의 부엌들은 회의실보다 더 많은 이야기를 품고 있습니다. 우리가 놓친 숨은 맛집을 알고 계신다면 — 향수병을 치료하는 카린데리아, 할머니 집 냄새가 나는 빵집, 아도보가 비상식적으로 맛있는 뚜로뚜로 — 알려주세요. 헤럴드의 메일함은 항상 열려 있습니다.</span>
+            </p>
+            <p class="fh-closing-sig">
+                <span class="en-content">Eat well. Eat with meaning. And always follow the smoke.</span>
+                <span class="kr-content">잘 먹으세요. 의미 있게 먹으세요. 그리고 항상 연기를 따라가세요.</span>
+            </p>
+            <div class="fh-closing-author">
+                <div class="picks-avatar">P</div>
+                <div>
+                    <strong>Paul</strong>
+                    <span>Herald Food Desk / Editor-in-Chief</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Next Edition Teaser -->
+        <div class="fh-next">
+            <span class="fh-next-label">
+                <span class="en-content">NEXT EDITION</span>
+                <span class="kr-content">다음 호</span>
+            </span>
+            <h3>
+                <span class="en-content">Manila Food Hunter Vol. 02 — Makati: The After-Midnight Map</span>
+                <span class="kr-content">마닐라 맛집 헌터 Vol. 02 — 마카티: 자정 이후의 지도</span>
+            </h3>
+            <p>
+                <span class="en-content">What happens when the bars close but the hunger doesn't? Coming next Thursday.</span>
+                <span class="kr-content">바는 닫았는데 배고픔은 안 닫으면? 다음 주 목요일.</span>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <svg class="footer-ship" viewBox="0 0 36 56" width="24" height="38" aria-hidden="true">
+                    <ellipse cx="18" cy="52" rx="4" ry="3" fill="#2090ff" opacity="0.15"/>
+                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="#333" stroke="#444" stroke-width="0.4"/>
+                    <path d="M12.5 14 L8 19 L9 20 L12.2 17Z" fill="#3a3a3a"/>
+                    <path d="M23.5 14 L28 19 L27 20 L23.8 17Z" fill="#3a3a3a"/>
+                    <path d="M13 40 L8 47 L10 47 L14 44Z" fill="#3a3a3a"/>
+                    <path d="M23 40 L28 47 L26 47 L22 44Z" fill="#3a3a3a"/>
+                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" opacity="0.5"/>
+                    <circle cx="18" cy="47" r="1.2" fill="#2090ff" opacity="0.2"/>
+                </svg>
+                <h3>ICAN HERALDS</h3>
+                <p>
+                    <span class="en-content">Where Value Connects to Create Greater Meaning</span>
+                    <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="ican_news.html">Home</a>
+                <a href="ican_news.html#food-travel">Food & Travel</a>
+                <a href="ican_news.html#events">Events</a>
+                <a href="ican_news.html#academy">Academy</a>
+            </div>
+            <p class="footer-copy">
+                <span class="en-content">© 2026 ICAN Heralds — Daily news for the Korean community in the Philippines.</span>
+                <span class="kr-content">© 2026 아이캔 헤럴즈 — 필리핀 한인 커뮤니티를 위한 데일리 뉴스.</span>
+            </p>
+            <p class="footer-verse">"모든 것을 사랑으로 하라." — 고린도전서 16:14</p>
+        </div>
+    </footer>
+
+    <!-- SOS Modal -->
+    <div id="sosModal" class="sos-modal-overlay" onclick="closeSOS(event)">
+        <div class="sos-modal">
+            <button class="sos-close" onclick="closeSOS()">&times;</button>
+            <div class="sos-header">
+                <div class="sos-icon">🚨</div>
+                <h2>
+                    <span class="en-content">Emergency Contacts</span>
+                    <span class="kr-content">긴급 연락처</span>
+                </h2>
+            </div>
+            <div class="sos-grid">
+                <a href="tel:911" class="sos-card sos-police">
+                    <div class="sos-card-icon">🚔</div>
+                    <div class="sos-card-title">Police / Fire / Ambulance</div>
+                    <div class="sos-card-number">911</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-embassy">
+                    <div class="sos-card-icon">🇰🇷</div>
+                    <div class="sos-card-title">Korean Embassy</div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-consular">
+                    <div class="sos-card-icon">🆘</div>
+                    <div class="sos-card-title">Consular Emergency (24h)</div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:1382" class="sos-card sos-tourist">
+                    <div class="sos-card-icon">🏖️</div>
+                    <div class="sos-card-title">Tourist Assistance</div>
+                    <div class="sos-card-number">1382</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
