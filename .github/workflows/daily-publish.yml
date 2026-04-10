@@ -1,0 +1,46 @@
+name: Daily Publication
+
+on:
+  schedule:
+    # 23:00 UTC = 7:00 AM PHT (Philippine Standard Time)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Generate Daily Edition
+        run: bash scripts/generate-daily.sh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "ICAN Heralds Bot"
+          git config user.email "heralds@ican.academy"
+          git add ican_news.html index.html sw.js data/
+          git diff --staged --quiet || (
+            git commit -m "📰 Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d)"
+            git push
+          )
