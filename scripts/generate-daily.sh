@@ -38,33 +38,62 @@ call_claude() {
     local result=""
     local max_retries=3
 
+    # Write prompt to temp file for safe handling
+    local prompt_file
+    prompt_file=$(mktemp)
+    echo "$prompt" > "$prompt_file"
+
     for attempt in $(seq 1 $max_retries); do
-        result=$(curl -s https://api.anthropic.com/v1/messages \
+        # Build request JSON via Python (handles escaping)
+        local request_file
+        request_file=$(mktemp)
+        python3 -c "
+import json, sys
+with open('$prompt_file') as f:
+    prompt_text = f.read()
+req = {
+    'model': 'claude-sonnet-4-20250514',
+    'max_tokens': $max_tokens,
+    'messages': [{'role': 'user', 'content': prompt_text}]
+}
+with open('$request_file', 'w') as f:
+    json.dump(req, f)
+"
+
+        # Call API
+        local response_file
+        response_file=$(mktemp)
+        local http_code
+        http_code=$(curl -s -w "%{http_code}" -o "$response_file" \
+            https://api.anthropic.com/v1/messages \
             -H "content-type: application/json" \
             -H "x-api-key: ${ANTHROPIC_API_KEY}" \
             -H "anthropic-version: 2023-06-01" \
-            -d "$(python3 -c "
+            -d @"$request_file")
+
+        if [ "$http_code" = "200" ]; then
+            result=$(python3 -c "
 import json
-prompt = json.loads(open('/dev/stdin').read())
-print(json.dumps({
-    'model': 'claude-sonnet-4-20250514',
-    'max_tokens': $max_tokens,
-    'messages': [{'role': 'user', 'content': prompt}]
-}))
-" <<< "$(echo "$prompt" | python3 -c "import sys,json; print(json.dumps(sys.stdin.read()))")")" \
-            | python3 -c "
-import sys, json
-resp = json.load(sys.stdin)
+with open('$response_file') as f:
+    resp = json.load(f)
 if 'content' in resp and len(resp['content']) > 0:
     print(resp['content'][0]['text'])
-else:
-    err = resp.get('error', {}).get('message', 'Unknown error')
-    print(f'API_ERROR: {err}', file=sys.stderr)
-    sys.exit(1)
-" 2>/dev/null) && break
-        echo "  Attempt $attempt failed, retrying in 10s..." >&2
+")
+            rm -f "$request_file" "$response_file"
+            if [ -n "$result" ]; then
+                break
+            fi
+        else
+            echo "  Attempt $attempt: HTTP $http_code" >&2
+            cat "$response_file" >&2
+            echo "" >&2
+            rm -f "$request_file" "$response_file"
+        fi
+
         sleep 10
     done
+
+    rm -f "$prompt_file"
 
     if [ -z "$result" ]; then
         echo "ERROR: Claude API failed after $max_retries attempts" >&2
