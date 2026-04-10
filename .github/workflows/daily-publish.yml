@@ -21,11 +21,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Claude CLI
-        run: npm install -g @anthropic-ai/claude-code
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
       - name: Create data directory
         run: mkdir -p data
 
