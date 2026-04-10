@@ -66,7 +66,7 @@ with open('$request_file', 'w') as f:
         response_file=$(mktemp)
         local http_code
         http_code=$(curl -s -w "%{http_code}" -o "$response_file" \
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}" \
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
             -H "content-type: application/json" \
             -d @"$request_file")
 
