@@ -27,7 +27,7 @@ jobs:
       - name: Generate Daily Edition
         run: bash scripts/generate-daily.sh
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and Push
         run: |
