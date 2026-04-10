@@ -2,7 +2,7 @@
 # ICAN Heralds — Daily Edition Generator (v2)
 # Generates daily news via Claude API, injects into HTML template.
 # Usage: ./scripts/generate-daily.sh
-# Scheduled via GitHub Actions at 7 AM PHT (23:00 UTC).
+# Scheduled via GitHub Actions at 8 AM PHT (00:00 UTC).
 
 set -euo pipefail
 cd "$(dirname "$0")/.."
