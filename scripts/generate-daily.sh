@@ -97,7 +97,7 @@ print(text.strip())
             rm -f "$request_file" "$response_file"
         fi
 
-        sleep 5
+        sleep 60
     done
 
     rm -f "$prompt_file"
