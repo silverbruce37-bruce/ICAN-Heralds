@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&display=swap');
 
 :root {
     --primary: #0047ab;
@@ -64,13 +64,17 @@ header {
 }
 
 .logo {
-    font-size: 4.5rem;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 4rem;
     font-weight: 900;
-    letter-spacing: -2px;
+    letter-spacing: 8px;
     margin: 0;
     text-transform: uppercase;
     cursor: pointer;
     color: var(--text);
+    background: linear-gradient(180deg, #ffffff 0%, #b0b8c8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tagline {
@@ -83,13 +87,14 @@ header {
 }
 
 .date {
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.95rem;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 0.78rem;
     font-weight: 500;
+    letter-spacing: 3px;
     border-top: 1px solid var(--border-light);
     border-bottom: 1px solid var(--border-light);
     display: inline-block;
-    padding: 6px 40px;
+    padding: 8px 40px;
     margin-top: 12px;
     color: var(--muted);
     letter-spacing: 2px;
@@ -172,11 +177,12 @@ body.lang-kr .picks-body p {
     display: inline-block;
     background: var(--accent);
     color: white;
-    padding: 4px 16px;
-    font-size: 0.75rem;
-    font-weight: 800;
+    padding: 5px 18px;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     border-radius: var(--radius-sm);
     margin-bottom: 20px;
 }
@@ -277,13 +283,14 @@ body.lang-kr .picks-body p {
 /* ═══════════════════════════════════════════ */
 
 .section-title {
-    font-size: 2rem;
-    font-weight: 800;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
     margin: 70px 0 15px;
     padding-bottom: 15px;
-    border-bottom: 3px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     color: var(--text);
     display: flex;
     align-items: center;
@@ -1276,21 +1283,22 @@ body.lang-kr .apc-title {
 .word-info { flex: 1; }
 
 .banner-label {
+    font-family: 'Orbitron', 'Outfit', sans-serif;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.68rem;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     opacity: 0.8;
     display: block;
     margin-bottom: 15px;
 }
 
 .word-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 4rem;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 3.5rem;
     font-weight: 900;
     margin-bottom: 8px;
-    letter-spacing: -1px;
+    letter-spacing: 6px;
 }
 
 .word-pronunciation {
@@ -1368,9 +1376,10 @@ body.lang-kr .apc-title {
 }
 
 .nav-logo {
+    font-family: 'Orbitron', 'Outfit', sans-serif;
     font-weight: 900;
-    font-size: 1.4rem;
-    letter-spacing: -1px;
+    font-size: 1.1rem;
+    letter-spacing: 4px;
     color: white;
     text-transform: uppercase;
     display: flex;
@@ -1391,10 +1400,11 @@ body.lang-kr .apc-title {
 .nav-links a {
     text-decoration: none;
     color: var(--muted);
+    font-family: 'Orbitron', 'Outfit', sans-serif;
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 0.68rem;
     transition: 0.3s;
-    letter-spacing: 0.5px;
+    letter-spacing: 2px;
 }
 
 .nav-links a:hover { color: white; }
@@ -1593,9 +1603,10 @@ body.lang-kr .apc-title {
 }
 
 .footer-brand h3 {
-    font-size: 1.8rem;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 1.4rem;
     font-weight: 900;
-    letter-spacing: -1px;
+    letter-spacing: 6px;
     margin-bottom: 8px;
 }
 
@@ -2107,9 +2118,10 @@ header:hover .tagline-sub {
     color: #fff;
     border: none;
     border-radius: var(--radius-sm);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 2px;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 3px;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.25s ease;
