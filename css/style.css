@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 :root {
     --primary: #0047ab;
@@ -64,15 +64,15 @@ header {
 }
 
 .logo {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-size: 4rem;
-    font-weight: 900;
-    letter-spacing: 8px;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: 14px;
     margin: 0;
     text-transform: uppercase;
     cursor: pointer;
     color: var(--text);
-    background: linear-gradient(180deg, #ffffff 0%, #b0b8c8 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #8890a0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 .date {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
     font-size: 0.78rem;
     font-weight: 500;
     letter-spacing: 3px;
@@ -178,11 +178,11 @@ body.lang-kr .picks-body p {
     background: var(--accent);
     color: white;
     padding: 5px 18px;
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-size: 0.65rem;
-    font-weight: 700;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     border-radius: var(--radius-sm);
     margin-bottom: 20px;
 }
@@ -283,14 +283,14 @@ body.lang-kr .picks-body p {
 /* ═══════════════════════════════════════════ */
 
 .section-title {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 700;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin: 70px 0 15px;
     padding-bottom: 15px;
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
     color: var(--text);
     display: flex;
     align-items: center;
@@ -1283,7 +1283,7 @@ body.lang-kr .apc-title {
 .word-info { flex: 1; }
 
 .banner-label {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
     text-transform: uppercase;
     font-size: 0.68rem;
     font-weight: 700;
@@ -1294,11 +1294,11 @@ body.lang-kr .apc-title {
 }
 
 .word-title {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 300;
     margin-bottom: 8px;
-    letter-spacing: 6px;
+    letter-spacing: 12px;
 }
 
 .word-pronunciation {
@@ -1376,10 +1376,10 @@ body.lang-kr .apc-title {
 }
 
 .nav-logo {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-weight: 900;
-    font-size: 1.1rem;
-    letter-spacing: 4px;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 6px;
     color: white;
     text-transform: uppercase;
     display: flex;
@@ -1400,11 +1400,11 @@ body.lang-kr .apc-title {
 .nav-links a {
     text-decoration: none;
     color: var(--muted);
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-weight: 500;
-    font-size: 0.68rem;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
     transition: 0.3s;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .nav-links a:hover { color: white; }
@@ -1415,11 +1415,11 @@ body.lang-kr .apc-title {
     border: none;
     padding: 5px 12px;
     border-radius: 6px;
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 0.55rem;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
     cursor: pointer;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 @keyframes pulse {
@@ -1603,10 +1603,10 @@ body.lang-kr .apc-title {
 }
 
 .footer-brand h3 {
-    font-family: 'Orbitron', 'Outfit', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 900;
-    letter-spacing: 6px;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 10px;
     margin-bottom: 8px;
 }
 
@@ -2118,7 +2118,7 @@ header:hover .tagline-sub {
     color: #fff;
     border: none;
     border-radius: var(--radius-sm);
-    font-family: 'Orbitron', 'Outfit', sans-serif;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
     font-size: 0.62rem;
     font-weight: 700;
     letter-spacing: 3px;
