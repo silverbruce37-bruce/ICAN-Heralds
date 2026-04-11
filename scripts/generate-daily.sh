@@ -489,10 +489,59 @@ if [ -f sw.js ]; then
     echo "  Updated sw.js cache: ican-heralds-${DATE}"
 fi
 
-# Cleanup old JSON files (keep 7 daily, 4 weekly, 7 academy)
-ls -t data/daily-*.json 2>/dev/null | tail -n +8 | xargs rm -f 2>/dev/null || true
+# Keep all daily JSON for archive (only clean weekly/academy caches)
 ls -t data/weekly-*.json 2>/dev/null | tail -n +5 | xargs rm -f 2>/dev/null || true
 ls -t data/academy-*.json 2>/dev/null | tail -n +8 | xargs rm -f 2>/dev/null || true
+
+# Update archive index
+python3 -c "
+import json, glob, os
+
+INDEX_FILE = 'data/archive-index.json'
+
+# Load existing index
+index = []
+if os.path.exists(INDEX_FILE):
+    with open(INDEX_FILE) as f:
+        index = json.load(f)
+
+existing_dates = {e['date'] for e in index}
+
+# Scan all daily JSON files
+for path in sorted(glob.glob('data/daily-*.json')):
+    date = path.replace('data/daily-', '').replace('.json', '')
+    if date in existing_dates:
+        continue
+    try:
+        with open(path) as f:
+            d = json.load(f)
+        entry = {
+            'date': date,
+            'vol': int(open('data/volume.txt').read().strip()) if os.path.exists('data/volume.txt') else 1,
+            'cover_en': d.get('cover_story', {}).get('headline_en', ''),
+            'cover_kr': d.get('cover_story', {}).get('headline_kr', ''),
+            'headlines_en': [
+                d.get('featured_news', {}).get('headline_en', '')
+            ] + [n.get('headline_en', '') for n in d.get('news_grid', [])[:4]],
+            'headlines_kr': [
+                d.get('featured_news', {}).get('headline_kr', '')
+            ] + [n.get('headline_kr', '') for n in d.get('news_grid', [])[:4]],
+            'tags': list(set(
+                [d.get('featured_news', {}).get('tag', '')] +
+                [n.get('tag', '') for n in d.get('news_grid', [])]
+            ))
+        }
+        index.append(entry)
+        print(f'  Added to archive: {date}')
+    except Exception as e:
+        print(f'  WARNING: Could not index {path}: {e}')
+
+# Sort newest first and save
+index.sort(key=lambda x: x['date'], reverse=True)
+with open(INDEX_FILE, 'w') as f:
+    json.dump(index, f, ensure_ascii=False, indent=2)
+print(f'  Archive index: {len(index)} editions')
+"
 
 # ─── Step 5: Weekly content refresh check ─────────────
 echo "[5/5] Checking weekly content schedule..."

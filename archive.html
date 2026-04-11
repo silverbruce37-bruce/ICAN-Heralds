@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICAN HERALDS — Archive</title>
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Archive-specific styles */
+        .archive-header {
+            text-align: center;
+            padding: 40px 0 30px;
+            border-bottom: 3px double var(--border-light);
+            margin-bottom: 40px;
+        }
+        .archive-header h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            margin-bottom: 8px;
+        }
+        .archive-header p {
+            color: var(--muted);
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Search Bar */
+        .archive-search {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+        .archive-search-input {
+            flex: 1;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 14px 20px;
+            font-size: 1rem;
+            color: var(--text);
+            font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+            transition: border-color 0.2s;
+        }
+        .archive-search-input::placeholder { color: var(--muted); }
+        .archive-search-input:focus { outline: none; border-color: var(--primary); }
+
+        .archive-filter-btn {
+            padding: 14px 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .archive-filter-btn:hover, .archive-filter-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
+        }
+
+        /* Tag Filters */
+        .archive-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 28px;
+        }
+        .archive-tag {
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--muted);
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .archive-tag:hover { border-color: var(--primary-light); color: var(--primary-light); }
+        .archive-tag.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+        /* Edition Cards */
+        .archive-list { display: flex; flex-direction: column; gap: 16px; }
+
+        .edition-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+        .edition-card:hover {
+            border-color: var(--primary);
+            background: var(--card-bg-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+
+        .edition-date-block {
+            min-width: 80px;
+            text-align: center;
+            padding: 12px;
+            background: rgba(0,71,171,0.1);
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(0,71,171,0.2);
+        }
+        .edition-date-month {
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--primary-light);
+        }
+        .edition-date-day {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 1;
+            margin: 4px 0;
+        }
+        .edition-date-year {
+            font-size: 0.7rem;
+            color: var(--muted);
+        }
+
+        .edition-content { flex: 1; }
+        .edition-vol {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--muted);
+            margin-bottom: 6px;
+        }
+        .edition-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 10px;
+        }
+        body.lang-kr .edition-title {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 1.15rem;
+        }
+        .edition-headlines {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .edition-headline-chip {
+            font-size: 0.72rem;
+            padding: 4px 10px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-secondary);
+        }
+        .edition-tags {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .edition-tag-dot {
+            font-size: 0.65rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .edition-arrow {
+            color: var(--muted);
+            font-size: 20px;
+            padding-top: 20px;
+            transition: transform 0.2s;
+        }
+        .edition-card:hover .edition-arrow { transform: translateX(4px); color: var(--primary-light); }
+
+        /* Empty/No Results */
+        .archive-empty {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--muted);
+        }
+        .archive-empty h3 { font-size: 1.5rem; margin-bottom: 10px; color: var(--text-secondary); }
+        .archive-empty p { font-size: 1rem; }
+
+        /* Stats bar */
+        .archive-stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+        .archive-stats strong { color: var(--text-secondary); }
+
+        /* Back to today */
+        .back-today {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            background: var(--primary);
+            color: #fff;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s;
+            margin-bottom: 32px;
+        }
+        .back-today:hover { background: var(--primary-light); transform: translateY(-1px); }
+
+        @media (max-width: 640px) {
+            .container { padding: 20px 16px; }
+            .archive-header h1 { font-size: 2rem; }
+            .edition-card { flex-direction: column; gap: 14px; }
+            .edition-date-block { min-width: auto; display: flex; gap: 8px; align-items: baseline; padding: 8px 14px; }
+            .edition-date-day { font-size: 1.4rem; margin: 0; }
+            .archive-search { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cosmos-bg" aria-hidden="true">
+        <div class="stars-layer"></div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>ICAN HERALDS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><span class="en-content">TODAY</span><span class="kr-content">오늘의 신문</span></a></li>
+                <li><a href="archive.html" style="color:var(--primary-light);"><span class="en-content">ARCHIVE</span><span class="kr-content">지난 기사</span></a></li>
+            </ul>
+            <button class="toggle-btn" id="langBtn" onclick="toggleLanguage()">English | 한국어</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="archive-header">
+            <h1>
+                <span class="en-content">Archive</span>
+                <span class="kr-content">지난 기사</span>
+            </h1>
+            <p>
+                <span class="en-content">Browse past editions of iCAN Herald</span>
+                <span class="kr-content">iCAN 헤럴드의 지난 호를 둘러보세요</span>
+            </p>
+        </div>
+
+        <a href="index.html" class="back-today">
+            <span>&larr;</span>
+            <span class="en-content">Back to Today's Edition</span>
+            <span class="kr-content">오늘의 신문으로 돌아가기</span>
+        </a>
+
+        <!-- Search -->
+        <div class="archive-search">
+            <input type="text" class="archive-search-input" id="searchInput"
+                   placeholder="Search headlines... / 기사 검색..."
+                   oninput="filterArchive()">
+        </div>
+
+        <!-- Tag Filters -->
+        <div class="archive-tags" id="tagFilters">
+            <button class="archive-tag active" data-tag="all" onclick="filterByTag('all')">
+                <span class="en-content">All</span><span class="kr-content">전체</span>
+            </button>
+        </div>
+
+        <!-- Stats -->
+        <div class="archive-stats" id="archiveStats"></div>
+
+        <!-- Edition List -->
+        <div class="archive-list" id="archiveList">
+            <div class="archive-empty">
+                <h3><span class="en-content">Loading...</span><span class="kr-content">로딩 중...</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>ICAN HERALDS</h3>
+                <p>
+                    <span class="en-content">Where Value Connects to Create Greater Meaning</span>
+                    <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
+                </p>
+            </div>
+            <p class="footer-verse">"모든 것을 사랑으로 하라." — 고린도전서 16:14</p>
+        </div>
+    </footer>
+
+    <script>
+    let isKR = false;
+    let archiveData = [];
+    let activeTag = 'all';
+
+    function toggleLanguage() {
+        isKR = !isKR;
+        document.body.classList.toggle('lang-kr', isKR);
+        document.getElementById('langBtn').innerText = isKR ? '한국어 | English' : 'English | 한국어';
+    }
+
+    const tagColors = {
+        'Security': 'var(--security-red)',
+        'Economy': 'var(--economy-blue)',
+        'Culture': 'var(--culture-purple)',
+        'Diplomacy': 'var(--diplomacy-teal)',
+        'Cooperation': 'var(--diplomacy-teal)',
+        'Safety': 'var(--safety-green)',
+    };
+
+    async function loadArchive() {
+        try {
+            const res = await fetch('data/archive-index.json');
+            archiveData = await res.json();
+            archiveData.sort((a, b) => b.date.localeCompare(a.date));
+            buildTagFilters();
+            renderArchive();
+        } catch (e) {
+            document.getElementById('archiveList').innerHTML = `
+                <div class="archive-empty">
+                    <h3><span class="en-content">No archives yet</span><span class="kr-content">아직 아카이브가 없습니다</span></h3>
+                    <p><span class="en-content">Past editions will appear here as they are published daily.</span>
+                       <span class="kr-content">매일 발행되는 기사가 이곳에 쌓입니다.</span></p>
+                </div>`;
+        }
+    }
+
+    function buildTagFilters() {
+        const allTags = new Set();
+        archiveData.forEach(ed => (ed.tags || []).forEach(t => allTags.add(t)));
+        const container = document.getElementById('tagFilters');
+        allTags.forEach(tag => {
+            const btn = document.createElement('button');
+            btn.className = 'archive-tag';
+            btn.dataset.tag = tag;
+            btn.textContent = tag;
+            btn.onclick = () => filterByTag(tag);
+            btn.style.borderColor = tagColors[tag] || 'var(--border)';
+            container.appendChild(btn);
+        });
+    }
+
+    function filterByTag(tag) {
+        activeTag = tag;
+        document.querySelectorAll('.archive-tag').forEach(b =>
+            b.classList.toggle('active', b.dataset.tag === tag));
+        if (tag !== 'all') {
+            const activeBtn = document.querySelector(`.archive-tag[data-tag="${tag}"]`);
+            if (activeBtn) {
+                activeBtn.style.background = tagColors[tag] || 'var(--primary)';
+                activeBtn.style.borderColor = tagColors[tag] || 'var(--primary)';
+            }
+        }
+        renderArchive();
+    }
+
+    function filterArchive() {
+        renderArchive();
+    }
+
+    function renderArchive() {
+        const query = document.getElementById('searchInput').value.toLowerCase().trim();
+        let filtered = archiveData;
+
+        // Tag filter
+        if (activeTag !== 'all') {
+            filtered = filtered.filter(ed => (ed.tags || []).includes(activeTag));
+        }
+
+        // Search filter
+        if (query) {
+            filtered = filtered.filter(ed => {
+                const allText = [
+                    ed.cover_en, ed.cover_kr,
+                    ...(ed.headlines_en || []),
+                    ...(ed.headlines_kr || []),
+                    ...(ed.tags || []),
+                    ed.date
+                ].join(' ').toLowerCase();
+                return allText.includes(query);
+            });
+        }
+
+        // Stats
+        const statsEl = document.getElementById('archiveStats');
+        const total = archiveData.length;
+        const showing = filtered.length;
+        statsEl.innerHTML = `
+            <span><span class="en-content">Showing <strong>${showing}</strong> of ${total} editions</span>
+                  <span class="kr-content">전체 ${total}호 중 <strong>${showing}</strong>호 표시</span></span>
+            <span><span class="en-content">Published daily since April 2026</span>
+                  <span class="kr-content">2026년 4월부터 매일 발행</span></span>`;
+
+        // Render
+        const list = document.getElementById('archiveList');
+
+        if (filtered.length === 0) {
+            list.innerHTML = `
+                <div class="archive-empty">
+                    <h3><span class="en-content">No results found</span><span class="kr-content">검색 결과 없음</span></h3>
+                    <p><span class="en-content">Try a different keyword or tag.</span>
+                       <span class="kr-content">다른 키워드나 태그를 시도해 보세요.</span></p>
+                </div>`;
+            return;
+        }
+
+        list.innerHTML = filtered.map(ed => {
+            const d = new Date(ed.date + 'T00:00:00');
+            const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+            const month = months[d.getMonth()];
+            const day = d.getDate();
+            const year = d.getFullYear();
+
+            const headlinesEN = (ed.headlines_en || []).slice(0, 4);
+            const headlinesKR = (ed.headlines_kr || []).slice(0, 4);
+
+            const chipsHTML = headlinesEN.map((h, i) => `
+                <span class="edition-headline-chip">
+                    <span class="en-content">${h}</span>
+                    <span class="kr-content">${headlinesKR[i] || h}</span>
+                </span>`).join('');
+
+            const tagsHTML = (ed.tags || []).map(t => {
+                const c = tagColors[t] || 'var(--muted)';
+                return `<span class="edition-tag-dot" style="background:${c}22;color:${c};">${t}</span>`;
+            }).join('');
+
+            return `
+                <div class="edition-card" onclick="openEdition('${ed.date}')">
+                    <div class="edition-date-block">
+                        <div class="edition-date-month">${month}</div>
+                        <div class="edition-date-day">${day}</div>
+                        <div class="edition-date-year">${year}</div>
+                    </div>
+                    <div class="edition-content">
+                        <div class="edition-vol">VOL. ${String(ed.vol || 1).padStart(2, '0')}</div>
+                        <div class="edition-title">
+                            <span class="en-content">${ed.cover_en}</span>
+                            <span class="kr-content">${ed.cover_kr}</span>
+                        </div>
+                        <div class="edition-headlines">${chipsHTML}</div>
+                        <div class="edition-tags">${tagsHTML}</div>
+                    </div>
+                    <div class="edition-arrow">&rarr;</div>
+                </div>`;
+        }).join('');
+    }
+
+    function openEdition(date) {
+        // Load the specific daily edition
+        // For now, if it's today's date, go to index.html
+        // Otherwise, load from data/daily-{date}.json
+        const today = new Date().toISOString().split('T')[0];
+        if (date === today || date === '2026-04-10') {
+            window.location.href = 'index.html';
+        } else {
+            // Future: load past edition dynamically
+            window.location.href = `index.html?date=${date}`;
+        }
+    }
+
+    // Init
+    loadArchive();
+    </script>
+</body>
+</html>

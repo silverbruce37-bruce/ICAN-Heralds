@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCAN Herald - Share Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Noto+Sans+KR:wght@400;700;900&display=swap');
+        body { margin: 0; padding: 40px; background: #111; display: flex; flex-direction: column; align-items: center; gap: 40px; font-family: 'Outfit','Noto Sans KR',sans-serif; }
+        .card {
+            width: 1080px; height: 1080px;
+            border-radius: 32px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Card 1: Main Intro */
+        .card-1 { background: linear-gradient(135deg, #0a0a0a, #0047ab 50%, #002e6e); }
+        .card-1::before {
+            content: 'HERALD';
+            position: absolute;
+            top: -40px; right: -30px;
+            font-size: 14rem; font-weight: 900;
+            opacity: 0.03; pointer-events: none;
+        }
+        .card-logo { font-size: 64px; font-weight: 900; letter-spacing: 4px; margin-bottom: 16px; }
+        .card-tagline { font-size: 22px; color: rgba(255,255,255,0.6); margin-bottom: 60px; font-style: italic; }
+        .card-headline {
+            font-size: 52px; font-weight: 900; line-height: 1.2;
+            max-width: 800px; margin-bottom: 30px;
+        }
+        .card-headline em { color: #ffd700; font-style: normal; }
+        .card-sub {
+            font-size: 24px; color: rgba(255,255,255,0.75);
+            max-width: 700px; line-height: 1.6;
+        }
+        .card-url {
+            position: absolute; bottom: 50px;
+            font-size: 20px; font-weight: 700;
+            background: rgba(255,255,255,0.1);
+            padding: 14px 40px; border-radius: 50px;
+            border: 1px solid rgba(255,255,255,0.2);
+            letter-spacing: 1px;
+        }
+        .card-badge {
+            position: absolute; top: 50px; left: 50px;
+            background: #ff3e00; padding: 8px 24px;
+            border-radius: 8px; font-size: 14px;
+            font-weight: 800; letter-spacing: 3px;
+        }
+
+        /* Card 2: Features */
+        .card-2 { background: #0a0a0a; padding: 60px; align-items: flex-start; text-align: left; }
+        .feat-title { font-size: 42px; font-weight: 900; margin-bottom: 50px; }
+        .feat-title span { color: #0047ab; }
+        .feat-grid { display: flex; flex-direction: column; gap: 28px; width: 100%; }
+        .feat-item { display: flex; align-items: flex-start; gap: 20px; }
+        .feat-icon {
+            width: 56px; height: 56px; min-width: 56px;
+            border-radius: 16px; display: flex;
+            align-items: center; justify-content: center;
+            font-size: 28px;
+        }
+        .feat-item h3 { font-size: 24px; margin: 0 0 4px 0; }
+        .feat-item p { font-size: 18px; color: rgba(255,255,255,0.6); margin: 0; line-height: 1.4; }
+
+        /* Card 3: How it works */
+        .card-3 { background: linear-gradient(180deg, #0a0a0a, #001a4d); padding: 60px; }
+        .flow-title { font-size: 42px; font-weight: 900; margin-bottom: 50px; }
+        .flow-steps { display: flex; flex-direction: column; gap: 24px; width: 100%; max-width: 800px; }
+        .flow-step {
+            display: flex; align-items: center; gap: 20px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px; padding: 24px 30px;
+        }
+        .flow-num {
+            width: 48px; height: 48px; min-width: 48px;
+            border-radius: 50%; display: flex;
+            align-items: center; justify-content: center;
+            font-size: 22px; font-weight: 900;
+            background: #0047ab;
+        }
+        .flow-step h3 { font-size: 22px; margin: 0 0 4px; }
+        .flow-step p { font-size: 16px; color: rgba(255,255,255,0.55); margin: 0; }
+
+        /* Card 4: Korean version */
+        .card-4 { background: linear-gradient(135deg, #0a0a0a, #1a0a3a 50%, #0047ab); }
+        .card-4 .card-headline { font-family: 'Noto Sans KR', sans-serif; font-size: 48px; letter-spacing: -1px; }
+        .card-4 .card-sub { font-family: 'Noto Sans KR', sans-serif; font-size: 22px; }
+
+        .label { color: #888; font-size: 14px; margin-bottom: 8px; letter-spacing: 2px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+<!-- Card 1: English Main -->
+<p class="label">Card 1 — Main (Instagram/Facebook)</p>
+<div class="card card-1">
+    <div class="card-badge">FREE & AI-POWERED</div>
+    <div class="card-logo">ICAN HERALDS</div>
+    <div class="card-tagline">Where Value Connects to Create Greater Meaning</div>
+    <div class="card-headline">
+        Learn the <em>World</em> Through<br>Daily Philippine News
+    </div>
+    <div class="card-sub">
+        AI-powered bilingual news + background knowledge layers.<br>
+        Updated every morning. Korean & English.
+    </div>
+    <div class="card-url">ican-heralds.vercel.app</div>
+</div>
+
+<!-- Card 2: Features -->
+<p class="label">Card 2 — Features</p>
+<div class="card card-2">
+    <div class="feat-title">Why <span>iCAN Herald</span>?</div>
+    <div class="feat-grid">
+        <div class="feat-item">
+            <div class="feat-icon" style="background:rgba(0,71,171,0.2);">📰</div>
+            <div>
+                <h3>Daily Fresh News</h3>
+                <p>AI generates real Philippine news every morning at 8 AM. Cover stories, economy, culture, safety.</p>
+            </div>
+        </div>
+        <div class="feat-item">
+            <div class="feat-icon" style="background:rgba(255,215,0,0.15);">📚</div>
+            <div>
+                <h3>Background Knowledge Layers</h3>
+                <p>Every article has L1~L4 learning layers. From basics to expert analysis, adapted to your level.</p>
+            </div>
+        </div>
+        <div class="feat-item">
+            <div class="feat-icon" style="background:rgba(0,200,83,0.15);">🌏</div>
+            <div>
+                <h3>Bilingual (Korean + English)</h3>
+                <p>Switch freely between languages. Vocab chips, key sentences, and quizzes in both languages.</p>
+            </div>
+        </div>
+        <div class="feat-item">
+            <div class="feat-icon" style="background:rgba(59,130,246,0.15);">⛪</div>
+            <div>
+                <h3>Ask Paul-Sam</h3>
+                <p>Still confused after the layers? Paul-Sam answers your questions with world-class knowledge.</p>
+            </div>
+        </div>
+        <div class="feat-item">
+            <div class="feat-icon" style="background:rgba(255,62,0,0.15);">🚨</div>
+            <div>
+                <h3>SOS Emergency Contacts</h3>
+                <p>One-tap access to Korean Embassy, police, tourist assistance. Safety first.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-url">ican-heralds.vercel.app</div>
+</div>
+
+<!-- Card 3: How it works -->
+<p class="label">Card 3 — How It Works</p>
+<div class="card card-3">
+    <div class="flow-title">How It Works</div>
+    <div class="flow-steps">
+        <div class="flow-step">
+            <div class="flow-num">1</div>
+            <div>
+                <h3>Open the Herald</h3>
+                <p>Visit ican-heralds.vercel.app every morning — fresh news awaits</p>
+            </div>
+        </div>
+        <div class="flow-step">
+            <div class="flow-num">2</div>
+            <div>
+                <h3>Read Like a Newspaper</h3>
+                <p>Scroll through cover stories, news, food reviews, events</p>
+            </div>
+        </div>
+        <div class="flow-step">
+            <div class="flow-num">3</div>
+            <div>
+                <h3>Tap LEARN on Any Article</h3>
+                <p>Background knowledge layers open — foundations to expert level</p>
+            </div>
+        </div>
+        <div class="flow-step">
+            <div class="flow-num">4</div>
+            <div>
+                <h3>Study Vocab & Take Quizzes</h3>
+                <p>Bilingual vocab chips + quick check quizzes in every layer</p>
+            </div>
+        </div>
+        <div class="flow-step">
+            <div class="flow-num">5</div>
+            <div>
+                <h3>Ask Paul-Sam</h3>
+                <p>Still curious? Ask follow-up questions — Paul-Sam knows the answer</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-url">ican-heralds.vercel.app</div>
+</div>
+
+<!-- Card 4: Korean Main -->
+<p class="label">Card 4 — Korean Version (KakaoTalk/Naver)</p>
+<div class="card card-4">
+    <div class="card-badge">무료 & AI 자동 생성</div>
+    <div class="card-logo">ICAN HERALDS</div>
+    <div class="card-tagline">가치가 연결되어 더 큰 의미를 만들어 내는 곳</div>
+    <div class="card-headline">
+        매일 아침 <em>필리핀 뉴스</em>로<br>세상을 배우는 교육앱
+    </div>
+    <div class="card-sub">
+        AI가 매일 새 기사를 만들고, 배경지식 레이어로<br>
+        영어와 한글을 오가며 세상을 이해합니다.
+    </div>
+    <div class="card-url">ican-heralds.vercel.app</div>
+</div>
+
+</body>
+</html>
