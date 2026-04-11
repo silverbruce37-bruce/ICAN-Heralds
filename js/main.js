@@ -109,3 +109,53 @@ function installApp() {
         });
     }
 }
+
+// ── Archive Preview ──
+const archiveTagColors = {
+    'Security': '#ff1744', 'Economy': '#2979ff', 'Culture': '#aa00ff',
+    'Diplomacy': '#00bfa5', 'Cooperation': '#00bfa5', 'Safety': '#00e676',
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.getElementById('archivePreviewGrid');
+    if (!grid) return;
+
+    fetch('data/archive-index.json')
+        .then(r => r.json())
+        .then(data => {
+            data.sort((a, b) => b.date.localeCompare(a.date));
+            const recent = data.slice(0, 6);
+
+            if (recent.length === 0) {
+                grid.innerHTML = '<p style="color:var(--muted);text-align:center;grid-column:1/-1;padding:40px;">Archive will grow as editions are published daily.</p>';
+                return;
+            }
+
+            grid.innerHTML = recent.map(ed => {
+                const d = new Date(ed.date + 'T00:00:00');
+                const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+
+                const tagsHTML = (ed.tags || []).slice(0, 4).map(t => {
+                    const c = archiveTagColors[t] || '#888';
+                    return `<span class="apc-tag" style="background:${c}22;color:${c};">${t}</span>`;
+                }).join('');
+
+                return `
+                    <div class="archive-preview-card" onclick="window.location.href='archive.html'">
+                        <div class="apc-date">
+                            <span class="apc-date-day">${d.getDate()}</span>
+                            <span class="apc-date-rest">${months[d.getMonth()]} ${d.getFullYear()}</span>
+                        </div>
+                        <div class="apc-vol">VOL. ${String(ed.vol || 1).padStart(2, '0')}</div>
+                        <div class="apc-title">
+                            <span class="en-content">${ed.cover_en}</span>
+                            <span class="kr-content">${ed.cover_kr}</span>
+                        </div>
+                        <div class="apc-tags">${tagsHTML}</div>
+                    </div>`;
+            }).join('');
+        })
+        .catch(() => {
+            grid.innerHTML = '<p style="color:var(--muted);text-align:center;grid-column:1/-1;padding:40px;"><span class="en-content">Archive coming soon — editions will appear here daily.</span><span class="kr-content">아카이브 준비 중 — 매일 발행되는 기사가 여기에 쌓입니다.</span></p>';
+        });
+});
