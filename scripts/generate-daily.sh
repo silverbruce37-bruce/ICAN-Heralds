@@ -228,8 +228,15 @@ echo "  Daily content saved to data/daily-${DATE}.json"
 # ─── Step 2: Weekly Content (if needed) ─────────────
 WEEKLY_FILE="data/weekly-${CURRENT_WEEK}.json"
 
+# Force weekly refresh on Mondays
+DAY_OF_WEEK_NUM=$(TZ="Asia/Manila" date +%u)
+if [ "$DAY_OF_WEEK_NUM" = "1" ] && [ -f "data/.weekly-refresh-${CURRENT_WEEK}" ]; then
+    rm -f "$WEEKLY_FILE"
+    echo "  Monday refresh: cleared weekly cache for regeneration"
+fi
+
 if [ ! -f "$WEEKLY_FILE" ]; then
-    echo "[2/4] Generating weekly content (new week: $CURRENT_WEEK)..."
+    echo "[2/5] Generating weekly content (new week: $CURRENT_WEEK)..."
 
     WEEKLY_PROMPT="You are a bilingual food/travel/culture editor for ICAN Heralds.
 Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown fences):
@@ -313,15 +320,163 @@ Focus on Metro Manila (Makati, BGC, Ortigas, Quezon City). Make food reviews atm
         echo "  Weekly content saved to $WEEKLY_FILE"
     fi
 else
-    echo "[2/4] Using existing weekly content: $WEEKLY_FILE"
+    echo "[2/5] Using existing weekly content: $WEEKLY_FILE"
+fi
+
+# ─── Step 2.5: Academy Knowledge Layers ───────────────
+echo "[2.5/5] Generating ICAN Academy knowledge layers..."
+
+ACADEMY_PROMPT="You are an educational content designer for ICAN Academy, part of ICAN Heralds.
+Given today's news articles, generate background knowledge layers for bilingual (Korean/English) learners.
+
+Today's articles (from daily JSON):
+$(cat "data/daily-${DATE}.json" | python3 -c "
+import sys, json
+d = json.load(sys.stdin)
+# Cover story
+print(f\"COVER: {d['cover_story']['headline_en']}\")
+print(f\"  {d['cover_story']['subtitle_en']}\")
+# Featured
+print(f\"FEATURED: {d['featured_news']['headline_en']}\")
+# News grid
+for i, n in enumerate(d['news_grid'], 1):
+    print(f\"NEWS_{i}: [{n['tag']}] {n['headline_en']}\")
+    print(f\"  {n['summary_en']}\")
+")
+
+For EACH article (cover, featured, news_1 through news_4), generate knowledge layers.
+Return ONLY valid JSON (no markdown fences):
+
+{
+  \"cover\": {
+    \"layers\": [
+      {
+        \"depth\": 1,
+        \"title_en\": \"Foundation concept title\",
+        \"title_kr\": \"기초 개념 제목\",
+        \"sub_en\": \"Foundation\", \"sub_kr\": \"기초 개념\", \"badge\": \"Beginner\",
+        \"text_en\": \"Explanation with <span class=kw>key terms</span> highlighted. 3-5 sentences, clear and educational.\",
+        \"text_kr\": \"<span class=kw>핵심 용어</span>가 강조된 설명. 3-5문장, 명확하고 교육적.\",
+        \"bilingual_en\": \"One key sentence in English\",
+        \"bilingual_kr\": \"핵심 문장 한국어\",
+        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
+      },
+      {
+        \"depth\": 2,
+        \"title_en\": \"Context & Causes\",
+        \"title_kr\": \"맥락과 원인\",
+        \"sub_en\": \"Context\", \"sub_kr\": \"맥락\", \"badge\": \"Intermediate\",
+        \"text_en\": \"Deeper context...\",
+        \"text_kr\": \"더 깊은 맥락...\",
+        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
+        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}],
+        \"quiz\": {
+          \"q_en\": \"Question?\", \"q_kr\": \"질문?\",
+          \"opts\": [
+            {\"en\": \"Wrong answer\", \"kr\": \"오답\", \"correct\": false},
+            {\"en\": \"Right answer\", \"kr\": \"정답\", \"correct\": true},
+            {\"en\": \"Wrong answer\", \"kr\": \"오답\", \"correct\": false}
+          ]
+        }
+      },
+      {
+        \"depth\": 3,
+        \"title_en\": \"Real-world Impact for Korean Community\",
+        \"title_kr\": \"한인 커뮤니티에 대한 실제 영향\",
+        \"sub_en\": \"Application\", \"sub_kr\": \"실생활 적용\", \"badge\": \"Advanced\",
+        \"text_en\": \"Practical implications...\",
+        \"text_kr\": \"실질적 시사점...\",
+        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
+        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
+      }
+    ],
+    \"suggestions_en\": [\"Question 1?\", \"Question 2?\", \"Question 3?\"],
+    \"suggestions_kr\": [\"질문 1?\", \"질문 2?\", \"질문 3?\"]
+  },
+  \"featured\": { ... same structure ... },
+  \"news_1\": { ... }, \"news_2\": { ... }, \"news_3\": { ... }, \"news_4\": { ... }
+}
+
+RULES:
+- Each article MUST have 2-3 layers (depth 1-3)
+- Layer 1 = Foundation (explain the basic concept simply, for a teenager)
+- Layer 2 = Context (why it matters, causes, add a quiz with 3 options)
+- Layer 3 = Real-world impact (specifically for Koreans in the Philippines)
+- Use <span class=kw>keyword</span> to highlight 2-4 key terms per layer
+- Each layer needs 3-5 vocab words with EN/KR pairs
+- Bilingual sentences should be standalone — make sense without the layer text
+- suggestions = 3 follow-up questions students might ask Paul-Sam
+- Write at a level a smart 14-year-old can understand
+- Make Korean text natural (not machine-translated)
+- Return ONLY valid JSON"
+
+ACADEMY_JSON=$(call_gemini "$ACADEMY_PROMPT" 12000) || {
+    echo "  WARNING: Failed to generate academy content"
+}
+
+if [ -n "${ACADEMY_JSON:-}" ]; then
+    echo "$ACADEMY_JSON" > "data/academy-${DATE}.json"
+    echo "  Academy content saved to data/academy-${DATE}.json"
+
+    # Inject academy data into JS
+    python3 -c "
+import json
+
+with open('data/academy-${DATE}.json') as f:
+    academy = json.load(f)
+
+with open('data/daily-${DATE}.json') as f:
+    daily = json.load(f)
+
+# Build the JS academy data object
+js_data = {}
+article_map = {
+    'cover': ('cover_story', daily['cover_story']),
+    'featured': ('featured_news', daily['featured_news']),
+}
+for i in range(1, 5):
+    key = f'news_{i}'
+    if i-1 < len(daily.get('news_grid', [])):
+        article_map[key] = ('news_grid', daily['news_grid'][i-1])
+
+for key, (src_key, article) in article_map.items():
+    if key not in academy:
+        continue
+    entry = academy[key]
+    js_entry = {
+        'tag': article.get('tag', 'News'),
+        'tagClass': article.get('tag_class', 'tag-economy'),
+        'title_en': article.get('headline_en', ''),
+        'title_kr': article.get('headline_kr', ''),
+        'summary_en': article.get('subtitle_en', article.get('summary_en', article.get('lead_en', ''))),
+        'summary_kr': article.get('subtitle_kr', article.get('summary_kr', article.get('lead_kr', ''))),
+        'layers': entry.get('layers', []),
+    }
+    js_data[key] = js_entry
+
+# Write as JS module
+js_content = '// Auto-generated by generate-daily.sh — ' + '${DATE}' + '\n'
+js_content += 'const academyData = ' + json.dumps(js_data, ensure_ascii=False, indent=2) + ';\n'
+js_content += 'const paulSuggestions = {};\n'
+for key in js_data:
+    if key in academy and 'suggestions_en' in academy[key]:
+        js_content += f'paulSuggestions[\"{key}\"] = {{ en: {json.dumps(academy[key][\"suggestions_en\"])}, kr: {json.dumps(academy[key][\"suggestions_kr\"], ensure_ascii=False)} }};\n'
+
+with open('js/academy-data.js', 'w') as f:
+    f.write(js_content)
+
+print('  Generated js/academy-data.js')
+"
+else
+    echo "  Using existing academy data (hardcoded fallback)"
 fi
 
 # ─── Step 3: Inject Content ─────────────────────────
-echo "[3/4] Injecting content into HTML..."
+echo "[3/5] Injecting content into HTML..."
 python3 scripts/inject-content.py
 
 # ─── Step 4: Post-processing ────────────────────────
-echo "[4/4] Post-processing..."
+echo "[4/5] Post-processing..."
 
 # Copy to index.html
 cp ican_news.html index.html
@@ -334,9 +489,21 @@ if [ -f sw.js ]; then
     echo "  Updated sw.js cache: ican-heralds-${DATE}"
 fi
 
-# Cleanup old JSON files (keep 7 daily, 4 weekly)
+# Cleanup old JSON files (keep 7 daily, 4 weekly, 7 academy)
 ls -t data/daily-*.json 2>/dev/null | tail -n +8 | xargs rm -f 2>/dev/null || true
 ls -t data/weekly-*.json 2>/dev/null | tail -n +5 | xargs rm -f 2>/dev/null || true
+ls -t data/academy-*.json 2>/dev/null | tail -n +8 | xargs rm -f 2>/dev/null || true
+
+# ─── Step 5: Weekly content refresh check ─────────────
+echo "[5/5] Checking weekly content schedule..."
+DAY_NUM=$(TZ="Asia/Manila" date +%u)  # 1=Monday
+if [ "$DAY_NUM" = "1" ]; then
+    echo "  Monday detected — forcing weekly content regeneration"
+    rm -f "$WEEKLY_FILE"
+    # Re-run weekly generation would happen on next execution
+    # For now, just flag it
+    echo "REFRESH" > "data/.weekly-refresh-${CURRENT_WEEK}"
+fi
 
 echo ""
 echo "=== Done! Edition: $DATE | $VOLUME_DISPLAY ==="

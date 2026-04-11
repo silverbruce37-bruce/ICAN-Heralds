@@ -202,6 +202,7 @@
                     <span class="en-content"><!--SLOT:cover_read_time_en-->5 min read<!--/SLOT:cover_read_time_en--></span>
                     <span class="kr-content"><!--SLOT:cover_read_time_kr-->5분 읽기<!--/SLOT:cover_read_time_kr--></span>
                 </span>
+                <button class="learn-btn" onclick="openAcademy('cover')" style="margin-left:12px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
             </div>
 
             <div class="content-columns">
@@ -254,6 +255,7 @@
                         </span>
                         <span class="meta-divider">·</span>
                         <span class="meta-date"><!--SLOT:featured_date-->2026.04.10<!--/SLOT:featured_date--></span>
+                        <button class="learn-btn" onclick="openAcademy('featured')" style="margin-left:8px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
             </div>
@@ -276,6 +278,7 @@
                             <span class="en-content"><!--SLOT:news_1_read_time_en-->2 min read<!--/SLOT:news_1_read_time_en--></span>
                             <span class="kr-content"><!--SLOT:news_1_read_time_kr-->2분 읽기<!--/SLOT:news_1_read_time_kr--></span>
                         </span>
+                        <button class="learn-btn" onclick="openAcademy('news_1')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
 
@@ -295,6 +298,7 @@
                             <span class="en-content"><!--SLOT:news_2_read_time_en-->2 min read<!--/SLOT:news_2_read_time_en--></span>
                             <span class="kr-content"><!--SLOT:news_2_read_time_kr-->2분 읽기<!--/SLOT:news_2_read_time_kr--></span>
                         </span>
+                        <button class="learn-btn" onclick="openAcademy('news_2')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
 
@@ -314,6 +318,7 @@
                             <span class="en-content"><!--SLOT:news_3_read_time_en-->3 min read<!--/SLOT:news_3_read_time_en--></span>
                             <span class="kr-content"><!--SLOT:news_3_read_time_kr-->3분 읽기<!--/SLOT:news_3_read_time_kr--></span>
                         </span>
+                        <button class="learn-btn" onclick="openAcademy('news_3')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
 
@@ -333,6 +338,7 @@
                             <span class="en-content"><!--SLOT:news_4_read_time_en-->2 min read<!--/SLOT:news_4_read_time_en--></span>
                             <span class="kr-content"><!--SLOT:news_4_read_time_kr-->2분 읽기<!--/SLOT:news_4_read_time_kr--></span>
                         </span>
+                        <button class="learn-btn" onclick="openAcademy('news_4')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
             </div>
@@ -880,6 +886,28 @@
         </div>
     </div>
 
+    <!-- Academy Learning Overlay -->
+    <div id="academyOverlay" class="academy-overlay">
+        <div class="academy-panel">
+            <div class="academy-topbar">
+                <div class="academy-topbar-left">
+                    <button class="academy-back-btn" onclick="closeAcademy()">&larr;</button>
+                    <span class="academy-brand">ICAN Academy</span>
+                </div>
+                <div class="academy-topbar-right">
+                    <div class="academy-level-selector">
+                        <span class="academy-level-label">Level</span>
+                        <button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button>
+                        <button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button>
+                        <button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button>
+                    </div>
+                </div>
+            </div>
+            <div id="academyContent"></div>
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
+    <script src="js/academy.js"></script>
 </body>
 </html>

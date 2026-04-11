@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "ICAN Heralds Bot"
           git config user.email "heralds@ican.academy"
-          git add ican_news.html index.html sw.js data/
+          git add ican_news.html index.html sw.js data/ js/academy-data.js
           git diff --staged --quiet || (
             git commit -m "Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d)"
             git push
