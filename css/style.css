@@ -1413,13 +1413,13 @@ body.lang-kr .apc-title {
     background: var(--accent);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: var(--radius-sm);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-family: 'Orbitron', 'Outfit', sans-serif;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 0.55rem;
     cursor: pointer;
-    animation: pulse 2s infinite;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 @keyframes pulse {
