@@ -6,6 +6,7 @@ using <!--SLOT:name-->...<!--/SLOT:name--> markers.
 """
 
 import json
+import re
 import sys
 import os
 import glob
@@ -263,6 +264,10 @@ def main():
     # Inject
     html = inject_daily(html, daily_data)
     html = inject_weekly(html, weekly_data)
+
+    # Strip all remaining SLOT markers (critical for src/href attributes)
+    html = re.sub(r'<!--SLOT:[^>]+-->', '', html)
+    html = re.sub(r'<!--/SLOT:[^>]+-->', '', html)
 
     # Write
     with open(HTML_FILE, "w", encoding="utf-8") as f:
