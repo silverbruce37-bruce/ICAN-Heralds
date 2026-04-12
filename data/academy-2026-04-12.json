@@ -3,280 +3,469 @@
     "layers": [
       {
         "depth": 1,
-        "title_en": "What Is a Growth Forecast?",
-        "title_kr": "경제 성장률 전망이란?",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "A <span class=kw>growth forecast</span> is a prediction about how much a country's economy will grow. Organizations like the <span class=kw>World Bank</span> study data on jobs, spending, and trade to estimate this number. When they say growth is 3.7%, it means the total value of everything produced in the Philippines is expected to grow by 3.7% this year. A <span class=kw>downgrade</span> means they changed their prediction to a lower number.",
-        "text_kr": "<span class=kw>성장률 전망</span>이란 한 나라의 경제가 얼마나 성장할지 예측하는 것입니다. <span class=kw>세계은행</span> 같은 기관은 고용, 소비, 무역 데이터를 분석해 이 수치를 추정합니다. 3.7% 성장이라 함은 필리핀에서 생산되는 모든 것의 총 가치가 올해 3.7% 증가할 것이란 뜻입니다. <span class=kw>하향 조정</span>은 예측치를 낮췄다는 의미입니다.",
-        "bilingual_en": "A growth forecast tells us how fast an economy is expected to expand this year.",
-        "bilingual_kr": "성장률 전망은 올해 경제가 얼마나 빠르게 확장될지를 알려줍니다.",
+        "title_en": "What is a Community Safety Initiative?",
+        "title_kr": "커뮤니티 안전 이니셔티브란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>community safety initiative</span> is a program that helps people in a group stay safe and prepared for emergencies. The Korean Foundation launched this program in Metro Manila to support Korean residents and visitors. It includes <span class=kw>emergency preparedness</span> training, safety information, and community networks so people know what to do when crises happen—like earthquakes, typhoons, or other natural disasters.",
+        "text_kr": "<span class=kw>커뮤니티 안전 이니셔티브</span>는 특정 그룹의 사람들이 안전하고 긴급 상황에 대비할 수 있도록 돕는 프로그램입니다. 한국재단은 메트로 마닐라의 한인 주민과 방문객을 지원하기 위해 이 프로그램을 시작했습니다. <span class=kw>긴급 대비</span> 교육, 안전 정보, 그리고 지진, 태풍 같은 재난이 발생했을 때 무엇을 해야 하는지 알 수 있는 커뮤니티 네트워크가 포함됩니다.",
+        "bilingual_en": "A community safety initiative helps people prepare for and handle emergencies together.",
+        "bilingual_kr": "커뮤니티 안전 이니셔티브는 사람들이 긴급 상황에 함께 대비하고 대응할 수 있도록 돕습니다.",
         "vocab": [
-          {"en": "growth forecast", "kr": "성장률 전망"},
-          {"en": "World Bank", "kr": "세계은행"},
-          {"en": "downgrade", "kr": "하향 조정"},
-          {"en": "GDP", "kr": "국내총생산"}
+          {"en": "initiative", "kr": "이니셔티브, 계획"},
+          {"en": "emergency preparedness", "kr": "긴급 대비"},
+          {"en": "resilience", "kr": "회복력"},
+          {"en": "community", "kr": "커뮤니티, 공동체"}
         ]
       },
       {
         "depth": 2,
-        "title_en": "Why Did the Forecast Drop So Much?",
-        "title_kr": "왜 전망이 이렇게 크게 떨어졌나?",
-        "sub_en": "Context", "sub_kr": "맥락", "badge": "Intermediate",
-        "text_en": "The Middle East produces a huge portion of the world's oil and gas. When conflicts disrupt this region, <span class=kw>energy prices</span> spike globally. The Philippines imports most of its energy, so higher oil prices mean higher costs for electricity, transportation, and manufacturing. This is called an <span class=kw>energy shock</span>. Combined with <span class=kw>inflation</span> hitting 4.1% (meaning everyday goods cost 4.1% more than last year), consumer spending slows down, and the whole economy feels the squeeze.",
-        "text_kr": "중동은 세계 석유와 가스의 상당 부분을 생산합니다. 이 지역에 분쟁이 발생하면 전 세계 <span class=kw>에너지 가격</span>이 급등합니다. 필리핀은 에너지 대부분을 수입하므로 유가 상승은 전기, 교통, 제조 비용 상승을 의미합니다. 이를 <span class=kw>에너지 쇼크</span>라고 합니다. <span class=kw>인플레이션</span>이 4.1%(일상 물가가 작년보다 4.1% 상승)에 달하면서 소비가 둔화되고 경제 전체가 압박을 받습니다.",
-        "bilingual_en": "An energy shock happens when sudden disruptions in oil-producing regions cause prices to spike worldwide.",
-        "bilingual_kr": "에너지 쇼크란 산유국 지역의 갑작스러운 혼란이 전 세계적으로 가격 급등을 초래하는 것입니다.",
+        "title_en": "Why Does the Korean Community Need This?",
+        "title_kr": "한인 커뮤니티가 왜 이것이 필요한가?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The Korean community in the Philippines is large and growing, with families, students, and professionals living throughout different areas. <span class=kw>Metro Manila</span>, where most Koreans live, faces risks from natural disasters like earthquakes and typhoons. Koreans might not always understand local emergency procedures or know how to access local support systems. By creating this initiative, the Foundation helps Korean residents <span class=kw>build resilience</span> and connect with each other during tough times.",
+        "text_kr": "필리핀의 한인 커뮤니티는 점점 커지고 있으며, 가족, 학생, 전문가들이 여러 지역에 살고 있습니다. 대부분의 한인이 사는 <span class=kw>메트로 마닐라</span>는 지진과 태풍 같은 자연재해의 위험에 노출되어 있습니다. 한국인들이 지역 긴급 절차를 항상 이해하거나 지역 지원 시스템에 접근하는 방법을 알지 못할 수도 있습니다. 이 이니셔티브를 만들어 재단은 한인 주민들이 <span class=kw>회복력을 키우고</span> 어려운 시간에 서로 연결되도록 돕습니다.",
+        "bilingual_en": "The program helps Korean residents prepare for common emergencies in the Philippines and build supportive community networks.",
+        "bilingual_kr": "이 프로그램은 한인 주민들이 필리핀의 흔한 긴급 상황에 대비하고 지원 커뮤니티 네트워크를 구축할 수 있도록 도와줍니다.",
         "vocab": [
-          {"en": "energy shock", "kr": "에너지 쇼크"},
-          {"en": "inflation", "kr": "인플레이션/물가상승"},
-          {"en": "import dependency", "kr": "수입 의존도"},
-          {"en": "consumer spending", "kr": "소비 지출"}
+          {"en": "Metro Manila", "kr": "메트로 마닐라"},
+          {"en": "natural disaster", "kr": "자연재해"},
+          {"en": "emergency procedure", "kr": "긴급 절차"},
+          {"en": "resilience", "kr": "회복력"},
+          {"en": "support system", "kr": "지원 시스템"}
         ],
         "quiz": {
-          "q_en": "Why is the Philippines especially vulnerable to Middle East energy disruptions?",
-          "q_kr": "필리핀이 중동 에너지 혼란에 특히 취약한 이유는?",
+          "q_en": "Why did the Korean Foundation create this safety initiative?",
+          "q_kr": "한국재단이 왜 이 안전 이니셔티브를 만들었나요?",
           "opts": [
-            {"en": "It exports oil to the Middle East", "kr": "중동에 석유를 수출해서", "correct": false},
-            {"en": "It imports most of its energy", "kr": "에너지 대부분을 수입해서", "correct": true},
-            {"en": "It has no renewable energy", "kr": "재생에너지가 전혀 없어서", "correct": false}
+            {"en": "To teach Korean language to Filipinos", "kr": "필리핀인들에게 한국어를 가르치기 위해", "correct": false},
+            {"en": "To help Korean residents prepare for emergencies and build community connections", "kr": "한인 주민들이 긴급 상황에 대비하고 커뮤니티 연결을 강화하도록 돕기 위해", "correct": true},
+            {"en": "To promote Korean restaurants in Metro Manila", "kr": "메트로 마닐라의 한식당을 홍보하기 위해", "correct": false}
           ]
         }
       },
       {
         "depth": 3,
-        "title_en": "What This Means for Koreans in the Philippines",
-        "title_kr": "필리핀 거주 한국인에게 의미하는 것",
-        "sub_en": "Application", "sub_kr": "실생활 적용", "badge": "Advanced",
-        "text_en": "For the Korean community, this economic squeeze hits in multiple ways. <span class=kw>Import costs</span> for Korean products (food, electronics, cosmetics) rise as the peso weakens. Business owners face higher utility bills and supply chain costs. However, those earning in Korean won or US dollars may actually benefit from <span class=kw>favorable exchange rates</span> when converting to pesos. The key strategy is understanding your <span class=kw>currency exposure</span> and adjusting procurement timing accordingly.",
-        "text_kr": "한인 사회에게 이 경제 압박은 다방면으로 영향을 줍니다. 페소 약세로 한국 제품(식품, 전자제품, 화장품)의 <span class=kw>수입 비용</span>이 상승합니다. 사업주들은 공과금과 공급망 비용 증가에 직면합니다. 다만 원화나 달러로 수입이 있는 분들은 페소 환전 시 오히려 <span class=kw>유리한 환율</span>의 혜택을 볼 수 있습니다. 핵심 전략은 자신의 <span class=kw>환율 노출</span>을 이해하고 조달 시기를 조정하는 것입니다.",
-        "bilingual_en": "Understanding your currency exposure helps you decide when to convert money or purchase imported goods.",
-        "bilingual_kr": "환율 노출을 이해하면 언제 환전하거나 수입품을 구매할지 결정하는 데 도움이 됩니다.",
+        "title_en": "How Does This Help Korean Families and Businesses?",
+        "title_kr": "이것이 한인 가정과 사업에 어떻게 도움이 되나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korean families living in the Philippines, this initiative means having clear guidance on what to do during typhoons, earthquakes, or crises. <span class=kw>Business owners</span> can get information on protecting their <span class=kw>assets</span> and employees. The program creates a network where Koreans help each other—bilingual members assist with translation, share safety announcements, and provide emotional support. This reduces <span class=kw>vulnerability</span> and helps Koreans participate equally in Philippine society.",
+        "text_kr": "필리핀에 사는 한인 가족들에게는 태풍, 지진, 위기 상황에서 무엇을 해야 하는지 명확한 지침을 갖는다는 의미입니다. <span class=kw>사업가</span>들은 자신의 <span class=kw>자산</span>과 직원을 보호하는 방법에 대한 정보를 얻을 수 있습니다. 이 프로그램은 한인들이 서로 도울 수 있는 네트워크를 만드는데, 한국어와 영어를 할 수 있는 사람들이 번역을 도와주고, 안전 정보를 공유하며, 정서적 지원을 제공합니다.",
+        "bilingual_en": "The program creates networks where Korean families support each other during emergencies, making communities safer.",
+        "bilingual_kr": "이 프로그램은 긴급 상황에서 한인 가족들이 서로 지원할 수 있는 네트워크를 만들어 커뮤니티를 더 안전하게 합니다.",
         "vocab": [
-          {"en": "import costs", "kr": "수입 비용"},
-          {"en": "favorable exchange rate", "kr": "유리한 환율"},
-          {"en": "currency exposure", "kr": "환율 노출"},
-          {"en": "procurement", "kr": "조달"}
+          {"en": "business owner", "kr": "사업가"},
+          {"en": "assets", "kr": "자산"},
+          {"en": "vulnerability", "kr": "취약성"},
+          {"en": "guidance", "kr": "지침"}
         ]
       }
     ],
-    "suggestions_en": ["How can I protect my business from peso weakness?", "Should I convert my won to pesos now or wait?", "What is the World Bank's forecast for next year?"],
-    "suggestions_kr": ["페소 약세로부터 사업을 어떻게 보호할 수 있나요?", "원화를 페소로 지금 바꾸는 게 좋을까요, 기다릴까요?", "세계은행의 내년 전망은 어떤가요?"]
+    "suggestions_en": [
+      "What types of emergencies does the program prepare people for?",
+      "How can Korean families join this community safety program?",
+      "How does this initiative help Korean businesses protect their employees?"
+    ],
+    "suggestions_kr": [
+      "이 프로그램은 어떤 종류의 긴급 상황에 대비하도록 준비시키나요?",
+      "한인 가족들은 어떻게 이 커뮤니티 안전 프로그램에 참여할 수 있나요?",
+      "이 이니셔티브가 한인 사업가들이 직원들을 보호하는 데 어떻게 도움이 되나요?"
+    ]
   },
   "featured": {
     "layers": [
       {
         "depth": 1,
-        "title_en": "What Is Infrastructure Cooperation?",
-        "title_kr": "인프라 협력이란?",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "<span class=kw>Infrastructure</span> means the basic systems a country needs to function — roads, bridges, power plants, and water systems. When two countries agree to build these together, it's called <span class=kw>bilateral infrastructure cooperation</span>. Korea has advanced construction technology, and the Philippines needs more infrastructure, making this a natural partnership.",
-        "text_kr": "<span class=kw>인프라</span>란 도로, 교량, 발전소, 상수도 등 나라가 기능하는 데 필요한 기본 시스템입니다. 두 나라가 함께 이를 건설하기로 합의하면 <span class=kw>양자 인프라 협력</span>이라 합니다. 한국은 첨단 건설 기술을 보유하고 필리핀은 더 많은 인프라가 필요하므로 자연스러운 파트너십입니다.",
-        "bilingual_en": "Infrastructure cooperation means two countries working together to build essential public facilities.",
-        "bilingual_kr": "인프라 협력이란 두 나라가 함께 필수 공공시설을 건설하는 것을 의미합니다.",
+        "title_en": "What is a Trade Summit?",
+        "title_kr": "무역 정상회담이란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>trade summit</span> is a meeting where leaders from different countries discuss how to do business together and strengthen their <span class=kw>economies</span>. <span class=kw>ASEAN</span> is a group of Southeast Asian countries working together. At the Korea-Philippines summit, government leaders and business experts talk about buying and selling goods, creating jobs, and sharing technology. When countries <span class=kw>strengthen partnerships</span>, businesses grow and more people find jobs—everyone benefits.",
+        "text_kr": "<span class=kw>무역 정상회담</span>은 여러 나라의 지도자들이 함께 사업하는 방법을 논의하고 그들의 <span class=kw>경제</span>를 강하게 만드는 회의입니다. <span class=kw>아세안</span>은 함께 활동하는 동남아시아 국가들의 그룹입니다. 한국-필리핀 정상회담에서는 정부 지도자와 사업 전문가들이 상품 거래, 일자리 창출, 기술 공유를 논의합니다. 국가들이 <span class=kw>파트너십을 강화</span>하면 사업이 성장하고 더 많은 사람들이 일자리를 찾게 되어 모두가 혜택을 받습니다.",
+        "bilingual_en": "Trade summits bring countries together to increase business and create more jobs for workers.",
+        "bilingual_kr": "무역 정상회담은 국가들을 함께 모아 사업을 증가시키고 노동자들을 위한 더 많은 일자리를 만듭니다.",
         "vocab": [
-          {"en": "infrastructure", "kr": "인프라/기반시설"},
-          {"en": "bilateral", "kr": "양자/양국 간"},
-          {"en": "DPWH", "kr": "필리핀 공공사업부"},
-          {"en": "nuclear energy", "kr": "원자력 에너지"}
+          {"en": "trade summit", "kr": "무역 정상회담"},
+          {"en": "economy", "kr": "경제"},
+          {"en": "ASEAN", "kr": "아세안"},
+          {"en": "partnership", "kr": "파트너십"}
         ]
       },
       {
         "depth": 2,
-        "title_en": "The Summit Agreements in Detail",
-        "title_kr": "정상회담 합의 내용",
-        "sub_en": "Context", "sub_kr": "맥락", "badge": "Intermediate",
-        "text_en": "During President Lee Jae Myung's recent state visit, Korea and the Philippines signed agreements covering three strategic areas: <span class=kw>bridge construction</span> (Korean firms will help build major bridges), <span class=kw>nuclear energy</span> partnerships (Korea's advanced reactor technology for Philippine power needs), and <span class=kw>critical minerals</span> cooperation (the Philippines has nickel and copper that Korea needs for electronics and batteries).",
-        "text_kr": "이재명 대통령의 최근 국빈 방문에서 한국과 필리핀은 세 가지 전략 분야에서 협정을 체결했습니다: <span class=kw>교량 건설</span>(한국 기업이 주요 교량 건설 지원), <span class=kw>원자력 에너지</span> 파트너십(필리핀 전력 수요를 위한 한국의 첨단 원자로 기술), <span class=kw>핵심 광물</span> 협력(한국이 전자제품과 배터리에 필요한 니켈, 구리를 필리핀이 보유).",
-        "bilingual_en": "The summit produced agreements in bridge construction, nuclear energy, and critical minerals cooperation.",
-        "bilingual_kr": "정상회담에서 교량 건설, 원자력 에너지, 핵심 광물 협력에 관한 합의가 이루어졌습니다.",
+        "title_en": "Why is Korea-Philippines Trade Important?",
+        "title_kr": "한국-필리핀 무역이 왜 중요한가?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Korea is known for advanced <span class=kw>technology</span> and manufacturing, while the Philippines has a large workforce and growing consumer market. When they strengthen their <span class=kw>economic partnership</span>, Korean companies can sell more products to 110+ million Philippine consumers, and Filipino workers gain opportunities to learn new skills. The ASEAN Trade Summit formalizes these agreements and shows both countries are committed to economic growth.",
+        "text_kr": "한국은 첨단 <span class=kw>기술</span>과 제조로 알려져 있고, 필리핀은 큰 노동력과 증가하는 소비자 시장을 가지고 있습니다. <span class=kw>경제 파트너십</span>을 강화하면 한국 기업은 1억 1천만 명 이상의 필리핀 소비자에게 더 많은 제품을 판매할 수 있고, 필리핀 노동자들은 새로운 기술을 배우는 기회를 얻습니다. 아세안 무역 정상회담은 이러한 협정을 공식화하고 두 나라가 경제 성장에 헌신하고 있음을 보여줍니다.",
+        "bilingual_en": "Korea's technology and Philippines' workforce create a powerful partnership for business success.",
+        "bilingual_kr": "한국의 기술과 필리핀의 노동력은 사업 성공을 위한 강력한 파트너십을 만듭니다.",
         "vocab": [
-          {"en": "state visit", "kr": "국빈 방문"},
-          {"en": "critical minerals", "kr": "핵심 광물"},
-          {"en": "reactor technology", "kr": "원자로 기술"},
-          {"en": "strategic partnership", "kr": "전략적 파트너십"}
+          {"en": "technology", "kr": "기술"},
+          {"en": "economic partnership", "kr": "경제 파트너십"},
+          {"en": "workforce", "kr": "노동력"},
+          {"en": "manufacturing", "kr": "제조업"},
+          {"en": "stability", "kr": "안정성"}
         ],
         "quiz": {
-          "q_en": "Which critical minerals does the Philippines have that Korea needs?",
-          "q_kr": "한국이 필요로 하는 필리핀의 핵심 광물은?",
+          "q_en": "What does Korea contribute to the economic partnership with the Philippines?",
+          "q_kr": "한국이 필리핀과의 경제 파트너십에 무엇을 기여하나요?",
           "opts": [
-            {"en": "Gold and silver", "kr": "금과 은", "correct": false},
-            {"en": "Nickel and copper", "kr": "니켈과 구리", "correct": true},
-            {"en": "Iron and coal", "kr": "철과 석탄", "correct": false}
+            {"en": "Agriculture and farming expertise", "kr": "농업과 농사 전문성", "correct": false},
+            {"en": "Advanced technology and manufacturing expertise", "kr": "첨단 기술과 제조 전문성", "correct": true},
+            {"en": "Tourism and entertainment only", "kr": "관광과 엔터테인먼트만", "correct": false}
           ]
         }
       },
       {
         "depth": 3,
-        "title_en": "Job Opportunities for the Korean Community",
-        "title_kr": "한인 사회를 위한 일자리 기회",
-        "sub_en": "Application", "sub_kr": "실생활 적용", "badge": "Advanced",
-        "text_en": "These infrastructure projects create opportunities for Korean professionals in the Philippines — engineers, project managers, translators, and logistics specialists. Korean construction firms expanding here will need <span class=kw>bilingual staff</span> who understand both cultures. For Korean students studying in the Philippines, this represents future career paths in <span class=kw>international development</span>.",
-        "text_kr": "이러한 인프라 프로젝트는 필리핀 내 한국인 전문가들 — 엔지니어, 프로젝트 매니저, 통역사, 물류 전문가 — 에게 기회를 만듭니다. 진출하는 한국 건설사들은 양국 문화를 이해하는 <span class=kw>이중언어 인력</span>이 필요합니다. 필리핀에서 공부하는 한국 학생들에게는 <span class=kw>국제개발</span> 분야의 미래 커리어 경로가 됩니다.",
-        "bilingual_en": "Bilingual professionals who understand both Korean and Filipino cultures will be in high demand.",
-        "bilingual_kr": "한국과 필리핀 양국 문화를 이해하는 이중언어 전문가에 대한 수요가 높아질 것입니다.",
+        "title_en": "How Does This Benefit Korean Companies and Workers?",
+        "title_kr": "이것이 한국 기업과 노동자들에게 어떻게 도움이 되나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korean companies, stronger trade agreements mean easier access to over 110 million Philippine consumers. Tech companies and manufacturers can expand operations, hire more workers, and increase profits. For Korean workers, this creates <span class=kw>export opportunities</span> and job security. Koreans working in the Philippines benefit from improved <span class=kw>diplomatic relations</span> which make life and work more stable.",
+        "text_kr": "한국 기업에게는 더 강한 무역 협정이 1억 1천만 명 이상의 필리핀 소비자에게 더 쉽게 접근할 수 있다는 의미입니다. 기술 회사와 제조업체들은 사업을 확장하고, 더 많은 노동자를 고용하며, 수익을 증가시킬 수 있습니다. 한국 노동자들에게는 회사가 성장함에 따라 <span class=kw>수출 기회</span>와 고용 안정성이 생깁니다. 필리핀에서 일하는 한국인들은 개선된 <span class=kw>외교 관계</span>로부터 혜택을 받아 삶과 일이 더 안정적입니다.",
+        "bilingual_en": "Stronger trade ties give Korean companies access to new markets and create stable jobs for Korean workers.",
+        "bilingual_kr": "더 강한 무역 관계는 한국 기업에게 새로운 시장에 접근할 수 있는 기회를 주고 한국 노동자들을 위해 안정적인 일자리를 만듭니다.",
         "vocab": [
-          {"en": "bilingual staff", "kr": "이중언어 인력"},
-          {"en": "international development", "kr": "국제개발"},
-          {"en": "logistics", "kr": "물류"},
-          {"en": "career path", "kr": "커리어 경로"}
+          {"en": "export opportunities", "kr": "수출 기회"},
+          {"en": "diplomatic relations", "kr": "외교 관계"},
+          {"en": "market access", "kr": "시장 접근"},
+          {"en": "cultural exchange", "kr": "문화 교류"}
         ]
       }
     ],
-    "suggestions_en": ["What Korean companies are involved in Philippine infrastructure?", "How can I work on these infrastructure projects?", "What is Korea's nuclear energy technology?"],
-    "suggestions_kr": ["어떤 한국 기업이 필리핀 인프라에 참여하나요?", "이 인프라 프로젝트에서 일하려면 어떻게 해야 하나요?", "한국의 원자력 에너지 기술은 어떤 건가요?"]
+    "suggestions_en": [
+      "What specific Korean products are most popular with Philippine consumers?",
+      "How many new jobs does stronger Korea-Philippines trade create each year?",
+      "Could this partnership eventually include other ASEAN countries?"
+    ],
+    "suggestions_kr": [
+      "필리핀 소비자들에게 가장 인기 있는 한국 제품은 어떤 것들인가요?",
+      "더 강한 한국-필리핀 무역은 매년 몇 개의 새로운 일자리를 만드나요?",
+      "이 파트너십이 결국 다른 아세안 국가들을 포함할 수 있을까요?"
+    ]
   },
   "news_1": {
     "layers": [
       {
         "depth": 1,
-        "title_en": "Understanding Exchange Rates",
-        "title_kr": "환율 이해하기",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "An <span class=kw>exchange rate</span> shows how much one currency is worth compared to another. When we say USD/PHP is 59.88, it means you need 59.88 Philippine pesos to buy one US dollar. A <span class=kw>tariff</span> is a tax that a government puts on imported goods, which makes those goods more expensive.",
-        "text_kr": "<span class=kw>환율</span>이란 한 통화가 다른 통화에 비해 얼마의 가치가 있는지를 보여줍니다. USD/PHP가 59.88이면 1달러를 사려면 59.88페소가 필요하다는 뜻입니다. <span class=kw>관세</span>란 정부가 수입품에 부과하는 세금으로, 해당 물건의 가격을 높입니다.",
-        "bilingual_en": "Exchange rates determine how much foreign goods cost when converted to local currency.",
-        "bilingual_kr": "환율은 외국 물건을 현지 통화로 환산했을 때 얼마나 비용이 드는지를 결정합니다.",
+        "title_en": "What is R&D and an Innovation Hub?",
+        "title_kr": "R&D와 혁신 허브란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "<span class=kw>R&D</span> stands for Research and Development—when companies invest money to create new products or improve existing ones. An <span class=kw>innovation hub</span> is a facility where teams of engineers and scientists develop cutting-edge <span class=kw>technology</span>. LG Electronics, a major Korean tech company, is expanding its R&D center in Quezon City. This means hiring more engineers to create new gadgets, software, and solutions people will use in the future.",
+        "text_kr": "<span class=kw>R&D</span>는 연구 및 개발을 의미하며, 기업이 새로운 제품을 만들거나 기존 제품을 개선하기 위해 투자할 때입니다. <span class=kw>혁신 허브</span>는 엔지니어와 과학자들이 최첨단 <span class=kw>기술</span>을 개발하는 시설입니다. 주요 한국 기술 회사인 LG전자가 케손시티에서 R&D 센터를 확장하고 있습니다. 이는 사람들이 미래에 사용할 새로운 기기, 소프트웨어, 솔루션을 만들기 위해 더 많은 엔지니어를 고용한다는 뜻입니다.",
+        "bilingual_en": "R&D centers are where companies create new technology that will change how we live and work.",
+        "bilingual_kr": "R&D 센터는 우리의 삶과 일하는 방식을 바꿀 새로운 기술을 만드는 곳입니다.",
         "vocab": [
-          {"en": "exchange rate", "kr": "환율"},
-          {"en": "tariff", "kr": "관세"},
-          {"en": "depreciation", "kr": "가치 하락"},
-          {"en": "trade negotiation", "kr": "무역 협상"}
+          {"en": "R&D (Research & Development)", "kr": "R&D(연구 개발)"},
+          {"en": "innovation hub", "kr": "혁신 허브"},
+          {"en": "technology", "kr": "기술"},
+          {"en": "expand", "kr": "확장하다"}
         ]
       },
       {
         "depth": 2,
-        "title_en": "The US-Philippines Tariff Dispute",
-        "title_kr": "미-필 관세 분쟁",
-        "sub_en": "Context", "sub_kr": "맥락", "badge": "Intermediate",
-        "text_en": "The US has proposed a 19% tariff on Philippine exports, which the Philippines is negotiating to reduce. When tariff talks <span class=kw>stall</span> (get stuck), investors become nervous and pull money out of the Philippines. This causes the peso to <span class=kw>depreciate</span> (lose value). The cycle feeds itself: a weaker peso makes imports more expensive, which pushes inflation higher.",
-        "text_kr": "미국이 필리핀 수출품에 19% 관세를 제안했고 필리핀은 이를 낮추기 위해 협상 중입니다. 관세 협상이 <span class=kw>교착</span>(멈춤) 상태에 빠지면 투자자들이 불안해하며 필리핀에서 자금을 빼냅니다. 이로 인해 페소가 <span class=kw>가치 하락</span>합니다. 악순환이 반복됩니다: 페소 약세는 수입품 가격을 올리고, 이는 인플레이션을 높입니다.",
-        "bilingual_en": "When trade negotiations stall, investor confidence drops and the local currency weakens.",
-        "bilingual_kr": "무역 협상이 교착 상태에 빠지면 투자 심리가 위축되고 현지 통화가 약세를 보입니다.",
+        "title_en": "Why is LG Expanding in the Philippines?",
+        "title_kr": "LG가 왜 필리핀에서 확장하나?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "LG's ₱3.8 billion investment shows they believe the Philippines is a good place for <span class=kw>innovation</span>. The Philippines has talented engineers and a young population eager to learn new skills. By expanding here, LG accesses cheaper labor costs while maintaining high quality. Having an R&D center in Southeast Asia lets LG develop products specifically designed for Asian <span class=kw>market needs</span>. The 500 new tech jobs are important because they attract educated workers and boost the local <span class=kw>economy</span>.",
+        "text_kr": "LG의 ₱38억 투자는 필리핀이 <span class=kw>혁신</span>을 위한 좋은 곳이라고 생각한다는 것을 보여줍니다. 필리핀은 재능 있는 엔지니어들과 새로운 기술을 배우고 싶어 하는 젊은 인구를 가지고 있습니다. 여기서 확장함으로써 LG는 높은 품질을 유지하면서 낮은 노동 비용에 접근할 수 있습니다. 동남아시아에 R&D 센터를 두면 LG가 아시아 <span class=kw>시장 수요</span>에 맞게 설계된 제품을 개발할 수 있습니다. 500개의 새로운 기술 일자리는 교육받은 노동자들을 끌어들이고 지역 <span class=kw>경제</span>를 증진하기 때문에 중요합니다.",
+        "bilingual_en": "LG chose the Philippines because it has talented workers and lower costs, perfect for developing technology for Asia.",
+        "bilingual_kr": "LG는 필리핀을 선택했는데 그 이유는 재능 있는 노동자들과 낮은 비용이 있어서 아시아를 위한 기술 개발에 완벽하기 때문입니다.",
         "vocab": [
-          {"en": "stall", "kr": "교착/정체"},
-          {"en": "depreciate", "kr": "가치가 하락하다"},
-          {"en": "investor confidence", "kr": "투자 심리"},
-          {"en": "vicious cycle", "kr": "악순환"}
+          {"en": "investment", "kr": "투자"},
+          {"en": "innovation", "kr": "혁신"},
+          {"en": "market needs", "kr": "시장 수요"},
+          {"en": "economy", "kr": "경제"},
+          {"en": "labor costs", "kr": "노동 비용"}
         ],
         "quiz": {
-          "q_en": "What happens when tariff negotiations between two countries get stuck?",
-          "q_kr": "두 나라 간 관세 협상이 교착되면 어떤 일이 일어나나요?",
+          "q_en": "What is the main reason LG is expanding its R&D center in Quezon City?",
+          "q_kr": "LG가 케손시티에서 R&D 센터를 확장하는 주요 이유는 뭔가요?",
           "opts": [
-            {"en": "The local currency usually strengthens", "kr": "현지 통화가 보통 강세를 보인다", "correct": false},
-            {"en": "Investors get nervous and may pull out money", "kr": "투자자들이 불안해하며 자금을 빼낼 수 있다", "correct": true},
-            {"en": "Nothing changes in the economy", "kr": "경제에 아무 변화가 없다", "correct": false}
+            {"en": "To avoid high taxes in Korea", "kr": "한국의 높은 세금을 피하기 위해", "correct": false},
+            {"en": "To access talented engineers, lower costs, and develop products for Asian markets", "kr": "재능 있는 엔지니어에 접근하고 비용을 줄이며 아시아 시장 제품을 개발하기 위해", "correct": true},
+            {"en": "To establish retail stores for selling products", "kr": "제품 판매를 위한 소매점을 설립하기 위해", "correct": false}
           ]
         }
+      },
+      {
+        "depth": 3,
+        "title_en": "How Does This Benefit Korea and Filipino Tech Workers?",
+        "title_kr": "이것이 한국과 필리핀 기술 노동자들에게 어떻게 도움이 되나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korea, this expansion strengthens LG's global <span class=kw>competitiveness</span> by developing innovative products for Asia. Korean engineers can transfer expertise to Philippine employees, creating a more skilled regional workforce. For Filipinos, the 500 new jobs are well-paid positions requiring <span class=kw>advanced training</span> in engineering and technology. This creates opportunities for Filipino STEM students to build <span class=kw>career pathways</span> in tech without leaving their country, reducing <span class=kw>brain drain</span>.",
+        "text_kr": "한국에게는 이 확장이 아시아를 위한 혁신적인 제품을 개발함으로써 LG의 글로벌 <span class=kw>경쟁력</span>을 강화합니다. 한국 엔지니어들은 필리핀 직원들에게 전문 지식을 전달할 수 있어 더 숙련된 지역 노동력을 만듭니다. 필리핀인들에게 500개의 새로운 일자리는 공학 및 기술에서 <span class=kw>고급 교육</span>이 필요한 급여가 좋은 직위입니다. 이것은 필리핀 STEM 학생들이 자신의 나라를 떠나지 않고 기술 분야에서 <span class=kw>경력 경로</span>를 구축할 수 있게 하여 <span class=kw>인재 유출</span>을 줄입니다.",
+        "bilingual_en": "This R&D center creates high-quality tech jobs for Filipinos while helping Korea stay competitive in Asia.",
+        "bilingual_kr": "이 R&D 센터는 필리핀인들을 위해 고품질의 기술 일자리를 만들면서 한국이 아시아에서 경쟁력을 유지하도록 도와줍니다.",
+        "vocab": [
+          {"en": "competitiveness", "kr": "경쟁력"},
+          {"en": "advanced training", "kr": "고급 교육"},
+          {"en": "career pathway", "kr": "경력 경로"},
+          {"en": "brain drain", "kr": "인재 유출"}
+        ]
       }
     ],
-    "suggestions_en": ["Should I exchange my money now?", "How do tariffs affect food prices?", "Will the peso recover?"],
-    "suggestions_kr": ["지금 환전하는 게 좋을까요?", "관세가 식품 가격에 어떤 영향을 주나요?", "페소가 회복될까요?"]
+    "suggestions_en": [
+      "What types of products might LG develop at this new R&D center?",
+      "How many Filipino engineers will be trained for these new tech jobs?",
+      "Will Filipino employees have opportunities to advance to management positions?"
+    ],
+    "suggestions_kr": [
+      "이 새로운 R&D 센터에서 LG가 어떤 종류의 제품을 개발할까요?",
+      "이 새로운 기술 일자리를 위해 몇 명의 필리핀 엔지니어가 교육받을까요?",
+      "필리핀 직원들은 관리직으로 승진할 기회가 있을까요?"
+    ]
   },
   "news_2": {
     "layers": [
       {
         "depth": 1,
-        "title_en": "Typhoons in the Dry Season?",
-        "title_kr": "건기에 태풍이?",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "The Philippines normally has a <span class=kw>dry season</span> from December to May and a <span class=kw>wet season</span> from June to November. Typhoons usually come during the wet season. When a typhoon forms during the dry season, it's considered unusual and may be linked to <span class=kw>climate change</span>. <span class=kw>PAR</span> stands for Philippine Area of Responsibility — the zone PAGASA monitors for weather threats.",
-        "text_kr": "필리핀은 보통 12월~5월이 <span class=kw>건기</span>, 6월~11월이 <span class=kw>우기</span>입니다. 태풍은 보통 우기에 옵니다. 건기에 태풍이 형성되면 이례적이며 <span class=kw>기후변화</span>와 관련이 있을 수 있습니다. <span class=kw>PAR</span>은 필리핀 책임 구역으로, PAGASA가 기상 위협을 감시하는 영역입니다.",
-        "bilingual_en": "PAR is the Philippine Area of Responsibility — the weather monitoring zone around the Philippines.",
-        "bilingual_kr": "PAR은 필리핀 책임 구역으로, 필리핀 주변의 기상 감시 영역입니다.",
+        "title_en": "What is K-Pop and Cultural Exchange?",
+        "title_kr": "K-Pop과 문화 교류란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "<span class=kw>K-Pop</span> is popular music from Korea featuring catchy songs, impressive dancing, and colorful performances. A <span class=kw>cultural exchange</span> happens when people from different countries share their music, food, art, and traditions. The K-Pop Spring Festival in Bonifacio Global City brought together 45,000 fans celebrating Korean culture through live concerts, Korean food vendors, and cultural exhibitions. This shows how <span class=kw>Korean culture</span> is becoming popular worldwide.",
+        "text_kr": "<span class=kw>K-Pop</span>은 중독성 있는 노래, 인상적인 춤, 화려한 공연이 특징인 한국의 인기 음악입니다. <span class=kw>문화 교류</span>는 서로 다른 국가의 사람들이 자신의 음악, 음식, 미술, 전통을 나눌 때 일어납니다. 보니파시오 글로벌 시티의 K-Pop 봄 축제는 라이브 콘서트, 한식 음식점, 문화 전시를 통해 한국 문화를 축하한 45,000명의 팬들을 모았습니다.",
+        "bilingual_en": "K-Pop brings fans from different countries together through concerts and cultural celebrations.",
+        "bilingual_kr": "K-Pop은 콘서트와 문화 축제를 통해 여러 나라의 팬들을 함께 모읍니다.",
         "vocab": [
-          {"en": "dry season", "kr": "건기"},
-          {"en": "PAR", "kr": "필리핀 책임 구역"},
-          {"en": "PAGASA", "kr": "필리핀 기상청"},
-          {"en": "climate change", "kr": "기후변화"}
+          {"en": "K-Pop", "kr": "K-Pop"},
+          {"en": "cultural exchange", "kr": "문화 교류"},
+          {"en": "performance", "kr": "공연"},
+          {"en": "vendor", "kr": "음식점, 판매자"}
         ]
       },
       {
         "depth": 2,
-        "title_en": "How to Prepare for Extreme Weather",
-        "title_kr": "극단 기상에 대비하는 법",
-        "sub_en": "Application", "sub_kr": "실생활 적용", "badge": "Intermediate",
-        "text_en": "Korean residents should monitor <span class=kw>PAGASA</span> updates and have an emergency kit ready. Key preparations include: keeping important documents in waterproof bags, having 3 days of water and food supplies, knowing your barangay's <span class=kw>evacuation center</span>, and keeping your Korean Embassy hotline number saved. The extreme heat (42°C) also requires hydration and avoiding outdoor activity during peak hours.",
-        "text_kr": "한국인 거주자는 <span class=kw>PAGASA</span> 업데이트를 확인하고 비상 키트를 준비해야 합니다. 주요 대비 사항: 중요 서류를 방수 백에 보관, 3일분의 물과 식량 비축, 바랑가이의 <span class=kw>대피소</span> 위치 파악, 한국 대사관 핫라인 번호 저장. 극단적 더위(42°C)에도 수분 섭취와 피크 시간대 야외 활동 자제가 필요합니다.",
-        "bilingual_en": "Always keep the Korean Embassy hotline number saved and know your nearest evacuation center.",
-        "bilingual_kr": "한국 대사관 핫라인 번호를 항상 저장해 두고 가장 가까운 대피소를 파악해 두세요.",
+        "title_en": "Why is K-Pop Popular in the Philippines?",
+        "title_kr": "K-Pop이 필리핀에서 왜 인기인가?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The Philippines has a strong music and entertainment culture, so Filipino audiences love <span class=kw>K-Pop groups</span> like BTS, BLACKPINK, and SEVENTEEN. The record attendance of 45,000 fans shows K-Pop appeals to both Filipinos and Korean residents. K-Pop combines modern <span class=kw>technology</span>, skilled <span class=kw>choreography</span>, and emotional storytelling that connects with young people. This <span class=kw>soft power</span> from Korea strengthens cultural bonds and makes Korea more attractive to Filipinos.",
+        "text_kr": "필리핀은 강한 음악과 엔터테인먼트 문화를 가지고 있어서 필리핀 관객들은 BTS, BLACKPINK, SEVENTEEN과 같은 <span class=kw>K-Pop 그룹</span>을 좋아합니다. 45,000명의 팬들의 기록 참석 인원은 K-Pop이 필리핀인과 한인 주민 모두에게 매력적임을 보여줍니다. K-Pop은 현대 <span class=kw>기술</span>, 숙련된 <span class=kw>안무</span>, 젊은 사람들과 연결되는 감정적 스토리텔링을 결합합니다. 한국의 이 <span class=kw>소프트 파워</span>는 문화적 유대를 강화하고 필리핀인들에게 한국을 더욱 매력적으로 만듭니다.",
+        "bilingual_en": "K-Pop connects with Filipino audiences through great music, dancing, and emotional storytelling.",
+        "bilingual_kr": "K-Pop은 훌륭한 음악, 춤, 감정적 스토리텔링을 통해 필리핀 관객들과 연결됩니다.",
         "vocab": [
-          {"en": "evacuation center", "kr": "대피소"},
-          {"en": "emergency kit", "kr": "비상 키트"},
-          {"en": "heat warning", "kr": "폭염 경보"},
-          {"en": "hydration", "kr": "수분 섭취"}
+          {"en": "K-Pop groups", "kr": "K-Pop 그룹"},
+          {"en": "choreography", "kr": "안무"},
+          {"en": "soft power", "kr": "소프트 파워"},
+          {"en": "cultural bonds", "kr": "문화적 유대"},
+          {"en": "audience", "kr": "관객"}
+        ],
+        "quiz": {
+          "q_en": "What does the record attendance of 45,000 fans tell us about K-Pop?",
+          "q_kr": "45,000명의 팬들의 기록 참석 인원이 K-Pop에 대해 무엇을 말해주나요?",
+          "opts": [
+            {"en": "K-Pop is losing popularity in the Philippines", "kr": "K-Pop은 필리핀에서 인기가 떨어지고 있다", "correct": false},
+            {"en": "K-Pop is very popular and strengthens Korea-Philippines cultural connections", "kr": "K-Pop은 매우 인기 있고 한국-필리핀 문화 연결을 강화한다", "correct": true},
+            {"en": "Only Korean expats in the Philippines like K-Pop", "kr": "필리핀의 한인 주민들만 K-Pop을 좋아한다", "correct": false}
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "How Does K-Pop Build Community and Business Opportunities?",
+        "title_kr": "K-Pop이 어떻게 커뮤니티와 사업 기회를 만드나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "The K-Pop festival creates a <span class=kw>community gathering</span> where Korean expats, Filipinos, and fans connect and celebrate together, strengthening <span class=kw>social bonds</span>. The festival also creates <span class=kw>business opportunities</span>—Korean food vendors earn money, hotels and restaurants benefit from increased visitors, and entertainment companies develop relationships with Filipino audiences. For young Filipinos interested in music and dance, K-Pop inspires careers in entertainment and <span class=kw>creative industries</span>.",
+        "text_kr": "K-Pop 축제는 한인 주민, 필리핀인, 팬들이 함께 연결되고 축하하는 <span class=kw>커뮤니티 집합</span>을 만들어 <span class=kw>사회적 유대</span>를 강화합니다. 축제는 또한 <span class=kw>사업 기회</span>를 만들어 한식 음식점 판매자들이 돈을 벌고, 호텔과 레스토랑이 방문객 증가로 이득을 얻으며, 엔터테인먼트 회사들이 필리핀 관객과 관계를 발전시킵니다. 음악과 춤에 관심 있는 젊은 필리핀인들에게 K-Pop은 엔터테인먼트와 <span class=kw>창조 산업</span> 분야의 경력을 영감을 줍니다.",
+        "bilingual_en": "K-Pop festivals bring communities together while creating jobs and inspiring young creative talent.",
+        "bilingual_kr": "K-Pop 축제는 커뮤니티를 함께 모으면서 일자리를 만들고 젊은 창의적 인재들에게 영감을 줍니다.",
+        "vocab": [
+          {"en": "community gathering", "kr": "커뮤니티 집합"},
+          {"en": "social bonds", "kr": "사회적 유대"},
+          {"en": "business opportunities", "kr": "사업 기회"},
+          {"en": "creative industries", "kr": "창조 산업"}
         ]
       }
     ],
-    "suggestions_en": ["What is the Korean Embassy emergency number?", "Where is the nearest evacuation center in Ortigas?", "How long will the heat wave last?"],
-    "suggestions_kr": ["한국 대사관 긴급 전화번호가 뭔가요?", "올티가스에서 가장 가까운 대피소는 어디인가요?", "폭염이 얼마나 계속될까요?"]
+    "suggestions_en": [
+      "Which K-Pop groups performed at the BGC festival?",
+      "How much revenue did Korean food vendors earn from the festival?",
+      "Could this inspire more young Filipinos to pursue entertainment careers?"
+    ],
+    "suggestions_kr": [
+      "BGC 축제에서 어떤 K-Pop 그룹이 공연했나요?",
+      "이 축제에서 한식 음식점 판매자들은 얼마나 많은 수익을 벌었나요?",
+      "이것이 더 많은 젊은 필리핀인들이 엔터테인먼트 경력을 추구하도록 영감을 줄 수 있을까요?"
+    ]
   },
   "news_3": {
     "layers": [
       {
         "depth": 1,
-        "title_en": "What Is ASEAN?",
-        "title_kr": "ASEAN이란?",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "<span class=kw>ASEAN</span> stands for the Association of Southeast Asian Nations — a group of 10 countries including the Philippines, Thailand, Vietnam, and Indonesia. They work together on trade, culture, and security. <span class=kw>Cultural exchange</span> events like music festivals help strengthen people-to-people connections between member nations and partner countries like Korea.",
-        "text_kr": "<span class=kw>ASEAN</span>은 동남아시아국가연합으로 필리핀, 태국, 베트남, 인도네시아 등 10개국이 참여합니다. 무역, 문화, 안보 분야에서 협력합니다. 음악 페스티벌 같은 <span class=kw>문화 교류</span> 행사는 회원국과 한국 같은 파트너 국가 간 민간 교류를 강화합니다.",
-        "bilingual_en": "ASEAN is a group of 10 Southeast Asian countries that cooperate on trade, culture, and security.",
-        "bilingual_kr": "ASEAN은 무역, 문화, 안보 분야에서 협력하는 동남아시아 10개국의 연합입니다.",
+        "title_en": "What are Military Training Exercises?",
+        "title_kr": "군사 훈련 운동이란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "<span class=kw>Military training exercises</span> are planned practices where soldiers and <span class=kw>naval forces</span> work together to prepare for real situations. <span class=kw>Trilateral</span> means three countries—Korea, the Philippines, and Japan. <span class=kw>Naval exercises</span> focus on sea operations, where ships practice protecting shipping routes and responding to emergencies. These exercises aren't about fighting; they're about learning cooperation and communication.",
+        "text_kr": "<span class=kw>군사 훈련 운동</span>은 군인과 <span class=kw>해군력</span>이 실제 상황에 대비하기 위해 함께 일하는 계획된 연습입니다. <span class=kw>3자</span>는 세 나라를 의미합니다. 이 경우 한국, 필리핀, 일본입니다. <span class=kw>해양 운동</span>은 배가 해운로를 보호하고 바다에서 긴급 상황에 대응하는 연습을 하는 해상 작전에 중점을 둡니다.",
+        "bilingual_en": "Military exercises are team training drills where countries practice working together during emergencies.",
+        "bilingual_kr": "군사 운동은 국가들이 긴급 상황에서 함께 일하는 연습을 하는 팀 훈련입니다.",
         "vocab": [
-          {"en": "ASEAN", "kr": "아세안/동남아시아국가연합"},
-          {"en": "cultural exchange", "kr": "문화 교류"},
-          {"en": "K-pop", "kr": "케이팝"},
-          {"en": "soft power", "kr": "소프트 파워"}
+          {"en": "military exercises", "kr": "군사 운동"},
+          {"en": "naval forces", "kr": "해군력"},
+          {"en": "trilateral", "kr": "3자"},
+          {"en": "maritime", "kr": "해양의"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why Do Korea, Philippines, and Japan Need These Exercises?",
+        "title_kr": "한국, 필리핀, 일본이 왜 이런 운동이 필요한가?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "All three countries depend on <span class=kw>shipping routes</span> for trade. Pirates, smugglers, and criminals operate in these waters, threatening commercial ships and security. By conducting <span class=kw>joint exercises</span>, the three countries can practice <span class=kw>coordinated responses</span> to common threats. <span class=kw>Regional security cooperation</span> also deters other nations from causing trouble. The Philippines especially benefits because it has many islands and long coastlines needing protection.",
+        "text_kr": "세 나라 모두 무역을 위한 <span class=kw>해운로</span>에 의존합니다. 해적, 밀수꾼, 범죄자들이 이 수역에서 활동하여 상선과 보안을 위협합니다. <span class=kw>합동 운동</span>을 수행함으로써 세 나라는 공통 위협에 대한 <span class=kw>조정된 대응</span>을 연습할 수 있습니다. <span class=kw>지역 보안 협력</span>은 또한 다른 국가들이 문제를 일으키는 것을 억제합니다.",
+        "bilingual_en": "The three countries need these exercises to protect their shipping routes and respond to maritime threats together.",
+        "bilingual_kr": "세 나라는 해운로를 보호하고 해양 위협에 함께 대응하기 위해 이 운동이 필요합니다.",
+        "vocab": [
+          {"en": "shipping routes", "kr": "해운로"},
+          {"en": "joint exercises", "kr": "합동 운동"},
+          {"en": "coordinated responses", "kr": "조정된 대응"},
+          {"en": "regional security cooperation", "kr": "지역 보안 협력"},
+          {"en": "defense", "kr": "방어"}
+        ],
+        "quiz": {
+          "q_en": "Why are these naval exercises important for the Philippines?",
+          "q_kr": "왜 이 해군 운동이 필리핀에 중요한가요?",
+          "opts": [
+            {"en": "To practice for military conflicts with other countries", "kr": "다른 국가와의 군사 분쟁에 대비하기 위해", "correct": false},
+            {"en": "To protect shipping routes and coastlines from piracy and threats", "kr": "해적과 위협으로부터 해운로와 해안선을 보호하기 위해", "correct": true},
+            {"en": "To celebrate military anniversaries", "kr": "군부대 기념일을 축하하기 위해", "correct": false}
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "How Do These Exercises Strengthen Regional Peace?",
+        "title_kr": "이 운동들이 어떻게 지역 평화를 강화하나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korea, partnering with the Philippines and Japan creates a <span class=kw>security alliance</span> that deters threats to East Asian stability. Korea relies on <span class=kw>maritime trade</span> for its economy. For the Philippines, partnering improves its <span class=kw>deterrence capability</span> against threats. The quarterly exercises demonstrate <span class=kw>commitment to peace</span> by building trust through cooperation. For Koreans living in the Philippines, these security arrangements make their communities safer.",
+        "text_kr": "한국에게는 필리핀과 일본과의 파트너십이 동아시아 안정을 위협하는 것을 억제하는 <span class=kw>보안 동맹</span>을 만듭니다. 한국은 경제를 위해 <span class=kw>해양 무역</span>에 의존합니다. 필리핀에게는 파트너십이 위협에 대한 <span class=kw>억제력</span>을 개선합니다. 분기별 운동은 협력을 통해 신뢰를 구축함으로써 <span class=kw>평화에 대한 약속</span>을 보여줍니다.",
+        "bilingual_en": "These trilateral exercises protect Korean maritime trade and make life safer for Koreans in the Philippines.",
+        "bilingual_kr": "이 3자 운동들은 한국 해양 무역을 보호하고 필리핀의 한국인들 삶을 더 안전하게 만듭니다.",
+        "vocab": [
+          {"en": "security alliance", "kr": "보안 동맹"},
+          {"en": "maritime trade", "kr": "해양 무역"},
+          {"en": "deterrence capability", "kr": "억제력"},
+          {"en": "commitment to peace", "kr": "평화에 대한 약속"}
         ]
       }
     ],
-    "suggestions_en": ["How can I get tickets to the festival?", "Which K-pop artists will perform?", "What other ASEAN-Korea events are planned?"],
-    "suggestions_kr": ["페스티벌 티켓은 어떻게 구하나요?", "어떤 K-pop 아티스트가 공연하나요?", "다른 ASEAN-한국 행사는 뭐가 있나요?"]
+    "suggestions_en": [
+      "What specific maritime threats do these exercises help prepare for?",
+      "How often do the three countries conduct these trilateral exercises?",
+      "Do these military exercises ever lead to conflict?"
+    ],
+    "suggestions_kr": [
+      "이 운동이 어떤 구체적인 해양 위협에 대비하도록 도와주나요?",
+      "세 나라는 얼마나 자주 이 3자 운동을 실시하나요?",
+      "이 군사 운동이 갈등으로 이어질 수 있나요?"
+    ]
   },
   "news_4": {
     "layers": [
       {
         "depth": 1,
-        "title_en": "What Is Impeachment?",
-        "title_kr": "탄핵이란?",
-        "sub_en": "Foundation", "sub_kr": "기초 개념", "badge": "Beginner",
-        "text_en": "<span class=kw>Impeachment</span> is a formal process where lawmakers charge a government official with serious wrongdoing. In the Philippines, the <span class=kw>House of Representatives</span> files the charges, and the <span class=kw>Senate</span> conducts the trial. It's the legal way to hold powerful leaders accountable without waiting for elections.",
-        "text_kr": "<span class=kw>탄핵</span>이란 국회의원들이 정부 관리에게 중대한 비위를 공식적으로 기소하는 절차입니다. 필리핀에서는 <span class=kw>하원</span>이 기소하고 <span class=kw>상원</span>이 재판을 진행합니다. 선거를 기다리지 않고 권력자에게 책임을 묻는 법적 방법입니다.",
-        "bilingual_en": "Impeachment is a formal legal process to hold government leaders accountable for serious wrongdoing.",
-        "bilingual_kr": "탄핵은 정부 지도자에게 중대한 비위에 대한 책임을 묻는 공식적인 법적 절차입니다.",
+        "title_en": "What is a Travel Advisory?",
+        "title_kr": "여행 경고란?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>travel advisory</span> is an official notice from a government warning travelers about safety in a specific location. The Korean Embassy (Korea's official representative in the Philippines) issues these to protect Korean citizens. When advisories are <span class=kw>updated</span>, conditions have changed. <span class=kw>Mindanao</span> is a large island in southern Philippines. The advisory tells Koreans to be extra careful there and register with the embassy.",
+        "text_kr": "<span class=kw>여행 경고</span>는 정부의 공식 공지로 특정 장소의 안전에 대해 여행자들을 경고합니다. 한국 대사관(필리핀의 공식적인 한국 대표)은 한국 시민들을 보호하기 위해 이를 발행합니다. 경고가 <span class=kw>업데이트</span>될 때는 조건이 변했다는 뜻입니다. <span class=kw>민다나오</span>는 필리핀 남부의 큰 섬입니다. 경고는 한국인들에게 그 지역에서 각별히 주의하고 대사관에 등록하도록 알립니다.",
+        "bilingual_en": "Travel advisories help protect citizens by providing safety information about specific regions.",
+        "bilingual_kr": "여행 경고는 특정 지역에 대한 안전 정보를 제공하여 시민들을 보호합니다.",
         "vocab": [
-          {"en": "impeachment", "kr": "탄핵"},
-          {"en": "House of Representatives", "kr": "하원"},
-          {"en": "political uncertainty", "kr": "정치적 불확실성"},
-          {"en": "accountability", "kr": "책임성"}
+          {"en": "travel advisory", "kr": "여행 경고"},
+          {"en": "embassy", "kr": "대사관"},
+          {"en": "Mindanao", "kr": "민다나오"},
+          {"en": "register", "kr": "등록하다"}
         ]
       },
       {
         "depth": 2,
-        "title_en": "How Political Uncertainty Affects the Economy",
-        "title_kr": "정치적 불확실성이 경제에 미치는 영향",
-        "sub_en": "Context", "sub_kr": "맥락", "badge": "Intermediate",
-        "text_en": "When a country's political situation is unstable, <span class=kw>investor confidence</span> drops. Foreign companies hesitate to invest, the stock market can dip, and the currency may weaken. For Korean businesses in the Philippines, political uncertainty means potential <span class=kw>policy changes</span> that could affect permits, taxes, or regulations. Staying informed helps businesses plan for different scenarios.",
-        "text_kr": "한 나라의 정치 상황이 불안정하면 <span class=kw>투자 심리</span>가 위축됩니다. 외국 기업들이 투자를 주저하고, 주식시장이 하락하며, 통화가 약세를 보일 수 있습니다. 필리핀 내 한국 사업체에게 정치적 불확실성은 허가, 세금, 규제에 영향을 줄 수 있는 잠재적 <span class=kw>정책 변화</span>를 의미합니다. 정보를 파악하면 다양한 시나리오에 대비할 수 있습니다.",
-        "bilingual_en": "Political uncertainty reduces investor confidence and can cause currency weakness and market volatility.",
-        "bilingual_kr": "정치적 불확실성은 투자 심리를 위축시키고 통화 약세와 시장 변동성을 초래할 수 있습니다.",
+        "title_en": "Why Did the Embassy Update the Advisory for Mindanao?",
+        "title_kr": "왜 대사관이 민다나오에 대한 경고를 업데이트했나?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Mindanao has experienced <span class=kw>security incidents</span> in certain areas, including conflicts between armed groups and occasional attacks on civilians and tourists. While most of Mindanao is safe, some regions are more dangerous. The Embassy updated the advisory to reflect current <span class=kw>threat levels</span> and ensure Koreans know about <span class=kw>heightened caution</span> areas. Koreans in Mindanao need to know where to avoid and how to stay safe. The advisory asks people to register to receive emergency <span class=kw>alerts</span> and evacuation help.",
+        "text_kr": "민다나오는 특정 지역에서 무장 단체 간의 갈등과 민간인 및 관광객에 대한 가끔의 공격을 포함한 <span class=kw>보안 사건</span>을 경험했습니다. 민다나오 대부분은 안전하지만, 일부 지역은 더 위험합니다. 대사관은 현재 <span class=kw>위협 수준</span>을 반영하고 한국인들이 <span class=kw>각별한 주의</span> 지역을 알도록 경고를 업데이트했습니다. 민다나오의 한국인들은 어디를 피해야 하고 어떻게 안전을 유지해야 하는지 알아야 합니다. 경고는 사람들이 등록하여 긴급 <span class=kw>경고</span>와 소개 지원을 받도록 요청합니다.",
+        "bilingual_en": "The Embassy updated the advisory because Mindanao has had security incidents, and Koreans need safety information.",
+        "bilingual_kr": "민다나오에서 보안 사건이 있었기 때문에 대사관이 경고를 업데이트했고, 한국인들은 안전 정보가 필요합니다.",
         "vocab": [
-          {"en": "investor confidence", "kr": "투자 심리"},
-          {"en": "policy change", "kr": "정책 변화"},
-          {"en": "stock market", "kr": "주식시장"},
-          {"en": "scenario planning", "kr": "시나리오 기획"}
+          {"en": "security incidents", "kr": "보안 사건"},
+          {"en": "threat level", "kr": "위협 수준"},
+          {"en": "heightened caution", "kr": "각별한 주의"},
+          {"en": "alerts", "kr": "경고"},
+          {"en": "evacuation", "kr": "대피"}
         ],
         "quiz": {
-          "q_en": "What typically happens to foreign investment when political uncertainty increases?",
-          "q_kr": "정치적 불확실성이 커지면 외국인 투자에 보통 어떤 일이 일어나나요?",
+          "q_en": "What is one way the updated advisory helps Korean residents in Mindanao?",
+          "q_kr": "업데이트된 여행 경고가 민다나오의 한인 주민들을 어떻게 도와주나요?",
           "opts": [
-            {"en": "It increases rapidly", "kr": "빠르게 증가한다", "correct": false},
-            {"en": "It stays the same", "kr": "변화 없다", "correct": false},
-            {"en": "It decreases as investors become cautious", "kr": "투자자들이 신중해지면서 감소한다", "correct": true}
+            {"en": "It tells them to immediately leave the Philippines", "kr": "필리핀을 즉시 떠나도록 알린다", "correct": false},
+            {"en": "It provides safety information and allows registration for emergency assistance", "kr": "안전 정보를 제공하고 긴급 지원 등록을 가능하게 한다", "correct": true},
+            {"en": "It offers free transportation out of Mindanao", "kr": "민다나오에서 무료 교통을 제공한다", "correct": false}
           ]
         }
+      },
+      {
+        "depth": 3,
+        "title_en": "How Does This Advisory Protect Korean Community Safety?",
+        "title_kr": "이 경고가 어떻게 한인 커뮤니티 안전을 보호하나?",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korean families, students, and <span class=kw>business professionals</span> in Mindanao, the advisory creates a <span class=kw>safety framework</span>. Registering with the embassy puts them in a network where the Korean government can provide real-time <span class=kw>crisis management</span> during emergencies. The advisory helps Korean parents make informed decisions about school and travel. For Korean businesses in Mindanao, understanding <span class=kw>risk assessment</span> protects employees and facilities. The embassy's communication <span class=kw>strengthens community resilience</span> because Koreans know they have official support.",
+        "text_kr": "민다나오의 한인 가족, 학생, <span class=kw>사업 전문가</span>들을 위해, 경고는 <span class=kw>안전 체계</span>를 만듭니다. 대사관에 등록하면 긴급 상황 중에 한국 정부가 실시간 <span class=kw>위기 관리</span>를 제공할 수 있는 네트워크에 들어갑니다. 경고는 한인 부모들이 학교와 여행에 대해 정보에 입각한 결정을 내리도록 도와줍니다. 민다나오의 한국 기업들을 위해, <span class=kw>위험 평가</span>를 이해하는 것은 직원과 시설을 보호합니다. 대사관의 소통은 한국인들이 공식적인 지원을 받고 있다는 것을 알기 때문에 <span class=kw>커뮤니티 회복력을 강화</span>합니다.",
+        "bilingual_en": "The advisory protects Korean families by connecting them with embassy support and safety guidance.",
+        "bilingual_kr": "여행 경고는 한인 가족들을 대사관 지원과 안전 지침과 연결시켜 보호합니다.",
+        "vocab": [
+          {"en": "business professional", "kr": "사업 전문가"},
+          {"en": "safety framework", "kr": "안전 체계"},
+          {"en": "crisis management", "kr": "위기 관리"},
+          {"en": "risk assessment", "kr": "위험 평가"},
+          {"en": "community resilience", "kr": "커뮤니티 회복력"}
+        ]
       }
     ],
-    "suggestions_en": ["Will the impeachment affect Korean residents?", "What happens if the Vice President is removed?", "How can I stay updated on political developments?"],
-    "suggestions_kr": ["탄핵이 한국 거주자에게 영향을 미칠까요?", "부통령이 탄핵되면 어떻게 되나요?", "정치 동향을 어떻게 파악할 수 있나요?"]
+    "suggestions_en": [
+      "What specific areas in Mindanao are most dangerous?",
+      "How many Korean families are registered with the Korean Embassy in Mindanao?",
+      "What should Korean travelers do if a security incident happens?"
+    ],
+    "suggestions_kr": [
+      "민다나오의 어떤 특정 지역이 가장 위험한가요?",
+      "민다나오의 한국 대사관에 몇 명의 한인 가족이 등록되어 있나요?",
+      "보안 사건이 발생했을 때 한인 여행자들은 무엇을 해야 하나요?"
+    ]
   }
 }

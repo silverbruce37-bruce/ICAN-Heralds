@@ -23,119 +23,64 @@
 
     <div id="installBanner" class="install-banner" onclick="installApp()">📲 아이캔헤럴즈를 앱으로 설치하고 매일 아침 필리핀 소식을 받아보세요! (클릭)</div>
 
-    <nav class="main-nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <!-- ICAN Starship Logo -->
-                <svg class="ican-ship" viewBox="0 0 36 56" width="22" height="34" aria-label="ICAN Ship">
-                    <defs>
-                        <linearGradient id="navBodyGrad" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="#d8dce6"/>
-                            <stop offset="50%" stop-color="#b0b8c8"/>
-                            <stop offset="100%" stop-color="#8890a0"/>
-                        </linearGradient>
-                        <radialGradient id="navEngineGrad" cx="50%" cy="50%">
-                            <stop offset="0%" stop-color="#80cfff" stop-opacity="0.9"/>
-                            <stop offset="60%" stop-color="#2090ff" stop-opacity="0.5"/>
-                            <stop offset="100%" stop-color="#0050cc" stop-opacity="0"/>
-                        </radialGradient>
-                    </defs>
-                    <!-- Engine plume -->
-                    <ellipse cx="18" cy="52" rx="5" ry="4" fill="url(#navEngineGrad)" class="engine-glow"/>
-                    <!-- Body — tall smooth cylinder -->
-                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="url(#navBodyGrad)" stroke="#6a7080" stroke-width="0.4"/>
-                    <!-- Nose cone highlight -->
-                    <path d="M18 2 C18 2, 15 7, 14.5 12 L16 12 C16.5 7, 18 3, 18 3Z" fill="rgba(255,255,255,0.15)"/>
-                    <!-- Body seam lines -->
-                    <line x1="14" y1="20" x2="22" y2="20" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
-                    <line x1="13.5" y1="30" x2="22.5" y2="30" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
-                    <!-- Forward flaps — Starship style -->
-                    <path d="M12.5 14 L7 20 L8 21 L12.2 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <path d="M23.5 14 L29 20 L28 21 L23.8 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <!-- Aft flaps -->
-                    <path d="M13 40 L7 48 L9 48 L14 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <path d="M23 40 L29 48 L27 48 L22 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <!-- Window band -->
-                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" stroke="#6a7080" stroke-width="0.3"/>
-                    <rect x="15.8" y="10.5" width="4.4" height="1.5" rx="0.8" fill="#1a7aff" opacity="0.6"/>
-                    <!-- Raptor engines (3) -->
-                    <circle cx="15.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <circle cx="18" cy="47" r="1.8" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <circle cx="20.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <!-- Engine inner glow -->
-                    <circle cx="15.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
-                    <circle cx="18" cy="47" r="1" fill="#80cfff" opacity="0.8" class="antenna-blink"/>
-                    <circle cx="20.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
-                </svg>
-                <span>ICAN HERALDS</span>
+    <!-- ═══ ROW 1: Utility Bar ═══ -->
+    <nav class="nyt-utility-bar">
+        <div class="nyt-utility-inner">
+            <div class="nyt-utility-left">
+                <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
-            <ul class="nav-links">
-                <li><a href="#news"><span class="en-content">NEWS</span><span class="kr-content">주요 소식</span></a></li>
-                <li><a href="#food-travel"><span class="en-content">FOOD & TRAVEL</span><span class="kr-content">맛집·여행</span></a></li>
-                <li><a href="#events"><span class="en-content">EVENTS</span><span class="kr-content">주요 행사</span></a></li>
-                <li><a href="#picks"><span class="en-content">HERALD'S PICK</span><span class="kr-content">헤럴드 픽</span></a></li>
-                <li><a href="#academy"><span class="en-content">ICAN ACADEMY</span><span class="kr-content">아이캔 아카데미</span></a></li>
-                <li><a href="archive.html"><span class="en-content">ARCHIVE</span><span class="kr-content">지난 기사</span></a></li>
+            <div class="nyt-utility-center">
+                <span class="nyt-utility-edition">
+                    <span class="en-content">Philippines Edition</span>
+                    <span class="kr-content">필리핀판</span>
+                </span>
+            </div>
+            <div class="nyt-utility-right">
+                <button id="langBtn" class="nyt-lang-btn" onclick="toggleLanguage()">EN | 한</button>
+                <button class="sos-btn">SOS</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ ROW 2: Date Line ═══ -->
+    <div class="nyt-dateline">
+        <div class="nyt-dateline-inner">
+            <span class="nyt-dateline-text">SUNDAY, APRIL 12, 2026</span>
+            <span class="nyt-dateline-sep"></span>
+            <span class="nyt-dateline-text">MANILA, PHILIPPINES</span>
+            <span class="nyt-dateline-sep"></span>
+            <span class="nyt-dateline-text">VOL. 04</span>
+        </div>
+    </div>
+
+    <!-- ═══ ROW 3: Masthead ═══ -->
+    <header class="nyt-masthead">
+        <div class="nyt-masthead-inner">
+            <h1 class="nyt-nameplate">ICAN Heralds</h1>
+            <p class="nyt-motto">
+                <span class="en-content">"Where Value Connects to Create Greater Meaning"</span>
+                <span class="kr-content">"가치가 연결되어 더 큰 의미를 만들어 내는 곳"</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- ═══ ROW 4: Section Navigation ═══ -->
+    <nav class="nyt-sections">
+        <div class="nyt-sections-inner">
+            <ul class="nyt-section-links">
+                <li><a href="#news"><span class="en-content">News</span><span class="kr-content">주요 소식</span></a></li>
+                <li><a href="#food-travel"><span class="en-content">Food & Travel</span><span class="kr-content">맛집·여행</span></a></li>
+                <li><a href="#events"><span class="en-content">Events</span><span class="kr-content">주요 행사</span></a></li>
+                <li><a href="#picks"><span class="en-content">Herald's Pick</span><span class="kr-content">헤럴드 픽</span></a></li>
+                <li><a href="#academy"><span class="en-content">Academy</span><span class="kr-content">아카데미</span></a></li>
+                <li><a href="archive.html"><span class="en-content">Archive</span><span class="kr-content">지난 기사</span></a></li>
             </ul>
-            <button class="sos-btn">
-                <span class="en-content">SOS: EMERGENCY</span>
-                <span class="kr-content">SOS: 긴급연락망</span>
-            </button>
-            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
         </div>
     </nav>
 
     <div class="container">
-        <header>
-            <div class="toggle-container">
-                <button id="langBtn" class="toggle-btn" onclick="toggleLanguage()">English | 한국어</button>
-            </div>
-            <div class="logo-group" onclick="location.reload()">
-                <svg class="logo-ship" viewBox="0 0 36 56" width="34" height="52" aria-hidden="true">
-                    <defs>
-                        <linearGradient id="hdrBodyGrad" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="#d8dce6"/>
-                            <stop offset="50%" stop-color="#b0b8c8"/>
-                            <stop offset="100%" stop-color="#8890a0"/>
-                        </linearGradient>
-                        <radialGradient id="hdrEngineGrad" cx="50%" cy="50%">
-                            <stop offset="0%" stop-color="#80cfff" stop-opacity="0.9"/>
-                            <stop offset="60%" stop-color="#2090ff" stop-opacity="0.5"/>
-                            <stop offset="100%" stop-color="#0050cc" stop-opacity="0"/>
-                        </radialGradient>
-                    </defs>
-                    <ellipse cx="18" cy="52" rx="5" ry="4" fill="url(#hdrEngineGrad)" class="engine-glow"/>
-                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="url(#hdrBodyGrad)" stroke="#6a7080" stroke-width="0.4"/>
-                    <path d="M18 2 C18 2, 15 7, 14.5 12 L16 12 C16.5 7, 18 3, 18 3Z" fill="rgba(255,255,255,0.15)"/>
-                    <line x1="14" y1="20" x2="22" y2="20" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
-                    <line x1="13.5" y1="30" x2="22.5" y2="30" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
-                    <path d="M12.5 14 L7 20 L8 21 L12.2 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <path d="M23.5 14 L29 20 L28 21 L23.8 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <path d="M13 40 L7 48 L9 48 L14 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <path d="M23 40 L29 48 L27 48 L22 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
-                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" stroke="#6a7080" stroke-width="0.3"/>
-                    <rect x="15.8" y="10.5" width="4.4" height="1.5" rx="0.8" fill="#1a7aff" opacity="0.6"/>
-                    <circle cx="15.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <circle cx="18" cy="47" r="1.8" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <circle cx="20.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
-                    <circle cx="15.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
-                    <circle cx="18" cy="47" r="1" fill="#80cfff" opacity="0.8" class="antenna-blink"/>
-                    <circle cx="20.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
-                </svg>
-                <h1 class="logo">ICAN HERALDS</h1>
-            </div>
-            <p class="tagline">
-                <span class="en-content">Where Value Connects to Create Greater Meaning</span>
-                <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
-            </p>
-            <p class="tagline-sub">
-                <span class="en-content">AI-Native · Future-Ready · Since the Dawn of a New Era</span>
-                <span class="kr-content">AI 네이티브 · 미래준비형 · 새 시대의 여명과 함께</span>
-            </p>
-            <div class="date">SUNDAY, APRIL 12, 2026 | PHILIPPINES | VOL. 04</div>
-        </header>
 
         <section class="dashboard">
             <div class="dash-item">
