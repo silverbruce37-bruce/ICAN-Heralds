@@ -1,11 +1,56 @@
 [
   {
+    "date": "2026-04-12",
+    "vol": 4,
+    "cover_en": "Korean Foundation Launches Community Safety Initiative in Metro Manila",
+    "cover_kr": "한인재단, 메트로 마닐라 커뮤니티 안전 사업 개시",
+    "headlines_en": [
+      "ASEAN Trade Summit Strengthens Korea-Philippines Economic Partnership",
+      "Korean Tech Giant Expands R&D Center in Quezon City",
+      "K-Pop Spring Festival Returns to BGC with Record Attendance",
+      "Korea and Philippines Announce Joint Military Training Exercise",
+      "Korean Community Alert: Updated Travel Advisory for Mindanao"
+    ],
+    "headlines_kr": [
+      "ASEAN 무역 정상회의, 한국-필리핀 경제 협력 강화",
+      "한국 대형 기술 기업, 케손시티 R&D 센터 확장",
+      "K-팝 봄 축제, BGC에 돌아오며 기록적 입장객 달성",
+      "한국-필리핀, 공동 군사 훈련 실시 발표",
+      "한인 커뮤니티 공지: 민다나오 여행 경고 업데이트"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-04-10",
     "vol": 2,
     "cover_en": "Philippines-Korea Relations Hit New Heights on 'Day of Valor'",
     "cover_kr": "필리핀 '용맹의 날' 기념식 거행; 한-필 동맹 시너지 최고조 달해",
-    "headlines_en": ["North Korea Confirms 3-Day Missile Spree","ASEAN+3 Tackles Energy Crisis","ROUND Festival Hits Manila","10 Major Agreements Fast-Track Jobs","Korean-Speaking Police Now Active"],
-    "headlines_kr": ["북한 3일 연속 미사일 도발","ASEAN+3 공동기금으로 에너지 위기 대응","라운드 페스티벌 마닐라 상륙","10대 협정 체결 15000개 일자리","한국어 관광경찰 5대 거점 가동"],
-    "tags": ["Diplomacy","Security","Economy","Culture","Cooperation","Safety"]
+    "headlines_en": [
+      "North Korea Confirms 3-Day Missile Spree",
+      "ASEAN+3 Tackles Energy Crisis",
+      "ROUND Festival Hits Manila",
+      "10 Major Agreements Fast-Track Jobs",
+      "Korean-Speaking Police Now Active"
+    ],
+    "headlines_kr": [
+      "북한 3일 연속 미사일 도발",
+      "ASEAN+3 공동기금으로 에너지 위기 대응",
+      "라운드 페스티벌 마닐라 상륙",
+      "10대 협정 체결 15000개 일자리",
+      "한국어 관광경찰 5대 거점 가동"
+    ],
+    "tags": [
+      "Diplomacy",
+      "Security",
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Safety"
+    ]
   }
 ]

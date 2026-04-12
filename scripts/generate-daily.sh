@@ -32,52 +32,26 @@ echo "=== ICAN Heralds Daily Generator v2 ==="
 echo "Date: $DATE | $VOLUME_DISPLAY | Week: $CURRENT_WEEK"
 
 # ─── Claude CLI call with retry ─────────────────────
-call_gemini() {
+call_claude() {
     local prompt="$1"
     local result=""
     local max_retries=3
 
-    # Write prompt to temp file for safe handling
     local prompt_file
     prompt_file=$(mktemp)
     echo "$prompt" > "$prompt_file"
 
     for attempt in $(seq 1 $max_retries); do
-        # Build request JSON via Python (handles escaping)
-        local request_file
-        request_file=$(mktemp)
-        python3 -c "
-import json
-with open('$prompt_file') as f:
-    prompt_text = f.read()
-req = {
-    'contents': [{'parts': [{'text': prompt_text}]}],
-    'generationConfig': {
-        'temperature': 0.7,
-        'responseMimeType': 'application/json'
-    }
-}
-with open('$request_file', 'w') as f:
-    json.dump(req, f)
-"
+        result=$(/Users/worker64/.local/bin/claude \
+            --model haiku \
+            -p \
+            --dangerously-skip-permissions \
+            "$(cat "$prompt_file")" 2>/dev/null)
 
-        # Call Gemini API (free tier)
-        local response_file
-        response_file=$(mktemp)
-        local http_code
-        http_code=$(curl -s -w "%{http_code}" -o "$response_file" \
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
-            -H "content-type: application/json" \
-            -d @"$request_file")
-
-        if [ "$http_code" = "200" ]; then
-            result=$(python3 -c "
-import json
-with open('$response_file') as f:
-    resp = json.load(f)
-text = resp['candidates'][0]['content']['parts'][0]['text']
-# Strip markdown fences if present
-text = text.strip()
+        # Strip markdown fences if present
+        result=$(echo "$result" | python3 -c "
+import sys
+text = sys.stdin.read().strip()
 if text.startswith('\`\`\`json'):
     text = text[7:]
 if text.startswith('\`\`\`'):
@@ -86,24 +60,20 @@ if text.endswith('\`\`\`'):
     text = text[:-3]
 print(text.strip())
 ")
-            rm -f "$request_file" "$response_file"
-            if [ -n "$result" ]; then
-                break
-            fi
+
+        if [ -n "$result" ]; then
+            break
         else
-            echo "  Attempt $attempt: HTTP $http_code" >&2
-            cat "$response_file" >&2
-            echo "" >&2
-            rm -f "$request_file" "$response_file"
+            echo "  Attempt $attempt: Claude CLI returned empty" >&2
         fi
 
-        sleep 60
+        sleep 10
     done
 
     rm -f "$prompt_file"
 
     if [ -z "$result" ]; then
-        echo "ERROR: Gemini API failed after $max_retries attempts" >&2
+        echo "ERROR: Claude CLI failed after $max_retries attempts" >&2
         return 1
     fi
 
@@ -211,7 +181,7 @@ IMPORTANT RULES:
 - The word_of_day should connect thematically to the cover story
 - Return ONLY valid JSON, no explanation"
 
-DAILY_JSON=$(call_gemini "$DAILY_PROMPT" 6000) || {
+DAILY_JSON=$(call_claude "$DAILY_PROMPT" 6000) || {
     echo "ERROR: Failed to generate daily content"
     exit 1
 }
@@ -311,7 +281,7 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
 
 Focus on Metro Manila (Makati, BGC, Ortigas, Quezon City). Make food reviews atmospheric and genuine — like a real food blogger who actually ate there. Events should be realistic upcoming cultural/K-pop/food events. Return ONLY valid JSON."
 
-    WEEKLY_JSON=$(call_gemini "$WEEKLY_PROMPT" 8000) || {
+    WEEKLY_JSON=$(call_claude "$WEEKLY_PROMPT" 8000) || {
         echo "  WARNING: Failed to generate weekly content, using existing"
     }
 
@@ -410,7 +380,7 @@ RULES:
 - Make Korean text natural (not machine-translated)
 - Return ONLY valid JSON"
 
-ACADEMY_JSON=$(call_gemini "$ACADEMY_PROMPT" 12000) || {
+ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 12000) || {
     echo "  WARNING: Failed to generate academy content"
 }
 

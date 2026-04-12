@@ -1,0 +1,138 @@
+{
+  "week": "2026-W15",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Lolla & Co.",
+    "name_kr": "롤라 앤 코",
+    "cuisine_tags": [
+      {"en": "New Nordic", "kr": "북유럽 요리"},
+      {"en": "Seasonal", "kr": "계절 요리"}
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Tucked into a BGC side street, Lolla & Co. serves the kind of food that makes you forget about Manila's heat for two hours. The open kitchen exhales smoke from charred vegetables, and servers move with quiet precision. Each dish is a tiny landscape—beet purée bleeding into horseradish foam, squid ink on white ceramic, a single herb leaf placed like punctuation. It's theater that never shouts.",
+    "lead_kr": "BGC의 조용한 거리에 자리 잡은 롤라 앤 코는 마닐라의 뜨거운 열을 잠시 잊게 만드는 음식을 낸다. 열린 주방에서는 구운 채소의 연기가 피어오르고, 서빙 스태프는 조용한 정확함으로 움직인다. 각 요리는 작은 풍경이다—비트 퓨레가 호스래디시 폼으로 흐르고, 오징어 먹물이 흰 도자기 위에, 하나의 허브 잎이 문장부호처럼 놓여 있다. 소란스럽지 않은 연극이다.",
+    "quote_en": "We don't chase trends—we chase the seasons. Last week's greens are next month's memory.",
+    "quote_kr": "우리는 트렌드를 따르지 않습니다. 우리는 계절을 따릅니다. 지난주의 채소는 다음달의 추억입니다.",
+    "location": "8F, One Avénica BGC, 32nd Street corner 5th Avenue, Bonifacio Global City",
+    "price_range": "₱1,800–₱3,500",
+    "hours": "Tue–Thu 5:30 PM–11 PM, Fri–Sat 5:30 PM–midnight, Sun 11 AM–10 PM",
+    "hours_closed_en": "Closed Mondays",
+    "hours_closed_kr": "월요일 휴무",
+    "language_en": "English, Filipino, basic Korean",
+    "language_kr": "영어, 필리핀어, 기초 한국어",
+    "must_try": [
+      {"en": "Spring vegetable barigoule with fermented soy", "kr": "발효 간장을 곁들인 봄 채소 바리굴", "price": "₱580"},
+      {"en": "Grilled squid, smoked garlic emulsion, sea herbs", "kr": "구운 오징어, 훈제 마늘 에뮬전, 해초", "price": "₱1,200"},
+      {"en": "Duck breast, charred beet, cherry gastrique", "kr": "오리 가슴살, 구운 비트, 체리 가스트릭", "price": "₱1,480"}
+    ],
+    "tip_en": "Book 2–3 days ahead; they cap tables at 14. Arrive early to watch the kitchen work.",
+    "tip_kr": "2~3일 전에 예약하세요. 테이블이 14개로 제한됩니다. 일찍 도착해서 주방을 관찰하세요.",
+    "hero_image_seed": "food-w2026-W15",
+    "gallery_seeds": ["food-g1-w2026-W15", "food-g2-w2026-W15", "food-g3-w2026-W15"]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W15",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {"en": "Nature", "kr": "자연"},
+        {"en": "Hiking", "kr": "등산"}
+      ],
+      "name_en": "Wawa Dam & Pine Grove",
+      "name_kr": "와와 댐 & 소나무 숲",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "An hour northeast of Quezon City, Wawa Dam unfolds into an unexpected alpine moment. Mist clings to imported pine trees, cool air replaces the city's weight, and trails wind past emerald water. Locals fish here on weekends; tourists rarely find it. Perfect for sunrise hikes.",
+      "lead_kr": "케손 시티에서 동북쪽으로 한 시간 떨어진 와와 댐은 뜻밖의 알프스 풍경을 펼쳐 보인다. 미스트가 수입된 소나무에 감싸여 있고, 시원한 공기가 도시의 무게를 대체하며, 길은 에메랄드 물을 지나 구불거린다. 주말에는 지역 주민들이 낚시를 하고, 관광객은 거의 찾아오지 않는다. 일출 등산에 완벽하다.",
+      "location": "Novaliches, Quezon City (near Barangay Bagbag)",
+      "cost": "Free entry; ₱50–100 parking",
+      "tip_en": "Go early (5:30 AM start recommended). Bring light layers; mountain air is deceptive.",
+      "tip_kr": "일찍 가세요 (오전 5시 30분 출발 추천). 가벼운 옷을 여러 겹 입으세요. 산 공기는 속이 곤두선다."
+    },
+    {
+      "image_seed": "travel2-w2026-W15",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {"en": "Culture", "kr": "문화"},
+        {"en": "Walking", "kr": "도보 여행"}
+      ],
+      "name_en": "Intramuros Street Food Tour",
+      "name_kr": "인트라무로스 거리 음식 투어",
+      "stars": "★★★★★",
+      "rating": 4.7,
+      "lead_en": "Spanish walls shelter 500 years of layered stories. Walk Calle Real past azulejos-tiled facades, detour into churches that smell of incense and wood, then follow the scent of turon and lugaw from vendor carts. History tastes better on an empty stomach.",
+      "lead_kr": "스페인 성벽은 500년의 겹겹이 쌓인 이야기를 보호한다. 아줄레호 타일 파사드를 지나 칼레 레알을 걷고, 향과 나무 냄새가 나는 교회로 우회하면, 튀론과 루가우 향이 난다. 역사는 빈 배에서 더 맛있다.",
+      "location": "Calle Real, Intramuros, Manila (near Fort Santiago entrance)",
+      "cost": "Walking tour guides ₱400–600 per person; food ₱30–150 per item",
+      "tip_en": "Go mid-morning before lunch crowds. Hire a guide—they know the hidden spots.",
+      "tip_kr": "점심 시간 전 오전 중에 가세요. 가이드를 고용하세요. 그들은 숨겨진 장소를 알고 있습니다."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "APR 18",
+      "image_seed": "event1-w2026-W15",
+      "title": "Seoul Sessions: Korean Indie Night",
+      "desc_en": "Live indie-rock showcase featuring Manila-based Korean and Korean-Filipino artists. Three bands, craft beer, bao-filled food stalls.",
+      "desc_kr": "마닐라 기반 한국 및 한국-필리핀계 아티스트들의 라이브 인디 록 쇼케이스. 3개 밴드, 크래프트 맥주, 바오 음식 노점.",
+      "location_en": "Republiq, BGC",
+      "location_kr": "레퍼블리크, BGC",
+      "price_en": "₱500 advance",
+      "price_kr": "₱500 선매매"
+    },
+    {
+      "date_badge": "APR 22",
+      "image_seed": "event2-w2026-W15",
+      "title": "Ortigas Food Fest: Fusion Pop-ups",
+      "desc_en": "24-hour pop-up village. Chef collaborations: Korean-Filipino, Japanese-local, Vietnamese-Kapampangan. Limited-run dishes.",
+      "desc_kr": "24시간 팝업 빌리지. 셰프 콜라보레이션: 한국-필리핀, 일본-지역, 베트남-카팜팡간. 한정판 요리.",
+      "location_en": "Ortigas Central Park",
+      "location_kr": "오르티가스 센트럴 파크",
+      "price_en": "FREE entry, food ₱200–800 per plate",
+      "price_kr": "입장 무료, 요리 ₱200–800 (1인분)"
+    },
+    {
+      "date_badge": "MAY 05",
+      "image_seed": "event3-w2026-W15",
+      "title": "Makati Heritage Walks: Colonial Routes",
+      "desc_en": "Guided walking tours of Makati's hidden colonial architecture, vintage shops, and family-run restaurants unchanged for 40+ years.",
+      "desc_kr": "마카티의 숨겨진 식민지 건축, 빈티지 가게, 40년 이상 변하지 않은 가족 식당의 가이드 투어.",
+      "location_en": "Makati Central Business District",
+      "location_kr": "마카티 중앙 업무 지구",
+      "price_en": "₱350 per person",
+      "price_kr": "1인 ₱350"
+    },
+    {
+      "date_badge": "MAY 18",
+      "image_seed": "event4-w2026-W15",
+      "title": "K-Drama Picnic & Food Tasting",
+      "desc_en": "Outdoor screening + Korean-Filipino fusion picnic menu designed by local chefs inspired by beloved K-dramas.",
+      "desc_kr": "실외 상영 + 로컬 셰프들이 인기 한국 드라마에서 영감을 받아 디자인한 한국-필리핀 퓨전 피크닉 메뉴.",
+      "location_en": "BGC Arts District, Open Grounds",
+      "location_kr": "BGC 예술 지구, 오픈 그라운드",
+      "price_en": "₱950 (includes meal)",
+      "price_kr": "₱950 (식사 포함)"
+    }
+  ],
+  "picks": {
+    "date": "2026.04.12",
+    "title_en": "Why We Keep Coming Back to the Same Three Restaurants",
+    "title_kr": "같은 세 곳의 레스토랑에 자꾸 돌아가는 이유",
+    "body_en": [
+      "There's a theory among food people that great restaurants aren't about perfection—they're about consistency and intention. Lolla & Co. is this thesis made edible. You arrive expecting to be impressed, and instead you're *recognized*. The chef isn't trying to be 'innovative' in that hollow way that wins Instagram likes and closes within a year. She's practicing a discipline: seasonal vegetables, an open kitchen, the kind of calm that suggests decades of thought have preceded your plate.",
+      "In Manila, we're starved for this kind of attention. Most of our beloved restaurants exist in a state of casual excellence—a slightly wonky table, a menu that changes based on what the vendor brought today, service that's warm because it's personal. Lolla breaks that mold slightly. It's more formal, more demanding of itself. But it still feels like it was built for someone—not for everyone.",
+      "Which is why you book weeks in advance. Which is why locals keep their quiet and tourists miss it. That restraint, that refusal to scale, that belief that 14 tables are enough—it's an old-fashioned kind of ambition. And it tastes like the future."
+    ],
+    "body_kr": [
+      "음식 전문가들 사이에는 위대한 레스토랑이 완벽함에 관한 게 아니라 일관성과 의도에 관한 것이라는 이론이 있다. 롤라 앤 코는 이 명제를 먹을 수 있게 만든 것이다. 당신이 도착했을 때 감동받을 것으로 기대하지만, 대신 '인식'된다. 셰프는 '혁신적인' 인스타그램 좋아요를 받고 1년 내 문을 닫는 그 공허한 방식으로 시도하지 않는다. 그녀는 훈련을 수행하고 있다: 계절 채소, 열린 주방, 수십 년의 생각이 당신의 접시보다 앞섰다는 것을 암시하는 그런 고요함.",
+      "마닐라에서 우리는 이런 종류의 관심에 굶주려 있다. 우리가 사랑하는 대부분의 레스토랑은 우연한 우수성의 상태에서 존재한다—약간 비뚤어진 테이블, 벤더가 가져온 것을 기반으로 변하는 메뉴, 개인적이어서 따뜻한 서비스. 롤라는 그 틀을 약간 깨뜨린다. 더 형식적이고, 자신에게 더 엄격하다. 하지만 여전히 누군가를 위해 지어진 것처럼 느껴진다. 모두를 위한 게 아니라.",
+      "그래서 수주 전에 예약한다. 그래서 지역민들은 조용함을 지키고 관광객은 그것을 놓친다. 그 절제, 확장을 거부하는 것, 14개 테이블이면 충분하다는 믿음—그것은 구식의 야심이다. 그리고 미래의 맛이 난다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}

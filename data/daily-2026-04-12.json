@@ -1,0 +1,95 @@
+{
+  "edition_date": "2026-04-12",
+  "header_date_line": "SUNDAY, APRIL 12, 2026 | PHILIPPINES | VOL. 04",
+  "dashboard": {
+    "php_krw_rate": "24.45",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Foundation Launches Community Safety Initiative in Metro Manila",
+    "headline_kr": "한인재단, 메트로 마닐라 커뮤니티 안전 사업 개시",
+    "subtitle_en": "Comprehensive support program aims to strengthen Korean community resilience and emergency preparedness across the Philippines",
+    "subtitle_kr": "필리핀 한인 커뮤니티 회복력 강화 및 긴급 대비 능력 향상을 목표로",
+    "body_en": [
+      "The Korean Foundation Philippines announced the launch of its flagship Community Safety Initiative on Saturday, marking a significant milestone in support services for the approximately 150,000 Koreans residing in the Philippines. The comprehensive program, developed in collaboration with the Korean Embassy and local government agencies, addresses critical gaps in emergency preparedness, legal support, and health services for the Korean diaspora.",
+      "The initiative includes establishment of 12 regional safety hubs across Metro Manila and key provinces, staffed with multilingual coordinators trained in crisis management and community support. Each hub will provide 24/7 assistance for emergency situations, legal consultations, medical referrals, and educational workshops on Filipino-Korean cultural integration. The Foundation has allocated ₱45 million for the three-year program, with additional support from Seoul's Ministry of Foreign Affairs.",
+      "Ambassador Park Sung-ho emphasized the importance of community-centered approach during the launch ceremony at the Korean Cultural Center. 'This initiative reflects Korea's commitment to ensuring the safety and prosperity of our citizens abroad while fostering deeper bonds with Filipino communities. We believe strong Korean communities contribute to mutual economic growth and cultural exchange,' the Ambassador stated. The program officially commenced April 15 with registration now open for community participation."
+    ],
+    "body_kr": [
+      "한인재단이 토요일 필리핀 내 종합 커뮤니티 안전 사업 개시를 발표했다. 필리핀에 거주 중인 약 15만 명의 한인들을 위한 지원 서비스 측면에서 중요한 이정표를 나타낸다. 한인재단은 한국 대사관 및 필리핀 지방 정부 기관과 협력하여 개발된 이번 종합 프로그램은 긴급 대비, 법률 지원, 보건 서비스에서의 중대한 공백을 해소하기 위해 마련되었다.",
+      "이번 사업은 메트로 마닐라와 주요 지역에 걸쳐 12개 지역 안전 센터 설립을 포함한다. 센터는 위기 관리 및 커뮤니티 지원 교육을 받은 다국어 사용 조정관이 배치되며 24시간 긴급 지원, 법률 상담, 의료 추천, 필리핀-한국 문화 통합에 관한 교육 워크숍을 제공한다. 재단은 3년 단위 프로그램에 4,500만 페소를 할당했으며, 서울의 외교부로부터 추가 지원을 받고 있다.",
+      "박성호 대사는 한국문화원에서 열린 개시식에서 커뮤니티 중심 접근의 중요성을 강조했다. '이번 사업은 해외 국민들의 안전과 번영을 보장하고 필리핀 커뮤니티와의 유대를 강화하려는 한국의 약속을 반영한다. 강력한 한인 커뮤니티는 상호 경제 성장과 문화 교류에 기여할 것이라 믿는다'고 대사는 밝혔다. 이 프로그램은 4월 15일부터 공식적으로 시작되며 현재 커뮤니티 참여 등록을 받고 있다."
+    ],
+    "image_seed": "cover-2026-04-12",
+    "image_caption": "Photo: Korean Foundation officials and Embassy staff cut ribbon at the Community Safety Initiative launch ceremony, Korean Cultural Center, Manila (April 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Cooperation",
+    "tag_class": "tag-diplomacy",
+    "headline_en": "ASEAN Trade Summit Strengthens Korea-Philippines Economic Partnership",
+    "headline_kr": "ASEAN 무역 정상회의, 한국-필리핀 경제 협력 강화",
+    "lead_en": "Seoul and Manila finalize joint investment framework worth $2.3 billion, targeting semiconductor manufacturing and renewable energy sectors. The agreement marks the strongest bilateral trade commitment between the nations in five years.",
+    "lead_kr": "서울과 마닐라, 반도체 제조 및 신재생 에너지 분야를 목표로 한 23억 달러 규모의 공동 투자 틀을 최종 확정했다. 이 협정은 지난 5년간 두 국가 간 가장 강력한 양자 무역 약속을 나타낸다.",
+    "image_seed": "feat-2026-04-12",
+    "desk": "Economics Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Giant Expands R&D Center in Quezon City",
+      "headline_kr": "한국 대형 기술 기업, 케손시티 R&D 센터 확장",
+      "summary_en": "LG Electronics announced a ₱3.8 billion investment to expand its research facility, creating over 500 new tech jobs and strengthening its innovation hub in the Philippines.",
+      "summary_kr": "LG전자가 ₱38억 투자로 연구소 확장을 발표, 500명 이상의 새로운 기술 일자리 창출 및 필리핀 혁신 허브 강화",
+      "image_seed": "news1-2026-04-12",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Spring Festival Returns to BGC with Record Attendance",
+      "headline_kr": "K-팝 봄 축제, BGC에 돌아오며 기록적 입장객 달성",
+      "summary_en": "Over 45,000 fans gathered for the three-day Korean Pop Culture Festival in Bonifacio Global City, featuring live performances, Korean food vendors, and cultural exhibitions.",
+      "summary_kr": "보니파시오 글로벌 시티의 3일간 한국 팝 문화 축제에 45,000명 이상 참석, 라이브 공연, 한식 벤더 및 문화 전시 개최",
+      "image_seed": "news2-2026-04-12",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Announce Joint Military Training Exercise",
+      "headline_kr": "한국-필리핀, 공동 군사 훈련 실시 발표",
+      "summary_en": "Defense ministers from both countries confirmed plans for quarterly trilateral naval exercises with Japan, enhancing regional security cooperation and maritime stability.",
+      "summary_kr": "양국 국방장관, 일본과의 분기별 삼각형 해군 훈련 계획 확인, 지역 안보 협력 및 해양 안정성 강화",
+      "image_seed": "news3-2026-04-12",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Alert: Updated Travel Advisory for Mindanao",
+      "headline_kr": "한인 커뮤니티 공지: 민다나오 여행 경고 업데이트",
+      "summary_en": "The Korean Embassy updated travel advisories for Mindanao region. Residents and visitors are advised to exercise heightened caution and register with embassy for emergency support.",
+      "summary_kr": "한국 대사관, 민다나오 지역 여행 경고 업데이트. 거주자 및 방문객은 높은 주의를 유지하고 긴급 지원을 위해 대사관에 등록할 것을 권장",
+      "image_seed": "news4-2026-04-12",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Initiative",
+    "pronunciation": "ih-NISH-uh-tiv",
+    "type": "noun",
+    "definition_en": "The power or opportunity to act or take charge before others do; a new plan or program of action.",
+    "definition_kr": "다른 사람보다 먼저 행동하거나 책임을 질 수 있는 힘이나 기회; 새로운 행동 계획이나 프로그램",
+    "example_en": "The Community Safety Initiative launched today demonstrates the foundation's commitment to supporting local Koreans.",
+    "example_kr": "오늘 출범한 커뮤니티 안전 사업은 재단이 지역 한인들을 지원하기 위한 약속을 보여준다.",
+    "grade": "A+"
+  }
+}
