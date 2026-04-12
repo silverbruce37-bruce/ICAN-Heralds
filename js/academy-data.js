@@ -3,10 +3,10 @@ const academyData = {
   "cover": {
     "tag": "News",
     "tagClass": "tag-economy",
-    "title_en": "Korean Foundation Launches Community Safety Initiative in Metro Manila",
-    "title_kr": "한인재단, 메트로 마닐라 커뮤니티 안전 사업 개시",
-    "summary_en": "Comprehensive support program aims to strengthen Korean community resilience and emergency preparedness across the Philippines",
-    "summary_kr": "필리핀 한인 커뮤니티 회복력 강화 및 긴급 대비 능력 향상을 목표로",
+    "title_en": "World Bank Slashes Philippines Growth to 3.7% as Energy Crisis Deepens",
+    "title_kr": "세계은행, 에너지 위기 심화 속 필리핀 성장률 3.7%로 하향",
+    "summary_en": "Marcos declares national energy emergency as inflation hits 20-month high of 4.1% — peso near historic lows at ₱59.88 per dollar",
+    "summary_kr": "마르코스 대통령 국가 에너지 비상사태 선포, 물가상승률 20개월 최고 4.1% — 페소 달러당 59.88 역대 최저 근처",
     "layers": [
       {
         "depth": 1,
@@ -128,10 +128,10 @@ const academyData = {
   "featured": {
     "tag": "Cooperation",
     "tagClass": "tag-diplomacy",
-    "title_en": "ASEAN Trade Summit Strengthens Korea-Philippines Economic Partnership",
-    "title_kr": "ASEAN 무역 정상회의, 한국-필리핀 경제 협력 강화",
-    "summary_en": "Seoul and Manila finalize joint investment framework worth $2.3 billion, targeting semiconductor manufacturing and renewable energy sectors. The agreement marks the strongest bilateral trade commitment between the nations in five years.",
-    "summary_kr": "서울과 마닐라, 반도체 제조 및 신재생 에너지 분야를 목표로 한 23억 달러 규모의 공동 투자 틀을 최종 확정했다. 이 협정은 지난 5년간 두 국가 간 가장 강력한 양자 무역 약속을 나타낸다.",
+    "title_en": "Korea-Philippines Alliance Deepens: Defense, Nuclear, Critical Minerals on the Table",
+    "title_kr": "한-필 동맹 심화: 국방·원자력·핵심광물 협력 본격화",
+    "summary_en": "Following President Lee Jae Myung's state visit, DPWH delegation meets with Korean firms to advance bridge construction and nuclear energy partnerships. Angeles City KTV discrimination incident swiftly resolved through embassy intervention, reinforcing the strength of bilateral channels.",
+    "summary_kr": "이재명 대통령 방문 후속으로 DPWH 대표단이 한국 기업들과 교량 건설 및 원자력 파트너십을 논의했다. 앙헬레스 KTV 한국인 차별 사건은 대사관의 신속한 개입으로 해결되며 양국 채널의 강건함을 확인했다.",
     "layers": [
       {
         "depth": 1,
@@ -253,10 +253,10 @@ const academyData = {
   "news_1": {
     "tag": "Economy",
     "tagClass": "tag-economy",
-    "title_en": "Korean Tech Giant Expands R&D Center in Quezon City",
-    "title_kr": "한국 대형 기술 기업, 케손시티 R&D 센터 확장",
-    "summary_en": "LG Electronics announced a ₱3.8 billion investment to expand its research facility, creating over 500 new tech jobs and strengthening its innovation hub in the Philippines.",
-    "summary_kr": "LG전자가 ₱38억 투자로 연구소 확장을 발표, 500명 이상의 새로운 기술 일자리 창출 및 필리핀 혁신 허브 강화",
+    "title_en": "Peso Slides to ₱59.88 as US Tariff Talks Stall at 19%",
+    "title_kr": "미 관세 19% 협상 교착, 페소 59.88로 급락",
+    "summary_en": "The peso weakened to historic lows amid stalled US tariff negotiations. Visa relief for stranded travelers extended to May 1 as Middle East airspace closures continue to disrupt travel.",
+    "summary_kr": "미국 관세 협상 교착 속 페소가 역대 최저로 하락. 중동 영공 폐쇄로 발묶인 여행자들을 위한 비자 구호 조치가 5월 1일까지 연장.",
     "layers": [
       {
         "depth": 1,
@@ -376,12 +376,12 @@ const academyData = {
     ]
   },
   "news_2": {
-    "tag": "Culture",
-    "tagClass": "tag-culture",
-    "title_en": "K-Pop Spring Festival Returns to BGC with Record Attendance",
-    "title_kr": "K-팝 봄 축제, BGC에 돌아오며 기록적 입장객 달성",
-    "summary_en": "Over 45,000 fans gathered for the three-day Korean Pop Culture Festival in Bonifacio Global City, featuring live performances, Korean food vendors, and cultural exhibitions.",
-    "summary_kr": "보니파시오 글로벌 시티의 3일간 한국 팝 문화 축제에 45,000명 이상 참석, 라이브 공연, 한식 벤더 및 문화 전시 개최",
+    "tag": "Safety",
+    "tagClass": "tag-safety",
+    "title_en": "Typhoon Caloy Eyes PAR Entry Amid Record 42°C Heat Wave",
+    "title_kr": "태풍 칼로이 PAR 진입 임박, 42°C 기록적 폭염",
+    "summary_en": "An unusual dry-season typhoon threatens the Philippines as temperatures hit a scorching 42°C. PAGASA warns residents to prepare for extreme weather shifts and potential flooding.",
+    "summary_kr": "건기 중 이례적 태풍이 필리핀을 위협하는 가운데 기온은 42°C 기록. PAGASA는 극단적 기상 변화와 침수 가능성에 대비할 것을 당부.",
     "layers": [
       {
         "depth": 1,
@@ -501,12 +501,12 @@ const academyData = {
     ]
   },
   "news_3": {
-    "tag": "Cooperation",
-    "tagClass": "tag-diplomacy",
-    "title_en": "Korea and Philippines Announce Joint Military Training Exercise",
-    "title_kr": "한국-필리핀, 공동 군사 훈련 실시 발표",
-    "summary_en": "Defense ministers from both countries confirmed plans for quarterly trilateral naval exercises with Japan, enhancing regional security cooperation and maritime stability.",
-    "summary_kr": "양국 국방장관, 일본과의 분기별 삼각형 해군 훈련 계획 확인, 지역 안보 협력 및 해양 안정성 강화",
+    "tag": "Culture",
+    "tagClass": "tag-culture",
+    "title_en": "Free ASEAN-Korea Music Festival Hits Araneta Coliseum April 18-19",
+    "title_kr": "4월 18~19일 아라네타에서 무료 ASEAN-한국 뮤직 페스튰벌",
+    "summary_en": "A free two-day music festival celebrating Korea-ASEAN cultural exchange comes to Araneta Coliseum next weekend, featuring K-pop performances and collaborative stages with Southeast Asian artists.",
+    "summary_kr": "다음 주말 아라네타 콜로세움에서 한-아세안 문화 교류를 기념하는 2일간 무료 음악 페스튰벌이 열린다. K-pop 공연과 동남아 아티스트 콜라보 무대 예정.",
     "layers": [
       {
         "depth": 1,
@@ -626,12 +626,12 @@ const academyData = {
     ]
   },
   "news_4": {
-    "tag": "Safety",
-    "tagClass": "tag-safety",
-    "title_en": "Korean Community Alert: Updated Travel Advisory for Mindanao",
-    "title_kr": "한인 커뮤니티 공지: 민다나오 여행 경고 업데이트",
-    "summary_en": "The Korean Embassy updated travel advisories for Mindanao region. Residents and visitors are advised to exercise heightened caution and register with embassy for emergency support.",
-    "summary_kr": "한국 대사관, 민다나오 지역 여행 경고 업데이트. 거주자 및 방문객은 높은 주의를 유지하고 긴급 지원을 위해 대사관에 등록할 것을 권장",
+    "tag": "Security",
+    "tagClass": "tag-security",
+    "title_en": "Duterte Impeachment Hearings Continue; EDSA Section 1 Completed Early",
+    "title_kr": "두테르테 탄핵 청문회 계속, EDSA 1구간 조기 완공",
+    "summary_en": "House impeachment proceedings against VP Sara Duterte add to political uncertainty, while a bright spot emerges: EDSA Section 1 rehabilitation completed two months ahead of schedule.",
+    "summary_kr": "사라 두테르테 부통령 탄핵 청문회로 정치적 불확실성 증가. 한편 밝은 소식도: EDSA 1구간 복구가 예정보다 2개월 앞당겨 완공.",
     "layers": [
       {
         "depth": 1,

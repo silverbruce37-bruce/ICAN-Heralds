@@ -23,50 +23,48 @@
 
     <div id="installBanner" class="install-banner" onclick="installApp()">📲 아이캔헤럴즈를 앱으로 설치하고 매일 아침 필리핀 소식을 받아보세요! (클릭)</div>
 
-    <!-- ═══ ROW 1: Utility Bar ═══ -->
+    <!-- ═══ ROW 1: Utility Bar (NYT-style) ═══ -->
     <nav class="nyt-utility-bar">
         <div class="nyt-utility-inner">
             <div class="nyt-utility-left">
                 <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
                     <span></span><span></span><span></span>
                 </button>
+                <button id="langBtn" class="nyt-lang-btn" onclick="toggleLanguage()">EN | 한</button>
             </div>
             <div class="nyt-utility-center">
-                <span class="nyt-utility-edition">
-                    <span class="en-content">Philippines Edition</span>
-                    <span class="kr-content">필리핀판</span>
-                </span>
+                <span class="nyt-dateline-compact">Saturday, April 12, 2026</span>
             </div>
             <div class="nyt-utility-right">
-                <button id="langBtn" class="nyt-lang-btn" onclick="toggleLanguage()">EN | 한</button>
-                <button class="sos-btn">SOS</button>
+                <button class="sos-btn">
+                    <span class="en-content">EMERGENCY</span>
+                    <span class="kr-content">긴급연락</span>
+                </button>
             </div>
         </div>
     </nav>
 
-    <!-- ═══ ROW 2: Date Line ═══ -->
-    <div class="nyt-dateline">
-        <div class="nyt-dateline-inner">
-            <span class="nyt-dateline-text">SUNDAY, APRIL 12, 2026</span>
-            <span class="nyt-dateline-sep"></span>
-            <span class="nyt-dateline-text">MANILA, PHILIPPINES</span>
-            <span class="nyt-dateline-sep"></span>
-            <span class="nyt-dateline-text">VOL. 04</span>
-        </div>
-    </div>
-
-    <!-- ═══ ROW 3: Masthead ═══ -->
+    <!-- ═══ ROW 2: Masthead / Nameplate (NYT-style) ═══ -->
     <header class="nyt-masthead">
         <div class="nyt-masthead-inner">
+            <div class="nyt-rule-top"></div>
             <h1 class="nyt-nameplate">ICAN Heralds</h1>
-            <p class="nyt-motto">
-                <span class="en-content">"Where Value Connects to Create Greater Meaning"</span>
-                <span class="kr-content">"가치가 연결되어 더 큰 의미를 만들어 내는 곳"</span>
-            </p>
+            <div class="nyt-masthead-meta">
+                <span class="nyt-meta-left">
+                    <span class="en-content">Philippines Edition</span>
+                    <span class="kr-content">필리핀판</span>
+                </span>
+                <span class="nyt-meta-motto">
+                    <span class="en-content">"Where Value Connects to Create Greater Meaning"</span>
+                    <span class="kr-content">"가치가 연결되어 더 큰 의미를 만들어 내는 곳"</span>
+                </span>
+                <span class="nyt-meta-right">Vol. 04</span>
+            </div>
+            <div class="nyt-rule-bottom"></div>
         </div>
     </header>
 
-    <!-- ═══ ROW 4: Section Navigation ═══ -->
+    <!-- ═══ ROW 3: Section Navigation (NYT-style) ═══ -->
     <nav class="nyt-sections">
         <div class="nyt-sections-inner">
             <ul class="nyt-section-links">
@@ -88,7 +86,7 @@
                     <span class="en-content">PHP / KRW</span>
                     <span class="kr-content">원/페소 환율</span>
                 </span>
-                <span class="dash-value">24.15</span>
+                <span class="dash-value">40.17</span>
             </div>
             <div class="dash-item">
                 <span class="dash-label">
@@ -96,8 +94,8 @@
                     <span class="kr-content">마닐라 날씨</span>
                 </span>
                 <span class="dash-value">
-                    <span class="en-content">32°C Sunny</span>
-                    <span class="kr-content">32°C 맑음</span>
+                    <span class="en-content">42°C Heat Warning</span>
+                    <span class="kr-content">42°C 폭염 경보</span>
                 </span>
             </div>
             <div class="dash-item">
@@ -113,7 +111,7 @@
                     <span class="kr-content">대사관 영사 업무</span>
                 </span>
                 <span class="dash-value">
-                    <span class="en-content">Normal</span>
+                    <span class="en-content">Normal Operations</span>
                     <span class="kr-content">정상 운영</span>
                 </span>
             </div>
@@ -128,17 +126,17 @@
                 <span class="kr-content">커버 스토리</span>
             </div>
             <h2 class="main-title">
-                <span class="en-content">Philippines-Korea Relations Hit New Heights on 'Day of Valor'</span>
-                <span class="kr-content">필리핀 '용맹의 날' 기념식 거행; 한-필 동맹 시너지 최고조 달해</span>
+                <span class="en-content">World Bank Slashes Philippines Growth to 3.7% as Energy Crisis Deepens</span>
+                <span class="kr-content">세계은행, 에너지 위기 심화 속 필리핀 성장률 3.7%로 하향</span>
             </h2>
             <h3 class="sub-title">
-                <span class="en-content">Korean-Speaking Tourism Police Deployed Nationwide as Bilateral Ties Strengthen Amid Peninsular Tensions.</span>
-                <span class="kr-content">남북 긴장 속에서도 한-필 유대 강화; 보라카이·세부 등지에 '한국어 가능 관광 경찰' 전격 배치.</span>
+                <span class="en-content">Marcos declares national energy emergency as inflation hits 20-month high of 4.1% — peso near historic lows at ₱59.88 per dollar</span>
+                <span class="kr-content">마르코스 대통령 국가 에너지 비상사태 선포, 물가상승률 20개월 최고 4.1% — 페소 달러당 59.88 역대 최저 근처</span>
             </h3>
 
             <div class="main-image-container">
-                <img src="images/main_article.png" alt="Day of Valor Ceremony">
-                <div class="image-caption">Photo: Commemoration Ceremony at Mt. Samat National Shrine, Bataan (2026.04.09)</div>
+                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=700&fit=crop" alt="Philippines Economy">
+                <div class="image-caption">Photo: Manila financial district skyline amid economic uncertainty (April 2026)</div>
             </div>
 
             <div class="article-meta">
@@ -154,14 +152,14 @@
             <div class="content-columns">
                 <div class="column">
                     <div class="en-content">
-                        <p>South Korea remains the Philippines' #1 source of international visitors, accounting for over 20% of total arrivals. On this "Day of Valor," the Department of Tourism and the PNP have officially deployed Korean-speaking officers to key hubs.</p>
-                        <p>This comes as President Lee Jae Myung's recent state visit solidified 10 major agreements in shipbuilding and nuclear energy. The agreements are expected to generate over 15,000 jobs across both nations and deepen the economic interdependence that has been building for decades.</p>
-                        <p>"This is not just diplomacy — it's a living partnership that touches the daily lives of Koreans in the Philippines," said Ambassador Kim Sung-ho at the Bataan ceremony.</p>
+                        <p>The World Bank has slashed its 2026 growth forecast for the Philippines from 5.3% to 3.7%, the steepest downgrade in the Asia-Pacific region this year. The dramatic revision comes amid a deepening energy crisis triggered by Middle East supply disruptions, with President Marcos declaring a national energy emergency as fuel costs ripple through every sector of the economy.</p>
+                        <p>March inflation surged to 4.1% — the highest in 20 months — driven by soaring electricity and food prices. The Philippine peso has weakened to ₱59.88 per dollar, hovering near historic lows, while the country simultaneously negotiates with Washington over a proposed 19% US tariff increase that threatens to further squeeze import-dependent businesses.</p>
+                        <p>For the estimated 120,000 Korean residents in the Philippines, the triple blow of currency weakness, rising costs, and trade uncertainty creates an urgent need for financial planning. Korean won remittances now convert at roughly ₱40.17 per 1,000 won. Meanwhile, the Korea-Philippines bilateral relationship offers a counterweight: infrastructure cooperation on bridges, nuclear energy, and critical minerals — announced during President Lee Jae Myung's recent state visit — promises long-term economic opportunities even as short-term headwinds mount.</p>
                     </div>
                     <div class="kr-content">
-                        <p>한국은 필리핀 전체 해외 방문객의 20% 이상을 차지하는 부동의 1위 시장입니다. 필리핀 관광부와 경찰청은 오늘 '용맹의 날'을 맞아 주요 관광지에 한국어 전담 경찰관 배치를 완료했습니다.</p>
-                        <p>이는 최근 이재명 대통령의 국빈 방문을 통해 체결된 조선 및 원자력 분야 10대 핵심 협정의 후속 조치로 풀이됩니다. 이 협정은 양국에 걸쳐 15,000개 이상의 일자리를 창출하고, 수십 년간 쌓아온 경제적 상호의존을 한층 깊게 할 것으로 기대됩니다.</p>
-                        <p>김성호 대사는 바탄 기념식에서 "이것은 단순한 외교가 아닌, 필리핀에 거주하는 한국인들의 일상에 닿는 살아있는 파트너십"이라고 밝혔습니다.</p>
+                        <p>세계은행이 2026년 필리핀 성장률 전망을 5.3%에서 3.7%로 하향 조정했다. 올해 아시아태평양 지역에서 가장 급격한 하향이다. 중동 공급 불안으로 촉발된 에너지 위기가 심화되는 가운데, 마르코스 대통령은 연료비 급등이 경제 전 분야에 파급되자 국가 에너지 비상사태를 선포했다.</p>
+                        <p>3월 물가상승률은 전기료와 식품 가격 급등으로 20개월 최고치인 4.1%를 기록했다. 페소는 달러당 59.88페소로 역대 최저 근처에서 머물고 있으며, 동시에 수입 의존 기업들을 더욱 압박할 수 있는 미국의 19% 관세 인상 협상도 진행 중이다.</p>
+                        <p>필리핀 거주 한국인 약 12만 명에게 환율 약세, 비용 상승, 무역 불확실성의 삼중고는 재정 계획의 시급성을 더하고 있다. 현재 원화 송금은 1,000원당 약 40.17페소로 환전된다. 한편 이재명 대통령의 최근 방문에서 발표된 교량, 원자력, 핵심광물 분야의 한-필 인프라 협력은 단기 역풍에도 불구하고 장기적 경제 기회를 제공하고 있다.</p>
                     </div>
                 </div>
             </div>
@@ -180,24 +178,24 @@
             <!-- Featured News (대형 1건) -->
             <div class="featured-news">
                 <div class="featured-news-image">
-                    <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=800&h=450&fit=crop" alt="NK Missile Test">
-                    <span class="tag tag-security">Security</span>
+                    <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=800&h=450&fit=crop" alt="Korea-Philippines Cooperation">
+                    <span class="tag tag-diplomacy">Cooperation</span>
                 </div>
                 <div class="featured-news-body">
                     <h3>
-                        <span class="en-content">North Korea Confirms 3-Day Missile Spree — What It Means for Koreans Abroad</span>
-                        <span class="kr-content">북한 3일 연속 미사일 도발 — 재외 한인에게 미치는 영향은?</span>
+                        <span class="en-content">Korea-Philippines Alliance Deepens: Defense, Nuclear, Critical Minerals on the Table</span>
+                        <span class="kr-content">한-필 동맹 심화: 국방·원자력·핵심광물 협력 본격화</span>
                     </h3>
                     <p class="featured-news-lead">
-                        <span class="en-content">Pyongyang tested cluster-bomb missiles and anti-aircraft systems from April 6-8, citing defensive measures. Defense analysts in Manila assess the implications for the 120,000-strong Korean community in the Philippines. While direct military threat remains minimal, experts urge awareness of potential economic ripple effects on the Korean won.</span>
-                        <span class="kr-content">평양은 4월 6일부터 8일까지 클러스터 폭탄 미사일과 방공 시스템 테스트를 진행했다고 발표했습니다. 마닐라의 국방 분석가들은 필리핀 내 12만 한인 커뮤니티에 미칠 영향을 평가하고 있습니다. 직접적인 군사 위협은 미미하지만, 전문가들은 원화 환율에 대한 경제적 파급 효과에 주의를 기울일 것을 당부하고 있습니다.</span>
+                        <span class="en-content">Following President Lee Jae Myung's state visit, DPWH delegation meets with Korean firms to advance bridge construction and nuclear energy partnerships. Angeles City KTV discrimination incident swiftly resolved through embassy intervention, reinforcing the strength of bilateral channels.</span>
+                        <span class="kr-content">이재명 대통령 방문 후속으로 DPWH 대표단이 한국 기업들과 교량 건설 및 원자력 파트너십을 논의했다. 앙헬레스 KTV 한국인 차별 사건은 대사관의 신속한 개입으로 해결되며 양국 채널의 강건함을 확인했다.</span>
                     </p>
                     <div class="article-meta">
-                        <span class="meta-author">Economics Desk</span>
+                        <span class="meta-author">Diplomacy Desk</span>
                         <span class="meta-divider">·</span>
                         <span class="meta-time">
-                            <span class="en-content">3 min read</span>
-                            <span class="kr-content">3분 읽기</span>
+                            <span class="en-content">4 min read</span>
+                            <span class="kr-content">4분 읽기</span>
                         </span>
                         <span class="meta-divider">·</span>
                         <span class="meta-date">2026.04.12</span>
@@ -213,12 +211,12 @@
                     <div class="news-card-body">
                         <span class="tag tag-economy">Economy</span>
                         <h3>
-                            <span class="en-content">Korean Tech Giant Expands R&D Center in Quezon City</span>
-                            <span class="kr-content">한국 대형 기술 기업, 케손시티 R&D 센터 확장</span>
+                            <span class="en-content">Peso Slides to ₱59.88 as US Tariff Talks Stall at 19%</span>
+                            <span class="kr-content">미 관세 19% 협상 교착, 페소 59.88로 급락</span>
                         </h3>
                         <p>
-                            <span class="en-content">LG Electronics announced a ₱3.8 billion investment to expand its research facility, creating over 500 new tech jobs and strengthening its innovation hub in the Philippines.</span>
-                            <span class="kr-content">LG전자가 ₱38억 투자로 연구소 확장을 발표, 500명 이상의 새로운 기술 일자리 창출 및 필리핀 혁신 허브 강화</span>
+                            <span class="en-content">The peso weakened to historic lows amid stalled US tariff negotiations. Visa relief for stranded travelers extended to May 1 as Middle East airspace closures continue to disrupt travel.</span>
+                            <span class="kr-content">미국 관세 협상 교착 속 페소가 역대 최저로 하락. 중동 영공 폐쇄로 발묶인 여행자들을 위한 비자 구호 조치가 5월 1일까지 연장.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -227,18 +225,17 @@
                         <button class="learn-btn" onclick="openAcademy('news_1')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-
 <div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop" alt="Culture"></div>
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=200&fit=crop" alt="Safety"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-culture">Culture</span>
+                        <span class="tag tag-safety">Safety</span>
                         <h3>
-                            <span class="en-content">K-Pop Spring Festival Returns to BGC with Record Attendance</span>
-                            <span class="kr-content">K-팝 봄 축제, BGC에 돌아오며 기록적 입장객 달성</span>
+                            <span class="en-content">Typhoon Caloy Eyes PAR Entry Amid Record 42°C Heat Wave</span>
+                            <span class="kr-content">태풍 칼로이 PAR 진입 임박, 42°C 기록적 폭염</span>
                         </h3>
                         <p>
-                            <span class="en-content">Over 45,000 fans gathered for the three-day Korean Pop Culture Festival in Bonifacio Global City, featuring live performances, Korean food vendors, and cultural exhibitions.</span>
-                            <span class="kr-content">보니파시오 글로벌 시티의 3일간 한국 팝 문화 축제에 45,000명 이상 참석, 라이브 공연, 한식 벤더 및 문화 전시 개최</span>
+                            <span class="en-content">An unusual dry-season typhoon threatens the Philippines as temperatures hit a scorching 42°C. PAGASA warns residents to prepare for extreme weather shifts and potential flooding.</span>
+                            <span class="kr-content">건기 중 이례적 태풍이 필리핀을 위협하는 가운데 기온은 42°C 기록. PAGASA는 극단적 기상 변화와 침수 가능성에 대비할 것을 당부.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -247,38 +244,36 @@
                         <button class="learn-btn" onclick="openAcademy('news_2')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-
 <div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=400&h=200&fit=crop" alt="Cooperation"></div>
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop" alt="Culture"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-diplomacy">Cooperation</span>
+                        <span class="tag tag-culture">Culture</span>
                         <h3>
-                            <span class="en-content">Korea and Philippines Announce Joint Military Training Exercise</span>
-                            <span class="kr-content">한국-필리핀, 공동 군사 훈련 실시 발표</span>
+                            <span class="en-content">Free ASEAN-Korea Music Festival Hits Araneta Coliseum April 18-19</span>
+                            <span class="kr-content">4월 18~19일 아라네타에서 무료 ASEAN-한국 뮤직 페스튰벌</span>
                         </h3>
                         <p>
-                            <span class="en-content">Defense ministers from both countries confirmed plans for quarterly trilateral naval exercises with Japan, enhancing regional security cooperation and maritime stability.</span>
-                            <span class="kr-content">양국 국방장관, 일본과의 분기별 삼각형 해군 훈련 계획 확인, 지역 안보 협력 및 해양 안정성 강화</span>
+                            <span class="en-content">A free two-day music festival celebrating Korea-ASEAN cultural exchange comes to Araneta Coliseum next weekend, featuring K-pop performances and collaborative stages with Southeast Asian artists.</span>
+                            <span class="kr-content">다음 주말 아라네타 콜로세움에서 한-아세안 문화 교류를 기념하는 2일간 무료 음악 페스튰벌이 열린다. K-pop 공연과 동남아 아티스트 콜라보 무대 예정.</span>
                         </p>
                         <span class="news-read-time">
-                            <span class="en-content">3 min read</span>
-                            <span class="kr-content">3분 읽기</span>
+                            <span class="en-content">2 min read</span>
+                            <span class="kr-content">2분 읽기</span>
                         </span>
                         <button class="learn-btn" onclick="openAcademy('news_3')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-
 <div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop" alt="Safety"></div>
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=400&h=200&fit=crop" alt="Security"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-safety">Safety</span>
+                        <span class="tag tag-security">Security</span>
                         <h3>
-                            <span class="en-content">Korean Community Alert: Updated Travel Advisory for Mindanao</span>
-                            <span class="kr-content">한인 커뮤니티 공지: 민다나오 여행 경고 업데이트</span>
+                            <span class="en-content">Duterte Impeachment Hearings Continue; EDSA Section 1 Completed Early</span>
+                            <span class="kr-content">두테르테 탄핵 청문회 계속, EDSA 1구간 조기 완공</span>
                         </h3>
                         <p>
-                            <span class="en-content">The Korean Embassy updated travel advisories for Mindanao region. Residents and visitors are advised to exercise heightened caution and register with embassy for emergency support.</span>
-                            <span class="kr-content">한국 대사관, 민다나오 지역 여행 경고 업데이트. 거주자 및 방문객은 높은 주의를 유지하고 긴급 지원을 위해 대사관에 등록할 것을 권장</span>
+                            <span class="en-content">House impeachment proceedings against VP Sara Duterte add to political uncertainty, while a bright spot emerges: EDSA Section 1 rehabilitation completed two months ahead of schedule.</span>
+                            <span class="kr-content">사라 두테르테 부통령 탄핵 청문회로 정치적 불확실성 증가. 한편 밝은 소식도: EDSA 1구간 복구가 예정보다 2개월 앞당겨 완공.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -288,483 +283,6 @@
                     </div>
                 </div>
 
-
-        </section>
-
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- FOOD & TRAVEL: Food Blog Style              -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section id="food-travel" class="food-travel-section">
-            <h2 class="section-title">
-                <span class="en-content">Food & Hidden Gems</span>
-                <span class="kr-content">맛집 & 숨은 보석</span>
-            </h2>
-            <p class="section-intro">
-                <span class="en-content">Hand-picked by our editors who actually went, ate, and felt it. No paid reviews — only places worth your precious time and money.</span>
-                <span class="kr-content">직접 가보고, 먹어보고, 감동한 곳만 담았습니다. 협찬 리뷰 없이 — 오직 당신의 소중한 시간과 돈의 가치가 있는 곳만.</span>
-            </p>
-
-            <!-- Food Hunter Series Banner -->
-            <a href="food-hunter-ortigas.html" class="food-hunter-banner">
-                <div class="food-hunter-banner-badge">MANILA FOOD HUNTER — VOL. 01</div>
-                <div class="food-hunter-banner-body">
-                    <h3>
-                        <span class="en-content">Ortigas: The Hidden Kitchens Behind the Skyscrapers</span>
-                        <span class="kr-content">올티가스: 마천루 뒤에 숨겨진 부엌들</span>
-                    </h3>
-                    <p>
-                        <span class="en-content">30 days of eating through Kapitolyo, Ortigas CBD, and Greenhills — 5 hidden gems that locals won't share. Read the full editorial →</span>
-                        <span class="kr-content">카피톨요, 올티가스 CBD, 그린힐스를 30일간 먹고 또 먹었습니다 — 현지인도 안 알려주는 숨은 맛집 5곳. 에디토리얼 전문 보기 →</span>
-                    </p>
-                </div>
-                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" alt="Ortigas Skyline" class="food-hunter-banner-img">
-            </a>
-
-            <!-- Food Spot 1: Full Feature -->
-            <article class="food-feature">
-                <div class="food-feature-badge">
-                    <span class="en-content">EDITOR'S CHOICE</span>
-                    <span class="kr-content">에디터 추천</span>
-                </div>
-                <div class="food-feature-gallery">
-                    <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&h=500&fit=crop" alt="Binondo Secret Tea House — Signature Dim Sum" class="food-hero-img">
-                    <div class="food-gallery-strip">
-                        <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=200&h=200&fit=crop" alt="Interior">
-                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=200&h=200&fit=crop" alt="Tea Selection">
-                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=200&h=200&fit=crop" alt="Street View">
-                    </div>
-                </div>
-                <div class="food-feature-content">
-                    <div class="food-tags">
-                        <span class="food-type-tag">
-                            <span class="en-content">Chinese-Filipino</span>
-                            <span class="kr-content">중국-필리핀 요리</span>
-                        </span>
-                        <span class="food-type-tag">
-                            <span class="en-content">Dim Sum</span>
-                            <span class="kr-content">딤섬</span>
-                        </span>
-                        <span class="food-type-tag">
-                            <span class="en-content">Hidden Gem</span>
-                            <span class="kr-content">숨은 맛집</span>
-                        </span>
-                    </div>
-                    <h3>
-                        <span class="en-content">Binondo Secret Tea House</span>
-                        <span class="kr-content">비논도 시크릿 티 하우스</span>
-                    </h3>
-                    <div class="food-rating">
-                        <span class="stars">★★★★★</span>
-                        <span class="rating-score">4.8</span>
-                        <span class="rating-count">
-                            <span class="en-content">(Herald Rating)</span>
-                            <span class="kr-content">(헤럴드 평점)</span>
-                        </span>
-                    </div>
-                    <p class="food-lead">
-                        <span class="en-content">Tucked behind an unmarked wooden door in the world's oldest Chinatown, this 40-year-old tea house feels like stepping into a secret your grandmother kept. The handmade har gow arrives steaming in bamboo baskets, the shrimp so fresh it snaps between your teeth. Owner Lola Chen still rolls every wrapper by hand at 5 AM.</span>
-                        <span class="kr-content">세계에서 가장 오래된 차이나타운, 표시 없는 나무문 뒤에 숨겨진 40년 전통의 이 찻집은 할머니만 알던 비밀 장소에 들어서는 기분입니다. 대나무 찜기에서 김이 모락모락 피어오르는 수제 하교(새우 만두)는 새우가 이 사이에서 탱글하게 터집니다. 주인 롤라 첸은 지금도 매일 새벽 5시에 직접 만두피를 빚습니다.</span>
-                    </p>
-                    <blockquote class="food-quote">
-                        <span class="en-content">"The kind of place you don't tell everyone about — but you always come back to."</span>
-                        <span class="kr-content">"아무에게나 알려주고 싶지 않은 곳 — 하지만 반드시 다시 찾게 되는 곳."</span>
-                        <cite>— Herald Food Editor</cite>
-                    </blockquote>
-                    <div class="food-details">
-                        <div class="food-detail-item">
-                            <span class="food-detail-icon">📍</span>
-                            <div>
-                                <strong>
-                                    <span class="en-content">Location</span>
-                                    <span class="kr-content">위치</span>
-                                </strong>
-                                <span>Ongpin St., Binondo, Manila</span>
-                            </div>
-                        </div>
-                        <div class="food-detail-item">
-                            <span class="food-detail-icon">💰</span>
-                            <div>
-                                <strong>
-                                    <span class="en-content">Price Range</span>
-                                    <span class="kr-content">가격대</span>
-                                </strong>
-                                <span>₱200–500 /
-                                    <span class="en-content">person</span>
-                                    <span class="kr-content">1인</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="food-detail-item">
-                            <span class="food-detail-icon">🕐</span>
-                            <div>
-                                <strong>
-                                    <span class="en-content">Hours</span>
-                                    <span class="kr-content">영업시간</span>
-                                </strong>
-                                <span>6:00 AM – 3:00 PM (
-                                    <span class="en-content">Closed Mondays</span>
-                                    <span class="kr-content">월요일 휴무</span>
-                                )</span>
-                            </div>
-                        </div>
-                        <div class="food-detail-item">
-                            <span class="food-detail-icon">🗣️</span>
-                            <div>
-                                <strong>
-                                    <span class="en-content">Language</span>
-                                    <span class="kr-content">언어</span>
-                                </strong>
-                                <span>
-                                    <span class="en-content">Tagalog, English, Hokkien</span>
-                                    <span class="kr-content">타갈로그, 영어, 민남어</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="food-must-try">
-                        <h4>
-                            <span class="en-content">Must-Try Items</span>
-                            <span class="kr-content">꼭 먹어봐야 할 메뉴</span>
-                        </h4>
-                        <ul>
-                            <li>
-                                <span class="en-content">Handmade Har Gow (Shrimp Dumpling) — ₱180</span>
-                                <span class="kr-content">수제 하교 (새우 만두) — ₱180</span>
-                            </li>
-                            <li>
-                                <span class="en-content">Oolong Milk Tea with Brown Sugar — ₱120</span>
-                                <span class="kr-content">흑당 우롱 밀크티 — ₱120</span>
-                            </li>
-                            <li>
-                                <span class="en-content">Century Egg Congee — ₱150</span>
-                                <span class="kr-content">피단 죽 — ₱150</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="food-tip">
-                        <span class="food-tip-label">💡 Herald Tip</span>
-                        <span class="en-content">Go before 8 AM to skip the line. Ask for the "off-menu" turnip cake — Lola makes it only when she's in the mood.</span>
-                        <span class="kr-content">오전 8시 전에 가면 줄을 피할 수 있습니다. "비밀 메뉴" 무떡을 물어보세요 — 롤라가 기분이 좋을 때만 만든답니다.</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Travel Spot Cards (2-column) -->
-            <div class="travel-grid">
-                <!-- Travel Spot 1 -->
-                <article class="travel-card">
-                    <div class="travel-card-image">
-                        <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=600&h=400&fit=crop" alt="Inland Blue Lagoon">
-                        <span class="travel-badge">
-                            <span class="en-content">SECRET SPOT</span>
-                            <span class="kr-content">숨은 명소</span>
-                        </span>
-                    </div>
-                    <div class="travel-card-body">
-                        <div class="food-tags">
-                            <span class="food-type-tag">
-                                <span class="en-content">Nature</span>
-                                <span class="kr-content">자연</span>
-                            </span>
-                            <span class="food-type-tag">
-                                <span class="en-content">Swimming</span>
-                                <span class="kr-content">수영</span>
-                            </span>
-                        </div>
-                        <h3>
-                            <span class="en-content">Inland Blue Lagoon, Pangasinan</span>
-                            <span class="kr-content">내륙 블루 라군, 팡가시난</span>
-                        </h3>
-                        <div class="food-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span class="rating-score">4.5</span>
-                        </div>
-                        <p class="food-lead">
-                            <span class="en-content">Deep in the forests of Pangasinan, where Google Maps gives up and locals take over as your GPS. This natural pool glows an impossible shade of turquoise. The silence here isn't empty — it's full of birdsong and the distant sound of waterfalls. Bring nothing but a towel and surrender to nature's infinity pool.</span>
-                            <span class="kr-content">구글 맵이 포기하고 동네 주민이 내비게이션이 되어주는 팡가시난 숲 깊은 곳. 이 천연 수영장은 믿기 힘든 터키색으로 빛납니다. 이곳의 고요함은 비어 있지 않습니다 — 새소리와 저 멀리 폭포 소리로 가득 차 있습니다. 수건 하나만 가져오세요. 자연이 만든 인피니티 풀에 몸을 맡기면 됩니다.</span>
-                        </p>
-                        <div class="food-details travel-details-compact">
-                            <div class="food-detail-item">
-                                <span class="food-detail-icon">📍</span>
-                                <span>Bolinao, Pangasinan (
-                                    <span class="en-content">5h from Manila</span>
-                                    <span class="kr-content">마닐라에서 5시간</span>
-                                )</span>
-                            </div>
-                            <div class="food-detail-item">
-                                <span class="food-detail-icon">💰</span>
-                                <span>
-                                    <span class="en-content">Entrance ₱50 · Cottage ₱300</span>
-                                    <span class="kr-content">입장료 ₱50 · 코티지 ₱300</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="food-tip">
-                            <span class="food-tip-label">💡 Herald Tip</span>
-                            <span class="en-content">Visit on weekdays. Bring reef-safe sunscreen — this is a protected watershed area.</span>
-                            <span class="kr-content">평일에 방문하세요. 산호 안전 선크림을 챙기세요 — 보호 수원지 지역입니다.</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Travel Spot 2 -->
-                <article class="travel-card">
-                    <div class="travel-card-image">
-                        <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&h=400&fit=crop" alt="Escolta Heritage Walk">
-                        <span class="travel-badge">
-                            <span class="en-content">HERITAGE</span>
-                            <span class="kr-content">유산 탐방</span>
-                        </span>
-                    </div>
-                    <div class="travel-card-body">
-                        <div class="food-tags">
-                            <span class="food-type-tag">
-                                <span class="en-content">Culture</span>
-                                <span class="kr-content">문화</span>
-                            </span>
-                            <span class="food-type-tag">
-                                <span class="en-content">Walking Tour</span>
-                                <span class="kr-content">도보 투어</span>
-                            </span>
-                        </div>
-                        <h3>
-                            <span class="en-content">Escolta Heritage Walk</span>
-                            <span class="kr-content">에스콜타 헤리티지 워크</span>
-                        </h3>
-                        <div class="food-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-score">4.7</span>
-                        </div>
-                        <p class="food-lead">
-                            <span class="en-content">Manila's original "Wall Street" is reborn. Walk past Art Deco facades where Filipino merchants once rivaled Hong Kong traders. Today, young creatives have turned abandoned floors into galleries, vinyl shops, and third-wave coffee roasters. Every Saturday, the street closes to traffic and becomes a living museum.</span>
-                            <span class="kr-content">마닐라의 원조 '월스트리트'가 부활했습니다. 한때 홍콩 상인들과 겨루던 필리핀 상인들의 아르데코 건물 앞을 걸어보세요. 오늘날 젊은 아티스트들이 버려진 층들을 갤러리, 바이닐 숍, 스페셜티 커피 로스터리로 탈바꿈시켰습니다. 매주 토요일, 이 거리는 차 없는 살아 있는 박물관이 됩니다.</span>
-                        </p>
-                        <div class="food-details travel-details-compact">
-                            <div class="food-detail-item">
-                                <span class="food-detail-icon">📍</span>
-                                <span>Escolta St., Binondo, Manila</span>
-                            </div>
-                            <div class="food-detail-item">
-                                <span class="food-detail-icon">🕐</span>
-                                <span>
-                                    <span class="en-content">Best on Saturdays 10AM–6PM</span>
-                                    <span class="kr-content">토요일 10AM–6PM 추천</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="food-tip">
-                            <span class="food-tip-label">💡 Herald Tip</span>
-                            <span class="en-content">Start at First United Building 2F for coffee, end at Calvo Building for sunset views of the Pasig River.</span>
-                            <span class="kr-content">퍼스트 유나이티드 빌딩 2층 커피로 시작해서, 칼보 빌딩에서 파시그 강 일몰로 마무리하세요.</span>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- EVENTS: Upcoming Cultural Events            -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section id="events" class="events-section">
-            <h2 class="section-title">
-                <span class="en-content">Upcoming Cultural Events</span>
-                <span class="kr-content">다가오는 문화 행사</span>
-            </h2>
-            <div class="events-scroll">
-                <div class="event-card">
-                    <div class="event-badge">APR 18</div>
-                    <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=600&h=400&fit=crop" alt="ROUND Festival">
-                    <div class="event-content">
-                        <h3>ROUND Festival Manila</h3>
-                        <p>
-                            <span class="en-content">ASEAN-Korea music exchange featuring K-pop star 10CM and regional artists. The night will close with a massive fireworks display over the Coliseum.</span>
-                            <span class="kr-content">10CM 등 최정상 아티스트가 참여하는 한-아세안 음악 교류의 장. 콜리세움 상공의 대형 불꽃놀이로 밤을 마무리합니다.</span>
-                        </p>
-                        <div class="event-details-row">
-                            <div class="location">
-                                <span class="en-content">Araneta Coliseum, Quezon City</span>
-                                <span class="kr-content">퀘존 시티 아라네타 콜리세움</span>
-                            </div>
-                            <span class="event-price">₱1,500–₱8,000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-badge">MAY 05</div>
-                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="K-Food Expo">
-                    <div class="event-content">
-                        <h3>Manila K-Food Expo</h3>
-                        <p>
-                            <span class="en-content">50+ vendors serving authentic Korean street food, modern fusion, and K-BBQ live demos. Free tasting passes for first 500 visitors daily.</span>
-                            <span class="kr-content">50개 이상의 부스에서 한국 길거리 음식, 퓨전 요리, K-BBQ 라이브 시연. 매일 선착순 500명 무료 시식권 제공.</span>
-                        </p>
-                        <div class="event-details-row">
-                            <div class="location">
-                                <span class="en-content">SMX Convention Center, Pasay</span>
-                                <span class="kr-content">파사이 SMX 컨벤션 센터</span>
-                            </div>
-                            <span class="event-price">
-                                <span class="en-content">FREE Entry</span>
-                                <span class="kr-content">입장 무료</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-badge">JUN 12</div>
-                    <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&h=400&fit=crop" alt="Independence Day">
-                    <div class="event-content">
-                        <h3>PH-KR Friendship Parade</h3>
-                        <p>
-                            <span class="en-content">A grand celebration of diplomatic ties featuring traditional dances, hanbok & terno fashion shows, and a street food market.</span>
-                            <span class="kr-content">양국 수교를 기념하는 퍼레이드. 전통 무용, 한복 & 테르노 패션쇼, 길거리 음식 마켓이 펼쳐집니다.</span>
-                        </p>
-                        <div class="event-details-row">
-                            <div class="location">
-                                <span class="en-content">Luneta Park, Manila</span>
-                                <span class="kr-content">마닐라 루네타 파크</span>
-                            </div>
-                            <span class="event-price">
-                                <span class="en-content">FREE</span>
-                                <span class="kr-content">무료</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-badge">JUL 20</div>
-                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop" alt="Tech Summit">
-                    <div class="event-content">
-                        <h3>Bilateral Tech Summit</h3>
-                        <p>
-                            <span class="en-content">Innovation forum on AI and Green Energy cooperation. Samsung, LG, and PLDT headline. Startup pitch competition with ₱5M prize pool.</span>
-                            <span class="kr-content">AI 및 신재생 에너지 협력 혁신 포럼. 삼성, LG, PLDT 헤드라인. 총 상금 500만 페소의 스타트업 피치 대회.</span>
-                        </p>
-                        <div class="event-details-row">
-                            <div class="location">
-                                <span class="en-content">BGC Arts Center, Taguig</span>
-                                <span class="kr-content">타기그 BGC 아트 센터</span>
-                            </div>
-                            <span class="event-price">₱2,000</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- HERALD'S PICK: Editor's Column              -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section id="picks" class="picks-section">
-            <h2 class="section-title">
-                <span class="en-content">Herald's Pick</span>
-                <span class="kr-content">헤럴드 픽</span>
-            </h2>
-            <div class="picks-card">
-                <div class="picks-header">
-                    <div class="picks-author-info">
-                        <div class="picks-avatar">P</div>
-                        <div>
-                            <strong>
-                                <span class="en-content">Paul's Column</span>
-                                <span class="kr-content">폴샘의 칼럼</span>
-                            </strong>
-                            <span class="picks-role">
-                                <span class="en-content">Herald Editor-in-Chief</span>
-                                <span class="kr-content">헤럴드 편집장</span>
-                            </span>
-                        </div>
-                    </div>
-                    <span class="picks-date">2026.04.12</span>
-                </div>
-                <h3 class="picks-title">
-                    <span class="en-content">Why the Binondo Tea House Matters More Than You Think</span>
-                    <span class="kr-content">비논도 찻집이 당신이 생각하는 것보다 중요한 이유</span>
-                </h3>
-                <div class="picks-body">
-                    <p>
-                        <span class="en-content">I first walked into that unmarked door five years ago, lost and hungry in Binondo's maze of alleys. What I found wasn't just dumplings — it was a 40-year story of a Chinese-Filipino grandmother who refused to franchise, refused to modernize her menu, and refused to serve anything she wouldn't feed her own grandchildren.</span>
-                        <span class="kr-content">5년 전, 비논도의 미로 같은 골목에서 길을 잃고 배가 고팠을 때 처음 그 표시 없는 문을 열었습니다. 거기서 발견한 건 단순한 만두가 아니었습니다 — 프랜차이즈를 거부하고, 메뉴 현대화를 거부하고, 자기 손주에게 먹이지 않을 음식은 절대 내놓지 않겠다는 한 중국-필리핀 할머니의 40년 이야기였습니다.</span>
-                    </p>
-                    <p>
-                        <span class="en-content">In a world drowning in algorithm-optimized content and AI-generated restaurant reviews, places like Lola Chen's tea house remind us what "value" actually means. It's not about Michelin stars or Instagram aesthetics. It's about someone waking up at 5 AM every single day for four decades because they believe the work itself is sacred.</span>
-                        <span class="kr-content">알고리즘에 최적화된 콘텐츠와 AI가 생성한 맛집 리뷰에 잠식당한 세상에서, 롤라 첸의 찻집 같은 곳은 "가치"가 실제로 무엇을 의미하는지 일깨워 줍니다. 미슐랭 별이나 인스타 감성이 아닙니다. 일 자체가 신성하다고 믿기에 40년간 매일 새벽 5시에 일어나는 누군가의 이야기입니다.</span>
-                    </p>
-                    <p>
-                        <span class="en-content">That's what iCAN Herald is about. Every corner of this publication exists because we believe your time deserves real stories, real places, and real connections. Not noise — signal. Not content — meaning.</span>
-                        <span class="kr-content">그것이 iCAN 헤럴드가 추구하는 것입니다. 이 매체의 모든 코너는 당신의 시간이 진짜 이야기, 진짜 장소, 진짜 연결을 누릴 자격이 있다고 믿기에 존재합니다. 소음이 아닌 신호. 콘텐츠가 아닌 의미.</span>
-                    </p>
-                </div>
-                <div class="picks-connect">
-                    <span class="en-content">This story connects: </span>
-                    <span class="kr-content">이 이야기가 연결하는 것: </span>
-                    <a href="#food-travel">
-                        <span class="en-content">Binondo Tea House Review</span>
-                        <span class="kr-content">비논도 찻집 리뷰</span>
-                    </a>
-                    <span class="meta-divider">→</span>
-                    <a href="#academy">
-                        <span class="en-content">Today's Word: Dedication</span>
-                        <span class="kr-content">오늘의 단어: Dedication</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- ICAN ACADEMY: Word of the Day               -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section id="academy" class="academy-section">
-            <div class="word-banner">
-                <div class="banner-content">
-                    <div class="word-info">
-                        <span class="banner-label">
-                            <span class="en-content">ICAN Academy Word of the Day</span>
-                            <span class="kr-content">아이캔 아카데미 오늘의 단어</span>
-                        </span>
-                        <h2 class="word-title">Dedication</h2>
-                        <p class="word-pronunciation">/ˌdɛdɪˈkeɪʃən/ — noun</p>
-                        <p class="word-desc">
-                            <span class="en-content">The quality of being committed to a task or purpose with wholehearted devotion. Not merely hard work, but work done with love — the kind that turns 40 years of rolling dumpling wrappers into a masterpiece.</span>
-                            <span class="kr-content">온 마음을 다해 과업이나 목적에 전념하는 자질. 단순한 노력이 아닌, 사랑으로 하는 일 — 40년간 만두피를 빚는 것을 하나의 걸작으로 만드는 그런 종류의 것.</span>
-                        </p>
-                        <p class="word-example">
-                            <span class="en-content"><em>"Her dedication to the craft was evident in every single dumpling."</em></span>
-                            <span class="kr-content"><em>"그녀의 장인 정신에 대한 헌신은 만두 하나하나에 고스란히 담겨 있었다."</em></span>
-                        </p>
-                    </div>
-                    <div class="word-grade">
-                        <span class="grade-label">
-                            <span class="en-content">Grade</span>
-                            <span class="kr-content">학점</span>
-                        </span>
-                        <span class="grade-value">A+</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- PAST EDITIONS: Archive Preview              -->
-        <!-- ═══════════════════════════════════════════ -->
-        <section id="archive-preview" class="archive-preview-section">
-            <h2 class="section-title">
-                <span class="en-content">Past Editions</span>
-                <span class="kr-content">지난 호 보기</span>
-            </h2>
-            <p class="section-intro">
-                <span class="en-content">Every edition is preserved. Browse our growing library of daily news, learning layers, and stories.</span>
-                <span class="kr-content">모든 호가 보존됩니다. 매일 쌓이는 뉴스, 배경지식 레이어, 이야기를 둘러보세요.</span>
-            </p>
-            <div class="archive-preview-grid" id="archivePreviewGrid">
-                <!-- Filled by JS -->
-            </div>
-            <a href="archive.html" class="archive-view-all-btn">
-                <span class="en-content">View All Past Editions &rarr;</span>
-                <span class="kr-content">지난 기사 전체 보기 &rarr;</span>
-            </a>
-        </section>
-    </div>
 
     <footer class="site-footer">
         <div class="footer-content">
@@ -886,6 +404,7 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="js/academy-data.js"></script>
     <script src="js/academy.js"></script>
 </body>
 </html>
