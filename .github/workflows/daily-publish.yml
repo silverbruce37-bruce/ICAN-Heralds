@@ -27,14 +27,21 @@ jobs:
       - name: Generate Daily Edition
         run: bash scripts/generate-daily.sh
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit and Push
         run: |
           git config user.name "ICAN Heralds Bot"
           git config user.email "heralds@ican.academy"
+          VOL=$(cat data/volume.txt 2>/dev/null || echo "?")
+          COVER=$(python3 -c "
+          import json, glob
+          f = sorted(glob.glob('data/daily-*.json'))[-1]
+          d = json.load(open(f))
+          print(d.get('cover_story',{}).get('headline_en','Daily Edition')[:60])
+          " 2>/dev/null || echo "Daily Edition")
           git add ican_news.html index.html sw.js data/ js/academy-data.js
           git diff --staged --quiet || (
-            git commit -m "Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d)"
+            git commit -m "Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d) VOL. $(printf '%02d' $VOL) — $COVER"
             git push
           )

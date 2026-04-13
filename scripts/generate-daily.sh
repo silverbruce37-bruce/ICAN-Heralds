@@ -56,49 +56,63 @@ else:
 
 echo "  Naver rate: 1 PHP = ${PHP_KRW_RATE} KRW"
 
-# ─── Claude CLI call with retry ─────────────────────
+# ─── Anthropic API call with retry ──────────────────
+# Works both locally (claude CLI) and on GitHub Actions (API direct)
 call_claude() {
     local prompt="$1"
     local result=""
     local max_retries=3
 
-    local prompt_file
-    prompt_file=$(mktemp)
-    echo "$prompt" > "$prompt_file"
-
     for attempt in $(seq 1 $max_retries); do
-        result=$(/Users/worker64/.local/bin/claude \
-            --model haiku \
-            -p \
-            --dangerously-skip-permissions \
-            "$(cat "$prompt_file")" 2>/dev/null)
+        if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+            # Use Anthropic API directly (works on GitHub Actions)
+            local prompt_escaped
+            prompt_escaped=$(python3 -c "import json,sys; print(json.dumps(sys.stdin.read()))" <<< "$prompt")
 
-        # Strip markdown fences if present
-        result=$(echo "$result" | python3 -c "
+            result=$(curl -s https://api.anthropic.com/v1/messages \
+                -H "x-api-key: ${ANTHROPIC_API_KEY}" \
+                -H "anthropic-version: 2023-06-01" \
+                -H "content-type: application/json" \
+                -d "{
+                    \"model\": \"claude-haiku-4-5-20251001\",
+                    \"max_tokens\": 8192,
+                    \"messages\": [{\"role\": \"user\", \"content\": ${prompt_escaped}}]
+                }" 2>/dev/null | python3 -c "
+import sys, json
+try:
+    resp = json.load(sys.stdin)
+    text = resp.get('content', [{}])[0].get('text', '')
+    # Strip markdown fences
+    if text.startswith('\`\`\`json'): text = text[7:]
+    if text.startswith('\`\`\`'): text = text[3:]
+    if text.endswith('\`\`\`'): text = text[:-3]
+    print(text.strip())
+except Exception as e:
+    print('', file=sys.stderr)
+")
+        else
+            # Fallback: use Claude CLI locally
+            result=$(claude --model haiku -p --dangerously-skip-permissions "$prompt" 2>/dev/null | python3 -c "
 import sys
 text = sys.stdin.read().strip()
-if text.startswith('\`\`\`json'):
-    text = text[7:]
-if text.startswith('\`\`\`'):
-    text = text[3:]
-if text.endswith('\`\`\`'):
-    text = text[:-3]
+if text.startswith('\`\`\`json'): text = text[7:]
+if text.startswith('\`\`\`'): text = text[3:]
+if text.endswith('\`\`\`'): text = text[:-3]
 print(text.strip())
 ")
+        fi
 
         if [ -n "$result" ]; then
             break
         else
-            echo "  Attempt $attempt: Claude CLI returned empty" >&2
+            echo "  Attempt $attempt: API returned empty" >&2
         fi
 
         sleep 10
     done
 
-    rm -f "$prompt_file"
-
     if [ -z "$result" ]; then
-        echo "ERROR: Claude CLI failed after $max_retries attempts" >&2
+        echo "ERROR: API call failed after $max_retries attempts" >&2
         return 1
     fi
 
