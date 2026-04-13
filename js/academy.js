@@ -530,8 +530,9 @@ function checkAcademyQuiz(el) {
 // PAUL-SAM Q&A — "폴샘에게 물어보세요"
 // ═══════════════════════════════════════════
 
-// Suggested questions per article
-const paulSuggestions = {
+// Suggested questions per article (fallback if academy-data.js didn't define them)
+if (typeof paulSuggestions === 'undefined') {
+var paulSuggestions = {
     cover: {
         en: ['Why is Bataan important in Philippine history?', 'How many Koreans live in the Philippines?', 'What does this mean for Korean businesses?'],
         kr: ['바탄이 필리핀 역사에서 왜 중요한가요?', '필리핀에 한국인이 몇 명 사나요?', '한국 사업자에게 어떤 의미인가요?']
@@ -557,6 +558,7 @@ const paulSuggestions = {
         kr: ['어디에 한국어 경찰이 있나요?', '어떻게 연락하나요?', '필리핀이 한국인에게 안전한가요?']
     }
 };
+}
 
 function buildPaulQA(articleId) {
     const isKorean = document.body.classList.contains('lang-kr');
