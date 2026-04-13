@@ -66,30 +66,51 @@ call_claude() {
     for attempt in $(seq 1 $max_retries); do
         if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
             # Use Anthropic API directly (works on GitHub Actions)
-            local prompt_escaped
-            prompt_escaped=$(python3 -c "import json,sys; print(json.dumps(sys.stdin.read()))" <<< "$prompt")
+            local prompt_file
+            prompt_file=$(mktemp)
 
-            result=$(curl -s https://api.anthropic.com/v1/messages \
+            python3 -c "
+import json, sys
+prompt = sys.stdin.read()
+payload = {
+    'model': 'claude-haiku-4-5-20251001',
+    'max_tokens': 8192,
+    'messages': [{'role': 'user', 'content': prompt}]
+}
+json.dump(payload, open('$prompt_file', 'w'), ensure_ascii=False)
+" <<< "$prompt"
+
+            local raw_resp
+            raw_resp=$(curl -s -w "\n%{http_code}" https://api.anthropic.com/v1/messages \
                 -H "x-api-key: ${ANTHROPIC_API_KEY}" \
                 -H "anthropic-version: 2023-06-01" \
                 -H "content-type: application/json" \
-                -d "{
-                    \"model\": \"claude-haiku-4-5-20251001\",
-                    \"max_tokens\": 8192,
-                    \"messages\": [{\"role\": \"user\", \"content\": ${prompt_escaped}}]
-                }" 2>/dev/null | python3 -c "
+                -d @"$prompt_file" 2>&1)
+
+            local http_code
+            http_code=$(echo "$raw_resp" | tail -1)
+            local body
+            body=$(echo "$raw_resp" | sed '$d')
+
+            rm -f "$prompt_file"
+
+            if [ "$http_code" != "200" ]; then
+                echo "  API HTTP $http_code: $(echo "$body" | head -c 200)" >&2
+                result=""
+            else
+                result=$(echo "$body" | python3 -c "
 import sys, json
 try:
     resp = json.load(sys.stdin)
     text = resp.get('content', [{}])[0].get('text', '')
-    # Strip markdown fences
     if text.startswith('\`\`\`json'): text = text[7:]
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
     print(text.strip())
 except Exception as e:
-    print('', file=sys.stderr)
+    print(f'Parse error: {e}', file=sys.stderr)
 ")
+            fi
         else
             # Fallback: use Claude CLI locally
             result=$(claude --model haiku -p --dangerously-skip-permissions "$prompt" 2>/dev/null | python3 -c "
