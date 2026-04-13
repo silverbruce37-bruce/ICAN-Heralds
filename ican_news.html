@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#0a0a0a">
     <meta name="description" content="필리핀 한인 커뮤니티를 위한 프리미엄 데일리 뉴스 · 맛집 · 여행 · 문화">
     <link rel="apple-touch-icon" href="images/main_article.png">
-    <link rel="stylesheet" href="css/style.css?v=20260412b">
+    <link rel="stylesheet" href="css/style.css?v=20260413a">
 </head>
 <body>
     <!-- Cosmos Background Layer -->
@@ -83,10 +83,11 @@
         <section class="dashboard">
             <div class="dash-item">
                 <span class="dash-label">
-                    <span class="en-content">PHP / KRW</span>
-                    <span class="kr-content">원/페소 환율</span>
+                    <span class="en-content">₱ per ₩1,000</span>
+                    <span class="kr-content">1,000원 → 페소</span>
                 </span>
-                <span class="dash-value">40.17</span>
+                <span class="dash-value" id="dashRate">40.14</span>
+                <span class="dash-source">네이버 금융</span>
             </div>
             <div class="dash-item">
                 <span class="dash-label">
@@ -103,7 +104,7 @@
                     <span class="en-content">Today's Date</span>
                     <span class="kr-content">오늘의 날짜</span>
                 </span>
-                <span class="dash-value">2026.04.12</span>
+                <span class="dash-value" id="dashDate">2026.04.12</span>
             </div>
             <div class="dash-item">
                 <span class="dash-label">

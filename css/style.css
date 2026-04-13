@@ -1565,18 +1565,29 @@ body.lang-kr .apc-title {
 }
 
 .dash-label {
+    font-family: 'Outfit', sans-serif;
     font-size: 0.7rem;
     text-transform: uppercase;
     color: var(--muted);
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 6px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 .dash-value {
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.15rem;
-    font-weight: 900;
+    font-weight: 700;
     color: var(--text);
+    letter-spacing: 0.3px;
+}
+
+.dash-source {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.55rem;
+    color: rgba(255,255,255,0.25);
+    margin-top: 4px;
+    letter-spacing: 0.5px;
 }
 
 /* ═══════════════════════════════════════════ */
@@ -2100,25 +2111,25 @@ header:hover .tagline-sub {
 /* Section dividers & AI-era subtle touches    */
 /* ═══════════════════════════════════════════ */
 
-/* Dashboard — Space Mission Control feel */
+/* Dashboard — Worldly news ticker feel */
 .dashboard {
     position: relative;
 }
 
 .dashboard::before {
-    content: 'MISSION CONTROL';
+    content: 'MARKET · WEATHER · STATUS';
     position: absolute;
     top: -18px;
     left: 20px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Outfit', sans-serif;
     font-size: 0.6rem;
     letter-spacing: 3px;
-    color: rgba(255, 215, 0, 0.2);
+    color: rgba(255, 255, 255, 0.15);
     text-transform: uppercase;
 }
 
 .dash-value {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Playfair Display', Georgia, serif;
 }
 
 /* Section titles — retro accent underline */

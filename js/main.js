@@ -80,6 +80,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Dashboard: auto-update today's date (client-side)
+document.addEventListener('DOMContentLoaded', () => {
+    const dateEl = document.getElementById('dashDate');
+    if (dateEl) {
+        const now = new Date();
+        const y = now.getFullYear();
+        const m = String(now.getMonth() + 1).padStart(2, '0');
+        const d = String(now.getDate()).padStart(2, '0');
+        dateEl.textContent = `${y}.${m}.${d}`;
+    }
+});
+
 // PWA
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

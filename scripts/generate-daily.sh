@@ -31,6 +31,33 @@ HEADER_LINE="${DAY_OF_WEEK}, ${DATE_DISPLAY} | PHILIPPINES | ${VOLUME_DISPLAY}"
 echo "=== ICAN Heralds Daily Generator v2 ==="
 echo "Date: $DATE | $VOLUME_DISPLAY | Week: $CURRENT_WEEK"
 
+# ─── Fetch PHP/KRW Exchange Rate from Naver ─────────
+echo "[0/5] Fetching PHP/KRW rate from Naver Finance..."
+PHP_KRW_RATE=$(curl -sL "https://finance.naver.com/marketindex/exchangeDetail.naver?marketindexCd=FX_PHPKRW" \
+    -H "User-Agent: Mozilla/5.0" 2>/dev/null | python3 -c "
+import sys, re
+data = sys.stdin.buffer.read()
+try:
+    html = data.decode('euc-kr', errors='replace')
+except:
+    html = data.decode('utf-8', errors='replace')
+idx = html.find('no_today')
+if idx > 0:
+    snippet = html[idx:idx+500]
+    digits = re.findall(r'class=\"no\d\">(\d)</span>|class=\"jum\">(\.)</span>', snippet)
+    rate = ''.join(d[0] or d[1] for d in digits)
+    if rate:
+        print(rate)
+    else:
+        print('24.00')
+else:
+    print('24.00')
+" 2>/dev/null)
+
+# Calculate PHP per 1000 KRW (what Korean expats care about)
+PHP_PER_1000KRW=$(python3 -c "print(f'{1000 / float(\"${PHP_KRW_RATE}\"):.2f}')" 2>/dev/null || echo "40.00")
+echo "  Naver rate: 1 PHP = ${PHP_KRW_RATE} KRW → 1000 KRW = ${PHP_PER_1000KRW} PHP"
+
 # ─── Claude CLI call with retry ─────────────────────
 call_claude() {
     local prompt="$1"
@@ -105,7 +132,8 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
   \"edition_date\": \"${DATE}\",
   \"header_date_line\": \"${HEADER_LINE}\",
   \"dashboard\": {
-    \"php_krw_rate\": \"24.XX\",
+    \"php_krw_rate\": \"${PHP_PER_1000KRW}\",
+    \"php_krw_naver\": \"${PHP_KRW_RATE}\",
     \"weather_en\": \"32°C Sunny\",
     \"weather_kr\": \"32°C 맑음\",
     \"date\": \"${DATE_DOT}\",
