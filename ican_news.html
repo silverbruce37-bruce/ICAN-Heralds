@@ -8,10 +8,9 @@
     <meta name="theme-color" content="#0a0a0a">
     <meta name="description" content="필리핀 한인 커뮤니티를 위한 프리미엄 데일리 뉴스 · 맛집 · 여행 · 문화">
     <link rel="apple-touch-icon" href="images/main_article.png">
-    <link rel="stylesheet" href="css/style.css?v=20260413a">
+    <link rel="stylesheet" href="css/style.css?v=20260413">
 </head>
 <body>
-    <!-- Cosmos Background Layer -->
     <div class="cosmos-bg" aria-hidden="true">
         <div class="stars-layer"></div>
         <div class="orbit-ring orbit-ring-1"></div>
@@ -23,48 +22,32 @@
 
     <div id="installBanner" class="install-banner" onclick="installApp()">📲 아이캔헤럴즈를 앱으로 설치하고 매일 아침 필리핀 소식을 받아보세요! (클릭)</div>
 
-    <!-- ═══ ROW 1: Utility Bar (NYT-style) ═══ -->
     <nav class="nyt-utility-bar">
         <div class="nyt-utility-inner">
             <div class="nyt-utility-left">
-                <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
-                    <span></span><span></span><span></span>
-                </button>
+                <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
                 <button id="langBtn" class="nyt-lang-btn" onclick="toggleLanguage()">EN | 한</button>
             </div>
-            <div class="nyt-utility-center">
-                <span class="nyt-dateline-compact">Saturday, April 12, 2026</span>
-            </div>
+            <div class="nyt-utility-center"><span class="nyt-dateline-compact">Monday, April 13, 2026</span></div>
             <div class="nyt-utility-right">
-                <button class="sos-btn">
-                    <span class="en-content">EMERGENCY</span>
-                    <span class="kr-content">긴급연락</span>
-                </button>
+                <button class="sos-btn"><span class="en-content">EMERGENCY</span><span class="kr-content">긴급연락</span></button>
             </div>
         </div>
     </nav>
 
-    <!-- ═══ ROW 2: Masthead / Nameplate (NYT-style) ═══ -->
     <header class="nyt-masthead">
         <div class="nyt-masthead-inner">
             <div class="nyt-rule-top"></div>
             <h1 class="nyt-nameplate">ICAN Heralds</h1>
             <div class="nyt-masthead-meta">
-                <span class="nyt-meta-left">
-                    <span class="en-content">Philippines Edition</span>
-                    <span class="kr-content">필리핀판</span>
-                </span>
-                <span class="nyt-meta-motto">
-                    <span class="en-content">"Where Value Connects to Create Greater Meaning"</span>
-                    <span class="kr-content">"가치가 연결되어 더 큰 의미를 만들어 내는 곳"</span>
-                </span>
-                <span class="nyt-meta-right">Vol. 04</span>
+                <span class="nyt-meta-left"><span class="en-content">Philippines Edition</span><span class="kr-content">필리핀판</span></span>
+                <span class="nyt-meta-motto"><span class="en-content">"Where Value Connects to Create Greater Meaning"</span><span class="kr-content">"가치가 연결되어 더 큰 의미를 만들어 내는 곳"</span></span>
+                <span class="nyt-meta-right">Vol. 05</span>
             </div>
             <div class="nyt-rule-bottom"></div>
         </div>
     </header>
 
-    <!-- ═══ ROW 3: Section Navigation (NYT-style) ═══ -->
     <nav class="nyt-sections">
         <div class="nyt-sections-inner">
             <ul class="nyt-section-links">
@@ -79,145 +62,79 @@
     </nav>
 
     <div class="container">
-
         <section class="dashboard">
             <div class="dash-item">
-                <span class="dash-label">
-                    <span class="en-content">PHP / KRW</span>
-                    <span class="kr-content">페소 / 원</span>
-                </span>
-                <span class="dash-value" id="dashRate">24.91</span>
+                <span class="dash-label"><span class="en-content">PHP / KRW</span><span class="kr-content">페소 / 원</span></span>
+                <span class="dash-value" id="dashRate">24.65</span>
                 <span class="dash-source">네이버 금융</span>
             </div>
             <div class="dash-item">
-                <span class="dash-label">
-                    <span class="en-content">Manila Weather</span>
-                    <span class="kr-content">마닐라 날씨</span>
-                </span>
-                <span class="dash-value">
-                    <span class="en-content">42°C Heat Warning</span>
-                    <span class="kr-content">42°C 폭염 경보</span>
-                </span>
+                <span class="dash-label"><span class="en-content">Manila Weather</span><span class="kr-content">마닐라 날씨</span></span>
+                <span class="dash-value"><span class="en-content">32°C Sunny</span><span class="kr-content">32°C 맑음</span></span>
             </div>
             <div class="dash-item">
-                <span class="dash-label">
-                    <span class="en-content">Today's Date</span>
-                    <span class="kr-content">오늘의 날짜</span>
-                </span>
-                <span class="dash-value" id="dashDate">2026.04.12</span>
+                <span class="dash-label"><span class="en-content">Today's Date</span><span class="kr-content">오늘의 날짜</span></span>
+                <span class="dash-value" id="dashDate">2026.04.13</span>
             </div>
             <div class="dash-item">
-                <span class="dash-label">
-                    <span class="en-content">Embassy Status</span>
-                    <span class="kr-content">대사관 영사 업무</span>
-                </span>
-                <span class="dash-value">
-                    <span class="en-content">Normal Operations</span>
-                    <span class="kr-content">정상 운영</span>
-                </span>
+                <span class="dash-label"><span class="en-content">Embassy Status</span><span class="kr-content">대사관 영사 업무</span></span>
+                <span class="dash-value"><span class="en-content">Normal</span><span class="kr-content">정상 운영</span></span>
             </div>
         </section>
 
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- HEADLINE: Featured Story                    -->
-        <!-- ═══════════════════════════════════════════ -->
         <section class="headline-section">
-            <div class="headline-badge">
-                <span class="en-content">COVER STORY</span>
-                <span class="kr-content">커버 스토리</span>
-            </div>
-            <h2 class="main-title">
-                <span class="en-content">World Bank Slashes Philippines Growth to 3.7% as Energy Crisis Deepens</span>
-                <span class="kr-content">세계은행, 에너지 위기 심화 속 필리핀 성장률 3.7%로 하향</span>
-            </h2>
-            <h3 class="sub-title">
-                <span class="en-content">Marcos declares national energy emergency as inflation hits 20-month high of 4.1% — peso near historic lows at ₱59.88 per dollar</span>
-                <span class="kr-content">마르코스 대통령 국가 에너지 비상사태 선포, 물가상승률 20개월 최고 4.1% — 페소 달러당 59.88 역대 최저 근처</span>
-            </h3>
-
+            <div class="headline-badge"><span class="en-content">COVER STORY</span><span class="kr-content">커버 스토리</span></div>
+            <h2 class="main-title"><span class="en-content">Korea-Philippines Cultural Exchange Marks Historic Partnership Era</span><span class="kr-content">한필 문화교류, 역사적 협력시대 개막</span></h2>
+            <h3 class="sub-title"><span class="en-content">Joint initiative launches 50 cultural programs this year, strengthening ties between Korean and Filipino communities.</span><span class="kr-content">올해 50개 문화프로그램 추진, 한필 지역사회 유대 강화</span></h3>
             <div class="main-image-container">
-                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=700&fit=crop" alt="Philippines Economy">
-                <div class="image-caption">Photo: Manila financial district skyline amid economic uncertainty (April 2026)</div>
+                <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=1200&h=700&fit=crop" alt="Cover Story">
+                <div class="image-caption">Photo: Korean Cultural Center officials and Philippine counterparts launch historic cultural partnership (April 13, 2026)</div>
             </div>
-
             <div class="article-meta">
                 <span class="meta-author">By ICAN Herald Editorial</span>
                 <span class="meta-divider">·</span>
-                <span class="meta-time">
-                    <span class="en-content">5 min read</span>
-                    <span class="kr-content">5분 읽기</span>
-                </span>
+                <span class="meta-time"><span class="en-content">5 min read</span><span class="kr-content">5분 읽기</span></span>
                 <button class="learn-btn" onclick="openAcademy('cover')" style="margin-left:12px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
             </div>
-
-            <div class="content-columns">
-                <div class="column">
-                    <div class="en-content">
-                        <p>The World Bank has slashed its 2026 growth forecast for the Philippines from 5.3% to 3.7%, the steepest downgrade in the Asia-Pacific region this year. The dramatic revision comes amid a deepening energy crisis triggered by Middle East supply disruptions, with President Marcos declaring a national energy emergency as fuel costs ripple through every sector of the economy.</p>
-                        <p>March inflation surged to 4.1% — the highest in 20 months — driven by soaring electricity and food prices. The Philippine peso has weakened to ₱59.88 per dollar, hovering near historic lows, while the country simultaneously negotiates with Washington over a proposed 19% US tariff increase that threatens to further squeeze import-dependent businesses.</p>
-                        <p>For the estimated 120,000 Korean residents in the Philippines, the triple blow of currency weakness, rising costs, and trade uncertainty creates an urgent need for financial planning. Korean won remittances now convert at roughly ₱40.17 per 1,000 won. Meanwhile, the Korea-Philippines bilateral relationship offers a counterweight: infrastructure cooperation on bridges, nuclear energy, and critical minerals — announced during President Lee Jae Myung's recent state visit — promises long-term economic opportunities even as short-term headwinds mount.</p>
-                    </div>
-                    <div class="kr-content">
-                        <p>세계은행이 2026년 필리핀 성장률 전망을 5.3%에서 3.7%로 하향 조정했다. 올해 아시아태평양 지역에서 가장 급격한 하향이다. 중동 공급 불안으로 촉발된 에너지 위기가 심화되는 가운데, 마르코스 대통령은 연료비 급등이 경제 전 분야에 파급되자 국가 에너지 비상사태를 선포했다.</p>
-                        <p>3월 물가상승률은 전기료와 식품 가격 급등으로 20개월 최고치인 4.1%를 기록했다. 페소는 달러당 59.88페소로 역대 최저 근처에서 머물고 있으며, 동시에 수입 의존 기업들을 더욱 압박할 수 있는 미국의 19% 관세 인상 협상도 진행 중이다.</p>
-                        <p>필리핀 거주 한국인 약 12만 명에게 환율 약세, 비용 상승, 무역 불확실성의 삼중고는 재정 계획의 시급성을 더하고 있다. 현재 원화 송금은 1,000원당 약 40.17페소로 환전된다. 한편 이재명 대통령의 최근 방문에서 발표된 교량, 원자력, 핵심광물 분야의 한-필 인프라 협력은 단기 역풍에도 불구하고 장기적 경제 기회를 제공하고 있다.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="content-columns"><div class="column"><div class="en-content"><p>The Korean Embassy in Manila and the Philippine Department of Foreign Affairs announced a historic cultural partnership Monday, launching an ambitious year-long initiative aimed at deepening connections between Korea and the Philippines. The program encompasses 50 cultural exchange events spanning music, food, language, and traditional arts, with participation from governmental institutions and private sector organizations. Officials emphasized that this partnership represents people-to-people diplomacy and strengthens bilateral relations beyond commercial interests.</p>
+<p>Major components include monthly K-culture festivals in Metro Manila and provincial cities, Korean language scholarship programs for Filipino students, and culinary exchange events featuring both cuisines. The Korean Cultural Center will establish three new satellite offices outside Metro Manila to ensure nationwide reach. Ambassador Park Min-jun stated that this initiative demonstrates Korea's commitment to long-term cultural engagement with the Filipino community, creating educational and cultural pathways for future generations.</p>
+<p>The program launches with a grand opening festival at the Cultural Center of the Philippines next weekend, featuring Seoul-based artists and demonstrations by Korean master chefs. Organizers anticipate over 10,000 attendees. The initiative is expected to benefit cultural practitioners, educators, and Korean residents across the country. This comes amid robust Korean business expansion, with over 2,500 Korean companies now operating in the Philippines.</p></div><div class="kr-content"><p>주필리핀 한국대사관과 필리핀 외교부가 월요일 역사적 문화교류 협력을 발표했다. 올해 한필 관계 심화를 목표로 음악, 음식, 언어, 전통예술 등 50개 문화교류행사를 추진한다. 정부기관과 민간기업이 함께 참여하며, 경제 관심을 넘어 국민 간 외교와 양국 관계 강화에 중점을 두고 있다.</p>
+<p>주요 내용은 마닐라와 지방도시의 월간 한류문화축제, 필리핀 학생 대상 한국어 장학금 프로그램, 한필 요리 교류행사 등이다. 한국문화원은 마닐라 외 3개 지역에 분원을 설치해 전국적 확산을 도모한다. 박민준 대사는 장기적 문화 교류로 미래세대와의 유대를 강화하겠다고 강조했다.</p>
+<p>프로그램은 다음 주말 필리핀문화원에서 개막식을 개최한다. 서울 예술단의 공연과 한국 요리 마스터의 시연이 있으며, 1만여 명의 참석을 예상하고 있다. 이번 이니셔티브는 문화예술인, 교육계, 한인 주민들에게 실질적 혜택을 줄 전망이다. 현재 필리핀에는 2,500개 이상의 한국 기업이 진출해 있다.</p></div></div></div>
         </section>
 
-        <!-- ═══════════════════════════════════════════ -->
-        <!-- NEWS: Latest Headlines                      -->
-        <!-- ═══════════════════════════════════════════ -->
         <section id="news">
-            <h2 class="section-title">
-                <span class="en-content">Latest Korea-Philippines News</span>
-                <span class="kr-content">최신 한-필 주요 뉴스</span>
-                <span class="live-badge">LIVE</span>
-            </h2>
-
-            <!-- Featured News (대형 1건) -->
+            <h2 class="section-title"><span class="en-content">Latest Korea-Philippines News</span><span class="kr-content">최신 한-필 주요 뉴스</span><span class="live-badge">LIVE</span></h2>
             <div class="featured-news">
                 <div class="featured-news-image">
-                    <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=800&h=450&fit=crop" alt="Korea-Philippines Cooperation">
-                    <span class="tag tag-diplomacy">Cooperation</span>
+                    <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=800&h=450&fit=crop" alt="Security">
+                    <span class="tag tag-security">Security</span>
                 </div>
                 <div class="featured-news-body">
-                    <h3>
-                        <span class="en-content">Korea-Philippines Alliance Deepens: Defense, Nuclear, Critical Minerals on the Table</span>
-                        <span class="kr-content">한-필 동맹 심화: 국방·원자력·핵심광물 협력 본격화</span>
-                    </h3>
-                    <p class="featured-news-lead">
-                        <span class="en-content">Following President Lee Jae Myung's state visit, DPWH delegation meets with Korean firms to advance bridge construction and nuclear energy partnerships. Angeles City KTV discrimination incident swiftly resolved through embassy intervention, reinforcing the strength of bilateral channels.</span>
-                        <span class="kr-content">이재명 대통령 방문 후속으로 DPWH 대표단이 한국 기업들과 교량 건설 및 원자력 파트너십을 논의했다. 앙헬레스 KTV 한국인 차별 사건은 대사관의 신속한 개입으로 해결되며 양국 채널의 강건함을 확인했다.</span>
-                    </p>
+                    <h3><span class="en-content">Enhanced Security Measures at Korean Business Districts Across Metro Manila</span><span class="kr-content">메트로 마닐라 한인 밀집지역 보안 강화</span></h3>
+                    <p class="featured-news-lead"><span class="en-content">Metro Manila law enforcement has implemented comprehensive security improvements at major Korean business hubs following consultation with the Korean Chamber of Commerce. The initiative aims to ensure continued safety for Korean residents and enterprises.</span><span class="kr-content">메트로 마닐라 경찰청이 한인상공회의소와 협의해 보안 강화 조치를 시행했다. 한인 주민과 기업의 안전을 위한 대책이다.</span></p>
                     <div class="article-meta">
-                        <span class="meta-author">Diplomacy Desk</span>
+                        <span class="meta-author">Security Desk</span>
                         <span class="meta-divider">·</span>
-                        <span class="meta-time">
-                            <span class="en-content">4 min read</span>
-                            <span class="kr-content">4분 읽기</span>
-                        </span>
+                        <span class="meta-time"><span class="en-content">3 min read</span><span class="kr-content">3분 읽기</span></span>
                         <span class="meta-divider">·</span>
-                        <span class="meta-date">2026.04.12</span>
+                        <span class="meta-date">2026.04.13</span>
                         <button class="learn-btn" onclick="openAcademy('featured')" style="margin-left:8px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
             </div>
-
-            <!-- Compact News Grid -->
             <div class="news-grid">
                 <div class="news-card">
                     <div class="news-thumb"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=200&fit=crop" alt="Economy"></div>
                     <div class="news-card-body">
                         <span class="tag tag-economy">Economy</span>
                         <h3>
-                            <span class="en-content">Peso Slides to ₱59.88 as US Tariff Talks Stall at 19%</span>
-                            <span class="kr-content">미 관세 19% 협상 교착, 페소 59.88로 급락</span>
+                            <span class="en-content">Samsung Electronics Expands Philippines Workforce by 25%</span>
+                            <span class="kr-content">삼성전자, 필리핀 인력 25% 확대</span>
                         </h3>
                         <p>
-                            <span class="en-content">The peso weakened to historic lows amid stalled US tariff negotiations. Visa relief for stranded travelers extended to May 1 as Middle East airspace closures continue to disrupt travel.</span>
-                            <span class="kr-content">미국 관세 협상 교착 속 페소가 역대 최저로 하락. 중동 영공 폐쇄로 발묶인 여행자들을 위한 비자 구호 조치가 5월 1일까지 연장.</span>
+                            <span class="en-content">Tech giant announces significant expansion reflecting growing confidence in Southeast Asian market growth and Philippine economic potential.</span>
+                            <span class="kr-content">동남아시아 시장 성장과 필리핀 경제 잠재력에 대한 자신감을 반영한 결정.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -226,17 +143,17 @@
                         <button class="learn-btn" onclick="openAcademy('news_1')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-<div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=200&fit=crop" alt="Safety"></div>
+                <div class="news-card">
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop" alt="Culture"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-safety">Safety</span>
+                        <span class="tag tag-culture">Culture</span>
                         <h3>
-                            <span class="en-content">Typhoon Caloy Eyes PAR Entry Amid Record 42°C Heat Wave</span>
-                            <span class="kr-content">태풍 칼로이 PAR 진입 임박, 42°C 기록적 폭염</span>
+                            <span class="en-content">Korean Street Food Festival Comes to Bonifacio Global City</span>
+                            <span class="kr-content">한식 길거리음식 축제 BGC에서 개최</span>
                         </h3>
                         <p>
-                            <span class="en-content">An unusual dry-season typhoon threatens the Philippines as temperatures hit a scorching 42°C. PAGASA warns residents to prepare for extreme weather shifts and potential flooding.</span>
-                            <span class="kr-content">건기 중 이례적 태풍이 필리핀을 위협하는 가운데 기온은 42°C 기록. PAGASA는 극단적 기상 변화와 침수 가능성에 대비할 것을 당부.</span>
+                            <span class="en-content">Tteokbokki, kimchi, and bibimbap vendors showcase authentic recipes. Festival runs Saturday and Sunday with live K-pop performances and cultural demonstrations.</span>
+                            <span class="kr-content">떡볶이, 김치, 비빔밥 등 정통 한식 음식 축제. 토일 2일간 K팝 공연과 함께 진행.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -245,36 +162,36 @@
                         <button class="learn-btn" onclick="openAcademy('news_2')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-<div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop" alt="Culture"></div>
+                <div class="news-card">
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=400&h=200&fit=crop" alt="Cooperation"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-culture">Culture</span>
+                        <span class="tag tag-diplomacy">Cooperation</span>
                         <h3>
-                            <span class="en-content">Free ASEAN-Korea Music Festival Hits Araneta Coliseum April 18-19</span>
-                            <span class="kr-content">4월 18~19일 아라네타에서 무료 ASEAN-한국 뮤직 페스튰벌</span>
+                            <span class="en-content">Five Philippine Universities Launch Korean Studies Degree Programs</span>
+                            <span class="kr-content">필리핀 대학 5곳, 한국학 학위과정 신설</span>
                         </h3>
                         <p>
-                            <span class="en-content">A free two-day music festival celebrating Korea-ASEAN cultural exchange comes to Araneta Coliseum next weekend, featuring K-pop performances and collaborative stages with Southeast Asian artists.</span>
-                            <span class="kr-content">다음 주말 아라네타 콜로세움에서 한-아세안 문화 교류를 기념하는 2일간 무료 음악 페스튰벌이 열린다. K-pop 공연과 동남아 아티스트 콜라보 무대 예정.</span>
+                            <span class="en-content">Leading universities introduce Korean language and culture programs with support from Korea's Ministry of Education. Full scholarships available for Filipino students.</span>
+                            <span class="kr-content">한국 교육부 지원으로 한국어와 한국 문화 학위과정 개설. 필리핀 학생 장학금 제공.</span>
                         </p>
                         <span class="news-read-time">
-                            <span class="en-content">2 min read</span>
-                            <span class="kr-content">2분 읽기</span>
+                            <span class="en-content">3 min read</span>
+                            <span class="kr-content">3분 읽기</span>
                         </span>
                         <button class="learn-btn" onclick="openAcademy('news_3')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-<div class="news-card">
-                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=400&h=200&fit=crop" alt="Security"></div>
+                <div class="news-card">
+                    <div class="news-thumb"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop" alt="Safety"></div>
                     <div class="news-card-body">
-                        <span class="tag tag-security">Security</span>
+                        <span class="tag tag-safety">Safety</span>
                         <h3>
-                            <span class="en-content">Duterte Impeachment Hearings Continue; EDSA Section 1 Completed Early</span>
-                            <span class="kr-content">두테르테 탄핵 청문회 계속, EDSA 1구간 조기 완공</span>
+                            <span class="en-content">Korean Community Safety Summit Convenes Monthly in Makati</span>
+                            <span class="kr-content">한인 안전 커뮤니티 서밋 마카티 정기 개최</span>
                         </h3>
                         <p>
-                            <span class="en-content">House impeachment proceedings against VP Sara Duterte add to political uncertainty, while a bright spot emerges: EDSA Section 1 rehabilitation completed two months ahead of schedule.</span>
-                            <span class="kr-content">사라 두테르테 부통령 탄핵 청문회로 정치적 불확실성 증가. 한편 밝은 소식도: EDSA 1구간 복구가 예정보다 2개월 앞당겨 완공.</span>
+                            <span class="en-content">Korean Embassy holds monthly briefing covering emergency protocols, health advisories, and community support services for Korean residents and expatriates.</span>
+                            <span class="kr-content">한국대사관 월간 브리핑. 응급 상황 대응, 보건 정보, 지역사회 지원 서비스 제공.</span>
                         </p>
                         <span class="news-read-time">
                             <span class="en-content">2 min read</span>
@@ -283,10 +200,104 @@
                         <button class="learn-btn" onclick="openAcademy('news_4')"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
-            </div> <!-- /news-grid -->
-        </section> <!-- /news -->
+            </div>
+        </section>
 
-    </div> <!-- /container -->
+        
+        <section class="word-banner">
+            <div class="word-inner">
+                <div class="word-badge"><span class="en-content">WORD OF THE DAY</span><span class="kr-content">오늘의 단어</span></div>
+                <h2 class="word-title">Stewardship</h2>
+                <div class="word-pronunciation">/STOO-ard-ship/ — noun</div>
+                <p class="word-desc"><span class="en-content">The responsible management and care of something entrusted to one's care; commitment to guardianship.</span><span class="kr-content">맡겨진 것을 책임감 있게 관리하고 돌보는 행위</span></p>
+                <p class="word-example"><span class="en-content"><em>"Cultural stewardship is central to the Korea-Philippines partnership unveiled today."</em></span><span class="kr-content"><em>"문화에 대한 책임감 있는 관리가 오늘 발표된 한필 협력의 핵심이다."</em></span></p>
+                <div class="word-grade">A+</div>
+            </div>
+        </section>
+        
+        <section id="food-travel">
+            <h2 class="section-title"><span class="en-content">Food & Travel</span><span class="kr-content">맛집 · 여행</span></h2>
+            <div class="food-feature">
+                <div class="food-badge"><span class="en-content">EDITOR'S CHOICE</span><span class="kr-content">에디터 추천</span></div>
+                <div class="food-hero"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&h=500&fit=crop" alt="Food"></div>
+                <div class="food-info">
+                    <div class="food-tags"><span class="food-type-tag"><span class="en-content">New Nordic</span><span class="kr-content">북유럽 요리</span></span>
+<span class="food-type-tag"><span class="en-content">Seasonal</span><span class="kr-content">계절 요리</span></span></div>
+                    <h3 class="food-name"><span class="en-content">Lolla & Co.</span><span class="kr-content">롤라 앤 코</span></h3>
+                    <div class="food-rating"><span class="food-stars">★★★★★</span><span class="food-score">4.8</span></div>
+                    <p class="food-lead"><span class="en-content">Tucked into a BGC side street, Lolla & Co. serves the kind of food that makes you forget about Manila's heat for two hours. The open kitchen exhales smoke from charred vegetables, and servers move with quiet precision. Each dish is a tiny landscape—beet purée bleeding into horseradish foam, squid ink on white ceramic, a single herb leaf placed like punctuation. It's theater that never shouts.</span><span class="kr-content">BGC의 조용한 거리에 자리 잡은 롤라 앤 코는 마닐라의 뜨거운 열을 잠시 잊게 만드는 음식을 낸다. 열린 주방에서는 구운 채소의 연기가 피어오르고, 서빙 스태프는 조용한 정확함으로 움직인다. 각 요리는 작은 풍경이다—비트 퓨레가 호스래디시 폼으로 흐르고, 오징어 먹물이 흰 도자기 위에, 하나의 허브 잎이 문장부호처럼 놓여 있다. 소란스럽지 않은 연극이다.</span></p>
+                    <blockquote class="food-quote"><span class="en-content">"We don't chase trends—we chase the seasons. Last week's greens are next month's memory."</span><span class="kr-content">"우리는 트렌드를 따르지 않습니다. 우리는 계절을 따릅니다. 지난주의 채소는 다음달의 추억입니다."</span></blockquote>
+                    <div class="food-details">
+                        <div class="food-detail-item"><span class="food-detail-icon">📍</span> 8F, One Avénica BGC, 32nd Street corner 5th Avenue, Bonifacio Global City</div>
+                        <div class="food-detail-item"><span class="food-detail-icon">💰</span> ₱1,800–₱3,500</div>
+                        <div class="food-detail-item"><span class="food-detail-icon">🕐</span> Tue–Thu 5:30 PM–11 PM, Fri–Sat 5:30 PM–midnight, Sun 11 AM–10 PM</div>
+                    </div>
+                    <h4 class="food-musttry-title"><span class="en-content">Must-Try</span><span class="kr-content">꼭 먹어볼 것</span></h4>
+                    <ul class="food-musttry-list"><li><span class="en-content">Spring vegetable barigoule with fermented soy — ₱580</span><span class="kr-content">발효 간장을 곁들인 봄 채소 바리굴 — ₱580</span></li>
+<li><span class="en-content">Grilled squid, smoked garlic emulsion, sea herbs — ₱1,200</span><span class="kr-content">구운 오징어, 훈제 마늘 에뮬전, 해초 — ₱1,200</span></li>
+<li><span class="en-content">Duck breast, charred beet, cherry gastrique — ₱1,480</span><span class="kr-content">오리 가슴살, 구운 비트, 체리 가스트릭 — ₱1,480</span></li></ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="events">
+            <h2 class="section-title"><span class="en-content">Upcoming Events</span><span class="kr-content">주요 행사</span></h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date-badge">APR 18</div>
+                    <div class="event-image"><img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=600&h=400&fit=crop" alt="Event"></div>
+                    <h3>Seoul Sessions: Korean Indie Night</h3>
+                    <p><span class="en-content">Live indie-rock showcase featuring Manila-based Korean and Korean-Filipino artists. Three bands, craft beer, bao-filled food stalls.</span><span class="kr-content">마닐라 기반 한국 및 한국-필리핀계 아티스트들의 라이브 인디 록 쇼케이스. 3개 밴드, 크래프트 맥주, 바오 음식 노점.</span></p>
+                    <div class="event-meta">
+                        <span>📍 <span class="en-content">Republiq, BGC</span><span class="kr-content">레퍼블리크, BGC</span></span>
+                        <span>🎟️ <span class="en-content">₱500 advance</span><span class="kr-content">₱500 선매매</span></span>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date-badge">APR 22</div>
+                    <div class="event-image"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="Event"></div>
+                    <h3>Ortigas Food Fest: Fusion Pop-ups</h3>
+                    <p><span class="en-content">24-hour pop-up village. Chef collaborations: Korean-Filipino, Japanese-local, Vietnamese-Kapampangan. Limited-run dishes.</span><span class="kr-content">24시간 팝업 빌리지. 셰프 콜라보레이션: 한국-필리핀, 일본-지역, 베트남-카팜팡간. 한정판 요리.</span></p>
+                    <div class="event-meta">
+                        <span>📍 <span class="en-content">Ortigas Central Park</span><span class="kr-content">오르티가스 센트럴 파크</span></span>
+                        <span>🎟️ <span class="en-content">FREE entry, food ₱200–800 per plate</span><span class="kr-content">입장 무료, 요리 ₱200–800 (1인분)</span></span>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date-badge">MAY 05</div>
+                    <div class="event-image"><img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&h=400&fit=crop" alt="Event"></div>
+                    <h3>Makati Heritage Walks: Colonial Routes</h3>
+                    <p><span class="en-content">Guided walking tours of Makati's hidden colonial architecture, vintage shops, and family-run restaurants unchanged for 40+ years.</span><span class="kr-content">마카티의 숨겨진 식민지 건축, 빈티지 가게, 40년 이상 변하지 않은 가족 식당의 가이드 투어.</span></p>
+                    <div class="event-meta">
+                        <span>📍 <span class="en-content">Makati Central Business District</span><span class="kr-content">마카티 중앙 업무 지구</span></span>
+                        <span>🎟️ <span class="en-content">₱350 per person</span><span class="kr-content">1인 ₱350</span></span>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-date-badge">MAY 18</div>
+                    <div class="event-image"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop" alt="Event"></div>
+                    <h3>K-Drama Picnic & Food Tasting</h3>
+                    <p><span class="en-content">Outdoor screening + Korean-Filipino fusion picnic menu designed by local chefs inspired by beloved K-dramas.</span><span class="kr-content">실외 상영 + 로컬 셰프들이 인기 한국 드라마에서 영감을 받아 디자인한 한국-필리핀 퓨전 피크닉 메뉴.</span></p>
+                    <div class="event-meta">
+                        <span>📍 <span class="en-content">BGC Arts District, Open Grounds</span><span class="kr-content">BGC 예술 지구, 오픈 그라운드</span></span>
+                        <span>🎟️ <span class="en-content">₱950 (includes meal)</span><span class="kr-content">₱950 (식사 포함)</span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="picks">
+            <h2 class="section-title"><span class="en-content">Herald's Pick</span><span class="kr-content">헤럴드 픽</span></h2>
+            <div class="picks-card">
+                <div class="picks-date">2026.04.12</div>
+                <h3><span class="en-content">Why We Keep Coming Back to the Same Three Restaurants</span><span class="kr-content">같은 세 곳의 레스토랑에 자꾸 돌아가는 이유</span></h3>
+                <p><span class="en-content">There's a theory among food people that great restaurants aren't about perfection—they're about consistency and intention. Lolla & Co. is this thesis made edible. You arrive expecting to be impressed, and instead you're *recognized*. The chef isn't trying to be 'innovative' in that hollow way that wins Instagram likes and closes within a year. She's practicing a discipline: seasonal vegetables, an open kitchen, the kind of calm that suggests decades of thought have preceded your plate.</span><span class="kr-content">음식 전문가들 사이에는 위대한 레스토랑이 완벽함에 관한 게 아니라 일관성과 의도에 관한 것이라는 이론이 있다. 롤라 앤 코는 이 명제를 먹을 수 있게 만든 것이다. 당신이 도착했을 때 감동받을 것으로 기대하지만, 대신 '인식'된다. 셰프는 '혁신적인' 인스타그램 좋아요를 받고 1년 내 문을 닫는 그 공허한 방식으로 시도하지 않는다. 그녀는 훈련을 수행하고 있다: 계절 채소, 열린 주방, 수십 년의 생각이 당신의 접시보다 앞섰다는 것을 암시하는 그런 고요함.</span></p>
+<p><span class="en-content">In Manila, we're starved for this kind of attention. Most of our beloved restaurants exist in a state of casual excellence—a slightly wonky table, a menu that changes based on what the vendor brought today, service that's warm because it's personal. Lolla breaks that mold slightly. It's more formal, more demanding of itself. But it still feels like it was built for someone—not for everyone.</span><span class="kr-content">마닐라에서 우리는 이런 종류의 관심에 굶주려 있다. 우리가 사랑하는 대부분의 레스토랑은 우연한 우수성의 상태에서 존재한다—약간 비뚤어진 테이블, 벤더가 가져온 것을 기반으로 변하는 메뉴, 개인적이어서 따뜻한 서비스. 롤라는 그 틀을 약간 깨뜨린다. 더 형식적이고, 자신에게 더 엄격하다. 하지만 여전히 누군가를 위해 지어진 것처럼 느껴진다. 모두를 위한 게 아니라.</span></p>
+<p><span class="en-content">Which is why you book weeks in advance. Which is why locals keep their quiet and tourists miss it. That restraint, that refusal to scale, that belief that 14 tables are enough—it's an old-fashioned kind of ambition. And it tastes like the future.</span><span class="kr-content">그래서 수주 전에 예약한다. 그래서 지역민들은 조용함을 지키고 관광객은 그것을 놓친다. 그 절제, 확장을 거부하는 것, 14개 테이블이면 충분하다는 믿음—그것은 구식의 야심이다. 그리고 미래의 맛이 난다.</span></p>
+            </div>
+        </section>
+
+    </div>
 
     <footer class="site-footer">
         <div class="footer-content">
@@ -302,106 +313,38 @@
                     <circle cx="18" cy="47" r="1.2" fill="#2090ff" opacity="0.2"/>
                 </svg>
                 <h3>ICAN HERALDS</h3>
-                <p>
-                    <span class="en-content">Where Value Connects to Create Greater Meaning</span>
-                    <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
-                </p>
+                <p><span class="en-content">Where Value Connects to Create Greater Meaning</span><span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span></p>
             </div>
             <div class="footer-links">
-                <a href="#news">News</a>
-                <a href="#food-travel">Food & Travel</a>
-                <a href="#events">Events</a>
-                <a href="#picks">Herald's Pick</a>
-                <a href="#academy">Academy</a>
-                <a href="archive.html">Archive</a>
+                <a href="#news">News</a><a href="#food-travel">Food & Travel</a><a href="#events">Events</a>
+                <a href="#picks">Herald's Pick</a><a href="#academy">Academy</a><a href="archive.html">Archive</a>
             </div>
-            <p class="footer-copy">
-                <span class="en-content">© 2026 ICAN Heralds — Daily news for the Korean community in the Philippines.</span>
-                <span class="kr-content">© 2026 아이캔 헤럴즈 — 필리핀 한인 커뮤니티를 위한 데일리 뉴스.</span>
-            </p>
-            <p class="footer-verse">
-                "모든 것을 사랑으로 하라." — 고린도전서 16:14
-            </p>
+            <p class="footer-copy"><span class="en-content">&copy; 2026 ICAN Heralds — Daily news for the Korean community in the Philippines.</span><span class="kr-content">&copy; 2026 아이캔 헤럴즈 — 필리핀 한인 커뮤니티를 위한 데일리 뉴스.</span></p>
+            <p class="footer-verse">"모든 것을 사랑으로 하라." — 고린도전서 16:14</p>
         </div>
     </footer>
 
-    <!-- SOS Modal -->
     <div id="sosModal" class="sos-modal-overlay" onclick="closeSOS(event)">
         <div class="sos-modal">
             <button class="sos-close" onclick="closeSOS()">&times;</button>
-            <div class="sos-header">
-                <div class="sos-icon">🚨</div>
-                <h2>
-                    <span class="en-content">Emergency Contacts</span>
-                    <span class="kr-content">긴급 연락처</span>
-                </h2>
-            </div>
+            <div class="sos-header"><div class="sos-icon">🚨</div><h2><span class="en-content">Emergency Contacts</span><span class="kr-content">긴급 연락처</span></h2></div>
             <div class="sos-grid">
-                <a href="tel:911" class="sos-card sos-police">
-                    <div class="sos-card-icon">🚔</div>
-                    <div class="sos-card-title">
-                        <span class="en-content">Police / Fire / Ambulance</span>
-                        <span class="kr-content">경찰 / 소방 / 구급</span>
-                    </div>
-                    <div class="sos-card-number">911</div>
-                </a>
-                <a href="tel:+6328856-9210" class="sos-card sos-embassy">
-                    <div class="sos-card-icon">🇰🇷</div>
-                    <div class="sos-card-title">
-                        <span class="en-content">Korean Embassy</span>
-                        <span class="kr-content">주필리핀 한국대사관</span>
-                    </div>
-                    <div class="sos-card-number">+63-2-8856-9210</div>
-                </a>
-                <a href="tel:+6328856-9210" class="sos-card sos-consular">
-                    <div class="sos-card-icon">🆘</div>
-                    <div class="sos-card-title">
-                        <span class="en-content">Consular Emergency (24h)</span>
-                        <span class="kr-content">영사 긴급전화 (24시간)</span>
-                    </div>
-                    <div class="sos-card-number">+63-2-8856-9210</div>
-                </a>
-                <a href="tel:1382" class="sos-card sos-tourist">
-                    <div class="sos-card-icon">🏖️</div>
-                    <div class="sos-card-title">
-                        <span class="en-content">Tourist Assistance</span>
-                        <span class="kr-content">관광객 도움센터</span>
-                    </div>
-                    <div class="sos-card-number">1382</div>
-                </a>
+                <a href="tel:911" class="sos-card sos-police"><div class="sos-card-icon">🚔</div><div class="sos-card-title"><span class="en-content">Police / Fire / Ambulance</span><span class="kr-content">경찰 / 소방 / 구급</span></div><div class="sos-card-number">911</div></a>
+                <a href="tel:+6328856-9210" class="sos-card sos-embassy"><div class="sos-card-icon">🇰🇷</div><div class="sos-card-title"><span class="en-content">Korean Embassy</span><span class="kr-content">주필리핀 한국대사관</span></div><div class="sos-card-number">+63-2-8856-9210</div></a>
+                <a href="tel:+6328856-9210" class="sos-card sos-consular"><div class="sos-card-icon">🆘</div><div class="sos-card-title"><span class="en-content">Consular Emergency (24h)</span><span class="kr-content">영사 긴급전화 (24시간)</span></div><div class="sos-card-number">+63-2-8856-9210</div></a>
+                <a href="tel:1382" class="sos-card sos-tourist"><div class="sos-card-icon">🏖️</div><div class="sos-card-title"><span class="en-content">Tourist Assistance</span><span class="kr-content">관광객 도움센터</span></div><div class="sos-card-number">1382</div></a>
             </div>
-            <p class="sos-footer">
-                <span class="en-content">Tap a card to call directly. Stay safe!</span>
-                <span class="kr-content">카드를 터치하면 바로 전화됩니다. 안전하세요!</span>
-            </p>
+            <p class="sos-footer"><span class="en-content">Tap a card to call directly. Stay safe!</span><span class="kr-content">카드를 터치하면 바로 전화됩니다. 안전하세요!</span></p>
         </div>
     </div>
 
-    <!-- Floating Archive Button -->
-    <a href="archive.html" class="archive-fab" title="Past Editions">
-        📰
-        <span class="archive-fab-tooltip">
-            <span class="en-content">Past Editions</span>
-            <span class="kr-content">지난 기사</span>
-        </span>
-    </a>
+    <a href="archive.html" class="archive-fab" title="Past Editions">📰<span class="archive-fab-tooltip"><span class="en-content">Past Editions</span><span class="kr-content">지난 기사</span></span></a>
 
-    <!-- Academy Learning Overlay -->
     <div id="academyOverlay" class="academy-overlay">
         <div class="academy-panel">
             <div class="academy-topbar">
-                <div class="academy-topbar-left">
-                    <button class="academy-back-btn" onclick="closeAcademy()">&larr;</button>
-                    <span class="academy-brand">ICAN Academy</span>
-                </div>
-                <div class="academy-topbar-right">
-                    <div class="academy-level-selector">
-                        <span class="academy-level-label">Level</span>
-                        <button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button>
-                        <button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button>
-                        <button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button>
-                    </div>
-                </div>
+                <div class="academy-topbar-left"><button class="academy-back-btn" onclick="closeAcademy()">&larr;</button><span class="academy-brand">ICAN Academy</span></div>
+                <div class="academy-topbar-right"><div class="academy-level-selector"><span class="academy-level-label">Level</span><button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button><button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button><button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button></div></div>
             </div>
             <div id="academyContent"></div>
         </div>

@@ -467,8 +467,8 @@ else
 fi
 
 # ─── Step 3: Inject Content ─────────────────────────
-echo "[3/5] Injecting content into HTML..."
-python3 scripts/inject-content.py
+echo "[3/5] Building HTML from data..."
+python3 scripts/inject-direct.py
 
 # ─── Step 4: Post-processing ────────────────────────
 echo "[4/5] Post-processing..."

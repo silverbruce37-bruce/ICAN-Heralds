@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-13",
+    "vol": 5,
+    "cover_en": "Korea-Philippines Cultural Exchange Marks Historic Partnership Era",
+    "cover_kr": "한필 문화교류, 역사적 협력시대 개막",
+    "headlines_en": [
+      "Enhanced Security Measures at Korean Business Districts Across Metro Manila",
+      "Samsung Electronics Expands Philippines Workforce by 25%",
+      "Korean Street Food Festival Comes to Bonifacio Global City",
+      "Five Philippine Universities Launch Korean Studies Degree Programs",
+      "Korean Community Safety Summit Convenes Monthly in Makati"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 밀집지역 보안 강화",
+      "삼성전자, 필리핀 인력 25% 확대",
+      "한식 길거리음식 축제 BGC에서 개최",
+      "필리핀 대학 5곳, 한국학 학위과정 신설",
+      "한인 안전 커뮤니티 서밋 마카티 정기 개최"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Culture",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-04-12",
     "vol": 4,
     "cover_en": "Korean Foundation Launches Community Safety Initiative in Metro Manila",

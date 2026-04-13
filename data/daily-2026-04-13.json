@@ -1,0 +1,95 @@
+{
+  "edition_date": "2026-04-13",
+  "header_date_line": "MONDAY, APRIL 13, 2026 | PHILIPPINES | VOL. 05",
+  "dashboard": {
+    "php_krw_rate": "24.65",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Cultural Exchange Marks Historic Partnership Era",
+    "headline_kr": "한필 문화교류, 역사적 협력시대 개막",
+    "subtitle_en": "Joint initiative launches 50 cultural programs this year, strengthening ties between Korean and Filipino communities.",
+    "subtitle_kr": "올해 50개 문화프로그램 추진, 한필 지역사회 유대 강화",
+    "body_en": [
+      "The Korean Embassy in Manila and the Philippine Department of Foreign Affairs announced a historic cultural partnership Monday, launching an ambitious year-long initiative aimed at deepening connections between Korea and the Philippines. The program encompasses 50 cultural exchange events spanning music, food, language, and traditional arts, with participation from governmental institutions and private sector organizations. Officials emphasized that this partnership represents people-to-people diplomacy and strengthens bilateral relations beyond commercial interests.",
+      "Major components include monthly K-culture festivals in Metro Manila and provincial cities, Korean language scholarship programs for Filipino students, and culinary exchange events featuring both cuisines. The Korean Cultural Center will establish three new satellite offices outside Metro Manila to ensure nationwide reach. Ambassador Park Min-jun stated that this initiative demonstrates Korea's commitment to long-term cultural engagement with the Filipino community, creating educational and cultural pathways for future generations.",
+      "The program launches with a grand opening festival at the Cultural Center of the Philippines next weekend, featuring Seoul-based artists and demonstrations by Korean master chefs. Organizers anticipate over 10,000 attendees. The initiative is expected to benefit cultural practitioners, educators, and Korean residents across the country. This comes amid robust Korean business expansion, with over 2,500 Korean companies now operating in the Philippines."
+    ],
+    "body_kr": [
+      "주필리핀 한국대사관과 필리핀 외교부가 월요일 역사적 문화교류 협력을 발표했다. 올해 한필 관계 심화를 목표로 음악, 음식, 언어, 전통예술 등 50개 문화교류행사를 추진한다. 정부기관과 민간기업이 함께 참여하며, 경제 관심을 넘어 국민 간 외교와 양국 관계 강화에 중점을 두고 있다.",
+      "주요 내용은 마닐라와 지방도시의 월간 한류문화축제, 필리핀 학생 대상 한국어 장학금 프로그램, 한필 요리 교류행사 등이다. 한국문화원은 마닐라 외 3개 지역에 분원을 설치해 전국적 확산을 도모한다. 박민준 대사는 장기적 문화 교류로 미래세대와의 유대를 강화하겠다고 강조했다.",
+      "프로그램은 다음 주말 필리핀문화원에서 개막식을 개최한다. 서울 예술단의 공연과 한국 요리 마스터의 시연이 있으며, 1만여 명의 참석을 예상하고 있다. 이번 이니셔티브는 문화예술인, 교육계, 한인 주민들에게 실질적 혜택을 줄 전망이다. 현재 필리핀에는 2,500개 이상의 한국 기업이 진출해 있다."
+    ],
+    "image_seed": "cover-2026-04-13",
+    "image_caption": "Photo: Korean Cultural Center officials and Philippine counterparts launch historic cultural partnership (April 13, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures at Korean Business Districts Across Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 밀집지역 보안 강화",
+    "lead_en": "Metro Manila law enforcement has implemented comprehensive security improvements at major Korean business hubs following consultation with the Korean Chamber of Commerce. The initiative aims to ensure continued safety for Korean residents and enterprises.",
+    "lead_kr": "메트로 마닐라 경찰청이 한인상공회의소와 협의해 보안 강화 조치를 시행했다. 한인 주민과 기업의 안전을 위한 대책이다.",
+    "image_seed": "feat-2026-04-13",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Samsung Electronics Expands Philippines Workforce by 25%",
+      "headline_kr": "삼성전자, 필리핀 인력 25% 확대",
+      "summary_en": "Tech giant announces significant expansion reflecting growing confidence in Southeast Asian market growth and Philippine economic potential.",
+      "summary_kr": "동남아시아 시장 성장과 필리핀 경제 잠재력에 대한 자신감을 반영한 결정.",
+      "image_seed": "news1-2026-04-13",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Korean Street Food Festival Comes to Bonifacio Global City",
+      "headline_kr": "한식 길거리음식 축제 BGC에서 개최",
+      "summary_en": "Tteokbokki, kimchi, and bibimbap vendors showcase authentic recipes. Festival runs Saturday and Sunday with live K-pop performances and cultural demonstrations.",
+      "summary_kr": "떡볶이, 김치, 비빔밥 등 정통 한식 음식 축제. 토일 2일간 K팝 공연과 함께 진행.",
+      "image_seed": "news2-2026-04-13",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Five Philippine Universities Launch Korean Studies Degree Programs",
+      "headline_kr": "필리핀 대학 5곳, 한국학 학위과정 신설",
+      "summary_en": "Leading universities introduce Korean language and culture programs with support from Korea's Ministry of Education. Full scholarships available for Filipino students.",
+      "summary_kr": "한국 교육부 지원으로 한국어와 한국 문화 학위과정 개설. 필리핀 학생 장학금 제공.",
+      "image_seed": "news3-2026-04-13",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Safety Summit Convenes Monthly in Makati",
+      "headline_kr": "한인 안전 커뮤니티 서밋 마카티 정기 개최",
+      "summary_en": "Korean Embassy holds monthly briefing covering emergency protocols, health advisories, and community support services for Korean residents and expatriates.",
+      "summary_kr": "한국대사관 월간 브리핑. 응급 상황 대응, 보건 정보, 지역사회 지원 서비스 제공.",
+      "image_seed": "news4-2026-04-13",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Stewardship",
+    "pronunciation": "STOO-ard-ship",
+    "type": "noun",
+    "definition_en": "The responsible management and care of something entrusted to one's care; commitment to guardianship.",
+    "definition_kr": "맡겨진 것을 책임감 있게 관리하고 돌보는 행위",
+    "example_en": "Cultural stewardship is central to the Korea-Philippines partnership unveiled today.",
+    "example_kr": "문화에 대한 책임감 있는 관리가 오늘 발표된 한필 협력의 핵심이다.",
+    "grade": "A+"
+  }
+}
