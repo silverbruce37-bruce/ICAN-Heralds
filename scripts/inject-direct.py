@@ -173,26 +173,83 @@ def build_weekly_sections(weekly, date_dot):
             {_build_travel_cards(weekly)}
         </section>'''
 
-    # ── Events ──
+    # ── Events (with full actionable details) ──
     events_html = ""
     events = weekly.get("events", [])
     if events:
         ecards = ""
         for i, ev in enumerate(events[:4], 1):
+            # Support both old format (location_en) and new format (venue_en + address_en)
+            venue_en = ev.get('venue_en', ev.get('location_en', ''))
+            venue_kr = ev.get('venue_kr', ev.get('location_kr', ''))
+            address_en = ev.get('address_en', '')
+            address_kr = ev.get('address_kr', '')
+            time_en = ev.get('time_en', '')
+            time_kr = ev.get('time_kr', '')
+            contact = ev.get('contact', '')
+            note_en = ev.get('note_en', '')
+            note_kr = ev.get('note_kr', '')
+            day_en = ev.get('day_of_week_en', '')
+            day_kr = ev.get('day_of_week_kr', '')
+
+            date_line = ev.get('date_badge', '')
+            if day_en:
+                date_line_full = f'{ev.get("date_badge","")} ({day_en})'
+                date_line_full_kr = f'{ev.get("date_badge","")} ({day_kr})'
+            else:
+                date_line_full = date_line
+                date_line_full_kr = date_line
+
+            # Build detail rows
+            details = ""
+            if venue_en:
+                details += f'''
+                        <div class="event-detail-row">
+                            <span class="event-detail-icon">📍</span>
+                            <div>
+                                <strong><span class="en-content">{venue_en}</span><span class="kr-content">{venue_kr}</span></strong>
+                                {"<br><span class='en-content'>" + address_en + "</span><span class='kr-content'>" + address_kr + "</span>" if address_en else ""}
+                            </div>
+                        </div>'''
+            if time_en:
+                details += f'''
+                        <div class="event-detail-row">
+                            <span class="event-detail-icon">🕐</span>
+                            <div><span class="en-content">{time_en}</span><span class="kr-content">{time_kr}</span></div>
+                        </div>'''
+            details += f'''
+                        <div class="event-detail-row">
+                            <span class="event-detail-icon">🎟️</span>
+                            <div><span class="en-content">{ev.get('price_en','')}</span><span class="kr-content">{ev.get('price_kr','')}</span></div>
+                        </div>'''
+            if contact:
+                details += f'''
+                        <div class="event-detail-row">
+                            <span class="event-detail-icon">📞</span>
+                            <div>{contact}</div>
+                        </div>'''
+            if note_en:
+                details += f'''
+                        <div class="event-detail-row event-note">
+                            <span class="event-detail-icon">💡</span>
+                            <div><span class="en-content">{note_en}</span><span class="kr-content">{note_kr}</span></div>
+                        </div>'''
+
             ecards += f'''
                 <div class="event-card">
-                    <div class="event-date-badge">{ev.get('date_badge','')}</div>
+                    <div class="event-date-badge">
+                        <span class="en-content">{date_line_full}</span>
+                        <span class="kr-content">{date_line_full_kr}</span>
+                    </div>
                     <div class="event-image">
                         <img src="{img_url(ev.get('image_seed', f'event{i}'), 600, 400)}" alt="{ev.get('title','')}">
                     </div>
                     <h3>{ev.get('title','')}</h3>
-                    <p>
+                    <p class="event-desc">
                         <span class="en-content">{ev.get('desc_en','')}</span>
                         <span class="kr-content">{ev.get('desc_kr','')}</span>
                     </p>
-                    <div class="event-meta">
-                        <span>📍 <span class="en-content">{ev.get('location_en','')}</span><span class="kr-content">{ev.get('location_kr','')}</span></span>
-                        <span>🎟️ <span class="en-content">{ev.get('price_en','')}</span><span class="kr-content">{ev.get('price_kr','')}</span></span>
+                    <div class="event-details">{details}
                     </div>
                 </div>'''
         events_html = f'''

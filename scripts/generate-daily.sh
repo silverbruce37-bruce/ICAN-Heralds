@@ -288,10 +288,28 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
     }
   ],
   \"events\": [
-    {\"date_badge\": \"APR 18\", \"image_seed\": \"event1-w${CURRENT_WEEK}\", \"title\": \"Event Name\", \"desc_en\": \"Description\", \"desc_kr\": \"설명\", \"location_en\": \"Venue EN\", \"location_kr\": \"장소 KR\", \"price_en\": \"₱X,XXX\", \"price_kr\": \"₱X,XXX\"},
-    {\"date_badge\": \"MAY 05\", \"image_seed\": \"event2-w${CURRENT_WEEK}\", \"title\": \"Event 2\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"location_en\": \"...\", \"location_kr\": \"...\", \"price_en\": \"FREE Entry\", \"price_kr\": \"입장 무료\"},
-    {\"date_badge\": \"JUN 12\", \"image_seed\": \"event3-w${CURRENT_WEEK}\", \"title\": \"Event 3\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"location_en\": \"...\", \"location_kr\": \"...\", \"price_en\": \"FREE\", \"price_kr\": \"무료\"},
-    {\"date_badge\": \"JUL 20\", \"image_seed\": \"event4-w${CURRENT_WEEK}\", \"title\": \"Event 4\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"location_en\": \"...\", \"location_kr\": \"...\", \"price_en\": \"₱X,XXX\", \"price_kr\": \"₱X,XXX\"}
+    {
+      \"date_badge\": \"APR 18\",
+      \"day_of_week_en\": \"Friday\", \"day_of_week_kr\": \"금요일\",
+      \"image_seed\": \"event1-w${CURRENT_WEEK}\",
+      \"title\": \"Event Name\",
+      \"desc_en\": \"2-3 sentence vivid description\",
+      \"desc_kr\": \"생생한 2-3문장 설명\",
+      \"venue_en\": \"Exact venue name (e.g. Republiq Club & Lounge)\",
+      \"venue_kr\": \"정확한 장소명\",
+      \"address_en\": \"Full street address (e.g. 3/F Resorts World Manila, Newport Blvd, Pasay City)\",
+      \"address_kr\": \"전체 도로명 주소\",
+      \"time_en\": \"Doors 7:00 PM · Show 8:00 PM\",
+      \"time_kr\": \"입장 오후 7시 · 공연 오후 8시\",
+      \"price_en\": \"₱500 advance / ₱700 at door\",
+      \"price_kr\": \"사전 ₱500 / 현장 ₱700\",
+      \"contact\": \"@instagram_handle or phone number or booking URL\",
+      \"note_en\": \"Any special note (e.g. Bring valid ID, Korean menu available)\",
+      \"note_kr\": \"특별 참고사항\"
+    },
+    { \"date_badge\": \"MAY 05\", \"day_of_week_en\": \"Monday\", \"day_of_week_kr\": \"월요일\", \"image_seed\": \"event2-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"FREE\", \"price_kr\": \"무료\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
+    { \"date_badge\": \"JUN 12\", \"day_of_week_en\": \"Thursday\", \"day_of_week_kr\": \"목요일\", \"image_seed\": \"event3-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
+    { \"date_badge\": \"JUL 20\", \"day_of_week_en\": \"Sunday\", \"day_of_week_kr\": \"일요일\", \"image_seed\": \"event4-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" }
   ],
   \"picks\": {
     \"date\": \"${DATE_DOT}\",
@@ -304,7 +322,16 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
   }
 }
 
-Focus on Metro Manila (Makati, BGC, Ortigas, Quezon City). Make food reviews atmospheric and genuine — like a real food blogger who actually ate there. Events should be realistic upcoming cultural/K-pop/food events. Return ONLY valid JSON."
+Focus on Metro Manila (Makati, BGC, Ortigas, Quezon City). Make food reviews atmospheric and genuine — like a real food blogger who actually ate there.
+
+EVENTS MUST include actionable details so readers can actually go:
+- venue_en/kr: Exact venue name (not just area)
+- address_en/kr: Full street address with building, floor, street, city
+- time_en/kr: Door time and event time
+- contact: Instagram handle, phone, or booking URL
+- note_en/kr: Practical tips (ID required, parking info, Korean menu available, etc.)
+
+Return ONLY valid JSON."
 
     WEEKLY_JSON=$(call_claude "$WEEKLY_PROMPT" 8000) || {
         echo "  WARNING: Failed to generate weekly content, using existing"
