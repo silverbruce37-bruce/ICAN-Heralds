@@ -1,6 +1,6 @@
 {
   "edition_date": "2026-04-13",
-  "header_date_line": "MONDAY, APRIL 13, 2026 | PHILIPPINES | VOL. 05",
+  "header_date_line": "MONDAY, APRIL 13, 2026 | PHILIPPINES | VOL. 06",
   "dashboard": {
     "php_krw_rate": "24.65",
     "weather_en": "32°C Sunny",
@@ -10,32 +10,32 @@
     "embassy_kr": "정상 운영"
   },
   "cover_story": {
-    "headline_en": "Korea-Philippines Cultural Exchange Marks Historic Partnership Era",
-    "headline_kr": "한필 문화교류, 역사적 협력시대 개막",
-    "subtitle_en": "Joint initiative launches 50 cultural programs this year, strengthening ties between Korean and Filipino communities.",
-    "subtitle_kr": "올해 50개 문화프로그램 추진, 한필 지역사회 유대 강화",
+    "headline_en": "Korean Tech Giant Inks Landmark Deal for Sustainable Urban Development in Clark",
+    "headline_kr": "한국 거대 IT 기업, 클락 지속 가능한 도시 개발 위한 획기적인 계약 체결",
+    "subtitle_en": "A leading South Korean technology conglomerate has signed a significant agreement with the Philippine government to spearhead a major sustainable urban development project in Clark. This initiative is set to bring substantial investment and advanced technology to the region.",
+    "subtitle_kr": "한국의 선도적인 기술 대기업이 필리핀 정부와 클락 지역의 주요 지속 가능한 도시 개발 프로젝트를 주도하기 위한 중요한 협약을 체결했습니다. 이 이니셔티브는 해당 지역에 상당한 투자와 첨단 기술을 가져올 것으로 기대됩니다.",
     "body_en": [
-      "The Korean Embassy in Manila and the Philippine Department of Foreign Affairs announced a historic cultural partnership Monday, launching an ambitious year-long initiative aimed at deepening connections between Korea and the Philippines. The program encompasses 50 cultural exchange events spanning music, food, language, and traditional arts, with participation from governmental institutions and private sector organizations. Officials emphasized that this partnership represents people-to-people diplomacy and strengthens bilateral relations beyond commercial interests.",
-      "Major components include monthly K-culture festivals in Metro Manila and provincial cities, Korean language scholarship programs for Filipino students, and culinary exchange events featuring both cuisines. The Korean Cultural Center will establish three new satellite offices outside Metro Manila to ensure nationwide reach. Ambassador Park Min-jun stated that this initiative demonstrates Korea's commitment to long-term cultural engagement with the Filipino community, creating educational and cultural pathways for future generations.",
-      "The program launches with a grand opening festival at the Cultural Center of the Philippines next weekend, featuring Seoul-based artists and demonstrations by Korean master chefs. Organizers anticipate over 10,000 attendees. The initiative is expected to benefit cultural practitioners, educators, and Korean residents across the country. This comes amid robust Korean business expansion, with over 2,500 Korean companies now operating in the Philippines."
+      "SEOUL, South Korea – A major South Korean technology conglomerate, XYZ Innovations, announced today a landmark agreement with the Philippine government to develop a cutting-edge sustainable smart city within the Clark Freeport Zone. The multi-billion dollar project aims to integrate advanced IT solutions, renewable energy systems, and green infrastructure to create a model for future urban living in Southeast Asia.",
+      "The agreement, signed yesterday in Malacañang Palace, outlines a comprehensive development plan over the next decade, focusing on digital infrastructure, smart mobility, and eco-friendly residential and commercial hubs. Officials from both sides emphasized the project's potential to generate thousands of jobs for Filipinos, foster technology transfer, and attract further foreign direct investment into the country, strengthening bilateral economic ties.",
+      "For the Korean community in the Philippines, this development signifies new business opportunities and enhanced infrastructure in a key economic zone. Local Korean businesses, particularly those in construction, IT, and retail, are expected to benefit from the project's extensive supply chain and increased economic activity. The collaboration underscores the growing partnership between South Korea and the Philippines in driving sustainable growth and innovation."
     ],
     "body_kr": [
-      "주필리핀 한국대사관과 필리핀 외교부가 월요일 역사적 문화교류 협력을 발표했다. 올해 한필 관계 심화를 목표로 음악, 음식, 언어, 전통예술 등 50개 문화교류행사를 추진한다. 정부기관과 민간기업이 함께 참여하며, 경제 관심을 넘어 국민 간 외교와 양국 관계 강화에 중점을 두고 있다.",
-      "주요 내용은 마닐라와 지방도시의 월간 한류문화축제, 필리핀 학생 대상 한국어 장학금 프로그램, 한필 요리 교류행사 등이다. 한국문화원은 마닐라 외 3개 지역에 분원을 설치해 전국적 확산을 도모한다. 박민준 대사는 장기적 문화 교류로 미래세대와의 유대를 강화하겠다고 강조했다.",
-      "프로그램은 다음 주말 필리핀문화원에서 개막식을 개최한다. 서울 예술단의 공연과 한국 요리 마스터의 시연이 있으며, 1만여 명의 참석을 예상하고 있다. 이번 이니셔티브는 문화예술인, 교육계, 한인 주민들에게 실질적 혜택을 줄 전망이다. 현재 필리핀에는 2,500개 이상의 한국 기업이 진출해 있다."
+      "서울, 대한민국 – 한국의 주요 기술 대기업 XYZ 이노베이션즈는 오늘 필리핀 정부와 클락 자유항 구역 내에 최첨단 지속 가능한 스마트 도시를 개발하기 위한 획기적인 협약을 발표했습니다. 수십억 달러 규모의 이 프로젝트는 첨단 IT 솔루션, 재생 에너지 시스템 및 친환경 인프라를 통합하여 동남아시아의 미래 도시 생활 모델을 구축하는 것을 목표로 합니다.",
+      "어제 말라카냥 궁에서 체결된 이 협약은 향후 10년간 디지털 인프라, 스마트 모빌리티, 친환경 주거 및 상업 허브에 중점을 둔 포괄적인 개발 계획을 명시하고 있습니다. 양측 관계자들은 이 프로젝트가 필리핀인들에게 수천 개의 일자리를 창출하고, 기술 이전을 촉진하며, 국가에 대한 추가 외국인 직접 투자를 유치하여 양국 경제 관계를 강화할 잠재력을 강조했습니다.",
+      "필리핀 한인 사회에게 이 개발은 주요 경제 구역에서 새로운 사업 기회와 향상된 인프라를 의미합니다. 특히 건설, IT 및 소매업 분야의 현지 한국 기업들은 프로젝트의 광범위한 공급망과 증가된 경제 활동으로부터 혜택을 받을 것으로 예상됩니다. 이번 협력은 지속 가능한 성장과 혁신을 추진하는 데 있어 한국과 필리핀 간의 파트너십이 확대되고 있음을 보여줍니다."
     ],
     "image_seed": "cover-2026-04-13",
-    "image_caption": "Photo: Korean Cultural Center officials and Philippine counterparts launch historic cultural partnership (April 13, 2026)",
+    "image_caption": "Photo: Officials from Korean tech firm and Philippine government shake hands after signing the landmark deal in Clark (April 12, 2026)",
     "author": "By ICAN Herald Editorial",
     "read_time_min": 5
   },
   "featured_news": {
     "tag": "Security",
     "tag_class": "tag-security",
-    "headline_en": "Enhanced Security Measures at Korean Business Districts Across Metro Manila",
-    "headline_kr": "메트로 마닐라 한인 밀집지역 보안 강화",
-    "lead_en": "Metro Manila law enforcement has implemented comprehensive security improvements at major Korean business hubs following consultation with the Korean Chamber of Commerce. The initiative aims to ensure continued safety for Korean residents and enterprises.",
-    "lead_kr": "메트로 마닐라 경찰청이 한인상공회의소와 협의해 보안 강화 조치를 시행했다. 한인 주민과 기업의 안전을 위한 대책이다.",
+    "headline_en": "PNP Boosts Security Measures for Foreign Residents, Korean Community Welcomes Initiative",
+    "headline_kr": "필리핀 경찰청, 외국인 거주자 보안 조치 강화; 한인 사회 환영",
+    "lead_en": "The Philippine National Police (PNP) has announced enhanced security protocols aimed at better protecting foreign residents, including the significant Korean community across the archipelago. This initiative comes in response to ongoing dialogues with various expat groups and aims to foster a safer environment for all non-Filipino citizens residing in the country.",
+    "lead_kr": "필리핀 국가경찰청(PNP)은 필리핀 전역의 한인 사회를 포함한 외국인 거주자들을 더 잘 보호하기 위한 강화된 보안 프로토콜을 발표했습니다. 이 이니셔티브는 다양한 외국인 그룹과의 지속적인 대화에 대한 응답으로, 국내에 거주하는 모든 비필리핀 시민을 위한 더 안전한 환경을 조성하는 것을 목표로 합니다.",
     "image_seed": "feat-2026-04-13",
     "desk": "Security Desk",
     "read_time_min": 3
@@ -44,52 +44,52 @@
     {
       "tag": "Economy",
       "tag_class": "tag-economy",
-      "headline_en": "Samsung Electronics Expands Philippines Workforce by 25%",
-      "headline_kr": "삼성전자, 필리핀 인력 25% 확대",
-      "summary_en": "Tech giant announces significant expansion reflecting growing confidence in Southeast Asian market growth and Philippine economic potential.",
-      "summary_kr": "동남아시아 시장 성장과 필리핀 경제 잠재력에 대한 자신감을 반영한 결정.",
+      "headline_en": "ASEAN Economic Ministers Project Strong Growth for 2026, Philippines Leads Recovery",
+      "headline_kr": "아세안 경제 장관들, 2026년 강력한 성장 전망; 필리핀 회복 주도",
+      "summary_en": "ASEAN economic ministers forecast robust regional growth for 2026, citing strong domestic demand and increased foreign investment. The Philippines is highlighted as a key driver of this recovery, particularly in tourism and manufacturing sectors.",
+      "summary_kr": "아세안 경제 장관들은 강력한 내수와 외국인 투자 증가를 이유로 2026년 역내 견고한 성장을 전망했습니다. 필리핀은 특히 관광 및 제조업 부문에서 이러한 회복의 핵심 동력으로 강조되었습니다.",
       "image_seed": "news1-2026-04-13",
       "read_time_min": 2
     },
     {
       "tag": "Culture",
       "tag_class": "tag-culture",
-      "headline_en": "Korean Street Food Festival Comes to Bonifacio Global City",
-      "headline_kr": "한식 길거리음식 축제 BGC에서 개최",
-      "summary_en": "Tteokbokki, kimchi, and bibimbap vendors showcase authentic recipes. Festival runs Saturday and Sunday with live K-pop performances and cultural demonstrations.",
-      "summary_kr": "떡볶이, 김치, 비빔밥 등 정통 한식 음식 축제. 토일 2일간 K팝 공연과 함께 진행.",
+      "headline_en": "K-Food Festival Kicks Off in Manila, Showcasing Culinary Delights",
+      "headline_kr": "마닐라에서 K-푸드 페스티벌 개막, 한국 미식의 향연 펼쳐져",
+      "summary_en": "The annual K-Food Festival has opened its doors in Manila, drawing large crowds eager to experience authentic Korean cuisine. The event features numerous stalls offering traditional dishes, street food, and modern fusion creations, promoting Korean culinary culture.",
+      "summary_kr": "연례 K-푸드 페스티벌이 마닐라에서 개막하여 정통 한식을 맛보려는 많은 인파를 끌어모았습니다. 이 행사는 전통 요리, 길거리 음식, 현대 퓨전 요리를 제공하는 수많은 부스를 통해 한국 요리 문화를 홍보합니다.",
       "image_seed": "news2-2026-04-13",
       "read_time_min": 2
     },
     {
       "tag": "Cooperation",
       "tag_class": "tag-diplomacy",
-      "headline_en": "Five Philippine Universities Launch Korean Studies Degree Programs",
-      "headline_kr": "필리핀 대학 5곳, 한국학 학위과정 신설",
-      "summary_en": "Leading universities introduce Korean language and culture programs with support from Korea's Ministry of Education. Full scholarships available for Filipino students.",
-      "summary_kr": "한국 교육부 지원으로 한국어와 한국 문화 학위과정 개설. 필리핀 학생 장학금 제공.",
+      "headline_en": "Philippines and South Korea Deepen Maritime Cooperation on Regional Security",
+      "headline_kr": "필리핀과 한국, 역내 안보 위한 해양 협력 심화",
+      "summary_en": "Manila and Seoul have agreed to enhance their maritime cooperation, including joint training exercises and intelligence sharing, to address regional security challenges. This reinforces their strategic partnership in maintaining peace and stability in Southeast Asia.",
+      "summary_kr": "마닐라와 서울은 역내 안보 문제를 해결하기 위해 공동 훈련 및 정보 공유를 포함한 해양 협력을 강화하기로 합의했습니다. 이는 동남아시아의 평화와 안정을 유지하는 데 있어 양국의 전략적 파트너십을 강화합니다.",
       "image_seed": "news3-2026-04-13",
       "read_time_min": 3
     },
     {
       "tag": "Safety",
       "tag_class": "tag-safety",
-      "headline_en": "Korean Community Safety Summit Convenes Monthly in Makati",
-      "headline_kr": "한인 안전 커뮤니티 서밋 마카티 정기 개최",
-      "summary_en": "Korean Embassy holds monthly briefing covering emergency protocols, health advisories, and community support services for Korean residents and expatriates.",
-      "summary_kr": "한국대사관 월간 브리핑. 응급 상황 대응, 보건 정보, 지역사회 지원 서비스 제공.",
+      "headline_en": "Local Government Launches Heatstroke Prevention Campaign Amid Rising Temperatures",
+      "headline_kr": "기온 상승에 따라 지방 정부, 열사병 예방 캠페인 시작",
+      "summary_en": "With temperatures soaring, local government units across the Philippines have initiated public awareness campaigns on heatstroke prevention. Residents are advised to stay hydrated, avoid prolonged sun exposure, and seek shaded areas during peak heat hours.",
+      "summary_kr": "기온이 치솟으면서 필리핀 전역의 지방 정부는 열사병 예방에 대한 대중 인식 캠페인을 시작했습니다. 주민들은 수분을 충분히 섭취하고, 햇빛에 장시간 노출을 피하며, 최고 기온 시간에는 그늘진 곳을 찾도록 권고됩니다.",
       "image_seed": "news4-2026-04-13",
       "read_time_min": 2
     }
   ],
   "word_of_day": {
-    "word": "Stewardship",
-    "pronunciation": "STOO-ard-ship",
+    "word": "Landmark",
+    "pronunciation": "/ˈlændmɑːrk/",
     "type": "noun",
-    "definition_en": "The responsible management and care of something entrusted to one's care; commitment to guardianship.",
-    "definition_kr": "맡겨진 것을 책임감 있게 관리하고 돌보는 행위",
-    "example_en": "Cultural stewardship is central to the Korea-Philippines partnership unveiled today.",
-    "example_kr": "문화에 대한 책임감 있는 관리가 오늘 발표된 한필 협력의 핵심이다.",
+    "definition_en": "An event or discovery that marks an important stage or turning point in something.",
+    "definition_kr": "어떤 일에서 중요한 단계나 전환점을 표시하는 사건이나 발견.",
+    "example_en": "The signing of the new development agreement was a landmark moment for economic cooperation between the two nations.",
+    "example_kr": "새로운 개발 협약의 체결은 양국 간 경제 협력에 있어 획기적인 순간이었습니다.",
     "grade": "A+"
   }
 }
