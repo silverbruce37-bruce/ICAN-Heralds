@@ -480,13 +480,19 @@ function renderAcademy(articleId) {
 let currentAcademyArticle = null;
 
 function openAcademy(articleId) {
-    currentAcademyArticle = articleId;
-    initAcademyFromDOM();
-    renderAcademy(articleId);
-    document.getElementById('academyOverlay').classList.add('active');
-    document.body.style.overflow = 'hidden';
-    // Scroll overlay to top
-    document.getElementById('academyOverlay').scrollTop = 0;
+    try {
+        currentAcademyArticle = articleId;
+        initAcademyFromDOM();
+        renderAcademy(articleId);
+        var overlay = document.getElementById('academyOverlay');
+        if (!overlay) { alert('ERROR: academyOverlay not found'); return; }
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        overlay.scrollTop = 0;
+    } catch(e) {
+        alert('LEARN error: ' + e.message);
+        console.error('openAcademy error:', e);
+    }
 }
 
 function closeAcademy() {
