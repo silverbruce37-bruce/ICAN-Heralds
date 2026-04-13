@@ -65,44 +65,115 @@ def build_weekly_sections(weekly, date_dot):
     if not weekly:
         return "", "", "", ""
 
-    # Food
+    # ── Food Feature (magazine-style full layout) ──
     food_html = ""
     food = weekly.get("food_feature", {})
     if food:
-        must_try = "\n".join(
-            f'<li><span class="en-content">{it["en"]} — {it.get("price","")}</span>'
-            f'<span class="kr-content">{it["kr"]} — {it.get("price","")}</span></li>'
-            for it in food.get("must_try", [])
-        )
+        must_try_items = ""
+        for it in food.get("must_try", []):
+            must_try_items += f'''
+                            <li>
+                                <span class="en-content">{it["en"]} — <strong>{it.get("price","")}</strong></span>
+                                <span class="kr-content">{it["kr"]} — <strong>{it.get("price","")}</strong></span>
+                            </li>'''
+
         tags = "\n".join(
             f'<span class="food-type-tag"><span class="en-content">{t["en"]}</span>'
             f'<span class="kr-content">{t["kr"]}</span></span>'
             for t in food.get("cuisine_tags", [])
         )
+
+        gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
+        gallery_imgs = "\n".join(
+            f'<img src="{img_url(s, 300, 200)}" alt="Gallery {i+1}">'
+            for i, s in enumerate(gallery_seeds[:3])
+        )
+
         food_html = f'''
         <section id="food-travel">
-            <h2 class="section-title"><span class="en-content">Food & Travel</span><span class="kr-content">맛집 · 여행</span></h2>
+            <h2 class="section-title">
+                <span class="en-content">Food & Travel</span>
+                <span class="kr-content">맛집 · 여행</span>
+            </h2>
+
             <div class="food-feature">
-                <div class="food-badge"><span class="en-content">{food.get('badge_en','')}</span><span class="kr-content">{food.get('badge_kr','')}</span></div>
-                <div class="food-hero"><img src="{img_url(food.get('hero_image_seed','food'), 800, 500)}" alt="Food"></div>
-                <div class="food-info">
-                    <div class="food-tags">{tags}</div>
-                    <h3 class="food-name"><span class="en-content">{food.get('name_en','')}</span><span class="kr-content">{food.get('name_kr','')}</span></h3>
-                    <div class="food-rating"><span class="food-stars">{food.get('stars','★★★★★')}</span><span class="food-score">{food.get('rating',4.8)}</span></div>
-                    <p class="food-lead"><span class="en-content">{food.get('lead_en','')}</span><span class="kr-content">{food.get('lead_kr','')}</span></p>
-                    <blockquote class="food-quote"><span class="en-content">"{food.get('quote_en','')}"</span><span class="kr-content">"{food.get('quote_kr','')}"</span></blockquote>
-                    <div class="food-details">
-                        <div class="food-detail-item"><span class="food-detail-icon">📍</span> {food.get('location','')}</div>
-                        <div class="food-detail-item"><span class="food-detail-icon">💰</span> {food.get('price_range','')}</div>
-                        <div class="food-detail-item"><span class="food-detail-icon">🕐</span> {food.get('hours','')}</div>
+                <div class="food-feature-badge">
+                    <span class="en-content">{food.get('badge_en','EDITOR&#39;S CHOICE')}</span>
+                    <span class="kr-content">{food.get('badge_kr','에디터 추천')}</span>
+                </div>
+                <div class="food-feature-gallery">
+                    <img class="food-hero-img" src="{img_url(food.get('hero_image_seed','food'), 1200, 600)}" alt="{food.get('name_en','')}">
+                    <div class="food-gallery-strip">
+                        {gallery_imgs}
                     </div>
-                    <h4 class="food-musttry-title"><span class="en-content">Must-Try</span><span class="kr-content">꼭 먹어볼 것</span></h4>
-                    <ul class="food-musttry-list">{must_try}</ul>
+                </div>
+                <div class="food-feature-content">
+                    <div class="food-tags">{tags}</div>
+                    <h3>
+                        <span class="en-content">{food.get('name_en','')}</span>
+                        <span class="kr-content">{food.get('name_kr','')}</span>
+                    </h3>
+                    <div class="food-rating">
+                        <span class="stars">{food.get('stars','★★★★★')}</span>
+                        <span class="rating-score">{food.get('rating', 4.8)}</span>
+                    </div>
+                    <p class="food-lead">
+                        <span class="en-content">{food.get('lead_en','')}</span>
+                        <span class="kr-content">{food.get('lead_kr','')}</span>
+                    </p>
+                    <blockquote class="food-quote">
+                        <span class="en-content">"{food.get('quote_en','')}"</span>
+                        <span class="kr-content">"{food.get('quote_kr','')}"</span>
+                    </blockquote>
+                    <div class="food-details">
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">📍</span>
+                            <div><strong>Location</strong><br>{food.get('location','')}</div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">💰</span>
+                            <div><strong>Price</strong><br>{food.get('price_range','')}</div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">🕐</span>
+                            <div><strong>Hours</strong><br>{food.get('hours','')}<br>
+                            <span class="en-content" style="color:var(--muted);font-size:0.85rem;">{food.get('hours_closed_en','')}</span>
+                            <span class="kr-content" style="color:var(--muted);font-size:0.85rem;">{food.get('hours_closed_kr','')}</span></div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">🗣️</span>
+                            <div><strong>Language</strong><br>
+                            <span class="en-content">{food.get('language_en','')}</span>
+                            <span class="kr-content">{food.get('language_kr','')}</span></div>
+                        </div>
+                    </div>
+                    <div class="food-must-try">
+                        <h4>
+                            <span class="en-content">Must-Try</span>
+                            <span class="kr-content">꼭 먹어볼 것</span>
+                        </h4>
+                        <ul>{must_try_items}
+                        </ul>
+                    </div>
+                    <div class="food-tip">
+                        <span class="food-tip-label">💡 TIP</span>
+                        <span class="en-content">{food.get('tip_en','')}</span>
+                        <span class="kr-content">{food.get('tip_kr','')}</span>
+                    </div>
                 </div>
             </div>
+
+            <!-- Travel Cards -->
+            <div class="section-intro" style="margin-top:50px;">
+                <h3 class="section-title">
+                    <span class="en-content">Weekend Escapes</span>
+                    <span class="kr-content">주말 여행</span>
+                </h3>
+            </div>
+            {_build_travel_cards(weekly)}
         </section>'''
 
-    # Events
+    # ── Events ──
     events_html = ""
     events = weekly.get("events", [])
     if events:
@@ -111,9 +182,14 @@ def build_weekly_sections(weekly, date_dot):
             ecards += f'''
                 <div class="event-card">
                     <div class="event-date-badge">{ev.get('date_badge','')}</div>
-                    <div class="event-image"><img src="{img_url(ev.get('image_seed', f'event{i}'), 600, 400)}" alt="Event"></div>
+                    <div class="event-image">
+                        <img src="{img_url(ev.get('image_seed', f'event{i}'), 600, 400)}" alt="{ev.get('title','')}">
+                    </div>
                     <h3>{ev.get('title','')}</h3>
-                    <p><span class="en-content">{ev.get('desc_en','')}</span><span class="kr-content">{ev.get('desc_kr','')}</span></p>
+                    <p>
+                        <span class="en-content">{ev.get('desc_en','')}</span>
+                        <span class="kr-content">{ev.get('desc_kr','')}</span>
+                    </p>
                     <div class="event-meta">
                         <span>📍 <span class="en-content">{ev.get('location_en','')}</span><span class="kr-content">{ev.get('location_kr','')}</span></span>
                         <span>🎟️ <span class="en-content">{ev.get('price_en','')}</span><span class="kr-content">{ev.get('price_kr','')}</span></span>
@@ -121,12 +197,15 @@ def build_weekly_sections(weekly, date_dot):
                 </div>'''
         events_html = f'''
         <section id="events">
-            <h2 class="section-title"><span class="en-content">Upcoming Events</span><span class="kr-content">주요 행사</span></h2>
+            <h2 class="section-title">
+                <span class="en-content">Upcoming Events</span>
+                <span class="kr-content">주요 행사</span>
+            </h2>
             <div class="events-grid">{ecards}
             </div>
         </section>'''
 
-    # Picks
+    # ── Herald's Pick ──
     picks_html = ""
     picks = weekly.get("picks", {})
     if picks:
@@ -136,15 +215,72 @@ def build_weekly_sections(weekly, date_dot):
         )
         picks_html = f'''
         <section id="picks">
-            <h2 class="section-title"><span class="en-content">Herald\'s Pick</span><span class="kr-content">헤럴드 픽</span></h2>
+            <h2 class="section-title">
+                <span class="en-content">Herald\\'s Pick</span>
+                <span class="kr-content">헤럴드 픽</span>
+            </h2>
             <div class="picks-card">
                 <div class="picks-date">{picks.get('date', date_dot)}</div>
-                <h3><span class="en-content">{picks.get('title_en','')}</span><span class="kr-content">{picks.get('title_kr','')}</span></h3>
+                <h3>
+                    <span class="en-content">{picks.get('title_en','')}</span>
+                    <span class="kr-content">{picks.get('title_kr','')}</span>
+                </h3>
                 {pbody}
             </div>
         </section>'''
 
     return food_html, "", events_html, picks_html
+
+
+def _build_travel_cards(weekly):
+    """Build travel cards with full design: badge, image, rating, details, tip."""
+    travel = weekly.get("travel_cards", [])
+    if not travel:
+        return ""
+
+    cards = ""
+    for i, tc in enumerate(travel[:2], 1):
+        tags = "\n".join(
+            f'<span class="food-type-tag"><span class="en-content">{t["en"]}</span>'
+            f'<span class="kr-content">{t["kr"]}</span></span>'
+            for t in tc.get("tags", [])
+        )
+        cards += f'''
+            <div class="travel-card">
+                <div class="travel-card-image">
+                    <img src="{img_url(tc.get('image_seed', f'travel{i}'), 800, 500)}" alt="{tc.get('name_en','')}">
+                    <div class="travel-badge">
+                        <span class="en-content">{tc.get('badge_en','')}</span>
+                        <span class="kr-content">{tc.get('badge_kr','')}</span>
+                    </div>
+                </div>
+                <div class="travel-card-body">
+                    <div class="food-tags">{tags}</div>
+                    <h3>
+                        <span class="en-content">{tc.get('name_en','')}</span>
+                        <span class="kr-content">{tc.get('name_kr','')}</span>
+                    </h3>
+                    <div class="food-rating">
+                        <span class="stars">{tc.get('stars','★★★★☆')}</span>
+                        <span class="rating-score">{tc.get('rating', 4.5)}</span>
+                    </div>
+                    <p class="food-lead">
+                        <span class="en-content">{tc.get('lead_en','')}</span>
+                        <span class="kr-content">{tc.get('lead_kr','')}</span>
+                    </p>
+                    <div class="food-details travel-details-compact">
+                        <div class="food-detail-item"><span class="food-detail-icon">📍</span> {tc.get('location','')}</div>
+                        <div class="food-detail-item"><span class="food-detail-icon">💰</span> {tc.get('cost','')}</div>
+                    </div>
+                    <div class="food-tip">
+                        <span class="food-tip-label">💡 TIP</span>
+                        <span class="en-content">{tc.get('tip_en','')}</span>
+                        <span class="kr-content">{tc.get('tip_kr','')}</span>
+                    </div>
+                </div>
+            </div>'''
+
+    return f'<div class="travel-grid">{cards}\n</div>'
 
 
 def build_html(daily, weekly):
