@@ -54,9 +54,7 @@ else:
     print('24.00')
 " 2>/dev/null)
 
-# Calculate PHP per 1000 KRW (what Korean expats care about)
-PHP_PER_1000KRW=$(python3 -c "print(f'{1000 / float(\"${PHP_KRW_RATE}\"):.2f}')" 2>/dev/null || echo "40.00")
-echo "  Naver rate: 1 PHP = ${PHP_KRW_RATE} KRW → 1000 KRW = ${PHP_PER_1000KRW} PHP"
+echo "  Naver rate: 1 PHP = ${PHP_KRW_RATE} KRW"
 
 # ─── Claude CLI call with retry ─────────────────────
 call_claude() {
@@ -132,8 +130,7 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
   \"edition_date\": \"${DATE}\",
   \"header_date_line\": \"${HEADER_LINE}\",
   \"dashboard\": {
-    \"php_krw_rate\": \"${PHP_PER_1000KRW}\",
-    \"php_krw_naver\": \"${PHP_KRW_RATE}\",
+    \"php_krw_rate\": \"${PHP_KRW_RATE}\",
     \"weather_en\": \"32°C Sunny\",
     \"weather_kr\": \"32°C 맑음\",
     \"date\": \"${DATE_DOT}\",
