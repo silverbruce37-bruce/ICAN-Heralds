@@ -516,13 +516,18 @@ if [ -n "${ACADEMY_JSON:-}" ]; then
 
     # Inject academy data into JS
     python3 -c "
-import json
+import json, re
 
+# Clean control characters before parsing
 with open('data/academy-${DATE}.json') as f:
-    academy = json.load(f)
+    raw = f.read()
+raw = re.sub(r'[\x00-\x1f\x7f](?<![\\n\\r\\t])', ' ', raw)
+academy = json.loads(raw)
 
 with open('data/daily-${DATE}.json') as f:
-    daily = json.load(f)
+    raw_d = f.read()
+    raw_d = re.sub(r'[\x00-\x1f\x7f](?<![\\n\\r\\t])', ' ', raw_d)
+    daily = json.loads(raw_d)
 
 # Build the JS academy data object
 js_data = {}
