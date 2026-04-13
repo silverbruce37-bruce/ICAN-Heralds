@@ -80,7 +80,7 @@ json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp
             raw_resp=$(curl -s -w "\n%{http_code}" \
-                "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
+                "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
                 -H "content-type: application/json" \
                 -d @"$gemini_payload" 2>&1)
 
