@@ -64,38 +64,75 @@ call_claude() {
     local max_retries=3
 
     for attempt in $(seq 1 $max_retries); do
-        if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
-            # Use Anthropic API directly (works on GitHub Actions)
-            local prompt_file
-            prompt_file=$(mktemp)
+        local prompt_file
+        prompt_file=$(mktemp)
+        echo "$prompt" > "$prompt_file"
 
+        if [ -n "${GEMINI_API_KEY:-}" ]; then
+            # Primary: Gemini API (free tier)
+            local gemini_payload
+            gemini_payload=$(mktemp)
             python3 -c "
 import json, sys
-prompt = sys.stdin.read()
-payload = {
-    'model': 'claude-haiku-4-5-20251001',
-    'max_tokens': 8192,
-    'messages': [{'role': 'user', 'content': prompt}]
-}
-json.dump(payload, open('$prompt_file', 'w'), ensure_ascii=False)
-" <<< "$prompt"
-
+prompt = open('$prompt_file').read()
+payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'maxOutputTokens': 8192, 'temperature': 0.7}}
+json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
+"
             local raw_resp
-            raw_resp=$(curl -s -w "\n%{http_code}" https://api.anthropic.com/v1/messages \
-                -H "x-api-key: ${ANTHROPIC_API_KEY}" \
-                -H "anthropic-version: 2023-06-01" \
+            raw_resp=$(curl -s -w "\n%{http_code}" \
+                "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
                 -H "content-type: application/json" \
-                -d @"$prompt_file" 2>&1)
+                -d @"$gemini_payload" 2>&1)
 
             local http_code
             http_code=$(echo "$raw_resp" | tail -1)
             local body
             body=$(echo "$raw_resp" | sed '$d')
-
-            rm -f "$prompt_file"
+            rm -f "$gemini_payload"
 
             if [ "$http_code" != "200" ]; then
-                echo "  API HTTP $http_code: $(echo "$body" | head -c 200)" >&2
+                echo "  Gemini HTTP $http_code: $(echo "$body" | head -c 200)" >&2
+                result=""
+            else
+                result=$(echo "$body" | python3 -c "
+import sys, json
+try:
+    resp = json.load(sys.stdin)
+    text = resp['candidates'][0]['content']['parts'][0]['text']
+    if text.startswith('\`\`\`json'): text = text[7:]
+    if text.startswith('\`\`\`'): text = text[3:]
+    if text.endswith('\`\`\`'): text = text[:-3]
+    print(text.strip())
+except Exception as e:
+    print(f'Gemini parse error: {e}', file=sys.stderr)
+")
+            fi
+
+        elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+            # Fallback: Anthropic API
+            local anthropic_payload
+            anthropic_payload=$(mktemp)
+            python3 -c "
+import json
+prompt = open('$prompt_file').read()
+payload = {'model': 'claude-haiku-4-5-20251001', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}]}
+json.dump(payload, open('$anthropic_payload', 'w'), ensure_ascii=False)
+"
+            local raw_resp
+            raw_resp=$(curl -s -w "\n%{http_code}" https://api.anthropic.com/v1/messages \
+                -H "x-api-key: ${ANTHROPIC_API_KEY}" \
+                -H "anthropic-version: 2023-06-01" \
+                -H "content-type: application/json" \
+                -d @"$anthropic_payload" 2>&1)
+
+            local http_code
+            http_code=$(echo "$raw_resp" | tail -1)
+            local body
+            body=$(echo "$raw_resp" | sed '$d')
+            rm -f "$anthropic_payload"
+
+            if [ "$http_code" != "200" ]; then
+                echo "  Anthropic HTTP $http_code: $(echo "$body" | head -c 200)" >&2
                 result=""
             else
                 result=$(echo "$body" | python3 -c "
@@ -112,8 +149,8 @@ except Exception as e:
 ")
             fi
         else
-            # Fallback: use Claude CLI locally
-            result=$(claude --model haiku -p --dangerously-skip-permissions "$prompt" 2>/dev/null | python3 -c "
+            # Local fallback: Claude CLI
+            result=$(claude --model haiku -p --dangerously-skip-permissions "$(cat "$prompt_file")" 2>/dev/null | python3 -c "
 import sys
 text = sys.stdin.read().strip()
 if text.startswith('\`\`\`json'): text = text[7:]
@@ -122,6 +159,8 @@ if text.endswith('\`\`\`'): text = text[:-3]
 print(text.strip())
 ")
         fi
+
+        rm -f "$prompt_file"
 
         if [ -n "$result" ]; then
             break
