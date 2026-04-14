@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICAN HERALDS - Daily Edition</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="description" content="필리핀 한인 커뮤니티를 위한 프리미엄 데일리 뉴스 · 맛집 · 여행 · 문화">
+    <link rel="apple-touch-icon" href="images/main_article.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cosmos Background Layer -->
+    <div class="cosmos-bg" aria-hidden="true">
+        <div class="stars-layer"></div>
+        <div class="orbit-ring orbit-ring-1"></div>
+        <div class="orbit-ring orbit-ring-2"></div>
+        <div class="constellation-line constellation-1"></div>
+        <div class="constellation-line constellation-2"></div>
+        <div class="constellation-line constellation-3"></div>
+    </div>
+
+    <div id="installBanner" class="install-banner" onclick="installApp()">📲 아이캔헤럴즈를 앱으로 설치하고 매일 아침 필리핀 소식을 받아보세요! (클릭)</div>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- ICAN Starship Logo -->
+                <svg class="ican-ship" viewBox="0 0 36 56" width="22" height="34" aria-label="ICAN Ship">
+                    <defs>
+                        <linearGradient id="navBodyGrad" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#d8dce6"/>
+                            <stop offset="50%" stop-color="#b0b8c8"/>
+                            <stop offset="100%" stop-color="#8890a0"/>
+                        </linearGradient>
+                        <radialGradient id="navEngineGrad" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#80cfff" stop-opacity="0.9"/>
+                            <stop offset="60%" stop-color="#2090ff" stop-opacity="0.5"/>
+                            <stop offset="100%" stop-color="#0050cc" stop-opacity="0"/>
+                        </radialGradient>
+                    </defs>
+                    <!-- Engine plume -->
+                    <ellipse cx="18" cy="52" rx="5" ry="4" fill="url(#navEngineGrad)" class="engine-glow"/>
+                    <!-- Body — tall smooth cylinder -->
+                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="url(#navBodyGrad)" stroke="#6a7080" stroke-width="0.4"/>
+                    <!-- Nose cone highlight -->
+                    <path d="M18 2 C18 2, 15 7, 14.5 12 L16 12 C16.5 7, 18 3, 18 3Z" fill="rgba(255,255,255,0.15)"/>
+                    <!-- Body seam lines -->
+                    <line x1="14" y1="20" x2="22" y2="20" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <line x1="13.5" y1="30" x2="22.5" y2="30" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <!-- Forward flaps — Starship style -->
+                    <path d="M12.5 14 L7 20 L8 21 L12.2 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23.5 14 L29 20 L28 21 L23.8 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <!-- Aft flaps -->
+                    <path d="M13 40 L7 48 L9 48 L14 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23 40 L29 48 L27 48 L22 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <!-- Window band -->
+                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" stroke="#6a7080" stroke-width="0.3"/>
+                    <rect x="15.8" y="10.5" width="4.4" height="1.5" rx="0.8" fill="#1a7aff" opacity="0.6"/>
+                    <!-- Raptor engines (3) -->
+                    <circle cx="15.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="18" cy="47" r="1.8" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="20.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <!-- Engine inner glow -->
+                    <circle cx="15.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                    <circle cx="18" cy="47" r="1" fill="#80cfff" opacity="0.8" class="antenna-blink"/>
+                    <circle cx="20.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                </svg>
+                <span>ICAN HERALDS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#news"><span class="en-content">NEWS</span><span class="kr-content">주요 소식</span></a></li>
+                <li><a href="#food-travel"><span class="en-content">FOOD & TRAVEL</span><span class="kr-content">맛집·여행</span></a></li>
+                <li><a href="#events"><span class="en-content">EVENTS</span><span class="kr-content">주요 행사</span></a></li>
+                <li><a href="#picks"><span class="en-content">HERALD'S PICK</span><span class="kr-content">헤럴드 픽</span></a></li>
+                <li><a href="#academy"><span class="en-content">ICAN ACADEMY</span><span class="kr-content">아이캔 아카데미</span></a></li>
+            </ul>
+            <button class="sos-btn">
+                <span class="en-content">SOS: EMERGENCY</span>
+                <span class="kr-content">SOS: 긴급연락망</span>
+            </button>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="toggle-container">
+                <button id="langBtn" class="toggle-btn" onclick="toggleLanguage()">English | 한국어</button>
+            </div>
+            <div class="logo-group" onclick="location.reload()">
+                <svg class="logo-ship" viewBox="0 0 36 56" width="34" height="52" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="hdrBodyGrad" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#d8dce6"/>
+                            <stop offset="50%" stop-color="#b0b8c8"/>
+                            <stop offset="100%" stop-color="#8890a0"/>
+                        </linearGradient>
+                        <radialGradient id="hdrEngineGrad" cx="50%" cy="50%">
+                            <stop offset="0%" stop-color="#80cfff" stop-opacity="0.9"/>
+                            <stop offset="60%" stop-color="#2090ff" stop-opacity="0.5"/>
+                            <stop offset="100%" stop-color="#0050cc" stop-opacity="0"/>
+                        </radialGradient>
+                    </defs>
+                    <ellipse cx="18" cy="52" rx="5" ry="4" fill="url(#hdrEngineGrad)" class="engine-glow"/>
+                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="url(#hdrBodyGrad)" stroke="#6a7080" stroke-width="0.4"/>
+                    <path d="M18 2 C18 2, 15 7, 14.5 12 L16 12 C16.5 7, 18 3, 18 3Z" fill="rgba(255,255,255,0.15)"/>
+                    <line x1="14" y1="20" x2="22" y2="20" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <line x1="13.5" y1="30" x2="22.5" y2="30" stroke="#6a7080" stroke-width="0.3" opacity="0.5"/>
+                    <path d="M12.5 14 L7 20 L8 21 L12.2 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23.5 14 L29 20 L28 21 L23.8 17Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M13 40 L7 48 L9 48 L14 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <path d="M23 40 L29 48 L27 48 L22 44Z" fill="#8890a0" stroke="#6a7080" stroke-width="0.3"/>
+                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" stroke="#6a7080" stroke-width="0.3"/>
+                    <rect x="15.8" y="10.5" width="4.4" height="1.5" rx="0.8" fill="#1a7aff" opacity="0.6"/>
+                    <circle cx="15.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="18" cy="47" r="1.8" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="20.5" cy="46" r="1.5" fill="#444" stroke="#666" stroke-width="0.3"/>
+                    <circle cx="15.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                    <circle cx="18" cy="47" r="1" fill="#80cfff" opacity="0.8" class="antenna-blink"/>
+                    <circle cx="20.5" cy="46" r="0.8" fill="#80cfff" opacity="0.7" class="antenna-blink"/>
+                </svg>
+                <h1 class="logo">ICAN HERALDS</h1>
+            </div>
+            <p class="tagline">
+                <span class="en-content">Where Value Connects to Create Greater Meaning</span>
+                <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
+            </p>
+            <p class="tagline-sub">
+                <span class="en-content">AI-Native · Future-Ready · Since the Dawn of a New Era</span>
+                <span class="kr-content">AI 네이티브 · 미래준비형 · 새 시대의 여명과 함께</span>
+            </p>
+            <div class="date"><!--SLOT:header_date_line-->THURSDAY, APRIL 10, 2026 | PHILIPPINES | VOL. 02<!--/SLOT:header_date_line--></div>
+        </header>
+
+        <section class="dashboard">
+            <div class="dash-item">
+                <span class="dash-label">
+                    <span class="en-content">PHP / KRW</span>
+                    <span class="kr-content">원/페소 환율</span>
+                </span>
+                <span class="dash-value"><!--SLOT:dash_rate-->24.15<!--/SLOT:dash_rate--></span>
+            </div>
+            <div class="dash-item">
+                <span class="dash-label">
+                    <span class="en-content">Manila Weather</span>
+                    <span class="kr-content">마닐라 날씨</span>
+                </span>
+                <span class="dash-value">
+                    <span class="en-content"><!--SLOT:dash_weather_en-->32°C Sunny<!--/SLOT:dash_weather_en--></span>
+                    <span class="kr-content"><!--SLOT:dash_weather_kr-->32°C 맑음<!--/SLOT:dash_weather_kr--></span>
+                </span>
+            </div>
+            <div class="dash-item">
+                <span class="dash-label">
+                    <span class="en-content">Today's Date</span>
+                    <span class="kr-content">오늘의 날짜</span>
+                </span>
+                <span class="dash-value"><!--SLOT:dash_date-->2026.04.10<!--/SLOT:dash_date--></span>
+            </div>
+            <div class="dash-item">
+                <span class="dash-label">
+                    <span class="en-content">Embassy Status</span>
+                    <span class="kr-content">대사관 영사 업무</span>
+                </span>
+                <span class="dash-value">
+                    <span class="en-content"><!--SLOT:dash_embassy_en-->Normal<!--/SLOT:dash_embassy_en--></span>
+                    <span class="kr-content"><!--SLOT:dash_embassy_kr-->정상 운영<!--/SLOT:dash_embassy_kr--></span>
+                </span>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- HEADLINE: Featured Story                    -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section class="headline-section">
+            <div class="headline-badge">
+                <span class="en-content">COVER STORY</span>
+                <span class="kr-content">커버 스토리</span>
+            </div>
+            <h2 class="main-title">
+                <span class="en-content"><!--SLOT:cover_headline_en-->Philippines-Korea Relations Hit New Heights on 'Day of Valor'<!--/SLOT:cover_headline_en--></span>
+                <span class="kr-content"><!--SLOT:cover_headline_kr-->필리핀 '용맹의 날' 기념식 거행; 한-필 동맹 시너지 최고조 달해<!--/SLOT:cover_headline_kr--></span>
+            </h2>
+            <h3 class="sub-title">
+                <span class="en-content"><!--SLOT:cover_subtitle_en-->Korean-Speaking Tourism Police Deployed Nationwide as Bilateral Ties Strengthen Amid Peninsular Tensions.<!--/SLOT:cover_subtitle_en--></span>
+                <span class="kr-content"><!--SLOT:cover_subtitle_kr-->남북 긴장 속에서도 한-필 유대 강화; 보라카이·세부 등지에 '한국어 가능 관광 경찰' 전격 배치.<!--/SLOT:cover_subtitle_kr--></span>
+            </h3>
+
+            <div class="main-image-container">
+                <img src="<!--SLOT:cover_image_url-->images/main_article.png<!--/SLOT:cover_image_url-->" alt="Day of Valor Ceremony">
+                <div class="image-caption"><!--SLOT:cover_image_caption-->Photo: Commemoration Ceremony at Mt. Samat National Shrine, Bataan (2026.04.09)<!--/SLOT:cover_image_caption--></div>
+            </div>
+
+            <div class="article-meta">
+                <span class="meta-author">By ICAN Herald Editorial</span>
+                <span class="meta-divider">·</span>
+                <span class="meta-time">
+                    <span class="en-content"><!--SLOT:cover_read_time_en-->5 min read<!--/SLOT:cover_read_time_en--></span>
+                    <span class="kr-content"><!--SLOT:cover_read_time_kr-->5분 읽기<!--/SLOT:cover_read_time_kr--></span>
+                </span>
+                <button class="learn-btn" onclick="openAcademy('cover')" style="margin-left:12px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
+            </div>
+
+            <div class="content-columns">
+                <div class="column">
+                    <div class="en-content">
+                        <!--SLOT:cover_body_en--><p>South Korea remains the Philippines' #1 source of international visitors, accounting for over 20% of total arrivals. On this "Day of Valor," the Department of Tourism and the PNP have officially deployed Korean-speaking officers to key hubs.</p>
+                        <p>This comes as President Lee Jae Myung's recent state visit solidified 10 major agreements in shipbuilding and nuclear energy. The agreements are expected to generate over 15,000 jobs across both nations and deepen the economic interdependence that has been building for decades.</p>
+                        <p>"This is not just diplomacy — it's a living partnership that touches the daily lives of Koreans in the Philippines," said Ambassador Kim Sung-ho at the Bataan ceremony.</p><!--/SLOT:cover_body_en-->
+                    </div>
+                    <div class="kr-content">
+                        <!--SLOT:cover_body_kr--><p>한국은 필리핀 전체 해외 방문객의 20% 이상을 차지하는 부동의 1위 시장입니다. 필리핀 관광부와 경찰청은 오늘 '용맹의 날'을 맞아 주요 관광지에 한국어 전담 경찰관 배치를 완료했습니다.</p>
+                        <p>이는 최근 이재명 대통령의 국빈 방문을 통해 체결된 조선 및 원자력 분야 10대 핵심 협정의 후속 조치로 풀이됩니다. 이 협정은 양국에 걸쳐 15,000개 이상의 일자리를 창출하고, 수십 년간 쌓아온 경제적 상호의존을 한층 깊게 할 것으로 기대됩니다.</p>
+                        <p>김성호 대사는 바탄 기념식에서 "이것은 단순한 외교가 아닌, 필리핀에 거주하는 한국인들의 일상에 닿는 살아있는 파트너십"이라고 밝혔습니다.</p><!--/SLOT:cover_body_kr-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- NEWS: Latest Headlines                      -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="news">
+            <h2 class="section-title">
+                <span class="en-content">Latest Korea-Philippines News</span>
+                <span class="kr-content">최신 한-필 주요 뉴스</span>
+                <span class="live-badge">LIVE</span>
+            </h2>
+
+            <!-- Featured News (대형 1건) -->
+            <div class="featured-news">
+                <div class="featured-news-image">
+                    <img src="<!--SLOT:featured_image_url-->https://images.unsplash.com/photo-1555448248-2571daf6344b?w=800&h=450&fit=crop<!--/SLOT:featured_image_url-->" alt="NK Missile Test">
+                    <span class="tag <!--SLOT:featured_tag_class-->tag-security<!--/SLOT:featured_tag_class-->"><!--SLOT:featured_tag-->Security<!--/SLOT:featured_tag--></span>
+                </div>
+                <div class="featured-news-body">
+                    <h3>
+                        <span class="en-content"><!--SLOT:featured_headline_en-->North Korea Confirms 3-Day Missile Spree — What It Means for Koreans Abroad<!--/SLOT:featured_headline_en--></span>
+                        <span class="kr-content"><!--SLOT:featured_headline_kr-->북한 3일 연속 미사일 도발 — 재외 한인에게 미치는 영향은?<!--/SLOT:featured_headline_kr--></span>
+                    </h3>
+                    <p class="featured-news-lead">
+                        <span class="en-content"><!--SLOT:featured_lead_en-->Pyongyang tested cluster-bomb missiles and anti-aircraft systems from April 6-8, citing defensive measures. Defense analysts in Manila assess the implications for the 120,000-strong Korean community in the Philippines. While direct military threat remains minimal, experts urge awareness of potential economic ripple effects on the Korean won.<!--/SLOT:featured_lead_en--></span>
+                        <span class="kr-content"><!--SLOT:featured_lead_kr-->평양은 4월 6일부터 8일까지 클러스터 폭탄 미사일과 방공 시스템 테스트를 진행했다고 발표했습니다. 마닐라의 국방 분석가들은 필리핀 내 12만 한인 커뮤니티에 미칠 영향을 평가하고 있습니다. 직접적인 군사 위협은 미미하지만, 전문가들은 원화 환율에 대한 경제적 파급 효과에 주의를 기울일 것을 당부하고 있습니다.<!--/SLOT:featured_lead_kr--></span>
+                    </p>
+                    <div class="article-meta">
+                        <span class="meta-author"><!--SLOT:featured_desk-->Security Desk<!--/SLOT:featured_desk--></span>
+                        <span class="meta-divider">·</span>
+                        <span class="meta-time">
+                            <span class="en-content"><!--SLOT:featured_read_time_en-->3 min read<!--/SLOT:featured_read_time_en--></span>
+                            <span class="kr-content"><!--SLOT:featured_read_time_kr-->3분 읽기<!--/SLOT:featured_read_time_kr--></span>
+                        </span>
+                        <span class="meta-divider">·</span>
+                        <span class="meta-date"><!--SLOT:featured_date-->2026.04.10<!--/SLOT:featured_date--></span>
+                        <button class="learn-btn" onclick="openAcademy('featured')" style="margin-left:8px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compact News Grid -->
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-thumb"><img src="<!--SLOT:news_1_image_url-->https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=200&fit=crop<!--/SLOT:news_1_image_url-->" alt="Economy"></div>
+                    <div class="news-card-body">
+                        <span class="tag <!--SLOT:news_1_tag_class-->tag-economy<!--/SLOT:news_1_tag_class-->"><!--SLOT:news_1_tag-->Economy<!--/SLOT:news_1_tag--></span>
+                        <h3>
+                            <span class="en-content"><!--SLOT:news_1_headline_en-->ASEAN+3 Tackles Energy Crisis with Joint Fund<!--/SLOT:news_1_headline_en--></span>
+                            <span class="kr-content"><!--SLOT:news_1_headline_kr-->ASEAN+3, 공동기금으로 에너지 위기 대응<!--/SLOT:news_1_headline_kr--></span>
+                        </h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:news_1_summary_en-->Finance ministers from Manila and Seoul announce a $2B stabilization fund to tackle fuel price volatility affecting daily commuters and businesses across the region.<!--/SLOT:news_1_summary_en--></span>
+                            <span class="kr-content"><!--SLOT:news_1_summary_kr-->마닐라와 서울의 재무장관들이 일상 통근자와 지역 기업에 영향을 미치는 유가 변동성에 대응하기 위한 20억 달러 규모의 안정화 기금을 발표했습니다.<!--/SLOT:news_1_summary_kr--></span>
+                        </p>
+                        <span class="news-read-time">
+                            <span class="en-content"><!--SLOT:news_1_read_time_en-->2 min read<!--/SLOT:news_1_read_time_en--></span>
+                            <span class="kr-content"><!--SLOT:news_1_read_time_kr-->2분 읽기<!--/SLOT:news_1_read_time_kr--></span>
+                        </span>
+                        <button class="learn-btn" onclick="openAcademy('news_1')"><span class="learn-icon">📚</span> LEARN</button>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-thumb"><img src="<!--SLOT:news_2_image_url-->https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop<!--/SLOT:news_2_image_url-->" alt="K-Pop"></div>
+                    <div class="news-card-body">
+                        <span class="tag <!--SLOT:news_2_tag_class-->tag-culture<!--/SLOT:news_2_tag_class-->"><!--SLOT:news_2_tag-->Culture<!--/SLOT:news_2_tag--></span>
+                        <h3>
+                            <span class="en-content"><!--SLOT:news_2_headline_en-->ROUND Festival Hits Manila — 50,000 Tickets Sold Out<!--/SLOT:news_2_headline_en--></span>
+                            <span class="kr-content"><!--SLOT:news_2_headline_kr-->라운드 페스티벌 마닐라 상륙 — 5만석 매진<!--/SLOT:news_2_headline_kr--></span>
+                        </h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:news_2_summary_en-->K-pop sensation 10CM headlines the ASEAN-Korea music exchange at Araneta Coliseum. Filipino-Korean collaborative stages are drawing unprecedented interest.<!--/SLOT:news_2_summary_en--></span>
+                            <span class="kr-content"><!--SLOT:news_2_summary_kr-->K-팝 스타 10CM가 아라네타 콜리세움 한-아세안 음악 교류 행사 헤드라이너로 확정. 한-필 콜라보 무대에 전례 없는 관심이 쏠리고 있습니다.<!--/SLOT:news_2_summary_kr--></span>
+                        </p>
+                        <span class="news-read-time">
+                            <span class="en-content"><!--SLOT:news_2_read_time_en-->2 min read<!--/SLOT:news_2_read_time_en--></span>
+                            <span class="kr-content"><!--SLOT:news_2_read_time_kr-->2분 읽기<!--/SLOT:news_2_read_time_kr--></span>
+                        </span>
+                        <button class="learn-btn" onclick="openAcademy('news_2')"><span class="learn-icon">📚</span> LEARN</button>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-thumb"><img src="<!--SLOT:news_3_image_url-->https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=400&h=200&fit=crop<!--/SLOT:news_3_image_url-->" alt="Cooperation"></div>
+                    <div class="news-card-body">
+                        <span class="tag <!--SLOT:news_3_tag_class-->tag-diplomacy<!--/SLOT:news_3_tag_class-->"><!--SLOT:news_3_tag-->Cooperation<!--/SLOT:news_3_tag--></span>
+                        <h3>
+                            <span class="en-content"><!--SLOT:news_3_headline_en-->10 Major Agreements Fast-Track 15,000 New Jobs<!--/SLOT:news_3_headline_en--></span>
+                            <span class="kr-content"><!--SLOT:news_3_headline_kr-->10대 협정 체결, 15,000개 신규 일자리 가속화<!--/SLOT:news_3_headline_kr--></span>
+                        </h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:news_3_summary_en-->Bilateral ties solidify as both nations fast-track cooperation in critical minerals, shipbuilding, and nuclear energy infrastructure.<!--/SLOT:news_3_summary_en--></span>
+                            <span class="kr-content"><!--SLOT:news_3_summary_kr-->양국은 핵심 광물, 조선, 원자력 인프라 분야에서 협력을 가속화하며 강력한 파트너십을 구축하고 있습니다.<!--/SLOT:news_3_summary_kr--></span>
+                        </p>
+                        <span class="news-read-time">
+                            <span class="en-content"><!--SLOT:news_3_read_time_en-->3 min read<!--/SLOT:news_3_read_time_en--></span>
+                            <span class="kr-content"><!--SLOT:news_3_read_time_kr-->3분 읽기<!--/SLOT:news_3_read_time_kr--></span>
+                        </span>
+                        <button class="learn-btn" onclick="openAcademy('news_3')"><span class="learn-icon">📚</span> LEARN</button>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-thumb"><img src="<!--SLOT:news_4_image_url-->https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop<!--/SLOT:news_4_image_url-->" alt="Police"></div>
+                    <div class="news-card-body">
+                        <span class="tag <!--SLOT:news_4_tag_class-->tag-safety<!--/SLOT:news_4_tag_class-->"><!--SLOT:news_4_tag-->Safety<!--/SLOT:news_4_tag--></span>
+                        <h3>
+                            <span class="en-content"><!--SLOT:news_4_headline_en-->Korean-Speaking Police Now Active in 5 Major Hubs<!--/SLOT:news_4_headline_en--></span>
+                            <span class="kr-content"><!--SLOT:news_4_headline_kr-->한국어 관광경찰, 5대 주요 거점 정식 가동<!--/SLOT:news_4_headline_kr--></span>
+                        </h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:news_4_summary_en-->New security MOU ensures 24/7 Korean-language support in Boracay, Cebu, Palawan, Clark, and Makati. Officers trained at Korean National Police Academy.<!--/SLOT:news_4_summary_en--></span>
+                            <span class="kr-content"><!--SLOT:news_4_summary_kr-->보라카이, 세부, 팔라완, 클락, 마카티에서 24시간 한국어 치안 서비스. 한국 경찰대학 연수를 이수한 전담 경찰관 배치 완료.<!--/SLOT:news_4_summary_kr--></span>
+                        </p>
+                        <span class="news-read-time">
+                            <span class="en-content"><!--SLOT:news_4_read_time_en-->2 min read<!--/SLOT:news_4_read_time_en--></span>
+                            <span class="kr-content"><!--SLOT:news_4_read_time_kr-->2분 읽기<!--/SLOT:news_4_read_time_kr--></span>
+                        </span>
+                        <button class="learn-btn" onclick="openAcademy('news_4')"><span class="learn-icon">📚</span> LEARN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- FOOD & TRAVEL: Food Blog Style              -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="food-travel" class="food-travel-section">
+            <h2 class="section-title">
+                <span class="en-content">Food & Hidden Gems</span>
+                <span class="kr-content">맛집 & 숨은 보석</span>
+            </h2>
+            <p class="section-intro">
+                <span class="en-content">Hand-picked by our editors who actually went, ate, and felt it. No paid reviews — only places worth your precious time and money.</span>
+                <span class="kr-content">직접 가보고, 먹어보고, 감동한 곳만 담았습니다. 협찬 리뷰 없이 — 오직 당신의 소중한 시간과 돈의 가치가 있는 곳만.</span>
+            </p>
+
+            <!-- Food Hunter Series Banner -->
+            <a href="food-hunter-ortigas.html" class="food-hunter-banner">
+                <div class="food-hunter-banner-badge">MANILA FOOD HUNTER — VOL. 01</div>
+                <div class="food-hunter-banner-body">
+                    <h3>
+                        <span class="en-content">Ortigas: The Hidden Kitchens Behind the Skyscrapers</span>
+                        <span class="kr-content">올티가스: 마천루 뒤에 숨겨진 부엌들</span>
+                    </h3>
+                    <p>
+                        <span class="en-content">30 days of eating through Kapitolyo, Ortigas CBD, and Greenhills — 5 hidden gems that locals won't share. Read the full editorial →</span>
+                        <span class="kr-content">카피톨요, 올티가스 CBD, 그린힐스를 30일간 먹고 또 먹었습니다 — 현지인도 안 알려주는 숨은 맛집 5곳. 에디토리얼 전문 보기 →</span>
+                    </p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" alt="Ortigas Skyline" class="food-hunter-banner-img">
+            </a>
+
+            <!-- Food Spot 1: Full Feature -->
+            <article class="food-feature">
+                <div class="food-feature-badge">
+                    <span class="en-content"><!--SLOT:food_badge_en-->EDITOR'S CHOICE<!--/SLOT:food_badge_en--></span>
+                    <span class="kr-content"><!--SLOT:food_badge_kr-->에디터 추천<!--/SLOT:food_badge_kr--></span>
+                </div>
+                <div class="food-feature-gallery">
+                    <img src="<!--SLOT:food_hero_url-->https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&h=500&fit=crop<!--/SLOT:food_hero_url-->" alt="Binondo Secret Tea House — Signature Dim Sum" class="food-hero-img">
+                    <div class="food-gallery-strip">
+                        <img src="<!--SLOT:food_gallery_1_url-->https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=200&h=200&fit=crop<!--/SLOT:food_gallery_1_url-->" alt="Interior">
+                        <img src="<!--SLOT:food_gallery_2_url-->https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=200&h=200&fit=crop<!--/SLOT:food_gallery_2_url-->" alt="Tea Selection">
+                        <img src="<!--SLOT:food_gallery_3_url-->https://images.unsplash.com/photo-1552566626-52f8b828add9?w=200&h=200&fit=crop<!--/SLOT:food_gallery_3_url-->" alt="Street View">
+                    </div>
+                </div>
+                <div class="food-feature-content">
+                    <div class="food-tags">
+                        <!--SLOT:food_tags--><span class="food-type-tag">
+                            <span class="en-content">Chinese-Filipino</span>
+                            <span class="kr-content">중국-필리핀 요리</span>
+                        </span>
+                        <span class="food-type-tag">
+                            <span class="en-content">Dim Sum</span>
+                            <span class="kr-content">딤섬</span>
+                        </span>
+                        <span class="food-type-tag">
+                            <span class="en-content">Hidden Gem</span>
+                            <span class="kr-content">숨은 맛집</span>
+                        </span><!--/SLOT:food_tags-->
+                    </div>
+                    <h3>
+                        <span class="en-content"><!--SLOT:food_name_en-->Binondo Secret Tea House<!--/SLOT:food_name_en--></span>
+                        <span class="kr-content"><!--SLOT:food_name_kr-->비논도 시크릿 티 하우스<!--/SLOT:food_name_kr--></span>
+                    </h3>
+                    <div class="food-rating">
+                        <span class="stars"><!--SLOT:food_stars-->★★★★★<!--/SLOT:food_stars--></span>
+                        <span class="rating-score"><!--SLOT:food_score-->4.8<!--/SLOT:food_score--></span>
+                        <span class="rating-count">
+                            <span class="en-content">(Herald Rating)</span>
+                            <span class="kr-content">(헤럴드 평점)</span>
+                        </span>
+                    </div>
+                    <p class="food-lead">
+                        <span class="en-content"><!--SLOT:food_lead_en-->Tucked behind an unmarked wooden door in the world's oldest Chinatown, this 40-year-old tea house feels like stepping into a secret your grandmother kept. The handmade har gow arrives steaming in bamboo baskets, the shrimp so fresh it snaps between your teeth. Owner Lola Chen still rolls every wrapper by hand at 5 AM.<!--/SLOT:food_lead_en--></span>
+                        <span class="kr-content"><!--SLOT:food_lead_kr-->세계에서 가장 오래된 차이나타운, 표시 없는 나무문 뒤에 숨겨진 40년 전통의 이 찻집은 할머니만 알던 비밀 장소에 들어서는 기분입니다. 대나무 찜기에서 김이 모락모락 피어오르는 수제 하교(새우 만두)는 새우가 이 사이에서 탱글하게 터집니다. 주인 롤라 첸은 지금도 매일 새벽 5시에 직접 만두피를 빚습니다.<!--/SLOT:food_lead_kr--></span>
+                    </p>
+                    <blockquote class="food-quote">
+                        <span class="en-content"><!--SLOT:food_quote_en-->"The kind of place you don't tell everyone about — but you always come back to."<!--/SLOT:food_quote_en--></span>
+                        <span class="kr-content"><!--SLOT:food_quote_kr-->"아무에게나 알려주고 싶지 않은 곳 — 하지만 반드시 다시 찾게 되는 곳."<!--/SLOT:food_quote_kr--></span>
+                        <cite>— Herald Food Editor</cite>
+                    </blockquote>
+                    <div class="food-details">
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">📍</span>
+                            <div>
+                                <strong>
+                                    <span class="en-content">Location</span>
+                                    <span class="kr-content">위치</span>
+                                </strong>
+                                <span><!--SLOT:food_location-->Ongpin St., Binondo, Manila<!--/SLOT:food_location--></span>
+                            </div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">💰</span>
+                            <div>
+                                <strong>
+                                    <span class="en-content">Price Range</span>
+                                    <span class="kr-content">가격대</span>
+                                </strong>
+                                <span><!--SLOT:food_price-->₱200–500<!--/SLOT:food_price--> /
+                                    <span class="en-content">person</span>
+                                    <span class="kr-content">1인</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">🕐</span>
+                            <div>
+                                <strong>
+                                    <span class="en-content">Hours</span>
+                                    <span class="kr-content">영업시간</span>
+                                </strong>
+                                <span><!--SLOT:food_hours-->6:00 AM – 3:00 PM<!--/SLOT:food_hours--> (
+                                    <span class="en-content"><!--SLOT:food_hours_note_en-->Closed Mondays<!--/SLOT:food_hours_note_en--></span>
+                                    <span class="kr-content"><!--SLOT:food_hours_note_kr-->월요일 휴무<!--/SLOT:food_hours_note_kr--></span>
+                                )</span>
+                            </div>
+                        </div>
+                        <div class="food-detail-item">
+                            <span class="food-detail-icon">🗣️</span>
+                            <div>
+                                <strong>
+                                    <span class="en-content">Language</span>
+                                    <span class="kr-content">언어</span>
+                                </strong>
+                                <span>
+                                    <span class="en-content"><!--SLOT:food_lang_en-->Tagalog, English, Hokkien<!--/SLOT:food_lang_en--></span>
+                                    <span class="kr-content"><!--SLOT:food_lang_kr-->타갈로그, 영어, 민남어<!--/SLOT:food_lang_kr--></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-must-try">
+                        <h4>
+                            <span class="en-content">Must-Try Items</span>
+                            <span class="kr-content">꼭 먹어봐야 할 메뉴</span>
+                        </h4>
+                        <ul>
+                            <!--SLOT:food_must_try_items--><li>
+                                <span class="en-content">Handmade Har Gow (Shrimp Dumpling) — ₱180</span>
+                                <span class="kr-content">수제 하교 (새우 만두) — ₱180</span>
+                            </li>
+                            <li>
+                                <span class="en-content">Oolong Milk Tea with Brown Sugar — ₱120</span>
+                                <span class="kr-content">흑당 우롱 밀크티 — ₱120</span>
+                            </li>
+                            <li>
+                                <span class="en-content">Century Egg Congee — ₱150</span>
+                                <span class="kr-content">피단 죽 — ₱150</span>
+                            </li><!--/SLOT:food_must_try_items-->
+                        </ul>
+                    </div>
+                    <div class="food-tip">
+                        <span class="food-tip-label">💡 Herald Tip</span>
+                        <span class="en-content"><!--SLOT:food_tip_en-->Go before 8 AM to skip the line. Ask for the "off-menu" turnip cake — Lola makes it only when she's in the mood.<!--/SLOT:food_tip_en--></span>
+                        <span class="kr-content"><!--SLOT:food_tip_kr-->오전 8시 전에 가면 줄을 피할 수 있습니다. "비밀 메뉴" 무떡을 물어보세요 — 롤라가 기분이 좋을 때만 만든답니다.<!--/SLOT:food_tip_kr--></span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Travel Spot Cards (2-column) -->
+            <div class="travel-grid">
+                <!-- Travel Spot 1 -->
+                <article class="travel-card">
+                    <div class="travel-card-image">
+                        <img src="<!--SLOT:travel_1_image_url-->https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=600&h=400&fit=crop<!--/SLOT:travel_1_image_url-->" alt="Inland Blue Lagoon">
+                        <span class="travel-badge">
+                            <span class="en-content"><!--SLOT:travel_1_badge_en-->SECRET SPOT<!--/SLOT:travel_1_badge_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_1_badge_kr-->숨은 명소<!--/SLOT:travel_1_badge_kr--></span>
+                        </span>
+                    </div>
+                    <div class="travel-card-body">
+                        <div class="food-tags">
+                            <!--SLOT:travel_1_tags--><span class="food-type-tag">
+                                <span class="en-content">Nature</span>
+                                <span class="kr-content">자연</span>
+                            </span>
+                            <span class="food-type-tag">
+                                <span class="en-content">Swimming</span>
+                                <span class="kr-content">수영</span>
+                            </span><!--/SLOT:travel_1_tags-->
+                        </div>
+                        <h3>
+                            <span class="en-content"><!--SLOT:travel_1_name_en-->Inland Blue Lagoon, Pangasinan<!--/SLOT:travel_1_name_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_1_name_kr-->내륙 블루 라군, 팡가시난<!--/SLOT:travel_1_name_kr--></span>
+                        </h3>
+                        <div class="food-rating">
+                            <span class="stars"><!--SLOT:travel_1_stars-->★★★★☆<!--/SLOT:travel_1_stars--></span>
+                            <span class="rating-score"><!--SLOT:travel_1_score-->4.5<!--/SLOT:travel_1_score--></span>
+                        </div>
+                        <p class="food-lead">
+                            <span class="en-content"><!--SLOT:travel_1_lead_en-->Deep in the forests of Pangasinan, where Google Maps gives up and locals take over as your GPS. This natural pool glows an impossible shade of turquoise. The silence here isn't empty — it's full of birdsong and the distant sound of waterfalls. Bring nothing but a towel and surrender to nature's infinity pool.<!--/SLOT:travel_1_lead_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_1_lead_kr-->구글 맵이 포기하고 동네 주민이 내비게이션이 되어주는 팡가시난 숲 깊은 곳. 이 천연 수영장은 믿기 힘든 터키색으로 빛납니다. 이곳의 고요함은 비어 있지 않습니다 — 새소리와 저 멀리 폭포 소리로 가득 차 있습니다. 수건 하나만 가져오세요. 자연이 만든 인피니티 풀에 몸을 맡기면 됩니다.<!--/SLOT:travel_1_lead_kr--></span>
+                        </p>
+                        <div class="food-details travel-details-compact">
+                            <div class="food-detail-item">
+                                <span class="food-detail-icon">📍</span>
+                                <span><!--SLOT:travel_1_location-->Bolinao, Pangasinan<!--/SLOT:travel_1_location--> (
+                                    <span class="en-content">5h from Manila</span>
+                                    <span class="kr-content">마닐라에서 5시간</span>
+                                )</span>
+                            </div>
+                            <div class="food-detail-item">
+                                <span class="food-detail-icon">💰</span>
+                                <span>
+                                    <span class="en-content"><!--SLOT:travel_1_cost-->Entrance ₱50 · Cottage ₱300<!--/SLOT:travel_1_cost--></span>
+                                    <span class="kr-content">입장료 ₱50 · 코티지 ₱300</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="food-tip">
+                            <span class="food-tip-label">💡 Herald Tip</span>
+                            <span class="en-content"><!--SLOT:travel_1_tip_en-->Visit on weekdays. Bring reef-safe sunscreen — this is a protected watershed area.<!--/SLOT:travel_1_tip_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_1_tip_kr-->평일에 방문하세요. 산호 안전 선크림을 챙기세요 — 보호 수원지 지역입니다.<!--/SLOT:travel_1_tip_kr--></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Travel Spot 2 -->
+                <article class="travel-card">
+                    <div class="travel-card-image">
+                        <img src="<!--SLOT:travel_2_image_url-->https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&h=400&fit=crop<!--/SLOT:travel_2_image_url-->" alt="Escolta Heritage Walk">
+                        <span class="travel-badge">
+                            <span class="en-content"><!--SLOT:travel_2_badge_en-->HERITAGE<!--/SLOT:travel_2_badge_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_2_badge_kr-->유산 탐방<!--/SLOT:travel_2_badge_kr--></span>
+                        </span>
+                    </div>
+                    <div class="travel-card-body">
+                        <div class="food-tags">
+                            <!--SLOT:travel_2_tags--><span class="food-type-tag">
+                                <span class="en-content">Culture</span>
+                                <span class="kr-content">문화</span>
+                            </span>
+                            <span class="food-type-tag">
+                                <span class="en-content">Walking Tour</span>
+                                <span class="kr-content">도보 투어</span>
+                            </span><!--/SLOT:travel_2_tags-->
+                        </div>
+                        <h3>
+                            <span class="en-content"><!--SLOT:travel_2_name_en-->Escolta Heritage Walk<!--/SLOT:travel_2_name_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_2_name_kr-->에스콜타 헤리티지 워크<!--/SLOT:travel_2_name_kr--></span>
+                        </h3>
+                        <div class="food-rating">
+                            <span class="stars"><!--SLOT:travel_2_stars-->★★★★★<!--/SLOT:travel_2_stars--></span>
+                            <span class="rating-score"><!--SLOT:travel_2_score-->4.7<!--/SLOT:travel_2_score--></span>
+                        </div>
+                        <p class="food-lead">
+                            <span class="en-content"><!--SLOT:travel_2_lead_en-->Manila's original "Wall Street" is reborn. Walk past Art Deco facades where Filipino merchants once rivaled Hong Kong traders. Today, young creatives have turned abandoned floors into galleries, vinyl shops, and third-wave coffee roasters. Every Saturday, the street closes to traffic and becomes a living museum.<!--/SLOT:travel_2_lead_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_2_lead_kr-->마닐라의 원조 '월스트리트'가 부활했습니다. 한때 홍콩 상인들과 겨루던 필리핀 상인들의 아르데코 건물 앞을 걸어보세요. 오늘날 젊은 아티스트들이 버려진 층들을 갤러리, 바이닐 숍, 스페셜티 커피 로스터리로 탈바꿈시켰습니다. 매주 토요일, 이 거리는 차 없는 살아 있는 박물관이 됩니다.<!--/SLOT:travel_2_lead_kr--></span>
+                        </p>
+                        <div class="food-details travel-details-compact">
+                            <div class="food-detail-item">
+                                <span class="food-detail-icon">📍</span>
+                                <span><!--SLOT:travel_2_location-->Escolta St., Binondo, Manila<!--/SLOT:travel_2_location--></span>
+                            </div>
+                            <div class="food-detail-item">
+                                <span class="food-detail-icon">🕐</span>
+                                <span>
+                                    <span class="en-content"><!--SLOT:travel_2_cost-->Best on Saturdays 10AM–6PM<!--/SLOT:travel_2_cost--></span>
+                                    <span class="kr-content">토요일 10AM–6PM 추천</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="food-tip">
+                            <span class="food-tip-label">💡 Herald Tip</span>
+                            <span class="en-content"><!--SLOT:travel_2_tip_en-->Start at First United Building 2F for coffee, end at Calvo Building for sunset views of the Pasig River.<!--/SLOT:travel_2_tip_en--></span>
+                            <span class="kr-content"><!--SLOT:travel_2_tip_kr-->퍼스트 유나이티드 빌딩 2층 커피로 시작해서, 칼보 빌딩에서 파시그 강 일몰로 마무리하세요.<!--/SLOT:travel_2_tip_kr--></span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- EVENTS: Upcoming Cultural Events            -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="events" class="events-section">
+            <h2 class="section-title">
+                <span class="en-content">Upcoming Cultural Events</span>
+                <span class="kr-content">다가오는 문화 행사</span>
+            </h2>
+            <div class="events-scroll">
+                <div class="event-card">
+                    <div class="event-badge"><!--SLOT:event_1_date_badge-->APR 18<!--/SLOT:event_1_date_badge--></div>
+                    <img src="<!--SLOT:event_1_image_url-->https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=600&h=400&fit=crop<!--/SLOT:event_1_image_url-->" alt="ROUND Festival">
+                    <div class="event-content">
+                        <h3><!--SLOT:event_1_title-->ROUND Festival Manila<!--/SLOT:event_1_title--></h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:event_1_desc_en-->ASEAN-Korea music exchange featuring K-pop star 10CM and regional artists. The night will close with a massive fireworks display over the Coliseum.<!--/SLOT:event_1_desc_en--></span>
+                            <span class="kr-content"><!--SLOT:event_1_desc_kr-->10CM 등 최정상 아티스트가 참여하는 한-아세안 음악 교류의 장. 콜리세움 상공의 대형 불꽃놀이로 밤을 마무리합니다.<!--/SLOT:event_1_desc_kr--></span>
+                        </p>
+                        <div class="event-details-row">
+                            <div class="location">
+                                <span class="en-content"><!--SLOT:event_1_location_en-->Araneta Coliseum, Quezon City<!--/SLOT:event_1_location_en--></span>
+                                <span class="kr-content"><!--SLOT:event_1_location_kr-->퀘존 시티 아라네타 콜리세움<!--/SLOT:event_1_location_kr--></span>
+                            </div>
+                            <span class="event-price"><!--SLOT:event_1_price_en-->₱1,500–₱8,000<!--/SLOT:event_1_price_en--></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-badge"><!--SLOT:event_2_date_badge-->MAY 05<!--/SLOT:event_2_date_badge--></div>
+                    <img src="<!--SLOT:event_2_image_url-->https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop<!--/SLOT:event_2_image_url-->" alt="K-Food Expo">
+                    <div class="event-content">
+                        <h3><!--SLOT:event_2_title-->Manila K-Food Expo<!--/SLOT:event_2_title--></h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:event_2_desc_en-->50+ vendors serving authentic Korean street food, modern fusion, and K-BBQ live demos. Free tasting passes for first 500 visitors daily.<!--/SLOT:event_2_desc_en--></span>
+                            <span class="kr-content"><!--SLOT:event_2_desc_kr-->50개 이상의 부스에서 한국 길거리 음식, 퓨전 요리, K-BBQ 라이브 시연. 매일 선착순 500명 무료 시식권 제공.<!--/SLOT:event_2_desc_kr--></span>
+                        </p>
+                        <div class="event-details-row">
+                            <div class="location">
+                                <span class="en-content"><!--SLOT:event_2_location_en-->SMX Convention Center, Pasay<!--/SLOT:event_2_location_en--></span>
+                                <span class="kr-content"><!--SLOT:event_2_location_kr-->파사이 SMX 컨벤션 센터<!--/SLOT:event_2_location_kr--></span>
+                            </div>
+                            <span class="event-price">
+                                <span class="en-content"><!--SLOT:event_2_price_en-->FREE Entry<!--/SLOT:event_2_price_en--></span>
+                                <span class="kr-content"><!--SLOT:event_2_price_kr-->입장 무료<!--/SLOT:event_2_price_kr--></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-badge"><!--SLOT:event_3_date_badge-->JUN 12<!--/SLOT:event_3_date_badge--></div>
+                    <img src="<!--SLOT:event_3_image_url-->https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&h=400&fit=crop<!--/SLOT:event_3_image_url-->" alt="Independence Day">
+                    <div class="event-content">
+                        <h3><!--SLOT:event_3_title-->PH-KR Friendship Parade<!--/SLOT:event_3_title--></h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:event_3_desc_en-->A grand celebration of diplomatic ties featuring traditional dances, hanbok & terno fashion shows, and a street food market.<!--/SLOT:event_3_desc_en--></span>
+                            <span class="kr-content"><!--SLOT:event_3_desc_kr-->양국 수교를 기념하는 퍼레이드. 전통 무용, 한복 & 테르노 패션쇼, 길거리 음식 마켓이 펼쳐집니다.<!--/SLOT:event_3_desc_kr--></span>
+                        </p>
+                        <div class="event-details-row">
+                            <div class="location">
+                                <span class="en-content"><!--SLOT:event_3_location_en-->Luneta Park, Manila<!--/SLOT:event_3_location_en--></span>
+                                <span class="kr-content"><!--SLOT:event_3_location_kr-->마닐라 루네타 파크<!--/SLOT:event_3_location_kr--></span>
+                            </div>
+                            <span class="event-price">
+                                <span class="en-content"><!--SLOT:event_3_price_en-->FREE<!--/SLOT:event_3_price_en--></span>
+                                <span class="kr-content"><!--SLOT:event_3_price_kr-->무료<!--/SLOT:event_3_price_kr--></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-badge"><!--SLOT:event_4_date_badge-->JUL 20<!--/SLOT:event_4_date_badge--></div>
+                    <img src="<!--SLOT:event_4_image_url-->https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop<!--/SLOT:event_4_image_url-->" alt="Tech Summit">
+                    <div class="event-content">
+                        <h3><!--SLOT:event_4_title-->Bilateral Tech Summit<!--/SLOT:event_4_title--></h3>
+                        <p>
+                            <span class="en-content"><!--SLOT:event_4_desc_en-->Innovation forum on AI and Green Energy cooperation. Samsung, LG, and PLDT headline. Startup pitch competition with ₱5M prize pool.<!--/SLOT:event_4_desc_en--></span>
+                            <span class="kr-content"><!--SLOT:event_4_desc_kr-->AI 및 신재생 에너지 협력 혁신 포럼. 삼성, LG, PLDT 헤드라인. 총 상금 500만 페소의 스타트업 피치 대회.<!--/SLOT:event_4_desc_kr--></span>
+                        </p>
+                        <div class="event-details-row">
+                            <div class="location">
+                                <span class="en-content"><!--SLOT:event_4_location_en-->BGC Arts Center, Taguig<!--/SLOT:event_4_location_en--></span>
+                                <span class="kr-content"><!--SLOT:event_4_location_kr-->타기그 BGC 아트 센터<!--/SLOT:event_4_location_kr--></span>
+                            </div>
+                            <span class="event-price"><!--SLOT:event_4_price_en-->₱2,000<!--/SLOT:event_4_price_en--></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- HERALD'S PICK: Editor's Column              -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="picks" class="picks-section">
+            <h2 class="section-title">
+                <span class="en-content">Herald's Pick</span>
+                <span class="kr-content">헤럴드 픽</span>
+            </h2>
+            <div class="picks-card">
+                <div class="picks-header">
+                    <div class="picks-author-info">
+                        <div class="picks-avatar">P</div>
+                        <div>
+                            <strong>
+                                <span class="en-content">Paul's Column</span>
+                                <span class="kr-content">폴샘의 칼럼</span>
+                            </strong>
+                            <span class="picks-role">
+                                <span class="en-content">Herald Editor-in-Chief</span>
+                                <span class="kr-content">헤럴드 편집장</span>
+                            </span>
+                        </div>
+                    </div>
+                    <span class="picks-date"><!--SLOT:picks_date-->2026.04.10<!--/SLOT:picks_date--></span>
+                </div>
+                <h3 class="picks-title">
+                    <span class="en-content"><!--SLOT:picks_title_en-->Why the Binondo Tea House Matters More Than You Think<!--/SLOT:picks_title_en--></span>
+                    <span class="kr-content"><!--SLOT:picks_title_kr-->비논도 찻집이 당신이 생각하는 것보다 중요한 이유<!--/SLOT:picks_title_kr--></span>
+                </h3>
+                <div class="picks-body">
+                    <!--SLOT:picks_body--><p>
+                        <span class="en-content">I first walked into that unmarked door five years ago, lost and hungry in Binondo's maze of alleys. What I found wasn't just dumplings — it was a 40-year story of a Chinese-Filipino grandmother who refused to franchise, refused to modernize her menu, and refused to serve anything she wouldn't feed her own grandchildren.</span>
+                        <span class="kr-content">5년 전, 비논도의 미로 같은 골목에서 길을 잃고 배가 고팠을 때 처음 그 표시 없는 문을 열었습니다. 거기서 발견한 건 단순한 만두가 아니었습니다 — 프랜차이즈를 거부하고, 메뉴 현대화를 거부하고, 자기 손주에게 먹이지 않을 음식은 절대 내놓지 않겠다는 한 중국-필리핀 할머니의 40년 이야기였습니다.</span>
+                    </p>
+                    <p>
+                        <span class="en-content">In a world drowning in algorithm-optimized content and AI-generated restaurant reviews, places like Lola Chen's tea house remind us what "value" actually means. It's not about Michelin stars or Instagram aesthetics. It's about someone waking up at 5 AM every single day for four decades because they believe the work itself is sacred.</span>
+                        <span class="kr-content">알고리즘에 최적화된 콘텐츠와 AI가 생성한 맛집 리뷰에 잠식당한 세상에서, 롤라 첸의 찻집 같은 곳은 "가치"가 실제로 무엇을 의미하는지 일깨워 줍니다. 미슐랭 별이나 인스타 감성이 아닙니다. 일 자체가 신성하다고 믿기에 40년간 매일 새벽 5시에 일어나는 누군가의 이야기입니다.</span>
+                    </p>
+                    <p>
+                        <span class="en-content">That's what iCAN Herald is about. Every corner of this publication exists because we believe your time deserves real stories, real places, and real connections. Not noise — signal. Not content — meaning.</span>
+                        <span class="kr-content">그것이 iCAN 헤럴드가 추구하는 것입니다. 이 매체의 모든 코너는 당신의 시간이 진짜 이야기, 진짜 장소, 진짜 연결을 누릴 자격이 있다고 믿기에 존재합니다. 소음이 아닌 신호. 콘텐츠가 아닌 의미.</span>
+                    </p><!--/SLOT:picks_body-->
+                </div>
+                <div class="picks-connect">
+                    <span class="en-content"><!--SLOT:picks_connect_en-->This story connects: <!--/SLOT:picks_connect_en--></span>
+                    <span class="kr-content"><!--SLOT:picks_connect_kr-->이 이야기가 연결하는 것: <!--/SLOT:picks_connect_kr--></span>
+                    <a href="#food-travel">
+                        <span class="en-content">Binondo Tea House Review</span>
+                        <span class="kr-content">비논도 찻집 리뷰</span>
+                    </a>
+                    <span class="meta-divider">→</span>
+                    <a href="#academy">
+                        <span class="en-content">Today's Word: Dedication</span>
+                        <span class="kr-content">오늘의 단어: Dedication</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════ -->
+        <!-- ICAN ACADEMY: Word of the Day               -->
+        <!-- ═══════════════════════════════════════════ -->
+        <section id="academy" class="academy-section">
+            <div class="word-banner">
+                <div class="banner-content">
+                    <div class="word-info">
+                        <span class="banner-label">
+                            <span class="en-content">ICAN Academy Word of the Day</span>
+                            <span class="kr-content">아이캔 아카데미 오늘의 단어</span>
+                        </span>
+                        <h2 class="word-title"><!--SLOT:word_title-->Dedication<!--/SLOT:word_title--></h2>
+                        <p class="word-pronunciation"><!--SLOT:word_pronunciation-->/ˌdɛdɪˈkeɪʃən/ — noun<!--/SLOT:word_pronunciation--></p>
+                        <p class="word-desc">
+                            <span class="en-content"><!--SLOT:word_desc_en-->The quality of being committed to a task or purpose with wholehearted devotion. Not merely hard work, but work done with love — the kind that turns 40 years of rolling dumpling wrappers into a masterpiece.<!--/SLOT:word_desc_en--></span>
+                            <span class="kr-content"><!--SLOT:word_desc_kr-->온 마음을 다해 과업이나 목적에 전념하는 자질. 단순한 노력이 아닌, 사랑으로 하는 일 — 40년간 만두피를 빚는 것을 하나의 걸작으로 만드는 그런 종류의 것.<!--/SLOT:word_desc_kr--></span>
+                        </p>
+                        <p class="word-example">
+                            <span class="en-content"><!--SLOT:word_example_en--><em>"Her dedication to the craft was evident in every single dumpling."</em><!--/SLOT:word_example_en--></span>
+                            <span class="kr-content"><!--SLOT:word_example_kr--><em>"그녀의 장인 정신에 대한 헌신은 만두 하나하나에 고스란히 담겨 있었다."</em><!--/SLOT:word_example_kr--></span>
+                        </p>
+                    </div>
+                    <div class="word-grade">
+                        <span class="grade-label">
+                            <span class="en-content">Grade</span>
+                            <span class="kr-content">학점</span>
+                        </span>
+                        <span class="grade-value"><!--SLOT:word_grade-->A+<!--/SLOT:word_grade--></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <svg class="footer-ship" viewBox="0 0 36 56" width="24" height="38" aria-hidden="true">
+                    <ellipse cx="18" cy="52" rx="4" ry="3" fill="#2090ff" opacity="0.15"/>
+                    <path d="M18 2 C18 2, 13 8, 12.5 16 L12 38 C12 40, 12 44, 13 46 L23 46 C24 44, 24 40, 24 38 L23.5 16 C23 8, 18 2, 18 2Z" fill="#333" stroke="#444" stroke-width="0.4"/>
+                    <path d="M12.5 14 L8 19 L9 20 L12.2 17Z" fill="#3a3a3a"/>
+                    <path d="M23.5 14 L28 19 L27 20 L23.8 17Z" fill="#3a3a3a"/>
+                    <path d="M13 40 L8 47 L10 47 L14 44Z" fill="#3a3a3a"/>
+                    <path d="M23 40 L28 47 L26 47 L22 44Z" fill="#3a3a3a"/>
+                    <rect x="15" y="10" width="6" height="2.5" rx="1.2" fill="#0047ab" opacity="0.5"/>
+                    <circle cx="18" cy="47" r="1.2" fill="#2090ff" opacity="0.2"/>
+                </svg>
+                <h3>ICAN HERALDS</h3>
+                <p>
+                    <span class="en-content">Where Value Connects to Create Greater Meaning</span>
+                    <span class="kr-content">가치가 연결되어 더 큰 의미를 만들어 내는 곳</span>
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="#news">News</a>
+                <a href="#food-travel">Food & Travel</a>
+                <a href="#events">Events</a>
+                <a href="#picks">Herald's Pick</a>
+                <a href="#academy">Academy</a>
+            </div>
+            <p class="footer-copy">
+                <span class="en-content">© 2026 ICAN Heralds — Daily news for the Korean community in the Philippines.</span>
+                <span class="kr-content">© 2026 아이캔 헤럴즈 — 필리핀 한인 커뮤니티를 위한 데일리 뉴스.</span>
+            </p>
+            <p class="footer-verse">
+                "모든 것을 사랑으로 하라." — 고린도전서 16:14
+            </p>
+        </div>
+    </footer>
+
+    <!-- SOS Modal -->
+    <div id="sosModal" class="sos-modal-overlay" onclick="closeSOS(event)">
+        <div class="sos-modal">
+            <button class="sos-close" onclick="closeSOS()">&times;</button>
+            <div class="sos-header">
+                <div class="sos-icon">🚨</div>
+                <h2>
+                    <span class="en-content">Emergency Contacts</span>
+                    <span class="kr-content">긴급 연락처</span>
+                </h2>
+            </div>
+            <div class="sos-grid">
+                <a href="tel:911" class="sos-card sos-police">
+                    <div class="sos-card-icon">🚔</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Police / Fire / Ambulance</span>
+                        <span class="kr-content">경찰 / 소방 / 구급</span>
+                    </div>
+                    <div class="sos-card-number">911</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-embassy">
+                    <div class="sos-card-icon">🇰🇷</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Korean Embassy</span>
+                        <span class="kr-content">주필리핀 한국대사관</span>
+                    </div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:+6328856-9210" class="sos-card sos-consular">
+                    <div class="sos-card-icon">🆘</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Consular Emergency (24h)</span>
+                        <span class="kr-content">영사 긴급전화 (24시간)</span>
+                    </div>
+                    <div class="sos-card-number">+63-2-8856-9210</div>
+                </a>
+                <a href="tel:1382" class="sos-card sos-tourist">
+                    <div class="sos-card-icon">🏖️</div>
+                    <div class="sos-card-title">
+                        <span class="en-content">Tourist Assistance</span>
+                        <span class="kr-content">관광객 도움센터</span>
+                    </div>
+                    <div class="sos-card-number">1382</div>
+                </a>
+            </div>
+            <p class="sos-footer">
+                <span class="en-content">Tap a card to call directly. Stay safe!</span>
+                <span class="kr-content">카드를 터치하면 바로 전화됩니다. 안전하세요!</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Academy Learning Overlay -->
+    <div id="academyOverlay" class="academy-overlay">
+        <div class="academy-panel">
+            <div class="academy-topbar">
+                <div class="academy-topbar-left">
+                    <button class="academy-back-btn" onclick="closeAcademy()">&larr;</button>
+                    <span class="academy-brand">ICAN Academy</span>
+                </div>
+                <div class="academy-topbar-right">
+                    <div class="academy-level-selector">
+                        <span class="academy-level-label">Level</span>
+                        <button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button>
+                        <button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button>
+                        <button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button>
+                    </div>
+                </div>
+            </div>
+            <div id="academyContent"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/academy.js"></script>
+</body>
+</html>

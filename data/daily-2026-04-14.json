@@ -1,0 +1,95 @@
+{
+  "edition_date": "2026-04-14",
+  "header_date_line": "TUESDAY, APRIL 14, 2026 | PHILIPPINES | VOL. 06",
+  "dashboard": {
+    "php_krw_rate": "24.73",
+    "weather_en": "34°C Mostly Sunny",
+    "weather_kr": "34°C 대체로 맑음",
+    "date": "2026.04.14",
+    "embassy_en": "Normal Operations",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "South Korea Reaffirms Strategic Support for Philippines' 2026 ASEAN Chairship",
+    "headline_kr": "한국, 필리핀 2026 아세안 의장국 수행 전폭 지원 재확인",
+    "subtitle_en": "Celebrating 77 years of diplomatic ties, Seoul pledges comprehensive cooperation for upcoming regional summit.",
+    "subtitle_kr": "수교 77주년 기념, 차기 지역 정상회의 성공 위한 포괄적 협력 약속",
+    "body_en": [
+      "South Korean officials on Tuesday reaffirmed their proactive support for the Philippines' upcoming chairship of the 2026 ASEAN Summit, marking a significant milestone in the strategic partnership between the two nations. This announcement comes as both countries celebrate the 77th anniversary of their diplomatic relations, established in March 1949. The partnership has evolved from post-war reconstruction support to a modern alliance spanning high-tech manufacturing, digital infrastructure, and maritime security.",
+      "The commitment was formalized during a high-level briefing where both parties outlined a roadmap for diplomatic and logistical cooperation throughout the summit year. South Korea intends to share its extensive experience in hosting international summits and will provide technical assistance in digital connectivity and security protocols. This collaboration is viewed as a cornerstone of Korea's 'New Pacific Initiative,' which seeks to deepen ties with Southeast Asian partners while ensuring regional stability and economic resilience.",
+      "Presidential spokespersons from both nations emphasized that the 77th anniversary represents more than a chronological milestone; it is a testament to shared values and mutual trust. Beyond the summit, the cooperation includes expanded trade agreements and educational exchanges. The upcoming months will see a series of cultural events in Manila and Seoul, highlighting the deep-rooted friendship that has grown through decades of economic synergy and people-to-people diplomacy."
+    ],
+    "body_kr": [
+      "한국 정부는 화요일, 필리핀의 2026년 아세안(ASEAN) 의장국 수임을 앞두고 전폭적인 지원을 재확인하며 양국 간 전략적 파트너십의 중대한 이정표를 세웠다. 이번 발표는 1949년 3월 수교 이후 양국 관계 77주년을 기념하는 시점에 이루어졌다. 한필 관계는 전후 복구 지원에서 시작하여 이제는 첨단 제조, 디지털 인프라, 해양 안보를 아우르는 현대적 동맹으로 진화했다.",
+      "양측은 고위급 브리핑을 통해 의장국 수행 기간 동안의 외교적, 물류적 협력 로드맵을 공식화했다. 한국은 국제 정상회의 개최 경험을 공유하고, 디지털 연결성 및 보안 프로토콜 분야에서 기술 지원을 제공할 계획이다. 이러한 협력은 동남아시아 파트너들과의 유대를 심화하고 지역 안정과 경제 회복력을 확보하려는 한국의 '뉴 퍼시픽 이니셔티브'의 핵심 축으로 평가받는다.",
+      "양국 대변인은 수교 77주년이 단순한 시간의 흐름을 넘어 공유된 가치와 상호 신뢰의 증거임을 강조했다. 아세안 정상회의 지원 외에도 무역 협정 확대와 교육 교류를 포함한 포괄적 협력이 추진된다. 향후 몇 달간 마닐라와 서울에서는 수십 년간의 경제적 시너지와 민간 외교를 통해 성장해 온 깊은 우정을 기념하는 다양한 문화 행사가 개최될 예정이다."
+    ],
+    "image_seed": "cover-2026-04-14",
+    "image_caption": "Photo: South Korean and Philippine diplomats celebrate 77 years of partnership (April 14, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Tourism",
+    "tag_class": "tag-culture",
+    "headline_en": "South Korea Sustains Position as Top International Tourist Source",
+    "headline_kr": "한국, 필리핀 제1위 해외 관광객 송출국 지위 지속",
+    "lead_en": "South Korea continues to lead the Philippines' tourism recovery, accounting for over 20% of all international arrivals. The Department of Tourism is launching a major summer campaign targeting travelers from Seoul and Busan to maintain this record-breaking momentum.",
+    "lead_kr": "한국이 필리핀 전체 해외 관광객의 20% 이상을 차지하며 관광 회복을 주도하고 있다. 필리핀 관광부는 이 기록적인 성장세를 이어가기 위해 서울과 부산 여행객을 겨냥한 대대적인 여름 캠페인을 시작한다.",
+    "image_seed": "feat-2026-04-14",
+    "desk": "Culture Desk",
+    "read_time_min": 4
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Pilot Fuel Subsidy Program Launches in Metro Manila",
+      "headline_kr": "메트로 마닐라, 연료 보조금 시범 사업 시작",
+      "summary_en": "The government has initiated a ₱10-per-liter fuel subsidy for jeepney drivers to mitigate rising global petroleum costs and protect public transport stability.",
+      "summary_kr": "정부는 유가 상승에 대응하고 대중교통 안정을 위해 지프니 운전사 대상 리터당 10페소의 연료 보조금 지급을 시작했다.",
+      "image_seed": "news1-2026-04-14",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Three-Day Nationwide Transport Strike Announced",
+      "headline_kr": "전국적인 3일간의 교통 파업 예고",
+      "summary_en": "Transport group Manibela has announced a strike starting April 15. Commuters are advised to plan accordingly as major routes across the country may be affected.",
+      "summary_kr": "교통 단체 '마니벨라'가 4월 15일부터 파업을 선언했다. 전국 주요 노선이 영향을 받을 수 있어 통근자들의 사전 대비가 필요하다.",
+      "image_seed": "news2-2026-04-14",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Relief",
+      "tag_class": "tag-economy",
+      "headline_en": "Excise Tax Suspension on LPG and Kerosene Ordered",
+      "headline_kr": "LPG 및 등유 소비세 일시 중단 명령",
+      "summary_en": "President Marcos has ordered the immediate suspension of excise taxes on cooking fuel and kerosene to provide financial relief to households amid energy market volatility.",
+      "summary_kr": "마르코스 대통령은 에너지 시장의 변동성 속에서 가계 부담을 덜어주기 위해 취사용 연료와 등유에 대한 소비세 부과를 즉시 중단하도록 명령했다.",
+      "image_seed": "news3-2026-04-14",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Politics",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "House Begins Hearings on Impeachment Complaint",
+      "headline_kr": "하원, 탄핵 소추 관련 청문회 시작",
+      "summary_en": "The House Justice Committee has commenced clarificatory hearings regarding the impeachment complaint filed against Vice President Sara Duterte.",
+      "summary_kr": "하원 사법위원회는 사라 두테르테 부통령을 상대로 제기된 탄핵 소추안과 관련하여 사실 관계 확인을 위한 청문회에 착수했다.",
+      "image_seed": "news4-2026-04-14",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Solidarity",
+    "pronunciation": "sol-i-DAR-i-tee",
+    "type": "noun",
+    "definition_en": "Unity or agreement of feeling or action, especially among individuals with a common interest; mutual support within a group.",
+    "definition_kr": "공통된 관심사를 가진 개인들 사이의 감정이나 행동의 일치; 집단 내의 상호 지원과 결속",
+    "example_en": "The 77-year bond between Korea and the Philippines demonstrates enduring solidarity.",
+    "example_kr": "한국과 필리핀 사이의 77년 유대는 지속적인 연대와 결속을 보여준다.",
+    "grade": "A+"
+  }
+}
