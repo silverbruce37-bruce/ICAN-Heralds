@@ -95,14 +95,25 @@ json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
                 result=""
             else
                 result=$(echo "$body" | python3 -c "
-import sys, json
+import sys, json, re
 try:
     resp = json.load(sys.stdin)
     text = resp['candidates'][0]['content']['parts'][0]['text']
     if text.startswith('\`\`\`json'): text = text[7:]
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
-    print(text.strip())
+    text = text.strip()
+    # If Gemini returned prose wrapping JSON, extract the JSON object
+    if not text.startswith('{'):
+        start = text.find('{')
+        end = text.rfind('}')
+        if start >= 0 and end > start:
+            text = text[start:end+1]
+    # Sanitize control characters (except newline/tab)
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', text)
+    # Validate it's parseable JSON
+    json.loads(text)
+    print(text)
 except Exception as e:
     print(f'Gemini parse error: {e}', file=sys.stderr)
 ")
@@ -506,23 +517,34 @@ RULES:
 - Make Korean text natural (not machine-translated)
 - Return ONLY valid JSON"
 
-ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 12000) || {
-    echo "  WARNING: Failed to generate academy content"
-}
+ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 12000) || true
 
 if [ -n "${ACADEMY_JSON:-}" ]; then
     echo "$ACADEMY_JSON" > "data/academy-${DATE}.json"
     echo "  Academy content saved to data/academy-${DATE}.json"
 
-    # Inject academy data into JS
+    # Inject academy data into JS (non-fatal — daily content still publishes if this fails)
     python3 -c "
-import json, re
+import json, re, sys
 
 # Clean control characters before parsing
 with open('data/academy-${DATE}.json') as f:
     raw = f.read()
-raw = re.sub(r'[\x00-\x1f\x7f](?<![\\n\\r\\t])', ' ', raw)
-academy = json.loads(raw)
+raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', raw)
+# Extract JSON if wrapped in prose
+if not raw.strip().startswith('{'):
+    start = raw.find('{')
+    end = raw.rfind('}')
+    if start >= 0 and end > start:
+        raw = raw[start:end+1]
+    else:
+        print('  WARNING: Academy JSON has no JSON object, skipping', file=sys.stderr)
+        sys.exit(0)
+try:
+    academy = json.loads(raw)
+except json.JSONDecodeError as e:
+    print(f'  WARNING: Academy JSON parse error: {e}, skipping', file=sys.stderr)
+    sys.exit(0)
 
 with open('data/daily-${DATE}.json') as f:
     raw_d = f.read()
@@ -567,7 +589,7 @@ with open('js/academy-data.js', 'w') as f:
     f.write(js_content)
 
 print('  Generated js/academy-data.js')
-"
+" || echo "  WARNING: Academy inject failed, continuing without academy update"
 else
     echo "  Using existing academy data (hardcoded fallback)"
 fi

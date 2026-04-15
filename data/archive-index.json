@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-04-15",
+    "vol": 8,
+    "cover_en": "Korean Education Alliance Opens Flagship Campus in Manila",
+    "cover_kr": "한국 교육 연합, 마닐라에 플래그십 캠퍼스 개설",
+    "headlines_en": [
+      "Korean Tech Investments in Philippine Fintech Surge to $2.3 Billion",
+      "Korean Film Festival Returns to Cinemas Nationwide",
+      "Korean Community Center Launches Emergency Preparedness Drive",
+      "Korea, Philippines Strengthen Military Cooperation Agreement",
+      "Korean Food Exports to Philippines Hit Record High"
+    ],
+    "headlines_kr": [
+      "필리핀 핀테크에 한국 기술 투자 23억 달러로 급증",
+      "한국 영화제, 전국 극장에 복귀",
+      "한국 커뮤니티 센터, 비상 대비 캠페인 개시",
+      "한국·필리핀, 군사협력 협정 강화",
+      "필리핀으로의 한국 식품 수출 사상 최고치 달성"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-04-14",
     "vol": 6,
     "cover_en": "South Korea Reaffirms Strategic Support for Philippines' 2026 ASEAN Chairship",

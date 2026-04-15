@@ -1,0 +1,95 @@
+{
+  "edition_date": "2026-04-15",
+  "header_date_line": "WEDNESDAY, APRIL 15, 2026 | PHILIPPINES | VOL. 08",
+  "dashboard": {
+    "php_krw_rate": "24.62",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.15",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Education Alliance Opens Flagship Campus in Manila",
+    "headline_kr": "한국 교육 연합, 마닐라에 플래그십 캠퍼스 개설",
+    "subtitle_en": "New hub aims to serve 5,000 Korean and Filipino students through innovative bilingual programs",
+    "subtitle_kr": "5,000명의 한국·필리핀 학생을 위한 혁신적인 이중언어 프로그램 제공",
+    "body_en": [
+      "The Korean Educational Alliance (KEA) officially inaugurated its flagship campus in Makati today, marking a significant milestone in Korean-Philippine educational cooperation. The state-of-the-art facility, spanning 45,000 square meters, will accommodate up to 5,000 students from kindergarten through advanced professional programs. The opening ceremony was attended by Korean Ambassador Lee Min-ho, Department of Education Secretary Maria Santos, and prominent business leaders from both nations.",
+      "The new campus features cutting-edge learning infrastructure including STEAM labs, digital libraries, and immersive language centers designed to foster bilingual proficiency. KEA President Park Jin-ho emphasized the institution's commitment to bridging cultural gaps while maintaining academic excellence. The curriculum integrates Korean language, culture, and history alongside Philippine studies, creating a unique educational experience tailored to both communities.",
+      "The initiative comes as part of the broader Korea-ASEAN Education Partnership Framework, which seeks to increase Korean cultural literacy in Southeast Asia while providing Philippine students with world-class educational pathways. Enrollment applications have exceeded expectations, with over 8,000 families already on the waiting list. The institution plans to expand to Cebu and Davao within the next three years."
+    ],
+    "body_kr": [
+      "한국 교육 연합(KEA)이 오늘 마카티에 플래그십 캠퍼스를 정식 개설했으며, 이는 한국-필리핀 교육 협력의 중대한 이정표가 되었다. 4만 5,000제곱미터에 달하는 최첨단 시설은 유치원부터 고급 전문가 프로그램까지 최대 5,000명의 학생을 수용할 수 있다. 개교식에는 이민호 한국 대사, 마리아 산토스 교육부 장관, 양국의 저명한 비즈니스 지도자들이 참석했다.",
+      "새로운 캠퍼스는 STEAM 실험실, 디지털 도서관, 몰입형 언어 센터 등 최첨단 학습 기반시설을 갖추고 있다. KEA 박진호 회장은 학문적 우수성을 유지하면서 문화적 격차를 좁히기 위한 기관의 노력을 강조했다. 교육과정은 한국 언어, 문화, 역사를 필리핀 교과목과 함께 통합하여 양 커뮤니티를 위한 독특한 교육 경험을 제공한다.",
+      "이 계획은 동남아시아에서 한국 문화 이해도를 높이는 동시에 필리핀 학생들에게 세계 수준의 교육 경로를 제공하려는 더 광범위한 한국-아세안 교육 파트너십 프레임워크의 일환이다. 입학 신청이 예상을 크게 초과했으며, 이미 8,000개 가정이 대기 목록에 올라 있다. 기관은 향후 3년 내에 세부와 다바오로 확대할 계획이다."
+    ],
+    "image_seed": "cover-2026-04-15",
+    "image_caption": "Photo: The grand opening ceremony of Korean Educational Alliance's flagship campus in Makati (April 15, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Economy",
+    "tag_class": "tag-economy",
+    "headline_en": "Korean Tech Investments in Philippine Fintech Surge to $2.3 Billion",
+    "headline_kr": "필리핀 핀테크에 한국 기술 투자 23억 달러로 급증",
+    "lead_en": "Major Korean conglomerates have dramatically increased capital allocation to Philippine fintech startups, signaling growing confidence in the region's digital financial ecosystem. Industry analysts credit the surge to improved regulatory frameworks and the expanding Korean community's demand for cross-border financial services.",
+    "lead_kr": "주요 한국 대기업들이 필리핀 핀테크 스타트업에 대한 자본 배분을 급격히 증가시켰으며, 이는 지역의 디지털 금융 생태계에 대한 신뢰 증대를 의미한다. 산업 분석가들은 이러한 급증을 개선된 규제 체계와 확대되는 한국 커뮤니티의 국제 금융 서비스 수요에 기인한다고 평가하고 있다.",
+    "image_seed": "feat-2026-04-15",
+    "desk": "Economy Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Korean Film Festival Returns to Cinemas Nationwide",
+      "headline_kr": "한국 영화제, 전국 극장에 복귀",
+      "summary_en": "The 8th Korea-Philippines Film Exchange kicks off nationwide with 25 acclaimed Korean films spanning drama, romance, and action genres. Industry experts expect strong attendance as Korean cinema gains popularity.",
+      "summary_kr": "제8회 한국-필리핀 영화 교류전이 드라마, 로맨스, 액션 장르의 한국 영화 25편과 함께 전국적으로 개막한다. 업계 전문가들은 한국 영화의 인기 증가로 높은 관객 수를 기대하고 있다.",
+      "image_seed": "news1-2026-04-15",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Center Launches Emergency Preparedness Drive",
+      "headline_kr": "한국 커뮤니티 센터, 비상 대비 캠페인 개시",
+      "summary_en": "The Korean-Philippine Community Foundation initiated a comprehensive disaster preparedness program targeting 10,000 Korean residents across Metro Manila, Bulacan, and Cavite.",
+      "summary_kr": "한국-필리핀 커뮤니티 재단이 마닐라 메트로폴리탄, 불라칸, 카비테의 1만 명의 한국 주민을 대상으로 종합 재난 대비 프로그램을 개시했다.",
+      "image_seed": "news2-2026-04-15",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea, Philippines Strengthen Military Cooperation Agreement",
+      "headline_kr": "한국·필리핀, 군사협력 협정 강화",
+      "summary_en": "Defense ministers from Korea and the Philippines signed an expanded military cooperation agreement focusing on maritime security, disaster response, and cybersecurity initiatives across ASEAN region.",
+      "summary_kr": "한국과 필리핀의 국방부 장관들이 해양 보안, 재난 대응, 아세안 지역 사이버 보안 계획에 초점을 맞춘 확대된 군사협력 협정에 서명했다.",
+      "image_seed": "news3-2026-04-15",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Food Exports to Philippines Hit Record High",
+      "headline_kr": "필리핀으로의 한국 식품 수출 사상 최고치 달성",
+      "summary_en": "Korean food and beverage exports surged 28% year-over-year, with gochujang, ramyeon, and seafood snacks leading growth. Rising demand reflects the expanding Korean dining culture among Filipino families.",
+      "summary_kr": "한국 식품·음료 수출이 전년 대비 28% 급증했으며, 고추장, 라면, 해산물 간식이 성장을 주도했다. 급증하는 수요는 필리핀 가정 사이에서 확대되는 한국 식문화를 반영한다.",
+      "image_seed": "news4-2026-04-15",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Alliance",
+    "pronunciation": "uh-LY-uns",
+    "type": "noun",
+    "definition_en": "A union or association formed for a common purpose, especially between nations or organizations seeking mutual benefit and cooperation.",
+    "definition_kr": "공통의 목적을 위해 형성된 연합 또는 협회, 특히 상호 이익과 협력을 추구하는 국가나 조직 간의 연합",
+    "example_en": "The Korean Educational Alliance represents a strategic alliance between educational institutions in Korea and the Philippines.",
+    "example_kr": "한국 교육 연합은 한국과 필리핀의 교육 기관 간의 전략적 연합을 대표한다.",
+    "grade": "A+"
+  }
+}

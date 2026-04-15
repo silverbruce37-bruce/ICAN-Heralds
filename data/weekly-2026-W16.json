@@ -1,0 +1,193 @@
+{
+  "week": "2026-W16",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Kare-Kare & Choco",
+    "name_kr": "깐데-까레 앤 쇼콜로",
+    "cuisine_tags": [
+      {"en": "Filipino Heritage", "kr": "필리핀 전통음식"},
+      {"en": "Comfort Food", "kr": "컴포트 푸드"}
+    ],
+    "rating": 4.7,
+    "stars": "★★★★★",
+    "lead_en": "Hidden inside a converted 1960s townhouse in Malate, Kare-Kare & Choco is where grandmother recipes meet architectural history. Chef Rosa, third-generation custodian of her family's cooking legacy, transforms the humble kare-kare into something that tastes like memory itself—each spoonful of peanut sauce is patient, layered, almost meditative. The dining room glows with vintage chandeliers and faded family photographs, the kind of place where eating feels like belonging.",
+    "lead_kr": "말라떼의 1960년대 개조된 타운하우스 안에 자리한 깐데-까레 앤 쇼콜로는 할머니 레시피가 건축 역사를 만나는 곳입니다. 3대째 가족 요리 유산을 지키는 로사 셰프는 소박한 깐데-까레를 기억 자체처럼 맛나게 변모시킵니다. 각각의 숟가락은 참을성 있고, 깊이 있고, 거의 명상적입니다. 식당은 빈티지 샹들리에와 바랜 가족 사진으로 빛나며, 먹는 것이 소속감 같은 곳입니다.",
+    "quote_en": "Kare-kare is not fast food—it's soul food. My lola spent six hours on the sauce alone. I'm not rushing that.",
+    "quote_kr": "깐데-까레는 패스트푸드가 아닙니다. 영혼의 음식입니다. 제 할머니는 소스만 6시간을 들였어요. 급할 수 없죠.",
+    "location": "247 M.H. del Pilar St., Malate, Manila",
+    "price_range": "₱350–850",
+    "hours": "11:30 AM – 3:00 PM, 5:30 PM – 9:00 PM daily",
+    "hours_closed_en": "Closed Tuesdays",
+    "hours_closed_kr": "화요일 휴무",
+    "language_en": "Filipino, English, Korean (limited)",
+    "language_kr": "필리핀어, 영어, 한국어(제한적)",
+    "must_try": [
+      {"en": "Classic Kare-Kare with Oxtail", "kr": "소꼬리를 곁들인 클래식 깐데-까레", "price": "₱420"},
+      {"en": "Champorado with Tuyo", "kr": "튀요를 곁들인 참포라도", "price": "₱180"},
+      {"en": "Ube Cheesecake (Rosa's invention)", "kr": "우베 치즈케이크 (로사의 창작)", "price": "₱280"}
+    ],
+    "tip_en": "Arrive before noon or after 5:30 PM to avoid the rush. Ask Rosa about the day's special—she often prepares off-menu dishes for regulars. Cash preferred; no cards.",
+    "tip_kr": "정오 이전이나 오후 5시 30분 이후에 방문하세요. 로사에게 그날의 특별 메뉴를 물어보세요. 단골을 위해 메뉴에 없는 요리를 준비합니다. 현금 선호; 카드 안 됨.",
+    "hero_image_seed": "food-w2026-W16",
+    "gallery_seeds": ["food-g1-w2026-W16", "food-g2-w2026-W16", "food-g3-w2026-W16"]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W16",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {"en": "Street Art", "kr": "거리 미술"},
+        {"en": "Walking Tour", "kr": "도보 투어"}
+      ],
+      "name_en": "Magallanes Drive Art Corridor",
+      "name_kr": "마갈라네스 드라이브 아트 복도",
+      "stars": "★★★★☆",
+      "rating": 4.4,
+      "lead_en": "A two-kilometer stretch of Makati's underpass transformed by muralists into an open-air gallery of Philippine cultural identity. Pastel buildings, geometric patterns, and portraits of Filipino heroes create an Instagram moment that doesn't feel forced—just authentic local storytelling painted on concrete.",
+      "lead_kr": "마카티 지하도의 2킬로미터 구간을 벽화가들이 필리핀 문화정체성의 야외 갤러리로 변모시켰습니다. 파스텔 건물, 기하학적 패턴, 필리핀 영웅 초상화가 강제적이지 않은 인스타그램 순간을 만들어냅니다.",
+      "location": "Magallanes Drive (underpass), Makati CBD",
+      "cost": "FREE",
+      "tip_en": "Go early morning (6–8 AM) for soft light and minimal crowds. Bring water; it's fully exposed to sun.",
+      "tip_kr": "새벽(오전 6-8시)에 가세요. 부드러운 빛과 최소 인파. 물을 가져가세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W16",
+      "badge_en": "HERITAGE TRAIL",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {"en": "Spanish Colonial", "kr": "스페인 식민지 시대"},
+        {"en": "Architecture", "kr": "건축"}
+      ],
+      "name_en": "Quiapo Church & District Walk",
+      "name_kr": "키아포 교회 및 지구 산책",
+      "stars": "★★★★★",
+      "rating": 4.6,
+      "lead_en": "The Black Nazarene draws millions each year, but walk the narrow streets around Quiapo Church at dawn and you'll find it quieter, more sacred. Baroque architecture meets street life; vendors set up while church bells ring. This is Manila's spiritual pulse, unfiltered and unrushed.",
+      "lead_kr": "검은 나사렛인은 매년 수백만 명을 끌어들이지만, 새벽에 키아포 교회 주변 좁은 거리를 걸으면 더 조용하고 신성합니다. 바로크 건축이 거리 생활을 만납니다. 교회 종이 울릴 때 포장마차가 세워집니다.",
+      "location": "Quiapo, Manila (near LRT Quiapo Station)",
+      "cost": "FREE",
+      "tip_en": "Visit 5:30–7:00 AM for the quietest experience. Wear comfortable shoes; streets are narrow and crowded.",
+      "tip_kr": "새벽 5시 30분-7시에 방문하세요. 편한 신발을 신으세요."
+    },
+    {
+      "image_seed": "travel3-w2026-W16",
+      "badge_en": "NATURE ESCAPE",
+      "badge_kr": "자연 탈출",
+      "tags": [
+        {"en": "Hiking", "kr": "하이킹"},
+        {"en": "Metro Accessible", "kr": "메트로 접근성"}
+      ],
+      "name_en": "Angono Petroglyphs (Binangonan Caves)",
+      "name_kr": "앙고노 암각화 (비냥고난 동굴)",
+      "stars": "★★★★☆",
+      "rating": 4.3,
+      "lead_en": "Just 45 minutes from Manila, these 3,000-year-old rock carvings along the Rizal border are Philippines' oldest art. Walk through a working fishing village, then climb to the caves where ancient hands once marked stone. Sunset views of Laguna de Bay are unreal.",
+      "lead_kr": "마닐라에서 45분 거리인 리잘 경계의 3000년 된 암각화는 필리핀 최고(最古) 미술입니다. 활동 중인 어촌을 걸으면 고대 손이 남긴 동굴에 도달합니다. 라구나 호수 일몰은 초현실적입니다.",
+      "location": "Angono & Binangonan Border, Rizal Province",
+      "cost": "₱50 entrance; ₱300–500 guide recommended",
+      "tip_en": "Hire a local guide—they know which caves are safe and have the best stories. Bring sturdy shoes and water.",
+      "tip_kr": "지역 가이드를 고용하세요. 신발과 물을 가져가세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "APR 18",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "금요일",
+      "image_seed": "event1-w2026-W16",
+      "title": "Seoul Spirits Tasting Night",
+      "desc_en": "A guided tasting of Korean spirits—soju, makgeolli, and traditional hwangsungcho—paired with modern Filipino small plates. Perfect for those curious about Korean drinking culture without the pressure to finish bottles.",
+      "desc_kr": "한국 소주, 막걸리, 전통 황성초를 현대 필리핀 소전찬과 곁들인 가이드 시음회입니다. 병을 마셔야 하는 부담 없이 한국 음주 문화를 배우는 기회입니다.",
+      "venue_en": "Craftale Korean Gastropub",
+      "venue_kr": "크래프탈레 한식 가스트로펍",
+      "address_en": "2/F Phinma Plaza, Bonifacio Global City, Taguig City",
+      "address_kr": "태기 시티 보니파시오 글로벌 시티 핀마 플라자 2층",
+      "time_en": "Doors 6:30 PM · Tasting 7:00 PM",
+      "time_kr": "입장 오후 6시 30분 · 시음 오후 7시",
+      "price_en": "₱890 advance / ₱1,200 at door",
+      "price_kr": "사전 ₱890 / 현장 ₱1,200",
+      "contact": "@craftalekorea or 0917-123-4567",
+      "note_en": "Advance booking strongly recommended. Limited to 30 pax. Korean menu available. Valid ID required.",
+      "note_kr": "사전 예약 강력 권장. 30명 제한. 한국 메뉴 있음. 유효한 신분증 필요."
+    },
+    {
+      "date_badge": "MAY 05",
+      "day_of_week_en": "Monday",
+      "day_of_week_kr": "월요일",
+      "image_seed": "event2-w2026-W16",
+      "title": "Adobo Storytelling: Food as Memory",
+      "desc_en": "Local food historian and writer Maria Santos leads a free workshop exploring how Filipino home cooking preserves family history. Hands-on—you'll cook your own adobo variation while hearing stories from three generations.",
+      "desc_kr": "지역 음식 역사가 마리아 산토스가 필리핀 집밥이 가족 역사를 어떻게 보존하는지 탐구하는 무료 워크숍을 주도합니다. 실습—당신의 아도보를 요리하면서 3대의 이야기를 듣습니다.",
+      "venue_en": "Quezon City Public Library – Community Room",
+      "venue_kr": "퀘존 시티 공공 도서관 – 커뮤니티 룸",
+      "address_en": "101 Elliptical Road, Diliman, Quezon City",
+      "address_kr": "퀘존 시티 딜리만 엘립티컬 로드 101번지",
+      "time_en": "2:00 PM – 4:30 PM",
+      "time_kr": "오후 2시 – 오후 4시 30분",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "0918-765-4321 or fb.com/qcpublibrary",
+      "note_en": "First 25 participants get ingredients. Bring notebook. Small parking area available (₱50).",
+      "note_kr": "처음 25명 참가자가 재료를 받습니다. 노트북을 가져가세요. 주차 공간 있음(₱50)."
+    },
+    {
+      "date_badge": "JUN 12",
+      "day_of_week_en": "Thursday",
+      "day_of_week_kr": "목요일",
+      "image_seed": "event3-w2026-W16",
+      "title": "Intramuros Night Food Walk",
+      "desc_en": "Six-stop guided culinary walking tour through Manila's walled city, featuring heritage recipes from century-old eateries. Visit Spanish-era bakeries, family-run karinderias, and learn the stories behind each dish.",
+      "desc_kr": "마닐라 성곽도시를 통과하는 6개 정거장의 가이드 요리 도보 투어로 세기 이상된 음식점의 유산 레시피를 특징으로 합니다. 스페인 시대 베이커리, 가족 경영 카린데리아를 방문합니다.",
+      "venue_en": "Intramuros Heritage Experience – Meeting Point",
+      "venue_kr": "인트라무로스 유산 경험 – 만나는 지점",
+      "address_en": "Fort Santiago Gate, General Luna Street, Intramuros, Manila",
+      "address_kr": "마닐라 인트라무로스 헨랄 루나 거리 산티아고 요새 게이트",
+      "time_en": "Doors 5:30 PM · Walk 6:00 PM – 9:00 PM",
+      "time_kr": "입장 오후 5시 30분 · 투어 오후 6시 – 9시",
+      "price_en": "₱1,500 per person (includes all tastings and water)",
+      "price_kr": "1인 ₱1,500 (모든 시음과 물 포함)",
+      "contact": "@intramurosfoodwalks or intramurosfoodwalks.ph",
+      "note_en": "Comfortable walking shoes required. Groups of 4+ get 10% discount. Vegetarian options available if notified 48 hours prior.",
+      "note_kr": "편한 신발 필수. 4명 이상 그룹 10% 할인. 48시간 전 알리면 채식 옵션 가능."
+    },
+    {
+      "date_badge": "JUL 20",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W16",
+      "title": "Summer Sunset Market: Korean x Filipino Fusion Pop-up",
+      "desc_en": "A one-day pop-up bringing together 8 fusion food vendors—kimchi sinangag, tteokbokki tacos, gochujang adobo, more. Live music. Lawn seating with views of Manila Bay. The cultural moment your summer's been waiting for.",
+      "desc_kr": "8개의 퓨전 음식 포장마차를 한자리에—김치 시나강, 떡볶이 타코, 고추장 아도보 등. 라이브 뮤직. 마닐라 만 전망의 잔디 앉음터. 당신의 여름이 기다려온 문화적 순간.",
+      "venue_en": "Manila Bay Esplanade (CCP Area)",
+      "venue_kr": "마닐라 만 에스플라나드 (CCP 지역)",
+      "address_en": "Roxas Boulevard, Cultural Center of the Philippines Complex, Pasay City",
+      "address_kr": "파사이 시티 필리핀 문화센터 복합단지 록사스 대로",
+      "time_en": "11:00 AM – 8:00 PM (Live music 4:00 PM – 7:00 PM)",
+      "time_kr": "오전 11시 – 오후 8시 (라이브 음악 오후 4시 – 7시)",
+      "price_en": "FREE entry · Food ₱150–450 per item",
+      "price_kr": "무료 입장 · 음식 항목당 ₱150–450",
+      "contact": "@bayesplanade.manila or 0922-555-8899",
+      "note_en": "Bring sunscreen and hats. Lawn seating available on first-come basis. Parking ₱100 (CCP grounds). Halal and vegan vendors on site.",
+      "note_kr": "자외선 차단제와 모자를 가져가세요. 잔디 앉음터 선착순. 주차 ₱100 (CCP 부지). 할랄과 비건 포장마차 있음."
+    }
+  ],
+  "picks": {
+    "date": "2026.04.15",
+    "title_en": "Why Kare-Kare Still Matters: A Meditation on Patience",
+    "title_kr": "깐데-까레가 여전히 중요한 이유: 인내에 대한 명상",
+    "body_en": [
+      "In a city that moves at the speed of delivery apps and midnight cravings, there's something almost radical about kare-kare. It demands time—six hours for a proper sauce, as Chef Rosa reminds us. It refuses to be rushed, microwaved, or shortcut. In Chef Rosa's kitchen in Malate, you taste what happens when someone decides that their grandmother's way is worth defending, not just remembering.",
+      "Food can be many things: fuel, pleasure, trend, status. But the best food is quiet resistance. Kare-kare, in its humility, says something vital: that depth takes time, that tradition isn't nostalgia—it's an act of love repeated across generations. Each spoonful of Rosa's peanut sauce carries the weight of hands that came before, and the promise of hands that will come after.",
+      "This is why we eat. Not to fill a void, but to be filled by something larger than ourselves—a moment, a memory, a story that tastes like home. Visit Kare-Kare & Choco not because it's trendy. Visit because you're hungry for something real."
+    ],
+    "body_kr": [
+      "배달 앱과 야식의 속도로 움직이는 도시에서 깐데-까레는 거의 급진적입니다. 시간을 요구합니다—적절한 소스를 위해 6시간, 로사 셰프가 우리에게 상기시킵니다. 급히 처리되기를 거부합니다. 말라떼의 로사 셰프 부엌에서 당신은 누군가가 할머니의 방식을 기억하는 것이 아니라 수호할 가치가 있다고 결정할 때 일어나는 일을 맛봅니다.",
+      "음식은 많은 것이 될 수 있습니다: 연료, 즐거움, 트렌드, 지위. 하지만 최고의 음식은 조용한 저항입니다. 깐데-까레는 겸손함 속에서 무언가 중요한 것을 말합니다: 깊이는 시간이 걸리고, 전통은 향수가 아닙니다—그것은 세대를 통해 반복되는 사랑의 행위입니다. 로사의 땅콩 소스 한 숟가락 각각은 이전에 온 손의 무게를 담고 있고, 나중에 올 손의 약속을 담고 있습니다.",
+      "이것이 우리가 먹는 이유입니다. 공허함을 채우기 위해서가 아니라, 우리 자신보다 큰 것으로 채워지기 위해—순간, 기억, 집처럼 맛나는 이야기. 깐데-까레 앤 쇼콜로를 방문하세요. 유행이어서가 아니라 뭔가 진짜 음식이 그리워서 방문하세요."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}
