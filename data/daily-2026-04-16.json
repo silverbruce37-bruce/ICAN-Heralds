@@ -1,0 +1,95 @@
+{
+  "edition_date": "2026-04-16",
+  "header_date_line": "THURSDAY, APRIL 16, 2026 | PHILIPPINES | VOL. 09",
+  "dashboard": {
+    "php_krw_rate": "24.56",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.16",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Summit Bolsters Economic Ties with Landmark Digital Infrastructure Deals",
+    "headline_kr": "필리핀-한국 정상회담, 디지털 인프라 협력 강화로 경제 관계 증진",
+    "subtitle_en": "Leaders agree on new initiatives to accelerate digital transformation and sustainable development in the Philippines, attracting significant Korean investment.",
+    "subtitle_kr": "양국 정상, 필리핀의 디지털 전환 및 지속 가능한 발전을 위한 새로운 이니셔티브에 합의, 한국의 대규모 투자 유치.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea solidified their robust partnership during a high-stakes summit held yesterday, culminating in a series of landmark agreements focused on accelerating the Philippines' digital infrastructure and sustainable development goals. Philippine President Ferdinand Marcos Jr. and Korean President Yoon Suk Yeol emphasized the critical role of technological cooperation in fostering inclusive growth across the ASEAN region.",
+      "Key outcomes of the summit include a substantial commitment from Korea to invest in the Philippines' burgeoning digital economy, particularly in areas like 5G network expansion, smart city development, and cybersecurity. These investments are expected to create thousands of jobs, enhance digital connectivity for millions of Filipinos, and open new avenues for Korean businesses and the Korean community residing in the Philippines.",
+      "Both leaders underscored their long-term commitment to strengthening bilateral trade, investment, and cultural exchanges. The agreements are seen as a strategic move to future-proof the Philippine economy, leveraging Korea's advanced technological prowess, and further cementing the strong diplomatic and economic ties between the two nations for regional stability and prosperity."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 한국은 어제 열린 고위급 정상회담에서 견고한 파트너십을 공고히 했으며, 필리핀의 디지털 인프라와 지속 가능한 개발 목표 가속화에 중점을 둔 일련의 획기적인 협정에 서명했습니다. 페르디난드 마르코스 주니어 필리핀 대통령과 윤석열 한국 대통령은 ASEAN 지역 전반의 포괄적 성장을 촉진하는 데 기술 협력이 중요하다고 강조했습니다.",
+      "정상회담의 주요 성과에는 5G 네트워크 확장, 스마트 도시 개발, 사이버 보안과 같은 분야에서 필리핀의 신흥 디지털 경제에 투자하겠다는 한국의 상당한 약속이 포함됩니다. 이러한 투자는 수천 개의 일자리를 창출하고, 수백만 필리핀 국민의 디지털 연결성을 향상시키며, 필리핀에 거주하는 한국 기업과 한인 공동체를 위한 새로운 길을 열 것으로 기대됩니다.",
+      "양국 정상은 양국 간 무역, 투자 및 문화 교류를 강화하려는 장기적인 약속을 강조했습니다. 이번 협정은 한국의 선진 기술력을 활용하여 필리핀 경제를 미래에 대비시키고, 지역 안정과 번영을 위한 양국 간의 강력한 외교 및 경제 관계를 더욱 공고히 하는 전략적 움직임으로 평가됩니다."
+    ],
+    "image_seed": "cover-2026-04-16",
+    "image_caption": "Photo: Philippine President Ferdinand Marcos Jr. and Korean President Yoon Suk Yeol shaking hands after signing agreements at the Malacañang Palace (April 15, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Embassy Urges Heightened Vigilance for Korean Tourists Amid Peak Season",
+    "headline_kr": "성수기 맞아 필리핀 내 한인 관광객 및 교민 안전 주의보 발령",
+    "lead_en": "The Korean Embassy in the Philippines has issued an advisory reminding Korean nationals to exercise increased caution as the peak travel season continues. This comes after a slight uptick in minor incidents reported by tourists, particularly in popular tourist destinations.",
+    "lead_kr": "주필리핀 대한민국 대사관은 성수기가 계속됨에 따라 한인들에게 각별한 주의를 기울일 것을 당부하는 안전 권고를 발표했습니다. 이는 특히 인기 관광지에서 관광객들로부터 보고된 경미한 사건들이 소폭 증가한 데 따른 것입니다.",
+    "image_seed": "feat-2026-04-16",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye Philippine Tech Market for Expansion",
+      "headline_kr": "한국 스타트업, 필리핀 기술 시장 진출 모색",
+      "summary_en": "A delegation of Korean tech startups visited Manila this week, exploring potential partnerships and investment opportunities in the Philippines' rapidly expanding digital economy and vibrant startup ecosystem.",
+      "summary_kr": "이번 주 한국 기술 스타트업 대표단이 마닐라를 방문하여 필리핀의 급성장하는 디지털 경제 및 활기찬 스타트업 생태계에서 잠재적인 파트너십 및 투자 기회를 모색했습니다.",
+      "image_seed": "news1-2026-04-16",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Pop Fan Convention, Draws Thousands",
+      "headline_kr": "마닐라에서 대규모 K-POP 팬 컨벤션 개최, 수천 명 운집",
+      "summary_en": "The annual \"K-Pop Fiesta\" convention in Manila concluded successfully, attracting thousands of Filipino and Korean fans celebrating their shared love for Korean music, dance, and culture.",
+      "summary_kr": "마닐라에서 열린 연례 \"K-POP 피에스타\" 컨벤션이 성공적으로 막을 내렸으며, 한국 음악, 춤, 문화에 대한 공통된 사랑을 기념하기 위해 수천 명의 필리핀 및 한국 팬들이 모였습니다.",
+      "image_seed": "news2-2026-04-16",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Strengthen Maritime Cooperation to Combat Illegal Fishing",
+      "headline_kr": "필리핀-한국, 불법 어업 단속 위한 해양 협력 강화",
+      "summary_en": "Naval forces from the Philippines and South Korea recently conducted joint exercises aimed at enhancing capabilities to counter illegal, unreported, and unregulated (IUU) fishing in regional waters.",
+      "summary_kr": "필리핀과 한국 해군이 최근 역내 불법·비보고·비규제(IUU) 어업에 대응하는 역량을 강화하기 위한 합동 훈련을 실시했습니다.",
+      "image_seed": "news3-2026-04-16",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati Launches New Road Safety Program for Pedestrians and Drivers",
+      "headline_kr": "마카티, 보행자 및 운전자 위한 새로운 도로 안전 프로그램 시행",
+      "summary_en": "The local government of Makati has initiated a comprehensive road safety campaign, focusing on improving pedestrian crossings and driver awareness in commercial districts frequented by both locals and foreign residents, including the Korean community.",
+      "summary_kr": "마카티 시 정부가 보행자 횡단 보도 개선과 상업 지구 내 운전자 인식 제고에 중점을 둔 포괄적인 도로 안전 캠페인을 시작했습니다. 이 지역은 한인 공동체를 포함한 현지인과 외국인 거주자 모두 자주 방문합니다.",
+      "image_seed": "news4-2026-04-16",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 현상.",
+    "example_en": "The recent summit aims to create synergy between the Philippine government's development goals and Korea's advanced technological expertise.",
+    "example_kr": "최근 정상회담은 필리핀 정부의 개발 목표와 한국의 선진 기술 전문성 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-16",
+    "vol": 9,
+    "cover_en": "PH-Korea Summit Bolsters Economic Ties with Landmark Digital Infrastructure Deals",
+    "cover_kr": "필리핀-한국 정상회담, 디지털 인프라 협력 강화로 경제 관계 증진",
+    "headlines_en": [
+      "Embassy Urges Heightened Vigilance for Korean Tourists Amid Peak Season",
+      "Korean Startups Eye Philippine Tech Market for Expansion",
+      "Manila Hosts Grand K-Pop Fan Convention, Draws Thousands",
+      "PH, Korea Strengthen Maritime Cooperation to Combat Illegal Fishing",
+      "Makati Launches New Road Safety Program for Pedestrians and Drivers"
+    ],
+    "headlines_kr": [
+      "성수기 맞아 필리핀 내 한인 관광객 및 교민 안전 주의보 발령",
+      "한국 스타트업, 필리핀 기술 시장 진출 모색",
+      "마닐라에서 대규모 K-POP 팬 컨벤션 개최, 수천 명 운집",
+      "필리핀-한국, 불법 어업 단속 위한 해양 협력 강화",
+      "마카티, 보행자 및 운전자 위한 새로운 도로 안전 프로그램 시행"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Culture",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-04-15",
     "vol": 8,
     "cover_en": "Korean Education Alliance Opens Flagship Campus in Manila",
