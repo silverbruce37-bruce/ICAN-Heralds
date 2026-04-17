@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-17",
+    "vol": 10,
+    "cover_en": "Korea-Philippines Forge New Digital Future with Landmark Tech Partnership",
+    "cover_kr": "한국-필리핀, 획기적인 기술 파트너십으로 새로운 디지털 미래 구축",
+    "headlines_en": [
+      "Enhanced Security Measures Rolled Out for Korean Tourists and Residents",
+      "Philippines Posts Strong Q1 GDP Growth, Driven by Tech Investment",
+      "Manila's K-Food Festival Draws Record Crowds, Showcasing Culinary Delights",
+      "Korea, Philippines Advance Talks on Renewable Energy Collaboration",
+      "Embassy Warns Korean Community Against Online Investment Scams"
+    ],
+    "headlines_kr": [
+      "한인 관광객 및 거주민을 위한 강화된 보안 조치 시행",
+      "필리핀, 기술 투자 힘입어 견조한 1분기 GDP 성장 기록",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰리며 미식의 향연 펼쳐",
+      "한국-필리핀, 재생에너지 협력 논의 진전",
+      "대사관, 한인 커뮤니티에 온라인 투자 사기 주의보 발령"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-04-16",
     "vol": 9,
     "cover_en": "PH-Korea Summit Bolsters Economic Ties with Landmark Digital Infrastructure Deals",
