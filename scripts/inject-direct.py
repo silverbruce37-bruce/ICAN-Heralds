@@ -25,9 +25,10 @@ def img_url(prompt, w=400, h=200, seed=None):
 
     clean = str(prompt).strip()
     styled = (
-        "editorial newspaper illustration, hand-drawn pen and ink sketch, "
-        "detailed line art, cross-hatching, monochrome with subtle sepia wash, "
-        f"broadsheet style: {clean}"
+        "bold editorial vector illustration, strong graphic shapes, "
+        "limited high-contrast color palette, flat design, minimal details, "
+        "confident poster style, modern newspaper art: "
+        f"{clean}"
     )
     encoded = urllib.parse.quote(styled[:500])
 
