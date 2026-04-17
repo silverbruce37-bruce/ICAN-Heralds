@@ -24,20 +24,15 @@ def img_url(prompt, w=400, h=200, seed=None):
         prompt = "newspaper editorial photograph"
 
     clean = str(prompt).strip()
-    styled = (
-        "bold editorial vector illustration, strong graphic shapes, "
-        "limited high-contrast color palette, flat design, minimal details, "
-        "confident poster style, modern newspaper art: "
-        f"{clean}"
-    )
-    encoded = urllib.parse.quote(styled[:500])
+    styled = f"bold editorial vector illustration, flat graphic poster: {clean}"
+    encoded = urllib.parse.quote(styled[:250])
 
     seed_source = str(seed) if seed is not None else clean
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
 
     return (
         f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?width={w}&height={h}&seed={seed_num}&model=flux&nologo=true"
+        f"?width={w}&height={h}&seed={seed_num}&model=turbo&nologo=true"
     )
 
 
