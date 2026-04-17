@@ -230,6 +230,7 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"body_en\": [\"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\"],
     \"body_kr\": [\"단락 1\", \"단락 2\", \"단락 3\"],
     \"image_seed\": \"cover-${DATE}\",
+    \"image_query\": \"3-8 word English phrase for AI image gen, e.g. 'Korean Philippine officials handshake signing agreement'\",
     \"image_caption\": \"Photo: Description of the image (date)\",
     \"author\": \"By ICAN Herald Editorial\",
     \"read_time_min\": 5
@@ -242,6 +243,7 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"lead_en\": \"2-3 sentence lead paragraph EN\",
     \"lead_kr\": \"리드 단락 KR\",
     \"image_seed\": \"feat-${DATE}\",
+    \"image_query\": \"3-8 word English phrase for AI image gen matching the featured story\",
     \"desk\": \"Security Desk\",
     \"read_time_min\": 3
   },
@@ -250,25 +252,25 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
       \"tag\": \"Economy\", \"tag_class\": \"tag-economy\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"1-2 sentence summary\", \"summary_kr\": \"...\",
-      \"image_seed\": \"news1-${DATE}\", \"read_time_min\": 2
+      \"image_seed\": \"news1-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     },
     {
       \"tag\": \"Culture\", \"tag_class\": \"tag-culture\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
-      \"image_seed\": \"news2-${DATE}\", \"read_time_min\": 2
+      \"image_seed\": \"news2-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     },
     {
       \"tag\": \"Cooperation\", \"tag_class\": \"tag-diplomacy\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
-      \"image_seed\": \"news3-${DATE}\", \"read_time_min\": 3
+      \"image_seed\": \"news3-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 3
     },
     {
       \"tag\": \"Safety\", \"tag_class\": \"tag-safety\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
-      \"image_seed\": \"news4-${DATE}\", \"read_time_min\": 2
+      \"image_seed\": \"news4-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     }
   ],
   \"word_of_day\": {
@@ -289,6 +291,7 @@ IMPORTANT RULES:
 - Make it realistic and relevant to today's date
 - Cover story should have 3 substantial paragraphs per language
 - The word_of_day should connect thematically to the cover story
+- image_query: 3-8 concrete English nouns/actions describing the photo that would illustrate the article (visual subjects + setting). Examples: 'Korean Philippine officials handshake signing digital agreement Manila', 'Korean tourists police patrol Makati street safety', 'Seoul Manila container ship port trade'. Avoid abstract words.
 - Return ONLY valid JSON, no explanation"
 
 DAILY_JSON=$(call_claude "$DAILY_PROMPT" 6000) || {
@@ -345,11 +348,13 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
     \"tip_en\": \"Insider tip for visitors\",
     \"tip_kr\": \"방문자를 위한 꿀팁\",
     \"hero_image_seed\": \"food-w${CURRENT_WEEK}\",
+    \"image_query\": \"3-8 words describing the signature dish and restaurant style, e.g. 'korean BBQ grilled galbi restaurant interior warm lighting'\",
     \"gallery_seeds\": [\"food-g1-w${CURRENT_WEEK}\", \"food-g2-w${CURRENT_WEEK}\", \"food-g3-w${CURRENT_WEEK}\"]
   },
   \"travel_cards\": [
     {
       \"image_seed\": \"travel1-w${CURRENT_WEEK}\",
+      \"image_query\": \"3-8 words describing the destination visually, e.g. 'hidden blue lagoon cliff jumping tropical philippines'\",
       \"badge_en\": \"SECRET SPOT\", \"badge_kr\": \"숨은 명소\",
       \"tags\": [{\"en\": \"Nature\", \"kr\": \"자연\"}, {\"en\": \"Activity\", \"kr\": \"활동\"}],
       \"name_en\": \"Destination Name\", \"name_kr\": \"여행지 이름\",
@@ -362,6 +367,7 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
     },
     {
       \"image_seed\": \"travel2-w${CURRENT_WEEK}\",
+      \"image_query\": \"3-8 words describing the destination visually\",
       \"badge_en\": \"HERITAGE\", \"badge_kr\": \"유산 탐방\",
       \"tags\": [{\"en\": \"Culture\", \"kr\": \"문화\"}, {\"en\": \"Walking\", \"kr\": \"도보\"}],
       \"name_en\": \"Destination 2\", \"name_kr\": \"여행지 2\",
@@ -377,6 +383,7 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
       \"date_badge\": \"APR 18\",
       \"day_of_week_en\": \"Friday\", \"day_of_week_kr\": \"금요일\",
       \"image_seed\": \"event1-w${CURRENT_WEEK}\",
+      \"image_query\": \"3-8 words describing the event visually, e.g. 'korean music concert stage lights crowd'\",
       \"title\": \"Event Name\",
       \"desc_en\": \"2-3 sentence vivid description\",
       \"desc_kr\": \"생생한 2-3문장 설명\",
@@ -392,9 +399,9 @@ Generate weekly editorial content as JSON. Return ONLY valid JSON (no markdown f
       \"note_en\": \"Any special note (e.g. Bring valid ID, Korean menu available)\",
       \"note_kr\": \"특별 참고사항\"
     },
-    { \"date_badge\": \"MAY 05\", \"day_of_week_en\": \"Monday\", \"day_of_week_kr\": \"월요일\", \"image_seed\": \"event2-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"FREE\", \"price_kr\": \"무료\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
-    { \"date_badge\": \"JUN 12\", \"day_of_week_en\": \"Thursday\", \"day_of_week_kr\": \"목요일\", \"image_seed\": \"event3-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
-    { \"date_badge\": \"JUL 20\", \"day_of_week_en\": \"Sunday\", \"day_of_week_kr\": \"일요일\", \"image_seed\": \"event4-w${CURRENT_WEEK}\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" }
+    { \"date_badge\": \"MAY 05\", \"day_of_week_en\": \"Monday\", \"day_of_week_kr\": \"월요일\", \"image_seed\": \"event2-w${CURRENT_WEEK}\", \"image_query\": \"visual description\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"FREE\", \"price_kr\": \"무료\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
+    { \"date_badge\": \"JUN 12\", \"day_of_week_en\": \"Thursday\", \"day_of_week_kr\": \"목요일\", \"image_seed\": \"event3-w${CURRENT_WEEK}\", \"image_query\": \"visual description\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" },
+    { \"date_badge\": \"JUL 20\", \"day_of_week_en\": \"Sunday\", \"day_of_week_kr\": \"일요일\", \"image_seed\": \"event4-w${CURRENT_WEEK}\", \"image_query\": \"visual description\", \"title\": \"...\", \"desc_en\": \"...\", \"desc_kr\": \"...\", \"venue_en\": \"...\", \"venue_kr\": \"...\", \"address_en\": \"...\", \"address_kr\": \"...\", \"time_en\": \"...\", \"time_kr\": \"...\", \"price_en\": \"...\", \"price_kr\": \"...\", \"contact\": \"...\", \"note_en\": \"...\", \"note_kr\": \"...\" }
   ],
   \"picks\": {
     \"date\": \"${DATE_DOT}\",
