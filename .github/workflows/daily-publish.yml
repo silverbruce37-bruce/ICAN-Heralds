@@ -65,7 +65,44 @@ jobs:
           print(d.get('cover_story',{}).get('headline_en','Daily Edition')[:60])
           " 2>/dev/null || echo "Daily Edition")
           git add ican_news.html index.html sw.js data/ js/academy-data.js
-          git diff --staged --quiet || (
-            git commit -m "Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d) VOL. $(printf '%02d' $VOL) — $COVER"
-            git push
-          )
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Daily edition: $(TZ='Asia/Manila' date +%Y-%m-%d) VOL. $(printf '%02d' $VOL) — $COVER"
+          # Push with rebase-retry (handles race when remote moved during this run)
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Push succeeded on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) — rebasing and retrying..."
+            git pull --rebase origin main || { echo "Rebase failed"; exit 1; }
+            sleep $((i * 2))
+          done
+          echo "Push failed after 5 attempts."
+          exit 1
+
+      - name: Notify Telegram on success
+        if: steps.check.outputs.skip != 'true' && success()
+        run: |
+          TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
+          VOL=$(cat data/volume.txt 2>/dev/null || echo "?")
+          MSG="📰 iCAN Herald 발행 완료 — ${TODAY} VOL. $(printf '%02d' $VOL)%0Ahttps://ican-heralds.vercel.app/"
+          curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" -d "text=${MSG}" > /dev/null || true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Notify Telegram on failure
+        if: failure()
+        run: |
+          TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
+          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          MSG="⚠️ iCAN Herald 발행 실패 — ${TODAY}%0A${RUN_URL}"
+          curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" -d "text=${MSG}" > /dev/null || true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
