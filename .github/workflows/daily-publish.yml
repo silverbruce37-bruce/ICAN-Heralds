@@ -3,6 +3,8 @@ name: Daily Publication
 on:
   schedule:
     - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,25 +18,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check if today's edition already published
+        id: check
+        run: |
+          TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
+          if [ -f "data/daily-${TODAY}.json" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Today ($TODAY) already published — skipping."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Today ($TODAY) not yet published — proceeding."
+          fi
+
       - name: Set up Python
+        if: steps.check.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Create data directory
+        if: steps.check.outputs.skip != 'true'
         run: mkdir -p data
 
       - name: Generate Daily Edition
+        if: steps.check.outputs.skip != 'true'
         run: bash scripts/generate-daily.sh
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Pre-warm image cache (Pollinations)
+        if: steps.check.outputs.skip != 'true'
         run: bash scripts/prewarm-images.sh
         continue-on-error: true
 
       - name: Commit and Push
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "ICAN Heralds Bot"
           git config user.email "heralds@ican.academy"
