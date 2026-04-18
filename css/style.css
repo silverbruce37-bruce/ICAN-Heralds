@@ -374,8 +374,8 @@ body.lang-kr .picks-body p {
 
 .main-image-container {
     width: 100%;
-    aspect-ratio: 12 / 7;
-    max-height: 520px;
+    aspect-ratio: 3 / 2;
+    max-height: 560px;
     background: var(--card-bg);
     margin-bottom: 25px;
     border-radius: var(--radius-md);
@@ -513,7 +513,7 @@ body.lang-kr .picks-body p {
     position: relative;
     border-radius: var(--radius-md);
     overflow: hidden;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 3 / 2;
 }
 
 .featured-news-image img {
@@ -737,7 +737,7 @@ body.lang-kr .picks-body p {
 
 .food-hero-img {
     width: 100%;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 16 / 9;
     max-height: 500px;
     object-fit: cover;
     object-position: center;

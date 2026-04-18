@@ -108,7 +108,7 @@ def build_weekly_sections(weekly, date_dot):
                     <span class="kr-content">{food.get('badge_kr','에디터 추천')}</span>
                 </div>
                 <div class="food-feature-gallery">
-                    <img class="food-hero-img" src="{img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1200, 600, seed=food.get('hero_image_seed'))}" alt="{food.get('name_en','')}">
+                    <img class="food-hero-img" src="{img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed'))}" alt="{food.get('name_en','')}">
                     <div class="food-gallery-strip">
                         {gallery_imgs}
                     </div>
@@ -475,7 +475,7 @@ def build_html(daily, weekly):
             <h2 class="main-title"><span class="en-content">{cover.get('headline_en', '')}</span><span class="kr-content">{cover.get('headline_kr', '')}</span></h2>
             <h3 class="sub-title"><span class="en-content">{cover.get('subtitle_en', '')}</span><span class="kr-content">{cover.get('subtitle_kr', '')}</span></h3>
             <div class="main-image-container">
-                <img src="{img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 700, seed=cover.get('image_seed'))}" alt="Cover Story">
+                <img src="{img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed'))}" alt="Cover Story">
                 <div class="image-caption">{cover.get('image_caption', '')}</div>
             </div>
             <div class="article-meta">
@@ -491,7 +491,7 @@ def build_html(daily, weekly):
             <h2 class="section-title"><span class="en-content">Latest Korea-Philippines News</span><span class="kr-content">최신 한-필 주요 뉴스</span><span class="live-badge">LIVE</span></h2>
             <div class="featured-news">
                 <div class="featured-news-image">
-                    <img src="{img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 800, 450, seed=feat.get('image_seed'))}" alt="{feat.get('tag', 'News')}">
+                    <img src="{img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed'))}" alt="{feat.get('tag', 'News')}">
                     <span class="tag {feat.get('tag_class', 'tag-security')}">{feat.get('tag', 'News')}</span>
                 </div>
                 <div class="featured-news-body">
