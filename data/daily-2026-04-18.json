@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-18",
+  "header_date_line": "SATURDAY, APRIL 18, 2026 | PHILIPPINES | VOL. 12",
+  "dashboard": {
+    "php_krw_rate": "24.63",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.18",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, PH Inaugurate Joint Digital Innovation Hub in Clark",
+    "headline_kr": "한국-필리핀, 클락에 공동 디지털 혁신 허브 개소",
+    "subtitle_en": "The new facility aims to foster technological advancement and cultivate a skilled workforce, strengthening bilateral ties in the digital economy sector. This initiative is expected to create numerous opportunities for both nations.",
+    "subtitle_kr": "새로운 시설은 기술 발전을 촉진하고 숙련된 인력을 양성하며 디지털 경제 분야에서 양국 관계를 강화하는 것을 목표로 합니다. 이번 이니셔티브는 양국에 수많은 기회를 창출할 것으로 기대됩니다.",
+    "body_en": [
+      "Clark Freeport Zone, Pampanga – A landmark collaboration between South Korea and the Philippines officially launched yesterday with the inauguration of the Korea-Philippines Digital Innovation Hub. Located within the bustling economic zone of Clark, the state-of-the-art facility is designed to serve as a nexus for research and development, skills training, and startup incubation, particularly in emerging technologies such as AI, big data, and cybersecurity.",
+      "Officials from both governments emphasized the strategic importance of this partnership, highlighting its potential to drive economic growth and enhance digital competitiveness across the ASEAN region. The Hub will offer specialized programs and workshops for Filipino professionals and students, leveraging South Korea's advanced technological expertise. For the Korean community in the Philippines, this means new avenues for business expansion, technological exchange, and even potential employment opportunities within the burgeoning local tech sector.",
+      "Beyond economic benefits, the Digital Innovation Hub is expected to foster deeper cultural and educational exchanges. Korean tech companies and educators are poised to collaborate closely with their Filipino counterparts, promoting a vibrant ecosystem of innovation. This joint venture underscores a shared commitment to building a resilient, digitally-empowered future, further solidifying the strong bonds between Korea and the Philippines."
+    ],
+    "body_kr": [
+      "팜팡가 클락 자유항 구역 – 대한민국과 필리핀 간의 획기적인 협력이 어제 한국-필리핀 디지털 혁신 허브 개소와 함께 공식적으로 시작되었습니다. 번화한 클락 경제 특구에 위치한 이 최첨단 시설은 특히 AI, 빅데이터, 사이버 보안과 같은 신흥 기술 분야에서 연구 개발, 기술 훈련 및 스타트업 인큐베이션의 중심지 역할을 하도록 설계되었습니다.",
+      "양국 정부 관계자들은 이 파트너십의 전략적 중요성을 강조하며 ASEAN 지역 전반의 경제 성장과 디지털 경쟁력 향상에 기여할 잠재력을 언급했습니다. 이 허브는 한국의 선진 기술 전문 지식을 활용하여 필리핀 전문가와 학생들을 위한 전문 프로그램 및 워크숍을 제공할 예정입니다. 필리핀 내 한인 사회에게는 성장하는 현지 기술 분야 내에서 새로운 사업 확장, 기술 교류 및 잠재적인 고용 기회를 의미합니다.",
+      "경제적 이익 외에도 디지털 혁신 허브는 더 깊은 문화 및 교육 교류를 촉진할 것으로 기대됩니다. 한국 기술 기업과 교육자들은 필리핀 파트너들과 긴밀히 협력하여 활기찬 혁신 생태계를 조성할 준비가 되어 있습니다. 이 합작 투자는 탄력적이고 디지털 역량을 갖춘 미래를 구축하려는 공동의 노력을 강조하며, 한국과 필리핀 간의 강력한 유대를 더욱 공고히 할 것입니다."
+    ],
+    "image_seed": "cover-2026-04-18",
+    "image_query": "Korean and Filipino tech leaders shaking hands at digital innovation center launch",
+    "image_caption": "Photo: Officials from Korea and the Philippines shake hands after the inauguration of the Digital Innovation Hub in Clark (April 17, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Expanded Joint Police Patrols Boost Korean Tourist Safety in Boracay",
+    "headline_kr": "확대된 한-필 공동 경찰 순찰, 보라카이 한인 관광객 안전 강화",
+    "lead_en": "Authorities in Boracay have announced an expansion of joint security patrols involving Philippine National Police and representatives from the Korean community's security task force. This initiative aims to enhance the safety and security of Korean tourists following a recent increase in visitor numbers to the popular island destination.",
+    "lead_kr": "보라카이 당국은 필리핀 국립경찰과 한인사회 보안 태스크포스 대표들이 참여하는 공동 보안 순찰을 확대한다고 발표했습니다. 이 이니셔티브는 인기 있는 섬 목적지 방문객 수 증가에 따라 한인 관광객의 안전과 보안을 강화하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-04-18",
+    "image_query": "Korean police officer and Filipino police officer patrolling Boracay beach",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eye Sustainable Energy Projects in Mindanao",
+      "headline_kr": "한국 투자자들, 민다나오 지속가능 에너지 프로젝트 주목",
+      "summary_en": "Several major Korean energy firms are exploring investment opportunities in Mindanao's renewable energy sector, particularly in solar and hydro power. This move aligns with the Philippines' push for green energy and offers promising long-term returns.",
+      "summary_kr": "여러 주요 한국 에너지 기업들이 민다나오의 재생 에너지 부문, 특히 태양광 및 수력 발전 투자 기회를 모색하고 있습니다. 이는 필리핀의 친환경 에너지 추진 노력과 일치하며 유망한 장기 수익을 제공할 것으로 보입니다.",
+      "image_seed": "news1-2026-04-18",
+      "image_query": "Solar panels Mindanao landscape Korean investment",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Record-Breaking K-Food Festival Attracting Thousands",
+      "headline_kr": "마닐라, 수천 명 참여한 역대급 K-푸드 페스티벌 개최",
+      "summary_en": "The annual K-Food Festival in Manila drew unprecedented crowds this past weekend, showcasing a wide array of traditional and modern Korean dishes. The event highlighted the growing popularity of Korean cuisine and culture among Filipinos.",
+      "summary_kr": "지난 주말 마닐라에서 열린 연례 K-푸드 페스티벌은 전례 없는 인파를 모으며 다양한 전통 및 현대 한국 요리를 선보였습니다. 이 행사는 필리핀 사람들 사이에서 한국 음식과 문화의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-04-18",
+      "image_query": "Crowded K-Food festival Manila street food",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "UP Diliman, SNU Announce New Climate Research Exchange Program",
+      "headline_kr": "UP 딜리만-서울대, 새로운 기후 연구 교환 프로그램 발표",
+      "summary_en": "The University of the Philippines Diliman and Seoul National University have launched a joint exchange program focused on climate change research. This collaboration aims to foster innovative solutions for environmental challenges facing both countries and the region.",
+      "summary_kr": "필리핀 대학교 딜리만 캠퍼스와 서울대학교가 기후 변화 연구에 초점을 맞춘 공동 교환 프로그램을 시작했습니다. 이 협력은 양국과 지역이 직면한 환경 문제에 대한 혁신적인 해결책을 육성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-04-18",
+      "image_query": "Students scientists collaborating climate research laboratory",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Warns Against Online Job Scams Targeting Expats",
+      "headline_kr": "주필리핀 한국대사관, 교민 대상 온라인 취업 사기 경고",
+      "summary_en": "The Korean Embassy in Manila has issued an urgent advisory to the community regarding a surge in online job scams specifically targeting expatriates. Residents are urged to exercise extreme caution and verify all job offers through official channels.",
+      "summary_kr": "주필리핀 한국대사관은 특히 해외 거주자를 대상으로 하는 온라인 취업 사기 급증과 관련하여 교민들에게 긴급 주의보를 발령했습니다. 주민들은 극도의 주의를 기울이고 모든 채용 제안을 공식 채널을 통해 확인할 것을 촉구했습니다.",
+      "image_seed": "news4-2026-04-18",
+      "image_query": "Computer screen warning scam alert cybersecurity",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The new digital innovation hub fosters synergy between Korean and Filipino tech industries, leading to groundbreaking advancements.",
+    "example_kr": "새로운 디지털 혁신 허브는 한국과 필리핀 기술 산업 간의 시너지를 촉진하여 획기적인 발전을 이끌고 있습니다.",
+    "grade": "A+"
+  }
+}

@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-18",
+    "vol": 12,
+    "cover_en": "Korea, PH Inaugurate Joint Digital Innovation Hub in Clark",
+    "cover_kr": "한국-필리핀, 클락에 공동 디지털 혁신 허브 개소",
+    "headlines_en": [
+      "Expanded Joint Police Patrols Boost Korean Tourist Safety in Boracay",
+      "Korean Investors Eye Sustainable Energy Projects in Mindanao",
+      "Manila Hosts Record-Breaking K-Food Festival Attracting Thousands",
+      "UP Diliman, SNU Announce New Climate Research Exchange Program",
+      "Korean Embassy Warns Against Online Job Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "확대된 한-필 공동 경찰 순찰, 보라카이 한인 관광객 안전 강화",
+      "한국 투자자들, 민다나오 지속가능 에너지 프로젝트 주목",
+      "마닐라, 수천 명 참여한 역대급 K-푸드 페스티벌 개최",
+      "UP 딜리만-서울대, 새로운 기후 연구 교환 프로그램 발표",
+      "주필리핀 한국대사관, 교민 대상 온라인 취업 사기 경고"
+    ],
+    "tags": [
+      "Cooperation",
+      "Security",
+      "Economy",
+      "Culture",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-04-17",
     "vol": 10,
     "cover_en": "Korea-Philippines Forge New Digital Future with Landmark Tech Partnership",
