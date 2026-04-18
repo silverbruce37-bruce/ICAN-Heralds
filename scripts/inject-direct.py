@@ -41,7 +41,7 @@ def build_news_cards(news):
     for i, item in enumerate(news[:4], 1):
         cards += f'''
                 <div class="news-card">
-                    <div class="news-thumb"><img src="{img_url(item.get('image_query') or item.get('headline_en', f'news {i}'), 400, 200, seed=item.get('image_seed'))}" alt="{item.get('tag', 'News')}"></div>
+                    <div class="news-thumb"><img src="{img_url(item.get('image_query') or item.get('headline_en', f'news {i}'), 280, 220, seed=item.get('image_seed'))}" alt="{item.get('tag', 'News')}"></div>
                     <div class="news-card-body">
                         <span class="tag {item.get('tag_class', 'tag-economy')}">{item.get('tag', 'News')}</span>
                         <h3>
@@ -91,7 +91,7 @@ def build_weekly_sections(weekly, date_dot):
         gallery_aspects = ["restaurant interior ambience", "signature dish closeup plating", "storefront exterior"]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
         gallery_imgs = "\n".join(
-            f'<img src="{img_url(f"{food_name} {cuisine} {gallery_aspects[i]}", 300, 200, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}">'
+            f'<img src="{img_url(f"{food_name} {cuisine} {gallery_aspects[i]}", 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}">'
             for i in range(3)
         )
 

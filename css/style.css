@@ -374,7 +374,8 @@ body.lang-kr .picks-body p {
 
 .main-image-container {
     width: 100%;
-    height: 520px;
+    aspect-ratio: 12 / 7;
+    max-height: 520px;
     background: var(--card-bg);
     margin-bottom: 25px;
     border-radius: var(--radius-md);
@@ -386,6 +387,7 @@ body.lang-kr .picks-body p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .image-caption {
@@ -511,13 +513,14 @@ body.lang-kr .picks-body p {
     position: relative;
     border-radius: var(--radius-md);
     overflow: hidden;
-    height: 320px;
+    aspect-ratio: 16 / 9;
 }
 
 .featured-news-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .featured-news-image .tag {
@@ -566,7 +569,7 @@ body.lang-kr .picks-body p {
 .news-thumb {
     width: 140px;
     min-width: 140px;
-    height: 110px;
+    aspect-ratio: 14 / 11;
     border-radius: var(--radius-sm);
     overflow: hidden;
     flex-shrink: 0;
@@ -576,6 +579,7 @@ body.lang-kr .picks-body p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .news-card-body {
@@ -733,8 +737,10 @@ body.lang-kr .picks-body p {
 
 .food-hero-img {
     width: 100%;
-    height: 450px;
+    aspect-ratio: 2 / 1;
+    max-height: 500px;
     object-fit: cover;
+    object-position: center;
     display: block;
 }
 
@@ -747,8 +753,10 @@ body.lang-kr .picks-body p {
 
 .food-gallery-strip img {
     flex: 1;
-    height: 100px;
+    aspect-ratio: 4 / 3;
+    max-height: 140px;
     object-fit: cover;
+    object-position: center;
     border-radius: 4px;
     cursor: pointer;
     transition: opacity 0.3s;
@@ -951,7 +959,8 @@ body.lang-kr .picks-body p {
 
 .travel-card-image {
     position: relative;
-    height: 260px;
+    aspect-ratio: 8 / 5;
+    max-height: 320px;
     overflow: hidden;
 }
 
@@ -959,6 +968,7 @@ body.lang-kr .picks-body p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     transition: transform 0.5s;
 }
 
@@ -1058,8 +1068,9 @@ body.lang-kr .picks-body p {
 
 .event-card img {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
+    object-position: center;
 }
 
 .event-content {
@@ -1903,13 +1914,13 @@ body.lang-kr .apc-title {
     .main-title { font-size: 2rem; }
     body.lang-kr .main-title { font-size: 1.8rem; }
     .sub-title { font-size: 1.1rem; }
-    .main-image-container { height: 250px; }
+    .main-image-container { max-height: 250px; }
 
     .featured-news {
         grid-template-columns: 1fr;
         padding: 20px;
     }
-    .featured-news-image { height: 220px; }
+    .featured-news-image { max-height: 220px; }
     .featured-news-body h3 { font-size: 1.4rem; }
 
     .news-grid { grid-template-columns: 1fr; gap: 15px; }
@@ -1923,7 +1934,7 @@ body.lang-kr .apc-title {
     .food-gallery-strip img { height: 70px; }
 
     .travel-grid { grid-template-columns: 1fr; }
-    .travel-card-image { height: 220px; }
+    .travel-card-image { max-height: 220px; }
 
     .event-card { min-width: 280px; }
 
@@ -1948,11 +1959,11 @@ body.lang-kr .apc-title {
 
     .main-title { font-size: 1.5rem; }
     .sub-title { font-size: 0.95rem; padding-left: 12px; }
-    .main-image-container { height: 200px; }
+    .main-image-container { max-height: 200px; }
 
     .section-title { font-size: 1.3rem; flex-wrap: wrap; }
 
-    .food-hero-img { height: 220px; }
+    .food-hero-img { max-height: 220px; }
     .food-feature-content h3 { font-size: 1.3rem; }
     .food-quote { font-size: 1rem; padding: 15px 18px; }
 
