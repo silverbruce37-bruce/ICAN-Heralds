@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-19",
+  "header_date_line": "SUNDAY, APRIL 19, 2026 | PHILIPPINES | VOL. 13",
+  "dashboard": {
+    "php_krw_rate": "24.63",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Green Tech Alliance, Boosting Sustainable Growth",
+    "headline_kr": "필리핀-한국, 녹색 기술 동맹 강화로 지속 가능한 성장 박차",
+    "subtitle_en": "A landmark agreement signed this week aims to accelerate the adoption of renewable energy and eco-friendly solutions across the Philippines, driven by Korean innovation. This collaboration is set to open new avenues for Korean businesses and create skilled job opportunities for locals.",
+    "subtitle_kr": "이번 주 체결된 획기적인 협정은 한국의 혁신을 바탕으로 필리핀 전역의 재생 에너지 및 친환경 솔루션 채택을 가속화하는 것을 목표로 합니다. 이 협력은 한국 기업들에게 새로운 기회를 제공하고 현지인들에게 숙련된 일자리를 창출할 것입니다.",
+    "body_en": [
+      "The Philippines and South Korea have officially solidified a comprehensive Green Technology Alliance, marking a new chapter in their bilateral relations focused on environmental sustainability and economic development. The agreement, signed by high-ranking officials from both nations, prioritizes joint research and development, technology transfer, and investment in renewable energy projects, smart city solutions, and waste management systems.",
+      "This strategic partnership is expected to significantly benefit the Korean community in the Philippines, particularly businesses operating in or looking to enter the green technology sector. With enhanced governmental support and streamlined regulatory processes, Korean firms specializing in solar, wind, and geothermal energy, as well as advanced recycling and sustainable urban planning, will find fertile ground for expansion. Furthermore, the initiative is poised to foster a more eco-conscious living and business environment, aligning with global sustainability goals.",
+      "Both governments expressed optimism that the alliance will not only contribute to the Philippines' climate change mitigation efforts but also strengthen economic ties and cultural exchange. Plans include establishing a joint task force to oversee project implementation and regularly review progress, ensuring tangible outcomes. This long-term commitment underscores a shared vision for a greener, more prosperous future for both countries and the wider ASEAN region."
+    ],
+    "body_kr": [
+      "필리핀과 대한민국은 환경 지속 가능성과 경제 발전에 중점을 둔 양국 관계의 새로운 장을 여는 포괄적인 녹색 기술 동맹을 공식적으로 공고히 했습니다. 양국 고위 관계자들이 서명한 이 협정은 재생 에너지 프로젝트, 스마트 도시 솔루션 및 폐기물 관리 시스템에 대한 공동 연구 개발, 기술 이전 및 투자를 우선시합니다.",
+      "이 전략적 파트너십은 필리핀 내 한인 사회, 특히 녹색 기술 부문에서 활동하거나 진출하려는 기업들에게 상당한 혜택을 줄 것으로 예상됩니다. 강화된 정부 지원과 간소화된 규제 절차를 통해 태양광, 풍력, 지열 에너지뿐만 아니라 첨단 재활용 및 지속 가능한 도시 계획 전문 한국 기업들은 사업 확장을 위한 비옥한 기반을 찾을 것입니다. 또한, 이 이니셔티브는 글로벌 지속 가능성 목표에 맞춰 보다 친환경적인 생활 및 비즈니스 환경을 조성할 것으로 기대됩니다.",
+      "양국 정부는 이번 동맹이 필리핀의 기후 변화 완화 노력에 기여할 뿐만 아니라 경제적 유대와 문화 교류를 강화할 것이라는 낙관론을 표명했습니다. 프로젝트 실행을 감독하고 진행 상황을 정기적으로 검토하여 가시적인 성과를 보장하기 위한 공동 태스크포스 설립 계획도 포함되어 있습니다. 이러한 장기적인 약속은 양국과 더 넓은 아세안 지역의 더 푸르고 번영하는 미래에 대한 공유된 비전을 강조합니다."
+    ],
+    "image_seed": "cover-2026-04-19",
+    "image_query": "Korean Philippine officials handshake signing green technology agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands after signing a green technology agreement (April 18, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Police Visibility Boosts Korean Community Safety in Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 사회 안전 위해 경찰 가시성 강화",
+    "lead_en": "Local authorities and the Korean Embassy have collaborated to increase police patrols and visibility in areas with high Korean populations, particularly in Makati and Bonifacio Global City. This proactive measure aims to deter crime and reassure residents following recent minor incidents.",
+    "lead_kr": "현지 당국과 주 필리핀 한국대사관은 한인 밀집 지역, 특히 마카티와 보니파시오 글로벌 시티에서 경찰 순찰 및 가시성을 높이기 위해 협력했습니다. 이 선제적 조치는 최근 발생한 경미한 사건들 이후 범죄를 억제하고 주민들을 안심시키기 위함입니다.",
+    "image_seed": "feat-2026-04-19",
+    "image_query": "Philippine police officers patrolling street Korean community",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eye Philippine Startups in Fintech and AI Sectors",
+      "headline_kr": "한국 투자자들, 핀테크 및 AI 부문 필리핀 스타트업 주목",
+      "summary_en": "Korean venture capital firms are showing increased interest in emerging Philippine startups, focusing on financial technology and artificial intelligence. This trend signals growing confidence in the Philippine innovation ecosystem and potential for cross-border collaboration.",
+      "summary_kr": "한국 벤처 캐피탈 기업들이 필리핀의 신생 스타트업, 특히 핀테크 및 인공지능 분야에 대한 관심을 높이고 있습니다. 이러한 추세는 필리핀 혁신 생태계에 대한 신뢰와 국경을 넘는 협력 가능성을 보여줍니다.",
+      "image_seed": "news1-2026-04-19",
+      "image_query": "Korean businessman meeting Philippine startup founder",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Quezon City Draws Record Crowds, Celebrates Culinary Ties",
+      "headline_kr": "퀘존 시티 K-푸드 축제, 기록적인 인파 속 한식 문화 교류",
+      "summary_en": "The annual K-Food Festival held in Quezon City this weekend attracted unprecedented numbers, highlighting the enduring popularity of Korean cuisine in the Philippines. Attendees enjoyed cooking demonstrations, traditional performances, and a wide array of Korean dishes.",
+      "summary_kr": "이번 주말 퀘존 시티에서 열린 연례 K-푸드 축제는 전례 없는 인파를 모으며 필리핀 내 한식의 꾸준한 인기를 입증했습니다. 참가자들은 요리 시연, 전통 공연, 그리고 다양한 한식을 즐겼습니다.",
+      "image_seed": "news2-2026-04-19",
+      "image_query": "K-Food festival street food crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Student Exchange Program Sees Record Enrollment for 2026",
+      "headline_kr": "2026년 필리핀-한국 학생 교류 프로그램 역대 최고 등록률 기록",
+      "summary_en": "The academic exchange program between Philippine and Korean universities has achieved its highest enrollment numbers yet for the 2026 academic year. This reflects a growing desire among students from both nations to experience diverse cultures and educational systems.",
+      "summary_kr": "필리핀과 한국 대학 간의 학술 교류 프로그램이 2026학년도에 역대 최고 등록률을 기록했습니다. 이는 양국 학생들 사이에서 다양한 문화와 교육 시스템을 경험하고자 하는 열망이 커지고 있음을 반영합니다.",
+      "image_seed": "news3-2026-04-19",
+      "image_query": "Korean Philippine students university campus",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Road Safety for Korean Drivers in PH",
+      "headline_kr": "주 필리핀 한국대사관, 한인 운전자 대상 도로 안전 권고 발표",
+      "summary_en": "The Korean Embassy in the Philippines has released an updated advisory emphasizing road safety protocols and local traffic regulations for Korean residents. The advisory includes tips for safe driving practices and emergency contacts, aiming to reduce traffic-related incidents.",
+      "summary_kr": "주 필리핀 한국대사관은 한인 거주자들을 위한 도로 안전 수칙 및 현지 교통 법규를 강조하는 업데이트된 권고를 발표했습니다. 이 권고는 안전 운전 요령과 비상 연락처를 포함하며 교통 관련 사고 감소를 목표로 합니다.",
+      "image_seed": "news4-2026-04-19",
+      "image_query": "Road safety sign Philippine street car",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합 효과를 만들어내는 것.",
+    "example_en": "The green technology alliance between the Philippines and Korea aims to create synergy for sustainable development.",
+    "example_kr": "필리핀과 한국의 녹색 기술 동맹은 지속 가능한 발전을 위한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

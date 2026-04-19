@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-19",
+    "vol": 13,
+    "cover_en": "PH-Korea Forge Green Tech Alliance, Boosting Sustainable Growth",
+    "cover_kr": "필리핀-한국, 녹색 기술 동맹 강화로 지속 가능한 성장 박차",
+    "headlines_en": [
+      "Enhanced Police Visibility Boosts Korean Community Safety in Metro Manila",
+      "Korean Investors Eye Philippine Startups in Fintech and AI Sectors",
+      "K-Food Festival in Quezon City Draws Record Crowds, Celebrates Culinary Ties",
+      "PH-Korea Student Exchange Program Sees Record Enrollment for 2026",
+      "Embassy Issues Advisory on Road Safety for Korean Drivers in PH"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 사회 안전 위해 경찰 가시성 강화",
+      "한국 투자자들, 핀테크 및 AI 부문 필리핀 스타트업 주목",
+      "퀘존 시티 K-푸드 축제, 기록적인 인파 속 한식 문화 교류",
+      "2026년 필리핀-한국 학생 교류 프로그램 역대 최고 등록률 기록",
+      "주 필리핀 한국대사관, 한인 운전자 대상 도로 안전 권고 발표"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Culture",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-04-18",
     "vol": 12,
     "cover_en": "Korea, PH Inaugurate Joint Digital Innovation Hub in Clark",
