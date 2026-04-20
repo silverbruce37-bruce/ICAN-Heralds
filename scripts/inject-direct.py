@@ -31,10 +31,10 @@ def img_url(prompt, w=400, h=200, seed=None):
     seed_source = str(seed) if seed is not None else clean
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
 
-    # Use model=flux for significantly higher quality than turbo
+    # Use model=turbo for fast, parallel loading (flux has strict IP limits)
     return (
         f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?width={w}&height={h}&seed={seed_num}&model=flux&nologo=true"
+        f"?width={w}&height={h}&seed={seed_num}&model=turbo&nologo=true"
     )
 
 
