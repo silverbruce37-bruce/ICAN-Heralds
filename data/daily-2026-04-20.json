@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-20",
+  "header_date_line": "MONDAY, APRIL 20, 2026 | PHILIPPINES | VOL. 14",
+  "dashboard": {
+    "php_krw_rate": "24.73",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Smart City Initiative, Boost Digital Economy",
+    "headline_kr": "한-필리핀 스마트 도시 이니셔티브 출범, 디지털 경제 활성화 기대",
+    "subtitle_en": "The two nations unveil a landmark project to integrate advanced urban technologies, aiming to create sustainable and efficient metropolitan areas and foster bilateral tech exchange.",
+    "subtitle_kr": "양국은 첨단 도시 기술 통합을 위한 획기적인 프로젝트를 공개하며, 지속 가능하고 효율적인 대도시 지역을 조성하고 양자 기술 교류를 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards future-proofing urban landscapes, the Philippines and South Korea officially launched the 'PH-Korea Smart City Initiative' on Monday. The collaborative project, spearheaded by the Philippine Department of Information and Communications Technology (DICT) and Korea's Ministry of Land, Infrastructure and Transport (MOLIT), aims to integrate cutting-edge digital solutions into key Philippine cities. Initial pilot programs are set to commence in Metro Manila and Cebu, focusing on smart transportation systems, intelligent energy grids, and advanced public safety networks.",
+      "This initiative is expected to generate substantial opportunities for Korean businesses specializing in ICT, urban planning, and green technology, while simultaneously enhancing the quality of life for residents, including the vibrant Korean expatriate community. By leveraging Korea's renowned expertise in smart city development and the Philippines' burgeoning digital landscape, the project seeks to foster a robust ecosystem for innovation, attracting further foreign investment and talent to the archipelago. It represents a shared vision for sustainable growth and technological advancement.",
+      "During the signing ceremony, officials emphasized the long-term commitment of both governments to the initiative, highlighting its potential to serve as a model for regional cooperation in Southeast Asia. Plans include knowledge transfer programs, joint research and development, and capacity building for local professionals. The success of these pilot projects is anticipated to pave the way for nationwide expansion, solidifying the Philippines' position as a key partner in Korea's global digital agenda and further strengthening the bilateral economic ties."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 도시 경관의 미래를 준비하는 중요한 발걸음으로, 필리핀과 대한민국은 월요일 '한-필리핀 스마트 도시 이니셔티브'를 공식 출범했습니다. 필리핀 정보통신기술부(DICT)와 한국 국토교통부(MOLIT)가 주도하는 이 협력 프로젝트는 필리핀 주요 도시에 최첨단 디지털 솔루션을 통합하는 것을 목표로 합니다. 초기 시범 프로그램은 메트로 마닐라와 세부에서 시작될 예정이며, 스마트 교통 시스템, 지능형 에너지 그리드 및 고급 공공 안전 네트워크에 중점을 둡니다.",
+      "이 이니셔티브는 ICT, 도시 계획 및 친환경 기술 분야의 한국 기업들에게 상당한 기회를 창출할 것으로 기대되며, 동시에 활기찬 한국 교민을 포함한 주민들의 삶의 질을 향상시킬 것입니다. 한국의 스마트 도시 개발에 대한 뛰어난 전문성과 필리핀의 급성장하는 디지털 환경을 활용함으로써, 이 프로젝트는 혁신을 위한 강력한 생태계를 조성하고, 필리핀 군도에 추가적인 외국인 투자와 인재를 유치하고자 합니다. 이는 지속 가능한 성장과 기술 발전에 대한 공동의 비전을 나타냅니다.",
+      "서명식에서 관계자들은 이 이니셔티브에 대한 양국 정부의 장기적인 약속을 강조하며, 동남아시아 지역 협력의 모델이 될 잠재력을 언급했습니다. 계획에는 지식 이전 프로그램, 공동 연구 개발 및 현지 전문가 역량 강화가 포함됩니다. 이러한 시범 프로젝트의 성공은 전국적인 확장을 위한 길을 열어, 필리핀을 한국의 글로벌 디지털 의제의 핵심 파트너로 확고히 하고 양자 경제 관계를 더욱 강화할 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-04-20",
+    "image_query": "Philippine Korean officials shaking hands signing digital smart city agreement",
+    "image_caption": "Photo: Philippine and Korean officials finalize the Smart City Initiative agreement (April 19, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Boosts Tourist Safety in Key Areas",
+    "headline_kr": "한-필리핀 합동 경찰 태스크포스, 주요 지역 관광객 안전 강화",
+    "lead_en": "A new joint task force comprising Philippine National Police (PNP) and Korean National Police Agency (KNPA) officers has been deployed in major tourist destinations and areas with high Korean expatriate populations. This initiative aims to enhance security measures, provide immediate assistance to Korean nationals, and deter crimes targeting foreign visitors, fostering a safer environment for all.",
+    "lead_kr": "필리핀 국립 경찰(PNP)과 한국 경찰청(KNPA) 요원으로 구성된 새로운 합동 태스크포스가 주요 관광지와 한국 교민 밀집 지역에 배치되었습니다. 이 이니셔티브는 보안 조치를 강화하고, 한국인들에게 즉각적인 지원을 제공하며, 외국인 방문객을 대상으로 하는 범죄를 억제하여 모두에게 더 안전한 환경을 조성하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-04-20",
+    "image_query": "Korean and Philippine police officers patrolling tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye ASEAN Market Expansion from PH Hub",
+      "headline_kr": "한국 스타트업들, 필리핀 거점 삼아 아세안 시장 확장 모색",
+      "summary_en": "A growing number of Korean tech startups are establishing offices in the Philippines, leveraging the country's strategic location and young, English-proficient workforce to penetrate the wider ASEAN market. This trend highlights the Philippines' emerging role as a regional innovation hub.",
+      "summary_kr": "점점 더 많은 한국 기술 스타트업들이 필리핀에 사무실을 설립하고 있으며, 필리핀의 전략적 위치와 젊고 영어에 능숙한 인력을 활용하여 더 넓은 아세안 시장에 진출하고 있습니다. 이러한 추세는 필리핀이 지역 혁신 허브로 부상하고 있음을 보여줍니다.",
+      "image_seed": "news1-2026-04-20",
+      "image_query": "Korean startup team meeting Manila office",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts K-Food Festival: A Taste of Korea's Culinary Heritage",
+      "headline_kr": "마닐라에서 K-푸드 페스티벌 개최: 한국 요리의 유산을 맛보다",
+      "summary_en": "The annual K-Food Festival kicked off this weekend in Manila, drawing thousands of Filipinos and Korean expatriates to sample traditional and modern Korean dishes. The event, featuring cooking demonstrations and cultural performances, aims to further bridge the culinary gap between the two nations.",
+      "summary_kr": "연례 K-푸드 페스티벌이 이번 주말 마닐라에서 시작되어 수천 명의 필리핀인과 한국 교민들이 전통 및 현대 한국 요리를 맛보기 위해 모였습니다. 요리 시연과 문화 공연이 특징인 이 행사는 양국 간의 요리 격차를 더욱 줄이는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-04-20",
+      "image_query": "Korean food festival street crowd enjoying dishes",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Aid for Philippines' Renewable Energy Projects",
+      "headline_kr": "한국, 필리핀 재생 에너지 프로젝트에 지원 약속",
+      "summary_en": "South Korea has committed significant development assistance to the Philippines to boost its renewable energy sector, focusing on solar and wind power initiatives. This collaboration underscores both nations' dedication to combating climate change and achieving energy independence.",
+      "summary_kr": "한국은 태양광 및 풍력 발전 이니셔티브에 중점을 두고 필리핀의 재생 에너지 부문을 활성화하기 위해 상당한 개발 지원을 약속했습니다. 이 협력은 기후 변화에 맞서 싸우고 에너지 자립을 달성하려는 양국의 헌신을 강조합니다.",
+      "image_seed": "news3-2026-04-20",
+      "image_query": "Solar panel farm Philippine landscape Korean engineers",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Seasonal Health Advisory Amid Rising Dengue Cases",
+      "headline_kr": "대사관, 뎅기열 환자 증가에 따라 계절성 건강 주의보 발령",
+      "summary_en": "The Korean Embassy in Manila has released a health advisory for its nationals, urging vigilance against dengue fever as the number of cases typically rises during the hot season. The advisory recommends preventative measures such as mosquito repellent use and ensuring clean surroundings.",
+      "summary_kr": "주필리핀 한국 대사관은 재외국민들에게 뎅기열에 대한 경계를 촉구하는 건강 주의보를 발표했습니다. 고온 건조한 계절에 뎅기열 환자 수가 증가하는 경향이 있기 때문입니다. 주의보는 모기 기피제 사용 및 주변 환경 청결 유지와 같은 예방 조치를 권장합니다.",
+      "image_seed": "news4-2026-04-20",
+      "image_query": "Mosquito warning sign clinic Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The smart city initiative aims to create synergy between technology and urban development.",
+    "example_kr": "스마트 도시 이니셔티브는 기술과 도시 개발 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

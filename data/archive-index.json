@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-20",
+    "vol": 14,
+    "cover_en": "PH-Korea Launch Smart City Initiative, Boost Digital Economy",
+    "cover_kr": "한-필리핀 스마트 도시 이니셔티브 출범, 디지털 경제 활성화 기대",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Boosts Tourist Safety in Key Areas",
+      "Korean Startups Eye ASEAN Market Expansion from PH Hub",
+      "Manila Hosts K-Food Festival: A Taste of Korea's Culinary Heritage",
+      "Korea Pledges Aid for Philippines' Renewable Energy Projects",
+      "Embassy Issues Seasonal Health Advisory Amid Rising Dengue Cases"
+    ],
+    "headlines_kr": [
+      "한-필리핀 합동 경찰 태스크포스, 주요 지역 관광객 안전 강화",
+      "한국 스타트업들, 필리핀 거점 삼아 아세안 시장 확장 모색",
+      "마닐라에서 K-푸드 페스티벌 개최: 한국 요리의 유산을 맛보다",
+      "한국, 필리핀 재생 에너지 프로젝트에 지원 약속",
+      "대사관, 뎅기열 환자 증가에 따라 계절성 건강 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Cooperation",
+      "Security",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-04-19",
     "vol": 13,
     "cover_en": "PH-Korea Forge Green Tech Alliance, Boosting Sustainable Growth",
