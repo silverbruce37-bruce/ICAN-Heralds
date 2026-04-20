@@ -51,6 +51,22 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Check academy freshness
+        if: steps.check.outputs.skip != 'true'
+        id: academy
+        run: |
+          TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
+          FIRST=$(head -1 js/academy-data.js 2>/dev/null || echo "")
+          if echo "$FIRST" | grep -q "${TODAY}"; then
+            echo "status=fresh" >> $GITHUB_OUTPUT
+            echo "✅ Academy data fresh for ${TODAY}"
+          else
+            STALE=$(echo "$FIRST" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1 || echo "unknown")
+            echo "status=stale" >> $GITHUB_OUTPUT
+            echo "stale_date=${STALE}" >> $GITHUB_OUTPUT
+            echo "⚠️ Academy stale — ${STALE} (expected ${TODAY})"
+          fi
+
       - name: Pre-warm image cache (Pollinations)
         if: steps.check.outputs.skip != 'true'
         run: bash scripts/prewarm-images.sh
@@ -93,6 +109,24 @@ jobs:
           TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
           VOL=$(cat data/volume.txt 2>/dev/null || echo "?")
           MSG="📰 iCAN Herald 발행 완료 — ${TODAY} VOL. $(printf '%02d' $VOL)%0Ahttps://ican-heralds.vercel.app/"
+          curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" -d "text=${MSG}" > /dev/null || true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Notify Telegram on academy stale
+        if: steps.check.outputs.skip != 'true' && steps.academy.outputs.status == 'stale' && success()
+        run: |
+          TODAY=$(TZ='Asia/Manila' date +%Y-%m-%d)
+          STALE="${{ steps.academy.outputs.stale_date }}"
+          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          MSG="📚 Academy 갱신 실패 — ${TODAY}%0A"
+          MSG="${MSG}학습 콘텐츠(academy-data.js)가 ${STALE}자 고정 상태%0A"
+          MSG="${MSG}(대개 Gemini 무료 티어 쿼터 초과)%0A%0A"
+          MSG="${MSG}🛠 수동 복구 — Mac 터미널에서:%0A"
+          MSG="${MSG}cd ~/Desktop/ICAN-Heralds %26%26 bash scripts/regen-academy.sh%0A%0A"
+          MSG="${MSG}ℹ️ Daily 기사는 정상 발행됨. LEARN 버튼만 5일 전 콘텐츠 표시 중.%0A${RUN_URL}"
           curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
             -d "chat_id=${TG_CHAT_ID}" -d "text=${MSG}" > /dev/null || true
         env:
