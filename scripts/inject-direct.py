@@ -24,11 +24,15 @@ def img_url(prompt, w=400, h=200, seed=None):
         prompt = "Philippine city scenery professional"
 
     clean = str(prompt).strip()
-    # Style: Professional news editorial photography for a premium news feel
-    styled = f"Award-winning professional news editorial photography, realistic, high resolution, journalism, Philippines: {clean}"
+    # Style: Premium modern 3D render / Matte painting style
+    # This avoids 'broken faces' while looking high-end and education-focused.
+    styled = (
+        f"Premium modern 3D render, minimalist architectural and tech aesthetic, "
+        f"cinematic soft lighting, clean shapes, high resolution, 4k concept art style: {clean}"
+    )
     encoded = urllib.parse.quote(styled[:250])
 
-    seed_source = str(seed) if seed is not None else clean
+    seed_source = (str(seed) if seed is not None else clean) + "v3"
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
 
     # Use model=turbo for fast, parallel loading (flux has strict IP limits)

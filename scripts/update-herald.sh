@@ -133,8 +133,8 @@ RULES:
 - Cover story = biggest impact story for Korean community
 - tag_class must be: tag-security, tag-economy, tag-culture, tag-diplomacy, or tag-safety
 - 3 substantial paragraphs per language for cover body
-- Word of the day connects to cover story theme
-- image_query must be a specific visual prompt for generator, not just a title
+- word_of_day connects to cover story theme
+- image_query: 3-8 word visual concept for a premium 3D render. Focus on objects, buildings, or metaphorical scenes rather than close-up human faces. (e.g. 'Skyscraper in Manila with digital connectivity lines')
 - Korean text must be natural, not machine-translated
 - Return ONLY valid JSON
 " > "$DAILY_FILE"
