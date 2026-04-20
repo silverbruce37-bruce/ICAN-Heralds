@@ -93,6 +93,7 @@ Return ONLY valid JSON (no markdown fences) with this EXACT structure:
     \"body_en\": [\"Paragraph 1 (substantial)\", \"Paragraph 2\", \"Paragraph 3\"],
     \"body_kr\": [\"단락 1\", \"단락 2\", \"단락 3\"],
     \"image_seed\": \"cover-${DATE}\",
+    \"image_query\": \"Visual description for AI image generation (e.g., 'A ship in Manila port at sunset')\",
     \"image_caption\": \"Photo: description (date)\",
     \"author\": \"By ICAN Herald Editorial\",
     \"read_time_min\": 5
@@ -105,14 +106,15 @@ Return ONLY valid JSON (no markdown fences) with this EXACT structure:
     \"lead_en\": \"2-3 sentence lead\",
     \"lead_kr\": \"리드\",
     \"image_seed\": \"feat-${DATE}\",
+    \"image_query\": \"Visual description for AI image generation\",
     \"desk\": \"Diplomacy Desk\",
     \"read_time_min\": 4
   },
   \"news_grid\": [
-    {\"tag\": \"Economy\", \"tag_class\": \"tag-economy\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news1-${DATE}\", \"read_time_min\": 2},
-    {\"tag\": \"Safety\", \"tag_class\": \"tag-safety\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news2-${DATE}\", \"read_time_min\": 2},
-    {\"tag\": \"Culture\", \"tag_class\": \"tag-culture\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news3-${DATE}\", \"read_time_min\": 2},
-    {\"tag\": \"Security\", \"tag_class\": \"tag-security\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news4-${DATE}\", \"read_time_min\": 2}
+    {\"tag\": \"Economy\", \"tag_class\": \"tag-economy\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news1-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
+    {\"tag\": \"Safety\", \"tag_class\": \"tag-safety\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news2-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
+    {\"tag\": \"Culture\", \"tag_class\": \"tag-culture\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news3-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
+    {\"tag\": \"Security\", \"tag_class\": \"tag-security\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news4-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2}
   ],
   \"word_of_day\": {
     \"word\": \"English Word\",
@@ -132,6 +134,7 @@ RULES:
 - tag_class must be: tag-security, tag-economy, tag-culture, tag-diplomacy, or tag-safety
 - 3 substantial paragraphs per language for cover body
 - Word of the day connects to cover story theme
+- image_query must be a specific visual prompt for generator, not just a title
 - Korean text must be natural, not machine-translated
 - Return ONLY valid JSON
 " > "$DAILY_FILE"

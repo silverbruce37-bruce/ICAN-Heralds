@@ -1,0 +1,536 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What is an AI Research Hub?",
+        "title_kr": "AI 연구 허브란 무엇인가요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "An <span class=\"kw\">AI Research Hub</span> is a special center where scientists and engineers from different companies work together to create new artificial intelligence technology. Three major Korean companies—<span class=\"kw\">Samsung, LG, and SK Innovation</span>—built this hub in Manila to develop new ideas faster. Think of it like a super-lab where the smartest people come to solve hard problems together instead of competing separately.",
+        "text_kr": "<span class=\"kw\">AI 연구 허브</span>는 여러 회사의 과학자와 엔지니어들이 함께 새로운 인공지능 기술을 개발하는 특별한 센터입니다. 삼성, LG, SK이노베이션 같은 큰 한국 회사들이 마닐라에 이 허브를 만들었어요. 각각 경쟁하는 대신 똑똑한 사람들이 한 곳에 모여 어려운 문제를 함께 푸는 슈퍼 연구실이라고 생각하면 됩니다.",
+        "bilingual_en": "When big companies work together on research, they can create better technology faster.",
+        "bilingual_kr": "큰 회사들이 연구에서 협력하면 더 빨리 더 나은 기술을 만들 수 있습니다.",
+        "vocab": [
+          {"en": "research hub", "kr": "연구 허브"},
+          {"en": "artificial intelligence (AI)", "kr": "인공지능"},
+          {"en": "joint venture", "kr": "합작사업"},
+          {"en": "innovation", "kr": "혁신"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why Korea is Building Tech Hubs in Southeast Asia",
+        "title_kr": "한국이 동남아에 기술 허브를 짓는 이유",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Korea is <span class=\"kw\">investing heavily in Southeast Asia</span> because the region is growing fast and has lots of talented young workers. The Philippines is especially important because it has millions of English speakers and a young population that's interested in technology jobs. By building this hub in Manila, Korean companies can <span class=\"kw\">tap into local talent</span> and also be closer to other ASEAN markets like Thailand, Vietnam, and Indonesia. The hub will create <span class=\"kw\">500 new jobs</span> for both Filipino and Korean engineers.",
+        "text_kr": "한국은 <span class=\"kw\">동남아에 대규모 투자</span>를 하고 있는데, 이 지역은 빠르게 성장하고 재능 있는 젊은 노동자들이 많기 때문입니다. 필리핀은 특히 중요한데 영어를 잘하는 사람들이 수백만 명이고 기술 일에 관심 있는 젊은이들이 많거든요. 마닐라에 이 허브를 지음으로써 한국 회사들은 <span class=\"kw\">현지 인재를 활용</span>하고 태국, 베트남, 인도네시아 같은 다른 ASEAN 시장에도 더 가까워질 수 있습니다. 이 허브는 필리핀과 한국 엔지니어들을 위해 <span class=\"kw\">500개의 새로운 일자리</span>를 만들 것입니다.",
+        "bilingual_en": "Southeast Asia is an attractive market because it has young, educated workers and strong economic growth.",
+        "bilingual_kr": "동남아는 젊고 교육받은 노동자들과 강한 경제 성장 때문에 매력적인 시장입니다.",
+        "vocab": [
+          {"en": "talent pool", "kr": "인재 집단"},
+          {"en": "Southeast Asia (ASEAN)", "kr": "동남아 (아세안)"},
+          {"en": "market opportunity", "kr": "시장 기회"},
+          {"en": "manufacturing", "kr": "제조업"}
+        ],
+        "quiz": {
+          "q_en": "Why did Korean companies choose the Philippines for their AI Research Hub?",
+          "q_kr": "왜 한국 회사들이 필리핀을 AI 연구 허브로 선택했나요?",
+          "opts": [
+            {
+              "en": "It has the cheapest real estate in Asia",
+              "kr": "아시아에서 가장 저렴한 부동산이 있어서",
+              "correct": false
+            },
+            {
+              "en": "It has many English speakers, young workers interested in tech, and is a gateway to ASEAN markets",
+              "kr": "영어 사용자가 많고, 기술에 관심 있는 젊은 노동자들이 많으며, ASEAN 시장으로의 관문이기 때문",
+              "correct": true
+            },
+            {
+              "en": "It's required by the Philippine government for all foreign companies",
+              "kr": "필리핀 정부가 모든 외국 회사에 요구하기 때문",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "How This Hub Changes Opportunities for Koreans in the Philippines",
+        "title_kr": "이 허브가 필리핀 내 한인들의 기회를 어떻게 바꾸는가",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Koreans living in the Philippines, this AI hub creates <span class=\"kw\">direct career opportunities</span> in cutting-edge technology without having to move back to Korea. Korean engineers can lead projects in Manila and build stronger professional networks across Asia. The hub also strengthens Korea-Philippines <span class=\"kw\">business relationships</span>, which means more Korean companies may invest in the country, leading to more schools, restaurants, and services for the Korean community. Additionally, Filipino workers trained at the hub become <span class=\"kw\">Korean-tech specialists</span>, creating bridges between the two cultures in the tech industry.",
+        "text_kr": "필리핀에 사는 한인들에게 이 AI 허브는 한국으로 돌아가지 않고도 <span class=\"kw\">최첨단 기술 분야의 직업</span>을 제공합니다. 한국 엔지니어들은 마닐라에서 프로젝트를 주도하고 아시아 전역의 더 강한 전문 네트워크를 만들 수 있어요. 이 허브는 또한 한국-필리핀 <span class=\"kw\">사업 관계</span>를 강화해서 더 많은 한국 회사들이 필리핀에 투자하게 될 가능성이 높아집니다. 이는 한인 커뮤니티를 위한 더 많은 학교, 식당, 서비스를 의미합니다. 추가로, 허브에서 훈련받은 필리핀 노동자들은 <span class=\"kw\">한국 기술 전문가</span>가 되어 두 문화 사이의 다리 역할을 합니다.",
+        "bilingual_en": "This investment shows that Korea sees the Philippines as a key part of its Asian technology future.",
+        "bilingual_kr": "이 투자는 한국이 필리핀을 자신의 아시아 기술 미래의 핵심 부분으로 본다는 것을 보여줍니다.",
+        "vocab": [
+          {"en": "career advancement", "kr": "경력 발전"},
+          {"en": "professional network", "kr": "전문 네트워크"},
+          {"en": "bilateral cooperation", "kr": "양국 협력"},
+          {"en": "technology specialist", "kr": "기술 전문가"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What types of AI technology will the Manila hub focus on developing?",
+      "How will Korean and Filipino workers collaborate in this research hub?",
+      "Could this hub eventually create an international tech community in the Philippines?"
+    ],
+    "suggestions_kr": [
+      "마닐라 허브는 어떤 종류의 AI 기술 개발에 초점을 맞출까요?",
+      "한국 및 필리핀 노동자들은 이 연구 허브에서 어떻게 협력할까요?",
+      "이 허브가 결국 필리핀에 국제적인 기술 커뮤니티를 만들 수 있을까요?"
+    ]
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What is a Scam Network?",
+        "title_kr": "사기 네트워크란 무엇인가요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=\"kw\">scam network</span> is an organized group of criminals who work together to trick people out of money or personal information. The new scam network targeting <span class=\"kw\">expatriates</span> (people living abroad) in the Philippines uses tricks like fake job offers, fake investment opportunities, or romantic schemes to fool people. <span class=\"kw\">Expatriates</span> are often targets because they may be unfamiliar with local warning signs and may have access to more money.",
+        "text_kr": "<span class=\"kw\">사기 네트워크</span>는 사람들을 속여서 돈이나 개인 정보를 훔치기 위해 함께 일하는 범죄자 조직입니다. 필리핀에서 <span class=\"kw\">해외 거주자</span>(외국에서 사는 사람들)를 대상으로 하는 새로운 사기 네트워크는 가짜 구직 제안, 가짜 투자 기회, 연애 사기 같은 속임수를 사용합니다. <span class=\"kw\">해외 거주자</span>들이 자주 대상이 되는 이유는 현지 경고 신호에 익숙하지 않을 수 있고 더 많은 돈에 접근할 수 있기 때문입니다.",
+        "bilingual_en": "Scammers target people who are unfamiliar with their surroundings and may let their guard down.",
+        "bilingual_kr": "사기꾼들은 주변 환경에 익숙하지 않은 사람들을 대상으로 경계심을 낮춥니다.",
+        "vocab": [
+          {"en": "scam", "kr": "사기"},
+          {"en": "expatriate", "kr": "해외 거주자"},
+          {"en": "fraud", "kr": "부정 행위"},
+          {"en": "cybercrime", "kr": "사이버 범죄"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "How Scammers Target Expatriates in the Philippines",
+        "title_kr": "사기꾼들이 필리핀의 해외 거주자들을 어떻게 노리는가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Expatriates in the Philippines, including many <span class=\"kw\">Korean residents</span>, are attractive targets because they often have regular income, may be <span class=\"kw\">less familiar with local scam tactics</span>, and may send money to family back home regularly. Scammers use <span class=\"kw\">social media and dating apps</span> to build relationships, then ask for money under false pretenses. They might impersonate successful businesspeople, military personnel, or professionals working overseas. The Korean community is specifically targeted because scammers know Koreans often trust people who speak Korean or claim to understand Korean culture.",
+        "text_kr": "필리핀의 해외 거주자들, 특히 많은 <span class=\"kw\">한국 거주자</span>들은 정기적인 수입이 있고, <span class=\"kw\">현지 사기 수법에 덜 익숙</span>할 수 있으며, 집에 있는 가족에게 정기적으로 돈을 보낼 수 있기 때문에 매력적인 대상입니다. 사기꾼들은 <span class=\"kw\">소셜 미디어와 데이팅 앱</span>을 사용해서 관계를 만든 후 거짓 구실로 돈을 요청합니다. 그들은 성공한 사업가, 군인, 해외에서 일하는 전문가로 사칭할 수 있어요. 한인 커뮤니티는 특히 대상이 되는데 사기꾼들은 한국인들이 한국말을 하거나 한국 문화를 이해한다고 주장하는 사람들을 종종 믿는다는 것을 알고 있기 때문입니다.",
+        "bilingual_en": "Be cautious of people online who claim to have Korean connections or speak perfect Korean — many scammers memorize common phrases.",
+        "bilingual_kr": "한국 인맥이 있거나 한국말을 잘한다고 주장하는 온라인의 사람들을 조심하세요. 많은 사기꾼들이 흔한 표현들을 외웁니다.",
+        "vocab": [
+          {"en": "romance scam", "kr": "연애 사기"},
+          {"en": "social media", "kr": "소셜 미디어"},
+          {"en": "impersonate", "kr": "사칭하다"},
+          {"en": "money transfer", "kr": "송금"}
+        ],
+        "quiz": {
+          "q_en": "Why are Korean expatriates in the Philippines at higher risk for scams?",
+          "q_kr": "왜 필리핀의 한국 해외 거주자들이 사기에 더 높은 위험에 처해 있을까요?",
+          "opts": [
+            {
+              "en": "Because they all use social media",
+              "kr": "모두 소셜 미디어를 사용하기 때문에",
+              "correct": false
+            },
+            {
+              "en": "They often have regular income, may be unfamiliar with local scam tactics, and scammers know they trust Korean speakers",
+              "kr": "정기적인 수입이 있고, 현지 사기 수법에 덜 익숙하며, 사기꾼들은 그들이 한국말 사용자를 믿는다는 것을 알고 있기 때문",
+              "correct": true
+            },
+            {
+              "en": "Because all Koreans are wealthy",
+              "kr": "모든 한국인이 부자이기 때문에",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Protecting Yourself: Safety Tips for the Korean Community",
+        "title_kr": "자신을 보호하기: 한인 커뮤니티를 위한 안전 팁",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "The Korean community alert is a <span class=\"kw\">protective warning</span> from community leaders to help residents recognize and avoid scams. Key safety practices include: never send money to people you've only met online, be skeptical of requests for financial information or personal documents, and <span class=\"kw\">verify identities through official channels</span> before trusting someone. Korean community centers and churches often share scam awareness information, so staying connected to these networks is important. If you experience a scam, report it to both <span class=\"kw\">local Philippine authorities</span> and Korean embassy services, as scams often involve international money transfers.",
+        "text_kr": "한인 커뮤니티 경보는 거주자들이 사기를 인식하고 피하도록 돕기 위한 커뮤니티 지도자들의 <span class=\"kw\">보호 경고</span>입니다. 주요 안전 관행은 온라인에서만 만난 사람에게 돈을 절대 보내지 않기, 재정 정보나 개인 문서 요청에 회의적이기, 누군가를 믿기 전에 <span class=\"kw\">공식 채널을 통해 신원 확인하기</span>입니다. 한인 커뮤니티 센터와 교회는 종종 사기 인식 정보를 공유하므로 이런 네트워크와 연결된 상태를 유지하는 것이 중요해요. 사기를 경험하면 <span class=\"kw\">필리핀 현지 당국</span>과 한국 대사관 서비스 모두에 신고하세요. 사기는 종종 국제 송금을 포함하기 때문입니다.",
+        "bilingual_en": "Your community and embassy are resources — don't hesitate to contact them if something feels wrong.",
+        "bilingual_kr": "당신의 커뮤니티와 대사관은 자원입니다. 뭔가 이상하면 주저하지 말고 연락하세요.",
+        "vocab": [
+          {"en": "verify identity", "kr": "신원 확인"},
+          {"en": "official channel", "kr": "공식 채널"},
+          {"en": "embassy", "kr": "대사관"},
+          {"en": "awareness campaign", "kr": "인식 캠페인"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What are the most common types of online scams targeting expatriates in Southeast Asia?",
+      "How can the Korean community work together to share information about scams?",
+      "What should someone do immediately after realizing they've been scammed?"
+    ],
+    "suggestions_kr": [
+      "동남아의 해외 거주자들을 대상으로 하는 가장 흔한 온라인 사기 유형은 무엇입니까?",
+      "한인 커뮤니티는 사기에 대한 정보를 공유하기 위해 어떻게 함께 일할 수 있을까요?",
+      "사기를 당했다는 것을 깨달은 후 누군가가 즉시 무엇을 해야 할까요?"
+    ]
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What Does Economic Growth Mean?",
+        "title_kr": "경제 성장이 무엇을 의미할까요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "<span class=\"kw\">Economic growth</span> means a country is producing more goods and services and making more money each year. When ASEAN countries grow at <span class=\"kw\">5.2%</span>, it means their total economy is 5.2% larger than it was the year before. This is a strong number because it creates more jobs, allows businesses to expand, and gives governments more money to spend on schools and hospitals. The first quarter of 2026 was especially successful for ASEAN because countries traded more with each other and received investments from Korea and other nations.",
+        "text_kr": "<span class=\"kw\">경제 성장</span>은 한 국가가 매년 더 많은 상품과 서비스를 생산하고 더 많은 돈을 버는 것을 의미합니다. ASEAN 국가들이 <span class=\"kw\">5.2%</span> 성장할 때, 그것은 그들의 총 경제가 작년보다 5.2% 더 크다는 의미예요. 이것은 더 많은 일자리를 만들고, 사업을 확장할 수 있게 해주며, 정부가 학교와 병원에 더 많은 돈을 쓸 수 있게 해주기 때문에 강한 수치입니다. 2026년 1분기는 ASEAN에 특히 성공적이었는데 국가들이 서로 더 많이 거래했고 한국과 다른 국가들로부터 투자를 받았기 때문입니다.",
+        "bilingual_en": "When an economy grows, more people get jobs and have opportunities to improve their lives.",
+        "bilingual_kr": "경제가 성장하면 더 많은 사람들이 일자리를 얻고 삶을 개선할 기회를 가집니다.",
+        "vocab": [
+          {"en": "economic growth", "kr": "경제 성장"},
+          {"en": "gross domestic product (GDP)", "kr": "국내총생산"},
+          {"en": "trade", "kr": "무역"},
+          {"en": "investment", "kr": "투자"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why is Intra-ASEAN Trade So Important?",
+        "title_kr": "ASEAN 내 무역이 왜 그렇게 중요할까요?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "<span class=\"kw\">Intra-ASEAN trade</span> means countries within the region trade with each other rather than only buying from distant places. This is beneficial because <span class=\"kw\">goods travel shorter distances</span>, making them cheaper and faster to deliver. When Thailand buys electronics from South Korea (one of ASEAN's major partners), or when Vietnam sells rice to Indonesia, money stays within the region. Korea is the <span class=\"kw\">third-largest foreign investor</span> in ASEAN, meaning Korean companies have factories and businesses throughout the region. This creates a <span class=\"kw\">regional supply chain</span> where different countries specialize in different products and sell to each other.",
+        "text_kr": "<span class=\"kw\">ASEAN 내 무역</span>은 지역 내 국가들이 먼 곳에서만 사는 것이 아니라 서로 거래한다는 의미입니다. 이것은 <span class=\"kw\">상품이 더 짧은 거리를 이동</span>하기 때문에 배송이 더 저렴하고 빠르기 때문에 유리합니다. 태국이 한국에서 전자제품을 사거나 베트남이 인도네시아에 쌀을 팔 때 돈이 지역 내에 머물러요. 한국은 ASEAN의 <span class=\"kw\">세 번째로 큰 외국 투자자</span>인데, 이는 한국 회사들이 지역 전역에 공장과 사업을 가지고 있다는 의미입니다. 이것은 다양한 국가들이 다양한 제품을 전문화하고 서로에게 판매하는 <span class=\"kw\">지역 공급망</span>을 만듭니다.",
+        "bilingual_en": "When countries in the same region trade with each other, everyone benefits from lower costs and better opportunities.",
+        "bilingual_kr": "같은 지역의 국가들이 서로 거래할 때 모두가 낮은 비용과 더 나은 기회의 이점을 얻습니다.",
+        "vocab": [
+          {"en": "intra-regional trade", "kr": "지역 내 무역"},
+          {"en": "supply chain", "kr": "공급망"},
+          {"en": "foreign investor", "kr": "외국 투자자"},
+          {"en": "manufacturing", "kr": "제조업"}
+        ],
+        "quiz": {
+          "q_en": "Why is it better for ASEAN countries to trade with each other?",
+          "q_kr": "ASEAN 국가들이 서로 거래하는 것이 더 좋은 이유는 무엇입니까?",
+          "opts": [
+            {
+              "en": "Because it reduces shipping costs and keeps money within the region",
+              "kr": "운송 비용을 줄이고 돈이 지역 내에 머물기 때문",
+              "correct": true
+            },
+            {
+              "en": "Because ASEAN countries are not allowed to trade with other continents",
+              "kr": "ASEAN 국가들이 다른 대륙과 거래할 수 없기 때문",
+              "correct": false
+            },
+            {
+              "en": "Because it creates more taxes for governments",
+              "kr": "정부에 더 많은 세금을 만들기 때문",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "What This Growth Means for Korean Families in the Philippines",
+        "title_kr": "이 성장이 필리핀 한국인 가족들에게 의미하는 것",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Strong economic growth across ASEAN benefits Korean families living in the region because more Korean businesses open factories, offices, and service centers here. When the Philippines' economy grows at 5.2%, it means more <span class=\"kw\">Filipino consumers have money to spend</span>, which creates opportunities for Korean restaurants, shops, educational services, and entertainment businesses. Additionally, Korean companies invest more in infrastructure and local hiring, meaning more <span class=\"kw\">Korean-Filipino job opportunities</span>. For Korean students, economic growth means more scholarship opportunities and internship positions at growing Korean companies. The region becomes more prosperous and interconnected, making it an increasingly attractive place for Korean families to live long-term.",
+        "text_kr": "ASEAN 전역의 강한 경제 성장은 이 지역에 사는 한국 가족들에게 유리합니다. 더 많은 한국 회사들이 공장, 사무실, 서비스 센터를 여기에 개설하기 때문입니다. 필리핀의 경제가 5.2%로 성장한다는 것은 더 많은 <span class=\"kw\">필리핀 소비자들이 쓸 돈을 가지고 있다</span>는 의미인데, 이는 한국 식당, 상점, 교육 서비스, 엔터테인먼트 사업의 기회를 만듭니다. 추가로, 한국 회사들은 인프라와 현지 고용에 더 많이 투자하므로 더 많은 <span class=\"kw\">한국-필리핀 직업 기회</span>가 생깁니다. 한국 학생들의 경우 경제 성장은 더 많은 장학금 기회와 성장하는 한국 회사에서의 인턴십 기회를 의미합니다. 지역은 더욱 번영하고 상호 연결되어 한국 가족들이 장기간 살기에 점점 더 매력적인 장소가 됩니다.",
+        "bilingual_en": "Economic growth in the region creates more job opportunities and better services for Korean communities.",
+        "bilingual_kr": "지역의 경제 성장은 한인 커뮤니티를 위해 더 많은 일자리 기회와 더 나은 서비스를 만듭니다.",
+        "vocab": [
+          {"en": "consumer spending", "kr": "소비자 지출"},
+          {"en": "job creation", "kr": "일자리 창출"},
+          {"en": "infrastructure", "kr": "기반시설"},
+          {"en": "scholarship", "kr": "장학금"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "How does Korean manufacturing investment in ASEAN affect the Philippines' 5.2% growth rate?",
+      "What products do ASEAN countries typically trade with each other?",
+      "Could stronger intra-ASEAN trade reduce the region's dependence on trade with distant countries?"
+    ],
+    "suggestions_kr": [
+      "ASEAN에서의 한국 제조업 투자가 필리핀의 5.2% 성장률에 어떻게 영향을 미칩니까?",
+      "ASEAN 국가들은 일반적으로 서로 어떤 제품을 거래합니까?",
+      "더 강한 ASEAN 내 무역이 지역의 먼 국가와의 무역 의존도를 줄일 수 있을까요?"
+    ]
+  },
+  "news_2": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What is the K-Drama Festival?",
+        "title_kr": "K-드라마 페스티벌이란 무엇인가요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=\"kw\">K-Drama Festival</span> is a celebration of Korean television dramas where fans gather to watch episodes, meet cast members, buy merchandise, and enjoy Korean culture. The festival in <span class=\"kw\">BGC (Bonifacio Global City) in Manila</span> brought together 50,000 fans over three days who love shows like \"Descendants of the Sun,\" \"Crash Landing on You,\" and other popular Korean dramas. <span class=\"kw\">K-Drama</span> refers to Korean television series that tell compelling stories about love, family, mystery, and adventure. Fans wear special outfits, participate in games, and celebrate their favorite shows together.",
+        "text_kr": "<span class=\"kw\">K-드라마 페스티벌</span>은 팬들이 모여 에피소드를 보고, 배우를 만나고, 기념품을 사고, 한국 문화를 즐기는 한국 텔레비전 드라마의 축제입니다. <span class=\"kw\">마닐라의 BGC (보니파시오 글로벌 시티)</span>에 있는 페스티벌은 3일 동안 \"태양의 후예,\" \"사랑의 불시착\" 같은 인기 한국 드라마를 좋아하는 5만 명의 팬들을 모았습니다. <span class=\"kw\">K-드라마</span>는 사랑, 가족, 미스터리, 모험에 대한 이야기를 들려주는 한국 텔레비전 시리즈를 말합니다. 팬들은 특별한 옷을 입고, 게임에 참여하며, 자신이 좋아하는 드라마를 함께 축하합니다.",
+        "bilingual_en": "Korean dramas have become a global phenomenon because they tell universal stories that audiences worldwide can relate to.",
+        "bilingual_kr": "한국 드라마는 전 세계 관객들이 공감할 수 있는 보편적인 이야기를 전하기 때문에 전 세계적 현상이 되었습니다.",
+        "vocab": [
+          {"en": "K-Drama", "kr": "K-드라마"},
+          {"en": "fan meetup", "kr": "팬 만남"},
+          {"en": "merchandise", "kr": "상품"},
+          {"en": "exhibition", "kr": "전시회"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why Korean Dramas are Popular in the Philippines",
+        "title_kr": "한국 드라마가 필리핀에서 인기 있는 이유",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Korean dramas are incredibly popular in the Philippines because they feature <span class=\"kw\">high production quality, compelling storytelling, and relatable emotions</span>. Filipino audiences connect with K-Dramas because they often explore themes like family loyalty, romantic relationships, and overcoming adversity—values shared across both cultures. The <span class=\"kw\">K-Drama phenomenon</span> is part of the broader <span class=\"kw\">Korean Wave (Hallyu)</span>, which includes K-pop, K-beauty, and Korean cuisine. The BGC festival drew a record 50,000 fans and generated significant merchandise sales, proving that Filipino audiences are passionate consumers of Korean entertainment. This cultural exchange has also led to more <span class=\"kw\">Korean language learning</span> among Filipino youth interested in understanding dramas and connecting with Korean culture.",
+        "text_kr": "한국 드라마는 필리핀에서 매우 인기가 있습니다. <span class=\"kw\">높은 제작 품질, 매력적인 스토리텔링, 공감 가능한 감정</span>을 특징으로 하기 때문입니다. 필리핀 관객들은 K-드라마와 연결되는데 종종 가족 충성심, 로맨틱한 관계, 역경 극복 같은 테마를 탐색하기 때문입니다. 이는 두 문화 모두 공유하는 가치들입니다. <span class=\"kw\">K-드라마 현상</span>은 K-팝, K-뷰티, 한국 요리를 포함하는 더 광범위한 <span class=\"kw\">한류(Hallyu)</span>의 일부입니다. BGC 페스티벌은 기록적인 5만 명의 팬을 끌어들였고 상당한 상품 판매를 생성했는데, 이는 필리핀 관객들이 한국 엔터테인먼트의 열정적인 소비자라는 것을 증명합니다. 이 문화 교류는 또한 드라마를 이해하고 한국 문화와 연결되고 싶어 하는 필리핀 청년들 사이에서 더 많은 <span class=\"kw\">한국어 학습</span>으로 이어졌습니다.",
+        "bilingual_en": "The popularity of K-Dramas shows how entertainment can bridge cultures and create meaningful connections between countries.",
+        "bilingual_kr": "K-드라마의 인기는 엔터테인먼트가 어떻게 문화의 다리가 될 수 있고 국가 간에 의미 있는 연결을 만들 수 있는지를 보여줍니다.",
+        "vocab": [
+          {"en": "Korean Wave (Hallyu)", "kr": "한류"},
+          {"en": "production quality", "kr": "제작 품질"},
+          {"en": "cultural exchange", "kr": "문화 교류"},
+          {"en": "fan engagement", "kr": "팬 참여"}
+        ],
+        "quiz": {
+          "q_en": "Why do Filipino audiences connect with Korean dramas?",
+          "q_kr": "왜 필리핀 관객들이 한국 드라마와 연결되나요?",
+          "opts": [
+            {
+              "en": "Because they are subtitled in Tagalog",
+              "kr": "타갈로그어 자막이 있기 때문에",
+              "correct": false
+            },
+            {
+              "en": "Because they explore themes like family loyalty and overcoming adversity that both cultures value",
+              "kr": "가족 충성심과 역경 극복 같은 두 문화 모두가 가치 있게 여기는 테마를 탐색하기 때문",
+              "correct": true
+            },
+            {
+              "en": "Because Filipinos are required to watch them by their government",
+              "kr": "필리핀인들이 정부에 의해 그들을 보도록 요구받기 때문",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "K-Drama Festivals as Cultural Bridges for the Korean Community",
+        "title_kr": "한인 커뮤니티를 위한 문화적 다리로서의 K-드라마 페스티벌",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korean families living in the Philippines, K-Drama festivals serve as a <span class=\"kw\">cultural meeting point</span> where they can share their heritage with Filipino friends and celebrate Korean entertainment together. These events create opportunities for <span class=\"kw\">intergenerational bonding</span>—Korean parents can enjoy dramas alongside their Filipino classmates' families. The festival also demonstrates how <span class=\"kw\">Korean soft power</span> (cultural influence through entertainment) strengthens people-to-people relationships between Korea and the Philippines. Korean entrepreneurs benefit from festival attendance, opening restaurants, cafes, and shops to serve the growing demand for Korean culture. For Filipino students learning Korean language and culture, the festival is a <span class=\"kw\">motivational touchpoint</span> that reinforces their interest in Korean studies and career aspirations.",
+        "text_kr": "필리핀에 사는 한국 가족들에게 K-드라마 페스티벌은 한국 문화유산을 필리핀 친구들과 공유하고 한국 엔터테인먼트를 함께 축하할 수 있는 <span class=\"kw\">문화적 만남의 장</span>입니다. 이 행사들은 <span class=\"kw\">세대 간 유대</span>의 기회를 만듭니다. 한국 부모들이 필리핀 반 친구들의 가족들과 함께 드라마를 즐길 수 있어요. 페스티벌은 또한 <span class=\"kw\">한국 소프트 파워</span>(엔터테인먼트를 통한 문화적 영향)가 한국과 필리핀 간의 민간 관계를 어떻게 강화하는지를 보여줍니다. 한국 기업가들은 페스티벌 참석으로 이점을 얻어 한국 문화에 대한 증가하는 수요를 충족시키기 위해 식당, 카페, 상점을 엽니다. 한국 언어와 문화를 배우는 필리핀 학생들에게 페스티벌은 한국 연구와 경력 포부에 대한 관심을 강화하는 <span class=\"kw\">동기부여 접점</span>입니다.",
+        "bilingual_en": "When entertainment brings communities together, it creates lasting friendships and deeper cultural understanding.",
+        "bilingual_kr": "엔터테인먼트가 커뮤니티를 하나로 모을 때 지속되는 우정과 더 깊은 문화적 이해를 만듭니다.",
+        "vocab": [
+          {"en": "soft power", "kr": "소프트 파워"},
+          {"en": "cultural heritage", "kr": "문화유산"},
+          {"en": "intergenerational", "kr": "세대 간"},
+          {"en": "cultural ambassador", "kr": "문화 대사"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "How has the rise of Korean drama streaming services changed where and how fans watch K-Dramas?",
+      "What elements of K-Dramas make them more appealing to international audiences compared to other countries' television shows?",
+      "Could K-Drama popularity lead to more Korean language programs in Philippine schools?"
+    ],
+    "suggestions_kr": [
+      "한국 드라마 스트리밍 서비스의 증가가 팬들이 K-드라마를 보는 위치와 방식을 어떻게 변경했습니까?",
+      "K-드라마의 어떤 요소들이 다른 나라의 텔레비전 프로그램에 비해 국제 관객들에게 더 매력적인가요?",
+      "K-드라마의 인기가 필리핀 학교에서 더 많은 한국어 프로그램으로 이어질 수 있을까요?"
+    ]
+  },
+  "news_3": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What is a Bilateral Scholarship Program?",
+        "title_kr": "양국 장학금 프로그램이란 무엇인가요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=\"kw\">bilateral scholarship program</span> is an educational agreement between two countries where one country gives money to students from the other country to help them study. The Korea-Philippines scholarship program now offers <span class=\"kw\">500 slots</span> (spots) for Filipino students to study in Korea or Korean universities, focusing on <span class=\"kw\">STEM</span> (Science, Technology, Engineering, Math) and business degrees. This program is <span class=\"kw\">funded by the Korean government</span> and shows that Korea wants to invest in Filipino students' futures. Students who receive these scholarships get their education paid for and return home with advanced skills that benefit the Philippines.",
+        "text_kr": "<span class=\"kw\">양국 장학금 프로그램</span>은 한 나라가 다른 나라의 학생들이 공부하도록 돕기 위해 돈을 제공하는 두 국가 간의 교육 협정입니다. 한국-필리핀 장학금 프로그램은 이제 필리핀 학생들이 한국이나 한국 대학에서 공부할 수 있도록 <span class=\"kw\">500개 자리</span>를 제공하며, <span class=\"kw\">STEM</span>(과학, 기술, 공학, 수학)과 비즈니스 학위에 초점을 맞춥니다. 이 프로그램은 <span class=\"kw\">한국 정부가 자금을 제공</span>하며 한국이 필리핀 학생들의 미래에 투자하고 싶다는 것을 보여줍니다. 이 장학금을 받은 학생들은 교육 비용이 지불되고 필리핀에 이득이 되는 고급 기술을 가지고 집에 돌아옵니다.",
+        "bilingual_en": "When countries invest in each other's students, they build stronger relationships and create future leaders who understand both cultures.",
+        "bilingual_kr": "국가들이 서로의 학생들에게 투자할 때 더 강한 관계를 만들고 두 문화를 이해하는 미래 지도자들을 만듭니다.",
+        "vocab": [
+          {"en": "bilateral", "kr": "양국의"},
+          {"en": "scholarship", "kr": "장학금"},
+          {"en": "STEM (Science, Technology, Engineering, Math)", "kr": "STEM (과학, 기술, 공학, 수학)"},
+          {"en": "government funding", "kr": "정부 자금"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why Does Korea Offer Scholarships to Filipino Students?",
+        "title_kr": "한국이 필리핀 학생들에게 장학금을 제공하는 이유는 무엇입니까?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Korea offers scholarships to Filipino students for several strategic reasons: First, it <span class=\"kw\">strengthens people-to-people ties</span> between the two countries by creating personal connections. Second, <span class=\"kw\">STEM and business education</span> prepares Filipino graduates to work in Korean companies or technology industries throughout the region. Third, Filipino students who study in Korea become <span class=\"kw\">cultural ambassadors</span> who understand Korean values and can bridge the two nations. The expansion to 500 slots shows Korea's confidence in Philippine talent and commitment to regional development. By investing in education, Korea creates <span class=\"kw\">long-term diplomatic advantages</span> and access to a pipeline of skilled workers who understand the Korean language and culture.",
+        "text_kr": "한국은 여러 전략적 이유로 필리핀 학생들에게 장학금을 제공합니다. 첫째, 개인적 연결을 만들어 <span class=\"kw\">양국 간의 민간 관계를 강화</span>합니다. 둘째, <span class=\"kw\">STEM과 비즈니스 교육</span>은 필리핀 졸업생들이 한국 회사나 지역 전역의 기술 산업에서 일할 수 있도록 준비합니다. 셋째, 한국에서 공부하는 필리핀 학생들은 한국 가치를 이해하고 두 국가의 다리 역할을 할 수 있는 <span class=\"kw\">문화 대사</span>가 됩니다. 500개 자리로의 확대는 한국의 필리핀 인재에 대한 자신감과 지역 발전에 대한 약속을 보여줍니다. 교육에 투자함으로써 한국은 <span class=\"kw\">장기 외교적 이점</span>과 한국 언어와 문화를 이해하는 숙련된 노동자 파이프라인에 접근할 수 있습니다.",
+        "bilingual_en": "Education is a powerful tool for building relationships between nations because it creates leaders who understand both sides.",
+        "bilingual_kr": "교육은 두 쪽을 모두 이해하는 지도자들을 만들기 때문에 국가 간 관계를 만드는 강력한 도구입니다.",
+        "vocab": [
+          {"en": "people-to-people ties", "kr": "민간 관계"},
+          {"en": "cultural ambassador", "kr": "문화 대사"},
+          {"en": "regional development", "kr": "지역 발전"},
+          {"en": "diplomatic ties", "kr": "외교 관계"}
+        ],
+        "quiz": {
+          "q_en": "What is one of the main reasons Korea expanded the scholarship program to 500 slots?",
+          "q_kr": "한국이 장학금 프로그램을 500개 자리로 확대한 주요 이유 중 하나는 무엇입니까?",
+          "opts": [
+            {
+              "en": "To reduce the number of Korean students studying in the Philippines",
+              "kr": "필리핀에서 공부하는 한국 학생 수를 줄이기 위해",
+              "correct": false
+            },
+            {
+              "en": "To strengthen people-to-people ties, access skilled workers, and create cultural ambassadors who understand both nations",
+              "kr": "민간 관계를 강화하고, 숙련된 노동자에 접근하며, 두 국가를 이해하는 문화 대사를 만들기 위해",
+              "correct": true
+            },
+            {
+              "en": "Because the Philippines required it as part of a trade agreement",
+              "kr": "필리핀이 무역 협정의 일부로 요구했기 때문",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Scholarship Impact: Future Opportunities for Filipino-Korean Communities",
+        "title_kr": "장학금의 영향: 필로-한국 커뮤니티의 미래 기회",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Filipino youth in the Philippines and the Filipino-Korean community, the expanded scholarship program creates <span class=\"kw\">pathways to advanced education and international careers</span>. Young Filipinos can now pursue STEM degrees in Korea, learn Korean language and culture firsthand, and return as <span class=\"kw\">technology and business professionals</span> who strengthen economic ties. For the Filipino-Korean community, these scholarships mean their children have opportunities to build careers in both nations. Korean universities often hire graduates to work in Korean companies' Asian offices, creating <span class=\"kw\">regional career networks</span>. Additionally, Filipino students studying in Korea become <span class=\"kw\">mentors and bridge-builders</span> in their communities, encouraging more Filipinos to learn Korean and understand Korean culture. The program ultimately transforms <span class=\"kw\">bilateral relationships from commerce to human capital</span>.",
+        "text_kr": "필리핀의 필리핀 청년들과 필로-한국 커뮤니티를 위해 확대된 장학금 프로그램은 <span class=\"kw\">고급 교육과 국제 경력으로의 경로</span>를 만듭니다. 이제 젊은 필리핀인들은 한국에서 STEM 학위를 추구하고, 한국 언어와 문화를 직접 배우며, <span class=\"kw\">경제 관계를 강화하는 기술 및 비즈니스 전문가</span>로 돌아올 수 있습니다. 필로-한국 커뮤니티의 경우, 이 장학금은 그들의 자녀들이 두 국가에서 경력을 쌓을 기회를 가진다는 의미입니다. 한국 대학들은 종종 졸업생을 한국 회사의 아시아 사무실에서 일하도록 고용하여 <span class=\"kw\">지역 경력 네트워크</span>를 만듭니다. 추가로, 한국에서 공부하는 필리핀 학생들은 그들의 커뮤니티에서 <span class=\"kw\">멘토와 다리 역할자</span>가 되어 더 많은 필리핀인들이 한국어를 배우고 한국 문화를 이해하도록 격려합니다. 프로그램은 궁극적으로 <span class=\"kw\">양국 관계를 상업에서 인적 자본으로 변환</span>합니다.",
+        "bilingual_en": "When countries invest in education, they are investing in shared futures where talent and culture flow freely across borders.",
+        "bilingual_kr": "국가들이 교육에 투자할 때 재능과 문화가 국경을 넘어 자유롭게 흐르는 공유된 미래에 투자하는 것입니다.",
+        "vocab": [
+          {"en": "human capital", "kr": "인적 자본"},
+          {"en": "career advancement", "kr": "경력 발전"},
+          {"en": "bridge-builder", "kr": "다리 역할자"},
+          {"en": "regional network", "kr": "지역 네트워크"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "How could Filipino STEM graduates trained in Korea help develop technology solutions for Southeast Asia?",
+      "What types of Korean companies might hire Filipino graduates in STEM fields?",
+      "Could these scholarship programs eventually lead to dual-degree programs between Korean and Philippine universities?"
+    ],
+    "suggestions_kr": [
+      "한국에서 훈련받은 필리핀 STEM 졸업생들이 동남아를 위한 기술 솔루션 개발을 어떻게 도울 수 있을까요?",
+      "STEM 분야의 필리핀 졸업생을 고용할 수 있는 한국 회사의 종류는 무엇입니까?",
+      "이 장학금 프로그램이 결국 한국과 필리핀 대학 간의 이중 학위 프로그램으로 이어질 수 있을까요?"
+    ]
+  },
+  "news_4": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What is Cybercrime and Cybersecurity?",
+        "title_kr": "사이버 범죄와 사이버 보안이란 무엇입니까?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "<span class=\"kw\">Cybercrime</span> refers to criminal activities carried out using computers or the internet, such as stealing money from bank accounts, hacking email addresses, or spreading malicious software. <span class=\"kw\">Cybersecurity</span> is the practice of protecting digital systems and personal information from these attacks. The new <span class=\"kw\">Filipino-Korean Joint Task Force</span> brings together police and technology experts from both countries to catch cybercriminals who operate across borders. These crimes are especially serious because they can affect people in multiple countries at once. When cybercriminals steal from a Filipino in the Philippines using servers in Korea, they create a problem for both nations.",
+        "text_kr": "<span class=\"kw\">사이버 범죄</span>는 은행 계좌에서 돈을 훔치거나, 이메일 주소를 해킹하거나, 악성 소프트웨어를 전파하는 것과 같이 컴퓨터나 인터넷을 사용하여 수행되는 범죄 활동을 말합니다. <span class=\"kw\">사이버 보안</span>은 이러한 공격으로부터 디지털 시스템과 개인 정보를 보호하는 관행입니다. 새로운 <span class=\"kw\">필리핀-한국 합동 태스크포스</span>는 양국의 경찰과 기술 전문가들을 한데 모아 국경을 넘어 운영하는 사이버 범죄자를 잡습니다. 이 범죄들은 한 번에 여러 국가의 사람들에게 영향을 미칠 수 있기 때문에 특히 심각합니다. 사이버 범죄자들이 한국의 서버를 사용하여 필리핀의 필리핀인으로부터 돈을 훔칠 때, 그들은 두 국가 모두에 문제를 만듭니다.",
+        "bilingual_en": "Cybercriminals don't respect borders, so countries must work together to stop them.",
+        "bilingual_kr": "사이버 범죄자들은 국경을 존중하지 않으므로 국가들은 그들을 막기 위해 함께 일해야 합니다.",
+        "vocab": [
+          {"en": "cybercrime", "kr": "사이버 범죄"},
+          {"en": "cybersecurity", "kr": "사이버 보안"},
+          {"en": "hacking", "kr": "해킹"},
+          {"en": "cross-border", "kr": "국경을 넘는"}
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "How International Cybercrime Task Forces Protect People",
+        "title_kr": "국제 사이버 범죄 태스크포스가 사람들을 보호하는 방법",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The <span class=\"kw\">Filipino-Korean Joint Task Force</span> uses <span class=\"kw\">real-time information sharing</span> and <span class=\"kw\">rapid response protocols</span> to stop cybercriminals before they cause damage. When cybercriminals target people in one country using resources in another, traditional law enforcement can't respond quickly enough. By sharing information instantly, Filipino and Korean experts can track criminals' digital activities and block their schemes. The task force focuses on crimes that affect both nations, such as <span class=\"kw\">phishing scams</span> (tricking people into revealing personal information), <span class=\"kw\">ransomware attacks</span> (locking people out of their digital files until they pay), and <span class=\"kw\">identity theft</span>. This partnership demonstrates that <span class=\"kw\">international cooperation</span> is essential for cybersecurity.",
+        "text_kr": "<span class=\"kw\">필리핀-한국 합동 태스크포스</span>는 <span class=\"kw\">실시간 정보 공유</span>와 <span class=\"kw\">신속한 대응 프로토콜</span>을 사용하여 사이버 범죄자들을 손상을 입히기 전에 멈춥니다. 사이버 범죄자들이 다른 국가의 리소스를 사용하여 한 국가의 사람들을 대상으로 할 때, 전통적인 법 집행은 충분히 빠르게 대응할 수 없습니다. 정보를 즉시 공유함으로써 필리핀과 한국 전문가들은 범죄자의 디지털 활동을 추적하고 그들의 계획을 차단할 수 있습니다. 태스크포스는 두 국가 모두에 영향을 미치는 범죄, 예를 들어 <span class=\"kw\">피싱 사기</span>(개인 정보를 공개하도록 사람들을 속이기), <span class=\"kw\">랜섬웨어 공격</span>(사람들을 그들의 디지털 파일에서 잠그고 돈을 요구하기), <span class=\"kw\">신원 도용</span>에 초점을 맞춥니다. 이 파트너십은 <span class=\"kw\">국제 협력</span>이 사이버 보안에 필수적이라는 것을 보여줍니다.",
+        "bilingual_en": "When countries share information about criminals in real-time, they can protect citizens much more effectively.",
+        "bilingual_kr": "국가들이 범죄자에 대한 정보를 실시간으로 공유할 때 시민들을 훨씬 더 효과적으로 보호할 수 있습니다.",
+        "vocab": [
+          {"en": "task force", "kr": "태스크포스"},
+          {"en": "real-time information", "kr": "실시간 정보"},
+          {"en": "phishing", "kr": "피싱"},
+          {"en": "ransomware", "kr": "랜섬웨어"}
+        ],
+        "quiz": {
+          "q_en": "Why is international cooperation important for fighting cybercrime?",
+          "q_kr": "왜 국제 협력이 사이버 범죄에 대항하기 위해 중요합니까?",
+          "opts": [
+            {
+              "en": "Because cybercriminals only operate in one country",
+              "kr": "사이버 범죄자들이 한 국가에서만 운영하기 때문",
+              "correct": false
+            },
+            {
+              "en": "Because criminals can operate across borders using servers in different countries, so countries must share information to catch them",
+              "kr": "범죄자들이 다양한 국가의 서버를 사용하여 국경을 넘어 운영할 수 있기 때문에 국가들은 그들을 잡기 위해 정보를 공유해야 합니다",
+              "correct": true
+            },
+            {
+              "en": "Because international cooperation makes the internet faster",
+              "kr": "국제 협력이 인터넷을 더 빠르게 만들기 때문",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "How This Task Force Protects Korean and Filipino Communities Online",
+        "title_kr": "이 태스크포스가 온라인에서 한인과 필리핀 커뮤니티를 보호하는 방법",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "The Filipino-Korean Joint Task Force directly protects both communities by creating <span class=\"kw\">faster response times</span> to crimes that target expats and families sending money internationally. Korean families in the Philippines can feel safer knowing that if they experience cybercrime, authorities in both countries will work together to catch the perpetrator. The task force also conducts <span class=\"kw\">cybersecurity awareness campaigns</span> teaching both communities how to recognize and avoid online threats. For Koreans sending remittances (money) to family back home, or Filipinos working for Korean companies and accessing corporate data, the joint task force provides <span class=\"kw\">extra protection and legal recourse</span>. The partnership strengthens the <span class=\"kw\">digital safety infrastructure</span> that allows the Korean and Filipino communities to live, work, and do business safely across borders.",
+        "text_kr": "필리핀-한국 합동 태스크포스는 해외 거주자들을 대상으로 하거나 국제적으로 돈을 보내는 가족들을 목표로 하는 범죄에 대한 <span class=\"kw\">더 빠른 대응 시간</span>을 만들어 두 커뮤니티를 직접 보호합니다. 필리핀의 한국 가족들은 사이버 범죄를 경험할 경우 양국의 당국이 함께 행위자를 잡기 위해 일할 것이라는 것을 알고 더 안전함을 느낄 수 있습니다. 태스크포스는 또한 두 커뮤니티에 온라인 위협을 인식하고 피하는 방법을 가르치는 <span class=\"kw\">사이버 보안 인식 캠페인</span>을 실시합니다. 가족에게 본국으로 송금(돈 보내기)하는 한국인들이나 한국 회사를 위해 일하고 회사 데이터에 접근하는 필리핀인들의 경우, 합동 태스크포스는 <span class=\"kw\">추가 보호와 법적 구제</span>를 제공합니다. 파트너십은 한국과 필리핀 커뮤니티가 국경을 넘어 안전하게 살고, 일하고, 사업을 할 수 있게 하는 <span class=\"kw\">디지털 안전 기반시설</span>을 강화합니다.",
+        "bilingual_en": "When governments work together to fight cybercrime, they create safer environments for businesses and families to thrive across borders.",
+        "bilingual_kr": "정부들이 사이버 범죄에 대항하기 위해 협력할 때, 기업과 가족들이 국경을 넘어 번창할 수 있는 더 안전한 환경을 만듭니다.",
+        "vocab": [
+          {"en": "digital safety", "kr": "디지털 안전"},
+          {"en": "awareness campaign", "kr": "인식 캠페인"},
+          {"en": "legal recourse", "kr": "법적 구제"},
+          {"en": "international cooperation", "kr": "국제 협력"}
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What types of digital skills would Filipino and Korean cybersecurity experts need to share information effectively?",
+      "How could the task force educate the public about avoiding online scams without causing fear?",
+      "Could this partnership eventually lead to a regional Southeast Asian cybersecurity alliance?"
+    ],
+    "suggestions_kr": [
+      "필리핀과 한국 사이버 보안 전문가들이 정보를 효과적으로 공유하기 위해 어떤 유형의 디지털 기술이 필요할까요?",
+      "태스크포스는 두려움을 일으키지 않으면서 온라인 사기를 피하는 방법에 대해 대중을 교육할 수 있을까요?",
+      "이 파트너십이 결국 동남아 지역 사이버 보안 연합으로 이어질 수 있을까요?"
+    ]
+  }
+}

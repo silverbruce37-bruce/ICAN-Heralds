@@ -21,18 +21,20 @@ def img_url(prompt, w=400, h=200, seed=None):
     import hashlib
 
     if not prompt or not str(prompt).strip():
-        prompt = "newspaper editorial photograph"
+        prompt = "Philippine city scenery professional"
 
     clean = str(prompt).strip()
-    styled = f"bold editorial vector illustration, flat graphic poster: {clean}"
+    # Style: Professional news editorial photography for a premium news feel
+    styled = f"Award-winning professional news editorial photography, realistic, high resolution, journalism, Philippines: {clean}"
     encoded = urllib.parse.quote(styled[:250])
 
     seed_source = str(seed) if seed is not None else clean
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
 
+    # Use model=flux for significantly higher quality than turbo
     return (
         f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?width={w}&height={h}&seed={seed_num}&model=turbo&nologo=true"
+        f"?width={w}&height={h}&seed={seed_num}&model=flux&nologo=true"
     )
 
 
@@ -595,9 +597,10 @@ def main():
             weekly = json.load(f)
 
     html = build_html(daily, weekly)
-    with open("ican_news.html", "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"  Built ican_news.html ({len(html)} bytes)")
+    for filename in ["ican_news.html", "index.html"]:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(html)
+    print(f"  Built ican_news.html and index.html ({len(html)} bytes)")
 
 
 if __name__ == "__main__":
