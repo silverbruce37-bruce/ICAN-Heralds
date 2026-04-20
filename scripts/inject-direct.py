@@ -47,7 +47,7 @@ def build_news_cards(news):
     for i, item in enumerate(news[:4], 1):
         cards += f'''
                 <div class="news-card">
-                    <div class="news-thumb"><img src="{img_url(item.get('image_query') or item.get('headline_en', f'news {i}'), 280, 220, seed=item.get('image_seed'))}" alt="{item.get('tag', 'News')}"></div>
+                    <div class="news-thumb"><img src="{img_url(item.get('image_query') or item.get('headline_en', f'news {i}'), 280, 220, seed=item.get('image_seed'))}" alt="{item.get('tag', 'News')}" loading="lazy"></div>
                     <div class="news-card-body">
                         <span class="tag {item.get('tag_class', 'tag-economy')}">{item.get('tag', 'News')}</span>
                         <h3>
@@ -97,7 +97,7 @@ def build_weekly_sections(weekly, date_dot):
         gallery_aspects = ["restaurant interior ambience", "signature dish closeup plating", "storefront exterior"]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
         gallery_imgs = "\n".join(
-            f'<img src="{img_url(f"{food_name} {cuisine} {gallery_aspects[i]}", 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}">'
+            f'<img src="{img_url(f"{food_name} {cuisine} {gallery_aspects[i]}", 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}" loading="lazy">'
             for i in range(3)
         )
 
@@ -114,7 +114,7 @@ def build_weekly_sections(weekly, date_dot):
                     <span class="kr-content">{food.get('badge_kr','에디터 추천')}</span>
                 </div>
                 <div class="food-feature-gallery">
-                    <img class="food-hero-img" src="{img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed'))}" alt="{food.get('name_en','')}">
+                    <img class="food-hero-img" src="{img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed'))}" alt="{food.get('name_en','')}" loading="lazy">
                     <div class="food-gallery-strip">
                         {gallery_imgs}
                     </div>
@@ -254,7 +254,7 @@ def build_weekly_sections(weekly, date_dot):
                         <span class="kr-content">{date_line_full_kr}</span>
                     </div>
                     <div class="event-image">
-                        <img src="{img_url(ev.get('image_query') or ev.get('title', f'event {i}'), 600, 400, seed=ev.get('image_seed'))}" alt="{ev.get('title','')}">
+                        <img src="{img_url(ev.get('image_query') or ev.get('title', f'event {i}'), 600, 400, seed=ev.get('image_seed'))}" alt="{ev.get('title','')}" loading="lazy">
                     </div>
                     <h3>{ev.get('title','')}</h3>
                     <p class="event-desc">
@@ -317,7 +317,7 @@ def _build_travel_cards(weekly):
         cards += f'''
             <div class="travel-card">
                 <div class="travel-card-image">
-                    <img src="{img_url(tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic", 800, 500, seed=tc.get('image_seed'))}" alt="{tc.get('name_en','')}">
+                    <img src="{img_url(tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic", 800, 500, seed=tc.get('image_seed'))}" alt="{tc.get('name_en','')}" loading="lazy">
                     <div class="travel-badge">
                         <span class="en-content">{tc.get('badge_en','')}</span>
                         <span class="kr-content">{tc.get('badge_kr','')}</span>
@@ -481,7 +481,7 @@ def build_html(daily, weekly):
             <h2 class="main-title"><span class="en-content">{cover.get('headline_en', '')}</span><span class="kr-content">{cover.get('headline_kr', '')}</span></h2>
             <h3 class="sub-title"><span class="en-content">{cover.get('subtitle_en', '')}</span><span class="kr-content">{cover.get('subtitle_kr', '')}</span></h3>
             <div class="main-image-container">
-                <img src="{img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed'))}" alt="Cover Story">
+                <img src="{img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed'))}" alt="Cover Story" loading="lazy">
                 <div class="image-caption">{cover.get('image_caption', '')}</div>
             </div>
             <div class="article-meta">
@@ -497,7 +497,7 @@ def build_html(daily, weekly):
             <h2 class="section-title"><span class="en-content">Latest Korea-Philippines News</span><span class="kr-content">최신 한-필 주요 뉴스</span><span class="live-badge">LIVE</span></h2>
             <div class="featured-news">
                 <div class="featured-news-image">
-                    <img src="{img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed'))}" alt="{feat.get('tag', 'News')}">
+                    <img src="{img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed'))}" alt="{feat.get('tag', 'News')}" loading="lazy">
                     <span class="tag {feat.get('tag_class', 'tag-security')}">{feat.get('tag', 'News')}</span>
                 </div>
                 <div class="featured-news-body">
