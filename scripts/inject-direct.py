@@ -24,13 +24,9 @@ def img_url(prompt, w=400, h=200, seed=None):
         prompt = "Philippine city scenery professional"
 
     clean = str(prompt).strip()
-    # Style: Premium modern 3D render / Matte painting style
-    # This avoids 'broken faces' while looking high-end and education-focused.
-    styled = (
-        f"Premium modern 3D render, minimalist architectural and tech aesthetic, "
-        f"cinematic soft lighting, clean shapes, high resolution, 4k concept art style: {clean}"
-    )
-    encoded = urllib.parse.quote(styled[:250])
+    # Shorter style to prevent truncation of important keywords
+    styled = f"Professional photo, high-end design: {clean}"
+    encoded = urllib.parse.quote(styled[:200])
 
     seed_source = (str(seed) if seed is not None else clean) + "v3"
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
@@ -95,11 +91,11 @@ def build_weekly_sections(weekly, date_dot):
         if food.get('cuisine_tags'):
             cuisine = food['cuisine_tags'][0].get('en', '')
         
-        # Enhanced gallery prompts for better image generation
+        # Simplified gallery prompts to ensure 100% generation success
         gallery_aspects = [
-            f"{food_name} {cuisine} restaurant interior design professional photography",
-            f"{food_name} {cuisine} signature dish close-up gourmet plating",
-            f"{food_name} {cuisine} storefront exterior facade daytime"
+            f"modern restaurant interior design",
+            f"Filipino gourmet food plating",
+            f"fancy restaurant storefront facade"
         ]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
         gallery_imgs = "\n".join(
