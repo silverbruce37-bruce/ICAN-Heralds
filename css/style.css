@@ -1625,7 +1625,7 @@ body.lang-kr .apc-title {
 }
 
 .dash-label {
-    font-family: 'Outfit', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.7rem;
     text-transform: uppercase;
     color: var(--muted);
@@ -1635,11 +1635,11 @@ body.lang-kr .apc-title {
 }
 
 .dash-value {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.15rem;
-    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
     color: var(--text);
-    letter-spacing: 0.3px;
+    letter-spacing: -0.2px;
 }
 
 .dash-source {
