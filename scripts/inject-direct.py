@@ -461,12 +461,15 @@ def build_html(daily, weekly):
         <section class="dashboard">
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">PHP / KRW</span><span class="kr-content">페소 / 원</span></span>
-                <span class="dash-value" id="dashRate">{dash.get('php_krw_rate', '24.65')}</span>
-                <span class="dash-source">네이버 금융</span>
+                <span class="dash-value" id="dashRate">{dash.get('php_krw_rate', '24.62')}</span>
+                <span class="dash-source"><span class="en-content">via Naver Finance</span><span class="kr-content">네이버 금융</span></span>
             </div>
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">Manila Weather</span><span class="kr-content">마닐라 날씨</span></span>
-                <span class="dash-value"><span class="en-content">{dash.get('weather_en', '32°C Sunny')}</span><span class="kr-content">{dash.get('weather_kr', '32°C 맑음')}</span></span>
+                <span class="dash-value">
+                    <span class="en-content">{dash.get('weather_en', '32°C Sunny')}</span>
+                    <span class="kr-content">{dash.get('weather_kr', '32°C 맑음')}</span>
+                </span>
             </div>
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">Today's Date</span><span class="kr-content">오늘의 날짜</span></span>
@@ -474,7 +477,10 @@ def build_html(daily, weekly):
             </div>
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">Embassy Status</span><span class="kr-content">대사관 영사 업무</span></span>
-                <span class="dash-value"><span class="en-content">{dash.get('embassy_en', 'Normal Operations')}</span><span class="kr-content">{dash.get('embassy_kr', '정상 운영')}</span></span>
+                <span class="dash-value">
+                    <span class="en-content">{dash.get('embassy_en', 'Normal')}</span>
+                    <span class="kr-content">{dash.get('embassy_kr', '정상 운영')}</span>
+                </span>
             </div>
         </section>
 
