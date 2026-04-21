@@ -363,7 +363,8 @@ def build_html(daily, weekly):
     word = d.get("word_of_day", {})
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
-    ver = date_str.replace("-", "")
+    # Append suffix to bust CSS/JS cache for the new font update
+    ver = date_str.replace("-", "") + "_v2"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
