@@ -363,26 +363,42 @@ var academyData = {
 
 // ── Scrape article data from DOM (dynamic slot content) ──
 function initAcademyFromDOM() {
-    // Update titles from rendered slots (in case they were injected)
+    // Update titles and summaries from rendered slots (in case they were injected)
     const coverTitleEn = document.querySelector('.main-title .en-content');
     const coverTitleKr = document.querySelector('.main-title .kr-content');
+    const coverSubEn = document.querySelector('.sub-title .en-content');
+    const coverSubKr = document.querySelector('.sub-title .kr-content');
+    
     if (coverTitleEn) academyData.cover.title_en = coverTitleEn.textContent.trim();
     if (coverTitleKr) academyData.cover.title_kr = coverTitleKr.textContent.trim();
+    if (coverSubEn) academyData.cover.summary_en = coverSubEn.textContent.trim();
+    if (coverSubKr) academyData.cover.summary_kr = coverSubKr.textContent.trim();
 
     const cards = document.querySelectorAll('.news-card');
     cards.forEach((card, i) => {
         const key = `news_${i + 1}`;
         if (!academyData[key]) return;
+        
         const hEn = card.querySelector('h3 .en-content');
         const hKr = card.querySelector('h3 .kr-content');
+        const sEn = card.querySelector('p .en-content');
+        const sKr = card.querySelector('p .kr-content');
+        
         if (hEn) academyData[key].title_en = hEn.textContent.trim();
         if (hKr) academyData[key].title_kr = hKr.textContent.trim();
+        if (sEn) academyData[key].summary_en = sEn.textContent.trim();
+        if (sKr) academyData[key].summary_kr = sKr.textContent.trim();
     });
 
     const featHEn = document.querySelector('.featured-news-body h3 .en-content');
     const featHKr = document.querySelector('.featured-news-body h3 .kr-content');
+    const featLEn = document.querySelector('.featured-news-lead .en-content');
+    const featLKr = document.querySelector('.featured-news-lead .kr-content');
+    
     if (featHEn) academyData.featured.title_en = featHEn.textContent.trim();
     if (featHKr) academyData.featured.title_kr = featHKr.textContent.trim();
+    if (featLEn) academyData.featured.summary_en = featLEn.textContent.trim();
+    if (featLKr) academyData.featured.summary_kr = featLKr.textContent.trim();
 }
 
 // ── Render Academy ──
