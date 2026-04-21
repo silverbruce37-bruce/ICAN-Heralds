@@ -2188,10 +2188,6 @@ header:hover .tagline-sub {
     text-transform: uppercase;
 }
 
-.dash-value {
-    font-family: 'Playfair Display', Georgia, serif;
-}
-
 /* Section titles — retro accent underline */
 .section-title::after {
     content: '';
