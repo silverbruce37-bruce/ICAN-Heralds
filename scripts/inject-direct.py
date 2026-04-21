@@ -90,14 +90,20 @@ def build_weekly_sections(weekly, date_dot):
             for t in food.get("cuisine_tags", [])
         )
 
-        food_name = food.get('name_en', 'restaurant')
+        food_name = food.get('name_en', 'modern restaurant')
         cuisine = ""
         if food.get('cuisine_tags'):
             cuisine = food['cuisine_tags'][0].get('en', '')
-        gallery_aspects = ["restaurant interior ambience", "signature dish closeup plating", "storefront exterior"]
+        
+        # Enhanced gallery prompts for better image generation
+        gallery_aspects = [
+            f"{food_name} {cuisine} restaurant interior design professional photography",
+            f"{food_name} {cuisine} signature dish close-up gourmet plating",
+            f"{food_name} {cuisine} storefront exterior facade daytime"
+        ]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
         gallery_imgs = "\n".join(
-            f'<img src="{img_url(f"{food_name} {cuisine} {gallery_aspects[i]}", 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}" loading="lazy">'
+            f'<img src="{img_url(gallery_aspects[i], 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}" loading="lazy">'
             for i in range(3)
         )
 
