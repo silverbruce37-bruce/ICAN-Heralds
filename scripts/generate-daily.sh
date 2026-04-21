@@ -438,10 +438,10 @@ else
 fi
 
 # ─── Step 2.5: Academy Knowledge Layers ───────────────
-echo "[2.5/5] Generating ICAN Academy knowledge layers..."
+echo "[2.5/5] Generating ICAN Academy knowledge layers (Full 3 Levels)..."
 
 ACADEMY_PROMPT="You are an educational content designer for ICAN Academy, part of ICAN Heralds.
-Given today's news articles, generate background knowledge layers for bilingual (Korean/English) learners.
+Given today's news articles, generate background knowledge layers for bilingual (Korean/English) smart 14-year-old learners.
 
 Today's articles (from daily JSON):
 $(cat "data/daily-${DATE}.json" | python3 -c "
@@ -465,140 +465,107 @@ Return ONLY valid JSON (no markdown fences):
   \"cover\": {
     \"layers\": [
       {
-        \"depth\": 1,
-        \"title_en\": \"Foundation concept title\",
-        \"title_kr\": \"기초 개념 제목\",
+        \"depth\": 1, \"title_en\": \"Foundation title\", \"title_kr\": \"기초 개념 제목\",
         \"sub_en\": \"Foundation\", \"sub_kr\": \"기초 개념\", \"badge\": \"Beginner\",
-        \"text_en\": \"Explanation with <span class=kw>key terms</span> highlighted. 3-5 sentences, clear and educational.\",
-        \"text_kr\": \"<span class=kw>핵심 용어</span>가 강조된 설명. 3-5문장, 명확하고 교육적.\",
-        \"bilingual_en\": \"One key sentence in English\",
-        \"bilingual_kr\": \"핵심 문장 한국어\",
+        \"text_en\": \"Simple explanation (3-5 sentences). Use <span class=kw>key terms</span>.\",
+        \"text_kr\": \"<span class=kw>핵심 용어</span>가 포함된 쉬운 설명 (3-5문장).\",
+        \"bilingual_en\": \"Aha-moment sentence in English\",
+        \"bilingual_kr\": \"핵심 요약 한국어\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
       },
       {
-        \"depth\": 2,
-        \"title_en\": \"Context & Causes\",
-        \"title_kr\": \"맥락과 원인\",
+        \"depth\": 2, \"title_en\": \"Context & Why it matters\", \"title_kr\": \"맥락과 중요성\",
         \"sub_en\": \"Context\", \"sub_kr\": \"맥락\", \"badge\": \"Intermediate\",
-        \"text_en\": \"Deeper context...\",
-        \"text_kr\": \"더 깊은 맥락...\",
+        \"text_en\": \"Deeper context...\", \"text_kr\": \"더 깊은 맥락...\",
         \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}],
         \"quiz\": {
           \"q_en\": \"Question?\", \"q_kr\": \"질문?\",
           \"opts\": [
-            {\"en\": \"Wrong answer\", \"kr\": \"오답\", \"correct\": false},
-            {\"en\": \"Right answer\", \"kr\": \"정답\", \"correct\": true},
-            {\"en\": \"Wrong answer\", \"kr\": \"오답\", \"correct\": false}
+            {\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false},
+            {\"en\": \"Correct\", \"kr\": \"정답\", \"correct\": true},
+            {\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false}
           ]
         }
       },
       {
-        \"depth\": 3,
-        \"title_en\": \"Real-world Impact for Korean Community\",
-        \"title_kr\": \"한인 커뮤니티에 대한 실제 영향\",
+        \"depth\": 3, \"title_en\": \"Impact for Koreans in PH\", \"title_kr\": \"필리핀 한인 사회 영향\",
         \"sub_en\": \"Application\", \"sub_kr\": \"실생활 적용\", \"badge\": \"Advanced\",
-        \"text_en\": \"Practical implications...\",
-        \"text_kr\": \"실질적 시사점...\",
+        \"text_en\": \"Practical implications...\", \"text_kr\": \"실질적 시사점...\",
         \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
       }
     ],
-    \"suggestions_en\": [\"Question 1?\", \"Question 2?\", \"Question 3?\"],
-    \"suggestions_kr\": [\"질문 1?\", \"질문 2?\", \"질문 3?\"]
+    \"suggestions_en\": [\"Q1?\", \"Q2?\", \"Q3?\"],
+    \"suggestions_kr\": [\"질문1?\", \"질문2?\", \"질문3?\"]
   },
-  \"featured\": { ... same structure ... },
-  \"news_1\": { ... }, \"news_2\": { ... }, \"news_3\": { ... }, \"news_4\": { ... }
+  \"featured\": { ... same 3-layer structure ... },
+  \"news_1\": { ... same 2-3 layer structure ... },
+  \"news_2\": { ... }, \"news_3\": { ... }, \"news_4\": { ... }
 }
 
 RULES:
-- Each article MUST have 2-3 layers (depth 1-3)
-- Layer 1 = Foundation (explain the basic concept simply, for a teenager)
-- Layer 2 = Context (why it matters, causes, add a quiz with 3 options)
-- Layer 3 = Real-world impact (specifically for Koreans in the Philippines)
-- Use <span class=kw>keyword</span> to highlight 2-4 key terms per layer
-- Each layer needs 3-5 vocab words with EN/KR pairs
-- Bilingual sentences should be standalone — make sense without the layer text
-- suggestions = 3 follow-up questions students might ask Paul-Sam
-- Write at a level a smart 14-year-old can understand
-- Make Korean text natural (not machine-translated)
-- Return ONLY valid JSON"
+- Article MUST have at least 2 layers (Depth 1-2). Cover/Featured MUST have 3 layers.
+- Layer 3 MUST focus on the Korean community living in the Philippines.
+- Use natural Korean (not AI-translated style). 
+- Write for a smart 14-year-old.
+- Return ONLY valid JSON."
 
-ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 12000) || true
+ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 15000) || true
 
 if [ -n "${ACADEMY_JSON:-}" ]; then
     echo "$ACADEMY_JSON" > "data/academy-${DATE}.json"
-    echo "  Academy content saved to data/academy-${DATE}.json"
-
-    # Inject academy data into JS (non-fatal — daily content still publishes if this fails)
+    
+    # Inject academy data into JS with titles from the DAILY JSON to prevent mismatches
     python3 -c "
 import json, re, sys
 
-# Clean control characters before parsing
-with open('data/academy-${DATE}.json') as f:
-    raw = f.read()
-raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', raw)
-# Extract JSON if wrapped in prose
-if not raw.strip().startswith('{'):
-    start = raw.find('{')
-    end = raw.rfind('}')
-    if start >= 0 and end > start:
-        raw = raw[start:end+1]
-    else:
-        print('  WARNING: Academy JSON has no JSON object, skipping', file=sys.stderr)
-        sys.exit(0)
 try:
+    with open('data/academy-${DATE}.json') as f:
+        raw = f.read()
+    raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', raw)
+    if not raw.strip().startswith('{'):
+        start = raw.find('{'); end = raw.rfind('}')
+        if start >= 0 and end > start: raw = raw[start:end+1]
     academy = json.loads(raw)
-except json.JSONDecodeError as e:
-    print(f'  WARNING: Academy JSON parse error: {e}, skipping', file=sys.stderr)
-    sys.exit(0)
 
-with open('data/daily-${DATE}.json') as f:
-    raw_d = f.read()
-    raw_d = re.sub(r'[\x00-\x1f\x7f](?<![\\n\\r\\t])', ' ', raw_d)
-    daily = json.loads(raw_d)
+    with open('data/daily-${DATE}.json') as f:
+        daily = json.load(f)
 
-# Build the JS academy data object
-js_data = {}
-article_map = {
-    'cover': ('cover_story', daily['cover_story']),
-    'featured': ('featured_news', daily['featured_news']),
-}
-for i in range(1, 5):
-    key = f'news_{i}'
-    if i-1 < len(daily.get('news_grid', [])):
-        article_map[key] = ('news_grid', daily['news_grid'][i-1])
+    # Sync titles/summaries from Daily JSON to prevent 'Frankenstein' articles
+    article_map = {'cover': daily['cover_story'], 'featured': daily['featured_news']}
+    for i in range(1, 5):
+        if i-1 < len(daily.get('news_grid', [])):
+            article_map[f'news_{i}'] = daily['news_grid'][i-1]
 
-for key, (src_key, article) in article_map.items():
-    if key not in academy:
-        continue
-    entry = academy[key]
-    js_entry = {
-        'tag': article.get('tag', 'News'),
-        'tagClass': article.get('tag_class', 'tag-economy'),
-        'title_en': article.get('headline_en', ''),
-        'title_kr': article.get('headline_kr', ''),
-        'summary_en': article.get('subtitle_en', article.get('summary_en', article.get('lead_en', ''))),
-        'summary_kr': article.get('subtitle_kr', article.get('summary_kr', article.get('lead_kr', ''))),
-        'layers': entry.get('layers', []),
-    }
-    js_data[key] = js_entry
+    js_data = {}
+    for key, art in article_map.items():
+        if key not in academy: continue
+        js_data[key] = {
+            'tag': art.get('tag', 'News'),
+            'tagClass': art.get('tag_class', 'tag-economy'),
+            'title_en': art.get('headline_en', ''),
+            'title_kr': art.get('headline_kr', ''),
+            'summary_en': art.get('subtitle_en', art.get('summary_en', art.get('lead_en', ''))),
+            'summary_kr': art.get('subtitle_kr', art.get('summary_kr', art.get('lead_kr', ''))),
+            'layers': academy[key].get('layers', []),
+        }
 
-# Write as JS module
-js_content = '// Auto-generated by generate-daily.sh — ' + '${DATE}' + '\n'
-js_content += 'var academyData = ' + json.dumps(js_data, ensure_ascii=False, indent=2) + ';\n'
-js_content += 'var paulSuggestions = {};\n'
-for key in js_data:
-    if key in academy and 'suggestions_en' in academy[key]:
-        js_content += f'paulSuggestions[\"{key}\"] = {{ en: {json.dumps(academy[key][\"suggestions_en\"])}, kr: {json.dumps(academy[key][\"suggestions_kr\"], ensure_ascii=False)} }};\n'
+    js_content = f'// Auto-generated by generate-daily.sh — ${DATE}\n'
+    js_content += 'var academyData = ' + json.dumps(js_data, ensure_ascii=False, indent=2) + ';\n'
+    js_content += 'var paulSuggestions = {};\n'
+    for key in js_data:
+        if key in academy and 'suggestions_en' in academy[key]:
+            js_content += f'paulSuggestions[\"{key}\"] = {{ en: {json.dumps(academy[key][\"suggestions_en\"])}, kr: {json.dumps(academy[key][\"suggestions_kr\"], ensure_ascii=False)} }};\n'
 
-with open('js/academy-data.js', 'w') as f:
-    f.write(js_content)
-
-print('  Generated js/academy-data.js')
-" || echo "  WARNING: Academy inject failed, continuing without academy update"
+    with open('js/academy-data.js', 'w') as f:
+        f.write(js_content)
+    print('  Successfully updated js/academy-data.js with 3-level layers')
+except Exception as e:
+    print(f'  WARNING: Academy sync failed: {e}', file=sys.stderr)
+" || echo "  Academy injection skipped"
 else
-    echo "  Using existing academy data (hardcoded fallback)"
+    echo "  WARNING: Academy generation failed"
 fi
 
 # ─── Step 3: Inject Content ─────────────────────────
