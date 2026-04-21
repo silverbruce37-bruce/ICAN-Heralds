@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-21",
+    "vol": 15,
+    "cover_en": "Korea-Philippines Launch Ambitious Smart City Integration Project",
+    "cover_kr": "한-필, 야심찬 스마트 도시 통합 프로젝트 착수",
+    "headlines_en": [
+      "Joint Patrols Boost Security in Key Expat Areas",
+      "Korean Startups See Growth Potential in Philippine Digital Economy",
+      "Manila K-Food Festival Celebrates Korean Culinary Delights",
+      "Philippines, Korea Deepen Vocational Training Partnership",
+      "Korean Embassy Warns Expats Against Rising Online Scams"
+    ],
+    "headlines_kr": [
+      "주요 한인 거주 지역, 합동 순찰로 치안 강화",
+      "한국 스타트업, 필리핀 디지털 경제에서 성장 잠재력 확인",
+      "마닐라 K-푸드 페스티벌, 한국 미식의 즐거움 선사",
+      "필리핀-한국, 직업 훈련 파트너십 심화",
+      "주필리핀 한국대사관, 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-04-20",
     "vol": 14,
     "cover_en": "PH-Korea Launch Smart City Initiative, Boost Digital Economy",

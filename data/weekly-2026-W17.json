@@ -1,0 +1,215 @@
+{
+  "week": "2026-W17",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Salo-Salo Modern Filipino",
+    "name_kr": "살로살로 모던 필리피노",
+    "cuisine_tags": [
+      {
+        "en": "Modern Filipino",
+        "kr": "모던 필리피노"
+      },
+      {
+        "en": "Fusion",
+        "kr": "퓨전"
+      }
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Stepping into Salo-Salo is like walking into a warm embrace, where the familiar flavors of Filipino cuisine are elevated with thoughtful, contemporary twists. Each dish is a story, beautifully plated and bursting with fresh, high-quality ingredients that honor tradition while daring to innovate. It's an experience that celebrates Filipino heritage, inviting you to rediscover beloved classics in an entirely new light, perfect for both nostalgic locals and curious travelers.",
+    "lead_kr": "살로살로에 들어서는 순간, 따뜻한 포옹 속에 들어선 듯한 느낌을 받습니다. 익숙한 필리핀 요리의 맛이 사려 깊고 현대적인 변형으로 한층 더 돋보입니다. 각 요리는 아름답게 담겨져 있으며, 전통을 존중하면서도 혁신을 감행하는 신선하고 고품질의 재료로 가득 찬 이야기입니다. 향수를 느끼는 현지인과 호기심 많은 여행자 모두에게 사랑받는 고전 요리를 완전히 새로운 시각으로 재발견하도록 초대하는, 필리핀 유산을 기념하는 경험입니다.",
+    "quote_en": "We want to bring people together, just like a traditional 'salo-salo,' but with a fresh perspective that excites the palate and warms the soul.",
+    "quote_kr": "저희는 전통적인 '살로살로'처럼 사람들을 한자리에 모으고 싶지만, 미각을 자극하고 영혼을 따뜻하게 하는 신선한 관점을 더합니다.",
+    "location": "G/F One Bonifacio High Street, 5th Ave, Bonifacio Global City, Taguig City",
+    "price_range": "₱800–1800",
+    "hours": "Mon-Sun: 11:00 AM – 10:00 PM",
+    "hours_closed_en": "No closing days",
+    "hours_closed_kr": "휴무일 없음",
+    "language_en": "English, Tagalog",
+    "language_kr": "영어, 타갈로그어",
+    "must_try": [
+      {
+        "en": "Adobo sa Gata with Crispy Pork Belly",
+        "kr": "코코넛 밀크 아도보와 바삭한 삼겹살",
+        "price": "₱750"
+      },
+      {
+        "en": "Sinigang na Lechon Belly",
+        "kr": "레촌 벨리 시니강",
+        "price": "₱890"
+      },
+      {
+        "en": "Ube Cheesecake with Latik Crumble",
+        "kr": "라틱 크럼블 우베 치즈케이크",
+        "price": "₱380"
+      }
+    ],
+    "tip_en": "Make a reservation, especially for dinner or on weekends, as this spot fills up quickly. Don't miss their creative cocktail menu featuring local ingredients!",
+    "tip_kr": "특히 저녁이나 주말에는 빨리 자리가 차므로 예약하는 것이 좋습니다. 현지 재료를 활용한 독창적인 칵테일 메뉴도 놓치지 마세요!",
+    "hero_image_seed": "food-w2026-W17",
+    "image_query": "modern Filipino restaurant interior warm lighting, elevated adobo dish, elegant plating",
+    "gallery_seeds": [
+      "food-g1-w2026-W17",
+      "food-g2-w2026-W17",
+      "food-g3-w2026-W17"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W17",
+      "image_query": "Paco Park garden serene historical colonial architecture warm afternoon light",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {
+          "en": "History",
+          "kr": "역사"
+        },
+        {
+          "en": "Relaxation",
+          "kr": "휴식"
+        }
+      ],
+      "name_en": "Paco Park: Serene Urban Oasis",
+      "name_kr": "파코 공원: 고요한 도심 속 오아시스",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "Escape the city's hustle at Paco Park, a beautifully preserved Spanish colonial cemetery turned national park. Its circular walls, lush gardens, and ancient chapel offer a tranquil retreat perfect for quiet contemplation or a romantic stroll. On weekends, it often hosts free classical concerts, adding a magical soundtrack to its historical charm.",
+      "lead_kr": "파코 공원은 아름답게 보존된 스페인 식민지 시대 묘지이자 국립 공원으로, 도시의 번잡함에서 벗어날 수 있는 곳입니다. 원형 벽, 울창한 정원, 고대 예배당은 조용한 사색이나 로맨틱한 산책에 완벽한 고요한 휴식처를 제공합니다. 주말에는 종종 무료 클래식 콘서트가 열려 역사적인 매력에 마법 같은 사운드트랙을 더합니다.",
+      "location": "Paco Park, San Marcelino St, Paco, Manila",
+      "cost": "Entrance: ₱20 (Filipino citizens), ₱50 (Foreigners) / Free for concerts",
+      "tip_en": "Visit in the late afternoon for cooler temperatures and to catch the golden hour light. Check their schedule for free 'Paco Park Presents' classical music concerts.",
+      "tip_kr": "선선한 기온과 황금빛 일몰을 감상하려면 늦은 오후에 방문하세요. 무료 '파코 공원 프레젠츠' 클래식 음악 콘서트 일정을 확인하세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W17",
+      "image_query": "Intramuros walled city colonial architecture cobblestone streets kalesa horse carriage",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "Culture",
+          "kr": "문화"
+        },
+        {
+          "en": "Walking Tour",
+          "kr": "도보 투어"
+        }
+      ],
+      "name_en": "Intramuros: Manila's Walled City",
+      "name_kr": "인트라무로스: 마닐라의 성벽 도시",
+      "stars": "★★★★★",
+      "rating": 4.7,
+      "lead_en": "Step back in time within the historic walls of Intramuros, the oldest district and historic core of Manila. Explore ancient churches, cobblestone streets, and Spanish-era fortifications. Rent a bambike (bamboo bicycle) or take a kalesa (horse-drawn carriage) to fully immerse yourself in the rich history and colonial charm of this UNESCO World Heritage Site contender.",
+      "lead_kr": "마닐라의 가장 오래된 지역이자 역사적 중심지인 인트라무로스의 유서 깊은 성벽 안에서 시간 여행을 떠나보세요. 고대 교회, 자갈길, 스페인 시대 요새를 탐험하세요. 밤바이크(대나무 자전거)를 빌리거나 칼레사(마차)를 타고 유네스코 세계문화유산 후보지의 풍부한 역사와 식민지 시대의 매력에 흠뻑 빠져보세요.",
+      "location": "Intramuros, Manila City",
+      "cost": "Entrance to San Agustin Church & Museum: ₱200 / Fort Santiago: ₱75 / Bambike rental: ₱500 for 2 hours",
+      "tip_en": "Wear comfortable shoes and bring water, especially during hot months. Consider a guided tour to learn fascinating stories behind the landmarks.",
+      "tip_kr": "특히 더운 계절에는 편안한 신발을 신고 물을 가져가세요. 랜드마크 뒤에 숨겨진 흥미로운 이야기를 들으려면 가이드 투어를 고려해 보세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "APR 18",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "금요일",
+      "image_seed": "event1-w2026-W17",
+      "image_query": "indie band playing on stage with colorful lights, small bar crowd",
+      "title": "Indie Night at SaGuijo",
+      "desc_en": "Experience the vibrant local music scene with a lineup of Manila's best indie bands. SaGuijo is a legendary spot for discovering new talent and enjoying raw, authentic performances. Expect a night full of great music, good vibes, and a diverse crowd.",
+      "desc_kr": "마닐라 최고의 인디 밴드 라인업과 함께 활기찬 현지 음악 현장을 경험하세요. 사기호는 새로운 재능을 발견하고 날것의 진정한 공연을 즐길 수 있는 전설적인 장소입니다. 멋진 음악, 좋은 분위기, 다양한 관객으로 가득 찬 밤을 기대하세요.",
+      "venue_en": "SaGuijo Cafe + Bar",
+      "venue_kr": "사기호 카페 + 바",
+      "address_en": "7612 Guijo St, San Antonio, Makati City",
+      "address_kr": "7612 Guijo St, San Antonio, Makati City",
+      "time_en": "Doors 7:00 PM · Show 8:00 PM",
+      "time_kr": "입장 오후 7시 · 공연 오후 8시",
+      "price_en": "₱300 (with 1 free drink)",
+      "price_kr": "₱300 (음료 1잔 포함)",
+      "contact": "@saguijocafe on Instagram",
+      "note_en": "Bring valid ID (18+ only). Limited seating, arrive early to get a good spot.",
+      "note_kr": "유효한 신분증 지참 (18세 이상만 입장 가능). 좌석이 제한적이니 일찍 오셔서 좋은 자리를 차지하세요."
+    },
+    {
+      "date_badge": "MAY 05",
+      "day_of_week_en": "Monday",
+      "day_of_week_kr": "월요일",
+      "image_seed": "event2-w2026-W17",
+      "image_query": "watercolor painting workshop with coffee cups, cozy cafe setting",
+      "title": "Coffee & Canvas: Watercolor Workshop",
+      "desc_en": "Unleash your inner artist at this relaxing watercolor workshop, held in a charming cafe setting. Enjoy a complimentary cup of artisanal coffee or tea as you learn basic techniques and create your own masterpiece. Perfect for beginners and those looking for a creative escape.",
+      "desc_kr": "매력적인 카페에서 열리는 편안한 수채화 워크숍에서 내면의 예술가를 깨워보세요. 장인의 커피 또는 차 한 잔을 무료로 즐기면서 기본 기술을 배우고 자신만의 걸작을 만드세요. 초보자와 창의적인 탈출구를 찾는 사람들에게 완벽합니다.",
+      "venue_en": "Type Kita Cafe & Art Space",
+      "venue_kr": "타입 키타 카페 & 아트 스페이스",
+      "address_en": "Unit 102, The Pop Up Katipunan, Katipunan Ave, Quezon City",
+      "address_kr": "Unit 102, The Pop Up Katipunan, Katipunan Ave, Quezon City",
+      "time_en": "2:00 PM – 5:00 PM",
+      "time_kr": "오후 2시 – 오후 5시",
+      "price_en": "₱1,200 (inclusive of materials & 1 drink)",
+      "price_kr": "₱1,200 (재료 및 음료 1잔 포함)",
+      "contact": "typetitacafe.com/workshops or +639171234567",
+      "note_en": "Pre-registration is required. All art materials will be provided.",
+      "note_kr": "사전 등록 필수. 모든 미술 재료가 제공됩니다."
+    },
+    {
+      "date_badge": "JUN 12",
+      "day_of_week_en": "Thursday",
+      "day_of_week_kr": "목요일",
+      "image_seed": "event3-w2026-W17",
+      "image_query": "elegant buffet spread with Mindanaoan dishes, hotel restaurant interior",
+      "title": "Flavors of Mindanao: Culinary Journey",
+      "desc_en": "Embark on a gastronomic adventure celebrating the rich and diverse culinary heritage of Mindanao. Indulge in an exquisite buffet featuring authentic dishes from the southern Philippines, prepared by guest chefs using traditional recipes and fresh, local ingredients. A rare opportunity to savor unique regional flavors.",
+      "desc_kr": "민다나오의 풍부하고 다양한 요리 유산을 기념하는 미식 모험을 시작하세요. 전통 레시피와 신선한 현지 재료를 사용하여 초청 셰프가 준비한 필리핀 남부의 정통 요리를 맛볼 수 있는 절묘한 뷔페를 즐기세요. 독특한 지역 풍미를 맛볼 수 있는 드문 기회입니다.",
+      "venue_en": "Cafe Eight, Crimson Hotel Filinvest City",
+      "venue_kr": "카페 에이트, 크림슨 호텔 필인베스트 시티",
+      "address_en": "Entrata Urban Complex, 2609 Civic Dr, Filinvest City, Alabang, Muntinlupa City",
+      "address_kr": "Entrata Urban Complex, 2609 Civic Dr, Filinvest City, Alabang, Muntinlupa City",
+      "time_en": "Dinner Buffet: 6:00 PM – 10:00 PM",
+      "time_kr": "디너 뷔페: 오후 6시 – 오후 10시",
+      "price_en": "₱1,800++ per person",
+      "price_kr": "1인당 ₱1,800++",
+      "contact": "+63288632222 or crimsonhotel.com/filinvestcity/dining",
+      "note_en": "Reservations are highly recommended. Prices are subject to service charge and applicable taxes.",
+      "note_kr": "예약은 강력히 권장됩니다. 가격에는 서비스 요금 및 해당 세금이 포함되지 않습니다."
+    },
+    {
+      "date_badge": "JUL 20",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W17",
+      "image_query": "outdoor yoga class in a park, diverse group, green trees, sunny morning",
+      "title": "Sunday Sunrise Yoga & Wellness Fair",
+      "desc_en": "Start your Sunday with invigorating outdoor yoga amidst the lush greenery of Ayala Triangle Gardens. Following the session, explore a wellness fair featuring local organic products, healthy snacks, and holistic lifestyle workshops. A perfect way to rejuvenate your mind, body, and soul.",
+      "desc_kr": "아야라 트라이앵글 가든의 푸른 녹음 속에서 활기찬 야외 요가로 일요일을 시작하세요. 세션 후에는 현지 유기농 제품, 건강 간식, 전체적인 라이프스타일 워크숍을 선보이는 웰니스 박람회를 둘러보세요. 몸과 마음, 영혼을 재충전하는 완벽한 방법입니다.",
+      "venue_en": "Ayala Triangle Gardens",
+      "venue_kr": "아야라 트라이앵글 가든",
+      "address_en": "Paseo de Roxas cor. Ayala Avenue, Makati City",
+      "address_kr": "Paseo de Roxas cor. Ayala Avenue, Makati City",
+      "time_en": "Yoga: 6:30 AM – 7:30 AM · Fair: 8:00 AM – 12:00 PM",
+      "time_kr": "요가: 오전 6시 30분 – 오전 7시 30분 · 박람회: 오전 8시 – 정오 12시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "@makatiwellnesscouncil on Instagram",
+      "note_en": "Bring your own yoga mat and water bottle. Open to all skill levels.",
+      "note_kr": "개인 요가 매트와 물통을 지참하세요. 모든 실력 수준에 개방됩니다."
+    }
+  ],
+  "picks": {
+    "date": "2026.04.21",
+    "title_en": "The Comfort of Modern Tradition: A Culinary Homecoming",
+    "title_kr": "현대적 전통의 위안: 요리의 귀향",
+    "body_en": [
+      "There’s a unique warmth that washes over you when you taste a dish that’s both deeply familiar and surprisingly new. It’s like hearing a favorite lullaby sung with a fresh arrangement, or seeing an old photograph retouched with vibrant colors. This is precisely the feeling Salo-Salo Modern Filipino evokes, transforming classic Filipino comfort food into art without losing its soul.",
+      "In our fast-paced world, where global influences often overshadow local flavors, places like Salo-Salo remind us of the enduring power of our culinary heritage. It's not just about eating; it's about connecting with roots, with stories passed down through generations, and with the joy of sharing a meal. Each bite is a conversation between past and present, a testament to how tradition can evolve beautifully without forgetting where it came from.",
+      "This week, as we highlight Salo-Salo, I encourage you to seek out those dining experiences that offer more than just sustenance. Look for the places that tell a story, that celebrate local ingredients, and that make you feel truly at home, even if it's a home reimagined. Because in the end, the best meals are not just about taste, but about the memories they create and the connections they forge."
+    ],
+    "body_kr": [
+      "깊이 익숙하면서도 놀랍도록 새로운 요리를 맛볼 때 밀려오는 독특한 따뜻함이 있습니다. 그것은 마치 새로운 편곡으로 불리는 좋아하는 자장가를 듣거나, 생생한 색상으로 보정된 오래된 사진을 보는 것과 같습니다. 이것이 바로 살로살로 모던 필리피노가 고전적인 필리핀 컴포트 푸드를 그 영혼을 잃지 않고 예술로 승화시키는 방식입니다.",
+      "글로벌 영향이 현지 풍미를 압도하는 빠르게 변화하는 세상에서 살로살로와 같은 장소는 우리 요리 유산의 지속적인 힘을 상기시켜 줍니다. 그것은 단지 먹는 것에 관한 것이 아닙니다. 그것은 뿌리, 세대를 통해 전해 내려오는 이야기, 그리고 식사를 나누는 즐거움과 연결되는 것에 관한 것입니다. 한 입 한 입은 과거와 현재 사이의 대화이며, 전통이 어디에서 왔는지 잊지 않고 아름답게 진화할 수 있음을 증명합니다.",
+      "이번 주에 살로살로를 소개하면서, 저는 여러분이 단순한 영양분 이상의 것을 제공하는 식사 경험을 찾아보기를 권합니다. 이야기를 들려주고, 현지 재료를 기념하며, 비록 재해석된 집이라 할지라도 진정으로 집에 있는 것처럼 느끼게 해주는 장소를 찾아보세요. 결국, 최고의 식사는 맛뿐만 아니라 그들이 만들어내는 추억과 그들이 맺는 연결에 관한 것이기 때문입니다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}
