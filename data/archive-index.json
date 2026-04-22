@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-22",
+    "vol": 16,
+    "cover_en": "Philippines-Korea Forge Landmark Digital Economy Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 경제 파트너십 구축",
+    "headlines_en": [
+      "PNP Boosts Security for Korean Nationals Amid Tourist Season",
+      "Korean Startups Eye Philippine Market for ASEAN Expansion",
+      "K-Food Festival Draws Thousands in Manila, Showcasing Culinary Delights",
+      "PH, Korea Discuss Enhanced Maritime Security Cooperation in West Philippine Sea",
+      "Community Leaders Launch Safety Awareness Campaign for Korean Residents"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 관광 시즌 맞아 한인 대상 보안 강화",
+      "한국 스타트업, 아세안 확장을 위해 필리핀 시장 주목",
+      "마닐라 K-푸드 페스티벌, 수천 명 운집하며 미식의 향연 펼쳐",
+      "필리핀-한국, 서필리핀해 해양 안보 협력 강화 논의",
+      "한인회, 교민 대상 안전 의식 캠페인 시작"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-04-21",
     "vol": 15,
     "cover_en": "Korea-Philippines Launch Ambitious Smart City Integration Project",
