@@ -471,6 +471,10 @@ Return ONLY valid JSON (no markdown fences):
         \"text_kr\": \"<span class=kw>핵심 용어</span>가 포함된 쉬운 설명 (3-5문장).\",
         \"bilingual_en\": \"Aha-moment sentence in English\",
         \"bilingual_kr\": \"핵심 요약 한국어\",
+        \"speaking_en\": \"One short speaking task tied to this exact layer.\",
+        \"speaking_kr\": \"이 레이어에 딱 맞는 짧은 말하기 과제.\",
+        \"writing_en\": \"One short writing task tied to this exact layer.\",
+        \"writing_kr\": \"이 레이어에 딱 맞는 짧은 쓰기 과제.\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
       },
       {
@@ -478,6 +482,8 @@ Return ONLY valid JSON (no markdown fences):
         \"sub_en\": \"Context\", \"sub_kr\": \"맥락\", \"badge\": \"Intermediate\",
         \"text_en\": \"Deeper context...\", \"text_kr\": \"더 깊은 맥락...\",
         \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
+        \"speaking_en\": \"Layer-specific speaking task.\", \"speaking_kr\": \"레이어 맞춤 말하기 과제.\",
+        \"writing_en\": \"Layer-specific writing task.\", \"writing_kr\": \"레이어 맞춤 쓰기 과제.\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}],
         \"quiz\": {
           \"q_en\": \"Question?\", \"q_kr\": \"질문?\",
@@ -493,6 +499,19 @@ Return ONLY valid JSON (no markdown fences):
         \"sub_en\": \"Application\", \"sub_kr\": \"실생활 적용\", \"badge\": \"Advanced\",
         \"text_en\": \"Practical implications...\", \"text_kr\": \"실질적 시사점...\",
         \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
+        \"speaking_en\": \"Layer-specific speaking task.\", \"speaking_kr\": \"레이어 맞춤 말하기 과제.\",
+        \"writing_en\": \"Layer-specific writing task.\", \"writing_kr\": \"레이어 맞춤 쓰기 과제.\",
+        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
+      },
+      {
+        \"depth\": 4, \"title_en\": \"Debate & Insight\", \"title_kr\": \"토론과 통찰\",
+        \"sub_en\": \"Insight\", \"sub_kr\": \"심화\", \"badge\": \"Expert\",
+        \"text_en\": \"Higher-level perspective connected to the article.\", \"text_kr\": \"기사와 연결된 심화 관점 설명.\",
+        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
+        \"speaking_en\": \"State your position aloud.\", \"speaking_kr\": \"자신의 입장을 말해보세요.\",
+        \"writing_en\": \"Write a short opinion paragraph.\", \"writing_kr\": \"짧은 의견 단락을 써보세요.\",
+        \"debate_en\": \"A discussion prompt tied to this specific article.\",
+        \"debate_kr\": \"이 기사에 맞춘 토론 질문.\",
         \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
       }
     ],
@@ -505,8 +524,11 @@ Return ONLY valid JSON (no markdown fences):
 }
 
 RULES:
-- Article MUST have at least 2 layers (Depth 1-2). Cover/Featured MUST have 3 layers.
+- Article MUST have at least 2 layers (Depth 1-2). Cover/Featured SHOULD have 3-4 layers.
 - Layer 3 MUST focus on the Korean community living in the Philippines.
+- Layer 4, when present, MUST be an article-specific debate/insight layer with `debate_en` and `debate_kr`.
+- Every layer MUST include `speaking_en/kr` and `writing_en/kr`, and they must be specific to that article layer.
+- Korean `speaking_kr` and `writing_kr` MUST read like workbook prompts for learners. Prefer endings such as `-해 봅시다`, `-정리해 봅시다`, `-써 봅시다` over explanatory prose.
 - Use natural Korean (not AI-translated style). 
 - Write for a smart 14-year-old.
 - Return ONLY valid JSON."

@@ -401,6 +401,96 @@ function initAcademyFromDOM() {
     if (featLKr) academyData.featured.summary_kr = featLKr.textContent.trim();
 }
 
+function getLayerLearningFocus(layer) {
+    const depth = layer.depth || 1;
+    const fallback = [
+        {
+            goal_en: 'Understand the article in simple terms.',
+            goal_kr: '기사를 쉬운 뜻으로 이해합니다.',
+            check_en: 'Can you explain the main idea in one sentence?',
+            check_kr: '핵심 뜻을 한 문장으로 설명할 수 있나요?',
+            speaking_en: 'Say one sentence using one key word from this layer.',
+            speaking_kr: '이 레이어의 핵심 단어 하나를 써서 한 문장을 말해보세요.',
+            writing_en: 'Write one short summary sentence about this layer.',
+            writing_kr: '이 레이어를 한 줄 요약문으로 써보세요.'
+        },
+        {
+            goal_en: 'Connect the story to background and context.',
+            goal_kr: '기사와 배경 맥락을 연결합니다.',
+            check_en: 'What background fact makes this news important?',
+            check_kr: '이 뉴스를 중요하게 만드는 배경 사실은 무엇인가요?',
+            speaking_en: 'Explain the cause or context in two short sentences.',
+            speaking_kr: '원인이나 맥락을 두 문장으로 설명해보세요.',
+            writing_en: 'Write two sentences explaining why this happened.',
+            writing_kr: '왜 이런 일이 생겼는지 두 문장으로 써보세요.'
+        },
+        {
+            goal_en: 'Use the article in real-life English.',
+            goal_kr: '기사를 실전 영어 표현으로 연결합니다.',
+            check_en: 'Which expression from this layer would be useful in real life?',
+            check_kr: '이 레이어에서 실생활에 바로 쓸 표현은 무엇인가요?',
+            speaking_en: 'Say what you would tell a friend or customer using this topic.',
+            speaking_kr: '이 주제로 친구나 손님에게 뭐라고 말할지 말해보세요.',
+            writing_en: 'Write a practical message or reply using this topic.',
+            writing_kr: '이 주제를 활용한 실전 메시지나 답장을 써보세요.'
+        },
+        {
+            goal_en: 'Build your own opinion or deeper insight.',
+            goal_kr: '자신의 의견이나 더 깊은 해석을 만듭니다.',
+            check_en: 'What broader issue does this article connect to?',
+            check_kr: '이 기사가 연결되는 더 큰 이슈는 무엇인가요?',
+            speaking_en: 'State your opinion and support it with one reason.',
+            speaking_kr: '자신의 의견을 말하고 이유 한 가지를 덧붙여보세요.',
+            writing_en: 'Write a three-sentence opinion using one example from the article.',
+            writing_kr: '기사 사례 하나를 넣어 3문장 의견문을 써보세요.',
+            debate_en: 'Do you agree with the direction of this issue? Defend your view.',
+            debate_kr: '이 이슈의 방향에 동의하나요? 근거를 들어 의견을 말해보세요.'
+        }
+    ];
+
+    return fallback[Math.min(depth, 4) - 1];
+}
+
+function buildDefaultQuiz(layer) {
+    const keyword = layer.vocab && layer.vocab[0] ? layer.vocab[0].en : (layer.badge || `Level ${layer.depth}`);
+    return {
+        q_en: `Which idea best matches this ${keyword} layer?`,
+        q_kr: `이 ${keyword} 레이어를 가장 잘 설명하는 것은 무엇인가요?`,
+        opts: [
+            { en: 'It builds understanding of the article topic.', kr: '기사 주제 이해를 돕는다.', correct: true },
+            { en: 'It is only for memorizing dates.', kr: '날짜만 외우기 위한 것이다.', correct: false },
+            { en: 'It is unrelated to the article.', kr: '기사와 관련이 없다.', correct: false }
+        ]
+    };
+}
+
+function buildPracticeTask(layer, focus) {
+    const vocab = layer.vocab && layer.vocab.length
+        ? `<span class="kl-task-vocab">${layer.vocab.slice(0, 2).map(v => v.en).join(' · ')}</span>`
+        : '';
+    const debate = layer.depth === 4
+        ? `
+        <div class="kl-task kl-task-debate">
+            <div class="kl-task-label"><span class="en-content">Debate Prompt</span><span class="kr-content">토론 질문</span></div>
+            <p><span class="en-content">${focus.debate_en || focus.speaking_en}</span><span class="kr-content">${focus.debate_kr || focus.speaking_kr}</span></p>
+        </div>`
+        : '';
+    return `
+        <div class="kl-task-grid">
+            <div class="kl-task">
+                <div class="kl-task-label"><span class="en-content">Speaking Task</span><span class="kr-content">말하기 과제</span></div>
+                <p><span class="en-content">${focus.speaking_en}</span><span class="kr-content">${focus.speaking_kr}</span></p>
+                ${vocab}
+            </div>
+            <div class="kl-task kl-task-writing">
+                <div class="kl-task-label"><span class="en-content">Writing Task</span><span class="kr-content">쓰기 과제</span></div>
+                <p><span class="en-content">${focus.writing_en}</span><span class="kr-content">${focus.writing_kr}</span></p>
+                ${vocab}
+            </div>
+        </div>
+        ${debate}`;
+}
+
 // ── Render Academy ──
 function renderAcademy(articleId) {
     const data = academyData[articleId];
@@ -414,8 +504,27 @@ function renderAcademy(articleId) {
         const isLocked = layer.depth > academyLevel + 1;
         const lockClass = isLocked ? 'layer-locked' : '';
         const depthLabel = isLocked ? '🔒' : `L${layer.depth}`;
+        const focus = getLayerLearningFocus(layer);
+        if (layer.speaking_en) focus.speaking_en = layer.speaking_en;
+        if (layer.speaking_kr) focus.speaking_kr = layer.speaking_kr;
+        if (layer.writing_en) focus.writing_en = layer.writing_en;
+        if (layer.writing_kr) focus.writing_kr = layer.writing_kr;
+        if (layer.debate_en) focus.debate_en = layer.debate_en;
+        if (layer.debate_kr) focus.debate_kr = layer.debate_kr;
+        const quiz = layer.quiz || buildDefaultQuiz(layer);
 
-        let bodyHTML = `<div class="kl-text"><span class="en-content">${layer.text_en}</span><span class="kr-content">${layer.text_kr}</span></div>`;
+        let bodyHTML = `
+            <div class="kl-learn-map">
+                <div class="kl-learn-block">
+                    <div class="kl-learn-label"><span class="en-content">Goal</span><span class="kr-content">학습 목표</span></div>
+                    <p><span class="en-content">${focus.goal_en}</span><span class="kr-content">${focus.goal_kr}</span></p>
+                </div>
+                <div class="kl-learn-block">
+                    <div class="kl-learn-label"><span class="en-content">Check</span><span class="kr-content">이해 점검</span></div>
+                    <p><span class="en-content">${focus.check_en}</span><span class="kr-content">${focus.check_kr}</span></p>
+                </div>
+            </div>
+            <div class="kl-text"><span class="en-content">${layer.text_en}</span><span class="kr-content">${layer.text_kr}</span></div>`;
 
         // Bilingual block (always show both)
         bodyHTML += `
@@ -434,19 +543,21 @@ function renderAcademy(articleId) {
         }
 
         // Quiz
-        if (layer.quiz) {
+        if (quiz) {
             let optsHTML = '';
-            layer.quiz.opts.forEach(opt => {
+            quiz.opts.forEach(opt => {
                 const optText = `<span class="en-content">${opt.en}</span><span class="kr-content">${opt.kr}</span>`;
                 optsHTML += `<div class="kl-quiz-opt" data-correct="${opt.correct}" onclick="checkAcademyQuiz(this)">${optText}</div>`;
             });
             bodyHTML += `
                 <div class="kl-quiz">
                     <div class="kl-quiz-label">Quick Check</div>
-                    <div class="kl-quiz-q"><span class="en-content">${layer.quiz.q_en}</span><span class="kr-content">${layer.quiz.q_kr}</span></div>
+                    <div class="kl-quiz-q"><span class="en-content">${quiz.q_en}</span><span class="kr-content">${quiz.q_kr}</span></div>
                     <div class="kl-quiz-opts">${optsHTML}</div>
                 </div>`;
         }
+
+        bodyHTML += buildPracticeTask(layer, focus);
 
         layersHTML += `
             <div class="knowledge-layer ${lockClass}" data-depth="${layer.depth}">
@@ -488,7 +599,7 @@ function renderAcademy(articleId) {
             <h2 class="academy-article-title"><span class="en-content">${data.title_en}</span><span class="kr-content">${data.title_kr}</span></h2>
             <p class="academy-article-summary"><span class="en-content">${data.summary_en}</span><span class="kr-content">${data.summary_kr}</span></p>
         </div>
-        <div class="academy-section-label"><span class="en-content">Background Knowledge Layers</span><span class="kr-content">배경지식 레이어</span></div>
+        <div class="academy-section-label"><span class="en-content">Level-by-Level Learning Path</span><span class="kr-content">레벨별 학습 경로</span></div>
         ${layersHTML}`;
 }
 
@@ -509,6 +620,11 @@ function openAcademy(articleId) {
         alert('LEARN error: ' + e.message);
         console.error('openAcademy error:', e);
     }
+}
+
+function openAcademyAtLevel(articleId, level) {
+    setAcademyLevel(level);
+    openAcademy(articleId);
 }
 
 function closeAcademy() {

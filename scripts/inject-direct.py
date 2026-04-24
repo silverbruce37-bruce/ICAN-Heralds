@@ -8,6 +8,7 @@ import json
 import sys
 import os
 import glob
+import re
 from datetime import datetime
 
 
@@ -38,12 +39,230 @@ def img_url(prompt, w=400, h=200, seed=None):
     )
 
 
+def fallback_img_url(seed, w=400, h=200):
+    """Stable fallback image URL when AI image generation fails."""
+    photo_map = {
+        "cover": "1555448248-2571daf6344b",
+        "feat": "1555448248-2571daf6344b",
+        "news1": "1611974789855-9c2a0a7236a3",
+        "news2": "1493225457124-a3eb161ffa5f",
+        "news3": "1605281317010-fe5ffe798166",
+        "news4": "1589829545856-d10d557cf95f",
+        "food": "1563245372-f21724e3856d",
+        "travel1": "1518509562904-e7ef99cdcc86",
+        "travel2": "1583417319070-4a69db38a482",
+        "event1": "1540039155733-5bb30b53aa14",
+        "event2": "1414235077428-338989a2e8c0",
+        "event3": "1570168007204-dfb528c6958f",
+        "event4": "1517245386807-bb43f82c33c4",
+    }
+
+    seed = str(seed or "cover-default")
+    for prefix, photo_id in photo_map.items():
+        if seed.startswith(prefix):
+            return f"https://images.unsplash.com/photo-{photo_id}?w={w}&h={h}&fit=crop&q=80"
+
+    return f"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w={w}&h={h}&fit=crop&q=80"
+
+
+def render_img(src, fallback_src, alt, loading="lazy", class_name=""):
+    class_attr = f' class="{class_name}"' if class_name else ""
+    return (
+        f'<img src="{src}" data-fallback-src="{fallback_src}"'
+        f' onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc)'
+        f'{{this.onerror=null;this.src=this.dataset.fallbackSrc;}}"'
+        f' alt="{alt}"{class_attr} loading="{loading}">'
+    )
+
+
+def plain_words(text):
+    text = re.sub(r"[^A-Za-z0-9\s-]", " ", str(text or ""))
+    return [w for w in text.split() if w]
+
+
+def derive_key_phrases(article, fallback_text=""):
+    raw = str(article.get("image_query", "")).strip()
+    if raw:
+        phrases = [p.strip() for p in raw.split(",") if p.strip()]
+        if phrases:
+            return phrases[:3]
+
+    words = plain_words(article.get("headline_en") or fallback_text)
+    if not words:
+        return ["daily english"]
+
+    chunks = []
+    for size in (2, 3):
+        for i in range(0, min(len(words) - size + 1, 3)):
+            phrase = " ".join(words[i:i + size]).lower()
+            if phrase not in chunks:
+                chunks.append(phrase)
+            if len(chunks) == 3:
+                return chunks
+    return chunks[:3] or ["daily english"]
+
+
+def phrase_chips_html(phrases, extra_class=""):
+    cls = f"phrase-chip {extra_class}".strip()
+    return "".join(f'<span class="{cls}">{phrase}</span>' for phrase in phrases[:3])
+
+
+def compact_text(text, limit=140):
+    text = " ".join(str(text or "").split())
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def build_today_brief(daily):
+    cover = daily.get("cover_story", {})
+    featured = daily.get("featured_news", {})
+    news = daily.get("news_grid", [])
+    cards = [
+        {
+            "label": "Big Story",
+            "article_id": "cover",
+            "title": cover.get("headline_en", ""),
+            "summary": cover.get("subtitle_en", ""),
+            "tag": cover.get("author", "Editorial"),
+            "level": "L1-L4",
+            "cta": "Start Learning",
+        },
+        {
+            "label": "Must Know",
+            "article_id": "featured",
+            "title": featured.get("headline_en", ""),
+            "summary": featured.get("lead_en", ""),
+            "tag": featured.get("tag", "News"),
+            "level": "L1-L3",
+            "cta": "See Why",
+        },
+    ]
+
+    for idx, item in enumerate(news[:2], start=1):
+        cards.append(
+            {
+                "label": "Quick Hit",
+                "article_id": f"news_{idx}",
+                "title": item.get("headline_en", ""),
+                "summary": item.get("summary_en", ""),
+                "tag": item.get("tag", "News"),
+                "level": "L1-L3",
+                "cta": "Learn Fast",
+            }
+        )
+
+    cards_html = ""
+    for card in cards:
+        phrases = phrase_chips_html(
+            derive_key_phrases({"headline_en": card["title"]}, card["summary"]),
+            "is-quiet",
+        )
+        cards_html += f"""
+            <article class="brief-card">
+                <div class="brief-card-top">
+                    <span class="brief-label">{card["label"]}</span>
+                    <span class="brief-level">{card["level"]}</span>
+                </div>
+                <h3>{card["title"]}</h3>
+                <p>{compact_text(card["summary"], 150)}</p>
+                <div class="brief-phrases">{phrases}</div>
+                <div class="brief-actions">
+                    <span class="brief-tag">{card["tag"]}</span>
+                    <button class="learn-btn learn-btn-compact" onclick="openAcademyAtLevel('{card['article_id']}', 1)"><span class="learn-icon">📚</span>{card["cta"]}</button>
+                </div>
+            </article>"""
+
+    return f"""
+        <section class="today-brief">
+            <div class="today-brief-heading">
+                <div>
+                    <span class="section-kicker">Today Brief</span>
+                    <h2 class="today-brief-title">오늘 한눈에 보고, 바로 학습까지</h2>
+                </div>
+                <p class="today-brief-copy">뉴스를 읽기 전에 핵심만 먼저 잡고, 바로 레벨별 영어 학습으로 이어지게 구성했습니다.</p>
+            </div>
+            <div class="brief-grid">{cards_html}
+            </div>
+        </section>"""
+
+
+def build_learning_track(daily):
+    cover = daily.get("cover_story", {})
+    featured = daily.get("featured_news", {})
+    news = daily.get("news_grid", [])
+    practical = news[3] if len(news) > 3 else featured
+
+    tracks = [
+        {
+            "eyebrow": "Starter Track",
+            "title": "Level 1로 오늘 이슈 시작",
+            "copy": featured.get("lead_en", cover.get("subtitle_en", "")),
+            "article_id": "featured",
+            "level": 1,
+            "level_copy": "Foundation",
+            "article_name": featured.get("headline_en", ""),
+        },
+        {
+            "eyebrow": "Context Builder",
+            "title": "커버스토리로 배경지식 채우기",
+            "copy": cover.get("subtitle_en", ""),
+            "article_id": "cover",
+            "level": 2,
+            "level_copy": "Context",
+            "article_name": cover.get("headline_en", ""),
+        },
+        {
+            "eyebrow": "Real-life English",
+            "title": "생활형 기사로 실전 표현 익히기",
+            "copy": practical.get("summary_en", featured.get("lead_en", "")),
+            "article_id": "news_4" if len(news) > 3 else "featured",
+            "level": 3,
+            "level_copy": "Practical",
+            "article_name": practical.get("headline_en", ""),
+        },
+    ]
+
+    cards_html = ""
+    for track in tracks:
+        cards_html += f"""
+            <article class="learning-track-card">
+                <div class="learning-track-top">
+                    <span class="learning-track-eyebrow">{track["eyebrow"]}</span>
+                    <span class="learning-track-badge">L{track["level"]} · {track["level_copy"]}</span>
+                </div>
+                <h3>{track["title"]}</h3>
+                <p>{compact_text(track["copy"], 150)}</p>
+                <div class="learning-track-article">{track["article_name"]}</div>
+                <div class="learning-track-actions">
+                    <button class="learn-btn" onclick="openAcademyAtLevel('{track['article_id']}', {track['level']})"><span class="learn-icon">📚</span>Start L{track["level"]}</button>
+                </div>
+            </article>"""
+
+    return f"""
+        <section id="learning-track" class="learning-track">
+            <h2 class="section-title">
+                <span class="en-content">Learning Track</span>
+                <span class="kr-content">레벨별 학습 트랙</span>
+            </h2>
+            <p class="section-intro">신문처럼 읽고 끝내지 않도록, 초급부터 실전 영어까지 바로 이어지는 학습 동선을 첫 화면에 올렸습니다.</p>
+            <div class="learning-track-grid">{cards_html}
+            </div>
+        </section>"""
+
+
 def build_news_cards(news):
     cards = ""
     for i, item in enumerate(news[:4], 1):
+        primary = img_url(
+            item.get("image_query") or item.get("headline_en", f"news {i}"),
+            280,
+            220,
+            seed=item.get("image_seed"),
+        )
+        fallback = fallback_img_url(item.get("image_seed", f"news{i}"), 280, 220)
+        phrases = derive_key_phrases(item, item.get("summary_en", ""))
         cards += f'''
                 <div class="news-card">
-                    <div class="news-thumb"><img src="{img_url(item.get('image_query') or item.get('headline_en', f'news {i}'), 280, 220, seed=item.get('image_seed'))}" alt="{item.get('tag', 'News')}" loading="lazy"></div>
+                    <div class="news-thumb">{render_img(primary, fallback, item.get('tag', 'News'))}</div>
                     <div class="news-card-body">
                         <span class="tag {item.get('tag_class', 'tag-economy')}">{item.get('tag', 'News')}</span>
                         <h3>
@@ -54,6 +273,11 @@ def build_news_cards(news):
                             <span class="en-content">{item.get('summary_en', '')}</span>
                             <span class="kr-content">{item.get('summary_kr', '')}</span>
                         </p>
+                        <div class="article-study-meta">
+                            <span class="study-pill">L1-L3 Path</span>
+                            <span class="study-key-label">Key phrase</span>
+                        </div>
+                        <div class="article-phrase-row">{phrase_chips_html(phrases)}</div>
                         <span class="news-read-time">
                             <span class="en-content">{item.get('read_time_min', 2)} min read</span>
                             <span class="kr-content">{item.get('read_time_min', 2)}분 읽기</span>
@@ -99,7 +323,11 @@ def build_weekly_sections(weekly, date_dot):
         ]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
         gallery_imgs = "\n".join(
-            f'<img src="{img_url(gallery_aspects[i], 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None)}" alt="Gallery {i+1}" loading="lazy">'
+            render_img(
+                img_url(gallery_aspects[i], 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None),
+                fallback_img_url(gallery_seeds[i] if i < len(gallery_seeds) else "food-gallery", 400, 300),
+                f"Gallery {i+1}",
+            )
             for i in range(3)
         )
 
@@ -116,7 +344,12 @@ def build_weekly_sections(weekly, date_dot):
                     <span class="kr-content">{food.get('badge_kr','에디터 추천')}</span>
                 </div>
                 <div class="food-feature-gallery">
-                    <img class="food-hero-img" src="{img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed'))}" alt="{food.get('name_en','')}" loading="lazy">
+                    {render_img(
+                        img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed')),
+                        fallback_img_url(food.get('hero_image_seed', 'food-hero'), 1600, 900),
+                        food.get('name_en',''),
+                        class_name='food-hero-img'
+                    )}
                     <div class="food-gallery-strip">
                         {gallery_imgs}
                     </div>
@@ -256,7 +489,11 @@ def build_weekly_sections(weekly, date_dot):
                         <span class="kr-content">{date_line_full_kr}</span>
                     </div>
                     <div class="event-image">
-                        <img src="{img_url(ev.get('image_query') or ev.get('title', f'event {i}'), 600, 400, seed=ev.get('image_seed'))}" alt="{ev.get('title','')}" loading="lazy">
+                        {render_img(
+                            img_url(ev.get('image_query') or ev.get('title', f'event {i}'), 600, 400, seed=ev.get('image_seed')),
+                            fallback_img_url(ev.get('image_seed', f'event{i}'), 600, 400),
+                            ev.get('title','')
+                        )}
                     </div>
                     <h3>{ev.get('title','')}</h3>
                     <p class="event-desc">
@@ -319,7 +556,11 @@ def _build_travel_cards(weekly):
         cards += f'''
             <div class="travel-card">
                 <div class="travel-card-image">
-                    <img src="{img_url(tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic", 800, 500, seed=tc.get('image_seed'))}" alt="{tc.get('name_en','')}" loading="lazy">
+                    {render_img(
+                        img_url(tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic", 800, 500, seed=tc.get('image_seed')),
+                        fallback_img_url(tc.get('image_seed', f'travel{i}'), 800, 500),
+                        tc.get('name_en','')
+                    )}
                     <div class="travel-badge">
                         <span class="en-content">{tc.get('badge_en','')}</span>
                         <span class="kr-content">{tc.get('badge_kr','')}</span>
@@ -363,8 +604,8 @@ def build_html(daily, weekly):
     word = d.get("word_of_day", {})
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
-    # Append suffix to bust CSS/JS cache for the new font update (v3)
-    ver = date_str.replace("-", "") + "_v3"
+    # Append suffix to bust cached static assets after layout update.
+    ver = date_str.replace("-", "") + "_v9"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -380,6 +621,10 @@ def build_html(daily, weekly):
     body_kr = "\n".join(f"<p>{p}</p>" for p in cover.get("body_kr", []))
     news_cards = build_news_cards(news)
     food_html, _, events_html, picks_html = build_weekly_sections(weekly, date_dot)
+    today_brief_html = build_today_brief(daily)
+    learning_track_html = build_learning_track(daily)
+    cover_phrases = derive_key_phrases(cover, cover.get("subtitle_en", ""))
+    feat_phrases = derive_key_phrases(feat, feat.get("lead_en", ""))
 
     word_html = ""
     if word:
@@ -485,12 +730,36 @@ def build_html(daily, weekly):
             </div>
         </section>
 
+        {today_brief_html}
+
         <section class="headline-section">
             <div class="headline-badge"><span class="en-content">COVER STORY</span><span class="kr-content">커버 스토리</span></div>
             <h2 class="main-title"><span class="en-content">{cover.get('headline_en', '')}</span><span class="kr-content">{cover.get('headline_kr', '')}</span></h2>
             <h3 class="sub-title"><span class="en-content">{cover.get('subtitle_en', '')}</span><span class="kr-content">{cover.get('subtitle_kr', '')}</span></h3>
+            <div class="cover-learning-strip">
+                <div class="cover-learning-summary">
+                    <span class="cover-learning-kicker">30-Second Brief</span>
+                    <p>{compact_text(cover.get('subtitle_en', ''), 180)}</p>
+                </div>
+                <div class="cover-learning-side">
+                    <div class="cover-learning-levels">
+                        <span class="study-pill">L1 Foundation</span>
+                        <span class="study-pill">L2 Context</span>
+                        <span class="study-pill">L3 Real-life English</span>
+                    </div>
+                    <div class="article-phrase-row">{phrase_chips_html(cover_phrases)}</div>
+                    <div class="cover-learning-actions">
+                        <button class="learn-btn" onclick="openAcademyAtLevel('cover', 1)"><span class="learn-icon">📚</span>Start Learning</button>
+                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Practical English</button>
+                    </div>
+                </div>
+            </div>
             <div class="main-image-container">
-                <img src="{img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed'))}" alt="Cover Story" loading="lazy">
+                {render_img(
+                    img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed')),
+                    fallback_img_url(cover.get('image_seed', 'cover'), 1200, 800),
+                    'Cover Story'
+                )}
                 <div class="image-caption">{cover.get('image_caption', '')}</div>
             </div>
             <div class="article-meta">
@@ -506,12 +775,21 @@ def build_html(daily, weekly):
             <h2 class="section-title"><span class="en-content">Latest Korea-Philippines News</span><span class="kr-content">최신 한-필 주요 뉴스</span><span class="live-badge">LIVE</span></h2>
             <div class="featured-news">
                 <div class="featured-news-image">
-                    <img src="{img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed'))}" alt="{feat.get('tag', 'News')}" loading="lazy">
+                    {render_img(
+                        img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed')),
+                        fallback_img_url(feat.get('image_seed', 'feat'), 900, 600),
+                        feat.get('tag', 'News')
+                    )}
                     <span class="tag {feat.get('tag_class', 'tag-security')}">{feat.get('tag', 'News')}</span>
                 </div>
                 <div class="featured-news-body">
                     <h3><span class="en-content">{feat.get('headline_en', '')}</span><span class="kr-content">{feat.get('headline_kr', '')}</span></h3>
                     <p class="featured-news-lead"><span class="en-content">{feat.get('lead_en', '')}</span><span class="kr-content">{feat.get('lead_kr', '')}</span></p>
+                    <div class="article-study-meta">
+                        <span class="study-pill">L1-L3 Path</span>
+                        <span class="study-key-label">Key phrase</span>
+                    </div>
+                    <div class="article-phrase-row">{phrase_chips_html(feat_phrases)}</div>
                     <div class="article-meta">
                         <span class="meta-author">{feat.get('desk', 'News Desk')}</span>
                         <span class="meta-divider">·</span>
@@ -526,6 +804,7 @@ def build_html(daily, weekly):
             </div>
         </section>
 
+        {learning_track_html}
         {word_html}
         {food_html}
         {events_html}
@@ -578,7 +857,7 @@ def build_html(daily, weekly):
         <div class="academy-panel">
             <div class="academy-topbar">
                 <div class="academy-topbar-left"><button class="academy-back-btn" onclick="closeAcademy()">&larr;</button><span class="academy-brand">ICAN Academy</span></div>
-                <div class="academy-topbar-right"><div class="academy-level-selector"><span class="academy-level-label">Level</span><button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button><button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button><button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button></div></div>
+                <div class="academy-topbar-right"><div class="academy-level-selector"><span class="academy-level-label">Level</span><button class="academy-level-dot active" data-level="1" onclick="setAcademyLevel(1)">1</button><button class="academy-level-dot" data-level="2" onclick="setAcademyLevel(2)">2</button><button class="academy-level-dot" data-level="3" onclick="setAcademyLevel(3)">3</button><button class="academy-level-dot" data-level="4" onclick="setAcademyLevel(4)">4</button></div></div>
             </div>
             <div id="academyContent"></div>
         </div>
