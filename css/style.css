@@ -2368,9 +2368,10 @@ header:hover .tagline-sub {
 
 .today-brief-title {
     margin-top: 8px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Apple SD Gothic Neo", "SF Pro KR", -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Helvetica Neue", sans-serif;
     font-size: 2rem;
     line-height: 1.12;
+    letter-spacing: -0.03em;
     color: var(--text);
 }
 
