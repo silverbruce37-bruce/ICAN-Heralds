@@ -44,6 +44,12 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: mkdir -p data
 
+      - name: Lint generator scripts (catch quoting bugs early)
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          bash -n scripts/generate-daily.sh
+          for f in scripts/*.sh; do bash -n "$f"; done
+
       - name: Generate Daily Edition
         if: steps.check.outputs.skip != 'true'
         run: bash scripts/generate-daily.sh
