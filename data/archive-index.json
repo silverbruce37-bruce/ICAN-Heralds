@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-25",
+    "vol": 19,
+    "cover_en": "Korea-Philippines Forge Stronger Digital Economy Partnership",
+    "cover_kr": "한-필리핀, 디지털 경제 파트너십 강화 합의",
+    "headlines_en": [
+      "Joint Philippine-Korean Police Operations Enhance Tourist Safety",
+      "ASEAN Economic Outlook Positive for 2026 Amid Global Shifts",
+      "Philippine Universities Expand Korean Language and Culture Programs",
+      "South Korea Pledges Further Support for Philippine Infrastructure Projects",
+      "Korean Community Urged to Review Safety Protocols for Summer Season"
+    ],
+    "headlines_kr": [
+      "한-필리핀 합동 경찰 작전, 관광객 안전 강화",
+      "글로벌 변화 속 2026년 아세안 경제 전망 긍정적",
+      "필리핀 대학들, 한국어 및 문화 프로그램 확대",
+      "한국, 필리핀 인프라 프로젝트 추가 지원 약속",
+      "교민들, 여름 시즌 안전 수칙 재점검 당부"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-04-24",
     "vol": 18,
     "cover_en": "PH-Korea Launch 'Smart City Connect' Initiative, Boosting Digital Future",
