@@ -526,9 +526,9 @@ Return ONLY valid JSON (no markdown fences):
 RULES:
 - Article MUST have at least 2 layers (Depth 1-2). Cover/Featured SHOULD have 3-4 layers.
 - Layer 3 MUST focus on the Korean community living in the Philippines.
-- Layer 4, when present, MUST be an article-specific debate/insight layer with `debate_en` and `debate_kr`.
-- Every layer MUST include `speaking_en/kr` and `writing_en/kr`, and they must be specific to that article layer.
-- Korean `speaking_kr` and `writing_kr` MUST read like workbook prompts for learners. Prefer endings such as `-해 봅시다`, `-정리해 봅시다`, `-써 봅시다` over explanatory prose.
+- Layer 4, when present, MUST be an article-specific debate/insight layer with 'debate_en' and 'debate_kr'.
+- Every layer MUST include 'speaking_en/kr' and 'writing_en/kr', and they must be specific to that article layer.
+- Korean 'speaking_kr' and 'writing_kr' MUST read like workbook prompts for learners. Prefer endings such as '-해 봅시다', '-정리해 봅시다', '-써 봅시다' over explanatory prose.
 - Use natural Korean (not AI-translated style). 
 - Write for a smart 14-year-old.
 - Return ONLY valid JSON."
