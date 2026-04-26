@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-26",
+  "header_date_line": "SUNDAY, APRIL 26, 2026 | PHILIPPINES | VOL. 20",
+  "dashboard": {
+    "php_krw_rate": "24.38",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.26",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Digital Partnership Deepens, Boosting Tech Sector",
+    "headline_kr": "한국-필리핀 디지털 파트너십 심화, 기술 부문 활성화 기대",
+    "subtitle_en": "New initiatives aim to accelerate digital transformation and attract significant Korean tech investments, promising mutual growth and innovation.",
+    "subtitle_kr": "새로운 이니셔티브는 디지털 전환을 가속화하고 한국 기술 투자를 유치하여 상호 성장과 혁신을 약속합니다.",
+    "body_en": [
+      "The Republic of Korea and the Philippines have announced a significant deepening of their digital partnership, following a series of high-level discussions. This renewed commitment focuses on key areas such as artificial intelligence, cybersecurity, and smart city solutions, aiming to foster a robust digital ecosystem across the archipelago. Experts anticipate this collaboration will serve as a blueprint for future bilateral technological cooperation within the ASEAN region.",
+      "This enhanced partnership is poised to deliver substantial benefits for both nations. For the Philippines, it promises to accelerate its digital transformation agenda, create numerous high-tech jobs, and facilitate knowledge transfer from Korea's advanced tech industry. Korean companies, in turn, will gain expanded access to the dynamic and rapidly growing Philippine market, leveraging it as a strategic hub for their regional expansion and innovation efforts, particularly in emerging digital fields.",
+      "The Korean community in the Philippines stands to benefit significantly from these developments. Increased Korean investment in the tech sector is expected to generate new business opportunities, enhance professional pathways, and foster a more vibrant economic environment for Korean expatriates and entrepreneurs. The Korean Embassy and various community organizations are actively working to support this integration, ensuring that Korean nationals can fully participate in and contribute to this exciting new phase of bilateral cooperation."
+    ],
+    "body_kr": [
+      "대한민국과 필리핀은 일련의 고위급 회담에 이어 디지털 파트너십을 크게 심화할 것이라고 발표했습니다. 이 새로운 약속은 인공지능, 사이버 보안 및 스마트 시티 솔루션과 같은 주요 분야에 중점을 두며, 필리핀 전역에 강력한 디지털 생태계를 조성하는 것을 목표로 합니다. 전문가들은 이번 협력이 아세안 지역 내 미래 양국 기술 협력의 청사진이 될 것으로 기대하고 있습니다.",
+      "이번 강화된 파트너십은 양국에 상당한 이점을 제공할 것으로 예상됩니다. 필리핀의 경우 디지털 전환 의제를 가속화하고 수많은 첨단 기술 일자리를 창출하며 한국의 선진 기술 산업으로부터 지식 이전을 촉진할 것입니다. 한국 기업들은 역동적이고 빠르게 성장하는 필리핀 시장에 대한 접근성을 확대하고, 특히 신흥 디지털 분야에서 지역 확장 및 혁신 노력을 위한 전략적 허브로 활용할 것입니다.",
+      "필리핀 내 한인 커뮤니티는 이러한 발전으로부터 상당한 혜택을 받을 것입니다. 기술 부문에 대한 한국의 투자 증가는 새로운 사업 기회를 창출하고, 전문적인 진로를 향상시키며, 한국인 해외 거주자 및 기업가들에게 더욱 활기찬 경제 환경을 조성할 것으로 예상됩니다. 주필리핀 대한민국 대사관과 다양한 한인 단체들은 이러한 통합을 적극적으로 지원하여 한국 국민들이 양국 협력의 흥미로운 새 단계에 완전히 참여하고 기여할 수 있도록 노력하고 있습니다."
+    ],
+    "image_seed": "cover-2026-04-26",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Korean and Philippine officials solidify digital cooperation (April 26, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippine Police, Korean Embassy Bolster Tourist Safety Measures",
+    "headline_kr": "필리핀 경찰, 한국 대사관과 관광객 안전 조치 강화",
+    "lead_en": "Following recent incidents, Philippine authorities and the Korean Embassy have announced heightened security protocols and increased patrols in popular tourist destinations and Korean-dense areas. These measures aim to ensure the safety and well-being of Korean nationals residing in or visiting the Philippines, reinforcing trust and confidence.",
+    "lead_kr": "최근 사건들에 따라, 필리핀 당국과 한국 대사관은 인기 관광지와 한국인 밀집 지역에 대한 보안 프로토콜 강화 및 순찰 증가를 발표했습니다. 이러한 조치들은 필리핀에 거주하거나 방문하는 한국인들의 안전과 복지를 보장하고 신뢰를 강화하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-04-26",
+    "image_query": "Philippine police Korean embassy officials discussing security",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eyeing Major Renewable Energy Investments in ASEAN",
+      "headline_kr": "한국 기업들, 아세안 재생에너지 투자 대규모 추진",
+      "summary_en": "Several major Korean conglomerates are reportedly in advanced talks to invest in large-scale solar and wind projects across the ASEAN region, including the Philippines, aiming to expand their green energy footprint.",
+      "summary_kr": "여러 한국 대기업들이 필리핀을 포함한 아세안 지역 전반에 걸쳐 대규모 태양광 및 풍력 프로젝트에 투자하기 위한 심층 협상을 진행 중이며, 녹색 에너지 발자취를 넓히는 것을 목표로 하고 있습니다.",
+      "image_seed": "news1-2026-04-26",
+      "image_query": "Solar panels wind turbines Southeast Asia investment",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Ties",
+      "headline_kr": "마닐라 K-푸드 페스티벌 역대급 인파, 요리 문화 교류 축제",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, highlighting the growing popularity of Korean cuisine and fostering cultural exchange between Korea and the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 동원하며 성황리에 막을 내렸고, 한국 요리의 인기가 높아지고 한국과 필리핀 간의 문화 교류를 증진했습니다.",
+      "image_seed": "news2-2026-04-26",
+      "image_query": "Korean food festival Manila crowd enjoying bibimbap",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Expands Scholarship Programs for Filipino STEM Students",
+      "headline_kr": "한국, 필리핀 STEM 학생 대상 장학금 프로그램 확대",
+      "summary_en": "The Korean government announced an expansion of its scholarship initiatives, offering more opportunities for Filipino students specializing in Science, Technology, Engineering, and Mathematics to study in top Korean universities.",
+      "summary_kr": "한국 정부는 과학, 기술, 공학, 수학 분야를 전공하는 필리핀 학생들이 한국의 명문 대학에서 공부할 수 있는 더 많은 기회를 제공하는 장학금 이니셔티브 확대를 발표했습니다.",
+      "image_seed": "news3-2026-04-26",
+      "image_query": "Filipino students Korean university campus lecture",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Local Government Units Launch Community Safety Programs for Expats",
+      "headline_kr": "지방 정부, 외국인 거주자 위한 지역사회 안전 프로그램 착수",
+      "summary_en": "Several local government units, in coordination with expat communities including Koreans, have initiated new community watch and safety awareness programs aimed at reducing petty crime and enhancing residents' security.",
+      "summary_kr": "한국인 커뮤니티를 포함한 외국인 커뮤니티와 협력하여 여러 지방 정부가 소액 범죄를 줄이고 주민들의 보안을 강화하기 위한 새로운 지역사회 감시 및 안전 인식 프로그램을 시작했습니다.",
+      "image_seed": "news4-2026-04-26",
+      "image_query": "Community watch group patrolling residential area Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between the Korean and Philippine tech sectors is expected to drive significant innovation and growth.",
+    "example_kr": "한국과 필리핀 기술 부문 간의 시너지는 상당한 혁신과 성장을 이끌어낼 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

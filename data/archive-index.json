@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-26",
+    "vol": 20,
+    "cover_en": "Korea-Philippines Digital Partnership Deepens, Boosting Tech Sector",
+    "cover_kr": "한국-필리핀 디지털 파트너십 심화, 기술 부문 활성화 기대",
+    "headlines_en": [
+      "Philippine Police, Korean Embassy Bolster Tourist Safety Measures",
+      "Korean Firms Eyeing Major Renewable Energy Investments in ASEAN",
+      "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Ties",
+      "Korea Expands Scholarship Programs for Filipino STEM Students",
+      "Local Government Units Launch Community Safety Programs for Expats"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 한국 대사관과 관광객 안전 조치 강화",
+      "한국 기업들, 아세안 재생에너지 투자 대규모 추진",
+      "마닐라 K-푸드 페스티벌 역대급 인파, 요리 문화 교류 축제",
+      "한국, 필리핀 STEM 학생 대상 장학금 프로그램 확대",
+      "지방 정부, 외국인 거주자 위한 지역사회 안전 프로그램 착수"
+    ],
+    "tags": [
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-04-25",
     "vol": 19,
     "cover_en": "Korea-Philippines Forge Stronger Digital Economy Partnership",
