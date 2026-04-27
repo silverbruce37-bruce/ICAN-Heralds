@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-27",
+  "header_date_line": "MONDAY, APRIL 27, 2026 | PHILIPPINES | VOL. 21",
+  "dashboard": {
+    "php_krw_rate": "24.35",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.27",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Smart City Initiative",
+    "headline_kr": "필리핀-한국, 랜드마크 스마트시티 이니셔티브 출범",
+    "subtitle_en": "A new era of urban development begins with significant Korean investment and technological expertise, aiming to create sustainable and digitally advanced communities. This collaboration promises to boost local economies and improve quality of life.",
+    "subtitle_kr": "한국의 투자와 기술 전문성을 바탕으로 지속가능하고 디지털화된 도시를 목표로 하는 새로운 도시 개발 시대가 시작됩니다. 이 협력은 지역 경제를 활성화하고 삶의 질을 향상시킬 것으로 기대됩니다.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea officially launched the \"New Clark Smart City Development Initiative\" today, marking a significant milestone in bilateral cooperation. President Ferdinand Marcos Jr. and a high-level Korean delegation, led by Minister of Land, Infrastructure, and Transport Won Hee-ryong, unveiled the ambitious project designed to transform urban landscapes through advanced digital infrastructure and green technologies. This initiative, backed by substantial Korean investment, aims to create a model for future sustainable urban living in Southeast Asia.",
+      "The partnership will focus on integrating smart technologies in transportation, energy management, public safety, and governance within the New Clark City framework. Korean companies are set to provide cutting-edge solutions in AI-driven traffic systems, renewable energy grids, and smart building designs, creating numerous job opportunities and fostering technology transfer. For the Korean community in the Philippines, this development opens new avenues for business expansion and offers a technologically advanced, secure environment for residents and future expatriates.",
+      "Experts foresee the New Clark Smart City Initiative as a catalyst for regional economic growth, attracting further foreign direct investment and strengthening the Philippines' position as a hub for innovation. Both nations expressed commitment to ensuring the project's long-term success, emphasizing its role in deepening strategic ties and setting a precedent for future collaborations in critical sectors. The initiative is expected to be a cornerstone of the Philippines' \"Build Better More\" program."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 한국은 오늘 양국 협력의 중요한 이정표가 될 \"뉴 클락 스마트시티 개발 이니셔티브\"를 공식 출범했습니다. 페르디난드 마르코스 주니어 대통령과 원희룡 국토교통부 장관이 이끄는 고위급 한국 대표단은 첨단 디지털 인프라와 친환경 기술을 통해 도시 경관을 변화시키기 위한 야심 찬 프로젝트를 공개했습니다. 한국의 상당한 투자를 바탕으로 한 이 이니셔티브는 동남아시아의 미래 지속가능한 도시 생활의 모델을 만드는 것을 목표로 합니다.",
+      "이번 파트너십은 뉴 클락 시티 프레임워크 내에서 교통, 에너지 관리, 공공 안전 및 거버넌스에 스마트 기술을 통합하는 데 중점을 둘 것입니다. 한국 기업들은 AI 기반 교통 시스템, 재생 에너지 그리드, 스마트 빌딩 설계 분야에서 최첨단 솔루션을 제공하여 수많은 일자리를 창출하고 기술 이전을 촉진할 예정입니다. 필리핀 내 한인 커뮤니티에게 이 개발은 비즈니스 확장을 위한 새로운 길을 열어주고, 거주자와 미래 이주자에게 기술적으로 진보되고 안전한 환경을 제공할 것입니다.",
+      "전문가들은 뉴 클락 스마트시티 이니셔티브가 지역 경제 성장의 촉매제가 되어 추가적인 해외 직접 투자를 유치하고 혁신 허브로서 필리핀의 입지를 강화할 것으로 예상합니다. 양국은 프로젝트의 장기적인 성공을 보장하고 주요 부문에서 전략적 관계를 심화하며 미래 협력의 선례를 세우는 데 중요한 역할을 할 것이라고 강조했습니다. 이 이니셔티브는 필리핀의 \"더 나은 건설\" 프로그램의 초석이 될 것으로 기대됩니다."
+    ],
+    "image_seed": "cover-2026-04-27",
+    "image_query": "Korean and Philippine officials shaking hands at smart city project launch",
+    "image_caption": "Photo: President Marcos Jr. and Minister Won Hee-ryong at the Smart City Initiative launch (April 27, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Increased Police Patrols Bolster Safety in Korean Communities",
+    "headline_kr": "한인 밀집 지역 치안 강화, 경찰 순찰 증대",
+    "lead_en": "Following recent reports of minor incidents, Philippine National Police (PNP) has deployed additional patrol units to areas with high concentrations of Korean residents, including Makati and Bonifacio Global City. This proactive measure, developed in close coordination with the Korean Embassy and community leaders, aims to ensure the safety and security of expatriates and tourists.",
+    "lead_kr": "최근 경미한 사건 보고에 따라 필리핀 국가경찰(PNP)이 마카티와 보니파시오 글로벌 시티를 포함한 한인 밀집 지역에 추가 순찰대를 배치했습니다. 주필리핀 대한민국 대사관 및 한인 커뮤니티 리더들과 긴밀히 협력하여 마련된 이 선제적 조치는 교민과 관광객의 안전과 보안을 확보하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-04-27",
+    "image_query": "Philippine police officers patrolling a street in Makati, Korean signage",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Ministers Discuss Digital Trade Harmonization",
+      "headline_kr": "아세안 장관들, 디지털 무역 표준화 논의",
+      "summary_en": "ASEAN economic ministers convened to accelerate the harmonization of digital trade policies, a move expected to streamline e-commerce and digital services across the region. This development is crucial for Korean businesses operating within Southeast Asia.",
+      "summary_kr": "아세안 경제 장관들은 역내 전자상거래 및 디지털 서비스를 간소화할 것으로 기대되는 디지털 무역 정책 표준화를 가속화하기 위해 모였습니다. 이 발전은 동남아시아에서 사업을 운영하는 한국 기업들에게 중요합니다.",
+      "image_seed": "news1-2026-04-27",
+      "image_query": "ASEAN flags digital trade meeting",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Breaks Attendance Records",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, highlighting the growing popularity of Korean cuisine among Filipinos. Vendors reported soaring sales of traditional and modern Korean dishes.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 기록하며 막을 내렸습니다. 이는 필리핀인들 사이에서 한국 음식의 인기가 높아지고 있음을 보여줍니다. 판매자들은 전통 및 현대 한국 음식의 판매 급증을 보고했습니다.",
+      "image_seed": "news2-2026-04-27",
+      "image_query": "Crowded K-Food festival street food",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-PH Expand Vocational Training Programs for Youth",
+      "headline_kr": "한국-필리핀, 청년 직업 훈련 프로그램 확대",
+      "summary_en": "Seoul and Manila announced an expansion of their joint vocational training programs, offering Filipino youth enhanced skills in areas like IT, manufacturing, and hospitality. This initiative aims to boost employability and strengthen bilateral ties.",
+      "summary_kr": "한국과 필리핀은 IT, 제조업, 서비스업 등 분야에서 필리핀 청년들에게 향상된 기술을 제공하는 공동 직업 훈련 프로그램 확대를 발표했습니다. 이 이니셔티브는 고용 가능성을 높이고 양국 관계를 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-04-27",
+      "image_query": "Korean and Filipino students in vocational class",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Warns Against Rising Online Scams",
+      "headline_kr": "주필리핀 한국대사관, 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines issued an urgent advisory, warning its citizens about a recent surge in online scams targeting expatriates. They urged vigilance against phishing attempts and fraudulent investment schemes.",
+      "summary_kr": "주필리핀 한국대사관은 교민을 대상으로 한 온라인 사기 급증에 대해 긴급 주의보를 발령했습니다. 대사관은 피싱 시도와 사기성 투자 계획에 대한 경계를 촉구했습니다.",
+      "image_seed": "news4-2026-04-27",
+      "image_query": "Cyber security warning screen digital lock",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 다른 주체가 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between Korean technology and Philippine resourcefulness will drive the success of the new smart city project.",
+    "example_kr": "한국의 기술력과 필리핀의 자원 활용 능력의 시너지가 새로운 스마트시티 프로젝트의 성공을 이끌 것입니다.",
+    "grade": "A+"
+  }
+}

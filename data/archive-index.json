@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-27",
+    "vol": 21,
+    "cover_en": "PH-Korea Launch Landmark Smart City Initiative",
+    "cover_kr": "필리핀-한국, 랜드마크 스마트시티 이니셔티브 출범",
+    "headlines_en": [
+      "Increased Police Patrols Bolster Safety in Korean Communities",
+      "ASEAN Ministers Discuss Digital Trade Harmonization",
+      "Manila's K-Food Festival Breaks Attendance Records",
+      "Korea-PH Expand Vocational Training Programs for Youth",
+      "Korean Embassy Warns Against Rising Online Scams"
+    ],
+    "headlines_kr": [
+      "한인 밀집 지역 치안 강화, 경찰 순찰 증대",
+      "아세안 장관들, 디지털 무역 표준화 논의",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "한국-필리핀, 청년 직업 훈련 프로그램 확대",
+      "주필리핀 한국대사관, 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Security",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-04-26",
     "vol": 20,
     "cover_en": "Korea-Philippines Digital Partnership Deepens, Boosting Tech Sector",
