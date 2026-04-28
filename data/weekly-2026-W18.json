@@ -1,0 +1,215 @@
+{
+  "week": "2026-W18",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Hapag Manila",
+    "name_kr": "하팍 마닐라",
+    "cuisine_tags": [
+      {
+        "en": "Modern Filipino",
+        "kr": "모던 필리핀"
+      },
+      {
+        "en": "Fine Dining",
+        "kr": "파인 다이닝"
+      }
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Stepping into Hapag Manila feels like entering a sanctuary where Filipino culinary heritage meets contemporary artistry. Each dish is a story, meticulously crafted with local ingredients and innovative techniques, transforming familiar flavors into an extraordinary gastronomic adventure. The ambiance is thoughtfully elegant, allowing the vibrant dishes and heartfelt service to shine, making every meal a memorable celebration of Filipino identity.",
+    "lead_kr": "하팍 마닐라에 들어서는 순간, 필리핀 요리 유산이 현대 예술과 만나는 성역에 들어선 듯한 느낌을 받습니다. 모든 요리는 지역 재료와 혁신적인 기술로 세심하게 만들어진 이야기이며, 친숙한 맛을 비범한 미식 모험으로 바꿉니다. 분위기는 사려 깊게 우아하여 활기찬 요리와 진심 어린 서비스가 빛을 발하며, 모든 식사를 필리핀 정체성의 기억에 남는 축하 행사로 만듭니다.",
+    "quote_en": "Our dream is to elevate Filipino cuisine, to show the world the depth and diversity of our flavors through a modern lens, while staying true to our roots.",
+    "quote_kr": "우리의 꿈은 필리핀 요리를 격상시키고, 우리의 뿌리에 충실하면서도 현대적인 시각을 통해 우리 맛의 깊이와 다양성을 전 세계에 보여주는 것입니다.",
+    "location": "140 Katipunan Ave, Project 4, Quezon City",
+    "price_range": "₱2,500–5,000 per person",
+    "hours": "Tue-Sun: 6:00 PM – 10:00 PM",
+    "hours_closed_en": "Closed Mondays",
+    "hours_closed_kr": "월요일 휴무",
+    "language_en": "English, Filipino",
+    "language_kr": "영어, 필리핀어",
+    "must_try": [
+      {
+        "en": "Sinigang na Lechon Belly",
+        "kr": "시니강 나 레촌 벨리",
+        "price": "₱1,250"
+      },
+      {
+        "en": "Kinilaw na Tuna with Coconut Milk",
+        "kr": "코코넛 밀크를 곁들인 키닐라오 나 참치",
+        "price": "₱890"
+      },
+      {
+        "en": "Adobo Rice with Foie Gras",
+        "kr": "푸아그라를 곁들인 아도보 라이스",
+        "price": "₱980"
+      }
+    ],
+    "tip_en": "Reservations are essential, especially for dinner. Consider trying their tasting menu for the full Hapag experience. Dress code is smart casual.",
+    "tip_kr": "특히 저녁 식사를 위해서는 예약이 필수입니다. 하팍의 완전한 경험을 위해 테이스팅 메뉴를 시도해 보세요. 복장 규정은 스마트 캐주얼입니다.",
+    "hero_image_seed": "food-w2026-W18",
+    "image_query": "modern filipino fine dining restaurant elegant interior warm lighting artistic plating sinigang lechon belly",
+    "gallery_seeds": [
+      "food-g1-w2026-W18",
+      "food-g2-w2026-W18",
+      "food-g3-w2026-W18"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W18",
+      "image_query": "majestic Hulugan Falls lush green forest clear water natural pool adventure",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {
+          "en": "Nature",
+          "kr": "자연"
+        },
+        {
+          "en": "Activity",
+          "kr": "활동"
+        }
+      ],
+      "name_en": "Hulugan Falls",
+      "name_kr": "훌루간 폭포",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "Escape the city bustle and discover the breathtaking beauty of Hulugan Falls in Laguna. A moderate trek through lush forests leads to this magnificent cascade, where cool, pristine waters invite you for a refreshing dip. It's an invigorating adventure for nature lovers seeking a serene yet thrilling experience, far from the usual tourist crowds.",
+      "lead_kr": "도시의 번잡함에서 벗어나 라구나의 숨 막히는 훌루간 폭포의 아름다움을 발견하세요. 울창한 숲을 통과하는 적당한 트레킹은 시원하고 깨끗한 물이 상쾌한 목욕을 유혹하는 이 웅장한 폭포로 이어집니다. 평범한 관광객들로부터 벗어나 고요하면서도 스릴 넘치는 경험을 찾는 자연 애호가들에게 활력을 주는 모험입니다.",
+      "location": "Brgy. San Salvador, Luisiana, Laguna",
+      "cost": "₱50 environmental fee, ₱100 guide fee per group",
+      "tip_en": "Wear sturdy trekking shoes and bring extra clothes for swimming. Start your journey early to avoid the midday heat and crowds.",
+      "tip_kr": "튼튼한 트레킹 신발을 신고 수영을 위한 여벌 옷을 준비하세요. 한낮의 더위와 인파를 피하기 위해 일찍 출발하세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W18",
+      "image_query": "vibrant Binondo Chinatown bustling street food historic arch red lanterns",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "Culture",
+          "kr": "문화"
+        },
+        {
+          "en": "Walking",
+          "kr": "도보"
+        }
+      ],
+      "name_en": "Binondo Chinatown",
+      "name_kr": "비논도 차이나타운",
+      "stars": "★★★★★",
+      "rating": 4.7,
+      "lead_en": "Step back in time and immerse yourself in the vibrant tapestry of Binondo, the world's oldest Chinatown. This bustling district is a sensory feast, offering a rich blend of history, culture, and an unparalleled culinary journey. From traditional Chinese delicacies to fusion street food, every corner tells a story, making it a perfect destination for curious explorers and food enthusiasts alike.",
+      "lead_kr": "세계에서 가장 오래된 차이나타운인 비논도의 활기찬 태피스트리에 푹 빠져 시간 여행을 떠나보세요. 이 번화한 지역은 역사, 문화, 그리고 비할 데 없는 미식 여행의 풍부한 조화를 제공하는 감각적인 향연입니다. 전통 중국 요리부터 퓨전 길거리 음식까지, 모든 코너가 이야기를 들려주어 호기심 많은 탐험가와 음식 애호가 모두에게 완벽한 목적지입니다.",
+      "location": "Binondo, Manila",
+      "cost": "Free (food & souvenir costs vary)",
+      "tip_en": "Join a guided food crawl to discover hidden gems and taste the best of Binondo. Wear comfortable shoes as you'll be doing a lot of walking.",
+      "tip_kr": "숨겨진 보석을 발견하고 비논도 최고의 맛을 보려면 가이드와 함께하는 음식 투어에 참여하세요. 많이 걸어야 하므로 편안한 신발을 착용하세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "APR 18",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "금요일",
+      "image_seed": "event1-w2026-W18",
+      "image_query": "filipino pop music concert stage lights energetic crowd",
+      "title": "OPM Rising Stars Concert",
+      "desc_en": "Catch the freshest voices in Original Pilipino Music (OPM) as they take the stage for a night of soulful ballads and upbeat anthems. This concert showcases the future of Filipino music, promising an unforgettable experience for all music lovers.",
+      "desc_kr": "필리핀 오리지널 음악(OPM)의 가장 신선한 목소리들이 무대에서 감미로운 발라드와 신나는 찬가를 선사하는 밤을 즐겨보세요. 이 콘서트는 필리핀 음악의 미래를 보여주며 모든 음악 애호가들에게 잊을 수 없는 경험을 약속합니다.",
+      "venue_en": "Music Museum",
+      "venue_kr": "뮤직 뮤지엄",
+      "address_en": "Greenhills Shopping Center, Missouri St, San Juan City",
+      "address_kr": "그린힐스 쇼핑 센터, 미주리 스트리트, 산후안 시",
+      "time_en": "Doors 7:00 PM · Show 8:00 PM",
+      "time_kr": "입장 오후 7시 · 공연 오후 8시",
+      "price_en": "₱1,200 advance / ₱1,500 at door",
+      "price_kr": "사전 ₱1,200 / 현장 ₱1,500",
+      "contact": "Ticketworld.com.ph",
+      "note_en": "Limited seats available. Book your tickets early online to secure your spot.",
+      "note_kr": "좌석이 제한되어 있습니다. 온라인으로 일찍 티켓을 예매하여 자리를 확보하세요."
+    },
+    {
+      "date_badge": "MAY 05",
+      "day_of_week_en": "Monday",
+      "day_of_week_kr": "월요일",
+      "image_seed": "event2-w2026-W10",
+      "image_query": "modern art exhibition gallery white walls abstract paintings",
+      "title": "Art Fair Philippines Preview",
+      "desc_en": "Get an exclusive sneak peek at some of the most anticipated pieces from the upcoming Art Fair Philippines. This preview offers a curated selection of contemporary Filipino art, providing a glimpse into the vibrant local art scene.",
+      "desc_kr": "다가오는 필리핀 아트 페어에서 가장 기대되는 작품들을 독점적으로 미리 만나보세요. 이 프리뷰는 현대 필리핀 미술의 엄선된 작품들을 선보이며 활기찬 현지 미술계의 모습을 엿볼 수 있게 합니다.",
+      "venue_en": "Ayala Museum",
+      "venue_kr": "아얄라 박물관",
+      "address_en": "Makati Avenue corner De La Rosa Street, Greenbelt Park, Makati City",
+      "address_kr": "마카티 애비뉴 코너 데 라 로사 스트리트, 그린벨트 공원, 마카티 시",
+      "time_en": "10:00 AM – 6:00 PM",
+      "time_kr": "오전 10시 – 오후 6시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "AyalaMuseum.org",
+      "note_en": "Pre-registration is required for free entry. Walk-ins may be subject to availability.",
+      "note_kr": "무료 입장을 위해 사전 등록이 필수입니다. 현장 방문객은 입장 가능 여부에 따라 달라질 수 있습니다."
+    },
+    {
+      "date_badge": "JUN 12",
+      "day_of_week_en": "Thursday",
+      "day_of_week_kr": "목요일",
+      "image_seed": "event3-w2026-W11",
+      "image_query": "bustling night food market street food stalls diverse cuisine",
+      "title": "Mercato Centrale Night Market",
+      "desc_en": "Indulge in a culinary adventure at Mercato Centrale's vibrant night market. Discover a diverse array of local and international street food, gourmet treats, and unique desserts from passionate home cooks and budding entrepreneurs.",
+      "desc_kr": "메르카토 센트럴의 활기찬 야시장에서 미식 모험에 빠져보세요. 열정적인 가정 요리사와 신진 기업가들이 선보이는 다양한 현지 및 세계 길거리 음식, 고급 간식, 독특한 디저트를 만나보세요.",
+      "venue_en": "Mercato Centrale BGC",
+      "venue_kr": "메르카토 센트럴 BGC",
+      "address_en": "Uptown Parade, 9th Avenue, Bonifacio Global City, Taguig",
+      "address_kr": "업타운 퍼레이드, 9번가, 보니파시오 글로벌 시티, 타귁",
+      "time_en": "6:00 PM – 1:00 AM",
+      "time_kr": "오후 6시 – 오전 1시",
+      "price_en": "FREE entry (food prices vary)",
+      "price_kr": "입장 무료 (음식 가격 상이)",
+      "contact": "@mercatocentrale on Instagram",
+      "note_en": "Cash payments are preferred by most vendors. Come hungry and explore the vast selection!",
+      "note_kr": "대부분의 판매자는 현금 결제를 선호합니다. 배고픈 상태로 와서 다양한 음식을 탐험하세요!"
+    },
+    {
+      "date_badge": "JUL 20",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W12",
+      "image_query": "filipino traditional dance tinikling dancers colorful costumes",
+      "title": "Filipino Traditional Dance Workshop",
+      "desc_en": "Experience the grace and rhythm of Filipino culture through a beginner-friendly traditional dance workshop. Learn basic steps of iconic dances like Tinikling and Pandanggo sa Ilaw, and connect with the rich heritage of the Philippines.",
+      "desc_kr": "초보자도 쉽게 배울 수 있는 전통 춤 워크숍을 통해 필리핀 문화의 우아함과 리듬을 경험해 보세요. 티니클링, 판당고 사 일라우와 같은 상징적인 춤의 기본 동작을 배우고 필리핀의 풍부한 유산과 연결됩니다.",
+      "venue_en": "Folk Arts Theater",
+      "venue_kr": "포크 아트 씨어터",
+      "address_en": "CCP Complex, Vicente Sotto St, Pasay City",
+      "address_kr": "CCP 콤플렉스, 비센테 소토 스트리트, 파사이 시",
+      "time_en": "1:00 PM – 4:00 PM",
+      "time_kr": "오후 1시 – 오후 4시",
+      "price_en": "₱800 per session",
+      "price_kr": "세션당 ₱800",
+      "contact": "culturalcenter.gov.ph/workshops",
+      "note_en": "Beginners are welcome, no prior dance experience needed. Wear comfortable attire that allows for movement.",
+      "note_kr": "초보자 환영하며, 사전 춤 경험은 필요하지 않습니다. 움직임에 편안한 복장을 착용하세요."
+    }
+  ],
+  "picks": {
+    "date": "2026.04.28",
+    "title_en": "Reimagining Filipino Flavors: A Culinary Journey Home",
+    "title_kr": "필리핀 맛의 재해석: 집으로 떠나는 미식 여행",
+    "body_en": [
+      "There’s a certain magic in food that transcends mere sustenance. It’s a portal to memories, a vessel for culture, and a canvas for innovation. This week, my culinary journey led me to Hapag Manila, a place that doesn't just serve food, but tells a profound story of Filipino heritage through every meticulously plated dish.",
+      "As an editor, I often seek out experiences that resonate deeply, and Hapag delivered just that. Their approach to modern Filipino cuisine isn't about abandoning tradition, but rather about understanding its essence and presenting it in a way that’s both familiar and exhilaratingly new. Each bite felt like a conversation between the past and the present, a respectful nod to our roots while boldly stepping into the future.",
+      "It reminded me that true innovation isn't about discarding what came before, but building upon it with respect and creativity. Hapag Manila captures the heart of Filipino hospitality and the soul of its cuisine, inviting diners to not just eat, but to truly connect with the flavors that define a nation. It's a reminder that home, in its most delicious form, can always be reimagined."
+    ],
+    "body_kr": [
+      "단순한 영양 섭취를 넘어선 음식에는 특별한 마법이 있습니다. 음식은 기억으로 향하는 문이자, 문화를 담는 그릇이며, 혁신을 위한 캔버스입니다. 이번 주, 저의 미식 여행은 하팍 마닐라로 이끌었습니다. 이곳은 단순히 음식을 제공하는 것을 넘어, 정성스럽게 플레이팅된 모든 요리를 통해 필리핀 유산의 심오한 이야기를 들려줍니다.",
+      "편집자로서 저는 종종 깊이 공감할 수 있는 경험을 찾는데, 하팍이 바로 그러했습니다. 그들의 현대 필리핀 요리 접근 방식은 전통을 버리는 것이 아니라, 그 본질을 이해하고 친숙하면서도 짜릿하게 새로운 방식으로 제시하는 것입니다. 한 입 한 입이 과거와 현재의 대화 같았고, 우리의 뿌리에 대한 존경을 표하면서도 대담하게 미래로 나아가는 모습이었습니다.",
+      "이는 진정한 혁신이 이전의 것을 버리는 것이 아니라, 존중과 창의성으로 그 위에 쌓아 올리는 것임을 상기시켜 주었습니다. 하팍 마닐라는 필리핀 환대의 마음과 요리의 영혼을 담아내며, 손님들에게 단순히 먹는 것을 넘어 한 국가를 정의하는 맛과 진정으로 연결되도록 초대합니다. 이는 가장 맛있는 형태의 집이 언제나 재해석될 수 있다는 것을 일깨워줍니다."
+    ],
+    "connect_label_en": "This story connects: Taste, Heritage, Innovation",
+    "connect_label_kr": "이 이야기가 연결하는 것: 맛, 유산, 혁신"
+  }
+}
