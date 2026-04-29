@@ -46,6 +46,7 @@ echo ""
 echo "[2/5] Generating daily content JSON..."
 
 DAILY_FILE="data/daily-${DATE}.json"
+EDITORIAL_CACHE_DIR="$HOME/ican-editorial-auto/data/heralds-cache"
 
 # Volume
 VOLUME_FILE="data/volume.txt"
@@ -144,6 +145,10 @@ python3 -c "import json; json.load(open('$DAILY_FILE')); print('  Daily JSON val
     echo "  ERROR: Invalid daily JSON"
     exit 1
 }
+
+mkdir -p "$EDITORIAL_CACHE_DIR"
+cp "$DAILY_FILE" "$EDITORIAL_CACHE_DIR/"
+echo "  Mirrored daily JSON to $EDITORIAL_CACHE_DIR"
 
 # ─── Step 3: Generate academy JSON via Claude ──────
 echo ""
