@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-04-29",
+  "header_date_line": "WEDNESDAY, APRIL 29, 2026 | PHILIPPINES | VOL. 23",
+  "dashboard": {
+    "php_krw_rate": "24.07",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.04.29",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Smart City Initiative in Clark",
+    "headline_kr": "필리핀-한국, 클락에 랜드마크 스마트시티 이니셔티브 출범",
+    "subtitle_en": "The ambitious project aims to integrate advanced technology and sustainable practices, boosting economic growth and improving urban living standards for residents.",
+    "subtitle_kr": "이 야심찬 프로젝트는 첨단 기술과 지속 가능한 관행을 통합하여 경제 성장을 촉진하고 주민들의 도시 생활 수준을 향상시키는 것을 목표로 합니다.",
+    "body_en": [
+      "The Philippines and South Korea today officially launched a groundbreaking Smart City Initiative in Clark, Pampanga, marking a significant milestone in bilateral cooperation. The project, spearheaded by the Philippine Bases Conversion and Development Authority (BCDA) and a consortium of leading Korean technology firms, aims to transform Clark into a model for future urban development in Southeast Asia.",
+      "This multi-billion dollar endeavor will focus on developing state-of-the-art digital infrastructure, implementing green energy solutions, and integrating smart services for transportation, public safety, and governance. The initiative is expected to attract substantial foreign direct investment, create thousands of jobs, and provide a cutting-edge living and working environment for both local and expatriate communities, including the growing Korean population in the region.",
+      "Officials from both nations emphasized the project's potential to foster economic resilience and technological advancement, serving as a blueprint for sustainable development across the ASEAN region. The collaboration underscores the deepening strategic partnership between the Philippines and South Korea, paving the way for further joint ventures in innovation and urban planning."
+    ],
+    "body_kr": [
+      "필리핀과 한국은 오늘 팜팡가 클락에서 획기적인 스마트시티 이니셔티브를 공식 출범하며 양국 협력에 중요한 이정표를 세웠습니다. 필리핀 기지 전환 및 개발청(BCDA)과 한국의 선도적인 기술 기업 컨소시엄이 주도하는 이 프로젝트는 클락을 동남아시아 미래 도시 개발의 모델로 전환하는 것을 목표로 합니다.",
+      "수십억 달러 규모의 이 사업은 최첨단 디지털 인프라 개발, 친환경 에너지 솔루션 구현, 교통, 공공 안전 및 거버넌스를 위한 스마트 서비스 통합에 중점을 둘 것입니다. 이 이니셔티브는 상당한 외국인 직접 투자를 유치하고 수천 개의 일자리를 창출하며, 지역 내 증가하는 한국인 인구를 포함한 현지 및 외국인 커뮤니티 모두에게 최첨단 생활 및 업무 환경을 제공할 것으로 기대됩니다.",
+      "양국 관계자들은 이 프로젝트가 경제 회복력과 기술 발전을 촉진하고, 아세안 지역 전반의 지속 가능한 개발을 위한 청사진 역할을 할 잠재력을 강조했습니다. 이번 협력은 필리핀과 한국 간의 심화되는 전략적 파트너십을 강조하며, 혁신 및 도시 계획 분야에서 추가적인 합작 투자를 위한 길을 열고 있습니다."
+    ],
+    "image_seed": "cover-2026-04-29",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement Clark",
+    "image_caption": "Photo: Officials from the Philippines and South Korea finalize the Smart City agreement in Clark (April 29, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Boost Joint Efforts for Tourist Safety",
+    "headline_kr": "필리핀 경찰청, 한국 대사관과 관광객 안전 위한 공동 노력 강화",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila have announced a new phase of enhanced cooperation to ensure the safety and security of Korean nationals visiting and residing in the Philippines. This initiative comes amidst growing tourism numbers and aims to mitigate potential risks.",
+    "lead_kr": "필리핀 경찰청(PNP)과 주 필리핀 한국 대사관은 필리핀을 방문하거나 거주하는 한국인들의 안전과 보안을 보장하기 위한 강화된 협력의 새로운 단계를 발표했습니다. 이 이니셔티브는 증가하는 관광객 수에 발맞춰 잠재적 위험을 완화하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-04-29",
+    "image_query": "Philippine police Korean embassy officials meeting discussing safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Poised for Record Growth in 2026",
+      "headline_kr": "2026년 아세안 디지털 경제, 기록적인 성장 전망",
+      "summary_en": "Analysts predict a robust expansion of the ASEAN digital economy this year, driven by increased e-commerce adoption and significant investments in digital infrastructure across the region, presenting new opportunities for Korean businesses.",
+      "summary_kr": "분석가들은 올해 아세안 디지털 경제의 견고한 확장을 예측하며, 전자상거래 채택 증가와 역내 디지털 인프라에 대한 상당한 투자가 한국 기업들에게 새로운 기회를 제공할 것으로 보고 있습니다.",
+      "image_seed": "news1-2026-04-29",
+      "image_query": "ASEAN flags digital economy growth chart",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Manila Draws Record Crowds with Culinary Delights",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 미식의 향연으로 역대 최다 관객 동원",
+      "summary_en": "The annual K-Food Festival in Manila concluded successfully, showcasing a diverse range of traditional and modern Korean dishes. The event attracted thousands of food enthusiasts, further solidifying K-food's popularity in the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전통 및 현대 한국 요리의 다양성을 선보이며 성공적으로 막을 내렸습니다. 이 행사는 수천 명의 미식가를 끌어모으며 필리핀에서 K-푸드의 인기를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-04-29",
+      "image_query": "Korean food festival crowd eating kimchi bibimbap",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "headline_kr": "한국, 필리핀 재생에너지 프로젝트 지원 약속",
+      "summary_en": "South Korea has reiterated its commitment to supporting the Philippines' transition to sustainable energy, announcing new funding and technical assistance for several renewable energy initiatives, aligning with global climate goals.",
+      "summary_kr": "한국은 필리핀의 지속 가능한 에너지 전환을 지원하겠다는 약속을 재확인하며, 여러 재생에너지 이니셔티브에 대한 새로운 자금 및 기술 지원을 발표하여 글로벌 기후 목표에 부합합니다.",
+      "image_seed": "news3-2026-04-29",
+      "image_query": "Korean Philippine flags solar panels wind turbines",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Enhances Community Watch Programs for Residents",
+      "headline_kr": "마카티 시, 주민 위한 지역사회 감시 프로그램 강화",
+      "summary_en": "Makati City has launched enhanced community watch programs, encouraging resident participation and leveraging new technology to improve local safety and security. The initiative aims to create safer neighborhoods for all, including expatriates.",
+      "summary_kr": "마카티 시는 주민 참여를 장려하고 새로운 기술을 활용하여 지역 안전 및 보안을 개선하는 강화된 지역사회 감시 프로그램을 시작했습니다. 이 이니셔티브는 외국인을 포함한 모든 주민을 위해 더 안전한 이웃을 만드는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-04-29",
+      "image_query": "Makati city residents community watch patrol",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The smart city project aims to achieve synergy between advanced technology and community needs.",
+    "example_kr": "스마트시티 프로젝트는 첨단 기술과 지역사회 요구 간의 시너지를 달성하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-29",
+    "vol": 23,
+    "cover_en": "PH-Korea Launch Landmark Smart City Initiative in Clark",
+    "cover_kr": "필리핀-한국, 클락에 랜드마크 스마트시티 이니셔티브 출범",
+    "headlines_en": [
+      "PNP, Korean Embassy Boost Joint Efforts for Tourist Safety",
+      "ASEAN Digital Economy Poised for Record Growth in 2026",
+      "K-Food Festival Manila Draws Record Crowds with Culinary Delights",
+      "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "Makati City Enhances Community Watch Programs for Residents"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청, 한국 대사관과 관광객 안전 위한 공동 노력 강화",
+      "2026년 아세안 디지털 경제, 기록적인 성장 전망",
+      "마닐라 K-푸드 페스티벌, 미식의 향연으로 역대 최다 관객 동원",
+      "한국, 필리핀 재생에너지 프로젝트 지원 약속",
+      "마카티 시, 주민 위한 지역사회 감시 프로그램 강화"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-04-28",
     "vol": 22,
     "cover_en": "Korea, Philippines Forge Landmark Digital Infrastructure Partnership",
