@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-04-30",
+    "vol": 24,
+    "cover_en": "PH-Korea Launch Landmark Digital Economy Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 경제 파트너십 출범",
+    "headlines_en": [
+      "New Security Protocols Boost Safety for Korean Tourists, Residents",
+      "Korean F&B Brands Expand Footprint in Philippine Market",
+      "Manila Set to Host Major K-Pop Dance Festival This Summer",
+      "Korean Volunteers Boost Rural Health Programs in Bicol",
+      "Embassy Issues Warning on Online Job Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "새로운 보안 프로토콜, 한국인 관광객 및 거주민 안전 강화",
+      "한국 F&B 브랜드, 필리핀 시장 내 입지 확대",
+      "마닐라, 올 여름 대규모 K-팝 댄스 페스티벌 개최 예정",
+      "한국인 자원봉사자들, 비콜 지역 농촌 보건 프로그램 지원 강화",
+      "대사관, 교민 대상 온라인 취업 사기 경고 발표"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-04-29",
     "vol": 23,
     "cover_en": "PH-Korea Launch Landmark Smart City Initiative in Clark",
