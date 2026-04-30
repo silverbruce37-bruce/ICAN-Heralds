@@ -1,14 +1,12 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════
-# ICAN Heralds — Full Update Pipeline
+# ICAN Heralds — Full Update Pipeline (Gemini Edition)
 # ═══════════════════════════════════════════════════
 # 텔레그램 브리핑 → daily JSON → academy JSON → HTML 주입 → 배포
 #
 # Usage:
 #   ./scripts/update-herald.sh              # 최신 브리핑 자동 감지
 #   ./scripts/update-herald.sh 2026-04-12   # 특정 날짜 지정
-#
-# Called by Claude Code when user says "신문기사 업뎃해줘"
 # ═══════════════════════════════════════════════════
 
 set -euo pipefail
@@ -18,9 +16,60 @@ DATE=${1:-$(TZ="Asia/Manila" date +%Y-%m-%d)}
 BRIEFING_DIR="$HOME/.claude/projects/-Users-worker64/memory/briefings"
 
 echo "═══════════════════════════════════════════"
-echo " ICAN Heralds Update Pipeline"
+echo " ICAN Heralds Update Pipeline (Gemini)"
 echo " Date: $DATE"
 echo "═══════════════════════════════════════════"
+
+# Ensure API Key is available
+if [ -z "${GEMINI_API_KEY:-}" ]; then
+    # Try to load from sibling muni-siki/.env
+    ENV_PATH="$(dirname "$0")/../../muni-siki/.env"
+    if [ -f "$ENV_PATH" ]; then
+        export GEMINI_API_KEY=$(grep GEMINI_API_KEY "$ENV_PATH" | cut -d= -f2)
+    fi
+fi
+
+if [ -z "${GEMINI_API_KEY:-}" ]; then
+    echo "ERROR: GEMINI_API_KEY not set"
+    exit 1
+fi
+
+call_gemini() {
+    local prompt="$1"
+    local payload_file=$(mktemp)
+    
+    python3 -c "
+import json, sys
+prompt = \"\"\"$prompt\"\"\"
+payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'maxOutputTokens': 8192, 'temperature': 0.7}}
+print(json.dumps(payload))
+" > "$payload_file"
+
+    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
+        -H "Content-Type: application/json" \
+        -d @"$payload_file")
+    
+    rm -f "$payload_file"
+    
+    echo "$response" | python3 -c "
+import sys, json, re
+try:
+    resp = json.load(sys.stdin)
+    text = resp['candidates'][0]['content']['parts'][0]['text']
+    if text.startswith('\`\`\`json'): text = text[7:]
+    if text.startswith('\`\`\`'): text = text[3:]
+    if text.endswith('\`\`\`'): text = text[:-3]
+    text = text.strip()
+    if not text.startswith('{'):
+        start = text.find('{'); end = text.rfind('}')
+        if start >= 0 and end > start: text = text[start:end+1]
+    json.loads(text)
+    print(text)
+except Exception as e:
+    print(f'Gemini parse error: {e}', file=sys.stderr)
+    sys.exit(1)
+"
+}
 
 # ─── Step 1: Find latest briefing ──────────────────
 echo ""
@@ -33,7 +82,6 @@ if [ -z "$BRIEFING_FILES" ]; then
     exit 1
 fi
 
-# Combine all briefings for the day
 COMBINED=""
 for f in $BRIEFING_FILES; do
     COMBINED="$COMBINED
@@ -41,7 +89,7 @@ $(cat "$f")"
     echo "  Found: $(basename "$f")"
 done
 
-# ─── Step 2: Generate daily JSON via Claude ────────
+# ─── Step 2: Generate daily JSON ───────────────────
 echo ""
 echo "[2/5] Generating daily content JSON..."
 
@@ -65,9 +113,7 @@ DATE_DISPLAY=$(TZ="Asia/Manila" date -j -f "%Y-%m-%d" "$DATE" "+%B %-d, %Y" 2>/d
 DATE_DOT=$(echo "$DATE" | tr '-' '.')
 HEADER_LINE="${DAY_UPPER}, ${DATE_DISPLAY} | PHILIPPINES | ${VOLUME_DISPLAY}"
 
-claude --model sonnet -p --dangerously-skip-permissions "
-You are a bilingual (English/Korean) news editor for ICAN Heralds.
-
+DAILY_PROMPT="You are a bilingual (English/Korean) news editor for ICAN Heralds.
 Based on these REAL briefing notes from today, generate a daily news edition JSON.
 
 === TODAY'S BRIEFING ===
@@ -79,66 +125,45 @@ Return ONLY valid JSON (no markdown fences) with this EXACT structure:
   \"edition_date\": \"${DATE}\",
   \"header_date_line\": \"${HEADER_LINE}\",
   \"dashboard\": {
-    \"php_krw_rate\": \"USE REAL RATE FROM BRIEFING or estimate\",
-    \"weather_en\": \"USE REAL WEATHER FROM BRIEFING\",
+    \"php_krw_rate\": \"REAL RATE FROM BRIEFING\",
+    \"weather_en\": \"REAL WEATHER FROM BRIEFING\",
     \"weather_kr\": \"한국어 날씨\",
     \"date\": \"${DATE_DOT}\",
     \"embassy_en\": \"Normal Operations\",
     \"embassy_kr\": \"정상 운영\"
   },
   \"cover_story\": {
-    \"headline_en\": \"Most important story (max 80 chars)\",
-    \"headline_kr\": \"가장 중요한 기사 한국어\",
-    \"subtitle_en\": \"1-2 sentence subtitle\",
-    \"subtitle_kr\": \"부제목\",
-    \"body_en\": [\"Paragraph 1 (substantial)\", \"Paragraph 2\", \"Paragraph 3\"],
+    \"headline_en\": \"...\", \"headline_kr\": \"...\",
+    \"subtitle_en\": \"...\", \"subtitle_kr\": \"...\",
+    \"body_en\": [\"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\"],
     \"body_kr\": [\"단락 1\", \"단락 2\", \"단락 3\"],
     \"image_seed\": \"cover-${DATE}\",
-    \"image_query\": \"Visual description for AI image generation (e.g., 'A ship in Manila port at sunset')\",
+    \"image_query\": \"Visual description for AI image generation\",
     \"image_caption\": \"Photo: description (date)\",
     \"author\": \"By ICAN Herald Editorial\",
     \"read_time_min\": 5
   },
   \"featured_news\": {
-    \"tag\": \"Cooperation\",
-    \"tag_class\": \"tag-diplomacy\",
-    \"headline_en\": \"Second most important story\",
-    \"headline_kr\": \"두 번째 중요 기사\",
-    \"lead_en\": \"2-3 sentence lead\",
-    \"lead_kr\": \"리드\",
-    \"image_seed\": \"feat-${DATE}\",
-    \"image_query\": \"Visual description for AI image generation\",
-    \"desk\": \"Diplomacy Desk\",
-    \"read_time_min\": 4
+    \"tag\": \"Cooperation\", \"tag_class\": \"tag-diplomacy\",
+    \"headline_en\": \"...\", \"headline_kr\": \"...\",
+    \"lead_en\": \"...\", \"lead_kr\": \"...\",
+    \"image_seed\": \"feat-${DATE}\", \"image_query\": \"...\",
+    \"desk\": \"Diplomacy Desk\", \"read_time_min\": 4
   },
   \"news_grid\": [
-    {\"tag\": \"Economy\", \"tag_class\": \"tag-economy\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news1-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
-    {\"tag\": \"Safety\", \"tag_class\": \"tag-safety\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news2-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
-    {\"tag\": \"Culture\", \"tag_class\": \"tag-culture\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news3-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2},
-    {\"tag\": \"Security\", \"tag_class\": \"tag-security\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news4-${DATE}\", \"image_query\": \"Visual description\", \"read_time_min\": 2}
+    {\"tag\": \"Economy\", \"tag_class\": \"tag-economy\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news1-${DATE}\", \"image_query\": \"...\", \"read_time_min\": 2},
+    {\"tag\": \"Safety\", \"tag_class\": \"tag-safety\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news2-${DATE}\", \"image_query\": \"...\", \"read_time_min\": 2},
+    {\"tag\": \"Culture\", \"tag_class\": \"tag-culture\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news3-${DATE}\", \"image_query\": \"...\", \"read_time_min\": 2},
+    {\"tag\": \"Security\", \"tag_class\": \"tag-security\", \"headline_en\": \"...\", \"headline_kr\": \"...\", \"summary_en\": \"...\", \"summary_kr\": \"...\", \"image_seed\": \"news4-${DATE}\", \"image_query\": \"...\", \"read_time_min\": 2}
   ],
   \"word_of_day\": {
-    \"word\": \"English Word\",
-    \"pronunciation\": \"phonetic\",
-    \"type\": \"noun\",
-    \"definition_en\": \"definition\",
-    \"definition_kr\": \"정의\",
-    \"example_en\": \"Example sentence.\",
-    \"example_kr\": \"예문.\",
-    \"grade\": \"A+\"
+    \"word\": \"...\", \"pronunciation\": \"...\", \"type\": \"...\", \"definition_en\": \"...\", \"definition_kr\": \"...\", \"example_en\": \"...\", \"example_kr\": \"...\", \"grade\": \"A+\"
   }
 }
+"
 
-RULES:
-- USE REAL DATA from the briefing (exchange rates, weather, actual news stories)
-- Cover story = biggest impact story for Korean community
-- tag_class must be: tag-security, tag-economy, tag-culture, tag-diplomacy, or tag-safety
-- 3 substantial paragraphs per language for cover body
-- word_of_day connects to cover story theme
-- image_query: 3-8 word visual concept for a premium 3D render. Focus on objects, buildings, or metaphorical scenes rather than close-up human faces. (e.g. 'Skyscraper in Manila with digital connectivity lines')
-- Korean text must be natural, not machine-translated
-- Return ONLY valid JSON
-" > "$DAILY_FILE"
+call_gemini "$DAILY_PROMPT" > "$DAILY_FILE"
+echo "  Daily JSON generated: $DAILY_FILE"
 
 # Validate
 python3 -c "import json; json.load(open('$DAILY_FILE')); print('  Daily JSON valid')" || {
@@ -150,60 +175,25 @@ mkdir -p "$EDITORIAL_CACHE_DIR"
 cp "$DAILY_FILE" "$EDITORIAL_CACHE_DIR/"
 echo "  Mirrored daily JSON to $EDITORIAL_CACHE_DIR"
 
-# ─── Step 3: Generate academy JSON via Claude ──────
+# ─── Step 3: Generate academy JSON ─────────────────
 echo ""
 echo "[3/5] Generating Academy knowledge layers..."
 
 ACADEMY_FILE="data/academy-${DATE}.json"
-
-claude --model sonnet -p --dangerously-skip-permissions "
-You are an educational content designer for ICAN Academy.
-
+ACADEMY_PROMPT="You are an educational content designer for ICAN Academy.
 Based on this daily news JSON, generate background knowledge layers for each article.
 
 $(cat "$DAILY_FILE")
 
-Return ONLY valid JSON (no markdown fences) with this structure for EACH article key (cover, featured, news_1, news_2, news_3, news_4):
-{
-  \"cover\": {
-    \"layers\": [
-      {\"depth\": 1, \"title_en\": \"Foundation concept\", \"title_kr\": \"기초 개념\", \"sub_en\": \"Foundation\", \"sub_kr\": \"기초\", \"badge\": \"Beginner\",
-       \"text_en\": \"Explanation with <span class=kw>key terms</span>. 3-5 sentences.\",
-       \"text_kr\": \"<span class=kw>핵심 용어</span> 포함 설명.\",
-       \"bilingual_en\": \"Key sentence EN\", \"bilingual_kr\": \"핵심 문장 KR\",
-       \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}, ...]},
-      {\"depth\": 2, \"title_en\": \"Context\", \"title_kr\": \"맥락\", \"sub_en\": \"Context\", \"sub_kr\": \"맥락\", \"badge\": \"Intermediate\",
-       \"text_en\": \"...\", \"text_kr\": \"...\", \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
-       \"vocab\": [...],
-       \"quiz\": {\"q_en\": \"?\", \"q_kr\": \"?\", \"opts\": [{\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false}, {\"en\": \"Right\", \"kr\": \"정답\", \"correct\": true}, {\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false}]}},
-      {\"depth\": 3, \"title_en\": \"Impact for Korean Community\", \"title_kr\": \"한인 사회 영향\", \"sub_en\": \"Application\", \"sub_kr\": \"적용\", \"badge\": \"Advanced\",
-       \"text_en\": \"...\", \"text_kr\": \"...\", \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\", \"vocab\": [...]}
-    ],
-    \"suggestions_en\": [\"Q1?\", \"Q2?\", \"Q3?\"],
-    \"suggestions_kr\": [\"질문1?\", \"질문2?\", \"질문3?\"]
-  },
-  \"featured\": { ... same structure ... },
-  \"news_1\": { ... }, \"news_2\": { ... }, \"news_3\": { ... }, \"news_4\": { ... }
-}
+Return ONLY valid JSON with 3 layers per article (cover, featured, news_1-4).
+"
 
-RULES:
-- Each article: 2-3 layers (L1 Foundation, L2 Context+quiz, L3 Real-world for Koreans in PH)
-- Use <span class=kw>keyword</span> for 2-4 key terms per layer
-- 3-5 vocab words per layer
-- Quiz on L2 with 3 options (1 correct)
-- Write for a smart 14-year-old
-- Natural Korean, not machine-translated
-- Return ONLY valid JSON
-" > "$ACADEMY_FILE"
-
-python3 -c "import json; json.load(open('$ACADEMY_FILE')); print('  Academy JSON valid')" || {
-    echo "  WARNING: Academy JSON invalid, skipping"
-}
+call_gemini "$ACADEMY_PROMPT" > "$ACADEMY_FILE"
+echo "  Academy JSON generated: $ACADEMY_FILE"
 
 # ─── Step 4: Inject into HTML ──────────────────────
 echo ""
 echo "[4/5] Injecting content..."
-
 python3 scripts/inject-direct.py "$DAILY_FILE"
 
 # ─── Step 5: Git commit & push ─────────────────────
@@ -216,12 +206,7 @@ git add ican_news.html index.html sw.js data/ js/academy-data.js
 if git diff --staged --quiet; then
     echo "  No changes to commit"
 else
-    git commit -m "$(cat <<EOF
-Daily edition: ${DATE} (${VOLUME_DISPLAY}) — ${COVER}
-
-Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
-EOF
-)"
+    git commit -m "Daily edition: ${DATE} (${VOLUME_DISPLAY}) — ${COVER}"
     git push origin main
     echo "  Pushed to GitHub → Vercel auto-deploy"
 fi
