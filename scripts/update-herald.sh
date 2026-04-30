@@ -45,30 +45,38 @@ payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'ma
 print(json.dumps(payload))
 " > "$payload_file"
 
-    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
+    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${GEMINI_API_KEY}" \
         -H "Content-Type: application/json" \
         -d @"$payload_file")
     
     rm -f "$payload_file"
     
-    echo "$response" | python3 -c "
+    echo "$response" | python3 -c '
 import sys, json, re
 try:
     resp = json.load(sys.stdin)
-    text = resp['candidates'][0]['content']['parts'][0]['text']
-    if text.startswith('\`\`\`json'): text = text[7:]
-    if text.startswith('\`\`\`'): text = text[3:]
-    if text.endswith('\`\`\`'): text = text[:-3]
+    if "candidates" not in resp:
+        print(f"Error: No candidates in response: {resp}", file=sys.stderr)
+        sys.exit(1)
+    text = resp["candidates"][0]["content"]["parts"][0]["text"]
+    # Remove markdown code blocks if present
+    text = re.sub(r"^```json\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^```\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"```$", "", text, flags=re.MULTILINE)
     text = text.strip()
-    if not text.startswith('{'):
-        start = text.find('{'); end = text.rfind('}')
-        if start >= 0 and end > start: text = text[start:end+1]
+    
+    # Try to find JSON object if there is surrounding text
+    if not text.startswith("{"):
+        match = re.search(r"(\{.*\})", text, re.DOTALL)
+        if match:
+            text = match.group(1)
+    
     json.loads(text)
     print(text)
 except Exception as e:
-    print(f'Gemini parse error: {e}', file=sys.stderr)
+    print(f"Gemini parse error: {e}", file=sys.stderr)
     sys.exit(1)
-"
+'
 }
 
 # ─── Step 1: Find latest briefing ──────────────────
