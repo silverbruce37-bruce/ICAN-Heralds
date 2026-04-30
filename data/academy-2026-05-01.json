@@ -1,0 +1,38 @@
+{
+  "cover_story": {
+    "historical_context": "The Araneta Coliseum, often called 'The Big Dome,' is a historic indoor multi-purpose sports arena in Quezon City, Philippines, known for hosting international concerts and major cultural events.",
+    "cultural_significance": "The ROUND Festival is an initiative supported by the ASEAN-Korea Centre to promote cultural exchange and mutual understanding through music, fostering a 'community of peace and prosperity.'",
+    "economic_impact": "Large-scale cultural events like the ROUND Festival stimulate local tourism and the hospitality sector in Metro Manila by attracting international visitors and media attention."
+  },
+  "featured_news": {
+    "geopolitical_context": "The Philippines is a critical partner for South Korea in the Indo-Pacific region, with both nations seeking to diversify supply chains for electric vehicle batteries and renewable energy.",
+    "technical_background": "Cobalt and nickel are essential 'critical minerals' required for the production of high-capacity lithium-ion batteries, which are central to South Korea's global automotive and tech dominance.",
+    "diplomatic_mechanism": "Memorandums of Understanding (MOUs) serve as non-binding but formal frameworks that set the stage for long-term government-to-government cooperation and private sector investment projects."
+  },
+  "news_grid": [
+    {
+      "article": "Visa Document Requirements Simplified",
+      "policy_background": "The easing of visa requirements is a strategic move by the South Korean government to promote tourism and cultural exchange, specifically targeting the growing number of Filipino travelers.",
+      "administrative_note": "The bank balance certificate waiver is part of a broader 'K-ETA' and visa facilitation program designed to streamline entry for tourists from ASEAN member states.",
+      "travel_tip": "While balance certificates may be waived, travelers are still advised to maintain valid proof of income and employment to ensure smooth immigration processing."
+    },
+    {
+      "article": "Typhoon Shanshan Misses the Philippines",
+      "meteorological_context": "The Philippine Area of Responsibility (PAR) is a specific geographic region monitored by PAGASA, the national weather agency, due to the high frequency of tropical cyclones entering this zone.",
+      "safety_protocol": "The term 'bypassed' means the weather system stayed outside the PAR, preventing the need for the issuance of Tropical Cyclone Wind Signals (TCWS) in the Philippines.",
+      "climate_awareness": "The Philippines is one of the world's most vulnerable countries to climate-related disasters, making accurate satellite monitoring essential for disaster preparedness."
+    },
+    {
+      "article": "Korean Cultural Center in PH Awarded Best Globally",
+      "institutional_history": "The Korean Cultural Center (KCC) in the Philippines, established in 2011, serves as a hub for promoting Korean language (Hangeul), cuisine, and arts to the Filipino public.",
+      "evaluation_criteria": "Selection as 'Best Globally' is typically based on community engagement, the success of outreach programs, and the effectiveness of cultural diplomacy initiatives.",
+      "soft_power_impact": "Cultural centers are the primary instruments of South Korea's 'soft power,' aiming to build long-term affinity and trust between the Korean public and the local population."
+    },
+    {
+      "article": "NBI Probes Assassination Plot",
+      "institutional_role": "The National Bureau of Investigation (NBI) is an agency under the Philippine Department of Justice, modeled after the U.S. FBI, responsible for high-profile criminal investigations.",
+      "legal_procedure": "A formal probe involves the collection of forensic evidence, witness testimonies, and intelligence validation to determine the credibility of threats against high-ranking political figures.",
+      "political_landscape": "The Philippines maintains a strict legal framework regarding threats against public officials, with the NBI often acting as the primary investigative body for threats involving national security."
+    }
+  ]
+}

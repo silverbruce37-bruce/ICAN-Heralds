@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-01",
+  "header_date_line": "FRIDAY, MAY 1, 2026 | PHILIPPINES | VOL. 30",
+  "dashboard": {
+    "php_krw_rate": "100 KRW ≈ ₱4.07",
+    "weather_en": "Clear and Sunny",
+    "weather_kr": "맑음 및 화창",
+    "date": "2026.05.01",
+    "embassy_en": "Normal Operations",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "ROUND Festival Kicks Off in Manila",
+    "headline_kr": "ROUND 페스티벌 마닐라 화려한 개막",
+    "subtitle_en": "11 nations unite for a two-day musical celebration at Araneta Coliseum",
+    "subtitle_kr": "아라네타 콜로시엄에서 펼쳐지는 11개국 음악 축제",
+    "body_en": [
+      "The highly anticipated ROUND Festival begins tomorrow, April 18, at the iconic Araneta Coliseum in Manila, promising a vibrant showcase of musical talent from 11 different countries.",
+      "This free-admission event marks a significant milestone in cultural exchange, bringing together diverse artists to foster stronger regional ties through the universal language of music.",
+      "Organizers expect a massive turnout, encouraging attendees to arrive early to secure their spots for this historic cross-cultural celebration."
+    ],
+    "body_kr": [
+      "기대 속에 기다려온 ROUND 페스티벌이 내일 4월 18일, 마닐라 아라네타 콜로시엄에서 11개국 아티스트들이 참여하는 화려한 막을 올립니다.",
+      "이번 무료 공연은 양국 간 문화 교류의 중요한 이정표가 될 것이며, 음악이라는 보편적인 언어를 통해 지역적 유대를 강화하는 계기가 될 것입니다.",
+      "주최 측은 많은 인파가 몰릴 것으로 예상하며, 역사적인 문화 축제를 즐기기 위해 일찍 도착할 것을 권장하고 있습니다."
+    ],
+    "image_seed": "cover-2026-05-01",
+    "image_query": "Vibrant music festival stage at Araneta Coliseum with diverse crowd and colorful lights",
+    "image_caption": "Photo: ROUND Festival preparations at Araneta Coliseum (2026-05-01)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Cooperation",
+    "tag_class": "tag-diplomacy",
+    "headline_en": "Korea-Philippines Bilateral Cooperation Expands to Energy and Minerals",
+    "headline_kr": "한-필, 핵에너지 및 핵심광물 협력 본격화",
+    "lead_en": "Following the March summit, the two nations are accelerating the implementation of MOUs regarding nuclear energy, cobalt, and nickel production.",
+    "lead_kr": "3월 정상회담 후속 조치로 원자력 에너지 및 코발트, 니켈 등 핵심 광물 공급망 협력을 본격적으로 이행합니다.",
+    "image_seed": "feat-2026-05-01",
+    "image_query": "Modern energy infrastructure and mineral mining technology, professional diplomatic handshake",
+    "desk": "Diplomacy Desk",
+    "read_time_min": 4
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Visa Document Requirements Simplified",
+      "headline_kr": "한국 비자 서류 간소화 연장",
+      "summary_en": "The waiver for bank balance certificates for Korean visa applications has been extended until December 2026.",
+      "summary_kr": "한국 비자 신청 시 은행 잔고 증명서 제출 면제 조치가 2026년 12월까지 연장되었습니다.",
+      "image_seed": "news1-2026-05-01",
+      "image_query": "Passport with Korean visa stamp on a desk",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Typhoon Shanshan Misses the Philippines",
+      "headline_kr": "슈퍼 태풍 신라쿠 필리핀 무통과",
+      "summary_en": "Super Typhoon Shanshan has officially bypassed the Philippine Area of Responsibility, ensuring safety for the islands.",
+      "summary_kr": "슈퍼 태풍 신라쿠가 필리핀 관할 구역을 벗어나 직접적인 영향 없이 안전한 상태입니다.",
+      "image_seed": "news2-2026-05-01",
+      "image_query": "Satellite weather map showing clear skies over the Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Korean Cultural Center in PH Awarded Best Globally",
+      "headline_kr": "주필 한국문화원 세계 최우수 선정",
+      "summary_en": "The Korean Cultural Center in the Philippines received top honors during the March Overseas Cultural Center Directors' meeting.",
+      "summary_kr": "주필 한국문화원이 지난 3월 해외문화원장 회의에서 세계 최우수 문화원으로 선정되어 표창을 받았습니다.",
+      "image_seed": "news3-2026-05-01",
+      "image_query": "Award plaque inside a modern Korean cultural center",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Security",
+      "tag_class": "tag-security",
+      "headline_en": "NBI Probes Assassination Plot",
+      "headline_kr": "NBI, 두테르테 암살 모의 수사 착수",
+      "summary_en": "The National Bureau of Investigation (NBI) has launched a formal probe into reports of an assassination plot targeting Duterte.",
+      "summary_kr": "필리핀 국가수사국(NBI)이 두테르테 암살 모의 첩보에 대한 공식 수사를 시작했습니다.",
+      "image_seed": "news4-2026-05-01",
+      "image_query": "Official NBI badge and investigative documents",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Bilateral",
+    "pronunciation": "/ˌbaɪˈlætərəl/",
+    "type": "adjective",
+    "definition_en": "Involving two parties, especially two countries.",
+    "definition_kr": "양측의, 특히 두 국가 간의 관계를 뜻함.",
+    "example_en": "The bilateral agreement will boost trade between the two nations.",
+    "example_kr": "이번 양자 협정은 양국 간의 무역을 증진할 것입니다.",
+    "grade": "A+"
+  }
+}
