@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-05-02",
+    "vol": 31,
+    "cover_en": "PH-Korea Forge Landmark Digital Transformation Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 전환 파트너십 구축",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Boosts Tourist Safety in Makati",
+      "Korean Startups Eye ASEAN Market Expansion from Philippines Hub",
+      "Successful K-Food Fair Showcases Culinary Delights in Manila",
+      "PH, Korea Discuss Renewable Energy Collaboration for Sustainable Future",
+      "Korean Community Forum Addresses Visa and Immigration Policy Updates"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 태스크포스, 마카티 관광객 안전 강화",
+      "한국 스타트업, 필리핀 거점으로 아세안 시장 확대 모색",
+      "마닐라에서 성공적인 K-푸드 페어, 한국 요리의 매력 선보여",
+      "필리핀-한국, 지속 가능한 미래 위한 재생에너지 협력 논의",
+      "한인 커뮤니티 포럼, 비자 및 이민 정책 업데이트 다뤄"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "vol": 31,
+    "cover_en": "ROUND Festival Kicks Off in Manila",
+    "cover_kr": "ROUND 페스티벌 마닐라 화려한 개막",
+    "headlines_en": [
+      "Korea-Philippines Bilateral Cooperation Expands to Energy and Minerals",
+      "Visa Document Requirements Simplified",
+      "Typhoon Shanshan Misses the Philippines",
+      "Korean Cultural Center in PH Awarded Best Globally",
+      "NBI Probes Assassination Plot"
+    ],
+    "headlines_kr": [
+      "한-필, 핵에너지 및 핵심광물 협력 본격화",
+      "한국 비자 서류 간소화 연장",
+      "슈퍼 태풍 신라쿠 필리핀 무통과",
+      "주필 한국문화원 세계 최우수 선정",
+      "NBI, 두테르테 암살 모의 수사 착수"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-04-30",
     "vol": 24,
     "cover_en": "PH-Korea Launch Landmark Digital Economy Partnership",

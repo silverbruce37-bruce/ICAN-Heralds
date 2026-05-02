@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-02",
+  "header_date_line": "SATURDAY, MAY 2, 2026 | PHILIPPINES | VOL. 31",
+  "dashboard": {
+    "php_krw_rate": "24.07",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.02",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Landmark Digital Transformation Partnership",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 전환 파트너십 구축",
+    "subtitle_en": "The agreement aims to revolutionize public services and boost economic growth through advanced technology, strengthening bilateral ties.",
+    "subtitle_kr": "이번 협정은 첨단 기술을 통해 공공 서비스 혁신 및 경제 성장을 목표로 하며, 양국 관계를 강화할 것입니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant move to propel both nations into a new era of technological advancement, the Philippines and South Korea today officially signed a landmark Digital Transformation Partnership Agreement. The pact, lauded by officials from both sides, is set to foster extensive collaboration in digital governance, smart city development, and cybersecurity infrastructure, promising to enhance efficiency and public service delivery across the archipelago.",
+      "Under the terms of the agreement, South Korea will provide expertise and technological resources, including advanced AI solutions and data management systems, to aid the Philippines in modernizing its public administration and digitalizing key sectors. This initiative is expected to open new avenues for Korean tech companies operating in the Philippines, creating job opportunities and facilitating knowledge transfer, directly benefiting the local Korean community through improved digital services and a more robust economic environment.",
+      "President Ferdinand Marcos Jr. and President Yoon Suk Yeol, who attended the signing ceremony virtually, emphasized the strategic importance of this partnership for regional stability and economic resilience. Both leaders expressed optimism that the collaboration would serve as a catalyst for sustainable growth, further cementing the strong bonds of friendship and cooperation that have long characterized Philippine-Korean relations. Implementation is slated to begin in the third quarter of 2026."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국을 기술 발전의 새로운 시대로 이끌기 위한 중요한 움직임으로, 필리핀과 한국은 오늘 획기적인 디지털 전환 파트너십 협정을 공식적으로 체결했습니다. 양국 관계자들로부터 찬사를 받은 이번 협정은 디지털 거버넌스, 스마트 도시 개발 및 사이버 보안 인프라 분야에서 광범위한 협력을 촉진하여 필리핀 전역의 효율성과 공공 서비스 제공을 향상시킬 것으로 기대됩니다.",
+      "협정 조건에 따라 한국은 필리핀이 공공 행정을 현대화하고 주요 부문을 디지털화하는 데 도움이 되는 첨단 AI 솔루션 및 데이터 관리 시스템을 포함한 전문 지식과 기술 자원을 제공할 것입니다. 이 이니셔티브는 필리핀에서 활동하는 한국 기술 기업들에게 새로운 기회를 열어주고, 일자리 창출 및 지식 이전을 촉진하여, 개선된 디지털 서비스와 더욱 견고한 경제 환경을 통해 현지 한인 커뮤니티에 직접적으로 혜택을 줄 것으로 예상됩니다.",
+      "서명식에 화상으로 참석한 페르디난드 마르코스 주니어 필리핀 대통령과 윤석열 한국 대통령은 이 파트너십이 역내 안정과 경제 회복력에 미치는 전략적 중요성을 강조했습니다. 양국 정상은 이번 협력이 지속 가능한 성장의 촉매제가 되어 필리핀과 한국 관계를 오랫동안 특징지어온 강력한 우호와 협력의 유대를 더욱 공고히 할 것이라는 낙관론을 표명했습니다. 이행은 2026년 3분기에 시작될 예정입니다."
+    ],
+    "image_seed": "cover-2026-05-02",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands after signing the Digital Transformation Partnership Agreement (2026-05-02)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Boosts Tourist Safety in Makati",
+    "headline_kr": "필리핀-한국 합동 경찰 태스크포스, 마카티 관광객 안전 강화",
+    "lead_en": "A special joint task force comprising Philippine National Police (PNP) and Korean National Police Agency (KNPA) liaison officers has significantly enhanced safety measures for Korean tourists and residents in Makati. The initiative focuses on proactive patrols, rapid response to incidents, and cultural sensitivity training for local officers, leading to a notable decrease in tourist-related crime.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 연락관으로 구성된 특별 합동 태스크포스가 마카티 지역의 한국인 관광객 및 거주민의 안전 조치를 대폭 강화했습니다. 이 이니셔티브는 사전 순찰, 사건에 대한 신속한 대응, 그리고 현지 경찰관을 위한 문화적 감수성 훈련에 중점을 두어, 관광객 관련 범죄를 눈에 띄게 감소시켰습니다.",
+    "image_seed": "feat-2026-05-02",
+    "image_query": "Korean tourists police patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye ASEAN Market Expansion from Philippines Hub",
+      "headline_kr": "한국 스타트업, 필리핀 거점으로 아세안 시장 확대 모색",
+      "summary_en": "Korean tech startups are leveraging the Philippines' strategic location and growing digital economy as a launchpad for broader ASEAN market entry, supported by new bilateral incentives and investment programs.",
+      "summary_kr": "한국 기술 스타트업들이 새로운 양자 인센티브 및 투자 프로그램의 지원을 받아 필리핀의 전략적 위치와 성장하는 디지털 경제를 더 넓은 아세안 시장 진출을 위한 발판으로 활용하고 있습니다.",
+      "image_seed": "news1-2026-05-02",
+      "image_query": "Korean startup team meeting Manila office",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Successful K-Food Fair Showcases Culinary Delights in Manila",
+      "headline_kr": "마닐라에서 성공적인 K-푸드 페어, 한국 요리의 매력 선보여",
+      "summary_en": "A recent K-Food Fair in Manila drew large crowds, featuring traditional Korean dishes, cooking demonstrations, and cultural performances, further solidifying the popularity of Korean cuisine in the Philippines.",
+      "summary_kr": "최근 마닐라에서 열린 K-푸드 페어는 전통 한국 요리, 요리 시연 및 문화 공연을 선보이며 많은 인파를 끌어모아, 필리핀 내 한국 음식의 인기를 더욱 확고히 했습니다.",
+      "image_seed": "news2-2026-05-02",
+      "image_query": "Filipino visitors enjoying Korean food festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Discuss Renewable Energy Collaboration for Sustainable Future",
+      "headline_kr": "필리핀-한국, 지속 가능한 미래 위한 재생에너지 협력 논의",
+      "summary_en": "Officials from both nations met to explore joint ventures in renewable energy, including solar and wind power projects, aiming to address energy security and climate change goals.",
+      "summary_kr": "양국 관계자들이 에너지 안보 및 기후 변화 목표 해결을 목표로 태양광 및 풍력 발전 프로젝트를 포함한 재생에너지 분야의 합작 투자를 모색하기 위해 만났습니다.",
+      "image_seed": "news3-2026-05-02",
+      "image_query": "Philippine Korean flag wind turbines solar panels",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Forum Addresses Visa and Immigration Policy Updates",
+      "headline_kr": "한인 커뮤니티 포럼, 비자 및 이민 정책 업데이트 다뤄",
+      "summary_en": "A recent forum hosted by the Korean Embassy provided crucial updates on new visa regulations and immigration policies, ensuring the Korean community is well-informed and compliant with recent changes.",
+      "summary_kr": "주필리핀 한국 대사관이 주최한 최근 포럼에서 새로운 비자 규정 및 이민 정책에 대한 중요한 업데이트가 제공되어, 한인 커뮤니티가 최신 변경 사항에 대해 잘 인지하고 준수할 수 있도록 했습니다.",
+      "image_seed": "news4-2026-05-02",
+      "image_query": "Korean community members attending forum",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 자신은 영구적인 화학적 변화를 겪지 않으면서 화학 반응의 속도를 증가시키는 물질.",
+    "example_en": "The new digital partnership is expected to be a catalyst for economic growth in both the Philippines and Korea.",
+    "example_kr": "새로운 디지털 파트너십은 필리핀과 한국 양국의 경제 성장을 위한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
