@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-03",
+    "vol": 32,
+    "cover_en": "Korea-Philippines Digital Trade Pact Set to Unlock New Economic Heights",
+    "cover_kr": "한-필리핀 디지털 무역 협약, 새로운 경제적 고지 열 것으로 기대",
+    "headlines_en": [
+      "Joint Police Patrols Bolster Safety in Korean Enclaves Across Metro Manila",
+      "Philippine Q1 GDP Exceeds Expectations, Driven by Robust Services and Manufacturing",
+      "Upcoming Korean Food Festival in Taguig to Showcase Culinary Delights",
+      "Korean Education Ministry Funds Language Programs for Filipino Teachers",
+      "Embassy Issues Travel Advisory for Remote Areas, Urges Caution for Tourists"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 밀집 지역에 합동 경찰 순찰 강화",
+      "필리핀 1분기 GDP, 강력한 서비스 및 제조업에 힘입어 예상치 상회",
+      "타귁에서 열리는 한국 음식 축제, 다채로운 미식 선보일 예정",
+      "한국 교육부, 필리핀 교사 대상 한국어 교육 프로그램 지원",
+      "대사관, 외딴 지역 여행 경보 발령, 관광객에게 주의 당부"
+    ],
+    "tags": [
+      "Cooperation",
+      "Culture",
+      "Security",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-02",
     "vol": 31,
     "cover_en": "PH-Korea Forge Landmark Digital Transformation Partnership",

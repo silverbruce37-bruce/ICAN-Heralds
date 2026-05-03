@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-03",
+  "header_date_line": "SUNDAY, MAY 3, 2026 | PHILIPPINES | VOL. 32",
+  "dashboard": {
+    "php_krw_rate": "24.10",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.03",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Digital Trade Pact Set to Unlock New Economic Heights",
+    "headline_kr": "한-필리핀 디지털 무역 협약, 새로운 경제적 고지 열 것으로 기대",
+    "subtitle_en": "A landmark agreement aims to boost bilateral trade and investment through advanced digital platforms, promising unprecedented growth and opportunities for Korean businesses in the Philippines.",
+    "subtitle_kr": "획기적인 협약은 첨단 디지털 플랫폼을 통해 양국 무역과 투자를 증진하고, 필리핀 내 한국 기업들에게 전례 없는 성장과 기회를 약속합니다.",
+    "body_en": [
+      "The Republic of Korea and the Republic of the Philippines have officially ratified a groundbreaking Digital Trade Agreement (DTA), marking a pivotal moment in their long-standing economic partnership. This pact, signed after extensive negotiations, is designed to modernize and streamline cross-border digital transactions, fostering a more robust and interconnected economic environment between the two nations. Experts believe the DTA will significantly reduce trade barriers, enhance data security, and promote e-commerce growth, directly benefiting Korean enterprises operating or looking to invest in the Philippine market.",
+      "Key provisions of the agreement include mutual recognition of digital signatures, frameworks for secure electronic transactions, and enhanced cooperation on consumer protection in the digital space. Furthermore, the DTA is expected to facilitate the free flow of data, crucial for sectors like fintech, IT services, and logistics, while upholding robust privacy standards. This initiative aligns with both countries' strategic goals to leverage digital transformation for sustainable development and to strengthen their position within the broader ASEAN economic landscape, creating a more predictable and efficient digital trade ecosystem.",
+      "For the Korean community in the Philippines, especially entrepreneurs and investors, the DTA heralds a new era of opportunity. It is anticipated to lower operational costs, accelerate market entry for digital services, and provide a more secure legal framework for online business activities. The Korean Embassy in Manila has expressed strong support, encouraging Korean businesses to explore the new avenues presented by the agreement. This strategic move is poised to deepen economic integration, foster innovation, and ensure the continued prosperity of the Korean business diaspora in the archipelago."
+    ],
+    "body_kr": [
+      "대한민국과 필리핀 공화국이 획기적인 디지털 무역 협정(DTA)을 공식 비준하며, 오랜 경제 파트너십에 중요한 전환점을 맞이했습니다. 광범위한 협상 끝에 체결된 이 협정은 국경 간 디지털 거래를 현대화하고 간소화하여 양국 간 더욱 강력하고 상호 연결된 경제 환경을 조성하도록 설계되었습니다. 전문가들은 DTA가 무역 장벽을 크게 낮추고 데이터 보안을 강화하며 전자상거래 성장을 촉진하여 필리핀 시장에서 사업을 운영하거나 투자하려는 한국 기업에 직접적인 혜택을 줄 것으로 보고 있습니다.",
+      "협정의 주요 조항에는 디지털 서명의 상호 인정, 안전한 전자 거래를 위한 프레임워크, 그리고 디지털 공간에서의 소비자 보호에 대한 강화된 협력이 포함됩니다. 또한, DTA는 핀테크, IT 서비스, 물류와 같은 분야에 필수적인 데이터의 자유로운 흐름을 촉진하면서도 강력한 개인정보 보호 기준을 유지할 것으로 예상됩니다. 이 이니셔티브는 지속 가능한 발전을 위한 디지털 전환 활용과 광범위한 아세안 경제 환경 내에서의 입지 강화를 위한 양국의 전략적 목표와 일치하며, 보다 예측 가능하고 효율적인 디지털 무역 생태계를 조성할 것입니다.",
+      "필리핀 내 한인 사회, 특히 기업가와 투자자들에게 DTA는 새로운 기회의 시대를 예고합니다. 이는 운영 비용을 절감하고 디지털 서비스의 시장 진입을 가속화하며 온라인 비즈니스 활동을 위한 보다 안전한 법적 틀을 제공할 것으로 예상됩니다. 주필리핀 한국 대사관은 강력한 지지를 표명하며, 한국 기업들이 이 협약이 제시하는 새로운 길을 모색하도록 장려했습니다. 이 전략적 움직임은 경제 통합을 심화하고 혁신을 촉진하며, 필리핀 내 한국 비즈니스 디아스포라의 지속적인 번영을 보장할 것입니다."
+    ],
+    "image_seed": "cover-2026-05-03",
+    "image_query": "Korean and Philippine officials shaking hands signing digital trade agreement document",
+    "image_caption": "Photo: Korean and Philippine officials finalize the Digital Trade Agreement (May 2, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Police Patrols Bolster Safety in Korean Enclaves Across Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 밀집 지역에 합동 경찰 순찰 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean community leaders announce expanded joint patrols and enhanced surveillance measures to ensure the safety and security of Korean residents and tourists in key areas of Metro Manila, following a recent series of community dialogues.",
+    "lead_kr": "최근 일련의 지역사회 대화에 따라 필리핀 국가 경찰(PNP)과 한인 사회 지도자들은 메트로 마닐라 주요 지역에 거주하는 한인 주민 및 관광객의 안전과 보안을 확보하기 위해 확대된 합동 순찰 및 강화된 감시 조치를 발표했습니다.",
+    "image_seed": "feat-2026-05-03",
+    "image_query": "Philippine police officer Korean community leader smiling handshake street patrol",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Q1 GDP Exceeds Expectations, Driven by Robust Services and Manufacturing",
+      "headline_kr": "필리핀 1분기 GDP, 강력한 서비스 및 제조업에 힘입어 예상치 상회",
+      "summary_en": "The Philippines' first-quarter GDP growth surpasses forecasts, showing strong performance in the services sector and manufacturing, signaling a positive environment for foreign investors, including Korean enterprises.",
+      "summary_kr": "필리핀의 1분기 GDP 성장률이 예상을 뛰어넘어 서비스 부문과 제조업에서 강력한 성과를 보였으며, 이는 한국 기업을 포함한 외국인 투자자들에게 긍정적인 환경을 시사합니다.",
+      "image_seed": "news1-2026-05-03",
+      "image_query": "Busy Manila financial district buildings cityscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Upcoming Korean Food Festival in Taguig to Showcase Culinary Delights",
+      "headline_kr": "타귁에서 열리는 한국 음식 축제, 다채로운 미식 선보일 예정",
+      "summary_en": "The annual 'Taste of Korea' food festival is set to open next month in Taguig, promising an immersive experience with traditional and modern Korean dishes, cooking demonstrations, and cultural performances, attracting both Koreans and Filipinos.",
+      "summary_kr": "연례 '한국의 맛' 음식 축제가 다음 달 타귁에서 개막할 예정이며, 전통 및 현대 한국 음식, 요리 시연, 문화 공연 등을 통해 몰입감 있는 경험을 제공하여 한국인과 필리핀인 모두를 매료시킬 것입니다.",
+      "image_seed": "news2-2026-05-03",
+      "image_query": "Korean traditional food bibimbap kimchi street festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Education Ministry Funds Language Programs for Filipino Teachers",
+      "headline_kr": "한국 교육부, 필리핀 교사 대상 한국어 교육 프로그램 지원",
+      "summary_en": "South Korea's Ministry of Education has launched a new grant program to support Filipino teachers learning Korean, aiming to strengthen cultural exchange and facilitate better communication within the growing Korean-Filipino student population.",
+      "summary_kr": "한국 교육부가 필리핀 교사들의 한국어 학습을 지원하는 새로운 보조금 프로그램을 시작했으며, 이는 문화 교류를 강화하고 증가하는 한-필리핀 학생 인구 내에서 더 나은 의사소통을 촉진하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-05-03",
+      "image_query": "Filipino teacher learning Korean classroom blackboard",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Travel Advisory for Remote Areas, Urges Caution for Tourists",
+      "headline_kr": "대사관, 외딴 지역 여행 경보 발령, 관광객에게 주의 당부",
+      "summary_en": "The Korean Embassy in Manila has reissued a travel advisory, cautioning Korean nationals against non-essential travel to specific remote regions due to security concerns and reminding residents to register their travel plans for emergency assistance.",
+      "summary_kr": "주필리핀 한국 대사관은 보안 문제로 인해 특정 외딴 지역으로의 불필요한 여행에 대해 한국 국민들에게 주의를 당부하고, 비상 지원을 위해 여행 계획을 등록하도록 상기시키는 여행 경보를 재발령했습니다.",
+      "image_seed": "news4-2026-05-03",
+      "image_query": "Korean Embassy building Manila flag warning sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인이 상호 작용하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것; 시너지 효과.",
+    "example_en": "The new digital trade pact aims to create synergy between the Korean and Philippine economies, fostering unprecedented growth.",
+    "example_kr": "새로운 디지털 무역 협약은 한국과 필리핀 경제 간의 시너지를 창출하여 전례 없는 성장을 촉진하는 것을 목표로 한다.",
+    "grade": "A+"
+  }
+}
