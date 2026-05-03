@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-04",
+    "vol": 33,
+    "cover_en": "PH-Korea Launch Landmark Digital Infrastructure Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 파트너십 출범",
+    "headlines_en": [
+      "Enhanced Safety Measures for Korean Tourists in Boracay",
+      "Korean Investment Surges in PH Renewable Energy Sector",
+      "K-Pop Dance Festival Lights Up Manila's Cultural Scene",
+      "Joint Naval Drills Boost PH-Korea Maritime Security",
+      "Embassy Warns Against Online Scams Targeting Koreans"
+    ],
+    "headlines_kr": [
+      "보라카이 한국인 관광객 위한 안전 조치 강화",
+      "필리핀 재생 에너지 분야 한국 투자 급증",
+      "K-팝 댄스 페스티벌, 마닐라 문화계를 밝히다",
+      "한-필리핀 해군 합동 훈련, 해양 안보 강화",
+      "대사관, 한국인 대상 온라인 사기 주의 당부"
+    ],
+    "tags": [
+      "Security",
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-05-03",
     "vol": 32,
     "cover_en": "Korea-Philippines Digital Trade Pact Set to Unlock New Economic Heights",

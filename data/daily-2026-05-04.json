@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-04",
+  "header_date_line": "MONDAY, MAY 4, 2026 | PHILIPPINES | VOL. 33",
+  "dashboard": {
+    "php_krw_rate": "24.08",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Infrastructure Partnership",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 인프라 파트너십 출범",
+    "subtitle_en": "A new bilateral agreement aims to revolutionize connectivity and foster innovation across the archipelago, promising significant economic growth.",
+    "subtitle_kr": "새로운 양자 협정은 필리핀 전역의 연결성을 혁신하고 혁신을 촉진하여 상당한 경제 성장을 약속합니다.",
+    "body_en": [
+      "Manila and Seoul have officially launched a landmark digital infrastructure partnership, projected to bring state-of-the-art connectivity and technological advancements to the Philippines. The agreement, signed last week by top officials from both nations, outlines a comprehensive plan for Korean companies to invest in and develop crucial digital backbone projects, including high-speed fiber optic networks, 5G expansion, and smart city solutions across key regions. This initiative is expected to bridge the digital divide and accelerate the Philippines' digital transformation agenda.",
+      "The partnership is set to benefit the Korean community in the Philippines by creating new business opportunities, enhancing the efficiency of existing enterprises, and improving access to digital services for residents. Korean businesses involved in IT, telecommunications, and smart technology sectors are poised for significant growth, while Korean expatriates and tourists will experience faster and more reliable internet services. Furthermore, the collaboration includes knowledge transfer programs, ensuring that local Filipino talent is upskilled to maintain and innovate on the new infrastructure, fostering a sustainable long-term impact.",
+      "Officials from both governments expressed optimism about the long-term impact of the collaboration. Philippine President Marcos Jr. highlighted the agreement as a cornerstone for the nation's economic future, while South Korean President Yoon Suk-yeol emphasized the shared vision for a digitally empowered ASEAN region. The initial phase of the project is slated to commence in the third quarter of 2026, with pilot programs focusing on urban centers and key economic zones, setting a precedent for future bilateral technological cooperation."
+    ],
+    "body_kr": [
+      "마닐라와 서울은 필리핀에 최첨단 연결성과 기술 발전을 가져올 획기적인 디지털 인프라 파트너십을 공식 출범했습니다. 지난주 양국 고위 관계자들이 서명한 이 협정은 한국 기업들이 주요 광섬유 네트워크, 5G 확장, 주요 지역의 스마트 시티 솔루션을 포함한 핵심 디지털 인프라 프로젝트에 투자하고 개발하는 포괄적인 계획을 제시합니다. 이 이니셔티브는 디지털 격차를 해소하고 필리핀의 디지털 전환 의제를 가속화할 것으로 기대됩니다.",
+      "이 파트너십은 새로운 비즈니스 기회를 창출하고 기존 기업의 효율성을 높이며 거주자를 위한 디지털 서비스 접근성을 개선함으로써 필리핀 한인 사회에 혜택을 줄 것입니다. IT, 통신 및 스마트 기술 분야에 종사하는 한국 기업들은 상당한 성장을 이룰 것으로 예상되며, 한국 교민과 관광객들은 더 빠르고 안정적인 인터넷 서비스를 경험하게 될 것입니다. 또한, 이 협력에는 지식 이전 프로그램이 포함되어 현지 필리핀 인재가 새로운 인프라를 유지하고 혁신할 수 있도록 역량을 강화하여 지속 가능한 장기적인 영향을 미치도록 합니다.",
+      "양국 정부 관계자들은 이번 협력의 장기적인 영향에 대해 낙관적인 전망을 내놓았습니다. 필리핀 마르코스 주니어 대통령은 이 협정을 국가 경제 미래의 초석으로 강조했으며, 윤석열 대한민국 대통령은 디지털 역량을 갖춘 아세안 지역에 대한 공동 비전을 강조했습니다. 프로젝트의 초기 단계는 2026년 3분기에 시작될 예정이며, 도시 중심지와 주요 경제 구역에 초점을 맞춘 시범 프로그램을 통해 향후 양자 기술 협력의 선례를 세울 것입니다."
+    ],
+    "image_seed": "cover-2026-05-04",
+    "image_query": "Korean Philippine officials handshake signing digital infrastructure agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands after signing a digital infrastructure agreement in Manila (May 3, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Safety Measures for Korean Tourists in Boracay",
+    "headline_kr": "보라카이 한국인 관광객 위한 안전 조치 강화",
+    "lead_en": "Local authorities in Boracay have implemented new security protocols and increased police visibility in popular tourist areas following recent minor incidents. The measures aim to ensure a safer environment for the growing number of Korean visitors, especially during the peak travel season.",
+    "lead_kr": "보라카이 현지 당국은 최근 발생한 사소한 사건들에 대응하여 인기 관광 지역에 새로운 보안 프로토콜을 시행하고 경찰 가시성을 높였습니다. 이 조치들은 특히 성수기 동안 증가하는 한국인 방문객들에게 더 안전한 환경을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-05-04",
+    "image_query": "Boracay police patrol beach, Korean tourists in background safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment Surges in PH Renewable Energy Sector",
+      "headline_kr": "필리핀 재생 에너지 분야 한국 투자 급증",
+      "summary_en": "Korean companies are channeling significant investments into the Philippines' renewable energy sector, particularly solar and wind projects, aligning with the nation's green energy transition goals.",
+      "summary_kr": "한국 기업들은 필리핀의 재생 에너지 부문, 특히 태양광 및 풍력 프로젝트에 상당한 투자를 유치하며, 필리핀의 녹색 에너지 전환 목표에 부합하고 있습니다.",
+      "image_seed": "news1-2026-05-04",
+      "image_query": "Korean engineers inspecting solar panel farm Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Lights Up Manila's Cultural Scene",
+      "headline_kr": "K-팝 댄스 페스티벌, 마닐라 문화계를 밝히다",
+      "summary_en": "Hundreds of K-Pop enthusiasts gathered in Manila for a vibrant dance festival, showcasing their passion for Korean music and choreography, further cementing K-culture's influence in the Philippines.",
+      "summary_kr": "수백 명의 K-팝 팬들이 마닐라에 모여 활기찬 댄스 페스티벌을 즐겼으며, 한국 음악과 안무에 대한 열정을 선보이며 필리핀에서 K-문화의 영향력을 더욱 확고히 했습니다.",
+      "image_seed": "news2-2026-05-04",
+      "image_query": "Filipino youth K-Pop dance festival stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Joint Naval Drills Boost PH-Korea Maritime Security",
+      "headline_kr": "한-필리핀 해군 합동 훈련, 해양 안보 강화",
+      "summary_en": "The Philippine and South Korean navies concluded successful joint maritime exercises in the West Philippine Sea, enhancing interoperability and reinforcing regional security cooperation.",
+      "summary_kr": "필리핀과 한국 해군은 서필리핀해에서 성공적인 해상 합동 훈련을 마치고 상호 운용성을 높이며 역내 안보 협력을 강화했습니다.",
+      "image_seed": "news3-2026-05-04",
+      "image_query": "Philippine Korean navy ships patrolling ocean together",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Warns Against Online Scams Targeting Koreans",
+      "headline_kr": "대사관, 한국인 대상 온라인 사기 주의 당부",
+      "summary_en": "The Korean Embassy in Manila has issued a fresh advisory, urging the community to be vigilant against various online scams, including investment fraud and fake job offers, which frequently target Korean nationals.",
+      "summary_kr": "마닐라 주재 한국 대사관은 투자 사기 및 허위 채용 제안 등 한국인을 자주 노리는 다양한 온라인 사기에 대해 교민들에게 경계를 늦추지 말 것을 촉구하는 새로운 권고를 발표했습니다.",
+      "image_seed": "news4-2026-05-04",
+      "image_query": "person looking at laptop with scam warning, Korean flag",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 행위자가 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital infrastructure partnership between the Philippines and Korea aims to create a powerful synergy that benefits both economies.",
+    "example_kr": "필리핀과 한국 간의 디지털 인프라 파트너십은 양국 경제에 이익이 되는 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
