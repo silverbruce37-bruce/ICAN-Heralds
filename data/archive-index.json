@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-06",
+    "vol": 35,
+    "cover_en": "Philippines, South Korea Forge Digital Future with Landmark Tech Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 기술 파트너십으로 디지털 미래 개척",
+    "headlines_en": [
+      "Joint Police Efforts Bolster Safety for Korean Residents in Metro Manila",
+      "Korean Tech Firms Eyeing Major Investments in Philippine Digital Hubs",
+      "Palawan Hosts First-Ever 'Korean Flavors Festival' Drawing Huge Crowds",
+      "Korea Pledges Support for Philippine Renewable Energy Transition",
+      "Embassy Issues Updated Travel Advisory for Korean Tourists to Southern Philippines"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 주민 안전을 위한 한-필 공동 경찰 노력 강화",
+      "한국 기술 기업들, 필리핀 디지털 허브에 대규모 투자 모색",
+      "팔라완, 첫 '한국의 맛 축제' 개최…인파 북적",
+      "한국, 필리핀 재생에너지 전환 지원 약속",
+      "대사관, 필리핀 남부 지역 한국인 관광객 대상 여행경보 업데이트"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Security",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-05",
     "vol": 34,
     "cover_en": "PH-Korea Unveil 'Digital Silk Road' Initiative to Boost E-Commerce & Innovation",
