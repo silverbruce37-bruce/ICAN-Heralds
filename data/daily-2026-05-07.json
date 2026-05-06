@@ -1,0 +1,103 @@
+{
+  "edition_date": "2026-05-07",
+  "header_date_line": "THURSDAY, MAY 7, 2026 | PHILIPPINES | VOL. 36",
+  "dashboard": {
+    "php_krw_rate": "23.89",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.07",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Landmark Digital Economy Partnership Amid Tech Boom",
+    "headline_kr": "필리핀-한국, 기술 붐 속 획기적인 디지털 경제 파트너십 구축",
+    "subtitle_en": "New agreement aims to boost innovation, cybersecurity, and fintech collaboration, setting a new standard for bilateral digital cooperation in ASEAN.",
+    "subtitle_kr": "새로운 협정은 혁신, 사이버 보안 및 핀테크 협력을 촉진하여 아세안 내 양자 디지털 협력의 새로운 기준을 제시할 것입니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards a digitally-integrated future, the Philippines and South Korea today officially inked a landmark Digital Economy Partnership Agreement. The signing ceremony, held at the Malacañang Palace, saw President Ferdinand Marcos Jr. and visiting Korean Minister of Science and ICT, Lee Jong-ho, formalize a pact designed to foster robust collaboration in critical digital sectors.",
+      "The comprehensive agreement outlines key areas of cooperation including artificial intelligence (AI) development, fintech innovation, joint cybersecurity initiatives, and a strategic exchange program for digital talent. Officials emphasized that this partnership is poised to accelerate both nations' digital transformation agendas, creating new economic opportunities, enhancing digital infrastructure, and building a more resilient and secure digital ecosystem across the region.",
+      "For the Korean community in the Philippines, this partnership signifies potential growth in tech-related industries, offering new avenues for investment and employment. It is also expected to facilitate better digital services and security measures for Korean residents and businesses, reinforcing the strong bilateral ties and paving the way for a shared prosperous digital future within the broader ASEAN economic landscape.",
+      "The agreement is anticipated to be ratified by both legislative bodies within the next few months, with initial projects expected to commence by late 2026."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 통합 미래를 향한 중요한 진전으로, 필리핀과 대한민국은 오늘 획기적인 디지털 경제 파트너십 협정을 공식적으로 체결했습니다. 말라카냥 궁에서 열린 서명식에는 페르디난드 마르코스 주니어 대통령과 방한한 이종호 과학기술정보통신부 장관이 참석하여 핵심 디지털 부문에서 강력한 협력을 촉진하기 위한 협약을 공식화했습니다.",
+      "이 포괄적인 협정은 인공지능(AI) 개발, 핀테크 혁신, 공동 사이버 보안 이니셔티브, 디지털 인재 전략 교류 프로그램 등 주요 협력 분야를 명시하고 있습니다. 관계자들은 이 파트너십이 양국의 디지털 전환 의제를 가속화하고, 새로운 경제적 기회를 창출하며, 디지털 인프라를 강화하고, 지역 전반에 걸쳐 더욱 탄력적이고 안전한 디지털 생태계를 구축할 준비가 되어 있다고 강조했습니다.",
+      "필리핀 내 한인 사회에게 이 파트너십은 기술 관련 산업의 잠재적 성장을 의미하며, 투자 및 고용을 위한 새로운 길을 제공합니다. 또한 한인 거주민과 기업을 위한 더 나은 디지털 서비스 및 보안 조치를 촉진하여 강력한 양자 관계를 강화하고, 더 넓은 아세안 경제 환경 내에서 공유된 번영하는 디지털 미래를 위한 길을 열 것으로 기대됩니다.",
+      "이 협정은 향후 몇 달 내에 양국 입법부의 비준을 거쳐 2026년 말까지 초기 프로젝트가 시작될 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-05-07",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: President Marcos Jr. and Minister Lee Jong-ho shake hands after signing the digital economy agreement (May 7, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Expanded in Major Tourist Areas",
+    "headline_kr": "주요 관광지 필리핀-한국 경찰 합동 순찰 확대",
+    "lead_en": "Following successful pilot programs, Philippine National Police (PNP) and Korean National Police (KNP) liaison officers announce the expansion of joint patrols in key areas frequented by Korean tourists and residents, aiming to further enhance safety and security. This initiative is a direct response to community feedback and a proactive measure against petty crime.",
+    "lead_kr": "성공적인 시범 프로그램에 이어, 필리핀 국가경찰(PNP)과 한국 경찰청(KNP) 연락관은 한국인 관광객과 거주민이 자주 찾는 주요 지역에서 합동 순찰을 확대하여 안전과 보안을 더욱 강화할 것이라고 발표했습니다. 이 이니셔티브는 지역 사회 피드백에 대한 직접적인 대응이자 경범죄에 대한 선제적 조치입니다.",
+    "image_seed": "feat-2026-05-07",
+    "image_query": "Korean Philippine police officers patrol street together",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Leaders Discuss Supply Chain Resilience Amid Global Shifts",
+      "headline_kr": "아세안 정상들, 글로벌 변화 속 공급망 탄력성 논의",
+      "summary_en": "Officials from ASEAN nations, including key trading partners like South Korea, convened to strategize on bolstering regional supply chain resilience and mitigating future economic disruptions.",
+      "summary_kr": "한국 등 주요 교역국을 포함한 아세안 국가 관계자들이 모여 지역 공급망 탄력성 강화 및 미래 경제 혼란 완화 전략을 논의했습니다.",
+      "image_seed": "news1-2026-05-07",
+      "image_query": "ASEAN leaders economic summit meeting table",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Anticipation Builds for Manila's Annual K-Culture Festival",
+      "headline_kr": "마닐라 연례 K-컬처 페스티벌 기대감 고조",
+      "summary_en": "The Korean Cultural Center in the Philippines gears up for its highly anticipated annual K-Culture Festival, featuring K-Pop performances, traditional arts, and Korean culinary delights.",
+      "summary_kr": "필리핀 한국문화원이 K-팝 공연, 전통 예술, 한국 요리 등을 선보이는 연례 K-컬처 페스티벌을 앞두고 있습니다.",
+      "image_seed": "news2-2026-05-07",
+      "image_query": "K-Pop fans enjoying outdoor festival crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine Delegation Explores Green Energy Solutions in Seoul",
+      "headline_kr": "필리핀 대표단, 서울에서 친환경 에너지 솔루션 모색",
+      "summary_en": "A high-level Philippine delegation is currently in South Korea, engaging with leading companies and government agencies to explore partnerships in renewable energy and sustainable infrastructure development.",
+      "summary_kr": "고위급 필리핀 대표단이 현재 한국을 방문하여 선도 기업 및 정부 기관과 협력하여 재생 에너지 및 지속 가능한 인프라 개발 파트너십을 모색하고 있습니다.",
+      "image_seed": "news3-2026-05-07",
+      "image_query": "Philippine officials tour Korean solar farm",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Online Scams Targeting Koreans",
+      "headline_kr": "대사관, 한인 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has released an advisory warning its nationals about a recent surge in online financial scams, urging vigilance and reporting suspicious activities.",
+      "summary_kr": "주필리핀 한국대사관은 최근 급증하는 온라인 금융 사기에 대해 재외국민들에게 주의를 당부하고 의심스러운 활동을 신고할 것을 촉구하는 주의보를 발표했습니다.",
+      "image_seed": "news4-2026-05-07",
+      "image_query": "Person looking at phone, warning signs cyber",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The new digital economy partnership between the Philippines and Korea aims to create synergy in technological advancements.",
+    "example_kr": "필리핀과 한국 간의 새로운 디지털 경제 파트너십은 기술 발전에서 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
