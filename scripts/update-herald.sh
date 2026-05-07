@@ -13,7 +13,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 DATE=${1:-$(TZ="Asia/Manila" date +%Y-%m-%d)}
-BRIEFING_DIR="$HOME/.claude/projects/-Users-worker64/memory/briefings"
+BRIEFING_DIR="${BRIEFING_DIR:-}"
 
 echo "═══════════════════════════════════════════"
 echo " ICAN Heralds Update Pipeline (Gemini)"
@@ -25,7 +25,7 @@ if [ -z "${GEMINI_API_KEY:-}" ]; then
     # Try to load from sibling muni-siki/.env
     ENV_PATH="$(dirname "$0")/../../muni-siki/.env"
     if [ -f "$ENV_PATH" ]; then
-        export GEMINI_API_KEY=$(grep GEMINI_API_KEY "$ENV_PATH" | cut -d= -f2)
+        export GEMINI_API_KEY=$(grep '^GEMINI_API_KEY=' "$ENV_PATH" | cut -d= -f2-)
     fi
 fi
 
@@ -45,7 +45,7 @@ payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'ma
 print(json.dumps(payload))
 " > "$payload_file"
 
-    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${GEMINI_API_KEY}" \
+    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
         -H "Content-Type: application/json" \
         -d @"$payload_file")
     
@@ -83,7 +83,22 @@ except Exception as e:
 echo ""
 echo "[1/5] Finding briefing for $DATE..."
 
-BRIEFING_FILES=$(ls "$BRIEFING_DIR"/${DATE}_*.md 2>/dev/null | sort -r)
+if [ -z "$BRIEFING_DIR" ]; then
+    for candidate in \
+        "$HOME/.claude/projects/-Users-worker64/memory/briefings" \
+        "$PWD/data/briefings" \
+        "$HOME/Documents/Documents - W1 - Mac Studio(64gb)/ICAN-Heralds/data/briefings"
+    do
+        if [ -d "$candidate" ]; then
+            BRIEFING_DIR="$candidate"
+            if compgen -G "$candidate/${DATE}_*.md" > /dev/null || [ -f "$candidate/${DATE}.md" ]; then
+                break
+            fi
+        fi
+    done
+fi
+
+BRIEFING_FILES=$(find "$BRIEFING_DIR" -maxdepth 1 \( -name "${DATE}_*.md" -o -name "${DATE}.md" \) -print 2>/dev/null | sort -r)
 if [ -z "$BRIEFING_FILES" ]; then
     echo "  ERROR: No briefing found for $DATE in $BRIEFING_DIR"
     echo "  Run the telegram briefing first, or specify a date."
@@ -203,6 +218,14 @@ echo "  Academy JSON generated: $ACADEMY_FILE"
 echo ""
 echo "[4/5] Injecting content..."
 python3 scripts/inject-direct.py "$DAILY_FILE"
+
+# ─── Step 4b: Prewarm image ladder ────────────────
+echo ""
+echo "[4b/5] Prewarming image ladder..."
+if ! bash scripts/prewarm-images.sh; then
+    echo "  WARNING: Some image URLs did not prewarm cleanly."
+    echo "  Primary/secondary/fallback chain will still protect the live page."
+fi
 
 # ─── Step 5: Git commit & push ─────────────────────
 echo ""

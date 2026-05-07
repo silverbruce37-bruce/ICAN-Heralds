@@ -12,10 +12,24 @@ import re
 from datetime import datetime
 
 
-def img_url(prompt, w=400, h=200, seed=None):
+def _image_style(pass_no=1):
+    """Prompt style tuned for sharp editorial photography."""
+    primary = (
+        "photojournalistic editorial photo, crisp focus, natural daylight, "
+        "high detail, clean composition, realistic color, newspaper quality"
+    )
+    secondary = (
+        "ultra-clean magazine editorial photo, very sharp focus, balanced exposure, "
+        "strong subject separation, realistic texture, minimal blur"
+    )
+    return primary if pass_no == 1 else secondary
+
+
+def img_url(prompt, w=400, h=200, seed=None, pass_no=1):
     """Content-matched image via Pollinations.ai (free text-to-image).
 
-    Pass the article's headline/title as `prompt` — the image reflects it.
+    `pass_no=1` is the primary render.
+    `pass_no=2` is a stricter recovery render for retry/fallback.
     `seed` keeps the same prompt stable across regenerations.
     """
     import urllib.parse
@@ -24,19 +38,35 @@ def img_url(prompt, w=400, h=200, seed=None):
     if not prompt or not str(prompt).strip():
         prompt = "Philippine city scenery professional"
 
-    clean = str(prompt).strip()
-    # Shorter style to prevent truncation of important keywords
-    styled = f"Professional photo, high-end design: {clean}"
-    encoded = urllib.parse.quote(styled[:200])
+    clean = " ".join(str(prompt).split())
+    styled = f"{_image_style(pass_no)}: {clean}"
+    encoded = urllib.parse.quote(styled[:220])
 
-    seed_source = (str(seed) if seed is not None else clean) + "v3"
+    seed_source = (str(seed) if seed is not None else clean) + f"v4p{pass_no}"
     seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
 
-    # Use model=turbo for fast, parallel loading (flux has strict IP limits)
+    model = os.environ.get("HERALDS_IMAGE_MODEL", "turbo")
+    scale = 2.0 if pass_no == 1 else 2.25
+    gen_w = max(int(round(w * scale)), w)
+    gen_h = max(int(round(h * scale)), h)
+
     return (
         f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?width={w}&height={h}&seed={seed_num}&model=turbo&nologo=true"
+        f"?width={gen_w}&height={gen_h}&seed={seed_num}&model={model}&nologo=true"
     )
+
+
+def image_sources(prompt, w=400, h=200, seed=None):
+    """Return primary, secondary, and fallback image sources.
+
+    Primary is a curated stock image for reliability and clarity.
+    Secondary is the article-specific AI render.
+    Fallback is a generic stock image.
+    """
+    primary = fallback_img_url(seed, w, h)
+    secondary = img_url(prompt, w, h, seed=seed, pass_no=1)
+    fallback = fallback_img_url("generic-fallback", w, h)
+    return primary, secondary, fallback
 
 
 def fallback_img_url(seed, w=400, h=200):
@@ -65,11 +95,14 @@ def fallback_img_url(seed, w=400, h=200):
     return f"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w={w}&h={h}&fit=crop&q=80"
 
 
-def render_img(src, fallback_src, alt, loading="lazy", class_name=""):
+def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_src=""):
     class_attr = f' class="{class_name}"' if class_name else ""
+    secondary_attr = f' data-secondary-src="{secondary_src}"' if secondary_src else ""
     return (
-        f'<img src="{src}" data-fallback-src="{fallback_src}"'
-        f' onerror="if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc)'
+        f'<img src="{src}"{secondary_attr} data-fallback-src="{fallback_src}"'
+        f' onerror="if(this.dataset.secondarySrc&&this.dataset.retryState!==\'1\'&&this.src!==this.dataset.secondarySrc)'
+        f'{{this.dataset.retryState=\'1\';this.src=this.dataset.secondarySrc;return;}}'
+        f'if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc)'
         f'{{this.onerror=null;this.src=this.dataset.fallbackSrc;}}"'
         f' alt="{alt}"{class_attr} loading="{loading}">'
     )
@@ -252,17 +285,16 @@ def build_learning_track(daily):
 def build_news_cards(news):
     cards = ""
     for i, item in enumerate(news[:4], 1):
-        primary = img_url(
+        primary, secondary, fallback = image_sources(
             item.get("image_query") or item.get("headline_en", f"news {i}"),
             280,
             220,
             seed=item.get("image_seed"),
         )
-        fallback = fallback_img_url(item.get("image_seed", f"news{i}"), 280, 220)
         phrases = derive_key_phrases(item, item.get("summary_en", ""))
         cards += f'''
                 <div class="news-card">
-                    <div class="news-thumb">{render_img(primary, fallback, item.get('tag', 'News'))}</div>
+                    <div class="news-thumb">{render_img(primary, fallback, item.get('tag', 'News'), secondary_src=secondary)}</div>
                     <div class="news-card-body">
                         <span class="tag {item.get('tag_class', 'tag-economy')}">{item.get('tag', 'News')}</span>
                         <h3>
@@ -322,14 +354,20 @@ def build_weekly_sections(weekly, date_dot):
             f"fancy restaurant storefront facade"
         ]
         gallery_seeds = food.get("gallery_seeds", ["food-g1", "food-g2", "food-g3"])
-        gallery_imgs = "\n".join(
-            render_img(
-                img_url(gallery_aspects[i], 400, 300, seed=gallery_seeds[i] if i < len(gallery_seeds) else None),
-                fallback_img_url(gallery_seeds[i] if i < len(gallery_seeds) else "food-gallery", 400, 300),
-                f"Gallery {i+1}",
+        gallery_imgs = ""
+        for i in range(3):
+            gallery_primary, gallery_secondary, gallery_fallback = image_sources(
+                gallery_aspects[i],
+                400,
+                300,
+                seed=gallery_seeds[i] if i < len(gallery_seeds) else None,
             )
-            for i in range(3)
-        )
+            gallery_imgs += render_img(
+                gallery_primary,
+                gallery_fallback,
+                f"Gallery {i+1}",
+                secondary_src=gallery_secondary,
+            ) + "\n"
 
         food_html = f'''
         <section id="food-travel">
@@ -344,12 +382,20 @@ def build_weekly_sections(weekly, date_dot):
                     <span class="kr-content">{food.get('badge_kr','에디터 추천')}</span>
                 </div>
                 <div class="food-feature-gallery">
-                    {render_img(
-                        img_url(food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish", 1600, 900, seed=food.get('hero_image_seed')),
-                        fallback_img_url(food.get('hero_image_seed', 'food-hero'), 1600, 900),
-                        food.get('name_en',''),
-                        class_name='food-hero-img'
-                    )}
+                    {(
+                        lambda hero_primary, hero_secondary, hero_fallback: render_img(
+                            hero_primary,
+                            hero_fallback,
+                            food.get('name_en',''),
+                            class_name='food-hero-img',
+                            secondary_src=hero_secondary,
+                        )
+                    )(*image_sources(
+                        food.get('image_query') or f"{food.get('name_en','restaurant')} {cuisine} signature dish",
+                        1600,
+                        900,
+                        seed=food.get('hero_image_seed'),
+                    ))}
                     <div class="food-gallery-strip">
                         {gallery_imgs}
                     </div>
@@ -489,11 +535,19 @@ def build_weekly_sections(weekly, date_dot):
                         <span class="kr-content">{date_line_full_kr}</span>
                     </div>
                     <div class="event-image">
-                        {render_img(
-                            img_url(ev.get('image_query') or ev.get('title', f'event {i}'), 600, 400, seed=ev.get('image_seed')),
-                            fallback_img_url(ev.get('image_seed', f'event{i}'), 600, 400),
-                            ev.get('title','')
-                        )}
+                    {(
+                        lambda event_primary, event_secondary, event_fallback: render_img(
+                            event_primary,
+                            event_fallback,
+                            ev.get('title',''),
+                            secondary_src=event_secondary,
+                        )
+                    )(*image_sources(
+                        ev.get('image_query') or ev.get('title', f'event {i}'),
+                        600,
+                        400,
+                        seed=ev.get('image_seed'),
+                    ))}
                     </div>
                     <h3>{ev.get('title','')}</h3>
                     <p class="event-desc">
@@ -556,11 +610,19 @@ def _build_travel_cards(weekly):
         cards += f'''
             <div class="travel-card">
                 <div class="travel-card-image">
-                    {render_img(
-                        img_url(tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic", 800, 500, seed=tc.get('image_seed')),
-                        fallback_img_url(tc.get('image_seed', f'travel{i}'), 800, 500),
-                        tc.get('name_en','')
-                    )}
+                    {(
+                        lambda travel_primary, travel_secondary, travel_fallback: render_img(
+                            travel_primary,
+                            travel_fallback,
+                            tc.get('name_en',''),
+                            secondary_src=travel_secondary,
+                        )
+                    )(*image_sources(
+                        tc.get('image_query') or f"{tc.get('name_en','destination')} philippines travel scenic",
+                        800,
+                        500,
+                        seed=tc.get('image_seed'),
+                    ))}
                     <div class="travel-badge">
                         <span class="en-content">{tc.get('badge_en','')}</span>
                         <span class="kr-content">{tc.get('badge_kr','')}</span>
@@ -755,11 +817,19 @@ def build_html(daily, weekly):
                 </div>
             </div>
             <div class="main-image-container">
-                {render_img(
-                    img_url(cover.get('image_query') or cover.get('headline_en', 'cover story'), 1200, 800, seed=cover.get('image_seed')),
-                    fallback_img_url(cover.get('image_seed', 'cover'), 1200, 800),
-                    'Cover Story'
-                )}
+                {(
+                    lambda cover_primary, cover_secondary, cover_fallback: render_img(
+                        cover_primary,
+                        cover_fallback,
+                        'Cover Story',
+                        secondary_src=cover_secondary,
+                    )
+                )(*image_sources(
+                    cover.get('image_query') or cover.get('headline_en', 'cover story'),
+                    1200,
+                    800,
+                    seed=cover.get('image_seed'),
+                ))}
                 <div class="image-caption">{cover.get('image_caption', '')}</div>
             </div>
             <div class="article-meta">
@@ -775,11 +845,19 @@ def build_html(daily, weekly):
             <h2 class="section-title"><span class="en-content">Latest Korea-Philippines News</span><span class="kr-content">최신 한-필 주요 뉴스</span><span class="live-badge">LIVE</span></h2>
             <div class="featured-news">
                 <div class="featured-news-image">
-                    {render_img(
-                        img_url(feat.get('image_query') or feat.get('headline_en', 'featured news'), 900, 600, seed=feat.get('image_seed')),
-                        fallback_img_url(feat.get('image_seed', 'feat'), 900, 600),
-                        feat.get('tag', 'News')
-                    )}
+                    {(
+                        lambda feat_primary, feat_secondary, feat_fallback: render_img(
+                            feat_primary,
+                            feat_fallback,
+                            feat.get('tag', 'News'),
+                            secondary_src=feat_secondary,
+                        )
+                    )(*image_sources(
+                        feat.get('image_query') or feat.get('headline_en', 'featured news'),
+                        900,
+                        600,
+                        seed=feat.get('image_seed'),
+                    ))}
                     <span class="tag {feat.get('tag_class', 'tag-security')}">{feat.get('tag', 'News')}</span>
                 </div>
                 <div class="featured-news-body">
