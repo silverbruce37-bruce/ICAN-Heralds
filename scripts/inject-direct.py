@@ -10,11 +10,20 @@ import os
 import glob
 import re
 import hashlib
+import html
 from datetime import datetime
 from pathlib import Path
 
 
 CACHE_DIR = Path("images/cache")
+EMERGENCY_IMAGE = "images/emergency-placeholder.svg"
+IMAGE_RENDER_LOG = []
+IMAGE_STATS = {
+    "total": 0,
+    "local": 0,
+    "remote": 0,
+    "emergency": 0,
+}
 
 
 def _image_style(pass_no=1):
@@ -70,12 +79,27 @@ def cache_path_for_url(url):
 
 
 def resolve_cached_url(url):
-    if not url or not str(url).startswith("http"):
+    if not url:
+        return EMERGENCY_IMAGE
+    if not str(url).startswith("http"):
         return url
     cache_path = cache_path_for_url(url)
     if cache_path.exists():
         return str(cache_path)
     return url
+
+
+def classify_image_src(src):
+    if not src:
+        return "emergency"
+    src = str(src)
+    if src.startswith("images/"):
+        if src.endswith("emergency-placeholder.svg"):
+            return "emergency"
+        return "local"
+    if src.startswith("https://"):
+        return "remote"
+    return "other"
 
 
 def image_sources(prompt, w=400, h=200, seed=None):
@@ -118,9 +142,23 @@ def fallback_img_url(seed, w=400, h=200):
 
 
 def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_src=""):
+    src = src or EMERGENCY_IMAGE
     class_attr = f' class="{class_name}"' if class_name else ""
     secondary_attr = f' data-secondary-src="{secondary_src}"' if secondary_src else ""
     cache_attr = f' data-cache-path="{cache_path_for_url(src)}"' if src and str(src).startswith("http") else ""
+    render_state = classify_image_src(src)
+    IMAGE_STATS["total"] += 1
+    if render_state in IMAGE_STATS:
+        IMAGE_STATS[render_state] += 1
+    IMAGE_RENDER_LOG.append(
+        {
+            "alt": alt or class_name or "image",
+            "state": render_state,
+            "src": src,
+            "secondary": secondary_src or "",
+            "fallback": fallback_src or "",
+        }
+    )
     return (
         f'<img src="{src}"{secondary_attr}{cache_attr} data-fallback-src="{fallback_src}"'
         f' onerror="if(this.dataset.secondarySrc&&this.dataset.retryState!==\'1\'&&this.src!==this.dataset.secondarySrc)'
@@ -302,6 +340,62 @@ def build_learning_track(daily):
             <p class="section-intro">신문처럼 읽고 끝내지 않도록, 초급부터 실전 영어까지 바로 이어지는 학습 동선을 첫 화면에 올렸습니다.</p>
             <div class="learning-track-grid">{cards_html}
             </div>
+        </section>"""
+
+
+def build_cache_check_section():
+    total = IMAGE_STATS["total"]
+    local = IMAGE_STATS["local"]
+    remote = IMAGE_STATS["remote"]
+    emergency = IMAGE_STATS["emergency"]
+    hit_rate = (local / total * 100.0) if total else 0.0
+    recent_logs = IMAGE_RENDER_LOG[:12]
+    log_html = ""
+    for item in recent_logs:
+        title = html.escape(item["alt"])
+        state = item["state"]
+        src = html.escape(item["src"])
+        badge_class = f"cache-state-{state}"
+        log_html += (
+            f'<div class="cache-log-item {badge_class}">'
+            f'<span class="cache-log-title">{title}</span>'
+            f'<span class="cache-log-state">{state}</span>'
+            f'<span class="cache-log-src">{src}</span>'
+            f'</div>'
+        )
+
+    return f"""
+        <section id="image-cache-check" class="cache-check">
+            <div class="cache-check-head">
+                <div>
+                    <span class="section-kicker">Cache Check</span>
+                    <h2 class="section-title">이미지 캐시 적중률 점검</h2>
+                </div>
+                <p class="cache-check-copy">로컬 파일을 먼저 쓰고, 부족할 때만 원격 소스로 내려가는지 확인하는 운영 패널입니다.</p>
+            </div>
+            <div class="cache-check-stats">
+                <div class="cache-stat">
+                    <span class="cache-stat-label">Total</span>
+                    <span class="cache-stat-value">{total}</span>
+                </div>
+                <div class="cache-stat">
+                    <span class="cache-stat-label">Local Hits</span>
+                    <span class="cache-stat-value">{local}</span>
+                </div>
+                <div class="cache-stat">
+                    <span class="cache-stat-label">Remote</span>
+                    <span class="cache-stat-value">{remote}</span>
+                </div>
+                <div class="cache-stat">
+                    <span class="cache-stat-label">Emergency</span>
+                    <span class="cache-stat-value">{emergency}</span>
+                </div>
+                <div class="cache-stat cache-stat-wide">
+                    <span class="cache-stat-label">Hit Rate</span>
+                    <span class="cache-stat-value">{hit_rate:.1f}%</span>
+                </div>
+            </div>
+            <div class="cache-log">{log_html}</div>
         </section>"""
 
 
@@ -708,6 +802,7 @@ def build_html(daily, weekly):
     food_html, _, events_html, picks_html = build_weekly_sections(weekly, date_dot)
     today_brief_html = build_today_brief(daily)
     learning_track_html = build_learning_track(daily)
+    cache_check_html = build_cache_check_section()
     cover_phrases = derive_key_phrases(cover, cover.get("subtitle_en", ""))
     feat_phrases = derive_key_phrases(feat, feat.get("lead_en", ""))
 
@@ -910,6 +1005,7 @@ def build_html(daily, weekly):
         {food_html}
         {events_html}
         {picks_html}
+        {cache_check_html}
 
     </div>
 

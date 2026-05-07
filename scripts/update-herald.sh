@@ -237,7 +237,7 @@ echo "[5/5] Deploying..."
 
 COVER=$(python3 -c "import json; d=json.load(open('$DAILY_FILE')); print(d['cover_story']['headline_en'][:60])")
 
-git add ican_news.html index.html sw.js data/ js/academy-data.js images/cache
+git add ican_news.html index.html sw.js data/ js/academy-data.js images/cache images/emergency-placeholder.svg css/style.css scripts/inject-direct.py scripts/prewarm-images.sh scripts/update-herald.sh
 if git diff --staged --quiet; then
     echo "  No changes to commit"
 else
