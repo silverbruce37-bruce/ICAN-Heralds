@@ -1,7 +1,7 @@
 #!/bin/bash
-# Pre-warm Pollinations.ai image cache by requesting each URL from ican_news.html.
-# Pollinations has slow cold starts (~30-60s) but caches results for 1 year.
-# Running this after generation ensures users never hit cold generation.
+# Pre-warm local image cache by downloading article image URLs from ican_news.html.
+# The HTML may still reference remote Unsplash / Pollinations sources, but once
+# cached they are rewritten on the next inject pass to use local files first.
 
 set -uo pipefail
 cd "$(dirname "$0")/.."
@@ -9,20 +9,36 @@ cd "$(dirname "$0")/.."
 HTML="ican_news.html"
 [ -f "$HTML" ] || { echo "ERROR: $HTML not found"; exit 1; }
 
+mkdir -p images/cache
+
 URLS=$(python3 - "$HTML" <<'PY'
 import re
 import sys
+import hashlib
 from pathlib import Path
 
 html = Path(sys.argv[1]).read_text(encoding="utf-8")
-urls = []
-for tag in re.findall(r'<img\b[^>]*>', html):
-    m = re.search(r'(?:^|\s)src="(https://image\.pollinations\.ai/prompt/[^"]+)"', tag)
-    if m:
-        urls.append(m.group(1))
+items = []
 
-for url in sorted(set(urls)):
-    print(url)
+def cache_path(url):
+    key = hashlib.md5(url.encode("utf-8")).hexdigest()[:16]
+    return f"images/cache/{key}.jpg"
+
+for tag in re.findall(r'<img\b[^>]*>', html):
+    src = re.search(r'(?:^|\s)src="([^"]+)"', tag)
+    sec = re.search(r'data-secondary-src="([^"]+)"', tag)
+    fb = re.search(r'data-fallback-src="([^"]+)"', tag)
+    cache = re.search(r'data-cache-path="([^"]+)"', tag)
+    for m in (src, sec, fb):
+        if not m:
+            continue
+        url = m.group(1)
+        if not url.startswith("http"):
+            continue
+        items.append((url, cache.group(1) if cache and m is src else cache_path(url)))
+
+for url, path in sorted(set(items)):
+    print(f"{url}\t{path}")
 PY
 )
 if [ -z "${URLS//[[:space:]]/}" ]; then
@@ -30,7 +46,7 @@ if [ -z "${URLS//[[:space:]]/}" ]; then
 else
   TOTAL=$(printf '%s\n' "$URLS" | sed '/^$/d' | wc -l | tr -d ' ')
 fi
-echo "Pre-warming $TOTAL unique Pollinations URLs in parallel (max 180s each)..."
+echo "Pre-warming $TOTAL unique image URLs in parallel (max 180s each)..."
 
 if [ "$TOTAL" -eq 0 ]; then
   echo "Done: 0 ok, 0 failed"
@@ -41,24 +57,28 @@ TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
 warm_one() {
-  local url="$1" idx="$2"
+  local url="$1" path="$2" idx="$3"
   local status
   local attempt=1
   while [ "$attempt" -le 3 ]; do
-    status=$(curl -s "$url" -o /dev/null -w "%{http_code}:%{size_download}:%{time_total}" --max-time 180)
+    mkdir -p "$(dirname "$path")"
+    status=$(curl -L -s "$url" -o "$path.tmp" -w "%{http_code}:%{size_download}:%{time_total}" --max-time 180)
     local code=${status%%:*}
     local rest=${status#*:}
     local size=${rest%%:*}
     local time=${rest#*:}
     if [ "$code" = "200" ] && [ "$size" -gt 1000 ]; then
+      mv "$path.tmp" "$path"
       echo "ok $idx ${size}B ${time}s" >> "$TMPDIR/results"
       return 0
     fi
     if [ "$code" = "429" ] && [ "$attempt" -lt 3 ]; then
+      rm -f "$path.tmp"
       sleep $((attempt * 5))
       attempt=$((attempt + 1))
       continue
     fi
+    rm -f "$path.tmp"
     echo "fail $idx HTTP=$code size=$size" >> "$TMPDIR/results"
     return 1
   done
@@ -66,9 +86,13 @@ warm_one() {
 
 i=0
 MAX_JOBS=4
-while IFS= read -r url; do
+while IFS=$'\t' read -r url path; do
     i=$((i+1))
-    warm_one "$url" "$i" &
+    if [ -f "$path" ]; then
+      echo "skip $i cached $path" >> "$TMPDIR/results"
+      continue
+    fi
+    warm_one "$url" "$path" "$i" &
     while [ "$(jobs -rp | wc -l | tr -d ' ')" -ge "$MAX_JOBS" ]; do
       sleep 1
     done

@@ -9,7 +9,12 @@ import sys
 import os
 import glob
 import re
+import hashlib
 from datetime import datetime
+from pathlib import Path
+
+
+CACHE_DIR = Path("images/cache")
 
 
 def _image_style(pass_no=1):
@@ -56,6 +61,23 @@ def img_url(prompt, w=400, h=200, seed=None, pass_no=1):
     )
 
 
+def cache_key_for_url(url):
+    return hashlib.md5(str(url).encode("utf-8")).hexdigest()[:16]
+
+
+def cache_path_for_url(url):
+    return CACHE_DIR / f"{cache_key_for_url(url)}.jpg"
+
+
+def resolve_cached_url(url):
+    if not url or not str(url).startswith("http"):
+        return url
+    cache_path = cache_path_for_url(url)
+    if cache_path.exists():
+        return str(cache_path)
+    return url
+
+
 def image_sources(prompt, w=400, h=200, seed=None):
     """Return primary, secondary, and fallback image sources.
 
@@ -63,9 +85,9 @@ def image_sources(prompt, w=400, h=200, seed=None):
     Secondary is the article-specific AI render.
     Fallback is a generic stock image.
     """
-    primary = fallback_img_url(seed, w, h)
-    secondary = img_url(prompt, w, h, seed=seed, pass_no=1)
-    fallback = fallback_img_url("generic-fallback", w, h)
+    primary = resolve_cached_url(fallback_img_url(seed, w, h))
+    secondary = resolve_cached_url(img_url(prompt, w, h, seed=seed, pass_no=1))
+    fallback = resolve_cached_url(fallback_img_url("generic-fallback", w, h))
     return primary, secondary, fallback
 
 
@@ -98,8 +120,9 @@ def fallback_img_url(seed, w=400, h=200):
 def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_src=""):
     class_attr = f' class="{class_name}"' if class_name else ""
     secondary_attr = f' data-secondary-src="{secondary_src}"' if secondary_src else ""
+    cache_attr = f' data-cache-path="{cache_path_for_url(src)}"' if src and str(src).startswith("http") else ""
     return (
-        f'<img src="{src}"{secondary_attr} data-fallback-src="{fallback_src}"'
+        f'<img src="{src}"{secondary_attr}{cache_attr} data-fallback-src="{fallback_src}"'
         f' onerror="if(this.dataset.secondarySrc&&this.dataset.retryState!==\'1\'&&this.src!==this.dataset.secondarySrc)'
         f'{{this.dataset.retryState=\'1\';this.src=this.dataset.secondarySrc;return;}}'
         f'if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc)'

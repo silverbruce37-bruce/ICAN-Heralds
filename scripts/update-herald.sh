@@ -227,13 +227,17 @@ if ! bash scripts/prewarm-images.sh; then
     echo "  Primary/secondary/fallback chain will still protect the live page."
 fi
 
+echo ""
+echo "[4c/5] Rebuilding HTML with local cache-first image paths..."
+python3 scripts/inject-direct.py "$DAILY_FILE"
+
 # ─── Step 5: Git commit & push ─────────────────────
 echo ""
 echo "[5/5] Deploying..."
 
 COVER=$(python3 -c "import json; d=json.load(open('$DAILY_FILE')); print(d['cover_story']['headline_en'][:60])")
 
-git add ican_news.html index.html sw.js data/ js/academy-data.js
+git add ican_news.html index.html sw.js data/ js/academy-data.js images/cache
 if git diff --staged --quiet; then
     echo "  No changes to commit"
 else
