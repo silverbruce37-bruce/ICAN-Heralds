@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-08",
+    "vol": 37,
+    "cover_en": "Philippines-Korea Boost Digital Transformation with Landmark Tech Pact",
+    "cover_kr": "필리핀-한국, 획기적인 기술 협정으로 디지털 전환 가속화",
+    "headlines_en": [
+      "PH, Korea Partner to Bolster Tourist Safety in Key Destinations",
+      "Korean Firms Eye Major Investments in PH Renewable Energy Sector",
+      "Manila Gears Up for Grand K-Pop Dance Festival This Weekend",
+      "Philippine, Korean Navies Conduct Joint Maritime Security Drills",
+      "Korean Community Watch Program Expands to Southern Luzon"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국과 주요 관광지 한국인 관광객 안전 강화 협력",
+      "한국 기업들, 필리핀 재생 에너지 부문에 대규모 투자 모색",
+      "마닐라, 이번 주말 대규모 K-팝 댄스 페스티벌 준비 박차",
+      "필리핀-한국 해군, 합동 해상 안보 훈련 실시",
+      "한국인 공동체 자율 방범 프로그램 남부 루손으로 확대"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Cooperation",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-05-07",
     "vol": 36,
     "cover_en": "PH-Korea Forge Landmark Digital Economy Partnership Amid Tech Boom",
