@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-09",
+    "vol": 38,
+    "cover_en": "Korea, Philippines Forge Landmark Digital Partnership for Economic Growth",
+    "cover_kr": "한국-필리핀, 경제 성장을 위한 획기적인 디지털 파트너십 구축",
+    "headlines_en": [
+      "Philippine Authorities Boost Security for Korean Tourists in Key Areas",
+      "ASEAN Economic Growth Projections Remain Strong for 2026, Korea Major Partner",
+      "Manila Gears Up for Grand K-Food Festival This Weekend",
+      "Korea, Philippines Launch Joint Marine Conservation Initiative in West Philippine Sea",
+      "Korean Community in Makati Launches New Digital Safety Watch Program"
+    ],
+    "headlines_kr": [
+      "필리핀 당국, 주요 지역 내 한국인 관광객 보안 강화",
+      "2026년 아세안 경제 성장 전망 견고, 한국 주요 파트너 유지",
+      "마닐라, 이번 주말 대규모 K-푸드 페스티벌 준비 박차",
+      "한국-필리핀, 서필리핀해 해양 보존 공동 이니셔티브 착수",
+      "마카티 한인사회, 새로운 디지털 안전 감시 프로그램 시작"
+    ],
+    "tags": [
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Security",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-08",
     "vol": 37,
     "cover_en": "Philippines-Korea Boost Digital Transformation with Landmark Tech Pact",
