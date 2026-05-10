@@ -1,0 +1,103 @@
+{
+  "edition_date": "2026-05-10",
+  "header_date_line": "SUNDAY, MAY 10, 2026 | PHILIPPINES | VOL. 39",
+  "dashboard": {
+    "php_krw_rate": "24.23",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.10",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines FTA Digital Trade Protocol Ratified, Boosting E-Commerce",
+    "headline_kr": "한-필리핀 FTA 디지털 무역 의정서 비준, 전자상거래 활성화 기대",
+    "subtitle_en": "The landmark agreement is set to streamline digital transactions and foster greater collaboration in the burgeoning e-commerce sector between the two nations.",
+    "subtitle_kr": "획기적인 이 협정은 양국 간 디지털 거래를 간소화하고 급성장하는 전자상거래 부문에서 더 큰 협력을 촉진할 것입니다.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea have officially ratified the Digital Trade Protocol under their existing Free Trade Agreement (FTA), marking a significant milestone in bilateral economic relations. This protocol, which comes into effect next month, is designed to reduce barriers to digital trade, enhance data flow, and protect consumers and businesses engaged in cross-border e-commerce. Experts predict it will unlock new growth opportunities for Korean businesses operating in the Philippines and vice versa, particularly in areas like online services, digital content, and technology-driven logistics.",
+      "The ratification process involved extensive discussions between trade ministries and legislative bodies of both countries, highlighting a shared commitment to adapting economic frameworks to the digital age. Key provisions of the protocol include ensuring non-discriminatory treatment for digital products, facilitating electronic authentication and signatures, and establishing robust frameworks for consumer protection in online transactions. For the Korean community in the Philippines, this means potentially easier access to Korean digital services and products, as well as a more secure environment for local Korean businesses looking to expand their online presence.",
+      "Beyond immediate economic benefits, the Digital Trade Protocol is expected to foster deeper technological collaboration and innovation. Both governments have expressed intentions to explore joint initiatives in areas such as cybersecurity, artificial intelligence, and blockchain technology, leveraging Korea's advanced tech prowess and the Philippines' growing digital economy. This strategic move is anticipated to not only boost trade volumes but also strengthen the overall economic partnership, positioning both nations as key players in the regional digital landscape.",
+      "The protocol's implementation will be closely monitored, with regular reviews planned to ensure its effectiveness and address any emerging challenges in the dynamic digital trade environment. Businesses are encouraged to familiarize themselves with the new regulations to maximize the benefits offered by this groundbreaking agreement."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 한국이 기존 자유무역협정(FTA)에 따른 디지털 무역 의정서를 공식 비준하며 양국 경제 관계에 중요한 이정표를 세웠습니다. 다음 달 발효될 이 의정서는 디지털 무역 장벽을 줄이고 데이터 흐름을 강화하며 국경을 넘는 전자상거래에 종사하는 소비자와 기업을 보호하도록 설계되었습니다. 전문가들은 이 의정서가 특히 온라인 서비스, 디지털 콘텐츠 및 기술 기반 물류와 같은 분야에서 필리핀에 진출한 한국 기업과 한국에 진출한 필리핀 기업에 새로운 성장 기회를 제공할 것으로 예측합니다.",
+      "비준 과정은 양국 무역부와 입법 기관 간의 광범위한 논의를 거쳐 디지털 시대에 경제 프레임워크를 적용하려는 공동의 의지를 보여주었습니다. 의정서의 주요 조항에는 디지털 제품에 대한 비차별적 대우 보장, 전자 인증 및 서명 촉진, 온라인 거래에서 소비자 보호를 위한 강력한 프레임워크 구축이 포함됩니다. 필리핀 한인 사회의 경우, 이는 한국 디지털 서비스 및 제품에 대한 접근성 향상뿐만 아니라 온라인 입지를 확장하려는 현지 한인 기업에게 더 안전한 환경을 의미합니다.",
+      "즉각적인 경제적 이점을 넘어, 디지털 무역 의정서는 더 깊은 기술 협력과 혁신을 촉진할 것으로 기대됩니다. 양국 정부는 한국의 첨단 기술력과 필리핀의 성장하는 디지털 경제를 활용하여 사이버 보안, 인공지능, 블록체인 기술과 같은 분야에서 공동 이니셔티브를 모색할 의사를 밝혔습니다. 이러한 전략적 움직임은 무역량을 늘릴 뿐만 아니라 전반적인 경제 파트너십을 강화하여 양국을 지역 디지털 환경의 핵심 주체로 자리매김할 것으로 예상됩니다.",
+      "의정서의 이행은 면밀히 모니터링될 것이며, 역동적인 디지털 무역 환경에서 효과를 보장하고 발생하는 모든 문제를 해결하기 위해 정기적인 검토가 계획되어 있습니다. 기업들은 이 획기적인 협정으로 제공되는 혜택을 극대화하기 위해 새로운 규정에 익숙해질 것을 권장합니다."
+    ],
+    "image_seed": "cover-2026-05-10",
+    "image_query": "Korean and Philippine officials shaking hands, digital tablet, signing agreement, modern office",
+    "image_caption": "Photo: Philippine and Korean trade officials finalize the Digital Trade Protocol agreement (May 9, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Launch Joint Anti-Scam Campaign Targeting Expats",
+    "headline_kr": "필리핀 경찰청-주필 한국대사관, 교민 대상 합동 사기 방지 캠페인 전개",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy have unveiled a new collaborative campaign aimed at protecting Korean expatriates from increasingly sophisticated online and offline scams. The initiative includes public awareness drives, enhanced reporting mechanisms, and joint investigative efforts to apprehend perpetrators.",
+    "lead_kr": "필리핀 경찰청(PNP)과 주필 한국대사관은 갈수록 정교해지는 온오프라인 사기로부터 한국 교민을 보호하기 위한 새로운 협력 캠페인을 발표했습니다. 이 이니셔티브에는 대중 인식 제고 캠페인, 강화된 신고 메커니즘, 그리고 범죄자 검거를 위한 합동 수사 노력이 포함됩니다.",
+    "image_seed": "feat-2026-05-10",
+    "image_query": "Philippine police officer, Korean embassy official, anti-scam poster, community meeting",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eyeing Philippines' Renewable Energy Sector Growth",
+      "headline_kr": "한국 투자자들, 필리핀 재생에너지 부문 성장세 주시",
+      "summary_en": "Korean conglomerates are reportedly increasing their scouting missions and feasibility studies for large-scale renewable energy projects across the Philippines, driven by the nation's ambitious green energy targets and supportive policies.",
+      "summary_kr": "한국 대기업들이 필리핀의 야심찬 녹색 에너지 목표와 지원 정책에 힘입어 필리핀 전역의 대규모 재생에너지 프로젝트에 대한 조사 및 타당성 연구를 늘리고 있는 것으로 알려졌습니다.",
+      "image_seed": "news1-2026-05-10",
+      "image_query": "Solar panels, wind turbines, Korean engineers, Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Cebu, Showcasing Culinary Diversity",
+      "headline_kr": "세부 K-푸드 페스티벌, 기록적인 인파 속 한식의 다양성 선보여",
+      "summary_en": "The annual K-Food Festival in Cebu concluded yesterday, attracting thousands of visitors eager to sample traditional and modern Korean dishes, reflecting the growing popularity of Korean cuisine in the southern Philippines.",
+      "summary_kr": "어제 세부에서 열린 연례 K-푸드 페스티벌이 성황리에 막을 내렸으며, 전통 한식과 현대 한식을 맛보려는 수천 명의 방문객이 몰려 남부 필리핀에서 한국 요리의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-05-10",
+      "image_query": "People enjoying Korean food, festival booths, Cebu cityscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine Nurses to Undergo Advanced Training in Korea Through New Exchange Program",
+      "headline_kr": "필리핀 간호사들, 새로운 교류 프로그램 통해 한국서 심화 훈련 예정",
+      "summary_en": "A new bilateral exchange program will send a contingent of Philippine nurses to South Korea for specialized training in advanced medical technologies and patient care, strengthening healthcare cooperation.",
+      "summary_kr": "새로운 양자 교류 프로그램을 통해 필리핀 간호사들이 첨단 의료 기술 및 환자 관리 전문 교육을 위해 한국으로 파견될 예정이며, 이는 의료 협력을 강화할 것입니다.",
+      "image_seed": "news3-2026-05-10",
+      "image_query": "Filipino nurses, Korean hospital, medical training, international cooperation",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Enhances Street Lighting in Areas Popular with Korean Residents",
+      "headline_kr": "마카티 시, 한인 거주 지역 가로등 개선으로 안전 강화",
+      "summary_en": "Makati City local government has completed an upgrade of street lighting infrastructure in key areas frequently visited by Korean residents, aiming to improve public safety and deter petty crime during evening hours.",
+      "summary_kr": "마카티 시 정부는 한인 거주자들이 자주 찾는 주요 지역의 가로등 인프라 개선을 완료하여, 야간 시간대 공공 안전을 개선하고 경범죄를 예방하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-05-10",
+      "image_query": "Bright streetlights, Makati city street, Korean community safety",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital trade protocol aims to create synergy between the Korean and Philippine economies, fostering innovative growth beyond traditional trade.",
+    "example_kr": "디지털 무역 의정서는 한국과 필리핀 경제 간의 시너지를 창출하여 전통적인 무역을 넘어 혁신적인 성장을 촉진하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
