@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-11",
+    "vol": 40,
+    "cover_en": "PH-Korea Digital Hub Initiative to Boost ASEAN Connectivity",
+    "cover_kr": "필리핀-한국 디지털 허브 이니셔티브, 아세안 연결성 강화",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Launched to Protect Korean Tourists",
+      "Korean Startups Eyeing PH Market as Gateway to Southeast Asia",
+      "Manila Hosts Successful 'K-Food Fiesta 2026' Celebrating Korean Cuisine",
+      "PH-Korea Summit Discusses Climate Resilience and Renewable Energy",
+      "Makati City Implements New Traffic Management System to Ease Congestion"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 태스크포스, 한국인 관광객 보호 위해 출범",
+      "한국 스타트업들, 필리핀 시장을 동남아시아 관문으로 주목",
+      "마닐라, 한국 음식 축제 'K-푸드 피에스타 2026' 성공적으로 개최",
+      "필리핀-한국 정상회담, 기후 회복력 및 재생 에너지 논의",
+      "마카티 시, 교통 체증 완화를 위한 새로운 교통 관리 시스템 도입"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Safety",
+      "Cooperation",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-05-10",
     "vol": 39,
     "cover_en": "Korea-Philippines FTA Digital Trade Protocol Ratified, Boosting E-Commerce",

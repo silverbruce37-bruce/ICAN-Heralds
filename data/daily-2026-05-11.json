@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-11",
+  "header_date_line": "MONDAY, MAY 11, 2026 | PHILIPPINES | VOL. 40",
+  "dashboard": {
+    "php_krw_rate": "24.21",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.11",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Hub Initiative to Boost ASEAN Connectivity",
+    "headline_kr": "필리핀-한국 디지털 허브 이니셔티브, 아세안 연결성 강화",
+    "subtitle_en": "A new joint venture aims to establish a cutting-edge digital infrastructure network across the Philippines, enhancing regional data flow and economic integration within ASEAN.",
+    "subtitle_kr": "새로운 합작 투자는 필리핀 전역에 최첨단 디지털 인프라 네트워크를 구축하여 아세안 내 지역 데이터 흐름 및 경제 통합을 강화하는 것을 목표로 합니다.",
+    "body_en": [
+      "The Philippines and South Korea have embarked on a landmark 'Digital Hub Initiative,' a collaborative project designed to significantly upgrade the digital infrastructure landscape across the Philippine archipelago. Announced over the weekend, this ambitious venture involves key governmental bodies from both nations, including the Philippine Department of Information and Communications Technology (DICT) and leading Korean tech conglomerates. The primary goal is to create a robust, high-speed digital backbone that will not only serve local needs but also position the Philippines as a crucial data gateway for the wider ASEAN region.",
+      "This multi-year initiative will focus on developing advanced fiber optic networks, establishing state-of-the-art data centers, and implementing smart city technologies in key urban areas. Experts project that the project will attract substantial foreign direct investment, create thousands of jobs, and foster innovation in various sectors, from e-commerce to remote healthcare. For South Korea, the partnership represents a strategic expansion into the burgeoning Southeast Asian digital market, leveraging its technological prowess to contribute to regional development and strengthen bilateral economic ties.",
+      "For the Korean community in the Philippines, this initiative heralds new opportunities, particularly in IT, engineering, and related service industries. It is expected to facilitate easier communication and business operations between the two countries, potentially leading to more Korean investments and partnerships. The project underscores a deepening commitment to mutual growth and technological advancement, promising a future where digital connectivity drives prosperity for both nations and the broader ASEAN community."
+    ],
+    "body_kr": [
+      "필리핀과 대한민국은 필리핀 전역의 디지털 인프라 환경을 대폭 업그레이드하기 위한 협력 프로젝트인 획기적인 '디지털 허브 이니셔티브'에 착수했습니다. 주말에 발표된 이 야심찬 사업은 필리핀 정보통신기술부(DICT)와 주요 한국 기술 대기업을 포함한 양국 정부 기관이 참여합니다. 주요 목표는 지역적 필요를 충족시킬 뿐만 아니라 필리핀을 더 넓은 아세안 지역의 핵심 데이터 관문으로 자리매김할 강력하고 고속의 디지털 백본을 구축하는 것입니다.",
+      "이 다년간의 이니셔티브는 고급 광섬유 네트워크 개발, 최첨단 데이터 센터 구축, 주요 도시 지역에 스마트 시티 기술 구현에 중점을 둘 것입니다. 전문가들은 이 프로젝트가 상당한 해외 직접 투자를 유치하고 수천 개의 일자리를 창출하며 전자상거래에서 원격 의료에 이르기까지 다양한 분야에서 혁신을 촉진할 것으로 전망합니다. 한국에게 이 파트너십은 급성장하는 동남아시아 디지털 시장으로의 전략적 확장을 의미하며, 기술력을 활용하여 지역 발전에 기여하고 양국 경제 관계를 강화합니다.",
+      "필리핀 내 한국 교민들에게 이 이니셔티브는 특히 IT, 엔지니어링 및 관련 서비스 산업에서 새로운 기회를 예고합니다. 이는 양국 간의 통신 및 사업 운영을 용이하게 하여 더 많은 한국 투자 및 파트너십으로 이어질 수 있을 것으로 예상됩니다. 이 프로젝트는 상호 성장과 기술 발전에 대한 심화된 약속을 강조하며, 디지털 연결성이 양국과 더 넓은 아세안 공동체의 번영을 이끄는 미래를 약속합니다."
+    ],
+    "image_seed": "cover-2026-05-11",
+    "image_query": "Philippine Korean officials handshake digital agreement signing ceremony",
+    "image_caption": "Photo: Philippine and Korean officials finalize a digital infrastructure agreement in Manila (May 10, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Launched to Protect Korean Tourists",
+    "headline_kr": "필리핀-한국 합동 경찰 태스크포스, 한국인 관광객 보호 위해 출범",
+    "lead_en": "The Philippine National Police (PNP) and the Korean National Police Agency (KNPA) have officially launched a specialized joint task force aimed at bolstering security measures for Korean nationals visiting and residing in the Philippines. This initiative follows a series of recent incidents and aims to provide a safer environment, especially in popular tourist destinations.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA)은 필리핀을 방문하거나 거주하는 한국인들을 위한 보안 조치를 강화하기 위해 전문 합동 태스크포스를 공식 출범했습니다. 이 이니셔티브는 최근 발생한 일련의 사건들에 대한 대응으로, 특히 인기 있는 관광지에서 더 안전한 환경을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-05-11",
+    "image_query": "Philippine Korean police officers joint patrol Manila street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eyeing PH Market as Gateway to Southeast Asia",
+      "headline_kr": "한국 스타트업들, 필리핀 시장을 동남아시아 관문으로 주목",
+      "summary_en": "A recent report indicates a growing trend of Korean tech and e-commerce startups choosing the Philippines as their primary launchpad for expansion into the broader Southeast Asian market, citing its young demographic and burgeoning digital economy.",
+      "summary_kr": "최근 보고서에 따르면, 한국의 기술 및 전자상거래 스타트업들이 젊은 인구와 성장하는 디지털 경제를 이유로 필리핀을 동남아시아 시장 확장을 위한 주요 발판으로 선택하는 경향이 증가하고 있습니다.",
+      "image_seed": "news1-2026-05-11",
+      "image_query": "Young Korean Filipino entrepreneurs collaboration meeting",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful 'K-Food Fiesta 2026' Celebrating Korean Cuisine",
+      "headline_kr": "마닐라, 한국 음식 축제 'K-푸드 피에스타 2026' 성공적으로 개최",
+      "summary_en": "Thousands gathered in Manila over the weekend for the annual 'K-Food Fiesta,' enjoying a wide array of traditional and modern Korean dishes, cooking demonstrations, and cultural performances, further solidifying K-food's popularity in the Philippines.",
+      "summary_kr": "수천 명의 인파가 주말 동안 마닐라에서 열린 연례 'K-푸드 피에스타'에 모여 다양한 전통 및 현대 한국 요리, 요리 시연, 문화 공연을 즐기며 필리핀 내 K-푸드의 인기를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-05-11",
+      "image_query": "People enjoying Korean street food festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Summit Discusses Climate Resilience and Renewable Energy",
+      "headline_kr": "필리핀-한국 정상회담, 기후 회복력 및 재생 에너지 논의",
+      "summary_en": "President Marcos and President Yoon met virtually to discuss enhanced cooperation on climate change adaptation strategies and investments in renewable energy projects, aligning with both nations' green initiatives.",
+      "summary_kr": "마르코스 대통령과 윤 대통령은 양국의 녹색 이니셔티브에 맞춰 기후 변화 적응 전략 및 재생 에너지 프로젝트 투자에 대한 협력 강화를 논의하기 위해 화상 회담을 가졌습니다.",
+      "image_seed": "news3-2026-05-11",
+      "image_query": "Philippine Korean leaders virtual meeting climate change",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Implements New Traffic Management System to Ease Congestion",
+      "headline_kr": "마카티 시, 교통 체증 완화를 위한 새로운 교통 관리 시스템 도입",
+      "summary_en": "Makati City has rolled out an advanced smart traffic management system utilizing AI and real-time data to optimize traffic flow, aiming to significantly reduce congestion and improve commuter safety for its residents and visitors, including the Korean community.",
+      "summary_kr": "마카티 시는 AI와 실시간 데이터를 활용한 첨단 스마트 교통 관리 시스템을 도입하여 교통 흐름을 최적화하고, 한국 교민을 포함한 주민과 방문객의 교통 체증을 크게 줄이고 통근 안전을 향상시키는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-05-11",
+      "image_query": "Makati city traffic flow smart system display",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 가지 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별 효과를 합친 것보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The new digital hub project aims to create synergy between Philippine and Korean tech industries, fostering innovation.",
+    "example_kr": "새로운 디지털 허브 프로젝트는 필리핀과 한국 기술 산업 간의 시너지를 창출하여 혁신을 촉진하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
