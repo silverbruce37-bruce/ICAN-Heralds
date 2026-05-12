@@ -17,7 +17,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -77,7 +77,9 @@ jobs:
 
       - name: Pre-warm image cache (Pollinations)
         if: steps.check.outputs.skip != 'true'
-        run: bash scripts/prewarm-images.sh
+        run: |
+          # 이미지 캐시 제거 이후 prewarm은 선택적으로만 실행 (타임아웃 방지)
+          timeout 90 bash scripts/prewarm-images.sh || echo "Prewarm skipped (timeout or error) — Pollinations URLs are inline in HTML"
         continue-on-error: true
 
       - name: Commit and Push
