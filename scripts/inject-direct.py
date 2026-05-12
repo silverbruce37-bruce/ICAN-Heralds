@@ -26,48 +26,66 @@ IMAGE_STATS = {
 }
 
 
-def _image_style(pass_no=1):
-    """Prompt style tuned for sharp editorial photography."""
-    primary = (
-        "photojournalistic editorial photo, crisp focus, natural daylight, "
-        "high detail, clean composition, realistic color, newspaper quality"
-    )
-    secondary = (
-        "ultra-clean magazine editorial photo, very sharp focus, balanced exposure, "
-        "strong subject separation, realistic texture, minimal blur"
-    )
-    return primary if pass_no == 1 else secondary
+_TOPIC_MAP = [
+    (['police', 'patrol', 'crime', 'arrest', 'security', 'guard', 'scam', 'trafficking'],
+     'police,philippines'),
+    (['military', 'army', 'soldier', 'naval', 'marines', 'defense', 'weapon'],
+     'military'),
+    (['hospital', 'doctor', 'medical', 'health', 'medicine', 'nurse', 'vaccine', 'disease'],
+     'health,philippines'),
+    (['school', 'student', 'education', 'university', 'teacher', 'classroom', 'learning'],
+     'education,philippines'),
+    (['typhoon', 'flood', 'disaster', 'earthquake', 'storm', 'weather', 'rain', 'rescue'],
+     'typhoon,philippines'),
+    (['technology', 'digital', 'internet', 'computer', 'tech', 'software', 'cyber', 'startup'],
+     'technology'),
+    (['trade', 'export', 'import', 'commerce', 'tariff', 'customs'],
+     'trade,philippines'),
+    (['tourism', 'tourist', 'beach', 'travel', 'resort', 'hotel', 'visitor'],
+     'tourism,philippines'),
+    (['farm', 'rice', 'crop', 'harvest', 'fishing', 'agriculture', 'food'],
+     'agriculture,philippines'),
+    (['transport', 'traffic', 'train', 'road', 'highway', 'transit', 'infrastructure'],
+     'transport,philippines'),
+    (['sports', 'athlete', 'game', 'championship', 'basketball', 'boxing', 'tournament'],
+     'sports,philippines'),
+    (['economy', 'economic', 'finance', 'market', 'investment', 'gdp', 'growth', 'inflation'],
+     'economy,philippines'),
+    (['official', 'president', 'government', 'senate', 'congress', 'election', 'minister',
+      'mayor', 'policy', 'diplomatic', 'agreement', 'signing', 'summit', 'bilateral', 'handshake'],
+     'government,philippines'),
+]
+_TOPIC_DEFAULT = 'philippines,manila'
+
+
+def _topic_keyword(prompt):
+    """Map an article description to a reliable loremflickr keyword pair."""
+    text = str(prompt).lower()
+    for signals, keyword in _TOPIC_MAP:
+        if any(s in text for s in signals):
+            return keyword
+    return _TOPIC_DEFAULT
 
 
 def img_url(prompt, w=400, h=200, seed=None, pass_no=1):
-    """Content-matched image via Pollinations.ai (free text-to-image).
+    """Realistic editorial photo — loremflickr (pass 1) or Unsplash source (pass 2).
 
-    `pass_no=1` is the primary render.
-    `pass_no=2` is a stricter recovery render for retry/fallback.
-    `seed` keeps the same prompt stable across regenerations.
+    Topic keyword is inferred from the article description.
+    Daily seed ensures a fresh Flickr photo every day for the same topic.
     """
     import urllib.parse
-    import hashlib
 
-    if not prompt or not str(prompt).strip():
-        prompt = "Philippine city scenery professional"
+    keyword_str = _topic_keyword(prompt)
+    encoded_kw = urllib.parse.quote(keyword_str)
 
-    clean = " ".join(str(prompt).split())
-    styled = f"{_image_style(pass_no)}: {clean}"
-    encoded = urllib.parse.quote(styled[:220])
+    today = datetime.utcnow().strftime('%Y%m%d')
+    seed_source = (str(seed) if seed is not None else str(prompt)[:60]) + today + f"p{pass_no}"
+    lock = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 50000
 
-    seed_source = (str(seed) if seed is not None else clean) + f"v4p{pass_no}"
-    seed_num = int(hashlib.md5(seed_source.encode()).hexdigest()[:8], 16) % 100000
-
-    model = os.environ.get("HERALDS_IMAGE_MODEL", "turbo")
-    scale = 2.0 if pass_no == 1 else 2.25
-    gen_w = max(int(round(w * scale)), w)
-    gen_h = max(int(round(h * scale)), h)
-
-    return (
-        f"https://image.pollinations.ai/prompt/{encoded}"
-        f"?width={gen_w}&height={gen_h}&seed={seed_num}&model={model}&nologo=true"
-    )
+    if pass_no == 1:
+        return f"https://loremflickr.com/{w}/{h}/{encoded_kw}?lock={lock}"
+    else:
+        return f"https://source.unsplash.com/{w}x{h}/?{encoded_kw}&sig={lock}"
 
 
 def cache_key_for_url(url):
@@ -105,11 +123,10 @@ def classify_image_src(src):
 def image_sources(prompt, w=400, h=200, seed=None):
     """Return primary, secondary, and fallback image sources.
 
-    Primary is the article-specific Pollinations AI render (changes daily).
-    Secondary is a recovery render with tighter style settings.
-    Fallback is a stable Unsplash stock photo (always loads).
+    Primary: loremflickr keyword-matched real photo (changes daily).
+    Secondary: Unsplash source keyword-matched photo (fallback provider).
+    Fallback: curated Unsplash static photo (always loads).
     """
-    # Pollinations as primary so images change each day per article content
     primary = img_url(prompt, w, h, seed=seed, pass_no=1)
     secondary = img_url(prompt, w, h, seed=seed, pass_no=2)
     fallback = fallback_img_url(seed, w, h)
