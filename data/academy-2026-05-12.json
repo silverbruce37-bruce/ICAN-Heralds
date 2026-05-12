@@ -1,12 +1,5 @@
-// Auto-generated — 2026-05-12
-var academyData = {
+{
   "cover": {
-    "tag": "News",
-    "tagClass": "tag-economy",
-    "title_en": "PH, Korea Forge New Digital Partnership for Economic Growth",
-    "title_kr": "필리핀-한국, 경제 성장을 위한 새로운 디지털 파트너십 구축",
-    "summary_en": "The landmark agreement aims to accelerate digital transformation and foster innovation across key sectors, promising mutual benefits for both nations.",
-    "summary_kr": "이번 획기적인 협정은 주요 부문에서 디지털 전환을 가속화하고 혁신을 촉진하여 양국에 상호 이익을 가져다줄 것으로 기대됩니다.",
     "layers": [
       {
         "depth": 1,
@@ -107,15 +100,19 @@ var academyData = {
           }
         ]
       }
+    ],
+    "suggestions_en": [
+      "How does digital transformation benefit both countries?",
+      "Why is regional cooperation important?",
+      "How can Koreans in the Philippines benefit from this partnership?"
+    ],
+    "suggestions_kr": [
+      "디지털 전환이 양국에 어떤 이점을 주나요?",
+      "지역 협력이 왜 중요한가요?",
+      "필리핀 내 한국인들이 이 협력에서 어떤 혜택을 받을 수 있나요?"
     ]
   },
   "featured": {
-    "tag": "Security",
-    "tagClass": "tag-security",
-    "title_en": "Joint PH-Korea Police Task Force Launched to Ensure Tourist Safety",
-    "title_kr": "필리핀-한국 합동 경찰 태스크포스, 관광객 안전 보장 위해 출범",
-    "summary_en": "",
-    "summary_kr": "",
     "layers": [
       {
         "depth": 1,
@@ -216,15 +213,19 @@ var academyData = {
           }
         ]
       }
+    ],
+    "suggestions_en": [
+      "How do police collaborations enhance tourist safety?",
+      "Why is regional security cooperation important?",
+      "In what ways can Koreans benefit from these initiatives?"
+    ],
+    "suggestions_kr": [
+      "경찰 협력이 관광객 안전을 어떻게 향상시키나요?",
+      "지역 치안 협력이 왜 중요한가요?",
+      "한국인들이 이러한 정책에서 어떤 혜택을 받을 수 있나요?"
     ]
   },
   "news_1": {
-    "tag": "Economy",
-    "tagClass": "tag-economy",
-    "title_en": "Korean Conglomerate Announces Major Investment in Philippine Smart City Project",
-    "title_kr": "한국 대기업, 필리핀 스마트 시티 프로젝트에 대규모 투자 발표",
-    "summary_en": "A leading South Korean conglomerate has committed a multi-billion dollar investment into a new smart city development in Central Luzon, expected to create thousands of jobs and integrate advanced Korean urban planning technologies.",
-    "summary_kr": "한국의 선도적인 대기업이 중앙 루손 지역의 새로운 스마트 시티 개발에 수십억 달러를 투자하기로 약속했으며, 이는 수천 개의 일자리를 창출하고 한국의 첨단 도시 계획 기술을 통합할 것으로 예상됩니다.",
     "layers": [
       {
         "depth": 1,
@@ -328,12 +329,6 @@ var academyData = {
     ]
   },
   "news_2": {
-    "tag": "Culture",
-    "tagClass": "tag-culture",
-    "title_en": "K-Pop Festival Manila Draws Record Crowds, Showcasing Hallyu's Enduring Appeal",
-    "title_kr": "마닐라 K-POP 페스티벌, 역대급 인파 동원하며 한류의 지속적인 인기 과시",
-    "summary_en": "The annual K-Pop Festival in Manila concluded over the weekend, attracting unprecedented numbers of fans from across the Philippines and neighboring countries, solidifying K-Pop's immense popularity in the region.",
-    "summary_kr": "매년 열리는 마닐라 K-POP 페스티벌이 지난 주말 막을 내렸으며, 필리핀과 인근 국가에서 전례 없는 수의 팬들을 끌어모아 이 지역에서 K-POP의 엄청난 인기를 확고히 했습니다.",
     "layers": [
       {
         "depth": 1,
@@ -434,12 +429,6 @@ var academyData = {
     ]
   },
   "news_3": {
-    "tag": "Cooperation",
-    "tagClass": "tag-diplomacy",
-    "title_en": "PH, Korea Launch Joint Marine Conservation Initiative in West Philippine Sea",
-    "title_kr": "필리핀-한국, 서필리핀해 공동 해양 보존 이니셔티브 출범",
-    "summary_en": "Both nations have partnered to initiate a marine conservation and research program in the West Philippine Sea, focusing on biodiversity protection and sustainable resource management amidst growing environmental concerns.",
-    "summary_kr": "양국은 증가하는 환경 문제 속에서 생물 다양성 보호 및 지속 가능한 자원 관리에 중점을 두고 서필리핀해에서 해양 보존 및 연구 프로그램을 시작하기 위해 협력했습니다.",
     "layers": [
       {
         "depth": 1,
@@ -540,12 +529,6 @@ var academyData = {
     ]
   },
   "news_4": {
-    "tag": "Safety",
-    "tagClass": "tag-safety",
-    "title_en": "Embassy Issues Enhanced Safety Guidelines for Korean Tourists Visiting Remote Areas",
-    "title_kr": "대사관, 오지 방문 한국인 관광객 대상 강화된 안전 수칙 발표",
-    "summary_en": "The Korean Embassy in Manila has released updated safety guidelines for citizens planning to visit remote or less-trafficked areas in the Philippines, emphasizing precautions for travel and communication.",
-    "summary_kr": "주필리핀 대한민국 대사관은 필리핀의 오지 또는 인적이 드문 지역을 방문할 계획인 국민들을 위해 여행 및 통신 주의사항을 강조하는 업데이트된 안전 수칙을 발표했습니다.",
     "layers": [
       {
         "depth": 1,
@@ -645,7 +628,4 @@ var academyData = {
       }
     ]
   }
-};
-var paulSuggestions = {};
-paulSuggestions["cover"] = { en: ["How does digital transformation benefit both countries?", "Why is regional cooperation important?", "How can Koreans in the Philippines benefit from this partnership?"], kr: ["디지털 전환이 양국에 어떤 이점을 주나요?", "지역 협력이 왜 중요한가요?", "필리핀 내 한국인들이 이 협력에서 어떤 혜택을 받을 수 있나요?"] };
-paulSuggestions["featured"] = { en: ["How do police collaborations enhance tourist safety?", "Why is regional security cooperation important?", "In what ways can Koreans benefit from these initiatives?"], kr: ["경찰 협력이 관광객 안전을 어떻게 향상시키나요?", "지역 치안 협력이 왜 중요한가요?", "한국인들이 이러한 정책에서 어떤 혜택을 받을 수 있나요?"] };
+}
