@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-13",
+  "header_date_line": "WEDNESDAY, MAY 13, 2026 | PHILIPPINES | VOL. 42",
+  "dashboard": {
+    "php_krw_rate": "24.28",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Hub Initiative Launched, Eyeing Tech Ecosystem Growth",
+    "headline_kr": "필리핀-한국 디지털 허브 이니셔티브 출범, 기술 생태계 성장 목표",
+    "subtitle_en": "A new landmark agreement aims to transform the Philippines into a regional digital innovation hub, leveraging Korean technological expertise and investment. This initiative is expected to create numerous opportunities for both nations.",
+    "subtitle_kr": "새로운 협정은 한국의 기술 전문성과 투자를 활용하여 필리핀을 지역 디지털 혁신 허브로 전환하는 것을 목표로 합니다. 이 이니셔티브는 양국에 수많은 기회를 창출할 것으로 기대됩니다.",
+    "body_en": [
+      "The Philippine Department of Information and Communications Technology (DICT) and Korea's Ministry of Science and ICT officially launched the 'Philippines-Korea Digital Hub Initiative' yesterday in Manila. This ambitious project seeks to establish advanced digital infrastructure, foster a robust startup ecosystem, and enhance digital literacy across the archipelago. Officials highlighted the initiative's potential to significantly boost the Philippines' digital economy and create high-value jobs.",
+      "Under the framework, Korean tech companies are poised to invest heavily in data centers, AI research, and smart city solutions within key Philippine economic zones. Training programs and knowledge transfer initiatives will also be a cornerstone, aiming to upskill local talent and bridge the digital divide. The partnership is a direct result of ongoing high-level dialogues between President Marcos Jr. and President Yoon Suk Yeol, emphasizing a shared vision for a digitally empowered future.",
+      "For the Korean community in the Philippines, this initiative opens new avenues for business expansion and professional development. Experts predict an influx of Korean tech professionals and entrepreneurs, further enriching the bilateral relationship. The project's long-term goal is to position the Philippines as a leading digital economy in ASEAN, with Korea serving as a crucial strategic partner in achieving this transformative vision."
+    ],
+    "body_kr": [
+      "어제 마닐라에서 필리핀 정보통신기술부(DICT)와 한국 과학기술정보통신부가 '필리핀-한국 디지털 허브 이니셔티브'를 공식 출범했습니다. 이 야심찬 프로젝트는 선진 디지털 인프라 구축, 견고한 스타트업 생태계 조성, 그리고 필리핀 전역의 디지털 문해력 향상을 목표로 합니다. 관계자들은 이 이니셔티브가 필리핀의 디지털 경제를 크게 활성화하고 고부가가치 일자리를 창출할 잠재력이 있다고 강조했습니다.",
+      "이 프레임워크에 따라 한국 기술 기업들은 필리핀 주요 경제 특구 내 데이터 센터, AI 연구 및 스마트 시티 솔루션에 대규모 투자를 할 예정입니다. 또한 지역 인재의 역량을 강화하고 디지털 격차를 해소하기 위한 교육 프로그램 및 지식 이전 이니셔티브가 핵심이 될 것입니다. 이 파트너십은 마르코스 주니어 대통령과 윤석열 대통령 간의 지속적인 고위급 대화의 직접적인 결과로, 디지털로 역량 강화된 미래에 대한 공동의 비전을 강조합니다.",
+      "필리핀 내 한인 사회에게 이 이니셔티브는 사업 확장 및 전문성 개발을 위한 새로운 길을 열어줍니다. 전문가들은 한국 기술 전문가와 기업가들의 유입이 양국 관계를 더욱 풍부하게 할 것으로 예측합니다. 이 프로젝트의 장기 목표는 한국을 중요한 전략적 파트너로 삼아 필리핀을 아세안 지역의 선도적인 디지털 경제국으로 자리매김하는 것입니다."
+    ],
+    "image_seed": "cover-2026-05-13",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine DICT Secretary and Korean MSIT Minister shake hands after signing the Digital Hub Initiative agreement in Manila (May 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Boosts Tourist Safety Presence in Major Korean Tourist Destinations",
+    "headline_kr": "필리핀 경찰청, 주요 한인 관광지 안전 인력 증강",
+    "lead_en": "The Philippine National Police (PNP) announced an enhanced security deployment in key tourist areas frequently visited by Korean nationals, including Makati, Tagaytay, and Boracay. This move aims to ensure the safety and security of foreign visitors amidst rising tourism figures, fostering a more secure environment for the Korean community and tourists alike.",
+    "lead_kr": "필리핀 경찰청(PNP)은 마카티, 따가이따이, 보라카이 등 한인들이 자주 방문하는 주요 관광지에 보안 인력을 강화한다고 발표했습니다. 이는 증가하는 관광객 수 속에서 외국인 방문객의 안전을 보장하고, 한인 사회와 관광객 모두에게 더욱 안전한 환경을 조성하기 위함입니다.",
+    "image_seed": "feat-2026-05-13",
+    "image_query": "Philippine police officers patrolling tourist area Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eyeing Philippines' Emerging Green Energy Sector",
+      "headline_kr": "한국 투자자들, 필리핀 신흥 녹색 에너지 부문 주목",
+      "summary_en": "Several major Korean energy firms are exploring investment opportunities in the Philippines' rapidly expanding renewable energy market, particularly in solar and wind power projects. This interest aligns with the Philippines' national push towards sustainable development goals.",
+      "summary_kr": "여러 주요 한국 에너지 기업들이 필리핀의 급성장하는 재생 에너지 시장, 특히 태양광 및 풍력 발전 프로젝트에 대한 투자 기회를 모색하고 있습니다. 이러한 관심은 필리핀의 지속 가능한 개발 목표를 향한 국가적 노력과 일치합니다.",
+      "image_seed": "news1-2026-05-13",
+      "image_query": "Solar panels wind turbines Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop in Manila Draws Massive Local Enthusiasts",
+      "headline_kr": "마닐라 K-POP 댄스 워크숍, 현지 팬들 대거 참여",
+      "summary_en": "A highly anticipated K-Pop dance workshop held over the weekend in Manila attracted hundreds of Filipino youth, eager to learn moves from renowned Korean choreographers. The event showcased the enduring popularity of K-Pop and its cultural influence in the Philippines.",
+      "summary_kr": "지난 주말 마닐라에서 열린 대규모 K-POP 댄스 워크숍에 수백 명의 필리핀 청소년들이 참여하여 유명 한국 안무가들에게 춤을 배우고자 했습니다. 이 행사는 K-POP의 지속적인 인기와 필리핀 내 문화적 영향력을 보여주었습니다.",
+      "image_seed": "news2-2026-05-13",
+      "image_query": "Filipino youth K-Pop dance workshop Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Discuss Joint Efforts on Maritime Security",
+      "headline_kr": "필리핀-한국, 해양 안보 공동 노력 논의",
+      "summary_en": "High-ranking defense officials from the Philippines and South Korea met to discuss enhanced cooperation on maritime security, including intelligence sharing and joint training exercises. The talks aim to strengthen regional stability and address common challenges in the Indo-Pacific.",
+      "summary_kr": "필리핀과 한국의 고위 국방 관계자들이 정보 공유 및 합동 훈련을 포함한 해양 안보 협력 강화를 논의하기 위해 만났습니다. 이번 회담은 역내 안정성을 강화하고 인도-태평양 지역의 공동 과제에 대처하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-05-13",
+      "image_query": "Philippine Korean naval officers meeting map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Road Safety for Residents",
+      "headline_kr": "주필리핀 한국 대사관, 교민 대상 도로 안전 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines released a detailed advisory reminding Korean residents and tourists about critical road safety practices, especially concerning motorcycle accidents and pedestrian vigilance. The advisory emphasizes adhering to local traffic laws and exercising caution.",
+      "summary_kr": "주필리핀 한국 대사관은 한인 교민과 관광객들에게 오토바이 사고 및 보행자 주의 등 중요한 도로 안전 수칙을 상기시키는 상세한 주의보를 발표했습니다. 이 주의보는 현지 교통 법규 준수와 주의를 기울일 것을 강조합니다.",
+      "image_seed": "news4-2026-05-13",
+      "image_query": "Philippine traffic street pedestrian crossing safety",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 현상.",
+    "example_en": "The digital hub initiative aims to create a powerful synergy between Philippine innovation and Korean technological prowess.",
+    "example_kr": "디지털 허브 이니셔티브는 필리핀의 혁신과 한국의 기술력 간의 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

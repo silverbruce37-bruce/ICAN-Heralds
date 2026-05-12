@@ -1,0 +1,215 @@
+{
+  "week": "2026-W20",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Lasa Modern Filipino",
+    "name_kr": "라사 모던 필리피노",
+    "cuisine_tags": [
+      {
+        "en": "Modern Filipino",
+        "kr": "모던 필리피노"
+      },
+      {
+        "en": "Fine Dining",
+        "kr": "파인 다이닝"
+      }
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Stepping into Lasa is like entering a culinary sanctuary, where familiar Filipino flavors are reimagined with breathtaking artistry and precision. Each dish tells a story, a delicate balance of tradition and innovation that dances on your palate. The ambiance is elegant yet inviting, making every meal feel like a special occasion, a true celebration of Filipino gastronomic heritage.",
+    "lead_kr": "라사에 발을 들이는 순간, 익숙한 필리핀의 맛이 숨 막히는 예술성과 정교함으로 재탄생하는 요리 성전에 들어선 듯합니다. 각 요리는 전통과 혁신의 섬세한 균형이 미뢰 위에서 춤추는 이야기를 들려줍니다. 우아하면서도 따뜻한 분위기는 모든 식사를 특별한 행사처럼, 필리핀 미식 유산의 진정한 축제처럼 느끼게 합니다.",
+    "quote_en": "We believe Filipino food is not just about taste, but about memory, connection, and the future. We aim to honor our past while crafting new legacies.",
+    "quote_kr": "저희는 필리핀 음식이 맛뿐만 아니라 기억, 유대감, 그리고 미래에 관한 것이라고 믿습니다. 과거를 존중하며 새로운 유산을 만들어가는 것이 저희의 목표입니다.",
+    "location": "G/F The Grand Tower, 123 Ayala Avenue, Makati City",
+    "price_range": "₱2500–5000",
+    "hours": "Tue-Sun: 6:00 PM – 10:00 PM",
+    "hours_closed_en": "Closed Mondays",
+    "hours_closed_kr": "월요일 휴무",
+    "language_en": "English, Tagalog",
+    "language_kr": "영어, 타갈로그어",
+    "must_try": [
+      {
+        "en": "Deconstructed Sinigang with Pork Belly",
+        "kr": "재구성된 시니강 (삼겹살)",
+        "price": "₱980"
+      },
+      {
+        "en": "Adobo Two Ways",
+        "kr": "두 가지 스타일의 아도보",
+        "price": "₱1250"
+      },
+      {
+        "en": "Ube Cheesecake with Coconut Crumble",
+        "kr": "우베 치즈케이크 (코코넛 크럼블)",
+        "price": "₱450"
+      }
+    ],
+    "tip_en": "Reservations are highly recommended, especially for dinner on weekends. Opt for the tasting menu to fully experience the chef's innovative vision.",
+    "tip_kr": "주말 저녁에는 특히 예약이 필수입니다. 셰프의 혁신적인 비전을 온전히 경험하려면 테이스팅 메뉴를 선택하는 것을 추천합니다.",
+    "hero_image_seed": "food-w2026-W20",
+    "image_query": "deconstructed sinigang elegant presentation fine dining restaurant interior warm lighting",
+    "gallery_seeds": [
+      "food-g1-w2026-W20",
+      "food-g2-w2026-W20",
+      "food-g3-w2026-W20"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W20",
+      "image_query": "lush green urban forest park serene walking paths Manila",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {
+          "en": "Nature",
+          "kr": "자연"
+        },
+        {
+          "en": "Escape",
+          "kr": "탈출"
+        }
+      ],
+      "name_en": "Arroceros Forest Park",
+      "name_kr": "아로세로스 숲 공원",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "Tucked away in the bustling heart of Manila, Arroceros Forest Park offers a serene escape, a verdant oasis known as the 'Last Lung of Manila.' Wander through shaded pathways, listen to the rustling leaves, and spot various bird species. It’s a perfect spot for quiet contemplation or a refreshing stroll away from the city's hustle.",
+      "lead_kr": "마닐라의 번화한 중심부에 숨어있는 아로세로스 숲 공원은 '마닐라의 마지막 허파'로 알려진 고요한 녹색 오아시스입니다. 그늘진 길을 따라 걸으며 바스락거리는 나뭇잎 소리를 듣고 다양한 새들을 찾아보세요. 도시의 번잡함에서 벗어나 조용한 사색이나 상쾌한 산책을 즐기기에 완벽한 장소입니다.",
+      "location": "Antonio Villegas St, Ermita, Manila, 1000 Metro Manila",
+      "cost": "FREE",
+      "tip_en": "Visit early in the morning for cooler temperatures and better bird-watching opportunities. Bring insect repellent and comfortable walking shoes.",
+      "tip_kr": "시원한 기온과 더 좋은 조류 관찰 기회를 위해 아침 일찍 방문하세요. 벌레 퇴치제와 편안한 신발을 챙기세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W20",
+      "image_query": "historic art deco buildings street photography vintage cars Escolta Manila",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "Culture",
+          "kr": "문화"
+        },
+        {
+          "en": "History",
+          "kr": "역사"
+        }
+      ],
+      "name_en": "Escolta Street",
+      "name_kr": "에스콜타 거리",
+      "stars": "★★★★☆",
+      "rating": 4.7,
+      "lead_en": "Step back in time on Escolta Street, Manila's former 'Queen of Streets' and a vibrant testament to the city's rich architectural heritage. Marvel at the beautifully preserved Art Deco and Neoclassical buildings, now housing quirky cafes, art spaces, and vintage shops. It's a living museum, offering a glimpse into Manila's glamorous past and its ongoing cultural revival.",
+      "lead_kr": "마닐라의 옛 '거리의 여왕'이자 도시의 풍부한 건축 유산을 생생하게 보여주는 에스콜타 거리에서 시간 여행을 떠나보세요. 아름답게 보존된 아르데코와 신고전주의 건물들은 이제 독특한 카페, 예술 공간, 빈티지 상점을 품고 있습니다. 이곳은 마닐라의 화려했던 과거와 현재 진행 중인 문화 부흥을 엿볼 수 있는 살아있는 박물관입니다.",
+      "location": "Escolta Street, Binondo, Manila",
+      "cost": "Mostly FREE (some museums/galleries may have fees)",
+      "tip_en": "Join a guided walking tour to learn about the street's history and architecture. Don't miss the First United Building for its co-working spaces and a taste of old Manila.",
+      "tip_kr": "거리의 역사와 건축에 대해 배우려면 가이드 도보 투어에 참여하세요. First United Building의 코워킹 스페이스와 옛 마닐라의 정취를 놓치지 마세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "MAY 25",
+      "day_of_week_en": "Saturday",
+      "day_of_week_kr": "토요일",
+      "image_seed": "event1-w2026-W20",
+      "image_query": "indie rock band performing on stage vibrant lighting crowd cheering",
+      "title": "IndieFest Manila: Rising Sounds",
+      "desc_en": "Discover the next big acts in the Philippine indie music scene at IndieFest Manila! Featuring a lineup of emerging bands and beloved local favorites, this night promises electric performances and unforgettable melodies. A perfect opportunity to support local talent and immerse yourself in vibrant live music.",
+      "desc_kr": "필리핀 인디 음악 씬의 차세대 스타들을 인디페스트 마닐라에서 만나보세요! 떠오르는 밴드들과 사랑받는 로컬 아티스트들의 라인업으로 짜릿한 공연과 잊을 수 없는 멜로디를 선사할 것입니다. 지역 인재를 응원하고 활기찬 라이브 음악에 흠뻑 빠져들 완벽한 기회입니다.",
+      "venue_en": "12 Monkeys Music Hall & Pub",
+      "venue_kr": "12 몽키스 뮤직 홀 앤 펍",
+      "address_en": "5/F Century City Mall, Kalayaan Ave, Makati, 1210 Metro Manila",
+      "address_kr": "5층 센추리 시티 몰, 칼라얀 애비뉴, 마카티, 1210 메트로 마닐라",
+      "time_en": "Doors 7:00 PM · Show 8:00 PM",
+      "time_kr": "입장 오후 7시 · 공연 오후 8시",
+      "price_en": "₱800 advance / ₱1000 at door",
+      "price_kr": "사전 ₱800 / 현장 ₱1000",
+      "contact": "@12monkeysph",
+      "note_en": "Strictly 18+. Bring valid ID. Seating is first-come, first-served.",
+      "note_kr": "18세 이상 입장 가능. 유효한 신분증 지참. 좌석은 선착순입니다."
+    },
+    {
+      "date_badge": "JUN 02",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event2-w2026-W20",
+      "image_query": "outdoor vegan food market organic produce artisanal crafts",
+      "title": "Green Living Fair: Sustainable Choices",
+      "desc_en": "Explore a world of eco-friendly products, organic produce, and delicious plant-based food at the Green Living Fair. Connect with local artisans, learn about sustainable practices, and enjoy a vibrant community atmosphere dedicated to mindful living.",
+      "desc_kr": "그린 리빙 페어에서 친환경 제품, 유기농 농산물, 맛있는 식물성 식품의 세계를 탐험하세요. 지역 장인들과 소통하고, 지속 가능한 실천에 대해 배우며, 의식 있는 삶을 위한 활기찬 공동체 분위기를 즐기세요.",
+      "venue_en": "Ayala Malls Vertis North Activity Center",
+      "venue_kr": "아얄라 몰스 버티스 노스 액티비티 센터",
+      "address_en": "North Ave, Diliman, Quezon City, 1105 Metro Manila",
+      "address_kr": "노스 애비뉴, 딜리만, 퀘존 시티, 1105 메트로 마닐라",
+      "time_en": "10:00 AM – 6:00 PM",
+      "time_kr": "오전 10시 – 오후 6시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "facebook.com/GreenLivingFairPH",
+      "note_en": "Bring your own reusable bags and containers for purchases. Pet-friendly event.",
+      "note_kr": "구매 시 개인 재사용 가방과 용기를 지참하세요. 반려동물 동반 가능 행사입니다."
+    },
+    {
+      "date_badge": "JUN 15",
+      "day_of_week_en": "Saturday",
+      "day_of_week_kr": "토요일",
+      "image_seed": "event3-w2026-W20",
+      "image_query": "contemporary art exhibition abstract paintings minimalist gallery",
+      "title": "Reflections: A Contemporary Art Exhibit",
+      "desc_en": "Immerse yourself in 'Reflections,' a captivating exhibition showcasing groundbreaking works by emerging and established Filipino artists. This collection explores themes of identity, memory, and the urban landscape through diverse mediums. A must-visit for art enthusiasts and culture seekers.",
+      "desc_kr": "신진 및 기성 필리핀 예술가들의 획기적인 작품을 선보이는 매혹적인 전시회 '리플렉션스'에 푹 빠져보세요. 이 컬렉션은 다양한 매체를 통해 정체성, 기억, 도시 경관의 주제를 탐구합니다. 예술 애호가와 문화 탐방객에게 꼭 필요한 방문입니다.",
+      "venue_en": "Gallery Sining",
+      "venue_kr": "갤러리 시닝",
+      "address_en": "2/F The Collective, 7274 Malugay St, Makati, 1203 Metro Manila",
+      "address_kr": "2층 더 컬렉티브, 7274 말루가이 스트리트, 마카티, 1203 메트로 마닐라",
+      "time_en": "11:00 AM – 7:00 PM",
+      "time_kr": "오전 11시 – 오후 7시",
+      "price_en": "₱300",
+      "price_kr": "₱300",
+      "contact": "gallerysining.com",
+      "note_en": "Online ticket booking recommended to secure your slot. Photography without flash is allowed.",
+      "note_kr": "입장권 온라인 예매를 추천합니다. 플래시 없는 사진 촬영은 허용됩니다."
+    },
+    {
+      "date_badge": "JUL 07",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W20",
+      "image_query": "outdoor yoga class sunrise city park skyline",
+      "title": "Sunrise Yoga in the City",
+      "desc_en": "Start your Sunday with tranquility and rejuvenation at our Sunrise Yoga session amidst the lush greenery of Ayala Triangle Gardens. Led by experienced instructors, this all-levels class will help you find your balance and inner peace before the city wakes up.",
+      "desc_kr": "아얄라 트라이앵글 가든의 푸른 녹음 속에서 일출 요가 세션으로 평온과 활력을 되찾으며 일요일을 시작하세요. 숙련된 강사들이 진행하는 이 모든 레벨 수업은 도시가 깨어나기 전에 균형과 내면의 평화를 찾는 데 도움이 될 것입니다.",
+      "venue_en": "Ayala Triangle Gardens",
+      "venue_kr": "아얄라 트라이앵글 가든",
+      "address_en": "Paseo de Roxas St, Makati, 1209 Metro Manila",
+      "address_kr": "파세오 데 록사스 스트리트, 마카티, 1209 메트로 마닐라",
+      "time_en": "6:00 AM – 7:00 AM (Registration 5:30 AM)",
+      "time_kr": "오전 6시 – 오전 7시 (등록 오전 5시 30분)",
+      "price_en": "₱450 (includes light refreshments)",
+      "price_kr": "₱450 (가벼운 다과 포함)",
+      "contact": "eventbrite.ph/sunrise-yoga",
+      "note_en": "Bring your own yoga mat and water bottle. Arrive early for a good spot. Limited slots available.",
+      "note_kr": "개인 요가 매트와 물병을 지참하세요. 좋은 자리를 위해 일찍 도착하세요. 제한된 인원만 참여 가능합니다."
+    }
+  ],
+  "picks": {
+    "date": "2026.05.13",
+    "title_en": "The Heartbeat of Home: Modern Filipino Cuisine's Enduring Charm",
+    "title_kr": "집의 심장: 모던 필리피노 요리의 변치 않는 매력",
+    "body_en": [
+      "There's a unique comfort in Filipino food, a warmth that transcends mere sustenance and speaks directly to the soul. It's the taste of childhood, of family gatherings, of stories shared around a bustling table. For generations, dishes like adobo and sinigang have been more than just meals; they are cultural touchstones, carrying the weight of history and the joy of collective memory.",
+      "Yet, to truly appreciate Filipino cuisine is also to embrace its evolution. The culinary landscape of the Philippines is dynamic, constantly absorbing new influences while holding steadfast to its roots. Modern Filipino restaurants like Lasa exemplify this beautifully, taking beloved traditional flavors and presenting them in ways that challenge perceptions and ignite new appreciation.",
+      "It's about respect for the past, certainly, but also a daring vision for the future. By elevating humble ingredients and refining time-honored techniques, these establishments don't just cook food; they craft experiences that remind us of home, while simultaneously inviting us to explore the endless possibilities of Filipino gastronomy. It's a journey, not just a meal, and one that resonates deeply within."
+    ],
+    "body_kr": [
+      "필리핀 음식에는 단순한 영양 공급을 넘어 영혼에 직접적으로 말을 거는 독특한 편안함과 따뜻함이 있습니다. 그것은 어린 시절의 맛이자, 가족 모임의 맛, 그리고 북적이는 식탁 주변에서 나눈 이야기의 맛입니다. 여러 세대에 걸쳐 아도보와 시니강 같은 요리들은 단순한 식사가 아니었습니다. 그것들은 역사의 무게와 공동의 기억의 기쁨을 담고 있는 문화적 시금석입니다.",
+      "그러나 필리핀 요리를 진정으로 감상하려면 그 진화를 받아들여야 합니다. 필리핀의 요리 풍경은 역동적이며, 뿌리를 굳건히 지키면서도 끊임없이 새로운 영향을 흡수합니다. 라사(Lasa)와 같은 모던 필리피노 레스토랑은 이를 아름답게 보여주며, 사랑받는 전통적인 맛을 인식을 바꾸고 새로운 감사를 불러일으키는 방식으로 선보입니다.",
+      "이는 과거에 대한 존중뿐만 아니라 미래에 대한 대담한 비전이기도 합니다. 소박한 재료를 고급화하고 유서 깊은 기술을 정교하게 다듬음으로써, 이들 식당은 단순히 음식을 요리하는 것이 아닙니다. 그들은 우리에게 집을 떠올리게 하면서 동시에 필리핀 미식의 무한한 가능성을 탐험하도록 초대하는 경험을 만들어냅니다. 그것은 단순한 식사가 아니라 깊이 공감하는 여정입니다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}
