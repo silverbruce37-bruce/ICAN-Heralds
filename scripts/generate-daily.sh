@@ -62,38 +62,55 @@ call_claude() {
     local prompt="$1"
     local result=""
     local max_retries=3
+    OPENROUTER_MODEL="${OPENROUTER_MODEL:-google/gemma-4-26b-a4b-it}"
+
+    _parse_openai_json() {
+        python3 -c "
+import sys, json, re
+try:
+    resp = json.load(sys.stdin)
+    text = resp['choices'][0]['message']['content']
+    if text.startswith('\`\`\`json'): text = text[7:]
+    if text.startswith('\`\`\`'): text = text[3:]
+    if text.endswith('\`\`\`'): text = text[:-3]
+    text = text.strip()
+    if not text.startswith('{'):
+        s = text.find('{'); e = text.rfind('}')
+        if s >= 0 and e > s: text = text[s:e+1]
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', text)
+    json.loads(text)
+    print(text)
+except Exception as e:
+    print(f'Parse error: {e}', file=sys.stderr)
+"
+    }
 
     for attempt in $(seq 1 $max_retries); do
         local prompt_file
         prompt_file=$(mktemp)
         echo "$prompt" > "$prompt_file"
+        result=""
 
+        # ── Engine 1: Gemini ────────────────────────────────────────────────
         if [ -n "${GEMINI_API_KEY:-}" ]; then
-            # Primary: Gemini API (free tier)
             local gemini_payload
             gemini_payload=$(mktemp)
             python3 -c "
-import json, sys
+import json
 prompt = open('$prompt_file').read()
 payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'maxOutputTokens': 8192, 'temperature': 0.7}}
 json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
 "
-            local raw_resp
+            local raw_resp http_code body
             raw_resp=$(curl -s -w "\n%{http_code}" \
                 "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
                 -H "content-type: application/json" \
                 -d @"$gemini_payload" 2>&1)
-
-            local http_code
             http_code=$(echo "$raw_resp" | tail -1)
-            local body
             body=$(echo "$raw_resp" | sed '$d')
             rm -f "$gemini_payload"
 
-            if [ "$http_code" != "200" ]; then
-                echo "  Gemini HTTP $http_code: $(echo "$body" | head -c 200)" >&2
-                result=""
-            else
+            if [ "$http_code" = "200" ]; then
                 result=$(echo "$body" | python3 -c "
 import sys, json, re
 try:
@@ -103,24 +120,53 @@ try:
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
     text = text.strip()
-    # If Gemini returned prose wrapping JSON, extract the JSON object
     if not text.startswith('{'):
-        start = text.find('{')
-        end = text.rfind('}')
-        if start >= 0 and end > start:
-            text = text[start:end+1]
-    # Sanitize control characters (except newline/tab)
+        s = text.find('{'); e = text.rfind('}')
+        if s >= 0 and e > s: text = text[s:e+1]
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', text)
-    # Validate it's parseable JSON
     json.loads(text)
     print(text)
 except Exception as e:
     print(f'Gemini parse error: {e}', file=sys.stderr)
 ")
+                [ -n "$result" ] && echo "  [Engine] Gemini OK" >&2
+            else
+                echo "  Gemini HTTP $http_code → OpenRouter 폴백" >&2
             fi
+        fi
 
-        elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
-            # Fallback: Anthropic API
+        # ── Engine 2: OpenRouter (Codex) ────────────────────────────────────
+        if [ -z "$result" ] && [ -n "${OPENROUTER_API_KEY:-}" ]; then
+            local or_payload
+            or_payload=$(mktemp)
+            python3 -c "
+import json
+prompt = open('$prompt_file').read()
+payload = {'model': '${OPENROUTER_MODEL}', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
+json.dump(payload, open('$or_payload', 'w'), ensure_ascii=False)
+"
+            local raw_resp http_code body
+            raw_resp=$(curl -s -w "\n%{http_code}" \
+                "https://openrouter.ai/api/v1/chat/completions" \
+                -H "Authorization: Bearer ${OPENROUTER_API_KEY}" \
+                -H "Content-Type: application/json" \
+                -H "HTTP-Referer: https://ican-heralds.vercel.app" \
+                -H "X-Title: ICAN Heralds" \
+                -d @"$or_payload" 2>&1)
+            http_code=$(echo "$raw_resp" | tail -1)
+            body=$(echo "$raw_resp" | sed '$d')
+            rm -f "$or_payload"
+
+            if [ "$http_code" = "200" ]; then
+                result=$(echo "$body" | _parse_openai_json)
+                [ -n "$result" ] && echo "  [Engine] OpenRouter OK (${OPENROUTER_MODEL})" >&2
+            else
+                echo "  OpenRouter HTTP $http_code → Anthropic 폴백" >&2
+            fi
+        fi
+
+        # ── Engine 3: Anthropic Claude ──────────────────────────────────────
+        if [ -z "$result" ] && [ -n "${ANTHROPIC_API_KEY:-}" ]; then
             local anthropic_payload
             anthropic_payload=$(mktemp)
             python3 -c "
@@ -129,46 +175,55 @@ prompt = open('$prompt_file').read()
 payload = {'model': 'claude-haiku-4-5-20251001', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}]}
 json.dump(payload, open('$anthropic_payload', 'w'), ensure_ascii=False)
 "
-            local raw_resp
+            local raw_resp http_code body
             raw_resp=$(curl -s -w "\n%{http_code}" https://api.anthropic.com/v1/messages \
                 -H "x-api-key: ${ANTHROPIC_API_KEY}" \
                 -H "anthropic-version: 2023-06-01" \
                 -H "content-type: application/json" \
                 -d @"$anthropic_payload" 2>&1)
-
-            local http_code
             http_code=$(echo "$raw_resp" | tail -1)
-            local body
             body=$(echo "$raw_resp" | sed '$d')
             rm -f "$anthropic_payload"
 
-            if [ "$http_code" != "200" ]; then
-                echo "  Anthropic HTTP $http_code: $(echo "$body" | head -c 200)" >&2
-                result=""
-            else
+            if [ "$http_code" = "200" ]; then
                 result=$(echo "$body" | python3 -c "
-import sys, json
+import sys, json, re
 try:
     resp = json.load(sys.stdin)
     text = resp.get('content', [{}])[0].get('text', '')
     if text.startswith('\`\`\`json'): text = text[7:]
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
-    print(text.strip())
+    text = text.strip()
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', text)
+    json.loads(text)
+    print(text)
 except Exception as e:
-    print(f'Parse error: {e}', file=sys.stderr)
+    print(f'Anthropic parse error: {e}', file=sys.stderr)
 ")
+                [ -n "$result" ] && echo "  [Engine] Anthropic OK" >&2
+            else
+                echo "  Anthropic HTTP $http_code" >&2
             fi
-        else
-            # Local fallback: Claude CLI
+        fi
+
+        # ── Engine 4: Local Claude CLI ──────────────────────────────────────
+        if [ -z "$result" ] && command -v claude &>/dev/null; then
             result=$(claude --model haiku -p --dangerously-skip-permissions "$(cat "$prompt_file")" 2>/dev/null | python3 -c "
-import sys
+import sys, re, json
 text = sys.stdin.read().strip()
 if text.startswith('\`\`\`json'): text = text[7:]
 if text.startswith('\`\`\`'): text = text[3:]
 if text.endswith('\`\`\`'): text = text[:-3]
-print(text.strip())
-")
+text = text.strip()
+text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', text)
+try:
+    json.loads(text)
+    print(text)
+except Exception as e:
+    print(f'CLI parse error: {e}', file=sys.stderr)
+" 2>/dev/null || true)
+            [ -n "$result" ] && echo "  [Engine] Claude CLI OK" >&2
         fi
 
         rm -f "$prompt_file"
@@ -176,14 +231,13 @@ print(text.strip())
         if [ -n "$result" ]; then
             break
         else
-            echo "  Attempt $attempt: API returned empty" >&2
+            echo "  Attempt $attempt: 모든 엔진 실패 — 10초 후 재시도" >&2
+            sleep 10
         fi
-
-        sleep 10
     done
 
     if [ -z "$result" ]; then
-        echo "ERROR: API call failed after $max_retries attempts" >&2
+        echo "ERROR: 모든 AI 엔진 실패 (Gemini/OpenRouter/Anthropic/CLI)" >&2
         return 1
     fi
 

@@ -105,13 +105,14 @@ def classify_image_src(src):
 def image_sources(prompt, w=400, h=200, seed=None):
     """Return primary, secondary, and fallback image sources.
 
-    Primary is a curated stock image for reliability and clarity.
-    Secondary is the article-specific AI render.
-    Fallback is a generic stock image.
+    Primary is the article-specific Pollinations AI render (changes daily).
+    Secondary is a recovery render with tighter style settings.
+    Fallback is a stable Unsplash stock photo (always loads).
     """
-    primary = resolve_cached_url(fallback_img_url(seed, w, h))
-    secondary = resolve_cached_url(img_url(prompt, w, h, seed=seed, pass_no=1))
-    fallback = resolve_cached_url(fallback_img_url("generic-fallback", w, h))
+    # Pollinations as primary so images change each day per article content
+    primary = img_url(prompt, w, h, seed=seed, pass_no=1)
+    secondary = img_url(prompt, w, h, seed=seed, pass_no=2)
+    fallback = fallback_img_url(seed, w, h)
     return primary, secondary, fallback
 
 
