@@ -125,23 +125,100 @@ RULES:
 - Write for smart 14-year-old, natural Korean (not machine-translated)
 - Return ONLY valid JSON"
 
-# ─── Call Claude CLI (local, no quota) ───
-echo "→ Calling Claude CLI locally (sonnet)..."
-PROMPT_FILE=$(mktemp)
-echo "$ACADEMY_PROMPT" > "$PROMPT_FILE"
+# ─── Generate via Python (OpenAI → Claude CLI fallback) ───
+echo "→ Generating academy data..."
+export DATE
+ACADEMY_JSON=$(python3 <<'PYEOF'
+import json, re, sys, os, subprocess, urllib.request
+from pathlib import Path
 
-ACADEMY_JSON=$(claude --model sonnet -p --dangerously-skip-permissions "$(cat "$PROMPT_FILE")" 2>/dev/null | python3 -c "
-import sys
-text = sys.stdin.read().strip()
-if text.startswith('\`\`\`json'): text = text[7:]
-if text.startswith('\`\`\`'): text = text[3:]
-if text.endswith('\`\`\`'): text = text[:-3]
-print(text.strip())
-")
-rm -f "$PROMPT_FILE"
+DATE = os.environ['DATE']
+daily = json.load(open(f"data/daily-{DATE}.json"))
+
+lines = [
+    f"COVER: {daily['cover_story']['headline_en']}",
+    f"  {daily['cover_story']['subtitle_en']}",
+    f"FEATURED: {daily['featured_news']['headline_en']}",
+]
+for i, n in enumerate(daily['news_grid'], 1):
+    lines.append(f"NEWS_{i}: [{n['tag']}] {n['headline_en']}")
+    lines.append(f"  {n['summary_en']}")
+articles_summary = "\n".join(lines)
+
+prompt = f"""You are an educational content designer for ICAN Academy (bilingual Korean/English, age 14+).
+Today's articles:
+{articles_summary}
+
+Generate knowledge layers for: cover, featured, news_1, news_2, news_3, news_4.
+Return ONLY valid JSON (no markdown):
+{{
+  "cover": {{
+    "layers": [
+      {{"depth":1,"title_en":"Foundation title","title_kr":"기초 제목","sub_en":"Foundation","sub_kr":"기초 개념","badge":"Beginner","text_en":"3-5 sentences with <span class=kw>key term</span>.","text_kr":"<span class=kw>핵심 용어</span> 포함 설명.","bilingual_en":"Key insight.","bilingual_kr":"핵심 요약.","speaking_en":"Speaking task.","speaking_kr":"말하기 과제.","writing_en":"Writing task.","writing_kr":"쓰기 과제.","vocab":[{{"en":"term","kr":"용어"}}]}},
+      {{"depth":2,"title_en":"Context title","title_kr":"맥락 제목","sub_en":"Context","sub_kr":"맥락","badge":"Intermediate","text_en":"Deeper context.","text_kr":"더 깊은 맥락.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","vocab":[{{"en":"term","kr":"용어"}}],"quiz":{{"q_en":"Q?","q_kr":"질문?","opts":[{{"en":"Wrong","kr":"오답","correct":false}},{{"en":"Right","kr":"정답","correct":true}},{{"en":"Wrong","kr":"오답","correct":false}}]}}}},
+      {{"depth":3,"title_en":"Impact for Koreans in PH","title_kr":"필리핀 한인 영향","sub_en":"Application","sub_kr":"실생활 적용","badge":"Advanced","text_en":"Practical impact.","text_kr":"실질적 시사점.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","vocab":[{{"en":"term","kr":"용어"}}]}}
+    ],
+    "suggestions_en":["Q1?","Q2?","Q3?"],
+    "suggestions_kr":["질문1?","질문2?","질문3?"]
+  }},
+  "featured":{{...}},
+  "news_1":{{...}},"news_2":{{...}},"news_3":{{...}},"news_4":{{...}}
+}}
+Rules: 3 layers each, layer 2 has quiz, natural Korean, article-specific titles."""
+
+result = ""
+
+# Engine 1: OpenAI
+openai_key = os.environ.get("OPENAI_API_KEY", "")
+if openai_key:
+    try:
+        payload = json.dumps({
+            "model": "gpt-4.1-nano",
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 12000, "temperature": 0.7
+        }).encode()
+        req = urllib.request.Request(
+            "https://api.openai.com/v1/chat/completions",
+            data=payload,
+            headers={"Authorization": f"Bearer {openai_key}", "Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=90) as resp:
+            data = json.loads(resp.read())
+        result = data["choices"][0]["message"]["content"].strip()
+        print("  [Engine] OpenAI OK", file=sys.stderr)
+    except Exception as e:
+        print(f"  OpenAI failed: {e}", file=sys.stderr)
+
+# Engine 2: Claude CLI
+if not result:
+    try:
+        r = subprocess.run(
+            ["claude", "--model", "haiku", "-p", "--dangerously-skip-permissions", prompt],
+            capture_output=True, text=True, timeout=180
+        )
+        result = r.stdout.strip()
+        if result:
+            print("  [Engine] Claude CLI OK", file=sys.stderr)
+    except Exception as e:
+        print(f"  Claude CLI failed: {e}", file=sys.stderr)
+
+if not result:
+    print("ERROR: all engines failed", file=sys.stderr)
+    sys.exit(1)
+
+result = re.sub(r'^```[a-z]*\n?', '', result)
+result = re.sub(r'\n?```$', '', result)
+result = result.strip()
+result = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', result)
+s = result.find('{'); e = result.rfind('}')
+if s >= 0 and e > s: result = result[s:e+1]
+
+print(result)
+PYEOF
+)
 
 if [ -z "$ACADEMY_JSON" ]; then
-    echo "❌ Claude CLI returned empty. 'claude' 명령이 작동하는지 확인하세요."
+    echo "❌ Academy generation returned empty."
     exit 1
 fi
 
