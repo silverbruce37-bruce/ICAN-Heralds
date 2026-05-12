@@ -135,33 +135,32 @@ except Exception as e:
             fi
         fi
 
-        # ── Engine 2: OpenRouter (Codex) ────────────────────────────────────
-        if [ -z "$result" ] && [ -n "${OPENROUTER_API_KEY:-}" ]; then
-            local or_payload
-            or_payload=$(mktemp)
+        # ── Engine 2: OpenAI (gpt-4.1-nano) ─────────────────────────────────
+        if [ -z "$result" ] && [ -n "${OPENAI_API_KEY:-}" ]; then
+            local oai_payload
+            oai_payload=$(mktemp)
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'model': '${OPENROUTER_MODEL}', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
-json.dump(payload, open('$or_payload', 'w'), ensure_ascii=False)
+payload = {'model': 'gpt-4.1-nano', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
+json.dump(payload, open('$oai_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
             raw_resp=$(curl -s -w "\n%{http_code}" \
-                "https://openrouter.ai/api/v1/chat/completions" \
-                -H "Authorization: Bearer ${OPENROUTER_API_KEY}" \
+                "https://api.openai.com/v1/chat/completions" \
+                -H "Authorization: Bearer ${OPENAI_API_KEY}" \
                 -H "Content-Type: application/json" \
-                -H "HTTP-Referer: https://ican-heralds.vercel.app" \
-                -H "X-Title: ICAN Heralds" \
-                -d @"$or_payload" 2>&1)
+                -d @"$oai_payload" 2>&1)
             http_code=$(echo "$raw_resp" | tail -1)
             body=$(echo "$raw_resp" | sed '$d')
-            rm -f "$or_payload"
+            rm -f "$oai_payload"
 
             if [ "$http_code" = "200" ]; then
                 result=$(echo "$body" | _parse_openai_json)
-                [ -n "$result" ] && echo "  [Engine] OpenRouter OK (${OPENROUTER_MODEL})" >&2
+                [ -n "$result" ] && echo "  [Engine] OpenAI OK (gpt-4.1-nano)" >&2
             else
-                echo "  OpenRouter HTTP $http_code → Anthropic 폴백" >&2
+                echo "  OpenAI HTTP $http_code → Anthropic 폴백" >&2
+                echo "  OpenAI error: $(echo "$body" | python3 -c 'import sys,json; d=json.load(sys.stdin); print(d.get("error",{}).get("message",""))' 2>/dev/null)" >&2
             fi
         fi
 
@@ -204,6 +203,7 @@ except Exception as e:
                 [ -n "$result" ] && echo "  [Engine] Anthropic OK" >&2
             else
                 echo "  Anthropic HTTP $http_code" >&2
+                echo "  Anthropic error: $(echo "$body" | python3 -c 'import sys,json; d=json.load(sys.stdin); print(d.get("error",{}).get("message","") or str(d)[:200])' 2>/dev/null)" >&2
             fi
         fi
 
