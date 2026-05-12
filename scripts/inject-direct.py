@@ -288,9 +288,9 @@ def build_today_brief(daily):
             <div class="today-brief-heading">
                 <div>
                     <span class="section-kicker">Today Brief</span>
-                    <h2 class="today-brief-title">오늘 한눈에 보고, 바로 학습까지</h2>
+                    <h2 class="today-brief-title"><span class="en-content">Today at a Glance — Learn as You Read</span><span class="kr-content">오늘 한눈에 보고, 바로 학습까지</span></h2>
                 </div>
-                <p class="today-brief-copy">뉴스를 읽기 전에 핵심만 먼저 잡고, 바로 레벨별 영어 학습으로 이어지게 구성했습니다.</p>
+                <p class="today-brief-copy"><span class="en-content">Catch the key points first, then jump straight into level-based English learning.</span><span class="kr-content">뉴스를 읽기 전에 핵심만 먼저 잡고, 바로 레벨별 영어 학습으로 이어지게 구성했습니다.</span></p>
             </div>
             <div class="brief-grid">{cards_html}
             </div>
