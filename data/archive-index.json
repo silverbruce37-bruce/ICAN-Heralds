@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-12",
+    "vol": 41,
+    "cover_en": "PH, Korea Forge New Digital Partnership for Economic Growth",
+    "cover_kr": "필리핀-한국, 경제 성장을 위한 새로운 디지털 파트너십 구축",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Launched to Ensure Tourist Safety",
+      "Korean Conglomerate Announces Major Investment in Philippine Smart City Project",
+      "K-Pop Festival Manila Draws Record Crowds, Showcasing Hallyu's Enduring Appeal",
+      "PH, Korea Launch Joint Marine Conservation Initiative in West Philippine Sea",
+      "Embassy Issues Enhanced Safety Guidelines for Korean Tourists Visiting Remote Areas"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 태스크포스, 관광객 안전 보장 위해 출범",
+      "한국 대기업, 필리핀 스마트 시티 프로젝트에 대규모 투자 발표",
+      "마닐라 K-POP 페스티벌, 역대급 인파 동원하며 한류의 지속적인 인기 과시",
+      "필리핀-한국, 서필리핀해 공동 해양 보존 이니셔티브 출범",
+      "대사관, 오지 방문 한국인 관광객 대상 강화된 안전 수칙 발표"
+    ],
+    "tags": [
+      "Security",
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-05-11",
     "vol": 40,
     "cover_en": "PH-Korea Digital Hub Initiative to Boost ASEAN Connectivity",
