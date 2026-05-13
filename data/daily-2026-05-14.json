@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-14",
+  "header_date_line": "THURSDAY, MAY 14, 2026 | PHILIPPINES | VOL. 43",
+  "dashboard": {
+    "php_krw_rate": "24.28",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.14",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, Philippines Launch New Phase in Digital Transformation Partnership",
+    "headline_kr": "한-필리핀, 디지털 전환 파트너십 새 국면 돌입",
+    "subtitle_en": "The two nations commit to advanced collaboration in AI, cybersecurity, and smart infrastructure, aiming to boost economic growth and enhance services for residents.",
+    "subtitle_kr": "양국은 AI, 사이버 보안 및 스마트 인프라 분야에서 첨단 협력을 약속하며, 경제 성장 촉진과 거주민 서비스 향상을 목표로 한다.",
+    "body_en": [
+      "MANILA – South Korea and the Philippines today announced the launch of a significant new phase in their Digital Transformation Partnership, solidifying a joint commitment to accelerate innovation and digital development across key sectors. The initiative, spearheaded by the Philippine Department of Information and Communications Technology (DICT) and Korea's Ministry of Science and ICT (MSIT), focuses on collaborative projects in artificial intelligence, cybersecurity frameworks, and the development of smart city solutions. This expanded partnership builds upon existing agreements, aiming to create a robust digital ecosystem beneficial for both nations.",
+      "Officials from both countries emphasized the partnership's potential to drive economic prosperity and improve the quality of life for their citizens, including the vibrant Korean community residing in the Philippines. Specific projects outlined include joint research and development centers for AI applications, enhanced information sharing protocols for cybersecurity threats, and pilot programs for smart traffic management and public safety systems in urban centers. These efforts are expected to attract further Korean investment into the Philippines' burgeoning tech sector, creating new job opportunities and fostering technological exchange.",
+      "The agreement underscores a shared vision for a digitally empowered future, with a strong emphasis on capacity building and knowledge transfer. Training programs for Filipino ICT professionals, supported by Korean expertise, are a central component, ensuring sustainable growth and local ownership of digital advancements. Both governments reiterated their dedication to working closely to navigate the challenges and opportunities of the digital age, promising a dynamic and mutually beneficial partnership for years to come."
+    ],
+    "body_kr": [
+      "마닐라 – 대한민국과 필리핀은 오늘 핵심 분야 전반에 걸쳐 혁신과 디지털 발전을 가속화하기 위한 공동의 약속을 공고히 하며, 디지털 전환 파트너십의 중요한 새 국면을 발표했다. 필리핀 정보통신기술부(DICT)와 한국 과학기술정보통신부(MSIT)가 주도하는 이번 이니셔티브는 인공지능, 사이버 보안 프레임워크, 스마트 도시 솔루션 개발 분야의 협력 프로젝트에 초점을 맞추고 있다. 이번 확대된 파트너십은 기존 협정을 기반으로 양국에 이로운 견고한 디지털 생태계를 구축하는 것을 목표로 한다.",
+      "양국 관계자들은 이 파트너십이 필리핀에 거주하는 활기찬 한인 사회를 포함한 자국민의 경제적 번영을 이끌고 삶의 질을 향상시킬 잠재력을 강조했다. 구체적인 프로젝트로는 AI 애플리케이션을 위한 공동 연구 개발 센터, 사이버 보안 위협에 대한 정보 공유 프로토콜 강화, 그리고 도시 중심지에서의 스마트 교통 관리 및 공공 안전 시스템 시범 프로그램 등이 있다. 이러한 노력은 필리핀의 급성장하는 기술 부문으로의 한국 투자 유치를 더욱 촉진하여 새로운 일자리 창출과 기술 교류를 활성화할 것으로 기대된다.",
+      "이번 협정은 역량 강화 및 지식 이전에 중점을 둔 디지털 역량 강화 미래에 대한 공동의 비전을 강조한다. 한국의 전문성을 바탕으로 한 필리핀 ICT 전문가를 위한 훈련 프로그램은 지속 가능한 성장과 디지털 발전의 현지 소유를 보장하는 핵심 요소이다. 양국 정부는 디지털 시대의 도전과 기회를 헤쳐나가기 위해 긴밀히 협력할 것을 재확인하며, 앞으로 수년간 역동적이고 상호 유익한 파트너십을 약속했다."
+    ],
+    "image_seed": "cover-2026-05-14",
+    "image_query": "Korean Philippine officials shaking hands, digital agreement, AI, smart city, Manila",
+    "image_caption": "Photo: Officials from Korea and the Philippines shaking hands after signing a digital cooperation agreement in Manila (May 14, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Tourist Police Boost Presence in Popular Korean Tourist Destinations",
+    "headline_kr": "한인 관광객 주요 목적지에 관광 경찰력 강화",
+    "lead_en": "The Philippine National Police (PNP) has deployed additional tourist police units to key areas frequented by Korean visitors, including Boracay, Cebu, and parts of Metro Manila. This initiative aims to enhance safety and provide immediate assistance to tourists, ensuring a secure and enjoyable travel experience.",
+    "lead_kr": "필리핀 국가경찰(PNP)이 보라카이, 세부, 메트로 마닐라 일부 지역 등 한국인 관광객들이 자주 찾는 주요 지역에 추가 관광 경찰 부대를 배치했습니다. 이 이니셔티브는 관광객의 안전을 강화하고 즉각적인 지원을 제공하여 안전하고 즐거운 여행 경험을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-05-14",
+    "image_query": "Philippine tourist police patrol, Korean tourists, busy street, Boracay",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eye Major Investment in Philippine Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 필리핀 재생에너지 부문에 대규모 투자 모색",
+      "summary_en": "Several leading Korean energy companies are reportedly in advanced discussions to invest billions in Philippine renewable energy projects, particularly solar and wind farms. This move aligns with the Philippines' green energy transition goals and offers lucrative opportunities for Korean technology and capital.",
+      "summary_kr": "여러 선도적인 한국 에너지 기업들이 필리핀 재생에너지 프로젝트, 특히 태양광 및 풍력 발전소에 수십억 달러를 투자하기 위한 심도 있는 논의를 진행 중인 것으로 알려졌습니다. 이는 필리핀의 녹색 에너지 전환 목표와 일치하며 한국 기술 및 자본에 수익성 있는 기회를 제공합니다.",
+      "image_seed": "news1-2026-05-14",
+      "image_query": "Korean investors, solar panels, wind turbines, Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Culture Festival Breaks Attendance Records",
+      "headline_kr": "마닐라 K-컬처 페스티벌, 역대 최다 관객 기록 경신",
+      "summary_en": "The annual K-Culture Festival held last weekend in Manila attracted an unprecedented number of attendees, showcasing K-Pop, K-Drama, traditional Korean performances, and authentic K-food. The event further cemented the Philippines' status as a major hub for Korean cultural appreciation.",
+      "summary_kr": "지난 주말 마닐라에서 열린 연례 K-컬처 페스티벌은 K-Pop, K-드라마, 한국 전통 공연, 정통 한식을 선보이며 전례 없는 수의 관객을 유치했습니다. 이 행사는 한국 문화에 대한 필리핀의 주요 허브로서의 위상을 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-05-14",
+      "image_query": "K-Pop dance performance, large crowd, Korean food stalls, festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine Universities Strengthen Research Ties with Korean Institutions",
+      "headline_kr": "필리핀 대학들, 한국 연구기관들과 연구 협력 강화",
+      "summary_en": "A new memorandum of understanding has been signed between major Philippine universities and Korean research institutes, focusing on joint scientific research and academic exchange programs. This initiative aims to foster innovation and talent development in both countries.",
+      "summary_kr": "필리핀 주요 대학들과 한국 연구기관들 사이에 공동 과학 연구 및 학술 교류 프로그램에 초점을 맞춘 새로운 양해각서가 체결되었습니다. 이 이니셔티브는 양국에서 혁신과 인재 개발을 육성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-05-14",
+      "image_query": "University students, professors collaborating, laboratory, Manila Seoul",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Reminds Travelers of Safety Protocols for Peak Season",
+      "headline_kr": "주필리핀 한국대사관, 성수기 여행객 안전 수칙 재강조",
+      "summary_en": "With the upcoming peak travel season, the Korean Embassy in Manila has reissued an advisory, urging Korean nationals to remain vigilant, secure their belongings, and be aware of local customs and laws. The embassy also provided emergency contact numbers.",
+      "summary_kr": "다가오는 성수기를 맞아 주필리핀 한국대사관은 한국 국민들에게 경계를 늦추지 말고 소지품을 잘 챙기며 현지 관습과 법률을 숙지할 것을 촉구하는 권고를 재발표했습니다. 대사관은 또한 긴급 연락처를 제공했습니다.",
+      "image_seed": "news4-2026-05-14",
+      "image_query": "Korean embassy building, safety infographic, travel documents",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds up significant change or action.",
+    "definition_kr": "사건이나 변화를 촉발하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new digital partnership between Korea and the Philippines is expected to be a catalyst for technological advancement in the region.",
+    "example_kr": "한국과 필리핀 간의 새로운 디지털 파트너십은 이 지역의 기술 발전을 위한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

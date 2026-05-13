@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-14",
+    "vol": 43,
+    "cover_en": "Korea, Philippines Launch New Phase in Digital Transformation Partnership",
+    "cover_kr": "한-필리핀, 디지털 전환 파트너십 새 국면 돌입",
+    "headlines_en": [
+      "Tourist Police Boost Presence in Popular Korean Tourist Destinations",
+      "Korean Firms Eye Major Investment in Philippine Renewable Energy Sector",
+      "Manila's K-Culture Festival Breaks Attendance Records",
+      "Philippine Universities Strengthen Research Ties with Korean Institutions",
+      "Korean Embassy Reminds Travelers of Safety Protocols for Peak Season"
+    ],
+    "headlines_kr": [
+      "한인 관광객 주요 목적지에 관광 경찰력 강화",
+      "한국 기업들, 필리핀 재생에너지 부문에 대규모 투자 모색",
+      "마닐라 K-컬처 페스티벌, 역대 최다 관객 기록 경신",
+      "필리핀 대학들, 한국 연구기관들과 연구 협력 강화",
+      "주필리핀 한국대사관, 성수기 여행객 안전 수칙 재강조"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Security",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-05-13",
     "vol": 42,
     "cover_en": "PH-Korea Digital Hub Initiative Launched, Eyeing Tech Ecosystem Growth",
