@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-05-15",
+    "vol": 44,
+    "cover_en": "Korea Pledges Major Investment in Philippine Digital Transformation",
+    "cover_kr": "한국, 필리핀 디지털 전환에 대규모 투자 약속",
+    "headlines_en": [
+      "Joint Philippine-Korean Police Operations Target Tourist Safety",
+      "Korean Firms Eyeing ASEAN Green Energy Market Growth",
+      "Manila Hosts Vibrant K-Food Festival This Weekend",
+      "Korea, Philippines Discuss Enhanced Maritime Security Cooperation",
+      "Korean Embassy Launches Disaster Preparedness Program for Community"
+    ],
+    "headlines_kr": [
+      "한-필리핀 경찰, 관광객 안전 위한 합동 작전 개시",
+      "한국 기업들, 아세안 녹색 에너지 시장 성장 주시",
+      "마닐라에서 이번 주말 활기찬 K-푸드 페스티벌 개최",
+      "한국-필리핀, 해양 안보 협력 강화 논의",
+      "주필리핀 한국대사관, 교민 대상 재난 대비 프로그램 시작"
+    ],
+    "tags": [
+      "Economy",
+      "Safety",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-05-14",
     "vol": 43,
     "cover_en": "Korea, Philippines Launch New Phase in Digital Transformation Partnership",
