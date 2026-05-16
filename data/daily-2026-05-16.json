@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-16",
+  "header_date_line": "SATURDAY, MAY 16, 2026 | PHILIPPINES | VOL. 45",
+  "dashboard": {
+    "php_krw_rate": "24.36",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.16",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Tech Giants Accelerate Philippines' Smart City Development",
+    "headline_kr": "한국 IT 대기업들, 필리핀 스마트 도시 개발 가속화",
+    "subtitle_en": "Major Korean technology firms have announced significant investments and partnerships to bolster the Philippines' ambitious smart city initiatives, focusing on sustainable urban solutions and digital infrastructure.",
+    "subtitle_kr": "주요 한국 기술 기업들이 필리핀의 야심찬 스마트 도시 이니셔티브를 강화하기 위한 대규모 투자 및 파트너십을 발표하며, 지속 가능한 도시 솔루션과 디지털 인프라에 중점을 두고 있습니다.",
+    "body_en": [
+      "MANILA – A consortium of leading South Korean technology companies, including giants like Samsung SDS and KT Corporation, has committed to injecting billions of pesos into the Philippines' burgeoning smart city projects. This strategic move, formalized through several Memoranda of Understanding (MOUs) signed this week, aims to transform key urban centers across the archipelago into technologically advanced, sustainable, and efficient communities. The initiatives will focus on areas such as intelligent traffic management, smart grids, digital governance platforms, and eco-friendly urban planning.",
+      "The collaboration is expected to bring cutting-edge Korean expertise and innovation to the Philippines, fostering a new era of urban development. Officials from both nations highlighted the potential for job creation, economic growth, and improved quality of life for Filipino citizens. The projects are not merely about technology deployment but also include comprehensive training programs for local talent, ensuring long-term sustainability and knowledge transfer. This marks a significant milestone in the bilateral economic partnership, moving beyond traditional manufacturing and into high-tech sectors.",
+      "President Ferdinand Marcos Jr., during a joint press conference with Korean business leaders, expressed his gratitude for Korea's continued trust and investment in the Philippines' future. He emphasized that these smart city developments align perfectly with the nation's 'Build Better More' agenda, aiming for inclusive and resilient growth. The first phase of these projects is slated to begin in Metro Manila and Cebu within the next six months, with plans for expansion to other provinces in the coming years, positioning the Philippines as a regional leader in smart urban living."
+    ],
+    "body_kr": [
+      "마닐라 – 삼성SDS와 KT 등 한국의 주요 기술 기업 컨소시엄이 필리핀의 급성장하는 스마트 도시 프로젝트에 수십억 페소 규모의 투자를 약속했습니다. 이번 주 체결된 여러 양해각서(MOU)를 통해 공식화된 이 전략적 움직임은 필리핀 전역의 주요 도시 중심지를 기술적으로 진보하고 지속 가능하며 효율적인 커뮤니티로 변화시키는 것을 목표로 합니다. 이 이니셔티브는 지능형 교통 관리, 스마트 그리드, 디지털 거버넌스 플랫폼 및 친환경 도시 계획과 같은 분야에 중점을 둘 것입니다.",
+      "이번 협력은 한국의 최첨단 전문 지식과 혁신을 필리핀에 가져와 새로운 도시 개발 시대를 열 것으로 기대됩니다. 양국 관계자들은 필리핀 시민을 위한 일자리 창출, 경제 성장 및 삶의 질 향상 잠재력을 강조했습니다. 이 프로젝트는 단순한 기술 배포를 넘어 현지 인재를 위한 포괄적인 교육 프로그램을 포함하여 장기적인 지속 가능성과 지식 이전을 보장합니다. 이는 전통적인 제조업을 넘어 첨단 기술 부문으로 나아가는 양국 경제 파트너십의 중요한 이정표가 될 것입니다.",
+      "페르디난드 마르코스 주니어 대통령은 한국 기업 지도자들과의 공동 기자회견에서 필리핀의 미래에 대한 한국의 지속적인 신뢰와 투자에 감사를 표했습니다. 그는 이러한 스마트 도시 개발이 포괄적이고 회복력 있는 성장을 목표로 하는 국가의 '더 나은 건설' 의제와 완벽하게 일치한다고 강조했습니다. 이 프로젝트의 첫 단계는 향후 6개월 이내에 메트로 마닐라와 세부에서 시작될 예정이며, 향후 몇 년 안에 다른 지방으로 확장하여 필리핀을 스마트 도시 생활의 지역 리더로 자리매김할 계획입니다."
+    ],
+    "image_seed": "cover-2026-05-16",
+    "image_query": "Korean and Philippine officials shaking hands in front of a smart city blueprint",
+    "image_caption": "Photo: Philippine and Korean officials sign MOUs for smart city development (May 15, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Safety for Tourists in Boracay",
+    "headline_kr": "필리핀-한국 합동 경찰 순찰대, 보라카이 관광객 안전 강화",
+    "lead_en": "A new joint security initiative between the Philippine National Police (PNP) and Korean National Police (KNP) has launched in Boracay, aiming to enhance the safety and security of Korean tourists. The program involves Korean police liaisons joining local patrols in popular tourist areas, fostering better communication and immediate assistance for Korean visitors.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한국 경찰청(KNP) 간의 새로운 합동 보안 이니셔티브가 보라카이에서 시작되어 한국인 관광객의 안전과 보안을 강화하는 것을 목표로 합니다. 이 프로그램은 한국 경찰 연락관이 인기 관광 지역의 지역 순찰에 참여하여 한국인 방문객을 위한 더 나은 의사소통과 즉각적인 지원을 촉진합니다.",
+    "image_seed": "feat-2026-05-16",
+    "image_query": "Philippine and Korean police officers patrolling Boracay beach with tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine-Korean FTA Bolsters Agricultural Exports to Seoul",
+      "headline_kr": "필리핀-한국 FTA, 서울로의 농산물 수출 증대",
+      "summary_en": "The recently ratified Philippine-Korea Free Trade Agreement (PKFTA) is already yielding positive results, with a significant increase in Philippine agricultural exports, particularly fresh produce, to South Korea. Farmers and exporters are optimistic about continued growth.",
+      "summary_kr": "최근 비준된 필리핀-한국 자유무역협정(PKFTA)이 긍정적인 결과를 보이며, 특히 신선 농산물을 중심으로 필리핀의 한국으로의 농산물 수출이 크게 증가했습니다. 농부들과 수출업자들은 지속적인 성장에 대해 낙관하고 있습니다.",
+      "image_seed": "news1-2026-05-16",
+      "image_query": "Philippine mangoes on a Korean supermarket shelf",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파 속 문화 교류의 장",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing a diverse array of Korean dishes and cultural performances. The event reinforced the strong bond between Filipino and Korean communities through shared love for food.",
+      "summary_kr": "마닐라 연례 K-푸드 페스티벌이 전례 없는 인파 속에서 성황리에 막을 내렸으며, 다양한 한국 요리와 문화 공연을 선보였습니다. 이 행사는 음식에 대한 공동의 사랑을 통해 필리핀과 한국 커뮤니티 간의 강한 유대감을 강화했습니다.",
+      "image_seed": "news2-2026-05-16",
+      "image_query": "Crowded K-food festival street vendors Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Ambassador Emphasizes Stronger Bilateral Ties at Economic Forum",
+      "headline_kr": "주필리핀 한국 대사, 경제 포럼에서 양국 관계 강화 강조",
+      "summary_en": "During the ASEAN Economic Forum in Taguig, the Korean Ambassador to the Philippines reiterated Korea's commitment to deepening economic and diplomatic ties with the Philippines and the wider ASEAN region, highlighting shared values and mutual growth opportunities.",
+      "summary_kr": "타귁에서 열린 아세안 경제 포럼에서 주필리핀 한국 대사는 필리핀 및 더 넓은 아세안 지역과의 경제 및 외교 관계 심화에 대한 한국의 약속을 재확인하며 공유된 가치와 상호 성장 기회를 강조했습니다.",
+      "image_seed": "news3-2026-05-16",
+      "image_query": "Korean ambassador speaking at a podium with Philippine flag",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Warns Korean Expats Against Rising Online Investment Scams",
+      "headline_kr": "대사관, 한국 교민들에게 온라인 투자 사기 주의 당부",
+      "summary_en": "The Korean Embassy in Manila has issued a fresh advisory urging Korean expatriates to exercise extreme caution against sophisticated online investment scams. The warning comes amidst a reported increase in cases targeting the community.",
+      "summary_kr": "주마닐라 한국 대사관은 한국 교민들에게 정교한 온라인 투자 사기에 대해 극도의 주의를 기울일 것을 촉구하는 새로운 권고를 발표했습니다. 이번 경고는 교민을 대상으로 하는 사례가 증가하고 있다는 보고에 따른 것입니다.",
+      "image_seed": "news4-2026-05-16",
+      "image_query": "Person looking worried at laptop screen online scam",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각각의 개별 효과의 합보다 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The synergy between Korean technology and Philippine development goals promises a brighter future for smart cities.",
+    "example_kr": "한국 기술과 필리핀 개발 목표 간의 시너지는 스마트 도시의 더 밝은 미래를 약속합니다.",
+    "grade": "A+"
+  }
+}

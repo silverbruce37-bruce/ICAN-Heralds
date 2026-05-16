@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-16",
+    "vol": 45,
+    "cover_en": "Korean Tech Giants Accelerate Philippines' Smart City Development",
+    "cover_kr": "한국 IT 대기업들, 필리핀 스마트 도시 개발 가속화",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Boost Safety for Tourists in Boracay",
+      "Philippine-Korean FTA Bolsters Agricultural Exports to Seoul",
+      "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Exchange",
+      "Korean Ambassador Emphasizes Stronger Bilateral Ties at Economic Forum",
+      "Embassy Warns Korean Expats Against Rising Online Investment Scams"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 순찰대, 보라카이 관광객 안전 강화",
+      "필리핀-한국 FTA, 서울로의 농산물 수출 증대",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파 속 문화 교류의 장",
+      "주필리핀 한국 대사, 경제 포럼에서 양국 관계 강화 강조",
+      "대사관, 한국 교민들에게 온라인 투자 사기 주의 당부"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Culture",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-15",
     "vol": 44,
     "cover_en": "Korea Pledges Major Investment in Philippine Digital Transformation",
