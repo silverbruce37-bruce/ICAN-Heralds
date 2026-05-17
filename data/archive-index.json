@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-17",
+    "vol": 46,
+    "cover_en": "Korea-Philippines Digital Infrastructure Pact: A New Era of Collaboration",
+    "cover_kr": "한-필리핀 디지털 인프라 협약: 새로운 협력 시대 개막",
+    "headlines_en": [
+      "Joint Patrols Boost Korean Tourist Safety in Key Philippine Destinations",
+      "Korean Agri-Tech Investment Boosts Philippine Farm Productivity",
+      "Successful K-Food Festival Draws Crowds in Manila",
+      "Korea and Philippines Launch Joint Marine Conservation Program",
+      "Community Alert System Enhanced for Korean Residents in Metro Manila"
+    ],
+    "headlines_kr": [
+      "주요 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+      "한국 농업 기술 투자, 필리핀 농업 생산성 향상 기여",
+      "마닐라 K-푸드 페스티벌 성황리 개최",
+      "한-필리핀, 해양 보존 공동 프로그램 착수",
+      "메트로 마닐라 한인 거주자 위한 커뮤니티 경보 시스템 강화"
+    ],
+    "tags": [
+      "Economy",
+      "Cooperation",
+      "Security",
+      "Culture",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-16",
     "vol": 45,
     "cover_en": "Korean Tech Giants Accelerate Philippines' Smart City Development",
