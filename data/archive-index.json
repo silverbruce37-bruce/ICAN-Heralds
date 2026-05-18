@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-19",
+    "vol": 48,
+    "cover_en": "Philippines-Korea FTA Enters New Phase, Promises Economic Boom",
+    "cover_kr": "필리핀-한국 FTA 새 국면 진입, 경제 활성화 기대",
+    "headlines_en": [
+      "PNP and Korean Embassy Launch Enhanced Safety Campaign for Tourists",
+      "Philippine Startups Attract Increased Korean Tech Investment",
+      "K-Food Festival in Manila Draws Record Crowds, Boosts Culinary Exchange",
+      "PH-Korea Joint Research on Renewable Energy Gains Momentum",
+      "Community Watch Program Strengthens Safety in Korean Enclaves"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청-주필 한국대사관, 관광객 안전 강화 캠페인 전개",
+      "필리핀 스타트업, 한국 기술 투자 유치 증가",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록하며 요리 교류 증진",
+      "필리핀-한국, 신재생에너지 공동 연구 박차 가해",
+      "한인 밀집 지역, 커뮤니티 감시 프로그램으로 안전 강화"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Cooperation",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-18",
     "vol": 47,
     "cover_en": "Korea-PH Unveil Landmark Digital Partnership for Smart Cities",

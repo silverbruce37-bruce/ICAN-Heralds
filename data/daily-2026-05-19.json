@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-19",
+  "header_date_line": "TUESDAY, MAY 19, 2026 | PHILIPPINES | VOL. 48",
+  "dashboard": {
+    "php_krw_rate": "24.22",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea FTA Enters New Phase, Promises Economic Boom",
+    "headline_kr": "필리핀-한국 FTA 새 국면 진입, 경제 활성화 기대",
+    "subtitle_en": "The landmark Free Trade Agreement (FTA) between the Philippines and South Korea moves into its implementation phase, poised to significantly expand bilateral trade and investment opportunities for both nations. This development is expected to particularly benefit key sectors like automotive, agriculture, and manufacturing.",
+    "subtitle_kr": "필리핀과 한국 간의 역사적인 자유무역협정(FTA)이 이행 단계에 접어들면서 양국 간 교역 및 투자 기회 확대가 기대됩니다. 특히 자동차, 농업, 제조업 등 주요 부문에 긍정적인 영향을 미칠 것으로 전망됩니다.",
+    "body_en": [
+      "The Philippines-Korea Free Trade Agreement (FTA), signed in 2021 and ratified earlier this year, has officially entered its implementation phase, marking a pivotal moment in the economic relationship between the two countries. This agreement aims to eliminate tariffs on 95% of Philippine products exported to Korea and 99% of Korean products entering the Philippines, creating a more competitive trade environment. Experts predict a substantial increase in bilateral trade volume, potentially reaching new highs within the next five years.",
+      "For the Korean community in the Philippines, this FTA presents a dual opportunity. Korean businesses already operating in the Philippines, particularly those in electronics manufacturing, automotive parts, and processed foods, stand to gain from reduced import costs for raw materials and easier access to the Korean market for their finished goods. Conversely, the increased influx of Korean investments into the Philippines is expected to create more job opportunities for Filipinos and foster greater economic stability, further solidifying the strong ties between the two nations.",
+      "Beyond trade, the FTA is also set to deepen cooperation in areas such as technology transfer, agricultural modernization, and cultural exchange. The Philippine government has expressed optimism that the agreement will accelerate its industrialization efforts and enhance its global competitiveness, while South Korea anticipates securing stable supply chains and expanding its market presence in Southeast Asia. Regular joint committee meetings are scheduled to monitor the agreement's progress and address any implementation challenges, ensuring its long-term success."
+    ],
+    "body_kr": [
+      "2021년에 서명되고 올해 초 비준된 필리핀-한국 자유무역협정(FTA)이 공식적으로 이행 단계에 돌입하며 양국 경제 관계에 중요한 전환점을 마련했습니다. 이 협정은 한국으로 수출되는 필리핀 제품의 95%와 필리핀으로 수입되는 한국 제품의 99%에 대한 관세를 철폐하여 더욱 경쟁적인 무역 환경을 조성하는 것을 목표로 합니다. 전문가들은 향후 5년 이내에 양국 교역량이 크게 증가하여 사상 최고치를 기록할 것으로 예측하고 있습니다.",
+      "필리핀 내 한인 사회에게 이 FTA는 이중적인 기회를 제공합니다. 필리핀에서 이미 전자제품 제조, 자동차 부품, 가공식품 분야에서 사업을 운영하고 있는 한국 기업들은 원자재 수입 비용 절감과 완제품의 한국 시장 접근성 향상으로 이득을 볼 수 있습니다. 반대로 필리핀으로의 한국 투자 유입 증가는 필리핀 국민들에게 더 많은 일자리를 창출하고 경제 안정을 촉진하여 양국 간의 강력한 유대 관계를 더욱 공고히 할 것으로 기대됩니다.",
+      "무역을 넘어 FTA는 기술 이전, 농업 현대화, 문화 교류와 같은 분야에서도 협력을 심화시킬 것입니다. 필리핀 정부는 이 협정이 산업화 노력을 가속화하고 글로벌 경쟁력을 강화할 것이라는 낙관적인 전망을 내놓았으며, 한국은 안정적인 공급망을 확보하고 동남아시아 시장에서의 입지를 확대할 것으로 기대합니다. 협정의 진행 상황을 모니터링하고 이행상의 어려움을 해결하기 위해 정기적인 공동 위원회 회의가 예정되어 있으며, 이는 장기적인 성공을 보장할 것입니다."
+    ],
+    "image_seed": "cover-2026-05-19",
+    "image_query": "Philippine Korean officials handshake agreement signing ceremony, flags, modern setting",
+    "image_caption": "Photo: Philippine and Korean officials finalize FTA implementation details (May 18, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP and Korean Embassy Launch Enhanced Safety Campaign for Tourists",
+    "headline_kr": "필리핀 경찰청-주필 한국대사관, 관광객 안전 강화 캠페인 전개",
+    "lead_en": "The Philippine National Police (PNP) and the Embassy of the Republic of Korea in the Philippines have jointly launched an enhanced safety and security campaign aimed at protecting Korean tourists and residents. This initiative includes increased police visibility in popular tourist destinations and Korean-populated areas, alongside a new digital awareness program.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 주필리핀 대한민국 대사관이 한국인 관광객 및 교민 보호를 위한 강화된 안전 캠페인을 공동으로 시작했습니다. 이번 이니셔티브는 인기 관광지와 한인 밀집 지역의 경찰 순찰을 강화하고, 새로운 디지털 인식 프로그램을 포함합니다.",
+    "image_seed": "feat-2026-05-19",
+    "image_query": "Philippine police Korean embassy official discussing safety, community, tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Startups Attract Increased Korean Tech Investment",
+      "headline_kr": "필리핀 스타트업, 한국 기술 투자 유치 증가",
+      "summary_en": "Philippine tech startups are experiencing a surge in venture capital from Korean investors, particularly in fintech and e-commerce sectors, signaling growing confidence in the local innovation ecosystem and potential for regional expansion.",
+      "summary_kr": "필리핀 기술 스타트업들이 핀테크 및 전자상거래 분야에서 한국 투자자들의 벤처 캐피탈 유치를 늘리고 있으며, 이는 현지 혁신 생태계와 지역 확장 가능성에 대한 신뢰가 커지고 있음을 보여줍니다.",
+      "image_seed": "news1-2026-05-19",
+      "image_query": "Korean investor shaking hands Philippine startup founder, laptop",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Manila Draws Record Crowds, Boosts Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록하며 요리 교류 증진",
+      "summary_en": "The annual K-Food Festival held in Manila concluded with unprecedented attendance, showcasing diverse Korean culinary traditions and fostering greater cultural understanding among Filipinos and the Korean community.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 기록하며 성황리에 막을 내렸습니다. 이번 행사는 다양한 한국 요리 전통을 선보였고, 필리핀인과 한인 사회 간의 문화적 이해를 증진시켰습니다.",
+      "image_seed": "news2-2026-05-19",
+      "image_query": "People enjoying Korean street food, vibrant festival atmosphere",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Joint Research on Renewable Energy Gains Momentum",
+      "headline_kr": "필리핀-한국, 신재생에너지 공동 연구 박차 가해",
+      "summary_en": "A collaborative research project between Philippine and Korean universities focusing on offshore wind and solar energy technologies is accelerating, promising sustainable energy solutions for the region.",
+      "summary_kr": "필리핀과 한국 대학 간의 해상 풍력 및 태양 에너지 기술에 중점을 둔 공동 연구 프로젝트가 가속화되고 있으며, 이는 지역에 지속 가능한 에너지 솔루션을 약속합니다.",
+      "image_seed": "news3-2026-05-19",
+      "image_query": "Scientists collaborating in laboratory, renewable energy equipment",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Strengthens Safety in Korean Enclaves",
+      "headline_kr": "한인 밀집 지역, 커뮤니티 감시 프로그램으로 안전 강화",
+      "summary_en": "Local Korean associations are expanding their community watch programs, utilizing volunteer patrols and digital communication to enhance safety and security within residential areas popular with Korean expatriates.",
+      "summary_kr": "현지 한인회들이 자원봉사 순찰대와 디지털 통신을 활용하여 한인 교민들이 많이 거주하는 주거 지역의 안전과 보안을 강화하는 커뮤니티 감시 프로그램을 확대하고 있습니다.",
+      "image_seed": "news4-2026-05-19",
+      "image_query": "Community watch volunteers patrolling, neighborhood street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Consolidate",
+    "pronunciation": "/kənˈsɒlɪdeɪt/",
+    "type": "verb",
+    "definition_en": "To combine a number of things into a single more effective or coherent whole; to strengthen or make more firm.",
+    "definition_kr": "여러 가지를 하나로 합쳐 더 효과적이거나 일관성 있는 전체를 만들다; 강화하거나 더욱 확고히 하다.",
+    "example_en": "The new FTA aims to consolidate economic ties between the Philippines and South Korea, leading to greater stability and growth.",
+    "example_kr": "새로운 FTA는 필리핀과 한국 간의 경제적 유대 관계를 공고히 하여 더 큰 안정과 성장을 이끌어내는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
