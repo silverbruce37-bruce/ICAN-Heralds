@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-20",
+    "vol": 49,
+    "cover_en": "Korea-Philippines Digital Partnership Summit Yields Major Agreements",
+    "cover_kr": "한-필리핀 디지털 파트너십 정상회담, 주요 협정 체결",
+    "headlines_en": [
+      "PNP Intensifies Patrols in Metro Manila's Korean Communities",
+      "Korean Tech Firms Boost Investment in Philippine IT Sector",
+      "Successful K-Culture Festival Draws Thousands in Cebu",
+      "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "Embassy Issues Heat Wave Advisory for Korean Tourists"
+    ],
+    "headlines_kr": [
+      "PNP, 메트로 마닐라 한인 커뮤니티 순찰 강화",
+      "한국 IT 기업들, 필리핀 IT 부문 투자 확대",
+      "성공적인 K-컬처 페스티벌, 세부에서 수천 명 운집",
+      "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "대사관, 한국인 관광객 대상 폭염 주의보 발령"
+    ],
+    "tags": [
+      "Cooperation",
+      "Culture",
+      "Security",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-19",
     "vol": 48,
     "cover_en": "Philippines-Korea FTA Enters New Phase, Promises Economic Boom",

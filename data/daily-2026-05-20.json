@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-20",
+  "header_date_line": "WEDNESDAY, MAY 20, 2026 | PHILIPPINES | VOL. 49",
+  "dashboard": {
+    "php_krw_rate": "24.45",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Digital Partnership Summit Yields Major Agreements",
+    "headline_kr": "한-필리핀 디지털 파트너십 정상회담, 주요 협정 체결",
+    "subtitle_en": "The two nations solidified commitments to enhance digital infrastructure, cybersecurity, and e-governance, paving the way for a more integrated digital future. This landmark collaboration is expected to significantly boost economic growth and innovation across both countries.",
+    "subtitle_kr": "양국은 디지털 인프라, 사이버 보안, 전자 정부 강화를 위한 약속을 확고히 하여 더욱 통합된 디지털 미래를 위한 길을 열었습니다. 이번 획기적인 협력은 양국의 경제 성장과 혁신을 크게 증진할 것으로 기대됩니다.",
+    "body_en": [
+      "Manila, Philippines – A high-level delegation from South Korea, led by Minister of Science and ICT, concluded a productive two-day Digital Partnership Summit in Manila yesterday, May 19th. The summit culminated in the signing of several key Memoranda of Understanding (MOUs) aimed at fostering deeper collaboration in critical digital sectors. Philippine President and the Korean Minister emphasized the shared vision of leveraging digital transformation for national development and regional stability.",
+      "Among the significant agreements reached was a comprehensive plan for joint research and development in artificial intelligence and blockchain technologies, alongside initiatives to strengthen cybersecurity frameworks in the Philippines. Korea has pledged technical assistance and expertise to help the Philippines accelerate its digital transformation agenda, particularly in developing smart cities and enhancing public services through digital platforms. This move is seen as a crucial step towards bridging the digital divide and improving connectivity.",
+      "The agreements are expected to create numerous opportunities for Korean businesses in the Philippines, especially those in IT, telecommunications, and software development. Furthermore, the enhanced digital cooperation is anticipated to improve the ease of doing business for Korean expatriates and companies operating in the archipelago, ensuring a more secure and efficient digital environment. Both parties expressed optimism that these partnerships would not only drive economic growth but also deepen the cultural and social ties between Korea and the Philippines."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 과학기술정보통신부 장관이 이끄는 대한민국 고위 대표단이 어제(5월 19일) 마닐라에서 이틀간의 생산적인 디지털 파트너십 정상회담을 성공적으로 마쳤습니다. 이번 회담은 핵심 디지털 분야에서 심층적인 협력을 촉진하기 위한 여러 주요 양해각서(MOU) 체결로 마무리되었습니다. 필리핀 대통령과 한국 장관은 국가 발전과 지역 안정을 위한 디지털 전환 활용이라는 공동의 비전을 강조했습니다.",
+      "체결된 주요 협정 중 하나는 인공지능 및 블록체인 기술 분야의 공동 연구 개발을 위한 포괄적인 계획과 필리핀의 사이버 보안 프레임워크 강화를 위한 이니셔티브였습니다. 한국은 필리핀이 디지털 전환 의제를 가속화하고, 특히 스마트 도시 개발 및 디지털 플랫폼을 통한 공공 서비스 향상에 필요한 기술 지원과 전문 지식을 제공하기로 약속했습니다. 이는 디지털 격차를 해소하고 연결성을 개선하는 데 중요한 단계로 평가됩니다.",
+      "이번 협정은 IT, 통신, 소프트웨어 개발 분야의 한국 기업들에게 필리핀에서 수많은 기회를 창출할 것으로 예상됩니다. 또한, 강화된 디지털 협력은 필리핀에서 활동하는 한국 교민과 기업들의 비즈니스 편의성을 향상시키고, 더욱 안전하고 효율적인 디지털 환경을 보장할 것으로 기대됩니다. 양측은 이러한 파트너십이 경제 성장을 이끌 뿐만 아니라 한국과 필리핀 간의 문화적, 사회적 유대를 심화할 것이라는 낙관적인 전망을 내놓았습니다."
+    ],
+    "image_seed": "cover-2026-05-20",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila conference room",
+    "image_caption": "Photo: Korean and Philippine officials sign a digital cooperation agreement in Manila (May 19, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Intensifies Patrols in Metro Manila's Korean Communities",
+    "headline_kr": "PNP, 메트로 마닐라 한인 커뮤니티 순찰 강화",
+    "lead_en": "The Philippine National Police (PNP) announced today an intensified security presence and increased patrols in areas with high concentrations of Korean residents across Metro Manila. This initiative comes after recent consultations with the Korean Embassy and community leaders to address safety concerns and ensure a secure environment for expatriates.",
+    "lead_kr": "필리핀 국립경찰(PNP)은 오늘 메트로 마닐라 전역의 한인 밀집 지역에 대한 보안 인력 증강 및 순찰 강화를 발표했습니다. 이번 조치는 최근 주필리핀 한국 대사관 및 한인 커뮤니티 리더들과의 협의를 통해 안전 우려를 해소하고 교민들을 위한 안전한 환경을 보장하기 위해 이루어졌습니다.",
+    "image_seed": "feat-2026-05-20",
+    "image_query": "Philippine police patrolling Korean area street Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Firms Boost Investment in Philippine IT Sector",
+      "headline_kr": "한국 IT 기업들, 필리핀 IT 부문 투자 확대",
+      "summary_en": "Major Korean technology companies are expanding their investments in the Philippines, particularly in the IT and BPO sectors, signaling strong confidence in the local talent pool and economic growth prospects. This surge in investment is expected to create thousands of new jobs.",
+      "summary_kr": "한국 주요 기술 기업들이 필리핀 IT 및 BPO 부문에 대한 투자를 확대하며, 현지 인재와 경제 성장 전망에 대한 강한 신뢰를 보여주고 있습니다. 이러한 투자 증가는 수천 개의 새로운 일자리를 창출할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-05-20",
+      "image_query": "Korean investors Philippine tech executives discussion Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Successful K-Culture Festival Draws Thousands in Cebu",
+      "headline_kr": "성공적인 K-컬처 페스티벌, 세부에서 수천 명 운집",
+      "summary_en": "Cebu recently hosted a vibrant K-Culture Festival, attracting thousands of Filipino fans and Korean residents alike. The event featured K-pop performances, traditional Korean food stalls, and cultural workshops, further strengthening the cultural ties between the two nations.",
+      "summary_kr": "최근 세부에서 성황리에 개최된 K-컬처 페스티벌에 수천 명의 필리핀 팬들과 한인들이 운집했습니다. 이 행사는 K-팝 공연, 한국 전통 음식 부스, 문화 워크숍 등을 선보이며 양국 간의 문화적 유대를 더욱 강화했습니다.",
+      "image_seed": "news2-2026-05-20",
+      "image_query": "Large crowd enjoying K-pop concert outdoor festival Cebu",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "headline_kr": "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "summary_en": "South Korea has announced significant financial and technical support for the Philippines' renewable energy initiatives, aiming to boost sustainable development and address climate change. This collaboration underscores a shared commitment to a greener future.",
+      "summary_kr": "한국은 필리핀의 재생 에너지 이니셔티브에 대한 상당한 재정적 및 기술적 지원을 발표하며, 지속 가능한 개발을 촉진하고 기후 변화에 대응하고자 합니다. 이번 협력은 더욱 친환경적인 미래를 위한 공동의 노력을 강조합니다.",
+      "image_seed": "news3-2026-05-20",
+      "image_query": "Solar panel farm Philippine landscape Korean flag",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Heat Wave Advisory for Korean Tourists",
+      "headline_kr": "대사관, 한국인 관광객 대상 폭염 주의보 발령",
+      "summary_en": "With extreme temperatures persisting across the Philippines, the Korean Embassy has issued a heat wave advisory for Korean tourists and residents, urging them to take precautions against heatstroke and dehydration. Stay hydrated and avoid direct sun exposure.",
+      "summary_kr": "필리핀 전역에 걸쳐 극한의 기온이 지속됨에 따라, 주필리핀 한국 대사관은 한국인 관광객 및 거주자를 대상으로 폭염 주의보를 발령하고, 일사병 및 탈수에 대한 예방 조치를 취할 것을 당부했습니다. 충분히 수분을 섭취하고 직사광선 노출을 피하세요.",
+      "image_seed": "news4-2026-05-20",
+      "image_query": "Tourists drinking water under scorching sun Manila street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital partnership between Korea and the Philippines aims to create a powerful synergy in technological innovation.",
+    "example_kr": "한국과 필리핀 간의 디지털 파트너십은 기술 혁신에서 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
