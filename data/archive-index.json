@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-21",
+    "vol": 50,
+    "cover_en": "Korea-Philippines Launch Landmark Digital Economy Partnership Initiative",
+    "cover_kr": "한-필, 획기적인 디지털 경제 파트너십 이니셔티브 출범",
+    "headlines_en": [
+      "Joint Police Operation Boosts Safety for Korean Tourists in Boracay",
+      "ASEAN Economic Ministers Discuss Digital Trade Integration",
+      "Manila Hosts Successful K-Food Festival Showcasing Culinary Delights",
+      "Korean NGOs Partner with Philippine Schools for Tech Education",
+      "Embassy Issues Travel Advisory for Upcoming Typhoon Season"
+    ],
+    "headlines_kr": [
+      "보라카이 한국인 관광객 안전 위한 한-필 합동 경찰 작전 강화",
+      "아세안 경제 장관들, 디지털 무역 통합 논의",
+      "마닐라, 성공적인 K-푸드 페스티벌 개최, 미식의 향연 선보여",
+      "한국 NGO들, 필리핀 학교들과 기술 교육 파트너십 체결",
+      "대사관, 다가오는 태풍 시즌 대비 여행 경보 발표"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-05-20",
     "vol": 49,
     "cover_en": "Korea-Philippines Digital Partnership Summit Yields Major Agreements",
