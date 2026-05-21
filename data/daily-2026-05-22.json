@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-22",
+  "header_date_line": "FRIDAY, MAY 22, 2026 | PHILIPPINES | VOL. 51",
+  "dashboard": {
+    "php_krw_rate": "24.48",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.22",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Partnership for Smart Cities",
+    "headline_kr": "필리핀-한국, 스마트 시티 디지털 파트너십 출범",
+    "subtitle_en": "The two nations formalize an extensive agreement aimed at integrating advanced digital infrastructure and smart technologies into Philippine urban centers, promising enhanced efficiency and sustainability.",
+    "subtitle_kr": "양국은 필리핀 도시 중심지에 첨단 디지털 인프라 및 스마트 기술을 통합하는 광범위한 협정을 공식화하며, 효율성 및 지속 가능성 향상을 약속했다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal moment for bilateral relations, the Philippines and South Korea officially launched a comprehensive Digital Transformation Partnership for Smart Cities yesterday. The agreement, signed by key ministers from both countries, outlines a strategic framework for integrating cutting-edge digital infrastructure across Philippine urban landscapes. Initial efforts will focus on enhancing smart traffic management, bolstering public safety through advanced surveillance, optimizing environmental monitoring systems, and streamlining digital governance processes.",
+      "This landmark collaboration is poised to deliver significant benefits to the Philippines, fostering economic growth, creating new job opportunities in the tech sector, and vastly improving public services for its citizens. For South Korea, the partnership represents a strategic opportunity to expand its market presence and showcase its world-leading expertise in smart city solutions and digital innovation on an international stage, further solidifying its role as a global technology leader.",
+      "Looking ahead, the partnership will commence with pilot projects in select Philippine cities, serving as models for future expansion. Both governments expressed optimism about the initiative's potential to scale across the ASEAN region, envisioning a long-term future of digitally integrated and sustainable urban centers. This cooperative endeavor underscores a shared commitment to leveraging technology for inclusive development and a greener future."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국 관계에 있어 중요한 순간으로, 필리핀과 한국은 어제 스마트 시티를 위한 포괄적인 디지털 전환 파트너십을 공식적으로 출범했습니다. 양국 주요 장관들이 서명한 이 협정은 필리핀 도시 전역에 첨단 디지털 인프라를 통합하기 위한 전략적 프레임워크를 제시합니다. 초기 노력은 스마트 교통 관리 개선, 첨단 감시를 통한 공공 안전 강화, 환경 모니터링 시스템 최적화, 디지털 거버넌스 프로세스 간소화에 중점을 둘 것입니다.",
+      "이 획기적인 협력은 필리핀에 상당한 이점을 제공하여 경제 성장을 촉진하고 기술 분야에서 새로운 일자리를 창출하며 시민들을 위한 공공 서비스를 크게 향상시킬 것으로 기대됩니다. 한국에게 이 파트너십은 시장 확장의 전략적 기회를 제공하고 세계 최고 수준의 스마트 시티 솔루션 및 디지털 혁신 전문성을 국제 무대에 선보여 글로벌 기술 리더로서의 역할을 더욱 공고히 할 것입니다.",
+      "향후 이 파트너십은 선별된 필리핀 도시에서 시범 프로젝트를 시작하여 향후 확장을 위한 모델 역할을 할 것입니다. 양국 정부는 이 이니셔티브가 아세안 지역 전반으로 확대될 잠재력에 대해 낙관적인 입장을 표명했으며, 디지털 통합 및 지속 가능한 도시 중심지의 장기적인 미래를 구상하고 있습니다. 이 협력 노력은 포괄적인 개발과 더 푸른 미래를 위해 기술을 활용하려는 공동의 의지를 강조합니다."
+    ],
+    "image_seed": "cover-2026-05-22",
+    "image_query": "Korean Philippine ministers signing digital smart city agreement",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands after signing the Digital Transformation Partnership agreement in Manila (May 21, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Operations Boost Tourist Safety in Key Areas",
+    "headline_kr": "필리핀-한국 경찰 합동 작전, 주요 지역 관광객 안전 강화",
+    "lead_en": "Enhanced collaborative patrols and intelligence sharing between Philippine National Police (PNP) and Korean National Police Agency (KNPA) representatives have significantly improved safety for Korean tourists and residents in popular destinations. Recent successful operations have led to arrests and a noticeable reduction in petty crime rates, reassuring the expatriate community.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 대표 간의 강화된 합동 순찰 및 정보 공유는 인기 관광지에서 한국인 관광객과 거주자들의 안전을 크게 향상시켰다. 최근 성공적인 작전으로 체포가 이루어졌으며 경범죄율이 현저히 감소하여 교민 사회에 안심을 주었다.",
+    "image_seed": "feat-2026-05-22",
+    "image_query": "Philippine Korean police officers joint patrol tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eye Renewable Energy Boom in Mindanao",
+      "headline_kr": "한국 투자자들, 민다나오 재생 에너지 붐에 주목",
+      "summary_en": "Several major Korean energy firms are exploring significant investments in solar and wind power projects across Mindanao, aiming to capitalize on the region's vast untapped potential and contribute to the Philippines' green energy transition.",
+      "summary_kr": "여러 주요 한국 에너지 기업들이 민다나오 전역의 태양광 및 풍력 발전 프로젝트에 대한 대규모 투자를 모색하며, 이 지역의 막대한 잠재력을 활용하고 필리핀의 녹색 에너지 전환에 기여하고자 한다.",
+      "image_seed": "news1-2026-05-22",
+      "image_query": "Korean investors discussing solar wind energy project",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Prepares for Highly Anticipated K-Pop Festival 2026",
+      "headline_kr": "마닐라, 기대되는 2026 K-팝 페스티벌 준비 박차",
+      "summary_en": "Fans across the Philippines are buzzing as preparations intensify for the annual K-Pop Festival in Manila, featuring a lineup of top Korean idol groups and local talents, promising a vibrant celebration of Hallyu.",
+      "summary_kr": "마닐라에서 열리는 연례 K-팝 페스티벌 준비가 한창이며, 최고 인기 한국 아이돌 그룹과 현지 재능 있는 아티스트들이 출연할 예정이어서 필리핀 전역의 팬들이 들썩이고 있다. 한류의 생동감 넘치는 축제가 될 것으로 기대된다.",
+      "image_seed": "news2-2026-05-22",
+      "image_query": "K-Pop concert stage light fans cheering",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Focuses on Maritime Security and Digital Economy",
+      "headline_kr": "아세안-한국 정상회담, 해양 안보 및 디지털 경제에 초점",
+      "summary_en": "Leaders at the recent ASEAN-Korea Summit in Jakarta emphasized stronger cooperation on maritime security challenges in the South China Sea and expanding partnerships in the rapidly growing digital economy sector, reinforcing regional stability.",
+      "summary_kr": "자카르타에서 열린 최근 아세안-한국 정상회담에서 정상들은 남중국해 해양 안보 문제에 대한 강력한 협력과 급성장하는 디지털 경제 분야에서의 파트너십 확대를 강조하며 역내 안정을 강화했다.",
+      "image_seed": "news3-2026-05-22",
+      "image_query": "ASEAN Korea leaders formal meeting table",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Reminds Koreans of Enhanced Emergency Contact System",
+      "headline_kr": "대사관, 강화된 비상 연락 시스템 한국 교민에 재안내",
+      "summary_en": "The Korean Embassy in Manila reissued a reminder to its nationals about the updated emergency contact system and safety protocols, urging vigilance and prompt reporting of any incidents to ensure swift assistance and protection.",
+      "summary_kr": "주마닐라 한국 대사관은 한국 교민들에게 업데이트된 비상 연락 시스템 및 안전 수칙을 재차 안내하며, 신속한 지원과 보호를 위해 경계를 늦추지 말고 어떠한 사건도 즉시 보고할 것을 당부했다.",
+      "image_seed": "news4-2026-05-22",
+      "image_query": "Korean embassy building safety alert sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital partnership aims to create synergy between Philippine urban development and Korean technological expertise.",
+    "example_kr": "이 디지털 파트너십은 필리핀 도시 개발과 한국의 기술 전문성 간의 시너지를 창출하는 것을 목표로 한다.",
+    "grade": "A+"
+  }
+}
