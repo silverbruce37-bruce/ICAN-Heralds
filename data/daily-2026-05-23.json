@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-23",
+  "header_date_line": "SATURDAY, MAY 23, 2026 | PHILIPPINES | VOL. 52",
+  "dashboard": {
+    "php_krw_rate": "24.66",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.23",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Launch Landmark Digital Partnership for Economic Growth",
+    "headline_kr": "필리핀-한국, 경제 성장을 위한 획기적인 디지털 파트너십 출범",
+    "subtitle_en": "The two nations commit to enhancing digital infrastructure and fostering innovation, benefiting both economies and the Korean community in the Philippines.",
+    "subtitle_kr": "양국은 디지털 인프라 강화와 혁신 촉진에 전념하며, 양국 경제와 필리핀 내 한인 사회에 혜택을 제공할 예정입니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal move set to redefine bilateral cooperation, the Philippines and South Korea today officially launched the 'Korea-Philippines Digital Partnership Initiative.' The landmark agreement, signed by high-ranking officials from both governments, aims to accelerate digital transformation across key sectors, including e-governance, smart cities, and digital education. This strategic alliance is expected to foster an environment conducive to technological exchange and innovation, driving sustainable economic growth for both nations in the coming decade.",
+      "For the Korean community in the Philippines, this partnership heralds new opportunities and improved services. Enhanced digital infrastructure is anticipated to streamline business operations for Korean enterprises, facilitate easier access to public services for residents, and create new job prospects in tech-related fields. Furthermore, the collaboration will support initiatives to bridge the digital divide, ensuring that all members of the Korean expatriate community can fully participate in and benefit from the digital economy, making daily life and communication more efficient.",
+      "The initiative underscores a shared vision for a digitally empowered future and is seen as a blueprint for regional cooperation within ASEAN. Both countries pledged significant investments in joint research and development, cybersecurity, and talent development programs. Leaders emphasized that this partnership transcends mere economic cooperation, building a stronger, more interconnected relationship that will address future challenges and unlock new potentials, solidifying the Philippines' position as a key partner for Korea in Southeast Asia."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국 간 협력을 재정의할 중추적인 움직임으로, 필리핀과 한국은 오늘 '한-필리핀 디지털 파트너십 이니셔티브'를 공식 출범했습니다. 양국 정부 고위 관계자들이 서명한 이 획기적인 협정은 전자 정부, 스마트 도시, 디지털 교육 등 주요 분야 전반에 걸쳐 디지털 전환을 가속화하는 것을 목표로 합니다. 이 전략적 동맹은 기술 교류 및 혁신에 유리한 환경을 조성하여 향후 10년간 양국의 지속 가능한 경제 성장을 이끌 것으로 기대됩니다.",
+      "필리핀 내 한인 사회에게 이 파트너십은 새로운 기회와 개선된 서비스를 제공할 것입니다. 강화된 디지털 인프라는 한국 기업의 사업 운영을 간소화하고, 거주민들이 공공 서비스에 더 쉽게 접근할 수 있도록 하며, 기술 관련 분야에서 새로운 일자리를 창출할 것으로 예상됩니다. 또한, 이 협력은 디지털 격차 해소 이니셔티브를 지원하여 한인 교민 사회의 모든 구성원이 디지털 경제에 완전히 참여하고 혜택을 받을 수 있도록 보장하며, 일상생활과 의사소통을 더욱 효율적으로 만들 것입니다.",
+      "이 이니셔티브는 디지털로 empowered 된 미래에 대한 공동의 비전을 강조하며, 아세안 지역 내 협력을 위한 청사진으로 간주됩니다. 양국은 공동 연구 개발, 사이버 보안 및 인재 개발 프로그램에 상당한 투자를 약속했습니다. 양국 정상들은 이 파트너십이 단순한 경제 협력을 넘어 미래의 도전에 대처하고 새로운 잠재력을 발휘할 더욱 강력하고 상호 연결된 관계를 구축하여, 필리핀이 동남아시아에서 한국의 핵심 파트너로서의 입지를 확고히 할 것이라고 강조했습니다."
+    ],
+    "image_seed": "cover-2026-05-23",
+    "image_query": "Korean Philippine officials shaking hands digital tablet signing ceremony",
+    "image_caption": "Photo: Philippine President and Korean Ambassador sign digital partnership agreement (May 23, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Patrols Boost Safety in Korean Community Hotspots",
+    "headline_kr": "한인 밀집 지역 안전 강화를 위한 합동 순찰 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean Embassy security attachés have intensified joint patrols in key areas with high concentrations of Korean residents and businesses. The initiative aims to deter crime and enhance the sense of safety among the expatriate community, especially during the weekend.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 주필리핀 한국대사관 무관은 한인 거주민 및 사업체가 밀집된 주요 지역에서 합동 순찰을 강화했습니다. 이번 조치는 특히 주말 동안 범죄를 예방하고 교민 사회의 안전감을 높이는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-05-23",
+    "image_query": "Philippine police Korean embassy security patrol Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive for Korean Investors in H2 2026",
+      "headline_kr": "2026년 하반기 아세안 경제 전망, 한국 투자자에게 긍정적",
+      "summary_en": "Analysts project robust growth in the ASEAN region for the latter half of 2026, driven by rising domestic demand and increased foreign direct investment. This positive outlook presents significant opportunities for Korean businesses looking to expand their presence.",
+      "summary_kr": "분석가들은 2026년 하반기 아세안 지역의 강력한 성장을 예상하며, 이는 내수 증가와 외국인 직접 투자 확대에 힘입은 것입니다. 이러한 긍정적인 전망은 진출 확대를 모색하는 한국 기업들에게 중요한 기회를 제공합니다.",
+      "image_seed": "news1-2026-05-23",
+      "image_query": "ASEAN skyline Korean business investors meeting",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Huge Crowds in Manila",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 엄청난 인파 동원",
+      "summary_en": "The annual K-Food Festival held in Bonifacio Global City attracted thousands of Filipinos and Koreans, showcasing a wide array of traditional and modern Korean dishes. The event highlighted the growing popularity of Korean cuisine and culture in the Philippines.",
+      "summary_kr": "보니파시오 글로벌 시티에서 열린 연례 K-푸드 페스티벌은 수천 명의 필리핀인과 한국인을 끌어모으며, 다양하고 전통적인 한국 요리를 선보였습니다. 이 행사는 필리핀에서 한국 요리와 문화의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-05-23",
+      "image_query": "K-Food festival street market happy crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Eye Enhanced Maritime Security Drills",
+      "headline_kr": "필리핀-한국, 해상 안보 훈련 강화 모색",
+      "summary_en": "Following recent discussions, the Philippines and South Korea are exploring joint maritime security exercises to bolster regional stability and combat illegal activities. This move signifies deepening defense ties between the two allied nations.",
+      "summary_kr": "최근 논의에 따라 필리핀과 한국은 역내 안정 강화 및 불법 활동 단속을 위한 합동 해상 안보 훈련을 모색하고 있습니다. 이러한 움직임은 양국 간 국방 관계 심화를 의미합니다.",
+      "image_seed": "news3-2026-05-23",
+      "image_query": "Philippine Korean navy ships joint exercise",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "DOLE Reminds Employers of Filipino Labor Laws for Expat Businesses",
+      "headline_kr": "DOLE, 외국인 사업장 필리핀 노동법 준수 재강조",
+      "summary_en": "The Department of Labor and Employment (DOLE) issued a reminder to all employers, including foreign-owned businesses, to strictly adhere to Filipino labor laws. This aims to protect workers' rights and ensure fair employment practices across all sectors, including those employing Korean nationals.",
+      "summary_kr": "필리핀 노동고용부(DOLE)는 외국인 소유 기업을 포함한 모든 고용주에게 필리핀 노동법을 엄격히 준수할 것을 재차 강조했습니다. 이는 근로자의 권리를 보호하고 한국 국적자를 고용하는 기업을 포함한 모든 부문에서 공정한 고용 관행을 보장하기 위함입니다.",
+      "image_seed": "news4-2026-05-23",
+      "image_query": "Philippine labor department office workers rights",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital partnership aims to achieve great synergy between the two nations' technological advancements.",
+    "example_kr": "이 디지털 파트너십은 양국의 기술 발전 간에 큰 시너지를 달성하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
