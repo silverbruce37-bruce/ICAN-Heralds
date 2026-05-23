@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-24",
+    "vol": 53,
+    "cover_en": "Ph-Korea Joint Mega Project Kicks Off, Boosting Regional Connectivity",
+    "cover_kr": "한-필 공동 메가 프로젝트 착수, 지역 연결성 강화 기대",
+    "headlines_en": [
+      "Enhanced Security Measures Rolled Out for Korean Tourists in Popular PH Destinations",
+      "ASEAN Economic Outlook Remains Strong, Driven by Digital Transformation",
+      "K-Pop Dance Workshop Draws Huge Crowd in Manila, Bridging Cultures",
+      "Philippines, Korea Advance Maritime Security Cooperation Talks",
+      "Korean Community Reminded of Online Scam Vigilance"
+    ],
+    "headlines_kr": [
+      "필리핀 주요 관광지 내 한국인 관광객 안전 강화 조치 시행",
+      "디지털 전환에 힘입어 아세안 경제 전망 여전히 강세",
+      "마닐라 K-팝 댄스 워크숍, 문화 교류의 장으로 성황리 개최",
+      "필리핀, 한국 해양 안보 협력 논의 진전",
+      "교민 사회, 온라인 사기 경각심 유지 당부"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Security",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-23",
     "vol": 52,
     "cover_en": "Philippines, Korea Launch Landmark Digital Partnership for Economic Growth",

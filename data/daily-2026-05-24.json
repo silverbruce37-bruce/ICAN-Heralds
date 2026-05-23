@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-24",
+  "header_date_line": "SUNDAY, MAY 24, 2026 | PHILIPPINES | VOL. 53",
+  "dashboard": {
+    "php_krw_rate": "24.66",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.24",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Ph-Korea Joint Mega Project Kicks Off, Boosting Regional Connectivity",
+    "headline_kr": "한-필 공동 메가 프로젝트 착수, 지역 연결성 강화 기대",
+    "subtitle_en": "The ambitious infrastructure initiative, a cornerstone of the bilateral 'New Horizon' partnership, aims to significantly enhance trade routes and foster economic growth across key regions of the Philippines.",
+    "subtitle_kr": "양국 간 '새로운 지평' 파트너십의 초석이 될 이 야심찬 인프라 사업은 필리핀 주요 지역의 무역 경로를 크게 개선하고 경제 성장을 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "A landmark joint infrastructure project between the Philippines and South Korea officially commenced this week, marking a significant milestone in their deepening economic partnership. The multi-billion dollar initiative, focused on upgrading critical transportation networks in the Visayas and Mindanao regions, is expected to dramatically improve logistical efficiency and open new avenues for trade and investment.",
+      "Officials from both nations attended a ceremonial groundbreaking event, emphasizing the project's potential to generate thousands of local jobs and stimulate economic activity in underserved areas. This collaborative effort underscores a shared vision for sustainable development and regional prosperity, with Korean expertise in engineering and technology playing a pivotal role.",
+      "The successful implementation of this mega project is anticipated to serve as a blueprint for future bilateral collaborations, further solidifying the strategic alliance between the Philippines and South Korea. Both governments reiterated their commitment to ensuring timely completion and maximizing the long-term benefits for their respective economies and citizens."
+    ],
+    "body_kr": [
+      "필리핀과 한국 간의 획기적인 공동 인프라 프로젝트가 이번 주 공식적으로 착수되어 양국의 심화되는 경제 파트너십에 중요한 이정표를 세웠습니다. 수십억 달러 규모의 이 사업은 비사야스와 민다나오 지역의 주요 운송 네트워크 업그레이드에 중점을 두며, 물류 효율성을 극적으로 개선하고 무역 및 투자를 위한 새로운 길을 열 것으로 기대됩니다.",
+      "양국 관계자들은 기공식에 참석하여 이 프로젝트가 수천 개의 지역 일자리를 창출하고 소외 지역의 경제 활동을 활성화할 잠재력을 강조했습니다. 이 협력 노력은 지속 가능한 개발과 지역 번영을 위한 공동의 비전을 강조하며, 한국의 엔지니어링 및 기술 전문 지식이 중요한 역할을 합니다.",
+      "이 메가 프로젝트의 성공적인 이행은 향후 양자 협력을 위한 청사진 역할을 하여 필리핀과 한국 간의 전략적 동맹을 더욱 공고히 할 것으로 예상됩니다. 양국 정부는 적시 완료를 보장하고 각국의 경제와 시민들에게 장기적인 이점을 극대화하기 위한 약속을 재확인했습니다."
+    ],
+    "image_seed": "cover-2026-05-24",
+    "image_query": "Korean Philippine officials groundbreaking ceremony infrastructure project",
+    "image_caption": "Photo: Philippine and Korean officials at the joint infrastructure project groundbreaking (May 23, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures Rolled Out for Korean Tourists in Popular PH Destinations",
+    "headline_kr": "필리핀 주요 관광지 내 한국인 관광객 안전 강화 조치 시행",
+    "lead_en": "Following a recent surge in Korean tourist arrivals, Philippine authorities, in close coordination with the Korean Embassy, have launched a comprehensive safety program. This initiative includes increased police presence, dedicated tourism police units, and multilingual emergency hotlines to ensure a secure and enjoyable experience for visitors.",
+    "lead_kr": "최근 한국인 관광객 유입 증가에 따라 필리핀 당국은 주필리핀 한국대사관과 긴밀히 협력하여 종합적인 안전 프로그램을 시작했습니다. 이 이니셔티브에는 경찰력 증강, 전담 관광 경찰대 운영, 다국어 비상 핫라인 개설 등이 포함되어 방문객들이 안전하고 즐거운 경험을 할 수 있도록 보장합니다.",
+    "image_seed": "feat-2026-05-24",
+    "image_query": "Philippine tourist police Korean tourists safety patrol",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Remains Strong, Driven by Digital Transformation",
+      "headline_kr": "디지털 전환에 힘입어 아세안 경제 전망 여전히 강세",
+      "summary_en": "The latest report from the ASEAN Secretariat highlights robust economic growth projections for the region, largely fueled by rapid digital adoption and expanding e-commerce sectors, attracting significant foreign direct investment.",
+      "summary_kr": "아세안 사무국의 최신 보고서는 급속한 디지털 채택과 전자상거래 부문 확장에 힘입어 역내 견고한 경제 성장 전망을 강조하며 상당한 외국인 직접 투자를 유치하고 있습니다.",
+      "image_seed": "news1-2026-05-24",
+      "image_query": "ASEAN business digital transformation meeting",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Draws Huge Crowd in Manila, Bridging Cultures",
+      "headline_kr": "마닐라 K-팝 댄스 워크숍, 문화 교류의 장으로 성황리 개최",
+      "summary_en": "A highly anticipated K-Pop dance workshop held in Manila saw hundreds of Filipino youth participate, showcasing the enduring global appeal of Korean pop culture and fostering deeper cultural ties between the two nations.",
+      "summary_kr": "마닐라에서 열린 대규모 K-팝 댄스 워크숍에는 수백 명의 필리핀 청소년들이 참여하여 한국 대중문화의 지속적인 세계적 인기를 보여주고 양국 간의 문화적 유대를 더욱 깊게 했습니다.",
+      "image_seed": "news2-2026-05-24",
+      "image_query": "Filipino youth K-Pop dance workshop Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Advance Maritime Security Cooperation Talks",
+      "headline_kr": "필리핀, 한국 해양 안보 협력 논의 진전",
+      "summary_en": "High-level delegations from the Philippines and South Korea met this week to discuss enhanced maritime security cooperation, focusing on joint patrols, information sharing, and capacity building to address regional challenges.",
+      "summary_kr": "필리핀과 한국 고위급 대표단은 이번 주 만나 공동 순찰, 정보 공유, 역량 강화에 중점을 두고 해양 안보 협력 강화를 논의했습니다.",
+      "image_seed": "news3-2026-05-24",
+      "image_query": "Philippine Korean naval officers shaking hands",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Reminded of Online Scam Vigilance",
+      "headline_kr": "교민 사회, 온라인 사기 경각심 유지 당부",
+      "summary_en": "The Korean Embassy in the Philippines issued a new advisory urging the community to remain vigilant against increasing online scams, emphasizing the importance of verifying information and reporting suspicious activities immediately.",
+      "summary_kr": "주필리핀 한국대사관은 온라인 사기 증가에 대한 경각심을 유지하고 정보 확인 및 의심스러운 활동 즉시 신고의 중요성을 강조하는 새로운 권고를 발표했습니다.",
+      "image_seed": "news4-2026-05-24",
+      "image_query": "Korean person smartphone online scam warning",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between the Philippine and Korean governments is vital for the successful completion of the joint infrastructure project.",
+    "example_kr": "필리핀 정부와 한국 정부 간의 시너지는 공동 인프라 프로젝트의 성공적인 완료에 필수적입니다.",
+    "grade": "A+"
+  }
+}
