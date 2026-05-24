@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-25",
+  "header_date_line": "MONDAY, MAY 25, 2026 | PHILIPPINES | VOL. 54",
+  "dashboard": {
+    "php_krw_rate": "24.60",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.25",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Innovation Hub in Clark",
+    "headline_kr": "한-필리핀, 클락에 디지털 혁신 허브 출범",
+    "subtitle_en": "A new joint venture aims to boost tech talent and foster digital transformation in the ASEAN region. The initiative marks a significant step in bilateral economic cooperation.",
+    "subtitle_kr": "새로운 합작 투자로 아세안 지역의 기술 인재 양성 및 디지털 전환 촉진 목표. 양국 경제 협력의 중요한 진전.",
+    "body_en": [
+      "Clark Freeport Zone, Philippines – The Philippines and South Korea today officially launched the 'PH-Korea Digital Innovation Hub' in Clark, Pampanga, a collaborative project designed to accelerate digital transformation and foster a vibrant technology ecosystem in the region. The inauguration ceremony was attended by high-ranking officials from both nations, including the Philippine Secretary of Trade and Industry and the Korean Ambassador to the Philippines, highlighting the strategic importance of this partnership.",
+      "The state-of-the-art facility will serve as a training center for digital skills, a research and development hub for emerging technologies, and an incubator for tech startups. It aims to address the growing demand for skilled professionals in areas such as AI, cybersecurity, and data analytics, providing opportunities for both Filipino and Korean tech talents. This initiative is expected to attract further foreign direct investment into the Philippine tech sector and create thousands of new jobs.",
+      "Beyond economic benefits, the Digital Innovation Hub is poised to strengthen the enduring bilateral relationship between the Philippines and South Korea, fostering cultural exchange and shared learning. It underscores a mutual commitment to advancing the digital economy and leveraging technological innovation for sustainable development across ASEAN. Korean businesses operating in the Philippines are encouraged to utilize the hub's resources and contribute to its growth, further cementing the bond between the two countries' economies."
+    ],
+    "body_kr": [
+      "필리핀 클락 자유항 지역 – 필리핀과 대한민국이 오늘 팜팡가 클락에서 '한-필리핀 디지털 혁신 허브'를 공식 출범시켰다. 이 협력 프로젝트는 이 지역의 디지털 전환을 가속화하고 활기찬 기술 생태계를 조성하기 위해 기획되었다. 필리핀 무역산업부 장관과 주필리핀 한국 대사를 포함한 양국 고위 관계자들이 개막식에 참석하여 이번 파트너십의 전략적 중요성을 강조했다.",
+      "최첨단 시설은 디지털 기술 훈련 센터, 신흥 기술 연구 개발 허브, 그리고 기술 스타트업 인큐베이터 역할을 할 것이다. 이는 인공지능, 사이버 보안, 데이터 분석과 같은 분야에서 숙련된 전문가에 대한 증가하는 수요를 충족시키고, 필리핀과 한국의 기술 인재 모두에게 기회를 제공하는 것을 목표로 한다. 이번 이니셔티브는 필리핀 기술 부문에 대한 추가적인 외국인 직접 투자를 유치하고 수천 개의 새로운 일자리를 창출할 것으로 기대된다.",
+      "경제적 이점을 넘어, 디지털 혁신 허브는 필리핀과 한국 간의 지속적인 양국 관계를 강화하고 문화 교류 및 공동 학습을 촉진할 것으로 기대된다. 이는 디지털 경제를 발전시키고 아세안 전역의 지속 가능한 개발을 위해 기술 혁신을 활용하려는 상호 약속을 강조한다. 필리핀에서 사업을 운영하는 한국 기업들은 허브의 자원을 활용하고 성장에 기여하여 양국 경제 간의 유대를 더욱 공고히 할 것을 권장한다."
+    ],
+    "image_seed": "cover-2026-05-25",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Clark",
+    "image_caption": "Photo: Philippine and Korean officials shake hands after launching the Digital Innovation Hub in Clark. (May 25, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Community Leaders Boost Safety Patrols in Tourist Hotspots",
+    "headline_kr": "필리핀 경찰청, 한인사회 지도자들과 관광 명소 순찰 강화",
+    "lead_en": "Following recent community discussions, the Philippine National Police (PNP) and Korean community representatives have agreed to intensify joint security patrols in key areas frequented by Korean residents and tourists. This proactive measure aims to enhance safety and prevent incidents, particularly in popular commercial and residential districts.",
+    "lead_kr": "최근 한인사회와의 논의 후, 필리핀 경찰청(PNP)과 한인사회 대표들은 한인 거주민 및 관광객이 자주 찾는 주요 지역의 합동 순찰을 강화하기로 합의했다. 이러한 선제적 조치는 특히 인기 상업 및 주거 지역에서 안전을 강화하고 사건 발생을 예방하는 것을 목표로 한다.",
+    "image_seed": "feat-2026-05-25",
+    "image_query": "Philippine police officers Korean community representatives patrol street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eyeing Philippine Renewable Energy Sector",
+      "headline_kr": "한국 투자자들, 필리핀 재생 에너지 부문 주시",
+      "summary_en": "Korean investment firms are showing increased interest in the Philippines' burgeoning renewable energy sector, particularly in solar and wind power projects. This trend aligns with global sustainability goals and the Philippines' push for a greener energy mix.",
+      "summary_kr": "한국 투자 회사들이 필리핀의 성장하는 재생 에너지 부문, 특히 태양광 및 풍력 발전 프로젝트에 대한 관심을 높이고 있다. 이러한 추세는 글로벌 지속 가능성 목표와 필리핀의 친환경 에너지 믹스 추진과 일치한다.",
+      "image_seed": "news1-2026-05-25",
+      "image_query": "Solar panels wind turbines Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Manila",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "summary_en": "The annual K-Food Festival in Manila concluded over the weekend, attracting record numbers of attendees eager to experience authentic Korean cuisine and cultural performances. The event showcased diverse Korean dishes and promoted cultural exchange.",
+      "summary_kr": "마닐라에서 주말 동안 열린 연례 K-푸드 페스티벌이 성황리에 막을 내렸으며, 정통 한식과 문화 공연을 경험하려는 역대 최대 인파를 끌어모았다. 이 행사는 다양한 한식을 선보이며 문화 교류를 증진했다.",
+      "image_seed": "news2-2026-05-25",
+      "image_query": "People enjoying Korean food festival street stalls",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Seoul, Manila Discuss Enhanced Educational Exchange Programs",
+      "headline_kr": "서울-마닐라, 교육 교류 프로그램 강화 논의",
+      "summary_en": "Officials from South Korea and the Philippines held preliminary talks to expand existing educational exchange programs, aiming to increase student and faculty mobility. The discussions focused on STEM fields and cultural studies.",
+      "summary_kr": "한국과 필리핀 관계자들이 기존 교육 교류 프로그램을 확대하기 위한 예비 회담을 가졌다. 학생 및 교수진 이동성을 높이는 것을 목표로 하며, STEM 분야와 문화 연구에 중점을 두었다.",
+      "image_seed": "news3-2026-05-25",
+      "image_query": "Korean Philippine students university campus discussion",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "LTO Reminds Foreign Drivers of Updated Traffic Regulations",
+      "headline_kr": "LTO, 외국인 운전자들에게 업데이트된 교통 규정 상기",
+      "summary_en": "The Land Transportation Office (LTO) issued a reminder to foreign residents and tourists driving in the Philippines about recently updated traffic laws and penalties. The advisory emphasizes road safety and compliance.",
+      "summary_kr": "필리핀 육상교통국(LTO)은 필리핀에서 운전하는 외국인 거주민 및 관광객에게 최근 업데이트된 교통 법규 및 벌금에 대해 상기시켰다. 이 공지는 도로 안전 및 법규 준수를 강조한다.",
+      "image_seed": "news4-2026-05-25",
+      "image_query": "Philippine traffic sign car driving city street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별 효과를 합친 것보다 더 큰 결합 효과를 만들어내는 것.",
+    "example_en": "The digital innovation hub aims to create synergy between Philippine and Korean tech industries.",
+    "example_kr": "디지털 혁신 허브는 필리핀과 한국의 기술 산업 간 시너지를 창출하는 것을 목표로 한다.",
+    "grade": "A+"
+  }
+}
