@@ -2497,11 +2497,52 @@ header:hover .tagline-sub {
 
 .today-brief-title {
     margin-top: 8px;
-    font-family: "Apple SD Gothic Neo", "SF Pro KR", -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Helvetica Neue", sans-serif;
+    font-family: Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", "Batang", serif;
     font-size: 2rem;
     line-height: 1.12;
-    letter-spacing: -0.03em;
+    letter-spacing: 0;
     color: var(--text);
+}
+
+.herald-top-link {
+    display: grid;
+    gap: 8px;
+    margin-top: 18px;
+    padding: 18px 20px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.045);
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.herald-top-link:hover {
+    border-color: var(--primary-light);
+    background: rgba(255,255,255,0.07);
+    transform: translateY(-1px);
+}
+
+.herald-top-source,
+.herald-top-date {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--primary-light);
+}
+
+.herald-top-title {
+    font-family: Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", "Batang", serif;
+    font-size: clamp(1.4rem, 3vw, 2.45rem);
+    line-height: 1.12;
+    letter-spacing: 0;
+    font-weight: 800;
+}
+
+.herald-top-date {
+    color: var(--muted);
+    letter-spacing: 0.8px;
 }
 
 .today-brief-copy {
@@ -3554,6 +3595,8 @@ body.lang-kr .academy-insight p {
     .cover-learning-strip,
     .featured-news { grid-template-columns: 1fr; }
     .today-brief-title { font-size: 1.55rem; }
+    .herald-top-link { padding: 16px; }
+    .herald-top-title { font-size: 1.45rem; }
     .brief-grid,
     .learning-track-grid,
     .news-grid,

@@ -289,6 +289,11 @@ def build_today_brief(daily):
                 <div>
                     <span class="section-kicker">Today Brief</span>
                     <h2 class="today-brief-title"><span class="en-content">Today at a Glance — Learn as You Read</span><span class="kr-content">오늘 한눈에 보고, 바로 학습까지</span></h2>
+                    <a class="herald-top-link" id="heraldTopLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer">
+                        <span class="herald-top-source">The Korea Herald · World Top Story</span>
+                        <span class="herald-top-title" id="heraldTopTitle">Loading today's Korea Herald world headline...</span>
+                        <span class="herald-top-date" id="heraldTopDate">Updated daily</span>
+                    </a>
                 </div>
                 <p class="today-brief-copy"><span class="en-content">Catch the key points first, then jump straight into level-based English learning.</span><span class="kr-content">뉴스를 읽기 전에 핵심만 먼저 잡고, 바로 레벨별 영어 학습으로 이어지게 구성했습니다.</span></p>
             </div>
