@@ -152,10 +152,8 @@ function renderHeraldCover(story) {
 
 // Korea Herald World top story: rendered through our API to avoid browser CORS.
 document.addEventListener('DOMContentLoaded', () => {
-    const linkEl = document.getElementById('heraldTopLink');
-    const titleEl = document.getElementById('heraldTopTitle');
-    const dateEl = document.getElementById('heraldTopDate');
-    if (!linkEl || !titleEl) return;
+    const coverTitleEl = document.getElementById('coverStoryTitle');
+    if (!coverTitleEl) return;
 
     fetch('/api/herald-top')
         .then(response => {
@@ -164,18 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(story => {
             if (!story || !story.title || !story.link) return;
-            titleEl.textContent = story.title;
-            linkEl.href = story.link;
-            if (dateEl) {
-                dateEl.textContent = formatHeraldDate(story.publishedAt);
-            }
             renderHeraldCover(story);
         })
-        .catch(() => {
-            titleEl.textContent = 'Open today\'s Korea Herald World top story';
-            linkEl.href = 'https://www.koreaherald.com/World';
-            if (dateEl) dateEl.textContent = 'The Korea Herald · World';
-        });
+        .catch(() => {});
 });
 
 // PWA

@@ -259,7 +259,15 @@ body {
     margin: 0 auto;
     background: var(--bg);
     padding: 30px 60px 50px;
+    display: flex;
+    flex-direction: column;
 }
+
+.container > * { order: 10; }
+.herald-cover-section { order: 1; }
+.dashboard { order: 2; }
+.today-brief { order: 3; }
+#news { order: 4; }
 
 /* Old header styles (replaced by NYT masthead) */
 header.old-header { display: none; }
@@ -350,8 +358,12 @@ body.lang-kr .picks-body p {
     background:
         linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0)),
         linear-gradient(90deg, rgba(0, 71, 171, 0.12), rgba(255,255,255,0));
-    margin-left: calc(var(--container-padding, 0px) * -1);
-    margin-right: calc(var(--container-padding, 0px) * -1);
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: max(24px, calc((100vw - 1200px) / 2 + 60px));
+    padding-right: max(24px, calc((100vw - 1200px) / 2 + 60px));
+    box-sizing: border-box;
 }
 
 .headline-badge {
@@ -404,6 +416,8 @@ body.lang-kr .picks-body p {
 
 .herald-cover-section .main-image-container {
     box-shadow: 0 24px 70px rgba(0,0,0,0.32);
+    aspect-ratio: 16 / 9;
+    max-height: 680px;
 }
 
 .main-image-container img {
@@ -2528,47 +2542,6 @@ header:hover .tagline-sub {
     color: var(--text);
 }
 
-.herald-top-link {
-    display: grid;
-    gap: 8px;
-    margin-top: 18px;
-    padding: 18px 20px;
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: var(--radius-md);
-    background: rgba(255,255,255,0.045);
-    color: var(--text);
-    text-decoration: none;
-    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
-}
-
-.herald-top-link:hover {
-    border-color: var(--primary-light);
-    background: rgba(255,255,255,0.07);
-    transform: translateY(-1px);
-}
-
-.herald-top-source,
-.herald-top-date {
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    color: var(--primary-light);
-}
-
-.herald-top-title {
-    font-family: Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", "Batang", serif;
-    font-size: clamp(1.4rem, 3vw, 2.45rem);
-    line-height: 1.12;
-    letter-spacing: 0;
-    font-weight: 800;
-}
-
-.herald-top-date {
-    color: var(--muted);
-    letter-spacing: 0.8px;
-}
-
 .today-brief-copy {
     color: var(--muted);
     font-size: 0.96rem;
@@ -3631,8 +3604,6 @@ body.lang-kr .academy-insight p {
     .cover-learning-strip,
     .featured-news { grid-template-columns: 1fr; }
     .today-brief-title { font-size: 1.55rem; }
-    .herald-top-link { padding: 16px; }
-    .herald-top-title { font-size: 1.45rem; }
     .brief-grid,
     .learning-track-grid,
     .news-grid,
