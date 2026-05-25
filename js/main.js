@@ -92,6 +92,64 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+function formatHeraldDate(value) {
+    const published = value ? new Date(value) : null;
+    return published && !Number.isNaN(published.getTime())
+        ? `Published ${published.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`
+        : 'Updated daily from The Korea Herald';
+}
+
+function escapeHtml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function renderHeraldCover(story) {
+    const titleEl = document.getElementById('coverStoryTitle');
+    const subtitleEl = document.getElementById('coverStorySubtitle');
+    const briefEl = document.getElementById('coverStoryBrief');
+    const imageEl = document.getElementById('coverStoryImage');
+    const captionEl = document.getElementById('coverStoryCaption');
+    const sourceEl = document.getElementById('coverStorySource');
+    const publishedEl = document.getElementById('coverStoryPublished');
+    const bodyEl = document.getElementById('coverStoryBody');
+    const readLinks = [
+        document.getElementById('coverStoryReadLink'),
+        document.getElementById('coverStoryMetaLink')
+    ].filter(Boolean);
+
+    if (!titleEl || !story || !story.title || !story.link) return;
+
+    const safeTitle = escapeHtml(story.title);
+    const safeDescription = escapeHtml(story.description || 'Read the full Korea Herald world top story for today.');
+    titleEl.innerHTML = `<span class="en-content">${safeTitle}</span><span class="kr-content">${safeTitle}</span>`;
+    if (subtitleEl) {
+        subtitleEl.innerHTML = `<span class="en-content">${safeDescription}</span><span class="kr-content">${safeDescription}</span>`;
+    }
+    if (briefEl) briefEl.textContent = story.description || 'Read the full Korea Herald world top story for today.';
+    if (imageEl && story.imageUrl) {
+        imageEl.src = story.imageUrl;
+        imageEl.removeAttribute('data-secondary-src');
+        imageEl.removeAttribute('data-fallback-src');
+        imageEl.alt = story.title;
+    }
+    if (captionEl) captionEl.textContent = 'Image and story source: The Korea Herald World desk.';
+    if (sourceEl) sourceEl.textContent = `${story.source || 'The Korea Herald'} · ${story.section || 'World'}`;
+    if (publishedEl) publishedEl.textContent = formatHeraldDate(story.publishedAt);
+    readLinks.forEach(link => { link.href = story.link; });
+    if (bodyEl) {
+        bodyEl.innerHTML = `
+            <div class="column herald-cover-note">
+                <p>${safeDescription}</p>
+                <p>ICAN Heralds shows the headline, short summary, and source link for learning context. Please continue to The Korea Herald for the full original article.</p>
+            </div>`;
+    }
+}
+
 // Korea Herald World top story: rendered through our API to avoid browser CORS.
 document.addEventListener('DOMContentLoaded', () => {
     const linkEl = document.getElementById('heraldTopLink');
@@ -109,11 +167,9 @@ document.addEventListener('DOMContentLoaded', () => {
             titleEl.textContent = story.title;
             linkEl.href = story.link;
             if (dateEl) {
-                const published = story.publishedAt ? new Date(story.publishedAt) : null;
-                dateEl.textContent = published && !Number.isNaN(published.getTime())
-                    ? `Published ${published.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`
-                    : 'Updated daily from The Korea Herald';
+                dateEl.textContent = formatHeraldDate(story.publishedAt);
             }
+            renderHeraldCover(story);
         })
         .catch(() => {
             titleEl.textContent = 'Open today\'s Korea Herald World top story';

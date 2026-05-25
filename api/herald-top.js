@@ -20,6 +20,11 @@ function tagValue(item, tag) {
     return decodeEntities(match ? match[1] : '');
 }
 
+function tagAttribute(item, tag, attr) {
+    const match = item.match(new RegExp(`<${tag}[^>]*\\s${attr}=["']([^"']+)["'][^>]*>`, 'i'));
+    return decodeEntities(match ? match[1] : '');
+}
+
 function parseFirstItem(xml) {
     const itemMatch = xml.match(/<item\b[^>]*>([\s\S]*?)<\/item>/i);
     if (!itemMatch) return null;
@@ -30,6 +35,7 @@ function parseFirstItem(xml) {
     const link = rawLink.startsWith('http') ? rawLink : `https://www.koreaherald.com${rawLink}`;
     const publishedAt = tagValue(item, 'pubDate');
     const description = tagValue(item, 'description').replace(/<[^>]+>/g, '').trim();
+    const imageUrl = tagAttribute(item, 'media:content', 'url');
 
     if (!title || !link) return null;
 
@@ -39,7 +45,8 @@ function parseFirstItem(xml) {
         title,
         link,
         publishedAt,
-        description
+        description,
+        imageUrl
     };
 }
 

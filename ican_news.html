@@ -158,14 +158,14 @@
             </div>
         </section>
 
-        <section class="headline-section">
-            <div class="headline-badge"><span class="en-content">COVER STORY</span><span class="kr-content">커버 스토리</span></div>
-            <h2 class="main-title"><span class="en-content">PH-Korea Launch Landmark Digital Innovation Hub in Clark</span><span class="kr-content">한-필리핀, 클락에 디지털 혁신 허브 출범</span></h2>
-            <h3 class="sub-title"><span class="en-content">A new joint venture aims to boost tech talent and foster digital transformation in the ASEAN region. The initiative marks a significant step in bilateral economic cooperation.</span><span class="kr-content">새로운 합작 투자로 아세안 지역의 기술 인재 양성 및 디지털 전환 촉진 목표. 양국 경제 협력의 중요한 진전.</span></h3>
+        <section class="headline-section herald-cover-section" id="coverStory">
+            <div class="headline-badge"><span class="en-content">WORLD TOP STORY</span><span class="kr-content">월드 탑 스토리</span></div>
+            <h2 class="main-title" id="coverStoryTitle"><span class="en-content">PH-Korea Launch Landmark Digital Innovation Hub in Clark</span><span class="kr-content">한-필리핀, 클락에 디지털 혁신 허브 출범</span></h2>
+            <h3 class="sub-title" id="coverStorySubtitle"><span class="en-content">A new joint venture aims to boost tech talent and foster digital transformation in the ASEAN region. The initiative marks a significant step in bilateral economic cooperation.</span><span class="kr-content">새로운 합작 투자로 아세안 지역의 기술 인재 양성 및 디지털 전환 촉진 목표. 양국 경제 협력의 중요한 진전.</span></h3>
             <div class="cover-learning-strip">
                 <div class="cover-learning-summary">
                     <span class="cover-learning-kicker">30-Second Brief</span>
-                    <p>A new joint venture aims to boost tech talent and foster digital transformation in the ASEAN region. The initiative marks a significant step in bilateral economic cooperation.</p>
+                    <p id="coverStoryBrief">A new joint venture aims to boost tech talent and foster digital transformation in the ASEAN region. The initiative marks a significant step in bilateral economic cooperation.</p>
                 </div>
                 <div class="cover-learning-side">
                     <div class="cover-learning-levels">
@@ -175,22 +175,22 @@
                     </div>
                     <div class="article-phrase-row"><span class="phrase-chip">Korean Philippine officials handshake signing digital agreement Clark</span></div>
                     <div class="cover-learning-actions">
-                        <button class="learn-btn" onclick="openAcademyAtLevel('cover', 1)"><span class="learn-icon">📚</span>Start Learning</button>
-                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Practical English</button>
+                        <a class="learn-btn" id="coverStoryReadLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer"><span class="learn-icon">↗</span>Read Original</a>
+                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Study English</button>
                     </div>
                 </div>
             </div>
             <div class="main-image-container">
-                <img src="https://loremflickr.com/1200/800/technology?lock=41804" data-secondary-src="https://source.unsplash.com/1200x800/?technology&sig=11610" data-cache-path="images/cache/daa1c7252bdaa14f.jpg" data-fallback-src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=1200&h=800&fit=crop&q=80" onerror="if(this.dataset.secondarySrc&&this.dataset.retryState!=='1'&&this.src!==this.dataset.secondarySrc){this.dataset.retryState='1';this.src=this.dataset.secondarySrc;return;}if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.onerror=null;this.src=this.dataset.fallbackSrc;}" alt="Cover Story" loading="lazy">
-                <div class="image-caption">Photo: Philippine and Korean officials shake hands after launching the Digital Innovation Hub in Clark. (May 25, 2026)</div>
+                <img id="coverStoryImage" src="https://loremflickr.com/1200/800/technology?lock=41804" data-secondary-src="https://source.unsplash.com/1200x800/?technology&sig=11610" data-cache-path="images/cache/daa1c7252bdaa14f.jpg" data-fallback-src="https://images.unsplash.com/photo-1555448248-2571daf6344b?w=1200&h=800&fit=crop&q=80" onerror="if(this.dataset.secondarySrc&&this.dataset.retryState!=='1'&&this.src!==this.dataset.secondarySrc){this.dataset.retryState='1';this.src=this.dataset.secondarySrc;return;}if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.onerror=null;this.src=this.dataset.fallbackSrc;}" alt="World Top Story" loading="lazy">
+                <div class="image-caption" id="coverStoryCaption">Source image: The Korea Herald World desk. Updated daily from the World RSS top story.</div>
             </div>
             <div class="article-meta">
-                <span class="meta-author">By ICAN Herald Editorial</span>
+                <span class="meta-author" id="coverStorySource">The Korea Herald · World</span>
                 <span class="meta-divider">·</span>
-                <span class="meta-time"><span class="en-content">5 min read</span><span class="kr-content">5분 읽기</span></span>
-                <button class="learn-btn" onclick="openAcademy('cover')" style="margin-left:12px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
+                <span class="meta-time" id="coverStoryPublished"><span class="en-content">Updated daily</span><span class="kr-content">매일 업데이트</span></span>
+                <a class="learn-btn" id="coverStoryMetaLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer" style="margin-left:12px;margin-top:0;"><span class="learn-icon">↗</span> READ</a>
             </div>
-            <div class="content-columns"><div class="column"><div class="en-content"><p>Clark Freeport Zone, Philippines – The Philippines and South Korea today officially launched the 'PH-Korea Digital Innovation Hub' in Clark, Pampanga, a collaborative project designed to accelerate digital transformation and foster a vibrant technology ecosystem in the region. The inauguration ceremony was attended by high-ranking officials from both nations, including the Philippine Secretary of Trade and Industry and the Korean Ambassador to the Philippines, highlighting the strategic importance of this partnership.</p>
+            <div class="content-columns" id="coverStoryBody"><div class="column"><div class="en-content"><p>Clark Freeport Zone, Philippines – The Philippines and South Korea today officially launched the 'PH-Korea Digital Innovation Hub' in Clark, Pampanga, a collaborative project designed to accelerate digital transformation and foster a vibrant technology ecosystem in the region. The inauguration ceremony was attended by high-ranking officials from both nations, including the Philippine Secretary of Trade and Industry and the Korean Ambassador to the Philippines, highlighting the strategic importance of this partnership.</p>
 <p>The state-of-the-art facility will serve as a training center for digital skills, a research and development hub for emerging technologies, and an incubator for tech startups. It aims to address the growing demand for skilled professionals in areas such as AI, cybersecurity, and data analytics, providing opportunities for both Filipino and Korean tech talents. This initiative is expected to attract further foreign direct investment into the Philippine tech sector and create thousands of new jobs.</p>
 <p>Beyond economic benefits, the Digital Innovation Hub is poised to strengthen the enduring bilateral relationship between the Philippines and South Korea, fostering cultural exchange and shared learning. It underscores a mutual commitment to advancing the digital economy and leveraging technological innovation for sustainable development across ASEAN. Korean businesses operating in the Philippines are encouraged to utilize the hub's resources and contribute to its growth, further cementing the bond between the two countries' economies.</p></div><div class="kr-content"><p>필리핀 클락 자유항 지역 – 필리핀과 대한민국이 오늘 팜팡가 클락에서 '한-필리핀 디지털 혁신 허브'를 공식 출범시켰다. 이 협력 프로젝트는 이 지역의 디지털 전환을 가속화하고 활기찬 기술 생태계를 조성하기 위해 기획되었다. 필리핀 무역산업부 장관과 주필리핀 한국 대사를 포함한 양국 고위 관계자들이 개막식에 참석하여 이번 파트너십의 전략적 중요성을 강조했다.</p>
 <p>최첨단 시설은 디지털 기술 훈련 센터, 신흥 기술 연구 개발 허브, 그리고 기술 스타트업 인큐베이터 역할을 할 것이다. 이는 인공지능, 사이버 보안, 데이터 분석과 같은 분야에서 숙련된 전문가에 대한 증가하는 수요를 충족시키고, 필리핀과 한국의 기술 인재 모두에게 기회를 제공하는 것을 목표로 한다. 이번 이니셔티브는 필리핀 기술 부문에 대한 추가적인 외국인 직접 투자를 유치하고 수천 개의 새로운 일자리를 창출할 것으로 기대된다.</p>

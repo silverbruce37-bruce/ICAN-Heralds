@@ -159,7 +159,7 @@ def fallback_img_url(seed, w=400, h=200):
     return f"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w={w}&h={h}&fit=crop&q=80"
 
 
-def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_src=""):
+def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_src="", extra_attrs=""):
     src = src or EMERGENCY_IMAGE
     class_attr = f' class="{class_name}"' if class_name else ""
     secondary_attr = f' data-secondary-src="{secondary_src}"' if secondary_src else ""
@@ -183,7 +183,7 @@ def render_img(src, fallback_src, alt, loading="lazy", class_name="", secondary_
         f'{{this.dataset.retryState=\'1\';this.src=this.dataset.secondarySrc;return;}}'
         f'if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc)'
         f'{{this.onerror=null;this.src=this.dataset.fallbackSrc;}}"'
-        f' alt="{alt}"{class_attr} loading="{loading}">'
+        f' alt="{alt}"{class_attr} {extra_attrs} loading="{loading}">'
     )
 
 
@@ -935,14 +935,14 @@ def build_html(daily, weekly):
 
         {today_brief_html}
 
-        <section class="headline-section">
-            <div class="headline-badge"><span class="en-content">COVER STORY</span><span class="kr-content">커버 스토리</span></div>
-            <h2 class="main-title"><span class="en-content">{cover.get('headline_en', '')}</span><span class="kr-content">{cover.get('headline_kr', '')}</span></h2>
-            <h3 class="sub-title"><span class="en-content">{cover.get('subtitle_en', '')}</span><span class="kr-content">{cover.get('subtitle_kr', '')}</span></h3>
+        <section class="headline-section herald-cover-section" id="coverStory">
+            <div class="headline-badge"><span class="en-content">WORLD TOP STORY</span><span class="kr-content">월드 탑 스토리</span></div>
+            <h2 class="main-title" id="coverStoryTitle"><span class="en-content">{cover.get('headline_en', '')}</span><span class="kr-content">{cover.get('headline_kr', '')}</span></h2>
+            <h3 class="sub-title" id="coverStorySubtitle"><span class="en-content">{cover.get('subtitle_en', '')}</span><span class="kr-content">{cover.get('subtitle_kr', '')}</span></h3>
             <div class="cover-learning-strip">
                 <div class="cover-learning-summary">
                     <span class="cover-learning-kicker">30-Second Brief</span>
-                    <p>{compact_text(cover.get('subtitle_en', ''), 180)}</p>
+                    <p id="coverStoryBrief">{compact_text(cover.get('subtitle_en', ''), 180)}</p>
                 </div>
                 <div class="cover-learning-side">
                     <div class="cover-learning-levels">
@@ -952,8 +952,8 @@ def build_html(daily, weekly):
                     </div>
                     <div class="article-phrase-row">{phrase_chips_html(cover_phrases)}</div>
                     <div class="cover-learning-actions">
-                        <button class="learn-btn" onclick="openAcademyAtLevel('cover', 1)"><span class="learn-icon">📚</span>Start Learning</button>
-                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Practical English</button>
+                        <a class="learn-btn" id="coverStoryReadLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer"><span class="learn-icon">↗</span>Read Original</a>
+                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Study English</button>
                     </div>
                 </div>
             </div>
@@ -962,8 +962,9 @@ def build_html(daily, weekly):
                     lambda cover_primary, cover_secondary, cover_fallback: render_img(
                         cover_primary,
                         cover_fallback,
-                        'Cover Story',
+                        'World Top Story',
                         secondary_src=cover_secondary,
+                        extra_attrs='id="coverStoryImage"',
                     )
                 )(*image_sources(
                     cover.get('image_query') or cover.get('headline_en', 'cover story'),
@@ -971,15 +972,15 @@ def build_html(daily, weekly):
                     800,
                     seed=cover.get('image_seed'),
                 ))}
-                <div class="image-caption">{cover.get('image_caption', '')}</div>
+                <div class="image-caption" id="coverStoryCaption">Source image: The Korea Herald World desk. Updated daily from the World RSS top story.</div>
             </div>
             <div class="article-meta">
-                <span class="meta-author">{cover.get('author', 'By ICAN Herald Editorial')}</span>
+                <span class="meta-author" id="coverStorySource">The Korea Herald · World</span>
                 <span class="meta-divider">·</span>
-                <span class="meta-time"><span class="en-content">{cover.get('read_time_min', 5)} min read</span><span class="kr-content">{cover.get('read_time_min', 5)}분 읽기</span></span>
-                <button class="learn-btn" onclick="openAcademy('cover')" style="margin-left:12px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
+                <span class="meta-time" id="coverStoryPublished"><span class="en-content">Updated daily</span><span class="kr-content">매일 업데이트</span></span>
+                <a class="learn-btn" id="coverStoryMetaLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer" style="margin-left:12px;margin-top:0;"><span class="learn-icon">↗</span> READ</a>
             </div>
-            <div class="content-columns"><div class="column"><div class="en-content">{body_en}</div><div class="kr-content">{body_kr}</div></div></div>
+            <div class="content-columns" id="coverStoryBody"><div class="column"><div class="en-content">{body_en}</div><div class="kr-content">{body_kr}</div></div></div>
         </section>
 
         <section id="news">

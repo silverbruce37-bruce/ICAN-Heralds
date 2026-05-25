@@ -321,6 +321,12 @@ body.lang-kr .sub-title {
     font-size: 1.3rem;
 }
 
+body.lang-kr .herald-cover-section .main-title,
+body.lang-kr .herald-cover-section .sub-title {
+    font-family: "Noto Serif KR", "Apple Myungjo", "Batang", serif;
+    letter-spacing: 0;
+}
+
 body.lang-kr .food-lead,
 body.lang-kr .picks-body p {
     font-family: 'Noto Sans KR', sans-serif;
@@ -334,13 +340,24 @@ body.lang-kr .picks-body p {
 
 .headline-section {
     border-bottom: 2px solid var(--border-light);
-    padding-bottom: 50px;
+    padding: 42px 0 56px;
     margin-bottom: 60px;
+    position: relative;
+}
+
+.herald-cover-section {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    background:
+        linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0)),
+        linear-gradient(90deg, rgba(0, 71, 171, 0.12), rgba(255,255,255,0));
+    margin-left: calc(var(--container-padding, 0px) * -1);
+    margin-right: calc(var(--container-padding, 0px) * -1);
 }
 
 .headline-badge {
     display: inline-block;
-    background: var(--accent);
+    background: #111;
+    border: 1px solid rgba(255,255,255,0.18);
     color: white;
     padding: 5px 18px;
     font-family: 'Rajdhani', 'Outfit', sans-serif;
@@ -353,34 +370,40 @@ body.lang-kr .picks-body p {
 }
 
 .main-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
-    line-height: 1.05;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", serif;
+    font-size: clamp(3.2rem, 7vw, 6.3rem);
+    line-height: 0.96;
     margin: 0 0 25px 0;
-    letter-spacing: -1px;
+    letter-spacing: 0;
     color: var(--text);
+    max-width: 11.5ch;
 }
 
 .sub-title {
-    font-size: 1.4rem;
+    font-size: clamp(1.15rem, 2vw, 1.55rem);
     color: var(--text-secondary);
     font-style: italic;
     margin-bottom: 30px;
     line-height: 1.4;
-    border-left: 4px solid var(--primary);
-    padding-left: 20px;
-    font-family: 'Playfair Display', serif;
+    border-left: 5px solid var(--primary-light);
+    padding-left: 22px;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", "Noto Serif KR", serif;
+    max-width: 780px;
 }
 
 .main-image-container {
     width: 100%;
     aspect-ratio: 3 / 2;
-    max-height: 560px;
+    max-height: 620px;
     background: var(--card-bg);
     margin-bottom: 25px;
     border-radius: var(--radius-md);
     position: relative;
     overflow: hidden;
+}
+
+.herald-cover-section .main-image-container {
+    box-shadow: 0 24px 70px rgba(0,0,0,0.32);
 }
 
 .main-image-container img {
@@ -2433,6 +2456,7 @@ header:hover .tagline-sub {
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.25s ease;
     margin-top: 10px;
@@ -2661,9 +2685,21 @@ header:hover .tagline-sub {
     gap: 22px;
     padding: 22px 24px;
     margin-bottom: 24px;
-    background: var(--bg-elevated);
-    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.055);
+    border: 1px solid rgba(255,255,255,0.12);
     border-radius: var(--radius-md);
+}
+
+.herald-cover-note {
+    max-width: 860px;
+    padding: 8px 0 0;
+}
+
+.herald-cover-note p {
+    font-family: Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", serif;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
 }
 
 .cover-learning-summary {
