@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-26",
+  "header_date_line": "TUESDAY, MAY 26, 2026 | PHILIPPINES | VOL. 55",
+  "dashboard": {
+    "php_krw_rate": "24.67",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.26",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, Philippines Unveil 'Digital Silk Road' for Enhanced Connectivity",
+    "headline_kr": "한-필리핀, 연결성 강화를 위한 '디지털 실크로드' 구상 발표",
+    "subtitle_en": "New bilateral initiative aims to streamline digital services, boost tourism, and foster tech collaboration between the two nations.",
+    "subtitle_kr": "양국 간 디지털 서비스 간소화, 관광 활성화 및 기술 협력을 촉진하기 위한 새로운 양자 이니셔티브가 발표되었습니다.",
+    "body_en": [
+      "Seoul and Manila officially launched the 'Digital Silk Road' initiative today, a landmark bilateral project designed to significantly enhance digital connectivity and cooperation across various sectors. The ambitious program, spearheaded by the Ministry of Information and Communications Technology (DICT) of the Philippines and South Korea's Ministry of Science and ICT (MSIT), seeks to build a robust digital infrastructure that will benefit citizens, businesses, and tourists alike.",
+      "Key components of the 'Digital Silk Road' include the development of a joint e-visa platform to simplify travel procedures, integration of digital payment systems for seamless cross-border transactions, and collaborative projects in artificial intelligence, cybersecurity, and smart city development. Officials stated that these efforts are expected to dramatically improve efficiency and accessibility, fostering a more interconnected and digitally advanced environment for both countries.",
+      "For the Korean community in the Philippines, this initiative promises direct benefits, from easier remittance services to improved access to digital government platforms. It is also anticipated to attract more Korean tech investments into the Philippines and boost tourism by making travel and local experiences more digitally friendly. Both governments expressed optimism that the 'Digital Silk Road' will serve as a model for regional digital cooperation within ASEAN."
+    ],
+    "body_kr": [
+      "오늘 서울과 마닐라는 다양한 분야에 걸쳐 디지털 연결성과 협력을 크게 강화하기 위해 고안된 획기적인 양자 프로젝트인 '디지털 실크로드' 이니셔티브를 공식적으로 출범했습니다. 필리핀 정보통신기술부(DICT)와 한국 과학기술정보통신부(MSIT)가 주도하는 이 야심 찬 프로그램은 시민, 기업, 관광객 모두에게 혜택을 줄 강력한 디지털 인프라를 구축하고자 합니다.",
+      "'디지털 실크로드'의 핵심 구성 요소에는 여행 절차를 간소화하기 위한 공동 전자 비자 플랫폼 개발, 원활한 국경 간 거래를 위한 디지털 결제 시스템 통합, 인공지능, 사이버 보안 및 스마트 도시 개발 분야의 협력 프로젝트가 포함됩니다. 관계자들은 이러한 노력이 효율성과 접근성을 극적으로 향상시켜 양국에 더욱 상호 연결되고 디지털적으로 발전된 환경을 조성할 것으로 기대한다고 밝혔습니다.",
+      "필리핀 내 한인 사회에게 이 이니셔티브는 송금 서비스 간소화부터 디지털 정부 플랫폼 접근성 향상에 이르기까지 직접적인 혜택을 약속합니다. 또한, 여행 및 현지 경험을 더욱 디지털 친화적으로 만들어 더 많은 한국 기술 투자를 필리핀으로 유치하고 관광을 활성화할 것으로 예상됩니다. 양국 정부는 '디지털 실크로드'가 아세안(ASEAN) 내 지역 디지털 협력의 모델이 될 것이라는 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-05-26",
+    "image_query": "Korean and Philippine officials shaking hands in front of digital map, Manila",
+    "image_caption": "Photo: Korean and Philippine officials sign agreement on digital cooperation (May 26, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Task Force Boosts Safety for Korean Tourists in Popular Destinations",
+    "headline_kr": "합동 태스크포스, 인기 관광지 한인 관광객 안전 강화",
+    "lead_en": "Following recent concerns, a new joint task force comprising Philippine National Police (PNP) and Korean community representatives has been deployed to popular tourist areas. The initiative aims to enhance visible security presence and provide rapid response to ensure the safety of Korean visitors across the archipelago.",
+    "lead_kr": "최근 우려에 따라 필리핀 국립경찰(PNP)과 한인 사회 대표들로 구성된 새로운 합동 태스크포스가 인기 관광지에 배치되었습니다. 이 이니셔티브는 가시적인 보안 존재감을 강화하고 신속한 대응을 제공하여 필리핀 전역의 한인 방문객 안전을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-05-26",
+    "image_query": "Philippine police and Korean community patrol team, tourist street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Peso Strengthens Amidst Positive Q1 Economic Outlook",
+      "headline_kr": "긍정적인 1분기 경제 전망 속 필리핀 페소 강세",
+      "summary_en": "The Philippine peso has shown significant appreciation against major currencies, including the Korean Won, following strong Q1 economic growth reports. Analysts attribute the strength to robust domestic demand and increasing foreign direct investments.",
+      "summary_kr": "강력한 1분기 경제 성장 보고서 발표 이후 필리핀 페소가 한국 원화를 포함한 주요 통화 대비 상당한 강세를 보였습니다. 분석가들은 견고한 국내 수요와 증가하는 외국인 직접 투자를 강세의 원인으로 꼽습니다.",
+      "image_seed": "news1-2026-05-26",
+      "image_query": "Philippine peso currency bills, stock market chart",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Draws Thousands in Manila's Mall of Asia Arena",
+      "headline_kr": "K-Pop 댄스 페스티벌, 마닐라 몰 오브 아시아 아레나에 수천 명 운집",
+      "summary_en": "Thousands of K-Pop fans gathered at the Mall of Asia Arena over the weekend for the annual K-Pop Dance Festival. Local dance groups showcased impressive covers, highlighting the enduring popularity of Korean culture in the Philippines.",
+      "summary_kr": "지난 주말 몰 오브 아시아 아레나에서 연례 K-Pop 댄스 페스티벌에 수천 명의 K-Pop 팬들이 모였습니다. 현지 댄스 그룹들은 인상적인 커버 무대를 선보이며 필리핀에서 한국 문화의 지속적인 인기를 입증했습니다.",
+      "image_seed": "news2-2026-05-26",
+      "image_query": "K-Pop dance festival stage, large audience",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Preparations Underway for Key Regional Discussions",
+      "headline_kr": "핵심 지역 논의 위한 아세안-한국 정상회의 준비 박차",
+      "summary_en": "Senior diplomats from ASEAN nations and Korea are finalizing preparations for the upcoming ASEAN-Korea Summit. The agenda is expected to focus on climate change, maritime security, and economic recovery strategies post-pandemic.",
+      "summary_kr": "아세안 국가들과 한국의 고위 외교관들이 다가오는 아세안-한국 정상회의를 위한 준비를 마무리하고 있습니다. 의제는 기후 변화, 해양 안보, 팬데믹 이후 경제 회복 전략에 초점을 맞출 것으로 예상됩니다.",
+      "image_seed": "news3-2026-05-26",
+      "image_query": "ASEAN and Korean flags together, diplomatic meeting room",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Reminder on Online Scams Targeting Korean Residents",
+      "headline_kr": "대사관, 한인 거주자 대상 온라인 사기 주의보 재차 발령",
+      "summary_en": "The Korean Embassy in the Philippines has reissued a public advisory, urging Korean residents to be vigilant against various online scams. The reminder emphasizes verifying suspicious links and reporting fraudulent activities immediately.",
+      "summary_kr": "주필리핀 한국 대사관은 한인 거주자들에게 다양한 온라인 사기에 대한 경계를 늦추지 말 것을 촉구하는 공공 권고를 재차 발령했습니다. 이 주의보는 의심스러운 링크를 확인하고 사기 행위를 즉시 신고할 것을 강조합니다.",
+      "image_seed": "news4-2026-05-26",
+      "image_query": "Smartphone with scam warning, Korean embassy logo",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Facilitate",
+    "pronunciation": "/fəˈsɪlɪteɪt/",
+    "type": "verb",
+    "definition_en": "To make an action or process easy or easier.",
+    "definition_kr": "어떤 행동이나 과정을 쉽거나 더 쉽게 만들다.",
+    "example_en": "The new 'Digital Silk Road' initiative will facilitate easier travel and trade between Korea and the Philippines.",
+    "example_kr": "새로운 '디지털 실크로드' 이니셔티브는 한국과 필리핀 간의 여행과 무역을 더 쉽게 촉진할 것입니다.",
+    "grade": "A+"
+  }
+}

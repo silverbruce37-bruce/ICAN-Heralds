@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-26",
+    "vol": 55,
+    "cover_en": "Korea, Philippines Unveil 'Digital Silk Road' for Enhanced Connectivity",
+    "cover_kr": "한-필리핀, 연결성 강화를 위한 '디지털 실크로드' 구상 발표",
+    "headlines_en": [
+      "Joint Task Force Boosts Safety for Korean Tourists in Popular Destinations",
+      "Philippine Peso Strengthens Amidst Positive Q1 Economic Outlook",
+      "K-Pop Dance Festival Draws Thousands in Manila's Mall of Asia Arena",
+      "ASEAN-Korea Summit Preparations Underway for Key Regional Discussions",
+      "Embassy Issues Reminder on Online Scams Targeting Korean Residents"
+    ],
+    "headlines_kr": [
+      "합동 태스크포스, 인기 관광지 한인 관광객 안전 강화",
+      "긍정적인 1분기 경제 전망 속 필리핀 페소 강세",
+      "K-Pop 댄스 페스티벌, 마닐라 몰 오브 아시아 아레나에 수천 명 운집",
+      "핵심 지역 논의 위한 아세안-한국 정상회의 준비 박차",
+      "대사관, 한인 거주자 대상 온라인 사기 주의보 재차 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Safety",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-05-25",
     "vol": 54,
     "cover_en": "PH-Korea Launch Landmark Digital Innovation Hub in Clark",
