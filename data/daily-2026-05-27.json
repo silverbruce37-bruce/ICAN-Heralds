@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-27",
+  "header_date_line": "WEDNESDAY, MAY 27, 2026 | PHILIPPINES | VOL. 56",
+  "dashboard": {
+    "php_krw_rate": "24.50",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.27",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Launch Major Digital Infrastructure Initiative",
+    "headline_kr": "한-필, 대규모 디지털 인프라 구축 사업 착수",
+    "subtitle_en": "New joint venture aims to enhance connectivity and smart city development across key Philippine regions, boosting economic growth and technological exchange.",
+    "subtitle_kr": "새로운 합작 투자로 필리핀 주요 지역의 연결성 및 스마트 도시 개발을 강화하고 경제 성장과 기술 교류를 촉진할 예정입니다.",
+    "body_en": [
+      "Manila, Philippines – A landmark agreement was formally launched today between the Republic of Korea and the Republic of the Philippines, marking the commencement of a multi-billion dollar joint initiative focused on advanced digital infrastructure. The project, spearheaded by a consortium of leading Korean tech firms and Philippine government agencies, aims to significantly upgrade the nation's digital backbone, including 5G network expansion, data center development, and the implementation of smart city solutions in urban centers like Metro Manila, Cebu, and Davao.",
+      "This ambitious undertaking is projected to be a major catalyst for economic growth, creating tens of thousands of skilled jobs and attracting further foreign direct investment into the burgeoning Philippine tech sector. Experts anticipate that enhanced digital connectivity will not only streamline government services and business operations but also empower local communities through improved access to education, healthcare, and e-commerce platforms. The initial phase is expected to be completed within three years, with a focus on laying foundational infrastructure.",
+      "Officials from both nations highlighted the initiative as a testament to the deepening strategic partnership between Korea and the Philippines. President Marcos Jr. lauded the collaboration as crucial for the Philippines' digital transformation agenda, while Korean Ambassador Lee Sang-hwa emphasized Korea's commitment to sharing its technological prowess for mutual prosperity. This project is seen as a cornerstone for future bilateral cooperation, particularly in areas of innovation and sustainable development."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 오늘 대한민국과 필리핀 공화국 간의 획기적인 협정이 공식적으로 시작되었으며, 이는 첨단 디지털 인프라에 중점을 둔 수십억 달러 규모의 공동 이니셔티브의 시작을 알립니다. 한국의 주요 기술 기업 컨소시엄과 필리핀 정부 기관이 주도하는 이 프로젝트는 5G 네트워크 확장, 데이터 센터 개발, 메트로 마닐라, 세부, 다바오와 같은 도시 중심지에 스마트 도시 솔루션 구현을 포함하여 필리핀의 디지털 백본을 크게 업그레이드하는 것을 목표로 합니다.",
+      "이 야심찬 사업은 경제 성장의 주요 촉매제가 될 것으로 예상되며, 수만 개의 숙련된 일자리를 창출하고 급성장하는 필리핀 기술 분야로의 추가 해외 직접 투자를 유치할 것입니다. 전문가들은 향상된 디지털 연결성이 정부 서비스 및 비즈니스 운영을 간소화할 뿐만 아니라 교육, 의료 및 전자상거래 플랫폼에 대한 접근성을 개선하여 지역 사회에 힘을 실어줄 것으로 예상합니다. 초기 단계는 기초 인프라 구축에 중점을 두고 3년 이내에 완료될 것으로 예상됩니다.",
+      "양국 관계자들은 이번 이니셔티브가 한국과 필리핀 간의 심화되는 전략적 파트너십을 보여주는 증거라고 강조했습니다. 마르코스 주니어 대통령은 이 협력이 필리핀의 디지털 전환 의제에 중요하다고 칭찬했으며, 이상화 주한 대사는 상호 번영을 위한 한국의 기술력 공유에 대한 의지를 강조했습니다. 이 프로젝트는 특히 혁신 및 지속 가능한 개발 분야에서 미래 양자 협력의 초석으로 간주됩니다."
+    ],
+    "image_seed": "cover-2026-05-27",
+    "image_query": "Korean Philippine officials shaking hands signing digital infrastructure agreement, Manila skyline background",
+    "image_caption": "Photo: Korean and Philippine officials during the digital infrastructure initiative launch (May 27, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Intensifies Tourist Safety Patrols in Key Metro Manila Areas",
+    "headline_kr": "필리핀 경찰, 메트로 마닐라 주요 지역 관광객 안전 순찰 강화",
+    "lead_en": "The Philippine National Police (PNP) announced a significant increase in visibility and patrol operations across major tourist destinations and commercial districts frequented by foreign nationals, including the Korean community. This move comes as part of a broader effort to ensure the safety and security of both local and international visitors, particularly in light of upcoming peak tourist seasons.",
+    "lead_kr": "필리핀 국립경찰(PNP)은 한국 교민을 포함한 외국인들이 자주 찾는 주요 관광지 및 상업 지구에서 가시성 및 순찰 활동을 크게 강화했다고 발표했습니다. 이는 다가오는 성수기를 앞두고 국내외 방문객의 안전과 보안을 확보하기 위한 광범위한 노력의 일환입니다.",
+    "image_seed": "feat-2026-05-27",
+    "image_query": "Philippine police officers patrolling busy street with Korean tourists, Makati City",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye Philippine Market for ASEAN Expansion",
+      "headline_kr": "한국 스타트업들, 아세안 확장을 위해 필리핀 시장 주목",
+      "summary_en": "A growing number of Korean tech startups are exploring opportunities in the Philippines, drawn by its young, tech-savvy population and robust economic growth. Manila is becoming a preferred hub for regional expansion.",
+      "summary_kr": "점점 더 많은 한국 기술 스타트업들이 젊고 기술에 능숙한 인구와 견고한 경제 성장에 이끌려 필리핀 시장에서 기회를 모색하고 있습니다. 마닐라는 지역 확장을 위한 선호 허브가 되고 있습니다.",
+      "image_seed": "news1-2026-05-27",
+      "image_query": "Korean startup team presenting in modern office, Manila city view",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Taguig Draws Record Crowds, Celebrates Culinary Exchange",
+      "headline_kr": "따귁 K-푸드 페스티벌, 기록적인 인파 속 문화 교류의 장 열어",
+      "summary_en": "The annual K-Food Festival held in Taguig City concluded successfully, attracting record numbers of attendees eager to experience authentic Korean cuisine and cultural performances. The event highlighted the strong culinary ties between the two nations.",
+      "summary_kr": "따귁 시에서 열린 연례 K-푸드 페스티벌이 성황리에 막을 내렸으며, 정통 한식과 문화 공연을 경험하려는 기록적인 수의 방문객을 끌어모았습니다. 이 행사는 양국 간의 강력한 음식 문화적 유대를 강조했습니다.",
+      "image_seed": "news2-2026-05-27",
+      "image_query": "People enjoying Korean food at outdoor festival, Taguig",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Donates Advanced Medical Equipment to Philippine Hospitals",
+      "headline_kr": "한국, 필리핀 병원에 첨단 의료 장비 기증",
+      "summary_en": "In a gesture of continued humanitarian aid and bilateral cooperation, the Korean government has donated state-of-the-art medical equipment to several public hospitals across the Philippines, enhancing healthcare capabilities in critical areas.",
+      "summary_kr": "지속적인 인도적 지원과 양자 협력의 일환으로 한국 정부는 필리핀 전역의 여러 공립 병원에 최첨단 의료 장비를 기증하여 중요한 분야의 의료 역량을 강화했습니다.",
+      "image_seed": "news3-2026-05-27",
+      "image_query": "Korean and Philippine doctors next to new medical equipment, hospital setting",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Hosts Safety Forum for Residents in Cebu",
+      "headline_kr": "주세부 한국영사관, 교민 안전 포럼 개최",
+      "summary_en": "The Korean Embassy in Cebu recently hosted a safety forum for its residents, providing essential updates on local security, emergency protocols, and tips for safe living. Local police officials were present to address community concerns.",
+      "summary_kr": "주세부 한국영사관은 최근 교민들을 위한 안전 포럼을 개최하여 지역 보안, 비상 프로토콜 및 안전한 생활을 위한 팁에 대한 필수 정보를 제공했습니다. 현지 경찰 관계자들도 참석하여 교민들의 우려 사항을 경청했습니다.",
+      "image_seed": "news4-2026-05-27",
+      "image_query": "Korean community members attending safety forum, Cebu",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital infrastructure project aims to achieve synergy between Korean technology and Philippine development goals.",
+    "example_kr": "디지털 인프라 프로젝트는 한국 기술과 필리핀 개발 목표 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
