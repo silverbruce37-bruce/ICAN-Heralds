@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-28",
+    "vol": 57,
+    "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Initiatives",
+    "cover_kr": "한국과 필리핀, 새 협력 강화로 외교 관계 심화",
+    "headlines_en": [
+      "Philippines Enhances Community Safety Measures for Korean Residents",
+      "ASEAN Economic Growth Accelerates in 2026",
+      "K-Pop Fans Celebrate Annual Concert in Manila",
+      "Korea-Philippines Trade Partnership Expands",
+      "Public Alert Issued for Traffic Safety During Peak Hours"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국인 거주민 안전 강화 조치 발표",
+      "2026년 ASEAN 경제 성장 가속화",
+      "마닐라에서 열리는 케이팝 연례 콘서트, 팬들 열광",
+      "한국-필리핀 무역 협력 확대",
+      "출퇴근 시간 교통 안전 위해 공공 경보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-27",
     "vol": 56,
     "cover_en": "Korea-Philippines Launch Major Digital Infrastructure Initiative",
