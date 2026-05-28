@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-29",
+    "vol": 58,
+    "cover_en": "Korea-PH Elevate Digital Partnership for Smart Cities",
+    "cover_kr": "한-필리핀, 스마트 도시 위한 디지털 파트너십 강화",
+    "headlines_en": [
+      "Korean Embassy, PNP Launch Enhanced Safety Campaign for Tourists",
+      "ASEAN Leaders Discuss Regional Supply Chain Resilience",
+      "K-Pop Dance Festival Draws Huge Crowd in Manila",
+      "KOICA Funds New Agricultural Development Project in Mindanao",
+      "Makati City Enhances CCTV Network for Public Safety"
+    ],
+    "headlines_kr": [
+      "주필리핀 한국대사관, 필리핀 경찰청과 관광객 안전 강화 캠페인 전개",
+      "아세안 정상들, 역내 공급망 복원력 논의",
+      "마닐라 K-팝 댄스 페스티벌, 엄청난 인파 모여",
+      "코이카, 민다나오 신규 농업 개발 프로젝트 자금 지원",
+      "마카티 시, 공공 안전 위한 CCTV 네트워크 강화"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-05-28",
     "vol": 57,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Initiatives",
