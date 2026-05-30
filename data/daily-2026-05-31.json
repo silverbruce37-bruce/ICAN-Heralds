@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-05-31",
+  "header_date_line": "SUNDAY, MAY 31, 2026 | PHILIPPINES | VOL. 60",
+  "dashboard": {
+    "php_krw_rate": "24.51",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.05.31",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Landmark Digital Infrastructure Pact for Future Growth",
+    "headline_kr": "필리핀-한국, 미래 성장을 위한 디지털 인프라 협약 체결",
+    "subtitle_en": "The agreement aims to accelerate digital transformation across the Philippines, enhancing connectivity and fostering innovation through Korean expertise and investment.",
+    "subtitle_kr": "이번 협약은 한국의 전문성과 투자를 통해 필리핀 전역의 디지털 전환을 가속화하고 연결성을 강화하며 혁신을 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal moment for bilateral relations, the Philippines and the Republic of Korea officially signed a landmark agreement on digital infrastructure development on Friday. The signing ceremony, attended by high-ranking officials from both nations, including Philippine President Ferdinand Marcos Jr. and a special envoy from Seoul, underscored a shared commitment to harnessing technology for national progress and regional connectivity. This strategic partnership is expected to usher in a new era of digital advancement for the archipelagic nation.",
+      "The comprehensive pact outlines specific areas of cooperation, focusing on the expansion of 5G networks, the establishment of state-of-the-art data centers, and the implementation of smart city technologies across key urban centers. Korean companies, renowned for their technological prowess and experience in digital innovation, are set to play a crucial role in providing expertise, investment, and advanced solutions. Initial estimates suggest a significant influx of Korean capital and technical assistance over the next five years, targeting critical infrastructure gaps.",
+      "Officials project that the agreement will not only boost the Philippines' digital economy and create numerous job opportunities but also significantly improve public services, education, and healthcare access through enhanced connectivity. Both governments expressed optimism that this collaboration will serve as a model for future partnerships within ASEAN, further cementing the strong and evolving ties between the Philippines and Korea in an increasingly digital world."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국 관계의 전환점이 될 중요한 순간, 필리핀과 대한민국은 금요일 디지털 인프라 개발에 관한 획기적인 협약을 공식적으로 체결했습니다. 필리핀 페르디난드 마르코스 주니어 대통령과 서울에서 온 특별 사절을 포함한 양국 고위 관계자들이 참석한 서명식은 국가 발전과 지역 연결성을 위한 기술 활용에 대한 공동의 약속을 강조했습니다. 이 전략적 파트너십은 군도 국가의 디지털 발전에 새로운 시대를 열 것으로 기대됩니다.",
+      "포괄적인 협약은 5G 네트워크 확장, 최첨단 데이터 센터 구축, 주요 도시 중심지에 스마트 시티 기술 구현에 중점을 둔 구체적인 협력 분야를 명시하고 있습니다. 디지털 혁신 분야에서 기술력과 경험으로 명성이 높은 한국 기업들은 전문성, 투자 및 고급 솔루션을 제공하는 데 중요한 역할을 할 것입니다. 초기 추정치에 따르면 향후 5년간 한국 자본과 기술 지원이 상당 부분 유입되어 중요한 인프라 격차를 해소할 것으로 예상됩니다.",
+      "관계자들은 이번 협약이 필리핀의 디지털 경제를 활성화하고 수많은 일자리를 창출할 뿐만 아니라, 향상된 연결성을 통해 공공 서비스, 교육 및 의료 접근성을 크게 향상시킬 것이라고 예측했습니다. 양국 정부는 이번 협력이 아세안 내 미래 파트너십의 모델이 되어, 점점 더 디지털화되는 세상에서 필리핀과 한국 간의 강력하고 발전하는 관계를 더욱 공고히 할 것이라는 낙관적인 전망을 내놓았습니다."
+    ],
+    "image_seed": "cover-2026-05-31",
+    "image_query": "Korean Philippine officials handshake signing digital infrastructure agreement",
+    "image_caption": "Photo: Philippine and Korean officials finalize the digital infrastructure pact in Manila (May 30, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "ROK Bolsters Philippine Maritime Security Amid Regional Challenges",
+    "headline_kr": "한국, 역내 안보 위협 속 필리핀 해양 안보 강화 지원",
+    "lead_en": "The Republic of Korea has announced new initiatives to support the Philippines' maritime security capabilities, including advanced equipment and joint training programs. This move comes as regional tensions continue to necessitate stronger defense cooperation among allies, reinforcing stability in crucial waterways.",
+    "lead_kr": "대한민국은 첨단 장비 및 합동 훈련 프로그램을 포함하여 필리핀의 해양 안보 역량을 지원하기 위한 새로운 이니셔티브를 발표했습니다. 이러한 움직임은 역내 긴장이 지속적으로 동맹국 간의 강력한 국방 협력을 요구함에 따라 중요한 수로의 안정을 강화하고 있습니다.",
+    "image_seed": "feat-2026-05-31",
+    "image_query": "Korean Philippine coast guard patrol ship joint exercise",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Giant Invests in PH Smart City Project",
+      "headline_kr": "한국 IT 대기업, 필리핀 스마트 시티 프로젝트에 투자",
+      "summary_en": "A leading Korean technology conglomerate has committed a substantial investment to develop a new smart city in Central Luzon, focusing on sustainable urban solutions and digital integration.",
+      "summary_kr": "선도적인 한국 기술 대기업이 지속 가능한 도시 솔루션과 디지털 통합에 중점을 둔 루손 중부의 새로운 스마트 시티 개발에 상당한 투자를 약속했습니다.",
+      "image_seed": "news1-2026-05-31",
+      "image_query": "Korean construction executive presenting smart city model",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Culture Festival Breaks Attendance Records",
+      "headline_kr": "마닐라 K-컬처 페스티벌 역대 최다 관객 기록",
+      "summary_en": "The annual K-Culture Festival in Manila concluded with unprecedented attendance, showcasing K-Pop, K-Drama, and traditional Korean arts, further solidifying cultural ties between the two nations.",
+      "summary_kr": "마닐라에서 열린 연례 K-컬처 페스티벌이 역대 최다 관객을 기록하며 막을 내렸습니다. K-팝, K-드라마, 한국 전통 예술을 선보이며 양국 간 문화적 유대를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-05-31",
+      "image_query": "K-Pop concert crowd waving lightsticks Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Launch Joint Tourism Recovery Campaign",
+      "headline_kr": "필리핀-한국, 공동 관광 회복 캠페인 시작",
+      "summary_en": "Both nations unveil a collaborative tourism campaign, 'Explore Beyond Borders,' aimed at revitalizing post-pandemic travel and promoting unique cultural experiences for tourists.",
+      "summary_kr": "양국은 팬데믹 이후 관광을 활성화하고 관광객들에게 독특한 문화 체험을 홍보하기 위한 공동 관광 캠페인 '국경 너머를 탐험하라'를 공개했습니다.",
+      "image_seed": "news3-2026-05-31",
+      "image_query": "Korean and Philippine tourists exploring historical landmark",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "PNP Enhances Safety Measures for Korean Community in Metro Manila",
+      "headline_kr": "필리핀 경찰, 메트로 마닐라 한국 교민 안전 조치 강화",
+      "summary_en": "The Philippine National Police (PNP) has rolled out new community policing programs and hotlines specifically designed to enhance the safety and security of Korean residents in key areas.",
+      "summary_kr": "필리핀 국가경찰(PNP)은 주요 지역의 한국 교민 안전과 보안을 강화하기 위해 특별히 고안된 새로운 지역사회 경찰 프로그램과 핫라인을 시행했습니다.",
+      "image_seed": "news4-2026-05-31",
+      "image_query": "Philippine police officer speaking with Korean community leader",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 그들의 개별적인 효과의 합보다 더 큰 결합된 효과를 생산하는 것.",
+    "example_en": "The digital infrastructure pact aims to create synergy between Philippine development goals and Korean technological expertise.",
+    "example_kr": "디지털 인프라 협약은 필리핀의 개발 목표와 한국의 기술 전문성 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

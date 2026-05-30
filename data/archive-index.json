@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-31",
+    "vol": 60,
+    "cover_en": "PH-Korea Forge Landmark Digital Infrastructure Pact for Future Growth",
+    "cover_kr": "필리핀-한국, 미래 성장을 위한 디지털 인프라 협약 체결",
+    "headlines_en": [
+      "ROK Bolsters Philippine Maritime Security Amid Regional Challenges",
+      "Korean Tech Giant Invests in PH Smart City Project",
+      "Manila's K-Culture Festival Breaks Attendance Records",
+      "PH-Korea Launch Joint Tourism Recovery Campaign",
+      "PNP Enhances Safety Measures for Korean Community in Metro Manila"
+    ],
+    "headlines_kr": [
+      "한국, 역내 안보 위협 속 필리핀 해양 안보 강화 지원",
+      "한국 IT 대기업, 필리핀 스마트 시티 프로젝트에 투자",
+      "마닐라 K-컬처 페스티벌 역대 최다 관객 기록",
+      "필리핀-한국, 공동 관광 회복 캠페인 시작",
+      "필리핀 경찰, 메트로 마닐라 한국 교민 안전 조치 강화"
+    ],
+    "tags": [
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-05-30",
     "vol": 59,
     "cover_en": "Korea, Philippines Forge Landmark Digital Partnership for Smart Cities",
