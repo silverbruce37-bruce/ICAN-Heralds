@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-30",
+    "vol": 59,
+    "cover_en": "Korea, Philippines Forge Landmark Digital Partnership for Smart Cities",
+    "cover_kr": "한-필리핀, 스마트 도시 디지털 파트너십 체결",
+    "headlines_en": [
+      "Joint Patrols Boost Safety for Korean Community in Tourist Hubs",
+      "Korean F&B Giants Eyeing Major Expansion in Southeast Asian Market",
+      "Manila to Host Mega K-Pop Festival This August, Featuring Top Idols",
+      "Korea Expands Scholarship Program for Filipino Students in Tech Fields",
+      "Health Officials Urge Vigilance Against Heat-Related Illnesses Amid Summer"
+    ],
+    "headlines_kr": [
+      "관광지 한인 사회 안전 위한 공동 순찰 강화",
+      "한국 식음료 대기업들, 동남아 시장 대규모 확장 모색",
+      "마닐라, 8월 최고 아이돌 참여 메가 K-팝 페스티벌 개최",
+      "한국, 필리핀 학생 대상 기술 분야 장학금 프로그램 확대",
+      "보건 당국, 여름철 열 관련 질병에 대한 경계 촉구"
+    ],
+    "tags": [
+      "Security",
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-29",
     "vol": 58,
     "cover_en": "Korea-PH Elevate Digital Partnership for Smart Cities",
