@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-01",
+    "vol": 61,
+    "cover_en": "Korea, Philippines Forge Landmark Digital Partnership for Economic Growth",
+    "cover_kr": "한국-필리핀, 경제 성장을 위한 획기적인 디지털 파트너십 구축",
+    "headlines_en": [
+      "Joint Patrols, Tech-Enhanced Security Boost Safety for Koreans in Metro Manila",
+      "Philippine Export Sector Sees Strong Growth Driven by ASEAN Trade",
+      "Manila's K-Food Festival Draws Record Crowds, Showcasing Culinary Diplomacy",
+      "Korean Firms Boost Investment in Philippine Renewable Energy Projects",
+      "Cebu Launches New Traffic Safety Campaign Targeting Tourist Hubs"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 안전 위해 합동 순찰 및 기술 강화 보안 조치 시행",
+      "아세안 무역에 힘입어 필리핀 수출 부문 강한 성장세 보여",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파 모으며 미식 외교 선보여",
+      "한국 기업들, 필리핀 신재생에너지 프로젝트 투자 확대",
+      "세부, 관광 중심지 대상 새로운 교통 안전 캠페인 시작"
+    ],
+    "tags": [
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-05-31",
     "vol": 60,
     "cover_en": "PH-Korea Forge Landmark Digital Infrastructure Pact for Future Growth",
