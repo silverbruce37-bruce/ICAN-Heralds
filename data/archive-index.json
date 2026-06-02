@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-02",
+    "vol": 62,
+    "cover_en": "PH-Korea Launch Landmark Digital Connectivity Initiative",
+    "cover_kr": "한-필, 획기적인 디지털 연결성 사업 출범",
+    "headlines_en": [
+      "PNP, Korean Embassy Boost Joint Anti-Crime Operations",
+      "ASEAN Economic Growth Projected Strong for Q2 2026",
+      "Major K-Food Festival Draws Crowds in Quezon City",
+      "Korea Funds New Vocational Training Centers in Mindanao",
+      "Philippine Coast Guard Issues Safety Advisory for Beachgoers"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청-주필리핀 한국대사관, 합동 대범죄 작전 강화",
+      "2026년 2분기 아세안 경제 성장, 강력할 것으로 전망",
+      "퀘존 시티에서 대규모 K-푸드 페스티벌 성황리 개최",
+      "한국, 민다나오에 신규 직업훈련센터 건립 지원",
+      "필리핀 해안경비대, 해변 방문객 대상 안전 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-01",
     "vol": 61,
     "cover_en": "Korea, Philippines Forge Landmark Digital Partnership for Economic Growth",
