@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-04",
+  "header_date_line": "THURSDAY, JUNE 4, 2026 | PHILIPPINES | VOL. 64",
+  "dashboard": {
+    "php_krw_rate": "24.80",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Launch Joint Smart City Digital Initiative",
+    "headline_kr": "필리핀-한국, 스마트시티 디지털 이니셔티브 공동 출범",
+    "subtitle_en": "The ambitious project aims to integrate advanced digital solutions into urban planning, enhancing efficiency and quality of life across key Philippine cities. This marks a new era of technological cooperation.",
+    "subtitle_kr": "이 야심찬 프로젝트는 주요 필리핀 도시에 첨단 디지털 솔루션을 통합하여 효율성과 삶의 질을 향상시키는 것을 목표로 합니다. 이는 기술 협력의 새로운 시대를 엽니다.",
+    "body_en": [
+      "Manila, Philippines – In a landmark move poised to redefine urban development in the region, the Philippines and South Korea officially launched the \"Ph-Ko Smart City Digital Partnership\" today. The initiative, announced following extensive discussions between officials from both nations, will see Korean technological expertise and investment channeled into developing sustainable and digitally integrated urban centers across the archipelago. This collaboration is expected to accelerate the Philippines' digital transformation agenda.",
+      "The partnership focuses on several key areas, including smart transportation systems, intelligent energy management, advanced public safety networks, and digital governance platforms. Pilot projects are slated to commence in Metro Manila, Cebu, and Davao within the next six months, with a long-term vision to expand nationwide. Korean firms, renowned for their innovation in smart city technologies, are set to play a pivotal role in implementing these solutions, fostering local job creation and knowledge transfer.",
+      "Philippine President Ferdinand Marcos Jr. expressed optimism, stating the initiative would significantly boost the nation's economic competitiveness and improve citizen services. South Korean Ambassador to the Philippines, H.E. Lee Sang-hwa, echoed these sentiments, highlighting the shared vision for a digitally empowered future and reinforcing the strong bilateral ties between the two countries. The project underscores a mutual commitment to leveraging technology for inclusive growth and sustainable urban living."
+    ],
+    "body_kr": [
+      "마닐라, 필리핀 – 필리핀과 한국이 오늘 지역 도시 개발의 새로운 장을 열 \"필리핀-한국 스마트시티 디지털 파트너십\"을 공식적으로 출범했습니다. 양국 관계자 간의 광범위한 논의 끝에 발표된 이 이니셔티브는 한국의 기술 전문성과 투자를 필리핀 전역의 지속 가능하고 디지털 통합된 도시 센터 개발에 투입할 것입니다. 이 협력은 필리핀의 디지털 전환 의제를 가속화할 것으로 기대됩니다.",
+      "이번 파트너십은 스마트 교통 시스템, 지능형 에너지 관리, 첨단 공공 안전 네트워크, 디지털 거버넌스 플랫폼 등 여러 핵심 분야에 중점을 둡니다. 향후 6개월 이내에 메트로 마닐라, 세부, 다바오에서 시범 프로젝트가 시작될 예정이며, 장기적으로 전국 확장을 목표로 합니다. 스마트시티 기술 혁신으로 유명한 한국 기업들은 이러한 솔루션 구현에 중추적인 역할을 하여 현지 일자리 창출과 지식 이전을 촉진할 것입니다.",
+      "페르디난드 마르코스 주니어 필리핀 대통령은 이 이니셔티브가 국가의 경제 경쟁력을 크게 높이고 시민 서비스를 개선할 것이라며 낙관적인 견해를 밝혔습니다. 이 상화 주필리핀 대한민국 대사는 이러한 견해에 동의하며 디지털 역량 강화된 미래를 위한 공동의 비전을 강조하고 양국 간의 강력한 양자 관계를 재확인했습니다. 이 프로젝트는 포괄적 성장과 지속 가능한 도시 생활을 위해 기술을 활용하려는 상호 약속을 보여줍니다."
+    ],
+    "image_seed": "cover-2026-06-04",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials signing the Smart City Digital Partnership agreement (June 4, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Intensifies Tourist Safety Measures Ahead of Peak Season",
+    "headline_kr": "필리핀 경찰청, 성수기 앞두고 관광객 안전 조치 강화",
+    "lead_en": "The Philippine National Police (PNP) announced enhanced security protocols targeting popular tourist destinations and Korean communities nationwide. This initiative aims to ensure the safety of both local and international visitors, particularly as the country approaches the mid-year peak travel season. Increased patrols and community engagement are central to the new plan.",
+    "lead_kr": "필리핀 경찰청(PNP)은 전국 주요 관광지와 한인 커뮤니티를 대상으로 보안 프로토콜을 강화한다고 발표했습니다. 이 조치는 특히 중반기 여행 성수기를 앞두고 국내외 방문객의 안전을 보장하기 위함입니다. 순찰 강화와 지역사회 참여가 새 계획의 핵심입니다.",
+    "image_seed": "feat-2026-06-04",
+    "image_query": "Philippine police officer patrolling tourist area with Korean tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment Surges in Philippine Renewable Energy Sector",
+      "headline_kr": "한국, 필리핀 재생에너지 부문 투자 급증",
+      "summary_en": "Korean companies are significantly increasing their investments in the Philippines' renewable energy sector, particularly in solar and wind projects, driven by government incentives and growing demand. This surge is expected to boost local employment and contribute to the nation's clean energy goals.",
+      "summary_kr": "한국 기업들이 필리핀 정부의 인센티브와 증가하는 수요에 힘입어 태양광 및 풍력 프로젝트를 중심으로 필리핀 재생에너지 부문 투자를 크게 늘리고 있습니다. 이러한 급증은 현지 고용을 촉진하고 국가의 청정에너지 목표 달성에 기여할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-06-04",
+      "image_query": "Solar panels in Philippine landscape, Korean engineer",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Manila Draws Record Crowds",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "summary_en": "The annual K-Food Festival held in Manila concluded with unprecedented success, attracting thousands of food enthusiasts eager to sample traditional and modern Korean cuisine. The event highlighted the growing popularity of Korean culture and gastronomy in the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 성공을 거두며, 전통 및 현대 한국 요리를 맛보려는 수천 명의 음식 애호가들을 끌어모았습니다. 이번 행사는 필리핀 내 한국 문화와 미식의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-06-04",
+      "image_query": "Crowded K-Food festival street food stalls",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Strengthen Maritime Security Cooperation in West Philippine Sea",
+      "headline_kr": "필리핀-한국, 서필리핀해 해상 안보 협력 강화",
+      "summary_en": "The Philippines and South Korea held joint discussions to enhance maritime security cooperation, focusing on information sharing and capacity building in the West Philippine Sea. This move underscores both nations' commitment to regional stability and adherence to international law.",
+      "summary_kr": "필리핀과 한국은 서필리핀해에서의 정보 공유 및 역량 강화를 중심으로 해상 안보 협력을 강화하기 위한 공동 논의를 진행했습니다. 이는 지역 안정과 국제법 준수에 대한 양국의 의지를 강조합니다.",
+      "image_seed": "news3-2026-06-04",
+      "image_query": "Philippine and Korean navy ships joint exercise",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Online Scams Targeting Expats",
+      "headline_kr": "주필리핀 한국대사관, 교민 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines issued a strong advisory warning its nationals about a recent surge in online scams, particularly those targeting expatriates through fraudulent investment schemes and fake job offers. The embassy urged vigilance and immediate reporting of suspicious activities.",
+      "summary_kr": "주필리핀 한국대사관은 최근 사기성 투자 및 허위 구인 제안을 통해 교민들을 노리는 온라인 사기가 급증하고 있다며 강력한 주의보를 발령했습니다. 대사관은 경계를 늦추지 말고 의심스러운 활동을 즉시 신고할 것을 당부했습니다.",
+      "image_seed": "news4-2026-06-04",
+      "image_query": "Laptop screen showing scam alert, Korean text",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The smart city project aims to achieve synergy between advanced technology and urban development, creating more efficient and livable communities.",
+    "example_kr": "스마트 도시 프로젝트는 첨단 기술과 도시 개발 간의 시너지를 달성하여 더욱 효율적이고 살기 좋은 공동체를 만드는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

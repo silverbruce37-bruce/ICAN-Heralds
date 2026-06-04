@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-04",
+    "vol": 64,
+    "cover_en": "Philippines, Korea Launch Joint Smart City Digital Initiative",
+    "cover_kr": "필리핀-한국, 스마트시티 디지털 이니셔티브 공동 출범",
+    "headlines_en": [
+      "PNP Intensifies Tourist Safety Measures Ahead of Peak Season",
+      "Korean Investment Surges in Philippine Renewable Energy Sector",
+      "K-Food Festival in Manila Draws Record Crowds",
+      "PH, Korea Strengthen Maritime Security Cooperation in West Philippine Sea",
+      "Korean Embassy Issues Advisory on Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청, 성수기 앞두고 관광객 안전 조치 강화",
+      "한국, 필리핀 재생에너지 부문 투자 급증",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "필리핀-한국, 서필리핀해 해상 안보 협력 강화",
+      "주필리핀 한국대사관, 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-06-03",
     "vol": 63,
     "cover_en": "Korea-PH Digital Economy Pact Boosts Bilateral Trade, Innovation",
