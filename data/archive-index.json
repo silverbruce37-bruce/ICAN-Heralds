@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-05",
+    "vol": 65,
+    "cover_en": "Philippines, Korea Launch New Digital Economy Partnership Phase",
+    "cover_kr": "필리핀-한국, 디지털 경제 파트너십 새 국면 개시",
+    "headlines_en": [
+      "Joint Police Patrols Bolstered for Korean Community Safety",
+      "Korean Investors Eyeing Growing ASEAN Green Tech Market",
+      "Manila Hosts Vibrant K-Food Festival This Weekend",
+      "Korea Funds New Vocational Training Centers in Rural Philippines",
+      "Philippine Authorities Issue Rainy Season Safety Advisory"
+    ],
+    "headlines_kr": [
+      "한인사회 안전 위한 합동 경찰 순찰 강화",
+      "한국 투자자들, 성장하는 아세안 녹색 기술 시장 주목",
+      "마닐라에서 이번 주말 활기찬 K-푸드 페스티벌 개최",
+      "한국, 필리핀 농촌 지역 새 직업 훈련 센터 건립 지원",
+      "필리핀 당국, 우기 안전 수칙 발표"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-04",
     "vol": 64,
     "cover_en": "Philippines, Korea Launch Joint Smart City Digital Initiative",
