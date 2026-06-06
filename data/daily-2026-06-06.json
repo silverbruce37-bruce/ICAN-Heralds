@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-06",
+  "header_date_line": "SATURDAY, JUNE 6, 2026 | PHILIPPINES | VOL. 66",
+  "dashboard": {
+    "php_krw_rate": "25.26",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.06",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch 'Green Horizons' Smart City Initiative in Clark",
+    "headline_kr": "필리핀-한국, 클락에 '그린 호라이즌' 스마트시티 프로젝트 착수",
+    "subtitle_en": "The groundbreaking initiative aims to transform urban living through sustainable technology and digital innovation, fostering a new era of bilateral cooperation.",
+    "subtitle_kr": "이번 획기적인 프로젝트는 지속가능한 기술과 디지털 혁신을 통해 도시 생활을 변화시키고, 양국 협력의 새로운 시대를 열 것을 목표로 합니다.",
+    "body_en": [
+      "Clark, Philippines – The Philippine and South Korean governments today officially launched the ambitious 'Green Horizons' Smart City project, a landmark initiative set to redefine urban development in the ASEAN region. Located within the bustling Clark Freeport Zone, the project focuses on integrating cutting-edge sustainable technologies, advanced digital infrastructure, and eco-friendly urban planning to create a model for future cities.",
+      "This multi-billion dollar endeavor, backed by significant investments from both nations' public and private sectors, is projected to generate thousands of jobs, attract further foreign direct investment, and boost the local economy. Officials emphasized the project's long-term vision, which includes renewable energy solutions, intelligent transportation systems, and a robust digital ecosystem designed to enhance efficiency and quality of life for residents.",
+      "For the Korean community in the Philippines, 'Green Horizons' presents unique opportunities for engagement and growth. Korean technology firms are expected to play a pivotal role in its development, while the project's focus on international standards and sustainable living could attract more Korean professionals and families, further strengthening the vibrant Korean diaspora in the country."
+    ],
+    "body_kr": [
+      "필리핀 클락 – 필리핀과 한국 정부가 오늘 아세안(ASEAN) 지역의 도시 개발을 재정의할 획기적인 이니셔티브인 야심 찬 '그린 호라이즌' 스마트시티 프로젝트를 공식 출범했습니다. 활기 넘치는 클락 자유항 지역 내에 위치한 이 프로젝트는 최첨단 지속 가능한 기술, 고급 디지털 인프라, 친환경 도시 계획을 통합하여 미래 도시의 모델을 만드는 데 중점을 둡니다.",
+      "양국의 공공 및 민간 부문으로부터 상당한 투자를 받아 수십억 달러 규모로 진행되는 이 사업은 수천 개의 일자리를 창출하고 추가적인 해외 직접 투자를 유치하며 지역 경제를 활성화할 것으로 예상됩니다. 관계자들은 재생 에너지 솔루션, 지능형 교통 시스템, 주민들의 효율성과 삶의 질을 향상시키도록 설계된 강력한 디지털 생태계를 포함하는 프로젝트의 장기적인 비전을 강조했습니다.",
+      "필리핀 한인 사회에게 '그린 호라이즌'은 참여와 성장을 위한 특별한 기회를 제공합니다. 한국 기술 기업들은 이 개발에 중추적인 역할을 할 것으로 예상되며, 프로젝트가 국제 표준과 지속 가능한 삶에 중점을 두는 것은 더 많은 한국 전문가와 가족을 유치하여 필리핀 내 활기찬 한인 디아스포라를 더욱 강화할 수 있습니다."
+    ],
+    "image_seed": "cover-2026-06-06",
+    "image_query": "Philippine Korean officials handshake smart city blueprint Clark",
+    "image_caption": "Photo: Philippine and Korean officials discuss plans for the 'Green Horizons' smart city project (June 5, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Embassy and PNP Enhance Joint Safety Patrols in Key Areas",
+    "headline_kr": "주필리핀 한국대사관, 필리핀 경찰청과 주요 지역 합동 순찰 강화",
+    "lead_en": "The Korean Embassy in Manila, in partnership with the Philippine National Police (PNP), has significantly ramped up joint security patrols in areas with high concentrations of Korean residents and tourists. This enhanced initiative, launched this week, aims to bolster safety, deter crime, and provide immediate assistance to the Korean community, ensuring a more secure environment for everyone.",
+    "lead_kr": "마닐라 주재 한국대사관이 필리핀 경찰청(PNP)과 협력하여 한인 거주민 및 관광객 밀집 지역의 합동 보안 순찰을 대폭 강화했습니다. 이번 주부터 시작된 이 강화된 이니셔티브는 안전을 강화하고 범죄를 억제하며 한인 사회에 즉각적인 지원을 제공하여 모두에게 더 안전한 환경을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-06",
+    "image_query": "Korean police officer Philippine police officer patrol together",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economy Shows Resilience Amid Global Headwinds, PH a Key Driver",
+      "headline_kr": "글로벌 역풍 속 ASEAN 경제 회복력 과시, 필리핀 핵심 동력",
+      "summary_en": "The ASEAN region continues to demonstrate robust economic growth, with the Philippines playing a significant role in driving regional expansion despite ongoing global economic uncertainties. Strong domestic demand and strategic investments contribute to this resilience.",
+      "summary_kr": "아세안 지역은 글로벌 경제 불확실성에도 불구하고 견고한 경제 성장을 지속하고 있으며, 필리핀이 역내 확장을 주도하는 데 중요한 역할을 하고 있습니다. 강력한 내수와 전략적 투자가 이러한 회복력에 기여하고 있습니다.",
+      "image_seed": "news1-2026-06-06",
+      "image_query": "ASEAN leaders discussing economic growth chart",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Manila Draws Record Crowds, Celebrates Culinary Bridge",
+      "headline_kr": "마닐라 K-푸드 페스티벌 역대 최다 인파 기록, 미식 교류의 장 열어",
+      "summary_en": "The annual K-Food Festival held in Manila concluded with unprecedented attendance, showcasing the growing popularity of Korean cuisine and culture among Filipinos. Chefs and vendors reported brisk sales and enthusiastic participation.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 기록하며 성황리에 막을 내렸고, 필리핀인들 사이에서 한국 음식과 문화의 인기가 높아지고 있음을 보여주었습니다. 요리사와 판매업자들은 활발한 판매와 열띤 참여를 보고했습니다.",
+      "image_seed": "news2-2026-06-06",
+      "image_query": "People enjoying Korean food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Partner on Advanced Agricultural Technology Exchange Program",
+      "headline_kr": "필리핀-한국, 첨단 농업 기술 교류 프로그램 협력",
+      "summary_en": "The Philippines and South Korea have launched a new exchange program focused on sharing advanced agricultural technologies and sustainable farming practices. This initiative aims to boost food security and productivity in the region.",
+      "summary_kr": "필리핀과 한국이 첨단 농업 기술 및 지속 가능한 농업 관행 공유에 중점을 둔 새로운 교류 프로그램을 시작했습니다. 이 이니셔티브는 지역의 식량 안보와 생산성 향상을 목표로 합니다.",
+      "image_seed": "news3-2026-06-06",
+      "image_query": "Korean Philippine farmers discussing agricultural technology",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Leaders Urge Vigilance as Rainy Season Approaches",
+      "headline_kr": "우기 다가옴에 따라 지역 리더들 경계심 강화 촉구",
+      "summary_en": "With the rainy season imminent, local community leaders and disaster preparedness agencies are reminding residents, especially those in flood-prone areas, to remain vigilant and prepare for potential weather hazards. Public awareness campaigns are underway.",
+      "summary_kr": "우기가 임박함에 따라 지역 사회 리더들과 재난 대비 기관들은 주민들, 특히 홍수 취약 지역 주민들에게 경계를 늦추지 말고 잠재적인 기상 위험에 대비할 것을 당부하고 있습니다. 대국민 인식 캠페인이 진행 중입니다.",
+      "image_seed": "news4-2026-06-06",
+      "image_query": "Community preparing for rainy season flood",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnər.dʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요소가 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between the Philippine government and Korean investors is crucial for the success of the 'Green Horizons' project.",
+    "example_kr": "필리핀 정부와 한국 투자자들 간의 시너지는 '그린 호라이즌' 프로젝트의 성공에 매우 중요합니다.",
+    "grade": "A+"
+  }
+}
