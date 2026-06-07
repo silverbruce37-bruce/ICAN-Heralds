@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-07",
+  "header_date_line": "SUNDAY, JUNE 7, 2026 | PHILIPPINES | VOL. 67",
+  "dashboard": {
+    "php_krw_rate": "25.27",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.07",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Unveil Landmark Green Infrastructure Investment Pact",
+    "headline_kr": "필리핀-한국, 획기적인 녹색 인프라 투자 협정 발표",
+    "subtitle_en": "The two nations commit to a multi-billion dollar partnership focusing on sustainable development, renewable energy, and smart city initiatives. This agreement is set to significantly boost economic growth and environmental resilience in the Philippines.",
+    "subtitle_kr": "양국은 지속 가능한 개발, 재생 에너지 및 스마트 도시 이니셔티브에 중점을 둔 수십억 달러 규모의 파트너십을 약속했습니다. 이 협정은 필리핀의 경제 성장과 환경 회복력을 크게 향상시킬 것입니다.",
+    "body_en": [
+      "In a major diplomatic and economic breakthrough, the Philippines and South Korea formally signed a landmark agreement yesterday to establish a comprehensive green infrastructure investment partnership. The pact, valued at an initial $5 billion over the next five years, aims to funnel Korean expertise and capital into critical sectors such as renewable energy development, sustainable urban planning, and eco-friendly transportation systems across the archipelago.",
+      "Officials from both countries emphasized the transformative potential of this collaboration, highlighting its role in accelerating the Philippines' transition to a greener economy and achieving its climate change targets. The partnership is expected to create thousands of jobs, enhance energy security, and foster the development of smart, resilient cities capable of withstanding future environmental challenges. Specific projects are anticipated to be announced in the coming months, following detailed feasibility studies.",
+      "This initiative builds upon the strong bilateral ties between Manila and Seoul, further solidifying their strategic partnership beyond traditional trade and security cooperation. Experts view this agreement as a significant catalyst for regional sustainable development, potentially serving as a model for other ASEAN nations seeking to integrate green technologies and practices into their national development agendas. The long-term vision includes knowledge transfer and capacity building for local Filipino engineers and urban planners."
+    ],
+    "body_kr": [
+      "외교 및 경제 분야의 중요한 돌파구로, 필리핀과 한국은 어제 포괄적인 녹색 인프라 투자 파트너십을 구축하기 위한 획기적인 협정을 공식적으로 체결했습니다. 향후 5년간 초기 50억 달러 규모로 평가되는 이 협정은 재생 에너지 개발, 지속 가능한 도시 계획 및 친환경 교통 시스템과 같은 필리핀 전역의 핵심 분야에 한국의 전문성과 자본을 투입하는 것을 목표로 합니다.",
+      "양국 관계자들은 이 협력의 변혁적 잠재력을 강조하며, 필리핀의 녹색 경제 전환 가속화와 기후 변화 목표 달성에 있어 그 역할을 부각했습니다. 이 파트너십은 수천 개의 일자리를 창출하고, 에너지 안보를 강화하며, 미래 환경 도전에 견딜 수 있는 스마트하고 탄력적인 도시 개발을 촉진할 것으로 기대됩니다. 상세한 타당성 조사를 거쳐 향후 몇 달 내에 구체적인 프로젝트들이 발표될 예정입니다.",
+      "이 이니셔티브는 마닐라와 서울 간의 강력한 양자 관계를 기반으로 하며, 전통적인 무역 및 안보 협력을 넘어 전략적 파트너십을 더욱 공고히 합니다. 전문가들은 이 협정을 지역 지속 가능한 개발의 중요한 촉매제로 보고 있으며, 녹색 기술과 관행을 국가 개발 의제에 통합하려는 다른 아세안 국가들에게 모델이 될 수 있다고 평가합니다. 장기적인 비전에는 현지 필리핀 엔지니어 및 도시 계획가를 위한 지식 이전 및 역량 강화가 포함됩니다."
+    ],
+    "image_seed": "cover-2026-06-07",
+    "image_query": "Korean and Philippine officials shaking hands signing green infrastructure agreement",
+    "image_caption": "Photo: Philippine and Korean officials sign the new green infrastructure investment pact (June 6, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Embassy, PNP Boost Joint Patrols for Community Safety",
+    "headline_kr": "주필리핀 한국대사관, 필리핀 경찰청과 교민 안전 위한 합동 순찰 강화",
+    "lead_en": "The Korean Embassy in Manila and the Philippine National Police (PNP) have announced an expanded joint patrol initiative aimed at enhancing the safety and security of the Korean community across key urban centers. This collaborative effort will increase visibility and response times, particularly in areas frequented by Korean residents and tourists, following recent dialogues on community concerns.",
+    "lead_kr": "주필리핀 한국대사관과 필리핀 경찰청(PNP)은 주요 도심 지역 내 한인 사회의 안전과 보안 강화를 목표로 하는 확대된 합동 순찰 계획을 발표했습니다. 최근 교민 안전에 대한 논의에 따라, 이 협력 노력은 특히 한인 거주자와 관광객이 자주 찾는 지역에서 가시성과 대응 시간을 높일 것입니다.",
+    "image_seed": "feat-2026-06-07",
+    "image_query": "Korean embassy official Philippine police officer shaking hands",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive Amid Global Headwinds",
+      "headline_kr": "글로벌 역풍 속 아세안 경제 전망 긍정적",
+      "summary_en": "Despite global economic uncertainties, the ASEAN region is projected to maintain robust growth in 2026, driven by strong domestic demand and increasing foreign direct investment, including significant contributions from South Korea.",
+      "summary_kr": "글로벌 경제 불확실성에도 불구하고, 아세안 지역은 강력한 내수와 한국을 포함한 외국인 직접 투자의 증가에 힘입어 2026년에도 견고한 성장을 유지할 것으로 전망됩니다.",
+      "image_seed": "news1-2026-06-07",
+      "image_query": "Modern city skyline with graphs, Southeast Asia",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Crowds in Makati, Showcasing Culinary Delights",
+      "headline_kr": "마카티 K-푸드 페스티벌, 미식의 즐거움 선사하며 인파 모아",
+      "summary_en": "A vibrant K-Food Festival in Makati concluded yesterday, attracting thousands of Filipinos eager to sample traditional and modern Korean dishes. The event highlighted the growing popularity of Korean cuisine and culture in the Philippines.",
+      "summary_kr": "어제 마카티에서 열린 활기찬 K-푸드 페스티벌이 성황리에 막을 내렸으며, 전통 및 현대 한국 요리를 맛보려는 수천 명의 필리핀인들을 끌어모았습니다. 이 행사는 필리핀에서 한국 음식과 문화의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-06-07",
+      "image_query": "People enjoying Korean food at outdoor festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Joint Maritime Research to Combat Plastic Pollution",
+      "headline_kr": "필리핀-한국, 해양 플라스틱 오염 방지 위한 공동 해양 연구 착수",
+      "summary_en": "A new collaborative research project between Philippine and Korean marine scientists has commenced, focusing on innovative solutions to combat plastic pollution in shared maritime territories and coastal areas.",
+      "summary_kr": "필리핀과 한국의 해양 과학자들 간의 새로운 공동 연구 프로젝트가 시작되었으며, 공유된 해양 영토 및 해안 지역의 플라스틱 오염 퇴치를 위한 혁신적인 해결책에 중점을 둡니다.",
+      "image_seed": "news3-2026-06-07",
+      "image_query": "Researchers on boat collecting ocean plastic samples",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Online Safety Campaign Targets Korean Expats in the Philippines",
+      "headline_kr": "필리핀 거주 한인 대상 온라인 안전 캠페인 실시",
+      "summary_en": "The Korean community in the Philippines is urged to participate in a new online safety campaign, providing crucial tips and resources to prevent cyber scams and protect personal information amidst rising digital threats.",
+      "summary_kr": "필리핀 한인 사회는 증가하는 디지털 위협 속에서 사이버 사기를 방지하고 개인 정보를 보호하기 위한 중요한 팁과 자료를 제공하는 새로운 온라인 안전 캠페인에 참여할 것을 촉구받고 있습니다.",
+      "image_seed": "news4-2026-06-07",
+      "image_query": "Laptop screen with lock icon, person typing",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds significant change or action.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new investment agreement will serve as a powerful catalyst for sustainable development in the Philippines.",
+    "example_kr": "새로운 투자 협정은 필리핀의 지속 가능한 발전을 위한 강력한 촉매제 역할을 할 것입니다.",
+    "grade": "A+"
+  }
+}
