@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-08",
+  "header_date_line": "MONDAY, JUNE 8, 2026 | PHILIPPINES | VOL. 68",
+  "dashboard": {
+    "php_krw_rate": "25.08",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.08",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Innovation Hub Opens, Boosting Tech Collaboration",
+    "headline_kr": "필리핀-한국 디지털 혁신 허브 개소, 기술 협력 증진",
+    "subtitle_en": "A landmark initiative between the Philippines and South Korea officially launched today, establishing a new digital innovation hub in Manila. This center aims to accelerate digital transformation and foster startups, strengthening economic ties between the two nations.",
+    "subtitle_kr": "필리핀과 한국 간의 획기적인 이니셔티브인 새로운 디지털 혁신 허브가 오늘 마닐라에서 공식적으로 출범했습니다. 이 센터는 디지털 전환을 가속화하고 스타트업을 육성하여 양국 간의 경제적 유대를 강화하는 것을 목표로 합니다.",
+    "body_en": [
+      "The Philippines-Korea Digital Innovation Hub, located in Bonifacio Global City, was inaugurated this morning with high-ranking officials from both governments in attendance. The project, a culmination of several years of strategic planning and investment, is designed to serve as a nexus for technological advancement, research and development, and entrepreneurial growth in the region. It will provide state-of-the-art facilities, mentorship programs, and networking opportunities for startups and tech professionals.",
+      "For the Korean community in the Philippines, this hub presents significant opportunities. Korean businesses, particularly those in IT, fintech, and AI, will find a conducive environment for expansion and collaboration with local talent. It is expected to attract more Korean tech investments into the Philippines, creating jobs and fostering a vibrant ecosystem where Korean expertise can merge with Filipino innovation. The hub will also offer specialized programs tailored to support Korean startups looking to enter the ASEAN market.",
+      "Officials emphasized the hub's role in advancing the ASEAN digital economy and promoting knowledge transfer. Both nations reiterated their commitment to fostering a sustainable and inclusive digital future, leveraging shared strengths in technology and human capital. This initiative marks a pivotal moment in bilateral relations, setting a new benchmark for international cooperation in the digital age and promising long-term benefits for both economies and their respective communities."
+    ],
+    "body_kr": [
+      "보니파시오 글로벌 시티에 위치한 필리핀-한국 디지털 혁신 허브가 오늘 아침 양국 정부 고위 관계자들이 참석한 가운데 개소식을 가졌습니다. 수년간의 전략적 계획과 투자의 결실인 이 프로젝트는 이 지역의 기술 발전, 연구 개발, 기업가적 성장을 위한 핵심 거점 역할을 하도록 설계되었습니다. 스타트업과 기술 전문가들을 위한 최첨단 시설, 멘토링 프로그램 및 네트워킹 기회를 제공할 예정입니다.",
+      "필리핀 내 한인 커뮤니티에게 이 허브는 중요한 기회를 제공합니다. 특히 IT, 핀테크, AI 분야의 한국 기업들은 현지 인재들과의 확장 및 협력을 위한 유리한 환경을 찾을 수 있을 것입니다. 이는 필리핀으로 더 많은 한국 기술 투자를 유치하여 일자리를 창출하고 한국의 전문성과 필리핀의 혁신이 결합될 수 있는 활기찬 생태계를 조성할 것으로 기대됩니다. 또한 이 허브는 ASEAN 시장 진출을 목표로 하는 한국 스타트업을 지원하기 위한 맞춤형 전문 프로그램을 제공할 것입니다.",
+      "관계자들은 ASEAN 디지털 경제 발전과 지식 이전을 촉진하는 허브의 역할을 강조했습니다. 양국은 기술 및 인적 자본의 공유된 강점을 활용하여 지속 가능하고 포괄적인 디지털 미래를 조성하기 위한 노력을 재확인했습니다. 이 이니셔티브는 양국 관계에서 중추적인 순간을 의미하며, 디지털 시대 국제 협력의 새로운 기준을 제시하고 양국 경제 및 각 커뮤니티에 장기적인 혜택을 약속합니다."
+    ],
+    "image_seed": "cover-2026-06-08",
+    "image_query": "Philippine Korean officials ribbon cutting digital innovation center",
+    "image_caption": "Photo: Officials from the Philippines and South Korea inaugurate the new Digital Innovation Hub in Manila (June 8, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures for Korean Residents in Makati",
+    "headline_kr": "마카티 한인 거주민을 위한 강화된 보안 조치",
+    "lead_en": "A new joint initiative between the Philippine National Police (PNP) and Korean community volunteers has been launched, increasing visible patrols and rapid response capabilities in areas with high Korean populations, particularly in Makati. This program aims to deter crime and foster a safer environment for residents and tourists alike, building on existing community watch efforts.",
+    "lead_kr": "필리핀 경찰(PNP)과 한인 커뮤니티 자원봉사자 간의 새로운 공동 이니셔티브가 시작되어 마카티를 비롯한 한인 밀집 지역의 가시적인 순찰과 신속 대응 역량을 강화하고 있습니다. 이 프로그램은 범죄를 억제하고 거주민과 관광객 모두에게 더 안전한 환경을 조성하는 것을 목표로 하며, 기존의 커뮤니티 감시 노력을 기반으로 합니다.",
+    "image_seed": "feat-2026-06-08",
+    "image_query": "Philippine police Korean volunteer patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Trade Pact Nears Finalization, Benefits Korean Exporters",
+      "headline_kr": "ASEAN 디지털 무역 협정 최종 단계, 한국 수출 기업 혜택",
+      "summary_en": "The ASEAN Digital Trade Agreement is reportedly in its final stages of negotiation, promising streamlined digital transactions and reduced barriers for cross-border e-commerce. This development is expected to significantly benefit Korean exporters looking to expand their reach across Southeast Asian markets.",
+      "summary_kr": "ASEAN 디지털 무역 협정이 협상 최종 단계에 접어들었으며, 국경 간 전자상거래를 위한 디지털 거래 간소화와 장벽 완화를 약속하고 있습니다. 이로 인해 동남아시아 시장으로의 확장을 모색하는 한국 수출 기업들이 상당한 혜택을 볼 것으로 예상됩니다.",
+      "image_seed": "news1-2026-06-08",
+      "image_query": "ASEAN flags digital trade network globe",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Crowds in Cebu, Showcasing Culinary Diplomacy",
+      "headline_kr": "세부 K-푸드 페스티벌 성황리 개최, 요리 외교 선보여",
+      "summary_en": "The annual K-Food Festival in Cebu concluded yesterday, attracting thousands of visitors eager to experience authentic Korean cuisine and cultural performances. The event highlighted the growing popularity of K-food and strengthened cultural ties between Korea and the Philippines.",
+      "summary_kr": "어제 세부에서 열린 연례 K-푸드 페스티벌이 수천 명의 방문객을 유치하며 성황리에 막을 내렸습니다. 이 행사는 한국 음식의 인기를 보여주고 한국과 필리핀 간의 문화적 유대를 강화했습니다.",
+      "image_seed": "news2-2026-06-08",
+      "image_query": "Korean food stalls Cebu festival crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "headline_kr": "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "summary_en": "South Korea has reaffirmed its commitment to supporting the Philippines' transition to renewable energy, with new pledges for technical assistance and investment in solar and wind power projects. This aligns with global efforts towards sustainable development and energy security.",
+      "summary_kr": "한국은 필리핀의 재생 에너지 전환을 지원하겠다는 약속을 재확인하며, 태양광 및 풍력 발전 프로젝트에 대한 기술 지원 및 투자를 새롭게 약속했습니다. 이는 지속 가능한 개발 및 에너지 안보를 위한 전 세계적인 노력과 일치합니다.",
+      "image_seed": "news3-2026-06-08",
+      "image_query": "Korean Philippine engineers solar panel farm",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Online Scam Alert for Overseas Workers",
+      "headline_kr": "주필리핀 한국대사관, 해외 근로자 대상 온라인 사기 경보 발령",
+      "summary_en": "The Korean Embassy in Manila has issued a stern warning about a rise in online employment and investment scams targeting Korean overseas workers. Residents are advised to exercise extreme caution and verify offers through official channels to avoid falling victim to fraudulent schemes.",
+      "summary_kr": "주필리핀 한국대사관은 한국인 해외 근로자를 대상으로 하는 온라인 취업 및 투자 사기가 증가하고 있음에 대해 강력한 경고를 발령했습니다. 주민들은 사기성 계획의 피해자가 되지 않도록 극도의 주의를 기울이고 공식 채널을 통해 제안을 확인하도록 권고됩니다.",
+      "image_seed": "news4-2026-06-08",
+      "image_query": "Smartphone scam alert warning screen hand",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Pivotal",
+    "pronunciation": "/ˈpɪvətəl/",
+    "type": "adjective",
+    "definition_en": "Of crucial importance in relation to the development or success of something else.",
+    "definition_kr": "다른 어떤 것의 발전이나 성공과 관련하여 결정적으로 중요한.",
+    "example_en": "The opening of the Digital Innovation Hub marks a pivotal moment for PH-Korea economic cooperation.",
+    "example_kr": "디지털 혁신 허브의 개소는 필리핀-한국 경제 협력에 중추적인 순간을 의미합니다.",
+    "grade": "A+"
+  }
+}

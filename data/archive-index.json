@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-08",
+    "vol": 68,
+    "cover_en": "PH-Korea Digital Innovation Hub Opens, Boosting Tech Collaboration",
+    "cover_kr": "필리핀-한국 디지털 혁신 허브 개소, 기술 협력 증진",
+    "headlines_en": [
+      "Enhanced Security Measures for Korean Residents in Makati",
+      "ASEAN Digital Trade Pact Nears Finalization, Benefits Korean Exporters",
+      "K-Food Festival Draws Crowds in Cebu, Showcasing Culinary Diplomacy",
+      "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "Korean Embassy Issues Online Scam Alert for Overseas Workers"
+    ],
+    "headlines_kr": [
+      "마카티 한인 거주민을 위한 강화된 보안 조치",
+      "ASEAN 디지털 무역 협정 최종 단계, 한국 수출 기업 혜택",
+      "세부 K-푸드 페스티벌 성황리 개최, 요리 외교 선보여",
+      "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "주필리핀 한국대사관, 해외 근로자 대상 온라인 사기 경보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Security",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-06-07",
     "vol": 67,
     "cover_en": "PH-Korea Unveil Landmark Green Infrastructure Investment Pact",
