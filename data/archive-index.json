@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-09",
+    "vol": 69,
+    "cover_en": "PH-Korea Unveil Ambitious Smart City Tech Hub Project in New Clark City",
+    "cover_kr": "필리핀-한국, 뉴 클라크 시티 스마트 기술 허브 야심찬 프로젝트 공개",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Boost Safety in Metro Manila",
+      "Korean Investments Surge in Philippine Renewable Energy Sector",
+      "K-Pop Sensation 'AURA' Announces Manila Concert Dates",
+      "PH, Korea Discuss Maritime Security Amid Regional Tensions",
+      "Embassy Issues Warning on Online Scams Targeting Korean Expats"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 순찰, 메트로 마닐라 안전 강화",
+      "필리핀 신재생에너지 부문 한국 투자 급증",
+      "K-팝 센세이션 '아우라', 마닐라 콘서트 일정 발표",
+      "필리핀, 한국, 지역 긴장 속 해양 안보 논의",
+      "대사관, 한국 교민 겨냥 온라인 사기 경고"
+    ],
+    "tags": [
+      "Culture",
+      "Safety",
+      "Economy",
+      "Cooperation",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-08",
     "vol": 68,
     "cover_en": "PH-Korea Digital Innovation Hub Opens, Boosting Tech Collaboration",

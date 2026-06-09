@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-09",
+  "header_date_line": "TUESDAY, JUNE 9, 2026 | PHILIPPINES | VOL. 69",
+  "dashboard": {
+    "php_krw_rate": "24.60",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.09",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Unveil Ambitious Smart City Tech Hub Project in New Clark City",
+    "headline_kr": "필리핀-한국, 뉴 클라크 시티 스마트 기술 허브 야심찬 프로젝트 공개",
+    "subtitle_en": "A new joint venture aims to transform New Clark City into a cutting-edge technological and innovation hub, leveraging South Korean expertise in smart infrastructure and digital solutions. This initiative is expected to attract significant investment and create numerous job opportunities.",
+    "subtitle_kr": "새로운 합작 투자는 한국의 스마트 인프라 및 디지털 솔루션 전문성을 활용하여 뉴 클라크 시티를 최첨단 기술 및 혁신 허브로 전환하는 것을 목표로 합니다. 이 이니셔티브는 상당한 투자를 유치하고 수많은 일자리를 창출할 것으로 기대됩니다.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea officially launched a landmark agreement today to develop a state-of-the-art Smart City Technology Hub within New Clark City. The ambitious project, a cornerstone of the two nations' expanding economic cooperation, will focus on integrating advanced digital technologies, sustainable urban planning, and cutting-edge infrastructure to create a model for future urban development in Southeast Asia. Officials from both governments emphasized the potential for this hub to become a regional center for innovation and talent.",
+      "Under the terms of the agreement, South Korean tech giants and urban planning experts will collaborate closely with Philippine government agencies and local enterprises. Key areas of development include smart transportation systems, AI-powered public services, green energy solutions, and robust digital connectivity. The first phase, projected to be completed by late 2028, will see the establishment of research and development centers, tech incubators, and residential zones designed with environmental sustainability at their core.",
+      "President Ferdinand Marcos Jr. expressed his enthusiasm for the project, stating it underscores the Philippines' commitment to digital transformation and sustainable growth. \"This Smart City Tech Hub is not just about buildings; it's about building a smarter, more resilient future for our people,\" he remarked. Ambassador Kim In-chul reiterated Korea's dedication to sharing its technological prowess and fostering a deeper, mutually beneficial partnership with the Philippines, highlighting the long-term vision for economic prosperity and technological advancement that this collaboration represents."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 한국은 오늘 뉴 클라크 시티 내에 최첨단 스마트 도시 기술 허브를 개발하기 위한 획기적인 협약을 공식적으로 발표했습니다. 양국 경제 협력 확장의 초석이 될 이 야심찬 프로젝트는 동남아시아의 미래 도시 개발 모델을 만들기 위해 첨단 디지털 기술, 지속 가능한 도시 계획 및 최첨단 인프라를 통합하는 데 중점을 둘 것입니다. 양국 정부 관계자들은 이 허브가 혁신과 인재를 위한 지역 중심지가 될 잠재력을 강조했습니다.",
+      "협약 조건에 따라 한국의 기술 대기업과 도시 계획 전문가들은 필리핀 정부 기관 및 현지 기업과 긴밀히 협력할 것입니다. 주요 개발 영역에는 스마트 교통 시스템, AI 기반 공공 서비스, 녹색 에너지 솔루션 및 강력한 디지털 연결성이 포함됩니다. 2028년 말까지 완료될 것으로 예상되는 1단계에서는 환경 지속 가능성을 핵심으로 설계된 연구 개발 센터, 기술 인큐베이터 및 주거 지역이 설립될 것입니다.",
+      "페르디난드 마르코스 주니어 대통령은 이 프로젝트에 대한 열정을 표명하며, 필리핀의 디지털 전환과 지속 가능한 성장에 대한 의지를 강조했습니다. \"이 스마트 도시 기술 허브는 단순히 건물에 관한 것이 아니라, 우리 국민을 위한 더 스마트하고 탄력적인 미래를 건설하는 것입니다.\"라고 그는 말했습니다. 김인철 대사는 한국이 기술력을 공유하고 필리핀과의 더 깊고 상호 유익한 파트너십을 육성하려는 헌신을 재확인하며, 이 협력이 나타내는 경제적 번영과 기술 발전의 장기적인 비전을 강조했습니다."
+    ],
+    "image_seed": "cover-2026-06-09",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement digital blueprint",
+    "image_caption": "Photo: Philippine and South Korean officials sign the Smart City Tech Hub agreement in Manila (June 9, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Safety in Metro Manila",
+    "headline_kr": "필리핀-한국 합동 경찰 순찰, 메트로 마닐라 안전 강화",
+    "lead_en": "Authorities in Metro Manila have intensified joint patrols involving Philippine National Police (PNP) and Korean National Police Agency (KNPA) liaisons, particularly in areas with high concentrations of Korean residents and tourists. This initiative aims to enhance security, deter crime, and provide immediate assistance to the Korean community, fostering a safer environment for everyone.",
+    "lead_kr": "메트로 마닐라 당국은 필리핀 국립경찰(PNP)과 한국 경찰청(KNPA) 연락관이 참여하는 합동 순찰을 강화했으며, 특히 한국 거주자 및 관광객 밀집 지역에 중점을 두고 있습니다. 이 이니셔티브는 보안을 강화하고 범죄를 억제하며 한국 공동체에 즉각적인 지원을 제공하여 모두에게 더 안전한 환경을 조성하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-09",
+    "image_query": "Philippine police Korean liaison officer patrol busy street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investments Surge in Philippine Renewable Energy Sector",
+      "headline_kr": "필리핀 신재생에너지 부문 한국 투자 급증",
+      "summary_en": "Korean conglomerates are significantly increasing their investments in the Philippines' renewable energy sector, particularly in solar and wind power projects. This trend aligns with ASEAN's green energy transition goals and offers lucrative opportunities for sustainable growth.",
+      "summary_kr": "한국 대기업들이 필리핀의 신재생에너지 부문, 특히 태양광 및 풍력 발전 프로젝트에 대한 투자를 크게 늘리고 있습니다. 이러한 추세는 아세안의 녹색 에너지 전환 목표와 일치하며 지속 가능한 성장을 위한 유리한 기회를 제공합니다.",
+      "image_seed": "news1-2026-06-09",
+      "image_query": "Solar panels wind turbines Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Sensation 'AURA' Announces Manila Concert Dates",
+      "headline_kr": "K-팝 센세이션 '아우라', 마닐라 콘서트 일정 발표",
+      "summary_en": "Popular K-Pop group AURA has confirmed two concert dates in Manila as part of their highly anticipated 'Celestial Tour' this coming October. Filipino fans are gearing up for ticket sales, expected to sell out rapidly.",
+      "summary_kr": "인기 K-팝 그룹 아우라가 오는 10월 열릴 대망의 '셀레스티얼 투어'의 일환으로 마닐라 콘서트 2회 일정을 확정했습니다. 필리핀 팬들은 빠르게 매진될 것으로 예상되는 티켓 판매를 준비하고 있습니다.",
+      "image_seed": "news2-2026-06-09",
+      "image_query": "K-Pop group performing concert stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Discuss Maritime Security Amid Regional Tensions",
+      "headline_kr": "필리핀, 한국, 지역 긴장 속 해양 안보 논의",
+      "summary_en": "Senior defense officials from the Philippines and South Korea held talks today to strengthen maritime security cooperation in the Indo-Pacific region. Discussions focused on joint training exercises and intelligence sharing to address evolving threats.",
+      "summary_kr": "필리핀과 한국 고위 국방 관계자들이 오늘 인도-태평양 지역의 해양 안보 협력을 강화하기 위한 회담을 가졌습니다. 논의는 진화하는 위협에 대처하기 위한 합동 훈련과 정보 공유에 중점을 두었습니다.",
+      "image_seed": "news3-2026-06-09",
+      "image_query": "Naval officers map meeting room",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Warning on Online Scams Targeting Korean Expats",
+      "headline_kr": "대사관, 한국 교민 겨냥 온라인 사기 경고",
+      "summary_en": "The Korean Embassy in the Philippines has released a public advisory warning its citizens about a rise in online scams, particularly those involving investment fraud and identity theft. Expats are urged to exercise extreme caution and verify all unsolicited offers.",
+      "summary_kr": "필리핀 주재 한국 대사관은 투자 사기 및 신분 도용과 관련된 온라인 사기 증가에 대해 자국민들에게 공개 경고를 발표했습니다. 교민들은 극도의 주의를 기울이고 모든 불필요한 제안을 확인하도록 권고됩니다.",
+      "image_seed": "news4-2026-06-09",
+      "image_query": "Person looking suspicious at computer screen",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "ˈsɪnərʤi",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각각의 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between Philippine ambition and Korean technological expertise is driving the Smart City project forward.",
+    "example_kr": "필리핀의 야망과 한국의 기술 전문성 간의 시너지가 스마트 도시 프로젝트를 추진하고 있습니다.",
+    "grade": "A+"
+  }
+}
