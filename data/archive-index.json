@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-10",
+    "vol": 70,
+    "cover_en": "Philippines, S. Korea Launch Major Digital Economy Partnership",
+    "cover_kr": "필리핀-한국, 대규모 디지털 경제 파트너십 출범",
+    "headlines_en": [
+      "PNP, Korean Embassy Unveil Enhanced Safety Program for Korean Community",
+      "Korean Firms Boost Investment in Philippine Renewable Energy Sector",
+      "Manila Hosts Vibrant K-Food Festival, Showcasing Culinary Delights",
+      "Korea, Philippines Launch New Bilateral Education Exchange Program",
+      "DOT, LGUs Partner on Tourist Traffic Safety Campaign in Popular Spots"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청-한국 대사관, 교민 안전 강화 프로그램 발표",
+      "한국 기업들, 필리핀 신재생에너지 부문 투자 확대",
+      "마닐라에서 활기찬 K-푸드 페스티벌 개최, 한국 미식 선보여",
+      "한국-필리핀, 새로운 양국 교육 교류 프로그램 시작",
+      "관광부-지방정부, 인기 관광지 관광객 교통안전 캠페인 협력"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Safety",
+      "Economy",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-06-09",
     "vol": 69,
     "cover_en": "PH-Korea Unveil Ambitious Smart City Tech Hub Project in New Clark City",
