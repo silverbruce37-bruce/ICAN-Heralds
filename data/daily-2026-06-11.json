@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-11",
+  "header_date_line": "THURSDAY, JUNE 11, 2026 | PHILIPPINES | VOL. 71",
+  "dashboard": {
+    "php_krw_rate": "24.91",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.11",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, Philippines Unveil Joint Digital Transformation Blueprint",
+    "headline_kr": "한-필리핀, 공동 디지털 전환 청사진 공개",
+    "subtitle_en": "The two nations announce a comprehensive strategic plan aimed at bolstering digital infrastructure and services across key sectors, promising economic growth and enhanced public services.",
+    "subtitle_kr": "양국은 핵심 부문 전반에 걸쳐 디지털 인프라 및 서비스를 강화하기 위한 포괄적인 전략 계획을 발표하며, 경제 성장 및 공공 서비스 향상을 약속했습니다.",
+    "body_en": [
+      "Seoul and Manila today officially launched their ambitious 'Korea-Philippines Digital Transformation Blueprint 2030,' a landmark initiative designed to accelerate the digital evolution of the Philippines with Korean technological expertise. The blueprint outlines collaborative projects in areas such as smart city development, e-governance solutions, digital education platforms, and cybersecurity infrastructure. Officials from both countries emphasized that this partnership marks a new era of bilateral cooperation, moving beyond traditional trade to focus on future-proof technologies.",
+      "The initiative is expected to attract significant Korean investment into the Philippines' burgeoning tech sector, fostering job creation and knowledge transfer. Key projects include the establishment of a joint innovation hub in Metro Manila, pilot programs for AI-powered public services, and the expansion of high-speed internet access in underserved regions. Philippine President Ferdinand Marcos Jr. lauded the partnership, stating it would 'propel the Philippines into a digitally empowered future,' while Korean President Yoon Suk Yeol highlighted the shared vision for a 'resilient and interconnected ASEAN region.'",
+      "Implementation of the blueprint will begin immediately, with working groups already formed to oversee specific project timelines and resource allocation. Both governments have committed substantial resources, along with engaging private sector partners, to ensure the successful realization of these goals. This strategic alliance is poised to not only enhance the digital landscape of the Philippines but also to further solidify the economic and diplomatic ties between Korea and the Philippines, setting a precedent for regional digital cooperation."
+    ],
+    "body_kr": [
+      "서울과 마닐라는 오늘 한국의 기술 전문성을 바탕으로 필리핀의 디지털 발전을 가속화하기 위해 고안된 야심찬 '한-필리핀 디지털 전환 청사진 2030'을 공식 출범했습니다. 이 청사진은 스마트 도시 개발, 전자 정부 솔루션, 디지털 교육 플랫폼 및 사이버 보안 인프라와 같은 분야에서의 협력 프로젝트를 개괄합니다. 양국 관계자들은 이번 파트너십이 전통적인 무역을 넘어 미래 지향적인 기술에 초점을 맞추는 새로운 양자 협력 시대를 열었다고 강조했습니다.",
+      "이 이니셔티브는 필리핀의 급성장하는 기술 부문에 상당한 한국 투자를 유치하여 일자리 창출과 지식 이전을 촉진할 것으로 기대됩니다. 주요 프로젝트에는 메트로 마닐라에 공동 혁신 허브 설립, AI 기반 공공 서비스 시범 프로그램, 소외 지역의 고속 인터넷 접근성 확대 등이 포함됩니다. 페르디난드 마르코스 주니어 필리핀 대통령은 이 파트너십이 '필리핀을 디지털 역량이 강화된 미래로 이끌 것'이라고 칭찬했으며, 윤석열 한국 대통령은 '회복력 있고 상호 연결된 아세안 지역'을 위한 공유된 비전을 강조했습니다.",
+      "청사진의 이행은 즉시 시작될 것이며, 특정 프로젝트 일정 및 자원 할당을 감독하기 위한 실무 그룹이 이미 구성되었습니다. 양국 정부는 이러한 목표의 성공적인 실현을 보장하기 위해 상당한 자원을 투입하고 민간 부문 파트너를 참여시키기로 약속했습니다. 이 전략적 동맹은 필리핀의 디지털 환경을 향상시킬 뿐만 아니라 한국과 필리핀 간의 경제 및 외교 관계를 더욱 공고히 하여 지역 디지털 협력의 선례를 세울 것입니다."
+    ],
+    "image_seed": "cover-2026-06-11",
+    "image_query": "Korean Philippine officials shaking hands signing digital agreement blueprint",
+    "image_caption": "Photo: Korean and Philippine officials during the signing ceremony of the Digital Transformation Blueprint (June 11, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Patrols Boost Safety for Korean Tourists in Boracay",
+    "headline_kr": "보라카이 한국인 관광객 안전 위한 합동 순찰 강화",
+    "lead_en": "Philippine authorities and Korean community volunteers have initiated enhanced joint patrols in Boracay, a popular tourist destination, following recent concerns over tourist safety. The collaboration aims to provide a more secure environment for the increasing number of Korean visitors, ensuring swift response to any incidents and offering assistance.",
+    "lead_kr": "필리핀 당국과 한인 커뮤니티 자원봉사자들이 최근 관광객 안전에 대한 우려가 제기됨에 따라 인기 관광지 보라카이에서 합동 순찰을 강화했습니다. 이번 협력은 증가하는 한국인 방문객들에게 더 안전한 환경을 제공하고, 사건 발생 시 신속한 대응 및 지원을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-11",
+    "image_query": "Korean tourists police patrol Boracay beach safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eyeing Philippine Renewable Energy Sector Growth",
+      "headline_kr": "한국 기업들, 필리핀 재생에너지 부문 성장 주목",
+      "summary_en": "Several major Korean conglomerates are reportedly increasing their investments and exploring new opportunities in the Philippines' rapidly expanding renewable energy sector, driven by government incentives and strong demand.",
+      "summary_kr": "정부 인센티브와 강력한 수요에 힘입어 여러 주요 한국 대기업들이 필리핀의 급속히 확장하는 재생에너지 부문에 대한 투자를 늘리고 새로운 기회를 모색하고 있는 것으로 알려졌습니다.",
+      "image_seed": "news1-2026-06-11",
+      "image_query": "Solar panels Korean Philippine engineers renewable energy",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파 속 문화 교류의 장 열어",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing diverse Korean culinary traditions and fostering cultural exchange between Korean and Filipino communities.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 동원하며 성황리에 막을 내렸고, 다양한 한국 음식 문화를 선보이며 한인과 필리핀 공동체 간의 문화 교류를 촉진했습니다.",
+      "image_seed": "news2-2026-06-11",
+      "image_query": "K-Food festival street food crowd Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine Delegation Visits Seoul for Smart City Exchange Program",
+      "headline_kr": "필리핀 대표단, 스마트 도시 교류 프로그램 위해 서울 방문",
+      "summary_en": "A high-level Philippine delegation is currently in Seoul participating in a week-long smart city exchange program, learning from Korea's advanced urban development strategies and technologies.",
+      "summary_kr": "고위급 필리핀 대표단이 현재 서울을 방문하여 일주일간의 스마트 도시 교류 프로그램에 참여하며 한국의 선진 도시 개발 전략과 기술을 배우고 있습니다.",
+      "image_seed": "news3-2026-06-11",
+      "image_query": "Philippine delegates Seoul smart city presentation",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Online Scams Targeting Korean Expats",
+      "headline_kr": "대사관, 한인 교민 대상 온라인 사기 경보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a cautionary advisory warning Korean expatriates against various online scams, including phishing and investment fraud, urging vigilance and reporting suspicious activities.",
+      "summary_kr": "주필리핀 한국 대사관은 피싱 및 투자 사기를 포함한 다양한 온라인 사기에 대해 한인 교민들에게 경고하는 주의보를 발령하고, 경계를 늦추지 말고 의심스러운 활동을 신고할 것을 촉구했습니다.",
+      "image_seed": "news4-2026-06-11",
+      "image_query": "Cybersecurity warning smartphone scam alert",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Facilitate",
+    "pronunciation": "/fəˈsɪlɪteɪt/",
+    "type": "verb",
+    "definition_en": "To make an action or process easy or easier.",
+    "definition_kr": "어떤 행동이나 과정을 쉽거나 더 쉽게 만들다.",
+    "example_en": "The new digital blueprint will facilitate smoother cooperation between the two nations.",
+    "example_kr": "새로운 디지털 청사진은 양국 간의 더 원활한 협력을 촉진할 것입니다.",
+    "grade": "A+"
+  }
+}
