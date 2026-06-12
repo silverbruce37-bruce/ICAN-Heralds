@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-12",
+    "vol": 72,
+    "cover_en": "Philippines, Korea Deepen Economic Ties on Independence Day",
+    "cover_kr": "필리핀, 독립기념일 맞아 한국과 경제 협력 심화",
+    "headlines_en": [
+      "Enhanced Security Measures Rolled Out for Korean Tourists and Residents",
+      "Korean Firms Boost Investment in Philippine Renewable Energy Sector",
+      "Manila to Host Grand K-Food Festival Next Month",
+      "Korea, Philippines Launch New Tech Exchange Program for Youth",
+      "Embassy Issues Advisory on Typhoon Season Preparedness"
+    ],
+    "headlines_kr": [
+      "교민 및 관광객 안전 위한 강화된 보안 조치 시행",
+      "한국 기업들, 필리핀 신재생에너지 부문 투자 확대",
+      "마닐라, 다음 달 대규모 K-푸드 페스티벌 개최 예정",
+      "한국-필리핀, 청년 기술 교류 프로그램 신설",
+      "대사관, 태풍 시즌 대비 안전수칙 권고"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-06-11",
     "vol": 71,
     "cover_en": "Korea, Philippines Unveil Joint Digital Transformation Blueprint",

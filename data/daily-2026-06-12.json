@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-12",
+  "header_date_line": "FRIDAY, JUNE 12, 2026 | PHILIPPINES | VOL. 72",
+  "dashboard": {
+    "php_krw_rate": "24.91",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Deepen Economic Ties on Independence Day",
+    "headline_kr": "필리핀, 독립기념일 맞아 한국과 경제 협력 심화",
+    "subtitle_en": "Marking its 128th Independence Day, the Philippines solidifies a landmark digital infrastructure pact with South Korea, aiming for a digitally inclusive future.",
+    "subtitle_kr": "필리핀은 제128주년 독립기념일을 맞아 한국과 획기적인 디지털 인프라 협약을 체결하며 디지털 포용적 미래를 목표로 한다.",
+    "body_en": [
+      "Manila, Philippines – On the occasion of its 128th Independence Day, the Philippines today announced a significant stride in its bilateral relations with South Korea, signing a comprehensive agreement focused on digital infrastructure development and technological exchange. The pact, lauded by officials from both nations, is set to accelerate the Philippines' digital transformation agenda, bridging the digital divide and fostering innovation across key sectors. This initiative underscores a shared vision for sustainable economic growth and enhanced regional connectivity.",
+      "The agreement, signed by Philippine Secretary of Information and Communications Technology (DICT) and the Korean Minister of Science and ICT, outlines specific projects including the expansion of high-speed internet access in rural areas, development of smart city solutions, and robust cybersecurity frameworks. South Korea has pledged substantial financial and technical assistance, including knowledge transfer programs and capacity building for Filipino professionals. This collaboration is expected to create numerous job opportunities and attract further foreign direct investment into the Philippine tech sector.",
+      "President Ferdinand Marcos Jr., speaking at the commemorative event, emphasized the importance of international partnerships in achieving national development goals. \"Today, as we celebrate our nation's freedom, we also celebrate the strengthening of bonds that will propel us into a future defined by progress and prosperity,\" he stated. The Korean Ambassador to the Philippines echoed these sentiments, highlighting the enduring friendship and strategic alliance between the two countries, promising continued support for the Philippines' journey towards a digitally empowered society."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀은 제128주년 독립기념일을 맞아 오늘 한국과의 양자 관계에서 중요한 진전을 발표하며, 디지털 인프라 개발 및 기술 교류에 중점을 둔 포괄적인 협약을 체결했습니다. 양국 관계자들로부터 찬사를 받은 이 협약은 필리핀의 디지털 전환 의제를 가속화하고, 디지털 격차를 해소하며, 주요 부문에서 혁신을 촉진할 것으로 기대됩니다. 이번 이니셔티브는 지속 가능한 경제 성장과 강화된 역내 연결성에 대한 공동의 비전을 강조합니다.",
+      "필리핀 정보통신기술부(DICT) 장관과 한국 과학기술정보통신부 장관이 서명한 이 협약은 농촌 지역의 고속 인터넷 접근성 확대, 스마트 도시 솔루션 개발, 강력한 사이버 보안 프레임워크 구축 등 구체적인 프로젝트를 명시하고 있습니다. 한국은 필리핀 전문가를 위한 지식 이전 프로그램 및 역량 강화 프로그램을 포함하여 상당한 재정 및 기술 지원을 약속했습니다. 이 협력은 수많은 일자리 창출과 필리핀 기술 부문에 대한 추가 외국인 직접 투자를 유치할 것으로 예상됩니다.",
+      "페르디난드 마르코스 주니어 대통령은 기념식에서 국가 발전 목표 달성에 있어 국제 파트너십의 중요성을 강조했습니다. 그는 \"오늘 우리는 국가의 자유를 기념하는 동시에, 발전과 번영으로 정의될 미래로 우리를 이끌 유대감 강화를 축하합니다\"라고 말했습니다. 주필리핀 한국 대사는 양국 간의 변함없는 우정과 전략적 동맹을 강조하며, 디지털 강국으로 나아가는 필리핀의 여정에 대한 지속적인 지원을 약속했습니다."
+    ],
+    "image_seed": "cover-2026-06-12",
+    "image_query": "Korean Philippine officials handshake signing digital infrastructure agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials finalize a digital infrastructure agreement (June 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures Rolled Out for Korean Tourists and Residents",
+    "headline_kr": "교민 및 관광객 안전 위한 강화된 보안 조치 시행",
+    "lead_en": "The Philippine National Police (PNP), in collaboration with the Korean Embassy and community leaders, has launched a new security initiative aimed at bolstering the safety of Korean nationals. This program introduces increased police patrols in areas frequented by Koreans and a new hotline for immediate assistance, ensuring a safer environment for both residents and tourists.",
+    "lead_kr": "필리핀 국가경찰(PNP)이 주필리핀 한국대사관 및 교민 지도자들과 협력하여 한국인의 안전을 강화하기 위한 새로운 보안 이니셔티브를 시작했습니다. 이 프로그램은 한국인이 자주 찾는 지역에 대한 경찰 순찰을 늘리고 즉각적인 지원을 위한 새로운 핫라인을 도입하여 거주민과 관광객 모두에게 더 안전한 환경을 보장합니다.",
+    "image_seed": "feat-2026-06-12",
+    "image_query": "Philippine police Korean community leaders discussing safety measures",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Boost Investment in Philippine Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 필리핀 신재생에너지 부문 투자 확대",
+      "summary_en": "Several leading South Korean energy companies have announced significant new investments in the Philippines' renewable energy sector, focusing on solar and wind power projects. This move aligns with the Philippines' ambitious clean energy targets and strengthens bilateral economic cooperation.",
+      "summary_kr": "한국의 여러 선도적인 에너지 기업들이 필리핀의 신재생에너지 부문에 대한 상당한 신규 투자를 발표했으며, 주로 태양광 및 풍력 발전 프로젝트에 집중할 예정입니다. 이러한 움직임은 필리핀의 야심찬 청정에너지 목표와 일치하며 양국 경제 협력을 강화합니다.",
+      "image_seed": "news1-2026-06-12",
+      "image_query": "Solar panels wind turbines Korean engineers Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila to Host Grand K-Food Festival Next Month",
+      "headline_kr": "마닐라, 다음 달 대규모 K-푸드 페스티벌 개최 예정",
+      "summary_en": "Food enthusiasts in Manila can look forward to the \"Taste of Korea\" festival happening next month, showcasing a wide array of traditional and modern Korean dishes. The event aims to further promote Korean culinary culture and foster stronger cultural ties.",
+      "summary_kr": "마닐라의 미식가들은 다음 달 개최될 '한국의 맛' 페스티벌에서 다양한 한국 전통 및 현대 요리를 맛볼 수 있을 것으로 기대됩니다. 이 행사는 한국 음식 문화를 더욱 홍보하고 강력한 문화적 유대감을 조성하는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-06-12",
+      "image_query": "People enjoying Korean food festival banner Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea, Philippines Launch New Tech Exchange Program for Youth",
+      "headline_kr": "한국-필리핀, 청년 기술 교류 프로그램 신설",
+      "summary_en": "A new bilateral program designed to facilitate technology and skills exchange among young professionals from Korea and the Philippines has officially launched. The initiative aims to enhance innovation capabilities and prepare the youth for future digital economies.",
+      "summary_kr": "한국과 필리핀의 젊은 전문가들 간의 기술 및 역량 교류를 촉진하기 위한 새로운 양자 프로그램이 공식적으로 시작되었습니다. 이 이니셔티브는 혁신 역량을 강화하고 청년들이 미래 디지털 경제를 준비하도록 돕는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-12",
+      "image_query": "Young Korean Filipino students coding tech lab",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Typhoon Season Preparedness",
+      "headline_kr": "대사관, 태풍 시즌 대비 안전수칙 권고",
+      "summary_en": "With the onset of the typhoon season, the Korean Embassy in the Philippines has issued a comprehensive advisory, urging all Korean residents and visitors to review emergency protocols and prepare for potential weather disturbances to ensure their safety.",
+      "summary_kr": "태풍 시즌이 시작됨에 따라 주필리핀 한국대사관은 모든 교민과 방문객에게 비상 프로토콜을 검토하고 잠재적인 기상 이변에 대비하여 안전을 확보할 것을 촉구하는 포괄적인 권고를 발표했습니다.",
+      "image_seed": "news4-2026-06-12",
+      "image_query": "Typhoon warning sign heavy rain Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital infrastructure pact between the Philippines and South Korea aims to achieve synergy in technological advancement.",
+    "example_kr": "필리핀과 한국 간의 디지털 인프라 협약은 기술 발전에서 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
