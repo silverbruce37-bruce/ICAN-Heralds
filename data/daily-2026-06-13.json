@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-13",
+  "header_date_line": "SATURDAY, JUNE 13, 2026 | PHILIPPINES | VOL. 73",
+  "dashboard": {
+    "php_krw_rate": "25.05",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea FTA Fuels SME Growth, Bolsters Bilateral Trade in Q2",
+    "headline_kr": "한-필 FTA, 2분기 중소기업 성장 및 양국 무역 활성화 견인",
+    "subtitle_en": "Early indicators show significant uplift in trade volume and investment, particularly benefiting small and medium-sized enterprises in both nations. Experts laud the agreement's role in economic diversification.",
+    "subtitle_kr": "초기 지표에 따르면 무역량과 투자가 크게 증가했으며, 특히 양국의 중소기업에 혜택이 돌아가고 있습니다. 전문가들은 이 협정이 경제 다각화에 중요한 역할을 한다고 평가합니다.",
+    "body_en": [
+      "The Philippines-Korea Free Trade Agreement (FTA), fully implemented earlier this year, is showing promising results in the second quarter of 2026, with a noticeable surge in bilateral trade volume and foreign direct investment. Data released by the Department of Trade and Industry (DTI) indicates a robust increase in exports of Philippine agricultural products and manufactured goods to Korea, alongside a rise in Korean technology and automotive component imports. The FTA's streamlined customs procedures and reduced tariffs have been pivotal in facilitating this cross-border economic activity.",
+      "A key highlight of the FTA's early success is its positive impact on Small and Medium-sized Enterprises (SMEs). Korean SMEs are increasingly exploring the Philippine market for expansion, particularly in IT services and sustainable energy solutions, while Philippine SMEs are finding new avenues to export niche products like specialty coffee and organic produce to Korea. Government-backed programs, designed to assist SMEs in navigating the FTA's provisions, have played a crucial role in enabling these businesses to capitalize on the new trade environment.",
+      "Economists and trade analysts project that the FTA will continue to drive economic diversification and create significant employment opportunities in both countries. Beyond immediate trade benefits, the agreement is fostering deeper collaboration in technology transfer, innovation, and human resource development. This strategic partnership is expected to further solidify regional economic stability and pave the way for more integrated supply chains within the ASEAN region, positioning both the Philippines and Korea for sustained growth."
+    ],
+    "body_kr": [
+      "올해 초 완전히 시행된 필리핀-한국 자유무역협정(FTA)이 2026년 2분기에 양국 간 무역량과 외국인 직접 투자에서 눈에 띄는 증가를 보이며 유망한 결과를 나타내고 있습니다. 필리핀 무역산업부(DTI)가 발표한 자료에 따르면, 필리핀 농산물 및 제조품의 한국 수출이 크게 증가했으며, 한국 기술 및 자동차 부품 수입도 늘어났습니다. FTA의 간소화된 통관 절차와 관세 인하가 이러한 국경 간 경제 활동을 촉진하는 데 결정적인 역할을 했습니다.",
+      "FTA 초기 성공의 핵심은 중소기업(SME)에 미치는 긍정적인 영향입니다. 한국 중소기업들은 IT 서비스 및 지속 가능한 에너지 솔루션 분야에서 필리핀 시장 확장을 적극적으로 모색하고 있으며, 필리핀 중소기업들은 특수 커피 및 유기농 농산물과 같은 틈새 제품을 한국으로 수출할 새로운 길을 찾고 있습니다. FTA 조항을 탐색하는 데 중소기업을 지원하기 위해 고안된 정부 지원 프로그램은 이러한 기업들이 새로운 무역 환경을 활용하는 데 중요한 역할을 했습니다.",
+      "경제학자들과 무역 분석가들은 FTA가 계속해서 경제 다각화를 추진하고 양국에 상당한 고용 기회를 창출할 것으로 전망합니다. 즉각적인 무역 혜택을 넘어, 이 협정은 기술 이전, 혁신 및 인적 자원 개발 분야에서 더 깊은 협력을 촉진하고 있습니다. 이러한 전략적 파트너십은 역내 경제 안정을 더욱 공고히 하고 아세안 지역 내에서 보다 통합된 공급망을 위한 길을 열어 필리핀과 한국 모두 지속적인 성장을 이끌 것으로 기대됩니다."
+    ],
+    "image_seed": "cover-2026-06-13",
+    "image_query": "Korean and Philippine business leaders shaking hands, trade agreement signing ceremony",
+    "image_caption": "Photo: Officials from the Department of Trade and Industry and Korean Ministry of Trade discuss FTA implementation (June 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Joint Patrols Launched in Tourist Hotspots for Korean Safety",
+    "headline_kr": "한국인 안전 위한 관광 명소 합동 순찰 강화 시행",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) liaison officers have initiated enhanced joint security patrols in key tourist destinations across the Philippines, including Boracay, Cebu, and Metro Manila. The initiative aims to bolster safety and security for Korean tourists and residents, particularly during the peak travel season.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한국 경찰청(KNPA) 연락관들이 보라카이, 세부, 메트로 마닐라 등 필리핀 주요 관광지에서 강화된 합동 보안 순찰을 시작했습니다. 이 이니셔티브는 특히 성수기 동안 한국인 관광객과 거주민의 안전 및 보안을 강화하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-13",
+    "image_query": "Korean Philippine police officers patrolling tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "K-Food Exports to Philippines See Record Surge in Q2",
+      "headline_kr": "필리핀으로의 한국 식품 수출, 2분기 사상 최고치 기록",
+      "summary_en": "Korean food product exports to the Philippines have experienced an unprecedented surge in the second quarter of 2026, driven by rising demand for K-culture and strategic marketing efforts. This growth highlights the expanding culinary ties between the two nations.",
+      "summary_kr": "한국 식품의 필리핀 수출이 2026년 2분기에 K-컬처 수요 증가와 전략적 마케팅 노력에 힘입어 전례 없는 급증세를 보였습니다. 이러한 성장은 양국 간의 확대되는 미식 관계를 강조합니다.",
+      "image_seed": "news1-2026-06-13",
+      "image_query": "Korean food products supermarket Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Pop Dance Festival This Weekend",
+      "headline_kr": "마닐라, 이번 주말 대규모 K-팝 댄스 페스티벌 개최",
+      "summary_en": "Thousands of K-Pop fans are expected to gather in Manila this weekend for the annual Philippine-Korea K-Pop Dance Festival, featuring local talent and special guest performances from Korea. The event celebrates the enduring popularity of K-Pop in the archipelago.",
+      "summary_kr": "이번 주말 마닐라에서 열리는 연례 한-필 K-팝 댄스 페스티벌에 수천 명의 K-팝 팬들이 모일 것으로 예상됩니다. 이 행사는 현지 재능과 한국 특별 게스트 공연을 선보이며, 필리핀 내 K-팝의 지속적인 인기를 기념합니다.",
+      "image_seed": "news2-2026-06-13",
+      "image_query": "K-Pop dance festival crowd stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Launch Joint Digital Education Platform",
+      "headline_kr": "필리핀-한국, 공동 디지털 교육 플랫폼 출범",
+      "summary_en": "A new joint digital education platform, a collaboration between the Philippine Department of Education and the Korean Ministry of Education, has been launched to enhance online learning resources and promote digital literacy across both countries. The initiative aims to bridge educational gaps.",
+      "summary_kr": "필리핀 교육부와 한국 교육부 간의 협력으로 새로운 공동 디지털 교육 플랫폼이 출범하여 양국 전반의 온라인 학습 자료를 강화하고 디지털 문해력을 증진합니다. 이 이니셔티브는 교육 격차를 해소하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-13",
+      "image_query": "Students using digital tablets online learning",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Typhoon Season Preparedness",
+      "headline_kr": "대사관, 태풍 시즌 대비 안전수칙 권고 발표",
+      "summary_en": "The Korean Embassy in the Philippines has released a comprehensive advisory for its nationals, urging heightened preparedness for the upcoming typhoon season. The advisory includes emergency contact information and safety protocols for natural disasters.",
+      "summary_kr": "주필리핀 대한민국 대사관은 재외국민들에게 다가오는 태풍 시즌에 대한 철저한 대비를 촉구하는 종합적인 안전수칙을 발표했습니다. 이 권고에는 자연재해 발생 시 비상 연락처 및 안전 수칙이 포함되어 있습니다.",
+      "image_seed": "news4-2026-06-13",
+      "image_query": "Typhoon warning sign heavy rain",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between the Philippine and Korean governments led to the successful implementation of the new trade agreement.",
+    "example_kr": "필리핀과 한국 정부 간의 시너지는 새로운 무역 협정의 성공적인 이행으로 이어졌습니다.",
+    "grade": "A+"
+  }
+}
