@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-14",
+    "vol": 74,
+    "cover_en": "Korea-Philippines Strengthen Ties with New Economic and Cultural Initiatives",
+    "cover_kr": "한국-필리핀, 경제·문화 협력 강화",
+    "headlines_en": [
+      "Philippine Police Increase Patrols in Korean Community Areas",
+      "ASEAN Economy Shows Signs of Recovery Amid Global Uncertainty",
+      "K-Culture Festival Draws Thousands in Manila",
+      "Korea and Philippines Launch New Education Partnership",
+      "Community Leaders Promote Safety Campaigns in Korean Districts"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 한국인 지역 순찰 강화",
+      "글로벌 불확실 속 ASEAN 경제 회복 기대",
+      "마닐라서 열리는 K-컬처 축제, 수천 명 몰려",
+      "한국과 필리핀, 새 교육 협력 프로젝트 시작",
+      "지역사회 리더, 한국인 지역 안전 캠페인 추진"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Security",
+      "Culture",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-06-13",
     "vol": 73,
     "cover_en": "PH-Korea FTA Fuels SME Growth, Bolsters Bilateral Trade in Q2",
