@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-16",
+    "vol": 76,
+    "cover_en": "Philippines, Korea Forge Landmark Digital Infrastructure Pact",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 협정 체결",
+    "headlines_en": [
+      "Joint Korean-Philippine Police Patrols Boost Tourist Safety in Makati",
+      "Korean F&B Giants Expand Investment in Philippine Agricultural Sector",
+      "Anticipation Builds for 'K-Wave Manila' Festival Next Month",
+      "ASEAN-Korea Summit Preparations Underway for Regional Stability Talks",
+      "Korean Embassy Issues Advisory on Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "마카티 관광객 안전 위해 한-필리핀 경찰 합동 순찰 강화",
+      "한국 식음료 대기업들, 필리핀 농업 부문 투자 확대",
+      "다음 달 'K-웨이브 마닐라' 페스티벌에 대한 기대감 고조",
+      "지역 안정 논의 위한 ASEAN-한국 정상회의 준비 박차",
+      "주 필리핀 한국 대사관, 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-15",
     "vol": 75,
     "cover_en": "Korea-Philippines Launch Joint Digital Innovation Hub in Clark Economic Zone",

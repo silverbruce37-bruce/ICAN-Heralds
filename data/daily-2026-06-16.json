@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-16",
+  "header_date_line": "TUESDAY, JUNE 16, 2026 | PHILIPPINES | VOL. 76",
+  "dashboard": {
+    "php_krw_rate": "25.04",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.16",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Forge Landmark Digital Infrastructure Pact",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 인프라 협정 체결",
+    "subtitle_en": "The agreement aims to significantly enhance connectivity and foster innovation across the ASEAN region, benefiting both nations' economies and digital landscapes. It marks a new era of technological cooperation.",
+    "subtitle_kr": "이번 협정은 ASEAN 지역 전반의 연결성을 크게 강화하고 혁신을 촉진하여 양국의 경제와 디지털 환경에 이바지할 것입니다. 이는 기술 협력의 새로운 시대를 여는 중요한 이정표입니다.",
+    "body_en": [
+      "Manila and Seoul today formally signed a landmark agreement on digital infrastructure development, promising to revolutionize the telecommunications and data exchange capabilities within the Philippines and extending across the broader ASEAN network. The pact, a culmination of months of high-level discussions, focuses on bolstering fiber optic networks, enhancing cybersecurity measures, and establishing joint research initiatives for emerging technologies.",
+      "Officials from both countries emphasized the strategic importance of this collaboration, particularly in accelerating economic growth and improving public services in the digital age. The Philippine Department of Information and Communications Technology (DICT) stated that the investment from South Korea would not only upgrade existing infrastructure but also create new opportunities for local tech talent and businesses, aligning with the nation's \"Digital Philippines\" vision.",
+      "For the Korean community in the Philippines, this agreement is expected to bring tangible benefits, including faster and more reliable internet connectivity for businesses and households, streamlined digital government services, and enhanced platforms for cultural exchange. Experts predict that the synergy created by this pact will position both the Philippines and South Korea as leaders in regional digital transformation, attracting further foreign direct investment and fostering a robust digital economy."
+    ],
+    "body_kr": [
+      "마닐라와 서울은 오늘 디지털 인프라 개발에 관한 획기적인 협정을 공식적으로 체결하며, 필리핀 내 통신 및 데이터 교환 역량을 혁신하고 더 나아가 광범위한 ASEAN 네트워크 전반에 걸쳐 확장할 것을 약속했습니다. 수개월간의 고위급 논의 끝에 이루어진 이번 협정은 광섬유 네트워크 강화, 사이버 보안 조치 개선, 신기술 공동 연구 이니셔티브 구축에 중점을 두고 있습니다.",
+      "양국 관계자들은 디지털 시대에 경제 성장을 가속화하고 공공 서비스를 개선하는 데 있어 이번 협력의 전략적 중요성을 강조했습니다. 필리핀 정보통신기술부(DICT)는 한국의 투자가 기존 인프라를 업그레이드할 뿐만 아니라 현지 기술 인재 및 기업을 위한 새로운 기회를 창출하여 필리핀의 \"디지털 필리핀\" 비전과 일치한다고 밝혔습니다.",
+      "필리핀 내 한인 사회에게 이번 협정은 기업과 가정에 더 빠르고 안정적인 인터넷 연결, 간소화된 디지털 정부 서비스, 강화된 문화 교류 플랫폼을 포함한 실질적인 혜택을 가져다줄 것으로 예상됩니다. 전문가들은 이 협정으로 창출될 시너지가 필리핀과 한국을 지역 디지털 전환의 선두 주자로 자리매김하게 하고, 추가적인 해외 직접 투자를 유치하며 견고한 디지털 경제를 육성할 것으로 전망하고 있습니다."
+    ],
+    "image_seed": "cover-2026-06-16",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Officials from the Philippines and South Korea finalize a digital infrastructure agreement (June 16, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Korean-Philippine Police Patrols Boost Tourist Safety in Makati",
+    "headline_kr": "마카티 관광객 안전 위해 한-필리핀 경찰 합동 순찰 강화",
+    "lead_en": "In a concerted effort to enhance the safety and security of tourists, particularly the Korean community, Philippine and South Korean police forces have launched joint patrol operations in key tourist and commercial districts of Makati. This initiative aims to deter crime and provide immediate assistance to foreign nationals.",
+    "lead_kr": "관광객, 특히 한인 사회의 안전과 보안 강화를 위한 공동 노력의 일환으로, 필리핀과 한국 경찰이 마카티의 주요 관광 및 상업 지구에서 합동 순찰 작전을 시작했습니다. 이번 이니셔티브는 범죄를 억제하고 외국인에게 즉각적인 지원을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-16",
+    "image_query": "Korean Philippine police officers patrolling busy Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean F&B Giants Expand Investment in Philippine Agricultural Sector",
+      "headline_kr": "한국 식음료 대기업들, 필리핀 농업 부문 투자 확대",
+      "summary_en": "Leading South Korean food and beverage companies are significantly increasing their investments in the Philippines' agricultural sector, focusing on sustainable sourcing and processing facilities. This move is expected to boost local farming communities and enhance bilateral trade in food products.",
+      "summary_kr": "한국의 주요 식음료 기업들이 필리핀 농업 부문에 대한 투자를 대폭 확대하며, 지속 가능한 원료 조달 및 가공 시설에 집중하고 있습니다. 이러한 움직임은 현지 농업 공동체를 활성화하고 식품 부문 양국 무역을 증진시킬 것으로 예상됩니다.",
+      "image_seed": "news1-2026-06-16",
+      "image_query": "Korean agricultural experts inspecting Philippine farm produce",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Anticipation Builds for 'K-Wave Manila' Festival Next Month",
+      "headline_kr": "다음 달 'K-웨이브 마닐라' 페스티벌에 대한 기대감 고조",
+      "summary_en": "Excitement is growing among K-pop and K-culture fans in the Philippines as the highly anticipated 'K-Wave Manila' festival is set to take place next month. The event will feature top Korean artists, cultural workshops, and traditional performances, attracting thousands of attendees.",
+      "summary_kr": "필리핀 K-팝 및 K-컬처 팬들 사이에서 다음 달 개최될 'K-웨이브 마닐라' 페스티벌에 대한 기대감이 고조되고 있습니다. 이 행사는 최고의 한국 아티스트, 문화 워크숍 및 전통 공연을 선보이며 수천 명의 참가자를 끌어모을 예정입니다.",
+      "image_seed": "news2-2026-06-16",
+      "image_query": "K-pop concert crowd waving lightsticks Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Preparations Underway for Regional Stability Talks",
+      "headline_kr": "지역 안정 논의 위한 ASEAN-한국 정상회의 준비 박차",
+      "summary_en": "Preparations are in full swing for the upcoming ASEAN-Korea Summit, where leaders will discuss regional stability, economic cooperation, and strategies for addressing common challenges. The summit aims to strengthen strategic partnerships and foster a more integrated and peaceful Southeast Asia.",
+      "summary_kr": "다가오는 ASEAN-한국 정상회의를 위한 준비가 한창이며, 정상들은 지역 안정, 경제 협력 및 공동 과제 해결 전략에 대해 논의할 예정입니다. 이번 정상회의는 전략적 파트너십을 강화하고 더욱 통합되고 평화로운 동남아시아를 조성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-16",
+      "image_query": "ASEAN Korean flags meeting room diplomacy",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Online Scams Targeting Expats",
+      "headline_kr": "주 필리핀 한국 대사관, 교민 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a cautionary advisory to its nationals regarding a recent surge in online scams, particularly those targeting expatriates. The embassy urges vigilance against phishing attempts and fraudulent investment schemes, providing tips for protection.",
+      "summary_kr": "주 필리핀 한국 대사관은 최근 증가하고 있는 온라인 사기, 특히 교민을 대상으로 한 사기에 대해 자국민에게 주의보를 발령했습니다. 대사관은 피싱 시도 및 사기성 투자 계획에 대한 경계를 촉구하며 보호를 위한 팁을 제공합니다.",
+      "image_seed": "news4-2026-06-16",
+      "image_query": "Cybersecurity warning on laptop screen",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The new digital infrastructure pact aims to create synergy between the two nations' tech sectors.",
+    "example_kr": "새로운 디지털 인프라 협정은 양국의 기술 부문 간 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
