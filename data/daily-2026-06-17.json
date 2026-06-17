@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-17",
+  "header_date_line": "WEDNESDAY, JUNE 17, 2026 | PHILIPPINES | VOL. 77",
+  "dashboard": {
+    "php_krw_rate": "25.11",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.17",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Innovation Hub, Boosting Tech Synergy",
+    "headline_kr": "필리핀-한국, 디지털 혁신 허브 출범... 기술 시너지 증대 기대",
+    "subtitle_en": "A new joint initiative aims to foster tech startups and digital skills, marking a significant step in bilateral economic cooperation. The hub is expected to catalyze growth in the digital economy.",
+    "subtitle_kr": "양국 간 기술 스타트업 육성 및 디지털 역량 강화를 목표로 하는 새로운 공동 이니셔티브가 출범하며, 양자 경제 협력에 중요한 진전을 이뤘습니다. 이 허브는 디지털 경제 성장의 촉매제가 될 것으로 기대됩니다.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea officially inaugurated the 'PH-Korea Digital Innovation Hub' today, a state-of-the-art facility designed to accelerate technological advancements and foster a vibrant startup ecosystem in the region. Located in Clark Freeport Zone, Pampanga, the hub represents a strategic partnership aimed at leveraging both nations' strengths in innovation and digital transformation. Officials from both governments emphasized the hub's potential to drive economic diversification and create high-value jobs.",
+      "The initiative, which has been years in the making, includes incubation programs for emerging tech companies, specialized training for digital professionals, and collaborative research and development projects. Funding for the hub comes from a joint investment, with significant contributions from the Korean Ministry of Science and ICT and the Philippine Department of Information and Communications Technology (DICT). Industry leaders and venture capitalists from both countries have also pledged support, signaling strong confidence in the hub's future impact.",
+      "During the opening ceremony, President Marcos Jr. highlighted the hub as a testament to the enduring friendship and deepening economic ties between the Philippines and Korea. Ambassador Lee Sang-hwa echoed these sentiments, stating that the project will serve as a beacon for digital cooperation within ASEAN, attracting further foreign investment and talent. The first cohort of startups is expected to commence operations by Q4 2026, focusing on areas such as AI, fintech, and sustainable technology."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 대한민국은 오늘, 지역 내 기술 발전을 가속화하고 활기찬 스타트업 생태계를 육성하기 위해 고안된 최첨단 시설인 '필리핀-한국 디지털 혁신 허브'를 공식 출범시켰습니다. 팜팡가 클락 자유경제구역에 위치한 이 허브는 혁신과 디지털 전환 분야에서 양국의 강점을 활용하기 위한 전략적 파트너십을 나타냅니다. 양국 정부 관계자들은 이 허브가 경제 다각화를 주도하고 고부가가치 일자리를 창출할 잠재력을 강조했습니다.",
+      "수년간 준비된 이 이니셔티브는 신흥 기술 기업을 위한 인큐베이팅 프로그램, 디지털 전문가를 위한 전문 교육, 그리고 협력 연구 개발 프로젝트를 포함합니다. 허브의 자금은 한국 과학기술정보통신부와 필리핀 정보통신기술부(DICT)의 상당한 기여를 포함한 공동 투자로 충당됩니다. 양국의 산업 리더와 벤처 캐피탈리스트들도 지원을 약속하며, 허브의 미래 영향력에 대한 강한 신뢰를 보였습니다.",
+      "개막식에서 마르코스 주니어 대통령은 이 허브가 필리핀과 한국 간의 변함없는 우정과 심화되는 경제 관계를 입증하는 것이라고 강조했습니다. 이상화 대사는 이 프로젝트가 아세안 내 디지털 협력의 등대가 되어 추가적인 해외 투자와 인재를 유치할 것이라고 말했습니다. 첫 번째 스타트업 코호트는 2026년 4분기까지 AI, 핀테크, 지속 가능한 기술과 같은 분야에 중점을 두고 운영을 시작할 예정입니다."
+    ],
+    "image_seed": "cover-2026-06-17",
+    "image_query": "Korean Philippine officials handshake signing digital agreement, innovation hub background",
+    "image_caption": "Photo: Philippine and Korean officials shake hands after inaugurating the Digital Innovation Hub in Clark (June 17, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Safety App Launched for Korean Community, Enhancing Security",
+    "headline_kr": "필리핀-한국 공동 안전 앱 출시, 한인사회 보안 강화",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila have officially launched a new mobile application designed to enhance the safety and security of the Korean community across the Philippines. This initiative aims to provide quick access to emergency services and vital information, fostering a more secure environment for residents and tourists alike. The app integrates directly with local police hotlines and embassy services.",
+    "lead_kr": "필리핀 경찰(PNP)과 주 필리핀 대한민국 대사관은 필리핀 전역의 한인 사회 안전 및 보안 강화를 위한 새로운 모바일 애플리케이션을 공식 출시했습니다. 이 이니셔티브는 긴급 서비스 및 필수 정보에 대한 신속한 접근을 제공하여, 거주민과 관광객 모두에게 더욱 안전한 환경을 조성하는 것을 목표로 합니다. 이 앱은 지역 경찰 핫라인 및 대사관 서비스와 직접 연동됩니다.",
+    "image_seed": "feat-2026-06-17",
+    "image_query": "Philippine police officer Korean resident demonstrating safety app on smartphone",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive: Korean Firms Eye Expansion",
+      "headline_kr": "아세안 경제 전망 긍정적: 한국 기업 확장 모색",
+      "summary_en": "A recent report indicates a robust economic outlook for ASEAN in 2026, prompting several major Korean corporations to explore new investment opportunities and expand their presence in the region. Focus areas include manufacturing, renewable energy, and digital infrastructure.",
+      "summary_kr": "최근 보고서에 따르면 2026년 아세안 경제 전망이 견고하여, 여러 주요 한국 기업들이 새로운 투자 기회를 모색하고 이 지역에서의 입지를 확대하고 있습니다. 제조업, 재생에너지, 디지털 인프라가 주요 관심 분야입니다.",
+      "image_seed": "news1-2026-06-17",
+      "image_query": "Korean business people meeting Manila city skyline",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Crowds in Manila, Celebrates Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌 성황, 요리 교류 축하",
+      "summary_en": "The annual K-Food Festival in Manila concluded successfully, attracting thousands of visitors eager to experience authentic Korean cuisine and cultural performances. The event highlighted the growing popularity of Korean food and fostered deeper culinary ties between the two nations.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 성공적으로 마무리되었으며, 수천 명의 방문객이 정통 한국 요리와 문화 공연을 경험하기 위해 모였습니다. 이 행사는 한국 음식의 creciente 인기를 강조하고 양국 간의 요리 유대를 더욱 깊게 했습니다.",
+      "image_seed": "news2-2026-06-17",
+      "image_query": "People enjoying Korean food at outdoor festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Ambassador Visits Cebu for Infrastructure Talks",
+      "headline_kr": "한국 대사, 인프라 논의 위해 세부 방문",
+      "summary_en": "Ambassador Lee Sang-hwa conducted an official visit to Cebu to discuss potential Korean involvement in upcoming infrastructure projects and strengthen regional partnerships. Meetings with local government officials focused on smart city development and transportation improvements.",
+      "summary_kr": "이상화 대사는 세부를 공식 방문하여 다가오는 인프라 프로젝트에 대한 한국의 잠재적 참여를 논의하고 지역 파트너십을 강화했습니다. 지방 정부 관계자들과의 회의는 스마트 도시 개발 및 교통 개선에 중점을 두었습니다.",
+      "image_seed": "news3-2026-06-17",
+      "image_query": "Korean Ambassador local Philippine officials reviewing construction plans",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Expands in Makati, Enhancing Local Security",
+      "headline_kr": "마카티 지역사회 감시 프로그램 확대, 지역 보안 강화",
+      "summary_en": "Makati City's successful community watch program is expanding to cover more neighborhoods, bolstering local security efforts through increased resident participation and closer collaboration with law enforcement. The initiative has significantly reduced petty crime rates.",
+      "summary_kr": "마카티 시의 성공적인 지역사회 감시 프로그램이 더 많은 지역으로 확대되어, 주민 참여 증가 및 법 집행 기관과의 긴밀한 협력을 통해 지역 보안 노력을 강화하고 있습니다. 이 이니셔티브는 경범죄율을 크게 감소시켰습니다.",
+      "image_seed": "news4-2026-06-17",
+      "image_query": "Community members and police patrolling Makati street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The new digital innovation hub aims to create synergy between Philippine talent and Korean technology.",
+    "example_kr": "새로운 디지털 혁신 허브는 필리핀 인재와 한국 기술 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

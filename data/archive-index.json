@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-17",
+    "vol": 77,
+    "cover_en": "PH-Korea Launch Landmark Digital Innovation Hub, Boosting Tech Synergy",
+    "cover_kr": "필리핀-한국, 디지털 혁신 허브 출범... 기술 시너지 증대 기대",
+    "headlines_en": [
+      "Joint PH-Korea Safety App Launched for Korean Community, Enhancing Security",
+      "ASEAN Economic Outlook Positive: Korean Firms Eye Expansion",
+      "K-Food Festival Draws Crowds in Manila, Celebrates Culinary Exchange",
+      "Korean Ambassador Visits Cebu for Infrastructure Talks",
+      "Community Watch Program Expands in Makati, Enhancing Local Security"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 공동 안전 앱 출시, 한인사회 보안 강화",
+      "아세안 경제 전망 긍정적: 한국 기업 확장 모색",
+      "마닐라 K-푸드 페스티벌 성황, 요리 교류 축하",
+      "한국 대사, 인프라 논의 위해 세부 방문",
+      "마카티 지역사회 감시 프로그램 확대, 지역 보안 강화"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Security",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-06-16",
     "vol": 76,
     "cover_en": "Philippines, Korea Forge Landmark Digital Infrastructure Pact",
