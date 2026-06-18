@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-18",
+    "vol": 78,
+    "cover_en": "Korean Conglomerate Inaugurates Landmark Renewable Energy Project in Luzon",
+    "cover_kr": "한국 대기업, 루손에 랜드마크 신재생에너지 프로젝트 착공",
+    "headlines_en": [
+      "PH, ROK Navies Conclude Joint Anti-Piracy Drills in Sulu Sea",
+      "Korean Exports to ASEAN Soar Amid Digital Trade Expansion",
+      "Manila's K-Food Festival Draws Record Crowds, Boosts Local Businesses",
+      "PH-Korea Joint Vocational Training Program Graduates First Batch",
+      "Korean Embassy Warns Against Sophisticated Investment Scams"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 해군, 술루해 합동 해적 진압 훈련 완료",
+      "디지털 무역 확장 속 아세안향 한국 수출 급증",
+      "마닐라 K-푸드 페스티벌 역대급 인파 기록, 지역 상권 활성화 기여",
+      "필리핀-한국 공동 직업 훈련 프로그램 1기 졸업생 배출",
+      "주필리핀 한국대사관, 고도화된 투자 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Cooperation",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-17",
     "vol": 77,
     "cover_en": "PH-Korea Launch Landmark Digital Innovation Hub, Boosting Tech Synergy",

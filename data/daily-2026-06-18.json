@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-18",
+  "header_date_line": "THURSDAY, JUNE 18, 2026 | PHILIPPINES | VOL. 78",
+  "dashboard": {
+    "php_krw_rate": "25.15",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.18",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Conglomerate Inaugurates Landmark Renewable Energy Project in Luzon",
+    "headline_kr": "한국 대기업, 루손에 랜드마크 신재생에너지 프로젝트 착공",
+    "subtitle_en": "A major South Korean conglomerate officially launched a multi-billion dollar renewable energy complex in Northern Luzon, marking a significant milestone in bilateral economic cooperation. The project aims to boost the Philippines' energy independence and foster sustainable development.",
+    "subtitle_kr": "주요 한국 대기업이 북부 루손에 수십억 달러 규모의 신재생에너지 단지를 공식 착공하며 양국 경제 협력의 중요한 이정표를 세웠습니다. 이 프로젝트는 필리핀의 에너지 자립을 강화하고 지속 가능한 발전을 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Yesterday, a consortium led by 'Green Future Korea' (GFK) celebrated the groundbreaking ceremony for its ambitious 'Sun & Wind Nexus' project in Ilocos Norte, Northern Luzon. The integrated complex, valued at approximately $2.5 billion, will feature a massive solar farm and a state-of-the-art onshore wind park, aiming to generate over 1.2 GW of clean energy upon full completion by 2030. Philippine President Ferdinand Marcos Jr. and South Korean Ambassador to the Philippines, Lee Sang-hwa, graced the event, highlighting the strategic importance of this venture.",
+      "The 'Sun & Wind Nexus' is poised to be a game-changer for the Philippines' energy landscape, significantly reducing reliance on fossil fuels and contributing to the nation's climate goals. Beyond electricity generation, the project is expected to create over 5,000 direct and indirect jobs during its construction and operational phases, providing valuable skills training and economic opportunities for local communities. GFK also pledged to implement various corporate social responsibility programs, focusing on education, healthcare, and environmental conservation in the surrounding areas.",
+      "This landmark investment underscores the deepening economic ties between South Korea and the Philippines, positioning both nations as leaders in the regional push for sustainable development. For the Korean community in the Philippines, such ventures represent expanded business opportunities, enhanced bilateral trust, and a strengthened foundation for future collaborations in green technology and infrastructure. Both governments expressed optimism that this project will serve as a blueprint for further Korean investments in the Philippines' burgeoning renewable energy sector."
+    ],
+    "body_kr": [
+      "어제, '그린 퓨처 코리아(GFK)'가 주도하는 컨소시엄은 북부 루손의 일로코스 노르테에서 야심찬 '태양풍 넥서스' 프로젝트의 기공식을 가졌습니다. 약 25억 달러 규모의 이 통합 단지는 대규모 태양광 발전소와 최첨단 육상 풍력 발전소를 포함하며, 2030년 완전 완공 시 1.2GW 이상의 청정에너지를 생산하는 것을 목표로 합니다. 페르디난드 마르코스 주니어 필리핀 대통령과 이상화 주필리핀 대한민국 대사가 행사에 참석하여 이 사업의 전략적 중요성을 강조했습니다.",
+      "'태양풍 넥서스'는 필리핀의 에너지 지형을 바꿀 중요한 전환점이 될 것이며, 화석 연료 의존도를 크게 줄이고 국가의 기후 목표 달성에 기여할 것입니다. 전력 생산 외에도 이 프로젝트는 건설 및 운영 단계에서 5,000개 이상의 직간접적인 일자리를 창출하여 지역 사회에 귀중한 기술 훈련과 경제적 기회를 제공할 것으로 예상됩니다. GFK는 또한 주변 지역의 교육, 의료 및 환경 보존에 중점을 둔 다양한 기업의 사회적 책임 프로그램을 이행할 것을 약속했습니다.",
+      "이번 획기적인 투자는 한국과 필리핀 간의 경제적 유대 심화를 보여주며, 양국을 지속 가능한 발전을 위한 지역적 노력의 선두 주자로 자리매김하게 합니다. 필리핀 한인 사회에게 이러한 사업은 확장된 비즈니스 기회, 강화된 양국 간 신뢰, 그리고 녹색 기술 및 인프라 분야에서의 미래 협력을 위한 강력한 기반을 의미합니다. 양국 정부는 이 프로젝트가 필리핀의 급성장하는 신재생에너지 부문에 대한 추가적인 한국 투자의 청사진이 될 것이라는 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-06-18",
+    "image_query": "Korean Philippine officials handshake signing renewable energy agreement, solar wind farm background",
+    "image_caption": "Photo: Philippine President Marcos Jr. and Korean Ambassador Lee at the 'Sun & Wind Nexus' groundbreaking (June 17, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH, ROK Navies Conclude Joint Anti-Piracy Drills in Sulu Sea",
+    "headline_kr": "필리핀-한국 해군, 술루해 합동 해적 진압 훈련 완료",
+    "lead_en": "The Philippine Navy and the Republic of Korea Navy successfully wrapped up their joint anti-piracy exercises in the Sulu Sea this week. The drills focused on enhancing interoperability and coordinated responses to maritime threats, particularly piracy and sea robbery, crucial for regional shipping lanes. This collaboration reinforces the commitment of both nations to maintaining maritime security.",
+    "lead_kr": "필리핀 해군과 대한민국 해군이 이번 주 술루해에서 합동 해적 진압 훈련을 성공적으로 마쳤습니다. 이번 훈련은 지역 해상 운송로에 중요한 해적 및 해상 강도와 같은 해양 위협에 대한 상호 운용성과 공동 대응 능력을 강화하는 데 중점을 두었습니다. 이러한 협력은 해양 안보 유지에 대한 양국의 약속을 더욱 공고히 합니다.",
+    "image_seed": "feat-2026-06-18",
+    "image_query": "Philippine Navy ship, Korean Navy ship patrolling Sulu Sea",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Exports to ASEAN Soar Amid Digital Trade Expansion",
+      "headline_kr": "디지털 무역 확장 속 아세안향 한국 수출 급증",
+      "summary_en": "South Korean exports to ASEAN member states recorded a significant increase in the second quarter of 2026, driven by robust demand for electronics and digital services. Trade experts attribute the surge to enhanced digital trade platforms and closer economic integration within the region.",
+      "summary_kr": "2026년 2분기 한국의 아세안 회원국 수출이 전자제품 및 디지털 서비스에 대한 견고한 수요에 힘입어 크게 증가했습니다. 무역 전문가들은 이러한 급증이 디지털 무역 플랫폼 강화와 지역 내 경제 통합 심화에 기인한다고 분석했습니다.",
+      "image_seed": "news1-2026-06-18",
+      "image_query": "Container ship at port, digital trade data overlay",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Boosts Local Businesses",
+      "headline_kr": "마닐라 K-푸드 페스티벌 역대급 인파 기록, 지역 상권 활성화 기여",
+      "summary_en": "The annual K-Food Festival in Manila concluded with record attendance, delighting thousands with authentic Korean cuisine and cultural performances. Local vendors and Korean restaurants reported a significant boost in sales, highlighting the growing popularity of Korean food in the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 기록적인 인파를 동원하며 성황리에 막을 내렸습니다. 수천 명의 방문객들이 정통 한식과 문화 공연을 즐겼으며, 현지 상인들과 한식당들은 매출이 크게 증가하여 필리핀 내 한식의 인기를 실감케 했습니다.",
+      "image_seed": "news2-2026-06-18",
+      "image_query": "People enjoying Korean food at outdoor festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Joint Vocational Training Program Graduates First Batch",
+      "headline_kr": "필리핀-한국 공동 직업 훈련 프로그램 1기 졸업생 배출",
+      "summary_en": "A joint vocational training program between the Philippines and South Korea, focusing on advanced manufacturing and IT skills, celebrated its first graduating class. This initiative aims to equip Filipino youth with competitive skills, fostering employment and contributing to national development.",
+      "summary_kr": "첨단 제조 및 IT 기술에 중점을 둔 필리핀-한국 공동 직업 훈련 프로그램이 첫 졸업생을 배출했습니다. 이 이니셔티브는 필리핀 청년들에게 경쟁력 있는 기술을 제공하고 고용을 촉진하며 국가 발전에 기여하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-18",
+      "image_query": "Filipino students graduating, Korean instructors applauding",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Warns Against Sophisticated Investment Scams",
+      "headline_kr": "주필리핀 한국대사관, 고도화된 투자 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a renewed advisory warning the Korean community about a rise in sophisticated online investment scams. Expats are urged to exercise extreme caution when approached with unsolicited investment opportunities and to verify legitimacy through official channels.",
+      "summary_kr": "주필리핀 한국대사관은 고도화된 온라인 투자 사기 증가에 대해 한인 사회에 새로운 주의보를 발령했습니다. 교민들에게는 검증되지 않은 투자 제안에 대해 각별한 주의를 기울이고, 공식 채널을 통해 합법성을 확인할 것을 촉구했습니다.",
+      "image_seed": "news4-2026-06-18",
+      "image_query": "Hand holding smartphone, scam warning on screen",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Sustainable",
+    "pronunciation": "/səˈsteɪnəbl/",
+    "type": "adjective",
+    "definition_en": "Able to be maintained at a certain rate or level; conserving an ecological balance by avoiding depletion of natural resources.",
+    "definition_kr": "어떤 속도나 수준으로 유지될 수 있는; 천연 자원의 고갈을 피함으로써 생태학적 균형을 보존하는.",
+    "example_en": "The new renewable energy project is a major step towards a sustainable future for the Philippines.",
+    "example_kr": "새로운 신재생에너지 프로젝트는 필리핀의 지속 가능한 미래를 향한 중요한 발걸음입니다.",
+    "grade": "A+"
+  }
+}
