@@ -1,0 +1,89 @@
+{
+  "edition_date": "2026-06-19",
+  "header_date_line": "FRIDAY, JUNE 19, 2026 | PHILIPPINES | VOL. 79",
+  "dashboard": {
+    "php_krw_rate": "25.34",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines AI Partnership to Transform Digital Economy",
+    "headline_kr": "한-필리핀 AI 파트너십, 디지털 경제 혁신 견인",
+    "subtitle_en": "A landmark agreement signed in Manila aims to integrate advanced AI technologies into key Philippine industries, fostering innovation and economic growth. The collaboration is expected to create thousands of jobs.",
+    "subtitle_kr": "마닐라에서 체결된 획기적인 협약은 필리핀 주요 산업에 첨단 AI 기술을 통합하여 혁신과 경제 성장을 촉진하는 것을 목표로 합니다. 이번 협력으로 수천 개의 일자리 창출이 기대됩니다.",
+    "body_en": [
+      "Manila, Philippines – The Republic of Korea and the Republic of the Philippines today cemented a groundbreaking partnership focusing on Artificial Intelligence (AI) development and integration. Officials from both nations signed a Memorandum of Understanding (MOU) outlining extensive collaboration in AI research, talent development, and the application of AI solutions across critical sectors such as manufacturing, healthcare, and smart infrastructure. This initiative is a cornerstone of the Philippines' 'Digital Transformation 2030' agenda, receiving significant support and investment from Korean technology firms.",
+      "The agreement emphasizes a multi-pronged approach, including joint R&D projects between Korean and Philippine universities and tech companies, scholarship programs for Filipino students in AI-related fields in Korea, and the establishment of AI innovation hubs within major Philippine economic zones. Experts believe this strategic alliance will not only accelerate the Philippines' digital maturation but also open new markets for Korean AI enterprises, creating a robust ecosystem of technological exchange and mutual economic benefit. The initial phase of the project is projected to attract over $500 million in Korean investment over the next three years.",
+      "President Ferdinand Marcos Jr. lauded the partnership as a pivotal moment for the nation's technological future, stating, 'This collaboration with Korea is more than just an investment; it is an investment in our people, our future, and our position as a leader in the ASEAN digital economy.' Korean Ambassador to the Philippines, H.E. Lee Sang-hwa, echoed these sentiments, highlighting the shared vision for a digitally empowered and prosperous region. The deal is set to be a model for future bilateral technology cooperation in Southeast Asia, promising significant long-term 'synergy' between the two nations."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 대한민국과 필리핀 공화국은 오늘 인공지능(AI) 개발 및 통합에 중점을 둔 획기적인 파트너십을 체결했습니다. 양국 관계자들은 AI 연구, 인재 양성, 그리고 제조업, 의료, 스마트 인프라와 같은 핵심 부문에 AI 솔루션을 적용하는 광범위한 협력을 명시한 양해각서(MOU)에 서명했습니다. 이 이니셔티브는 필리핀의 '디지털 전환 2030' 의제의 초석이며, 한국 기술 기업들로부터 상당한 지원과 투자를 받고 있습니다.",
+      "이번 협약은 한국과 필리핀 대학 및 기술 기업 간의 공동 R&D 프로젝트, 필리핀 학생들을 위한 한국 AI 관련 분야 장학금 프로그램, 그리고 필리핀 주요 경제 특구 내 AI 혁신 허브 구축 등 다각적인 접근 방식을 강조합니다. 전문가들은 이 전략적 동맹이 필리핀의 디지털 성숙을 가속화할 뿐만 아니라 한국 AI 기업들에게 새로운 시장을 열어 기술 교류와 상호 경제적 이익의 강력한 생태계를 조성할 것이라고 믿습니다. 프로젝트의 초기 단계는 향후 3년간 5억 달러 이상의 한국 투자를 유치할 것으로 예상됩니다.",
+      "페르디난드 마르코스 주니어 대통령은 이번 파트너십을 국가 기술 미래의 중요한 순간으로 평가하며, '한국과의 협력은 단순한 투자를 넘어 우리 국민, 우리의 미래, 그리고 아세안 디지털 경제의 리더로서의 우리의 위치에 대한 투자입니다'라고 말했습니다. 이 상화 주 필리핀 한국 대사는 이러한 견해에 동의하며, 디지털로 역량 강화되고 번영하는 지역을 위한 공동의 비전을 강조했습니다. 이번 협약은 동남아시아에서 미래 양국 기술 협력의 모델이 될 것이며, 양국 간의 상당한 장기적 '시너지 효과'를 약속합니다."
+    ],
+    "image_seed": "cover-2026-06-19",
+    "image_query": "Korean Philippine officials handshake signing AI agreement, digital projection",
+    "image_caption": "Photo: Korean and Philippine officials shake hands after signing a pivotal AI development agreement in Manila (June 19, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Community Leaders Urge Vigilance After Recent Incidents",
+    "headline_kr": "교민 지도자들, 최근 사건 후 경계 강화 촉구",
+    "lead_en": "Following a series of minor incidents targeting foreign residents in Metro Manila, Korean community leaders are calling for heightened vigilance and adherence to safety protocols. The Philippine National Police (PNP) has assured increased patrols and engagement with expat groups to ensure their safety and address concerns promptly.",
+    "lead_kr": "메트로 마닐라에서 외국인 거주자를 대상으로 한 일련의 경미한 사건들 이후, 한인 사회 지도자들은 경계 강화와 안전 수칙 준수를 촉구하고 있습니다. 필리핀 국립경찰(PNP)은 교민들의 안전을 보장하고 우려 사항을 신속하게 해결하기 위해 순찰을 강화하고 교민 단체와의 협력을 확대할 것이라고 밝혔습니다.",
+    "image_seed": "feat-2026-06-19",
+    "image_query": "Korean community leader speaking safety meeting, police presence",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy", "tag_class": "tag-economy",
+      "headline_en": "Philippine Peso Strengthens Amid Record Korean FDI",
+      "headline_kr": "한국의 기록적인 FDI 유입 속 필리핀 페소 강세",
+      "summary_en": "The Philippine Peso has shown significant appreciation against major currencies, attributed to a surge in Foreign Direct Investment (FDI) from Korea, particularly in the tech and manufacturing sectors. Analysts foresee continued stability.",
+      "summary_kr": "한국발 외국인 직접 투자(FDI) 급증, 특히 기술 및 제조업 부문 투자 덕분에 필리핀 페소가 주요 통화 대비 상당한 강세를 보였습니다. 분석가들은 지속적인 안정세를 예측합니다.",
+      "image_seed": "news1-2026-06-19", "image_query": "Philippine peso currency bills, Korean won coins", "read_time_min": 2
+    },
+    {
+      "tag": "Culture", "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Manila Draws Record Crowds, Celebrates Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파로 요리 교류 축하",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing diverse Korean culinary delights and fostering deeper cultural understanding. Local chefs and Korean restaurateurs collaborated on new fusion dishes.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파 속에서 막을 내렸으며, 다양한 한국 요리를 선보이고 문화적 이해를 증진했습니다. 현지 요리사와 한국 식당 운영자들이 새로운 퓨전 요리 개발에 협력했습니다.",
+      "image_seed": "news2-2026-06-19", "image_query": "K-Food festival stall, people tasting bibimbap", "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation", "tag_class": "tag-diplomacy",
+      "headline_en": "Joint Maritime Exercise Enhances Regional Security Capabilities",
+      "headline_kr": "한-필리핀 해상 합동 훈련, 역내 안보 역량 강화",
+      "summary_en": "Korean and Philippine naval forces successfully concluded a week-long joint maritime exercise in the West Philippine Sea, focusing on humanitarian assistance and disaster relief. The drills underscored strong defense ties.",
+      "summary_kr": "한국과 필리핀 해군이 서필리핀해에서 인도적 지원 및 재난 구호에 중점을 둔 일주일간의 합동 해상 훈련을 성공적으로 마쳤습니다. 이번 훈련은 강력한 국방 협력 관계를 강조했습니다.",
+      "image_seed": "news3-2026-06-19", "image_query": "Korean Philippine navy ships sailing together", "read_time_min": 3
+    },
+    {
+      "tag": "Safety", "tag_class": "tag-safety",
+      "headline_en": "New Emergency Hotline Launched for Foreign Residents in Cebu",
+      "headline_kr": "세부 외국인 거주자 위한 새로운 긴급 핫라인 개설",
+      "summary_en": "Cebu City local government has launched a dedicated multilingual emergency hotline for foreign residents, including the Korean community, to report incidents and seek assistance quickly. This initiative aims to improve safety response times.",
+      "summary_kr": "세부시 지방 정부는 한인 사회를 포함한 외국인 거주자들이 사건을 신고하고 신속하게 지원을 요청할 수 있도록 다국어 긴급 핫라인을 개설했습니다. 이 이니셔티브는 안전 대응 시간을 개선하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-06-19", "image_query": "Foreign resident holding phone, emergency services logo", "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "ˈsɪnərʤi",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The AI partnership between Korea and the Philippines aims to create a powerful synergy that will drive innovation and economic growth beyond what each nation could achieve alone.",
+    "example_kr": "한국과 필리핀의 AI 파트너십은 각국이 개별적으로 달성할 수 있는 것 이상으로 혁신과 경제 성장을 이끌어낼 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
