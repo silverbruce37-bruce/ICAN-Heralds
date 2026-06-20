@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-21",
+    "vol": 81,
+    "cover_en": "PH-Korea Digital Hub Pact Propels ASEAN Smart City Vision",
+    "cover_kr": "필리핀-한국 디지털 허브 협정, 아세안 스마트 도시 비전 추진",
+    "headlines_en": [
+      "Korean Embassy Issues Heightened Alert on Online Scams",
+      "Philippine-Korean Trade Volume Hits New Highs in Q2",
+      "K-Food Festival in Manila Celebrates Culinary Exchange",
+      "ASEAN-Korea Forum Explores Sustainable Development Goals",
+      "Local Authorities Boost Security in Korean Residential Areas"
+    ],
+    "headlines_kr": [
+      "주필리핀 한국대사관, 온라인 사기 주의보 강화",
+      "필리핀-한국 무역량 2분기 최고치 기록",
+      "마닐라 K-푸드 페스티벌, 요리 교류의 장 열어",
+      "아세안-한국 포럼, 지속 가능한 개발 목표 모색",
+      "현지 당국, 한인 주거 지역 보안 강화"
+    ],
+    "tags": [
+      "Culture",
+      "Safety",
+      "Security",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-06-20",
     "vol": 80,
     "cover_en": "Philippines-Korea Launch Major Digital Infrastructure Partnership",
