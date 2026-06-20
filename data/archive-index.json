@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-20",
+    "vol": 80,
+    "cover_en": "Philippines-Korea Launch Major Digital Infrastructure Partnership",
+    "cover_kr": "필리핀-한국, 대규모 디지털 인프라 파트너십 출범",
+    "headlines_en": [
+      "PH-Korea Joint Task Force Cracks Down on Cyber Scams Targeting Expatriates",
+      "Korean Investment in Philippine Renewable Energy Surges",
+      "K-Pop Sensation \"StarGaze\" Announces Manila Concert Stop",
+      "PH-Korea Launch Joint Vocational Training Program for IT Skills",
+      "Community Safety Forum to Address Traffic Concerns in Makati"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 태스크포스, 교민 대상 사이버 사기 단속 강화",
+      "필리핀 신재생에너지 분야 한국 투자 급증",
+      "K-팝 센세이션 '스타게이즈', 마닐라 콘서트 개최 발표",
+      "필리핀-한국, IT 기술 공동 직업 훈련 프로그램 출범",
+      "마카티 교통 문제 해결 위한 지역사회 안전 포럼 개최"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Cooperation",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-19",
     "vol": 79,
     "cover_en": "Korea-Philippines AI Partnership to Transform Digital Economy",

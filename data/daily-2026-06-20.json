@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-20",
+  "header_date_line": "SATURDAY, JUNE 20, 2026 | PHILIPPINES | VOL. 80",
+  "dashboard": {
+    "php_krw_rate": "25.29",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Launch Major Digital Infrastructure Partnership",
+    "headline_kr": "필리핀-한국, 대규모 디지털 인프라 파트너십 출범",
+    "subtitle_en": "The two nations embark on a joint venture to build a robust digital backbone, aiming to accelerate economic growth and enhance connectivity across the archipelago. This initiative is expected to attract significant Korean investment and create numerous job opportunities.",
+    "subtitle_kr": "양국은 견고한 디지털 백본 구축을 위한 합작 투자를 시작하며, 군도 전역의 경제 성장을 가속화하고 연결성을 강화하는 것을 목표로 합니다. 이 이니셔티브는 상당한 한국 투자 유치와 수많은 일자리 창출을 기대하고 있습니다.",
+    "body_en": [
+      "Manila, Philippines – In a landmark move poised to redefine the digital landscape of Southeast Asia, the Philippines and South Korea officially launched the \"Digital Connect Initiative\" today. This multi-billion-dollar partnership focuses on developing advanced digital infrastructure, including fiber optic networks, 5G expansion, and data centers, aimed at bridging the digital divide and propelling the Philippines into a new era of technological advancement. The agreement, signed by high-ranking officials from both governments, underscores a shared commitment to foster innovation and sustainable economic development.",
+      "The initiative, spearheaded by a consortium of leading Korean tech giants and major Philippine telecommunication companies, will initially target key urban centers and then expand to underserved rural areas. It is designed not only to improve internet access and speed but also to lay the groundwork for smart city development, e-governance, and a thriving digital economy. Experts believe this collaboration will significantly boost the Philippines' competitiveness in the global digital arena, attracting further foreign direct investment and fostering a dynamic ecosystem for startups and tech talent.",
+      "For the Korean community in the Philippines, this partnership signifies enhanced connectivity for businesses and personal communications, smoother access to online services, and potential new business opportunities in the burgeoning tech sector. Ambassador Kim Min-joon stated, \"This initiative is a testament to the deepening bond between our nations and will create a more connected, prosperous future for all. We anticipate a ripple effect, from improved daily life to significant economic uplift, benefiting both Filipinos and Koreans residing here.\" The project is slated for phased implementation over the next five years, with initial services expected to roll out by late 2027."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 동남아시아의 디지털 지형을 재정의할 획기적인 움직임으로, 필리핀과 한국은 오늘 \"디지털 연결 이니셔티브\"를 공식 출범했습니다. 수십억 달러 규모의 이 파트너십은 광섬유 네트워크, 5G 확장, 데이터 센터를 포함한 첨단 디지털 인프라 개발에 중점을 두며, 디지털 격차를 해소하고 필리핀을 새로운 기술 발전 시대로 이끄는 것을 목표로 합니다. 양국 정부 고위 관계자들이 서명한 이 협정은 혁신과 지속 가능한 경제 발전을 육성하려는 공동의 의지를 강조합니다.",
+      "선도적인 한국 기술 대기업과 주요 필리핀 통신 회사들의 컨소시엄이 주도하는 이 이니셔티브는 초기에는 주요 도시 중심지를 목표로 한 다음, 서비스가 부족한 농촌 지역으로 확장될 것입니다. 이는 인터넷 접근성과 속도를 향상시킬 뿐만 아니라 스마트 도시 개발, 전자 정부, 번성하는 디지털 경제를 위한 기반을 마련하도록 설계되었습니다. 전문가들은 이 협력이 필리핀의 글로벌 디지털 경쟁력을 크게 향상시키고, 추가적인 외국인 직접 투자를 유치하며, 스타트업과 기술 인재를 위한 역동적인 생태계를 조성할 것이라고 믿습니다.",
+      "필리핀 내 한인 커뮤니티에게 이 파트너십은 비즈니스 및 개인 통신을 위한 향상된 연결성, 온라인 서비스에 대한 더 원활한 접근, 그리고 성장하는 기술 부문에서의 잠재적인 새로운 비즈니스 기회를 의미합니다. 김민준 대사는 \"이 이니셔티브는 양국 간의 깊어지는 유대를 보여주는 증거이며, 모두를 위한 더 연결되고 번영하는 미래를 창조할 것입니다. 우리는 개선된 일상생활부터 상당한 경제적 향상에 이르기까지 필리핀인과 여기에 거주하는 한국인 모두에게 혜택을 줄 파급 효과를 기대합니다\"라고 말했습니다. 이 프로젝트는 향후 5년간 단계적으로 시행될 예정이며, 초기 서비스는 2027년 말까지 시작될 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-06-20",
+    "image_query": "Korean and Philippine officials shaking hands signing digital infrastructure agreement",
+    "image_caption": "Photo: Korean and Philippine officials finalize the Digital Connect Initiative agreement in Manila (June 20, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH-Korea Joint Task Force Cracks Down on Cyber Scams Targeting Expatriates",
+    "headline_kr": "필리핀-한국 합동 태스크포스, 교민 대상 사이버 사기 단속 강화",
+    "lead_en": "A newly formed joint task force between the Philippine National Police (PNP) and the Korean National Police Agency (KNPA) has reported significant successes in dismantling cybercrime syndicates. The operations specifically target online scams preying on Korean expatriates, leading to several arrests and the recovery of substantial illicit funds.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 간에 새로 구성된 합동 태스크포스가 사이버 범죄 조직 해체에 상당한 성공을 거두었다고 보고했습니다. 이 작전은 특히 한국 교민을 대상으로 하는 온라인 사기를 표적으로 삼아 여러 명을 체포하고 상당한 불법 자금을 회수했습니다.",
+    "image_seed": "feat-2026-06-20",
+    "image_query": "Philippine and Korean police officers collaborating on computers",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment in Philippine Renewable Energy Surges",
+      "headline_kr": "필리핀 신재생에너지 분야 한국 투자 급증",
+      "summary_en": "Korean companies are significantly increasing their investments in the Philippines' renewable energy sector, driven by favorable government policies and growing demand. This influx of capital is boosting sustainable development and creating green jobs.",
+      "summary_kr": "한국 기업들은 우호적인 정부 정책과 증가하는 수요에 힘입어 필리핀 신재생에너지 부문에 대한 투자를 크게 늘리고 있습니다. 이러한 자본 유입은 지속 가능한 발전을 촉진하고 녹색 일자리를 창출하고 있습니다.",
+      "image_seed": "news1-2026-06-20",
+      "image_query": "Korean engineers inspecting solar panels in Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Sensation \"StarGaze\" Announces Manila Concert Stop",
+      "headline_kr": "K-팝 센세이션 '스타게이즈', 마닐라 콘서트 개최 발표",
+      "summary_en": "Popular K-Pop group StarGaze has confirmed a highly anticipated concert in Manila as part of their global tour, sending waves of excitement through Filipino K-Pop fans. Tickets are expected to sell out rapidly.",
+      "summary_kr": "인기 K-팝 그룹 스타게이즈가 글로벌 투어의 일환으로 마닐라 콘서트를 확정하며 필리핀 K-팝 팬들 사이에서 큰 기대를 모으고 있습니다. 티켓은 빠르게 매진될 것으로 예상됩니다.",
+      "image_seed": "news2-2026-06-20",
+      "image_query": "K-Pop group performing on stage with fans",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Launch Joint Vocational Training Program for IT Skills",
+      "headline_kr": "필리핀-한국, IT 기술 공동 직업 훈련 프로그램 출범",
+      "summary_en": "A new collaborative program between the Philippine Department of Labor and Employment and Korean vocational schools aims to equip Filipino youth with advanced IT skills. This initiative seeks to address the growing demand for tech talent.",
+      "summary_kr": "필리핀 노동고용부와 한국 직업학교 간의 새로운 협력 프로그램이 필리핀 청소년들에게 고급 IT 기술을 제공하는 것을 목표로 합니다. 이 이니셔티브는 기술 인재에 대한 증가하는 수요를 충족시키려 합니다.",
+      "image_seed": "news3-2026-06-20",
+      "image_query": "Filipino and Korean students in a computer lab",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Safety Forum to Address Traffic Concerns in Makati",
+      "headline_kr": "마카티 교통 문제 해결 위한 지역사회 안전 포럼 개최",
+      "summary_en": "Local authorities in Makati, in coordination with the Korean community, will host a forum to discuss traffic management and road safety improvements. Residents are encouraged to participate and share their insights.",
+      "summary_kr": "마카티 지역 당국은 한인 커뮤니티와 협력하여 교통 관리 및 도로 안전 개선을 논의하기 위한 포럼을 개최할 예정입니다. 주민들의 참여와 의견 공유를 권장합니다.",
+      "image_seed": "news4-2026-06-20",
+      "image_query": "Makati street with traffic, community members talking",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 현상.",
+    "example_en": "The digital infrastructure partnership aims to create synergy between Philippine connectivity needs and Korean technological expertise.",
+    "example_kr": "디지털 인프라 파트너십은 필리핀의 연결성 요구와 한국의 기술 전문성 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
