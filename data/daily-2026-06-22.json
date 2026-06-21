@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-22",
+  "header_date_line": "MONDAY, JUNE 22, 2026 | PHILIPPINES | VOL. 82",
+  "dashboard": {
+    "php_krw_rate": "25.29",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.22",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Green Energy Pact Boosts Bilateral Investment",
+    "headline_kr": "한-필리핀 녹색 에너지 협정, 양국 투자 증진",
+    "subtitle_en": "A landmark agreement signed in Manila aims to accelerate renewable energy projects and foster sustainable development across the Philippines, attracting significant Korean capital and expertise. This pact is expected to create new jobs and enhance energy security for the archipelago.",
+    "subtitle_kr": "마닐라에서 체결된 획기적인 협정은 필리핀 전역의 재생 에너지 프로젝트를 가속화하고 지속 가능한 개발을 촉진하며, 한국의 상당한 자본과 전문성을 유치하는 것을 목표로 합니다. 이 협정은 새로운 일자리 창출과 필리핀의 에너지 안보 강화에 기여할 것으로 기대됩니다.",
+    "body_en": [
+      "The Republic of Korea and the Republic of the Philippines have officially inked a comprehensive Green Energy Cooperation Agreement, signaling a new era of collaborative efforts in sustainable development. The agreement, signed by high-ranking officials from both nations in Manila yesterday, focuses on enhancing renewable energy infrastructure, particularly in solar, wind, and geothermal power, to meet the Philippines' growing energy demands and climate goals.",
+      "Under the terms of the pact, Korean companies are set to invest an initial estimated $500 million over the next three years in various green energy initiatives across the Philippines. This investment will not only bring advanced Korean technology and engineering expertise but also facilitate knowledge transfer and capacity building for local Filipino workers. Key projects include the development of large-scale solar farms in Luzon and Visayas, and feasibility studies for offshore wind projects.",
+      "This strategic partnership is anticipated to significantly contribute to the Philippines' target of increasing its renewable energy share in the power mix, while simultaneously opening new avenues for economic growth and job creation. For the Korean community in the Philippines, the agreement signifies strengthened bilateral ties and potential new business opportunities, as well as a positive impact on the overall economic environment. Both governments expressed optimism for a long-term, mutually beneficial collaboration."
+    ],
+    "body_kr": [
+      "대한민국과 필리핀 공화국이 지속 가능한 개발을 위한 협력 노력의 새로운 시대를 알리는 포괄적인 녹색 에너지 협력 협정을 공식적으로 체결했습니다. 어제 마닐라에서 양국 고위 관계자들이 서명한 이 협정은 필리핀의 증가하는 에너지 수요와 기후 목표를 충족시키기 위해 특히 태양광, 풍력, 지열 발전을 중심으로 재생 에너지 인프라를 강화하는 데 중점을 둡니다.",
+      "협정 조건에 따라 한국 기업들은 향후 3년간 필리핀 전역의 다양한 녹색 에너지 이니셔티브에 초기 약 5억 달러를 투자할 예정입니다. 이 투자는 선진 한국 기술과 엔지니어링 전문성을 가져올 뿐만 아니라 현지 필리핀 근로자들을 위한 지식 이전 및 역량 강화에도 기여할 것입니다. 주요 프로젝트로는 루손과 비사야 지역의 대규모 태양광 발전소 개발과 해상 풍력 프로젝트에 대한 타당성 조사가 포함됩니다.",
+      "이 전략적 파트너십은 필리핀의 전력 혼합에서 재생 에너지 비중을 높이려는 목표에 크게 기여하는 동시에 경제 성장과 일자리 창출을 위한 새로운 길을 열 것으로 예상됩니다. 필리핀 내 한인 사회에게 이 협정은 강화된 양국 관계와 잠재적인 새로운 사업 기회뿐만 아니라 전반적인 경제 환경에 긍정적인 영향을 미칠 것임을 의미합니다. 양국 정부는 장기적이고 상호 이익이 되는 협력에 대한 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-06-22",
+    "image_query": "Korean Philippine officials handshake signing green energy agreement",
+    "image_caption": "Photo: Korean and Philippine officials finalize a green energy cooperation agreement (June 21, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures for Korean Tourists in Popular Destinations",
+    "headline_kr": "인기 관광지 내 한인 관광객 대상 보안 조치 강화",
+    "lead_en": "Philippine authorities, in collaboration with the Korean Embassy, have announced the implementation of enhanced security protocols targeting popular tourist spots frequently visited by Korean nationals. This move comes after recent discussions aimed at bolstering safety and providing a more secure environment for the growing number of Korean visitors.",
+    "lead_kr": "필리핀 당국은 주한 대사관과 협력하여 한국인들이 자주 찾는 인기 관광지를 대상으로 강화된 보안 프로토콜을 시행한다고 발표했습니다. 이러한 조치는 증가하는 한국인 방문객들에게 더 안전한 환경을 제공하고 안전을 강화하기 위한 최근 논의 끝에 이루어졌습니다.",
+    "image_seed": "feat-2026-06-22",
+    "image_query": "Philippine police Korean tourists discussion safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Firms Eye ASEAN Expansion Amid Digital Transformation",
+      "headline_kr": "한국 IT 기업들, 디지털 전환 속 아세안 확장 모색",
+      "summary_en": "Major Korean technology companies are increasingly looking towards the ASEAN region, including the Philippines, for expansion opportunities. They are capitalizing on the rapid digital transformation and growing consumer market in Southeast Asia, with significant investments in e-commerce, fintech, and AI.",
+      "summary_kr": "주요 한국 기술 기업들이 필리핀을 포함한 아세안 지역에서 확장 기회를 모색하고 있습니다. 이들은 동남아시아의 빠른 디지털 전환과 성장하는 소비자 시장을 활용하여 전자상거래, 핀테크, AI 분야에 상당한 투자를 하고 있습니다.",
+      "image_seed": "news1-2026-06-22",
+      "image_query": "Korean tech executives looking at ASEAN map",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Philippine K-Pop Fans Celebrate Latest Idol Group Debut with Energetic Events",
+      "headline_kr": "필리핀 K-팝 팬들, 최신 아이돌 그룹 데뷔 열정적으로 축하",
+      "summary_en": "K-Pop fans across the Philippines celebrated the highly anticipated debut of a new Korean idol group, \"Stellar Echo,\" with various fan gatherings and streaming parties over the weekend. The events showcased the enduring and passionate love for K-Pop culture in the archipelago.",
+      "summary_kr": "필리핀 전역의 K-팝 팬들이 주말 동안 다양한 팬 모임과 스트리밍 파티를 통해 새로운 한국 아이돌 그룹 \"스텔라 에코\"의 대망의 데뷔를 축하했습니다. 이 행사들은 필리핀 내 K-팝 문화에 대한 지속적이고 열정적인 사랑을 보여주었습니다.",
+      "image_seed": "news2-2026-06-22",
+      "image_query": "Filipino K-Pop fans cheering concert lightsticks",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "New Scholarship Program for Filipino Students in Korea Announced",
+      "headline_kr": "필리핀 학생 대상 한국 유학 장학금 프로그램 신설 발표",
+      "summary_en": "The Korean government, in partnership with Philippine educational institutions, has launched a new scholarship program offering full grants for Filipino students to pursue higher education in Korea. This initiative aims to foster academic exchange and strengthen cultural ties between the two nations.",
+      "summary_kr": "한국 정부는 필리핀 교육 기관들과 협력하여 필리핀 학생들이 한국에서 고등 교육을 받을 수 있도록 전액 장학금을 제공하는 새로운 장학금 프로그램을 시작했습니다. 이 이니셔티브는 학술 교류를 촉진하고 양국 간 문화적 유대를 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-22",
+      "image_query": "Korean university students Filipino students studying",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Launched in Makati for Korean Residents' Safety",
+      "headline_kr": "마카티 한인 거주민 안전 위한 커뮤니티 감시 프로그램 시작",
+      "summary_en": "A new community watch program has been initiated in key residential areas of Makati, specifically targeting the safety and security of Korean expatriates. This collaborative effort involves local police, barangay officials, and representatives from the Korean community, aiming to enhance vigilance and rapid response.",
+      "summary_kr": "마카티의 주요 주거 지역에서 한인 거주민의 안전과 보안을 특별히 목표로 하는 새로운 커뮤니티 감시 프로그램이 시작되었습니다. 이 협력 노력은 지역 경찰, 바랑가이 관계자, 한인 커뮤니티 대표들이 참여하여 경계를 강화하고 신속한 대응을 목표로 합니다.",
+      "image_seed": "news4-2026-06-22",
+      "image_query": "Korean residents Philippine police community meeting",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Sustainable",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "type": "Adjective",
+    "definition_en": "Able to be maintained at a certain rate or level; conserving an ecological balance by avoiding depletion of natural resources.",
+    "definition_kr": "어떤 비율이나 수준을 유지할 수 있는; 천연자원의 고갈을 피함으로써 생태학적 균형을 보존하는.",
+    "example_en": "The new green energy pact aims for a sustainable future for the Philippines.",
+    "example_kr": "새로운 녹색 에너지 협정은 필리핀의 지속 가능한 미래를 목표로 합니다.",
+    "grade": "A+"
+  }
+}

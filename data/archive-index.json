@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-22",
+    "vol": 82,
+    "cover_en": "Korea-Philippines Green Energy Pact Boosts Bilateral Investment",
+    "cover_kr": "한-필리핀 녹색 에너지 협정, 양국 투자 증진",
+    "headlines_en": [
+      "Enhanced Security Measures for Korean Tourists in Popular Destinations",
+      "Korean Tech Firms Eye ASEAN Expansion Amid Digital Transformation",
+      "Philippine K-Pop Fans Celebrate Latest Idol Group Debut with Energetic Events",
+      "New Scholarship Program for Filipino Students in Korea Announced",
+      "Community Watch Program Launched in Makati for Korean Residents' Safety"
+    ],
+    "headlines_kr": [
+      "인기 관광지 내 한인 관광객 대상 보안 조치 강화",
+      "한국 IT 기업들, 디지털 전환 속 아세안 확장 모색",
+      "필리핀 K-팝 팬들, 최신 아이돌 그룹 데뷔 열정적으로 축하",
+      "필리핀 학생 대상 한국 유학 장학금 프로그램 신설 발표",
+      "마카티 한인 거주민 안전 위한 커뮤니티 감시 프로그램 시작"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Safety",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-06-21",
     "vol": 81,
     "cover_en": "PH-Korea Digital Hub Pact Propels ASEAN Smart City Vision",
