@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-23",
+    "vol": 83,
+    "cover_en": "PH-Korea Smart City Project Enters Crucial Phase II in Luzon",
+    "cover_kr": "필리핀-한국 스마트시티 프로젝트, 루손 지역 핵심 2단계 진입",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Enhance Safety in Tourist Zones",
+      "ASEAN Economic Outlook Positive Amid Regional Trade Bloc Expansion",
+      "K-Food Festival Manila Draws Record Crowds, Celebrates Culinary Exchange",
+      "Korean Universities Expand Exchange Programs with Philippine Counterparts",
+      "Philippine Coast Guard Enhances Maritime Safety Measures in Popular Tourist Spots"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 경찰 합동 순찰, 관광 지역 안전 강화",
+      "지역 무역 블록 확장 속 아세안 경제 전망 긍정적",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파 속 요리 교류 축하",
+      "한국 대학들, 필리핀 대학들과 교환 프로그램 확대",
+      "필리핀 해안경비대, 인기 관광지 해상 안전 조치 강화"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-06-22",
     "vol": 82,
     "cover_en": "Korea-Philippines Green Energy Pact Boosts Bilateral Investment",
