@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-24",
+  "header_date_line": "WEDNESDAY, JUNE 24, 2026 | PHILIPPINES | VOL. 84",
+  "dashboard": {
+    "php_krw_rate": "25.11",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.24",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Launch Joint Digital Innovation Hub in Manila",
+    "headline_kr": "필리핀-한국, 마닐라에 공동 디지털 혁신 허브 출범",
+    "subtitle_en": "The new facility aims to foster technology startups and boost bilateral trade by leveraging both nations' strengths in innovation.",
+    "subtitle_kr": "새로운 시설은 양국의 혁신 강점을 활용하여 기술 스타트업을 육성하고 양자 무역을 활성화하는 것을 목표로 합니다.",
+    "body_en": [
+      "In a landmark move to cement their economic partnership, the Philippines and South Korea today officially inaugurated the 'ASEAN-Korea Digital Innovation Hub' in Bonifacio Global City, Taguig. The ceremony was attended by President Ferdinand Marcos Jr. and a high-level delegation from Seoul, emphasizing a shared vision for digital transformation and regional economic resilience. This initiative marks a significant step in diversifying cooperation beyond traditional manufacturing and trade.",
+      "The state-of-the-art hub will serve as a collaborative ecosystem for technology startups, researchers, and venture capitalists from both countries. It will provide incubation programs, mentorship, and access to funding, focusing on emerging technologies such as AI, blockchain, and sustainable tech solutions. Officials stated the hub is designed to bridge technological gaps, facilitate knowledge transfer, and create a vibrant environment for innovation that will benefit both economies.",
+      "Experts believe the innovation hub will not only accelerate the growth of the digital economy in the Philippines but also strengthen Korea's position as a key technology partner in Southeast Asia. The project is expected to generate numerous job opportunities, attract further foreign direct investment, and ultimately contribute to the broader ASEAN digital integration agenda, setting a precedent for future bilateral and multilateral technology partnerships."
+    ],
+    "body_kr": [
+      "경제적 파트너십을 공고히 하기 위한 획기적인 조치로, 필리핀과 한국은 오늘 타기그 보니파시오 글로벌 시티에 '아세안-한국 디지털 혁신 허브'를 공식 개소했습니다. 개소식에는 페르디난드 마르코스 주니어 대통령과 서울의 고위급 대표단이 참석하여 디지털 전환과 지역 경제 회복력에 대한 공동 비전을 강조했습니다. 이 이니셔티브는 전통적인 제조업 및 무역을 넘어 협력을 다각화하는 중요한 단계를 나타냅니다.",
+      "최첨단 허브는 양국의 기술 스타트업, 연구원 및 벤처 투자가를 위한 협력 생태계 역할을 할 것입니다. 인큐베이팅 프로그램, 멘토링, 자금 지원 접근성을 제공하며, AI, 블록체인 및 지속 가능한 기술 솔루션과 같은 신흥 기술에 중점을 둡니다. 관계자들은 이 허브가 기술 격차를 해소하고 지식 이전을 촉진하며 양국 경제에 이익이 될 혁신을 위한 활기찬 환경을 조성하도록 설계되었다고 밝혔습니다.",
+      "전문가들은 이 혁신 허브가 필리핀의 디지털 경제 성장을 가속화할 뿐만 아니라 동남아시아에서 한국의 핵심 기술 파트너로서의 입지를 강화할 것으로 보고 있습니다. 이 프로젝트는 수많은 일자리를 창출하고 추가적인 외국인 직접 투자를 유치하며, 궁극적으로 더 넓은 아세안 디지털 통합 의제에 기여하여 미래의 양자 및 다자 기술 파트너십을 위한 선례를 세울 것으로 기대됩니다."
+    ],
+    "image_seed": "cover-2026-06-24",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials inaugurating the Digital Innovation Hub (June 24, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Community Bolster Joint Safety Patrols in Key Metro Manila Areas",
+    "headline_kr": "필리핀 경찰, 메트로 마닐라 주요 지역 한인사회 합동 순찰 강화",
+    "lead_en": "Following recent discussions between the Philippine National Police (PNP) and Korean community leaders, joint security patrols are being intensified in areas with high Korean expatriate populations, including Makati, Taguig, and Pasig. This initiative aims to enhance safety and security, fostering a stronger sense of protection for residents and businesses.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한인사회 지도자들 간의 최근 논의에 따라, 마카티, 타기그, 파시그를 포함한 한인 거주 밀집 지역에서 합동 보안 순찰이 강화되고 있습니다. 이 이니셔티브는 안전과 보안을 강화하고 주민과 기업을 위한 더욱 강력한 보호 의식을 조성하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-24",
+    "image_query": "Philippine police Korean community leader patrolling Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippines' Q2 Growth Outperforms Expectations, Boosting Investor Confidence",
+      "headline_kr": "필리핀 2분기 성장률 기대치 상회, 투자자 신뢰도 상승",
+      "summary_en": "The Philippine economy recorded an impressive 6.8% GDP growth in the second quarter of 2026, surpassing analyst forecasts. This strong performance, driven by robust domestic demand and increased foreign investment, is further attracting Korean businesses looking for expansion opportunities in Southeast Asia.",
+      "summary_kr": "필리핀 경제는 2026년 2분기에 6.8%의 인상적인 GDP 성장을 기록하며 애널리스트들의 예상을 뛰어넘었습니다. 강력한 내수와 외국인 투자 증가에 힘입은 이러한 견고한 실적은 동남아시아에서 확장 기회를 모색하는 한국 기업들을 더욱 유치하고 있습니다.",
+      "image_seed": "news1-2026-06-24",
+      "image_query": "Manila skyline construction cranes economic growth",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "'Hallyu Wave 2026' K-Pop Festival Set to Electrify Manila Next Month",
+      "headline_kr": "'한류 웨이브 2026' K-팝 페스티벌, 다음 달 마닐라 뜨겁게 달군다",
+      "summary_en": "Manila is gearing up for the highly anticipated 'Hallyu Wave 2026' K-Pop Festival, scheduled for late July. Featuring top Korean idol groups and solo artists, the event is expected to draw tens of thousands of fans, further solidifying the Philippines' status as a major hub for K-culture in the region.",
+      "summary_kr": "마닐라는 다음 달 말로 예정된 대망의 '한류 웨이브 2026' K-팝 페스티벌을 준비하고 있습니다. 한국의 최고 아이돌 그룹과 솔로 아티스트들이 출연하는 이 행사는 수만 명의 팬들을 끌어모아 필리핀이 이 지역의 주요 한류 중심지로서의 위상을 더욱 공고히 할 것으로 기대됩니다.",
+      "image_seed": "news2-2026-06-24",
+      "image_query": "K-pop concert crowd lightsticks Manila arena",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea, Philippines Advance Discussions on Renewable Energy Cooperation",
+      "headline_kr": "한국-필리핀, 재생에너지 협력 논의 진전",
+      "summary_en": "During a recent bilateral summit, leaders from South Korea and the Philippines emphasized a shared commitment to sustainable development, particularly in renewable energy. Discussions focused on technology transfer, joint investment in solar and wind projects, and policy alignment to accelerate the green transition in the region.",
+      "summary_kr": "최근 양국 정상회담에서 한국과 필리핀 지도자들은 지속 가능한 개발, 특히 재생에너지 분야에 대한 공동의 약속을 강조했습니다. 논의는 기술 이전, 태양광 및 풍력 프로젝트 공동 투자, 그리고 지역의 녹색 전환을 가속화하기 위한 정책 조율에 중점을 두었습니다.",
+      "image_seed": "news3-2026-06-24",
+      "image_query": "Korean Philippine leaders shaking hands green energy background",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Advises Vigilance on New Traffic Regulations in Greater Manila",
+      "headline_kr": "주필리핀 한국대사관, 광역 마닐라 신규 교통법규 주의 당부",
+      "summary_en": "The Korean Embassy in the Philippines has issued an advisory urging its community members to be aware of newly implemented traffic regulations across several Greater Manila areas. The changes, aimed at improving traffic flow, include stricter enforcement of no-parking zones and new lane designations, which could impact daily commutes.",
+      "summary_kr": "주필리핀 한국대사관은 광역 마닐라 여러 지역에서 새로 시행되는 교통법규에 대해 교민들의 주의를 당부하는 공지를 발표했습니다. 교통 흐름 개선을 목표로 하는 이번 변경 사항에는 주차 금지 구역에 대한 엄격한 단속과 새로운 차선 지정이 포함되어 있어 일상적인 통근에 영향을 미칠 수 있습니다.",
+      "image_seed": "news4-2026-06-24",
+      "image_query": "Philippine traffic sign driver warning city street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The new digital innovation hub aims to create synergy between Korean technological expertise and Filipino startup dynamism.",
+    "example_kr": "새로운 디지털 혁신 허브는 한국의 기술 전문성과 필리핀 스타트업의 역동성 사이의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

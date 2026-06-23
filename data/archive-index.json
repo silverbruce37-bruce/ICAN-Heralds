@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-24",
+    "vol": 84,
+    "cover_en": "Philippines, Korea Launch Joint Digital Innovation Hub in Manila",
+    "cover_kr": "필리핀-한국, 마닐라에 공동 디지털 혁신 허브 출범",
+    "headlines_en": [
+      "PNP, Korean Community Bolster Joint Safety Patrols in Key Metro Manila Areas",
+      "Philippines' Q2 Growth Outperforms Expectations, Boosting Investor Confidence",
+      "'Hallyu Wave 2026' K-Pop Festival Set to Electrify Manila Next Month",
+      "Korea, Philippines Advance Discussions on Renewable Energy Cooperation",
+      "Korean Embassy Advises Vigilance on New Traffic Regulations in Greater Manila"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 메트로 마닐라 주요 지역 한인사회 합동 순찰 강화",
+      "필리핀 2분기 성장률 기대치 상회, 투자자 신뢰도 상승",
+      "'한류 웨이브 2026' K-팝 페스티벌, 다음 달 마닐라 뜨겁게 달군다",
+      "한국-필리핀, 재생에너지 협력 논의 진전",
+      "주필리핀 한국대사관, 광역 마닐라 신규 교통법규 주의 당부"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-06-23",
     "vol": 83,
     "cover_en": "PH-Korea Smart City Project Enters Crucial Phase II in Luzon",
