@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-25",
+    "vol": 85,
+    "cover_en": "Korea, PH Launch Joint Digital Transformation Initiative",
+    "cover_kr": "한-필리핀, 공동 디지털 전환 이니셔티브 출범",
+    "headlines_en": [
+      "Joint Police Patrols Bolstered for Korean Community Safety",
+      "Korean Firms Boost Investment in PH Renewable Energy Sector",
+      "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Exchange",
+      "Korea, PH Expand Scholarship Programs for Youth Exchange",
+      "Embassy Issues Advisory on Rising Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "한인사회 안전 위한 합동 경찰 순찰 강화",
+      "한국 기업들, 필리핀 재생 에너지 부문 투자 확대",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파 속 성황리 개최",
+      "한-필리핀, 청소년 교류 위한 장학 프로그램 확대",
+      "대사관, 외국인 표적 온라인 사기 증가에 경고 발표"
+    ],
+    "tags": [
+      "Economy",
+      "Safety",
+      "Culture",
+      "Security",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-06-24",
     "vol": 84,
     "cover_en": "Philippines, Korea Launch Joint Digital Innovation Hub in Manila",

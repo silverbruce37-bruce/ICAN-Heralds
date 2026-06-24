@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-25",
+  "header_date_line": "THURSDAY, JUNE 25, 2026 | PHILIPPINES | VOL. 176",
+  "dashboard": {
+    "php_krw_rate": "25.35",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.25",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, PH Launch Joint Digital Transformation Initiative",
+    "headline_kr": "한-필리핀, 공동 디지털 전환 이니셔티브 출범",
+    "subtitle_en": "New agreement aims to accelerate digital infrastructure development and foster innovation across key sectors, benefiting both nations' economies.",
+    "subtitle_kr": "새로운 협정은 핵심 분야에 걸쳐 디지털 인프라 개발을 가속화하고 혁신을 촉진하여 양국 경제에 이익을 가져다줄 것입니다.",
+    "body_en": [
+      "Seoul and Manila officially launched a landmark joint digital transformation initiative yesterday, marking a significant stride in their bilateral cooperation. High-ranking officials from both governments convened in Manila to sign the comprehensive agreement, which focuses on enhancing digital infrastructure, promoting smart city solutions, and bolstering cybersecurity capabilities across the Philippines. This strategic partnership is expected to bridge technological gaps and create a more resilient digital ecosystem, crucial for the region's future economic landscape.",
+      "The initiative is poised to attract substantial Korean investment into the Philippine tech sector, fostering job creation and knowledge transfer. Korean companies, renowned for their advanced digital technologies and innovative solutions, are eager to participate in projects ranging from AI-powered public services to robust data centers. This influx of capital and expertise is anticipated to significantly boost the Philippines' digital economy, providing new avenues for growth and enhancing the competitive edge of local businesses, including those operated by the Korean community.",
+      "Beyond economic benefits, the agreement underscores Korea's commitment to supporting ASEAN's digital agenda and fostering regional connectivity. By strengthening the Philippines' digital backbone, the partnership aims to create a more integrated and secure digital environment that can withstand emerging global challenges. Both nations expressed optimism that this collaboration will serve as a model for future regional partnerships, driving innovation and sustainable development throughout Southeast Asia."
+    ],
+    "body_kr": [
+      "한국과 필리핀은 어제 양국 협력에 있어 중요한 진전을 알리는 획기적인 공동 디지털 전환 이니셔티브를 공식적으로 출범했습니다. 양국 정부 고위 관계자들은 마닐라에 모여 필리핀 전역의 디지털 인프라 강화, 스마트 도시 솔루션 촉진, 사이버 보안 역량 강화에 중점을 둔 포괄적인 협정에 서명했습니다. 이 전략적 파트너십은 기술 격차를 해소하고 지역의 미래 경제 환경에 필수적인 보다 탄력적인 디지털 생태계를 조성할 것으로 기대됩니다.",
+      "이 이니셔티브는 필리핀 기술 부문에 상당한 한국 투자를 유치하여 일자리 창출과 지식 이전을 촉진할 것으로 예상됩니다. 첨단 디지털 기술과 혁신적인 솔루션으로 유명한 한국 기업들은 AI 기반 공공 서비스부터 강력한 데이터 센터에 이르는 프로젝트에 참여하기를 열망하고 있습니다. 이러한 자본과 전문 지식의 유입은 필리핀의 디지털 경제를 크게 활성화하고, 성장할 새로운 길을 제공하며, 한인 사회가 운영하는 기업을 포함한 현지 기업의 경쟁력을 강화할 것으로 예상됩니다.",
+      "경제적 이점 외에도 이 협정은 아세안의 디지털 의제를 지원하고 지역 연결성을 강화하려는 한국의 의지를 강조합니다. 필리핀의 디지털 백본을 강화함으로써 이 파트너십은 새로운 글로벌 도전에 견딜 수 있는 보다 통합되고 안전한 디지털 환경을 조성하는 것을 목표로 합니다. 양국은 이번 협력이 동남아시아 전역의 혁신과 지속 가능한 발전을 이끄는 미래 지역 파트너십의 모델이 될 것이라는 낙관적인 전망을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-06-25",
+    "image_query": "Korean Philippine officials shaking hands signing digital agreement",
+    "image_caption": "Photo: Officials from Korea and the Philippines formalize a new digital partnership in Manila (June 24, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Police Patrols Bolstered for Korean Community Safety",
+    "headline_kr": "한인사회 안전 위한 합동 경찰 순찰 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) have announced an expansion of their joint patrol operations in areas with significant Korean populations. This initiative aims to further deter crime and enhance the sense of security among Korean residents and tourists.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한국 경찰청(KNPA)이 한인 밀집 지역에서의 합동 순찰 작전 확대를 발표했습니다. 이 이니셔티브는 범죄를 더욱 억제하고 한인 거주자 및 관광객의 안전 체감을 높이는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-25",
+    "image_query": "Korean Philippine police officers joint patrol street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Boost Investment in PH Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 필리핀 재생 에너지 부문 투자 확대",
+      "summary_en": "Several major Korean conglomerates are increasing their investments in the Philippines' renewable energy projects, focusing on solar and wind power. This move aligns with both nations' green energy transition goals and offers significant economic opportunities.",
+      "summary_kr": "여러 주요 한국 대기업들이 필리핀의 태양광 및 풍력 발전 프로젝트에 대한 투자를 늘리고 있습니다. 이러한 움직임은 양국의 녹색 에너지 전환 목표와 일치하며 상당한 경제적 기회를 제공합니다.",
+      "image_seed": "news1-2026-06-25",
+      "image_query": "Solar panels wind turbines Philippines landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파 속 성황리 개최",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing a wide array of traditional and modern Korean dishes. The event further cemented K-food's growing popularity and cultural impact in the Philippines.",
+      "summary_kr": "마닐라 연례 K-푸드 페스티벌이 전례 없는 참석자 수를 기록하며 성공적으로 마무리되었으며, 다양한 전통 및 현대 한국 요리를 선보였습니다. 이 행사는 필리핀에서 K-푸드의 인기와 문화적 영향력을 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-06-25",
+      "image_query": "People enjoying Korean food festival street",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea, PH Expand Scholarship Programs for Youth Exchange",
+      "headline_kr": "한-필리핀, 청소년 교류 위한 장학 프로그램 확대",
+      "summary_en": "Both governments have agreed to expand existing scholarship and exchange programs, allowing more Filipino and Korean students to study abroad in each other's countries. This initiative aims to foster deeper understanding and future leadership ties.",
+      "summary_kr": "양국 정부는 기존 장학금 및 교환 프로그램을 확대하여 더 많은 필리핀 및 한국 학생들이 서로의 나라에서 유학할 수 있도록 합의했습니다. 이 이니셔티브는 더 깊은 이해와 미래 리더십 유대를 육성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-25",
+      "image_query": "Korean Filipino students studying library",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Rising Online Scams Targeting Expats",
+      "headline_kr": "대사관, 외국인 표적 온라인 사기 증가에 경고 발표",
+      "summary_en": "The Korean Embassy in the Philippines has issued a public advisory warning the Korean community about a recent surge in online scams, particularly those targeting expatriates. Residents are urged to exercise extreme caution with unsolicited messages and financial requests.",
+      "summary_kr": "주필리핀 한국 대사관은 최근 급증하는 온라인 사기, 특히 외국인을 표적으로 하는 사기에 대해 한인 사회에 공개 경고를 발표했습니다. 주민들은 불필요한 메시지 및 금전 요구에 대해 극도의 주의를 기울일 것을 촉구받았습니다.",
+      "image_seed": "news4-2026-06-25",
+      "image_query": "Person looking at scam email phone",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds up significant change or action.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new digital partnership is expected to be a catalyst for economic growth and technological advancement in the region.",
+    "example_kr": "새로운 디지털 파트너십은 이 지역의 경제 성장과 기술 발전을 위한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
