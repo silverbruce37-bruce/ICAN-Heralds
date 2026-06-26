@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-26",
+  "header_date_line": "FRIDAY, JUNE 26, 2026 | PHILIPPINES | VOL. 86",
+  "dashboard": {
+    "php_krw_rate": "25.28",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.26",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Tech Investment Forum Unlocks New Economic Horizons",
+    "headline_kr": "필리핀-한국 기술 투자 포럼, 새로운 경제 지평 열다",
+    "subtitle_en": "The landmark forum in Manila sees major Korean tech firms pledge significant investments, fostering digital transformation and job creation in the Philippines.",
+    "subtitle_kr": "마닐라에서 열린 획기적인 포럼에서 주요 한국 기술 기업들이 필리핀의 디지털 전환과 일자리 창출을 위한 상당한 투자를 약속했습니다.",
+    "body_en": [
+      "Manila played host this week to the highly anticipated Philippines-Korea Tech Investment Forum, a pivotal event aimed at strengthening bilateral economic ties and accelerating the digital transformation agenda of the Philippines. High-ranking officials from both nations, alongside prominent Korean business leaders and Philippine industry stakeholders, convened to discuss opportunities in AI, fintech, renewable energy, and smart city development. The forum highlighted a shared vision for innovation-driven growth and sustainable development.",
+      "During the forum, several key memorandums of understanding (MOUs) were signed, signaling multi-million dollar commitments from leading Korean technology conglomerates. These investments are projected to not only inject capital into critical Philippine sectors but also facilitate knowledge transfer, technology sharing, and the creation of thousands of high-skilled jobs for the local workforce. Experts believe this influx of Korean expertise and funding will act as a significant catalyst for the Philippines' ambition to become a regional digital hub.",
+      "For the Korean community in the Philippines, these developments bring a wave of optimism and new opportunities. Increased Korean corporate presence is expected to lead to a more vibrant business ecosystem, potentially boosting demand for Korean services, products, and even cultural exchanges. The Embassy of the Republic of Korea expressed its full support, emphasizing that such initiatives further solidify the deep-rooted friendship and mutual prosperity between the two nations."
+    ],
+    "body_kr": [
+      "이번 주 마닐라에서는 필리핀의 디지털 전환 의제를 가속화하고 양국 경제 관계를 강화하기 위한 핵심 행사인 '필리핀-한국 기술 투자 포럼'이 개최되었습니다. 양국의 고위 관계자들과 저명한 한국 기업인, 필리핀 산업 이해관계자들이 한자리에 모여 인공지능, 핀테크, 신재생에너지 및 스마트 도시 개발 분야의 기회를 논의했습니다. 이 포럼은 혁신 주도 성장과 지속 가능한 발전을 위한 공동의 비전을 강조했습니다.",
+      "포럼 동안 주요 한국 기술 대기업들의 수백만 달러 규모의 투자를 알리는 여러 핵심 양해각서(MOU)가 체결되었습니다. 이러한 투자는 필리핀의 중요 부문에 자본을 투입할 뿐만 아니라, 지식 이전, 기술 공유 및 현지 인력을 위한 수천 개의 고숙련 일자리 창출을 촉진할 것으로 예상됩니다. 전문가들은 이러한 한국의 전문 지식과 자금 유입이 필리핀이 지역 디지털 허브가 되려는 야망에 중요한 촉매제 역할을 할 것이라고 믿습니다.",
+      "필리핀 내 한인 커뮤니티에게는 이러한 발전이 낙관론과 새로운 기회의 물결을 가져다줍니다. 한국 기업의 존재감 증가는 더욱 활기찬 비즈니스 생태계를 조성하여 한국 서비스, 제품 및 심지어 문화 교류에 대한 수요를 증가시킬 수 있을 것으로 예상됩니다. 주한 필리핀 대사관은 이러한 이니셔티브가 양국 간의 깊은 우정과 상호 번영을 더욱 공고히 한다고 강조하며 전폭적인 지지를 표명했습니다."
+    ],
+    "image_seed": "cover-2026-06-26",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials finalize agreements at the Tech Investment Forum (June 25, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Safety Patrols Launched for Korean Residents Across Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 거주 지역 안전 순찰 강화",
+    "lead_en": "In a proactive move to ensure the safety and well-being of the Korean community, local Philippine police, in conjunction with Korean community associations, have launched expanded safety patrols across key Metro Manila areas. This initiative aims to deter crime and provide a greater sense of security for Korean residents and tourists.",
+    "lead_kr": "한인 커뮤니티의 안전과 복지를 보장하기 위한 선제적 조치로, 필리핀 현지 경찰은 한인회와 협력하여 메트로 마닐라 주요 지역에 확대된 안전 순찰을 시작했습니다. 이 이니셔티브는 범죄를 억제하고 한인 거주민 및 관광객들에게 더 큰 안정감을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-26",
+    "image_query": "Korean police officer Philippine police officer patrol street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Integration: New Opportunities for Korean SMEs",
+      "headline_kr": "아세안 디지털 경제 통합: 한국 중소기업을 위한 새로운 기회",
+      "summary_en": "The accelerating integration of ASEAN's digital economy presents significant growth opportunities for Korean small and medium-sized enterprises (SMEs) looking to expand their market reach and leverage regional supply chains.",
+      "summary_kr": "아세안 디지털 경제의 가속화되는 통합은 시장 범위를 확장하고 역내 공급망을 활용하려는 한국 중소기업에게 상당한 성장 기회를 제공합니다.",
+      "image_seed": "news1-2026-06-26",
+      "image_query": "ASEAN digital economy map data flow",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Draws Thousands in Cebu City",
+      "headline_kr": "세부시 K-팝 댄스 페스티벌에 수천 명 운집",
+      "summary_en": "Cebu City vibrated with K-Pop energy as thousands of fans gathered for a spectacular dance festival, showcasing local talent and celebrating the enduring popularity of Korean music and culture in the region.",
+      "summary_kr": "수천 명의 팬들이 화려한 댄스 페스티벌을 위해 모여 세부시가 K-팝 에너지로 활기를 띠었으며, 이 지역에서 한국 음악과 문화의 지속적인 인기를 보여주었습니다.",
+      "image_seed": "news2-2026-06-26",
+      "image_query": "K-Pop fans dancing concert stage Cebu",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippines' Green Energy Transition",
+      "headline_kr": "한국, 필리핀 녹색 에너지 전환에 대한 지원 약속",
+      "summary_en": "South Korea has committed to providing technical assistance and funding for the Philippines' ambitious push towards renewable energy sources, reinforcing bilateral cooperation on climate action and sustainable development.",
+      "summary_kr": "한국은 필리핀의 재생에너지 전환 노력을 위한 기술 지원 및 자금 제공을 약속하며, 기후 행동 및 지속 가능한 개발에 대한 양국 협력을 강화했습니다.",
+      "image_seed": "news3-2026-06-26",
+      "image_query": "Korean Philippine officials discussing solar panels",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Vigilance Urged After Minor Incidents in Quezon City",
+      "headline_kr": "퀘존시 소규모 사건 발생 후 공동체 경계 강화 촉구",
+      "summary_en": "The Korean Embassy advises residents in Quezon City to remain vigilant following a few minor incidents of petty theft, reminding the community to always prioritize personal safety and report suspicious activities.",
+      "summary_kr": "주필리핀 한국 대사관은 퀘존시에서 발생한 몇 건의 경미한 절도 사건 이후 주민들에게 경계를 유지할 것을 권고하며, 개인 안전을 최우선으로 하고 의심스러운 활동을 신고해 줄 것을 당부했습니다.",
+      "image_seed": "news4-2026-06-26",
+      "image_query": "Police officer warning street safety sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds up a significant change or action.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람 또는 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new tech investment forum is expected to be a catalyst for economic growth in the Philippines.",
+    "example_kr": "새로운 기술 투자 포럼은 필리핀 경제 성장의 촉매제가 될 것으로 예상됩니다.",
+    "grade": "A+"
+  }
+}

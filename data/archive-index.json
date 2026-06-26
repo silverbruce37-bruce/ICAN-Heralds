@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-26",
+    "vol": 86,
+    "cover_en": "PH-Korea Tech Investment Forum Unlocks New Economic Horizons",
+    "cover_kr": "필리핀-한국 기술 투자 포럼, 새로운 경제 지평 열다",
+    "headlines_en": [
+      "Enhanced Safety Patrols Launched for Korean Residents Across Metro Manila",
+      "ASEAN Digital Economy Integration: New Opportunities for Korean SMEs",
+      "K-Pop Dance Festival Draws Thousands in Cebu City",
+      "Korea Pledges Support for Philippines' Green Energy Transition",
+      "Community Vigilance Urged After Minor Incidents in Quezon City"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 거주 지역 안전 순찰 강화",
+      "아세안 디지털 경제 통합: 한국 중소기업을 위한 새로운 기회",
+      "세부시 K-팝 댄스 페스티벌에 수천 명 운집",
+      "한국, 필리핀 녹색 에너지 전환에 대한 지원 약속",
+      "퀘존시 소규모 사건 발생 후 공동체 경계 강화 촉구"
+    ],
+    "tags": [
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-06-25",
     "vol": 85,
     "cover_en": "Korea, PH Launch Joint Digital Transformation Initiative",
