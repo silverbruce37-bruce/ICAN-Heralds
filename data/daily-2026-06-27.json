@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-27",
+  "header_date_line": "SATURDAY, JUNE 27, 2026 | PHILIPPINES | VOL. 87",
+  "dashboard": {
+    "php_krw_rate": "25.07",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.27",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-PH Launch 'Connect & Explore' Initiative to Boost Tourism & Culture",
+    "headline_kr": "한-필, 관광 및 문화 활성화 위한 '연결과 탐험' 이니셔티브 출범",
+    "subtitle_en": "A new bilateral program aims to revitalize tourism sectors and deepen cultural ties, targeting increased visitor numbers and enhanced exchange activities between the two nations.",
+    "subtitle_kr": "새로운 양국 프로그램은 관광 부문을 활성화하고 문화적 유대를 강화하며, 양국 간 방문객 수 증가와 교류 활동 증진을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – The governments of South Korea and the Philippines today officially launched the 'Connect & Explore' initiative, a comprehensive bilateral program designed to significantly boost tourism and cultural exchange. Announced at a joint press conference in Manila, the initiative seeks to recover and surpass pre-pandemic tourism levels, foster deeper understanding between their peoples, and create new economic opportunities for both nations.",
+      "The 'Connect & Explore' program encompasses several key pillars, including joint marketing campaigns promoting each country as a premier travel destination, facilitating streamlined visa processes for specific visitor categories, and organizing a series of cultural events. Highlights include a 'Philippine Discovery Week' in Seoul featuring local cuisine and arts, and a 'K-Culture Festival' to be held annually across major Philippine cities. Educational exchange programs and collaborative digital content creation are also central to the initiative, aiming to engage younger generations and highlight shared historical and contemporary connections.",
+      "Officials from both sides expressed optimism about the initiative's potential impact. Philippine Tourism Secretary Maria Reyes emphasized the importance of Korean visitors to the local economy, while Korean Ambassador Lee Sang-ho highlighted the growing interest of Koreans in the Philippines' diverse natural beauty and vibrant culture. The program is expected to roll out over the next three years, with initial phases focusing on enhanced connectivity and promotional activities set to begin in the latter half of 2026, promising a renewed era of bilateral engagement."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 대한민국과 필리핀 정부는 오늘 관광 및 문화 교류를 대폭 증진하기 위해 고안된 포괄적인 양자 프로그램인 '연결과 탐험(Connect & Explore)' 이니셔티브를 공식 출범했습니다. 마닐라에서 열린 공동 기자회견에서 발표된 이 이니셔티브는 팬데믹 이전의 관광 수준을 회복하고 초과 달성하며, 양국 국민 간의 이해를 심화하고, 양국에 새로운 경제적 기회를 창출하는 것을 목표로 합니다.",
+      "'연결과 탐험' 프로그램은 각국을 최고의 여행지로 홍보하는 공동 마케팅 캠페인, 특정 방문객 범주에 대한 비자 절차 간소화, 일련의 문화 행사 조직 등 여러 주요 축을 포함합니다. 주요 내용으로는 현지 요리와 예술을 선보이는 서울의 '필리핀 발견 주간'과 필리핀 주요 도시에서 매년 개최될 'K-문화 축제'가 있습니다. 교육 교류 프로그램과 협력적인 디지털 콘텐츠 제작 또한 이 이니셔티브의 핵심으로, 젊은 세대를 참여시키고 공유된 역사적, 현대적 연결고리를 강조하는 것을 목표로 합니다.",
+      "양측 관계자들은 이 이니셔티브의 잠재적 영향에 대해 낙관적인 전망을 내놓았습니다. 마리아 레예스 필리핀 관광부 장관은 한국인 방문객이 지역 경제에 미치는 중요성을 강조했으며, 이상호 주한 필리핀 대사는 한국인들이 필리핀의 다양한 자연미와 활기찬 문화에 대한 관심이 커지고 있음을 강조했습니다. 이 프로그램은 향후 3년간 진행될 예정이며, 초기 단계는 2026년 하반기에 시작될 연결성 강화 및 홍보 활동에 중점을 두어 새로운 양자 교류 시대를 약속합니다."
+    ],
+    "image_seed": "cover-2026-06-27",
+    "image_query": "Korean Philippine officials handshake signing tourism agreement",
+    "image_caption": "Photo: Philippine Tourism Secretary and Korean Ambassador shake hands after signing the 'Connect & Explore' initiative agreement (June 27, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH Police Bolster Tourist Safety Measures in Popular Destinations for Koreans",
+    "headline_kr": "필리핀 경찰, 한국인 관광객 인기 목적지 안전 조치 강화",
+    "lead_en": "Philippine authorities, in cooperation with the Korean Embassy, have announced an increased police presence and new digital safety awareness campaigns targeting popular tourist spots frequented by Korean nationals. The move aims to enhance the security and well-being of foreign visitors, particularly in light of the renewed tourism push.",
+    "lead_kr": "필리핀 당국은 주필리핀 한국 대사관과 협력하여 한국인이 자주 찾는 인기 관광지에 대한 경찰력 증강 및 새로운 디지털 안전 인식 캠페인을 발표했습니다. 이는 관광 활성화 노력에 발맞춰 외국인 방문객의 보안과 안녕을 강화하기 위한 조치입니다.",
+    "image_seed": "feat-2026-06-27",
+    "image_query": "Philippine police officers patrolling tourist street Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Firm Invests in Philippine Smart City Development",
+      "headline_kr": "한국 기술 기업, 필리핀 스마트 시티 개발에 투자",
+      "summary_en": "A leading South Korean technology company has announced a significant investment in a new smart city project in Central Luzon, aiming to integrate AI and IoT solutions for sustainable urban living.",
+      "summary_kr": "선도적인 한국 기술 기업이 중부 루손의 새로운 스마트 시티 프로젝트에 상당한 투자를 발표하며, 지속 가능한 도시 생활을 위한 AI 및 IoT 솔루션 통합을 목표로 합니다.",
+      "image_seed": "news1-2026-06-27",
+      "image_query": "Korean executives Philippine mayor shaking hands smart city model",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Concludes Successfully in Manila",
+      "headline_kr": "K-팝 댄스 워크숍 시리즈, 마닐라에서 성공적으로 마무리",
+      "summary_en": "A month-long series of K-Pop dance workshops, organized by the Korean Cultural Center in the Philippines, concluded with a vibrant final showcase, drawing enthusiastic participation from Filipino youth.",
+      "summary_kr": "주필리핀 한국문화원이 주최한 한 달간의 K-팝 댄스 워크숍 시리즈가 활기찬 최종 쇼케이스로 막을 내렸으며, 필리핀 청소년들의 열띤 참여를 이끌어냈습니다.",
+      "image_seed": "news2-2026-06-27",
+      "image_query": "Filipino youth K-Pop dance workshop stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Ink MOU on Maritime Research and Environmental Protection",
+      "headline_kr": "필리핀-한국, 해양 연구 및 환경 보호 MOU 체결",
+      "summary_en": "The Philippines and South Korea have signed a Memorandum of Understanding to collaborate on maritime research, resource management, and marine environmental protection, strengthening bilateral efforts in ocean sustainability.",
+      "summary_kr": "필리핀과 한국은 해양 연구, 자원 관리 및 해양 환경 보호 분야에서 협력하기 위한 양해각서(MOU)를 체결하여 해양 지속 가능성을 위한 양국 노력을 강화했습니다.",
+      "image_seed": "news3-2026-06-27",
+      "image_query": "Korean Philippine researchers marine vessel ocean",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Leaders Discuss Safety with Makati LGU",
+      "headline_kr": "한국인 커뮤니티 지도자들, 마카티 시 정부와 안전 논의",
+      "summary_en": "Representatives from the Korean community in Makati held a productive dialogue with local government officials to address ongoing safety concerns and propose joint initiatives for crime prevention and community welfare.",
+      "summary_kr": "마카티 한인 커뮤니티 대표들이 지역 정부 관계자들과 만나 지속적인 안전 문제에 대해 논의하고 범죄 예방 및 지역 사회 복지를 위한 공동 이니셔티브를 제안했습니다.",
+      "image_seed": "news4-2026-06-27",
+      "image_query": "Korean community leaders local government officials meeting",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Revitalize",
+    "pronunciation": "/ˌriːˈvaɪtəlaɪz/",
+    "type": "verb",
+    "definition_en": "To give new life, energy, or vigor to something; to restore to a more active or healthy state.",
+    "definition_kr": "무언가에 새로운 생명, 에너지 또는 활력을 불어넣다; 더 활동적이거나 건강한 상태로 회복시키다.",
+    "example_en": "The new 'Connect & Explore' initiative aims to revitalize the tourism sector in both Korea and the Philippines.",
+    "example_kr": "새로운 '연결과 탐험' 이니셔티브는 한국과 필리핀 양국의 관광 부문을 활성화하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
