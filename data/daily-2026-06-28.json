@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-28",
+  "header_date_line": "SUNDAY, JUNE 28, 2026 | PHILIPPINES | VOL. 88",
+  "dashboard": {
+    "php_krw_rate": "25.07",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.28",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Phl Launch Ambitious Green Energy Corridor Initiative",
+    "headline_kr": "한-필, 야심찬 녹색 에너지 회랑 이니셔티브 출범",
+    "subtitle_en": "The landmark project aims to boost renewable energy capacity and foster sustainable development across key Philippine regions.",
+    "subtitle_kr": "획기적인 프로젝트는 필리핀 주요 지역 전반에 걸쳐 재생 에너지 용량을 확대하고 지속 가능한 발전을 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – A significant stride in bilateral cooperation was made yesterday as South Korea and the Philippines officially launched the 'Green Energy Corridor Initiative.' This ambitious project, a collaboration between the Philippine Department of Energy (DOE) and Korea Electric Power Corporation (KEPCO), aims to develop and integrate large-scale renewable energy sources, including solar and wind farms, into the national grid. The initiative is set to transform the energy landscape of the Philippines, enhancing energy security and promoting environmental sustainability.",
+      "The multi-billion dollar investment, projected over the next five years, will focus on establishing new generation facilities and upgrading existing transmission infrastructure in strategic areas across Luzon, Visayas, and Mindanao. Experts anticipate that the project will create thousands of green jobs, stimulate local economies, and significantly reduce the Philippines' carbon footprint. This partnership underscores Korea's commitment to supporting its ASEAN partners in achieving their climate goals and transitioning to cleaner energy sources.",
+      "Officials from both nations hailed the initiative as a testament to the strengthening strategic partnership between Korea and the Philippines. Philippine Energy Secretary Rafael Santos emphasized that the Green Energy Corridor is crucial for meeting the nation's growing energy demand sustainably, while Korean Ambassador Lee Sang-hwa highlighted the project as a model for regional cooperation in tackling global climate challenges and fostering shared prosperity."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 어제 한국과 필리핀이 '녹색 에너지 회랑 이니셔티브'를 공식 출범시키면서 양자 협력에 중요한 진전이 이루어졌습니다. 필리핀 에너지부(DOE)와 한국전력공사(KEPCO) 간의 협력 프로젝트인 이 야심찬 계획은 태양광 및 풍력 발전소를 포함한 대규모 재생 에너지원을 개발하고 국가 전력망에 통합하는 것을 목표로 합니다. 이 이니셔티브는 필리핀의 에너지 지형을 변화시키고 에너지 안보를 강화하며 환경 지속 가능성을 촉진할 것으로 기대됩니다.",
+      "향후 5년간 예상되는 수십억 달러 규모의 투자는 루손, 비사야스, 민다나오 전역의 전략 지역에 새로운 발전 시설을 구축하고 기존 송전 인프라를 업그레이드하는 데 중점을 둘 것입니다. 전문가들은 이 프로젝트가 수천 개의 친환경 일자리를 창출하고 지역 경제를 활성화하며 필리핀의 탄소 발자국을 크게 줄일 것으로 예상합니다. 이번 파트너십은 아세안 파트너들이 기후 목표를 달성하고 더 깨끗한 에너지원으로 전환하는 것을 지원하려는 한국의 의지를 보여줍니다.",
+      "양국 관계자들은 이 이니셔티브가 한국과 필리핀 간의 전략적 파트너십 강화의 증거라고 평가했습니다. 라파엘 산토스 필리핀 에너지부 장관은 녹색 에너지 회랑이 국가의 증가하는 에너지 수요를 지속 가능하게 충족하는 데 중요하다고 강조했으며, 이상화 주한 대사는 이 프로젝트가 전 세계적인 기후 문제에 대처하고 공동 번영을 촉진하는 지역 협력의 모델이라고 강조했습니다."
+    ],
+    "image_seed": "cover-2026-06-28",
+    "image_query": "Korean and Philippine officials handshake wind farm model",
+    "image_caption": "Photo: Officials from Korea and the Philippines unveil the Green Energy Corridor initiative (June 27, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Phl-Korean Police Task Force Boosts Tourist Safety in Metro Manila",
+    "headline_kr": "한-필 공동 경찰 태스크포스, 메트로 마닐라 관광객 안전 강화",
+    "lead_en": "A new specialized task force comprising Philippine National Police and Korean police liaisons has commenced operations, focusing on enhancing the safety and security of Korean tourists and residents in popular Metro Manila districts. The initiative aims to deter crime and provide rapid response, especially in areas frequented by the Korean community.",
+    "lead_kr": "필리핀 국립경찰과 한국 경찰 연락관으로 구성된 새로운 전문 태스크포스가 메트로 마닐라의 인기 지역에서 한국인 관광객과 거주민의 안전 및 보안 강화를 목표로 운영을 시작했습니다. 이 이니셔티브는 특히 한인 커뮤니티가 자주 방문하는 지역에서 범죄를 억제하고 신속한 대응을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-06-28",
+    "image_query": "Philippine and Korean police officers patrol busy street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Q2 Economic Outlook Positive, Driven by Tech and Tourism",
+      "headline_kr": "필리핀 2분기 경제 전망 긍정적, 기술 및 관광 주도",
+      "summary_en": "Analysts predict strong Q2 growth for the Philippines, citing robust performance in the technology sector and a resurgence in tourism. Korean investments continue to play a significant role in this expansion, particularly in digital infrastructure and hospitality.",
+      "summary_kr": "분석가들은 기술 부문의 견고한 실적과 관광 부문의 회복을 인용하며 필리핀의 2분기 강력한 성장을 예측합니다. 한국 투자 또한 특히 디지털 인프라 및 숙박업 분야에서 이러한 확장에 중요한 역할을 계속하고 있습니다.",
+      "image_seed": "news1-2026-06-28",
+      "image_query": "Modern Manila skyline cranes digital overlays",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Successful K-Food Festival Draws Thousands to Bonifacio Global City",
+      "headline_kr": "성공적인 K-푸드 페스티벌, 보니파시오 글로벌 시티에 수천 명 운집",
+      "summary_en": "The annual K-Food Festival held yesterday in Bonifacio Global City attracted record crowds, celebrating Korean culinary traditions and fostering cultural exchange. Visitors enjoyed traditional dishes, cooking demonstrations, and vibrant K-pop performances throughout the day.",
+      "summary_kr": "어제 보니파시오 글로벌 시티에서 열린 연례 K-푸드 페스티벌은 기록적인 인파를 끌어모으며 한국 음식 문화를 기념하고 문화 교류를 촉진했습니다. 방문객들은 하루 종일 전통 요리, 요리 시연 및 활기찬 K-POP 공연을 즐겼습니다.",
+      "image_seed": "news2-2026-06-28",
+      "image_query": "Crowd enjoying Korean food stalls outdoor festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Continued Support for Philippine Disaster Preparedness",
+      "headline_kr": "한국, 필리핀 재난 대비에 지속적인 지원 약속",
+      "summary_en": "During a recent bilateral meeting, the Korean government reaffirmed its commitment to providing aid and expertise to the Philippines for disaster risk reduction and management, focusing on early warning systems and community resilience against natural calamities.",
+      "summary_kr": "최근 양자 회담에서 한국 정부는 조기 경보 시스템 및 자연 재해에 대한 지역사회 회복력에 중점을 두고 필리핀의 재난 위험 감소 및 관리를 위한 원조 및 전문 지식 제공에 대한 약속을 재확인했습니다.",
+      "image_seed": "news3-2026-06-28",
+      "image_query": "Korean Philippine officials discussing disaster relief maps",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Expanded in Angeles City for Korean Residents",
+      "headline_kr": "앙헬레스 시 한국인 거주민 위한 지역사회 감시 프로그램 확대",
+      "summary_en": "The local government of Angeles City, in collaboration with the Korean Association, has expanded its community watch program to ensure greater safety for Korean residents, including regular patrols, security awareness campaigns, and a dedicated hotline for emergencies.",
+      "summary_kr": "앙헬레스 시 지방 정부는 한인회와 협력하여 정기 순찰, 보안 인식 캠페인 및 비상시 전용 핫라인을 포함하여 한국인 거주민의 안전 강화를 위한 지역사회 감시 프로그램을 확대했습니다.",
+      "image_seed": "news4-2026-06-28",
+      "image_query": "Local community members meeting with police officers",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Sustainable",
+    "pronunciation": "/səˈsteɪnəbl/",
+    "type": "adjective",
+    "definition_en": "Able to be maintained at a certain rate or level; conserving an ecological balance by avoiding depletion of natural resources.",
+    "definition_kr": "어떤 속도나 수준으로 유지될 수 있는; 천연 자원의 고갈을 피함으로써 생태학적 균형을 보존하는.",
+    "example_en": "The new green energy project aims for sustainable development in the region.",
+    "example_kr": "새로운 녹색 에너지 프로젝트는 지역의 지속 가능한 발전을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
