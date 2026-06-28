@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-06-29",
+  "header_date_line": "MONDAY, JUNE 29, 2026 | PHILIPPINES | VOL. 89",
+  "dashboard": {
+    "php_krw_rate": "25.08",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.06.29",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea Pledges $2 Billion for PH Digital Infrastructure Push",
+    "headline_kr": "한국, 필리핀 디지털 인프라 구축에 20억 달러 투자 약속",
+    "subtitle_en": "A new bilateral agreement aims to accelerate the Philippines' smart nation initiative, fostering innovation and creating significant opportunities for Korean tech firms.",
+    "subtitle_kr": "새로운 양자 협정은 필리핀의 스마트 국가 이니셔티브를 가속화하고, 혁신을 촉진하며 한국 기술 기업에 중요한 기회를 창출할 것입니다.",
+    "body_en": [
+      "MANILA – The Republic of Korea has committed a substantial $2 billion investment towards the Philippines' ambitious digital infrastructure development over the next five years, officials announced today. The landmark agreement, signed during a virtual summit between President Bongbong Marcos and President Yoon Suk-yeol, focuses on enhancing broadband connectivity, developing smart city solutions, and establishing advanced data centers across the archipelago. This strategic partnership is expected to significantly bolster the Philippines' digital economy and improve public services.",
+      "The investment will be channeled through a combination of direct foreign investment from major Korean tech conglomerates and official development assistance (ODA) loans. Key areas of focus include the deployment of 5G networks in underserved regions, the creation of secure government cloud infrastructure, and the development of AI-driven urban management systems. For the Korean community in the Philippines, this initiative is anticipated to open new business avenues in the tech sector, provide skilled job opportunities, and improve the digital landscape for both personal and professional use.",
+      "Both nations expressed optimism about the long-term impact of this collaboration, highlighting its potential to drive inclusive economic growth and strengthen bilateral ties. Experts suggest that the infusion of Korean technology and expertise will not only accelerate the Philippines' digital transformation but also position it as a regional hub for technological innovation. Further details on specific projects and implementation timelines are expected to be unveiled in the coming months, promising a new era of digital cooperation."
+    ],
+    "body_kr": [
+      "마닐라 – 오늘 관계자들은 한국이 향후 5년간 필리핀의 야심찬 디지털 인프라 개발에 20억 달러를 투자하기로 약속했다고 발표했습니다. 봉봉 마르코스 필리핀 대통령과 윤석열 한국 대통령 간의 화상 정상회담에서 체결된 이 획기적인 협정은 필리핀 전역의 초고속 인터넷 연결을 강화하고, 스마트 도시 솔루션을 개발하며, 첨단 데이터 센터를 구축하는 데 중점을 둡니다. 이번 전략적 파트너십은 필리핀의 디지털 경제를 크게 강화하고 공공 서비스를 개선할 것으로 기대됩니다.",
+      "이번 투자는 주요 한국 기술 대기업의 직접 외국인 투자와 공적개발원조(ODA) 차관의 조합을 통해 이루어질 예정입니다. 주요 초점 분야로는 소외 지역의 5G 네트워크 구축, 안전한 정부 클라우드 인프라 구축, 그리고 AI 기반 도시 관리 시스템 개발이 포함됩니다. 필리핀 내 한인 커뮤니티에게는 이번 이니셔티브가 기술 부문에서 새로운 사업 기회를 창출하고, 숙련된 일자리를 제공하며, 개인 및 업무 용도의 디지털 환경을 개선할 것으로 예상됩니다.",
+      "양국은 이번 협력의 장기적인 영향에 대해 낙관적인 입장을 표명하며, 포괄적인 경제 성장을 견인하고 양국 관계를 강화할 잠재력을 강조했습니다. 전문가들은 한국의 기술과 전문 지식 투입이 필리핀의 디지털 전환을 가속화할 뿐만 아니라, 필리핀을 기술 혁신의 지역 허브로 자리매김하게 할 것이라고 제안합니다. 구체적인 프로젝트와 구현 일정에 대한 추가 세부 사항은 앞으로 몇 달 안에 공개될 예정이며, 디지털 협력의 새로운 시대를 예고합니다."
+    ],
+    "image_seed": "cover-2026-06-29",
+    "image_query": "Korean Philippine officials shaking hands digital screen showing smart city plans",
+    "image_caption": "Photo: Philippine and Korean officials finalize a digital infrastructure agreement (June 29, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Task Force Strengthens Korean Community Safety in Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 커뮤니티 안전 위한 합동 태스크포스 강화",
+    "lead_en": "A new joint task force comprising Philippine National Police (PNP) and Korean Embassy security officials has been activated to enhance safety and address specific concerns of the Korean community in Metro Manila. This initiative follows recent consultations aimed at proactive crime prevention and rapid response measures.",
+    "lead_kr": "필리핀 경찰청(PNP)과 주필리핀 대한민국 대사관 보안 관계자로 구성된 새로운 합동 태스크포스가 메트로 마닐라 한인 커뮤니티의 안전을 강화하고 특정 우려 사항을 해결하기 위해 가동되었습니다. 이 이니셔티브는 선제적인 범죄 예방 및 신속 대응 조치를 목표로 하는 최근 협의에 따른 것입니다.",
+    "image_seed": "feat-2026-06-29",
+    "image_query": "Philippine police Korean embassy officials meeting community safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Leaders Convene to Discuss Post-Pandemic Economic Resilience",
+      "headline_kr": "아세안 정상들, 팬데믹 이후 경제 회복력 논의 위해 소집",
+      "summary_en": "Leaders from ASEAN member states are meeting in Jakarta to strategize on strengthening regional economic resilience and fostering sustainable growth in the wake of global economic shifts. Key discussions include trade liberalization and digital economy integration.",
+      "summary_kr": "아세안 회원국 정상들이 자카르타에 모여 글로벌 경제 변화 속에서 역내 경제 회복력을 강화하고 지속 가능한 성장을 촉진하기 위한 전략을 논의하고 있습니다. 주요 논의 사항에는 무역 자유화와 디지털 경제 통합이 포함됩니다.",
+      "image_seed": "news1-2026-06-29",
+      "image_query": "ASEAN leaders summit meeting table Jakarta",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Breaks Attendance Records in Manila Park",
+      "headline_kr": "마닐라 공원 K-푸드 페스티벌, 역대 최다 관객 기록",
+      "summary_en": "The annual K-Food Festival held at Rizal Park this past weekend attracted an unprecedented number of visitors, showcasing diverse Korean culinary traditions and boosting cultural exchange. Attendees enjoyed traditional dishes, cooking demonstrations, and K-pop performances.",
+      "summary_kr": "지난 주말 리잘 공원에서 열린 연례 K-푸드 페스티벌은 전례 없는 수의 방문객을 끌어모으며 다양한 한국 요리 전통을 선보이고 문화 교류를 증진했습니다. 참석자들은 전통 요리, 요리 시연 및 K-POP 공연을 즐겼습니다.",
+      "image_seed": "news2-2026-06-29",
+      "image_query": "Crowd enjoying K-food festival Rizal Park",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Eye Renewable Energy Partnership Amidst Climate Goals",
+      "headline_kr": "필리핀, 한국과 기후 목표 달성을 위한 재생 에너지 파트너십 모색",
+      "summary_en": "Philippine and Korean energy officials are exploring potential partnerships in renewable energy, particularly in solar and offshore wind power, to meet ambitious climate goals. The talks aim to leverage Korea's advanced technology and the Philippines' abundant natural resources.",
+      "summary_kr": "필리핀과 한국 에너지 관계자들이 야심찬 기후 목표 달성을 위해 태양광 및 해상 풍력 발전을 중심으로 재생 에너지 분야의 잠재적 파트너십을 모색하고 있습니다. 이번 회담은 한국의 첨단 기술과 필리핀의 풍부한 자연 자원을 활용하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-06-29",
+      "image_query": "Solar panels offshore wind turbines Philippines Korea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Updated Travel Advisory for Mindanao",
+      "headline_kr": "주필리핀 대한민국 대사관, 민다나오 여행 경보 업데이트 발표",
+      "summary_en": "The Korean Embassy in Manila has released an updated travel advisory for certain areas in Mindanao, urging Korean nationals to exercise heightened caution. The advisory provides specific guidelines and contact information for emergencies.",
+      "summary_kr": "주필리핀 대한민국 대사관은 민다나오 특정 지역에 대한 업데이트된 여행 경보를 발표하며, 한국 국민들에게 각별한 주의를 당부했습니다. 경보는 비상 상황을 위한 구체적인 지침과 연락처 정보를 제공합니다.",
+      "image_seed": "news4-2026-06-29",
+      "image_query": "Korean embassy building travel advisory sign Mindanao",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital infrastructure investment highlights the synergy between Korean technology and Philippine development goals.",
+    "example_kr": "디지털 인프라 투자는 한국의 기술과 필리핀의 개발 목표 간의 시너지를 강조합니다.",
+    "grade": "A+"
+  }
+}
