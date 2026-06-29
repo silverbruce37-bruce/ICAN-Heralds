@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-30",
+    "vol": 90,
+    "cover_en": "Philippines, South Korea Forge Landmark Digital Transformation Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 전환 파트너십 체결",
+    "headlines_en": [
+      "Joint Anti-Cybercrime Task Force Launched by PH and ROK",
+      "Korean Tech Firms Eye ASEAN Green Energy Market Expansion",
+      "Philippine K-Pop Fans Celebrate Annual 'K-Wave Fiesta' in Manila",
+      "PH, ROK Strengthen Educational Exchange Programs for Youth",
+      "Makati City Implements New Safety Protocols for Foreign Residents"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 사이버범죄 전담반 출범",
+      "한국 기술 기업들, 아세안 녹색 에너지 시장 확장 모색",
+      "필리핀 K팝 팬들, 마닐라에서 연례 'K-웨이브 피에스타' 축제 개최",
+      "필리핀-한국, 청소년 교육 교류 프로그램 강화",
+      "마카티시, 외국인 거주자 위한 새로운 안전 프로토콜 시행"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-06-29",
     "vol": 89,
     "cover_en": "Korea Pledges $2 Billion for PH Digital Infrastructure Push",
