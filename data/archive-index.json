@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-02",
+    "vol": 92,
+    "cover_en": "Philippines and Korea Launch Landmark Digital Innovation Hub in Manila",
+    "cover_kr": "필리핀-한국, 마닐라에 획기적인 디지털 혁신 허브 출범",
+    "headlines_en": [
+      "Joint Patrols and Community Programs Boost Korean Safety in Metro Manila",
+      "Korean Firms Eye Philippine Green Energy Sector for Major Investments",
+      "Manila's K-Food Fair Draws Record Crowds, Showcasing Culinary Diversity",
+      "Philippines, Korea Forge Stronger Ties in Maritime Security Training",
+      "Korean Embassy Advises Caution Amidst Typhoon Season Start in PH"
+    ],
+    "headlines_kr": [
+      "마닐라 수도권, 한인 안전 위한 합동 순찰 및 커뮤니티 프로그램 강화",
+      "한국 기업들, 필리핀 녹색 에너지 부문에 대규모 투자 모색",
+      "마닐라 K-푸드 페어 역대급 인파, 요리 다양성 선보여",
+      "필리핀-한국, 해양 안보 훈련 협력 강화",
+      "주필리핀 한국 대사관, 태풍 시즌 시작에 따른 주의 당부"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Economy",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-01",
     "vol": 91,
     "cover_en": "Korea, Philippines Forge Ahead with Major Digital Transformation Pact",
