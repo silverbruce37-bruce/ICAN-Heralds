@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-03",
+    "vol": 93,
+    "cover_en": "Philippines-Korea Digital Hub Project Accelerates, Boosting Tech Sector",
+    "cover_kr": "필리핀-한국 디지털 허브 프로젝트 가속화, 기술 부문 활성화 기대",
+    "headlines_en": [
+      "Joint Task Force Bolsters Tourist Safety in Popular Destinations",
+      "Korean Investors Eye Philippine Renewable Energy Sector Amid Green Push",
+      "Grand K-Food & Culture Festival Set for August in Metro Manila",
+      "PH-ROK Maritime Security Dialogue Concludes with Enhanced Pledges",
+      "Embassy Issues Rainy Season Safety Advisory for Korean Residents"
+    ],
+    "headlines_kr": [
+      "합동 태스크포스, 인기 관광지 관광객 안전 강화",
+      "한국 투자자들, 친환경 정책 속 필리핀 재생에너지 부문 주시",
+      "메트로 마닐라 8월 대규모 K-푸드 & 문화 축제 개최 예정",
+      "필리핀-한국 해양 안보 대화, 강화된 공약으로 마무리",
+      "대사관, 한인 거주자 대상 우기 안전 수칙 발표"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Safety",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-02",
     "vol": 92,
     "cover_en": "Philippines and Korea Launch Landmark Digital Innovation Hub in Manila",

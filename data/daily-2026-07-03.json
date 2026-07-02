@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-03",
+  "header_date_line": "FRIDAY, JULY 3, 2026 | PHILIPPINES | VOL. 93",
+  "dashboard": {
+    "php_krw_rate": "25.08",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.03",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Hub Project Accelerates, Boosting Tech Sector",
+    "headline_kr": "필리핀-한국 디지털 허브 프로젝트 가속화, 기술 부문 활성화 기대",
+    "subtitle_en": "The landmark digital transformation initiative between the Philippines and South Korea is making significant strides, promising a new era of technological advancement and economic growth for both nations.",
+    "subtitle_kr": "필리핀과 한국 간의 획기적인 디지털 전환 이니셔티브가 상당한 진전을 보이며 양국에 기술 발전과 경제 성장의 새 시대를 약속하고 있습니다.",
+    "body_en": [
+      "The ambitious Philippines-Korea Digital Hub Project, a cornerstone of bilateral cooperation, has entered its accelerated phase, with key infrastructure deployments and talent development programs now in full swing. This initiative aims to establish state-of-the-art data centers, enhance broadband connectivity across key regions, and foster a robust ecosystem for digital innovation, directly supporting the Philippines' 'Digital Pilipinas' agenda and South Korea's 'Digital Korea' vision.",
+      "Officials from both governments highlighted the project's strategic importance during a recent joint press briefing in Manila. The collaboration includes significant Korean investment in digital infrastructure, knowledge transfer, and the training of Filipino IT professionals, leveraging Korea's expertise as a global leader in digital technology. This synergy is expected to create numerous job opportunities, attract further foreign direct investment, and significantly improve digital services for both businesses and citizens.",
+      "For the Korean community in the Philippines, the Digital Hub Project is anticipated to streamline business operations, facilitate easier communication, and open new avenues for tech-based startups and investments. Korean companies already operating in sectors like e-commerce, fintech, and IT services are poised to benefit from enhanced digital infrastructure and a growing pool of skilled local talent, solidifying the Philippines' position as a vital digital partner in ASEAN."
+    ],
+    "body_kr": [
+      "양국 협력의 초석인 야심찬 필리핀-한국 디지털 허브 프로젝트가 핵심 인프라 구축 및 인재 개발 프로그램이 본격적으로 진행되면서 가속화 단계에 진입했습니다. 이 이니셔티브는 최첨단 데이터 센터를 구축하고, 주요 지역의 광대역 연결성을 강화하며, 디지털 혁신을 위한 강력한 생태계를 조성하여 필리핀의 '디지털 필리피나스' 의제와 한국의 '디지털 코리아' 비전을 직접적으로 지원하는 것을 목표로 합니다.",
+      "양국 정부 관계자들은 최근 마닐라에서 열린 공동 기자회견에서 프로젝트의 전략적 중요성을 강조했습니다. 이 협력은 디지털 인프라에 대한 한국의 상당한 투자, 지식 이전 및 필리핀 IT 전문가 교육을 포함하며, 디지털 기술 분야의 글로벌 리더인 한국의 전문성을 활용합니다. 이러한 시너지는 수많은 일자리 창출, 추가적인 외국인 직접 투자 유치, 그리고 기업과 시민을 위한 디지털 서비스의 상당한 개선을 가져올 것으로 기대됩니다.",
+      "필리핀 내 한인 사회에게 디지털 허브 프로젝트는 비즈니스 운영을 간소화하고, 보다 쉬운 의사소통을 촉진하며, 기술 기반 스타트업 및 투자를 위한 새로운 길을 열어줄 것으로 예상됩니다. 이미 전자상거래, 핀테크, IT 서비스와 같은 분야에서 활동하는 한국 기업들은 향상된 디지털 인프라와 숙련된 현지 인력 풀의 성장에서 이점을 얻어, 필리핀이 아세안 지역의 중요한 디지털 파트너로서의 입지를 확고히 할 것입니다."
+    ],
+    "image_seed": "cover-2026-07-03",
+    "image_query": "Korean Philippine officials handshake digital agreement signing ceremony, data centers",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands at the Digital Hub Project signing (July 2, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Task Force Bolsters Tourist Safety in Popular Destinations",
+    "headline_kr": "합동 태스크포스, 인기 관광지 관광객 안전 강화",
+    "lead_en": "A newly formed Philippine-Korean joint task force has begun operations to enhance the safety and security of tourists, particularly Korean nationals, in key tourist areas across the Philippines. This initiative follows recent consultations between the Philippine National Police (PNP) and the Korean Embassy to address safety concerns and improve rapid response capabilities.",
+    "lead_kr": "필리핀-한국 합동 태스크포스가 필리핀 전역의 주요 관광지에서 특히 한국인 관광객의 안전과 보안을 강화하기 위한 작전을 시작했습니다. 이 이니셔티브는 필리핀 국가경찰(PNP)과 주한 필리핀 대사관 간의 최근 협의에 따라 안전 문제 해결 및 신속 대응 능력 향상을 목표로 합니다.",
+    "image_seed": "feat-2026-07-03",
+    "image_query": "Philippine Korean police officers patrol tourist area, smiling",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eye Philippine Renewable Energy Sector Amid Green Push",
+      "headline_kr": "한국 투자자들, 친환경 정책 속 필리핀 재생에너지 부문 주시",
+      "summary_en": "Korean conglomerates are showing increased interest in the Philippines' burgeoning renewable energy market, with several exploring investments in solar, wind, and geothermal projects. This aligns with both nations' commitments to sustainable development and energy security.",
+      "summary_kr": "한국 대기업들이 필리핀의 급성장하는 재생에너지 시장에 대한 관심을 높이며, 태양광, 풍력, 지열 프로젝트 투자를 모색하고 있습니다. 이는 양국의 지속 가능한 발전 및 에너지 안보 약속과 일치합니다.",
+      "image_seed": "news1-2026-07-03",
+      "image_query": "Korean investor Philippine renewable energy project discussion",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Grand K-Food & Culture Festival Set for August in Metro Manila",
+      "headline_kr": "메트로 마닐라 8월 대규모 K-푸드 & 문화 축제 개최 예정",
+      "summary_en": "Anticipation builds for the annual K-Food & Culture Festival, scheduled for August in Metro Manila. The event will showcase traditional Korean cuisine, K-Pop performances, and cultural workshops, drawing thousands of Filipinos and Korean residents alike.",
+      "summary_kr": "메트로 마닐라에서 8월에 열릴 연례 K-푸드 & 문화 축제에 대한 기대가 고조되고 있습니다. 이 행사는 전통 한식, K-팝 공연, 문화 워크숍을 선보이며 수천 명의 필리핀인과 한인들을 끌어모을 예정입니다.",
+      "image_seed": "news2-2026-07-03",
+      "image_query": "Korean food stalls, K-pop dance performance stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-ROK Maritime Security Dialogue Concludes with Enhanced Pledges",
+      "headline_kr": "필리핀-한국 해양 안보 대화, 강화된 공약으로 마무리",
+      "summary_en": "The latest round of the Philippines-Republic of Korea Maritime Security Dialogue concluded yesterday, yielding renewed commitments to collaborative efforts in ensuring regional maritime stability and combating illegal fishing. Both sides emphasized the importance of a free and open Indo-Pacific.",
+      "summary_kr": "필리핀-한국 해양 안보 대화의 최근 회의가 어제 마무리되었으며, 역내 해양 안정성 보장 및 불법 어업 퇴치에 대한 협력 노력에 대한 새로운 약속이 나왔습니다. 양측은 자유롭고 개방된 인도-태평양의 중요성을 강조했습니다.",
+      "image_seed": "news3-2026-07-03",
+      "image_query": "Korean Philippine navy officers discussing map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Rainy Season Safety Advisory for Korean Residents",
+      "headline_kr": "대사관, 한인 거주자 대상 우기 안전 수칙 발표",
+      "summary_en": "The Korean Embassy in the Philippines has released an updated safety advisory for its residents, urging caution during the peak rainy season. The advisory includes tips for flood preparedness, road safety, and health precautions against waterborne diseases.",
+      "summary_kr": "주필리핀 한국 대사관은 우기 절정기에 대비하여 한인 거주자들을 위한 업데이트된 안전 수칙을 발표했습니다. 이 수칙에는 홍수 대비, 도로 안전, 수인성 질병에 대한 건강 예방 조치가 포함되어 있습니다.",
+      "image_seed": "news4-2026-07-03",
+      "image_query": "Heavy rain street Philippines, people with umbrellas",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital hub project aims to create a powerful synergy between Philippine innovation and Korean technological expertise.",
+    "example_kr": "디지털 허브 프로젝트는 필리핀의 혁신과 한국의 기술 전문성 사이에 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
