@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-05",
+    "vol": 95,
+    "cover_en": "RP-Korea Digital Hub Project Enters Critical Phase, Boosting Regional Connectivity",
+    "cover_kr": "필리핀-한국 디지털 허브 프로젝트, 지역 연결성 강화하며 중요 단계 진입",
+    "headlines_en": [
+      "Joint Cyber Task Force Alerts Korean Businesses on Rising Phishing Scams",
+      "Korean Firms Invest Heavily in PH Renewable Energy Sector",
+      "K-Pop Festival Manila Draws Record Crowds, Showcasing Hallyu's Enduring Appeal",
+      "ASEAN-Korea Summit Preparations Underway, Focus on Regional Stability",
+      "Korean Community Holds Disaster Preparedness Workshop in Quezon City"
+    ],
+    "headlines_kr": [
+      "한-필리핀 합동 사이버 태스크포스, 한국 기업 대상 피싱 사기 증가에 경고",
+      "한국 기업들, 필리핀 신재생에너지 부문에 대규모 투자",
+      "마닐라 K-팝 페스티벌, 기록적인 인파 동원하며 한류의 지속적 인기 입증",
+      "아세안-한국 정상회담 준비 박차, 역내 안정에 초점",
+      "퀘존 시티 한국인 공동체, 재난 대비 워크숍 개최"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Safety",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-04",
     "vol": 94,
     "cover_en": "PH-Korea Digital Partnership Bolsters Regional Innovation",

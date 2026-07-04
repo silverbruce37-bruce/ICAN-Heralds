@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-05",
+  "header_date_line": "SUNDAY, JULY 5, 2026 | PHILIPPINES | VOL. 95",
+  "dashboard": {
+    "php_krw_rate": "24.93",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.05",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "RP-Korea Digital Hub Project Enters Critical Phase, Boosting Regional Connectivity",
+    "headline_kr": "필리핀-한국 디지털 허브 프로젝트, 지역 연결성 강화하며 중요 단계 진입",
+    "subtitle_en": "The ambitious joint initiative aims to transform the Philippines into a digital logistics and data center hub, fostering economic growth and enhancing ASEAN's digital infrastructure. It signifies a deepening partnership between the two nations.",
+    "subtitle_kr": "필리핀을 디지털 물류 및 데이터 센터 허브로 전환하여 경제 성장을 촉진하고 아세안의 디지털 인프라를 강화하는 야심찬 공동 이니셔티브입니다. 이는 양국 간의 심화된 파트너십을 의미합니다.",
+    "body_en": [
+      "MANILA – The Philippines-Korea Digital Connectivity Initiative (PKDCI) has officially moved into its critical implementation phase, following a series of successful pilot projects and bilateral agreements signed earlier this year. This landmark project, spearheaded by the Department of Information and Communications Technology (DICT) and supported by the Korean Ministry of Science and ICT, seeks to establish a robust digital backbone across the archipelago, significantly improving internet access and speed, particularly in underserved regions. The initiative is poised to attract substantial foreign investment, with several Korean tech giants already committing resources and expertise.",
+      "At the core of the PKDCI is the development of advanced data centers, submarine cable landing stations, and a nationwide fiber optic network. Experts believe this infrastructure will not only bridge the digital divide within the Philippines but also position the country as a crucial digital gateway in Southeast Asia. \"This is more than just infrastructure; it's about empowering communities, driving innovation, and creating new economic opportunities for millions,\" stated DICT Secretary Maria Garcia during a recent press briefing. The project is expected to generate thousands of jobs during its construction and operational phases, providing a significant boost to the local economy.",
+      "The long-term vision for the PKDCI extends beyond domestic benefits, aiming to foster greater digital integration within the ASEAN region. By enhancing cross-border data flow and digital trade capabilities, the initiative is set to strengthen regional economic ties and facilitate smoother interactions for businesses and individuals alike. Korean Ambassador Lee Sang-ho emphasized the shared commitment to digital transformation, stating, \"Our partnership with the Philippines on this initiative underscores Korea's dedication to sustainable development and technological advancement in the region, creating a future of shared prosperity.\" The project is anticipated to be fully operational by late 2028."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀-한국 디지털 연결성 이니셔티브(PKDCI)가 올해 초 체결된 일련의 성공적인 시범 프로젝트 및 양자 협정을 거쳐 공식적으로 중요한 이행 단계에 진입했습니다. 필리핀 정보통신기술부(DICT)가 주도하고 한국 과학기술정보통신부의 지원을 받는 이 획기적인 프로젝트는 필리핀 전역에 강력한 디지털 백본을 구축하여 특히 서비스가 부족한 지역의 인터넷 접근성과 속도를 크게 향상시키는 것을 목표로 합니다. 이 이니셔티브는 상당한 외국인 투자를 유치할 것으로 예상되며, 이미 여러 한국 기술 대기업이 자원과 전문 지식을 투입하기로 약속했습니다.",
+      "PKDCI의 핵심은 고급 데이터 센터, 해저 케이블 착륙 기지 및 전국적인 광섬유 네트워크 개발입니다. 전문가들은 이 인프라가 필리핀 내 디지털 격차를 해소할 뿐만 아니라 이 나라를 동남아시아의 중요한 디지털 관문으로 자리매김할 것이라고 믿습니다. 마리아 가르시아 DICT 장관은 최근 기자회견에서 \"이것은 단순한 인프라 이상입니다. 이는 지역 사회에 권한을 부여하고 혁신을 주도하며 수백만 명에게 새로운 경제적 기회를 창출하는 것입니다\"라고 말했습니다. 이 프로젝트는 건설 및 운영 단계에서 수천 개의 일자리를 창출하여 지역 경제에 상당한 활력을 불어넣을 것으로 예상됩니다.",
+      "PKDCI의 장기 비전은 국내 혜택을 넘어 아세안 지역 내에서 더 큰 디지털 통합을 촉진하는 것을 목표로 합니다. 국경 간 데이터 흐름과 디지털 무역 역량을 강화함으로써 이 이니셔티브는 지역 경제 관계를 강화하고 기업과 개인 모두에게 더 원활한 상호 작용을 촉진할 것입니다. 이상호 주필리핀 한국 대사는 디지털 전환에 대한 공동의 약속을 강조하며 \"이 이니셔티브에 대한 필리핀과의 파트너십은 한국이 이 지역의 지속 가능한 개발과 기술 발전에 헌신하고 있음을 보여주며, 공동 번영의 미래를 창조할 것입니다\"라고 말했습니다. 이 프로젝트는 2028년 말까지 완전히 운영될 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-07-05",
+    "image_query": "Korean Philippine officials handshake digital infrastructure project signing",
+    "image_caption": "Photo: DICT Secretary Maria Garcia and Korean Ambassador Lee Sang-ho shake hands after signing a key agreement for the PKDCI (July 4, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Cyber Task Force Alerts Korean Businesses on Rising Phishing Scams",
+    "headline_kr": "한-필리핀 합동 사이버 태스크포스, 한국 기업 대상 피싱 사기 증가에 경고",
+    "lead_en": "A newly established joint cyber security task force, comprising experts from the Philippine National Police (PNP) and the Korean National Police Agency (KNPA), has issued a heightened alert to Korean businesses and residents in the Philippines regarding a surge in sophisticated phishing and online fraud attempts. The task force urges vigilance and immediate reporting of suspicious activities to prevent financial losses and data breaches.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 전문가들로 구성된 신설 합동 사이버 보안 태스크포스가 필리핀 내 한국 기업 및 거주민을 대상으로 정교한 피싱 및 온라인 사기 시도 증가에 대해 경고를 발령했습니다. 태스크포스는 재정적 손실과 데이터 유출을 방지하기 위해 경계를 강화하고 의심스러운 활동을 즉시 보고할 것을 촉구했습니다.",
+    "image_seed": "feat-2026-07-05",
+    "image_query": "Cyber security experts analyzing digital threats screen",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Invest Heavily in PH Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 필리핀 신재생에너지 부문에 대규모 투자",
+      "summary_en": "Several major Korean energy companies announced significant investments in solar and wind power projects across the Philippines, aiming to support the nation's clean energy transition and meet growing electricity demands.",
+      "summary_kr": "여러 주요 한국 에너지 기업들이 필리핀 전역의 태양광 및 풍력 발전 프로젝트에 대한 상당한 투자를 발표하며, 필리핀의 청정 에너지 전환을 지원하고 증가하는 전력 수요를 충족시키는 것을 목표로 합니다.",
+      "image_seed": "news1-2026-07-05",
+      "image_query": "Solar panels wind turbines Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Festival Manila Draws Record Crowds, Showcasing Hallyu's Enduring Appeal",
+      "headline_kr": "마닐라 K-팝 페스티벌, 기록적인 인파 동원하며 한류의 지속적 인기 입증",
+      "summary_en": "The annual K-Pop Festival in Manila concluded with unprecedented attendance, highlighting the unwavering popularity of Korean music and culture among Filipino youth. Organizers hinted at an even bigger event next year.",
+      "summary_kr": "마닐라에서 열린 연례 K-팝 페스티벌이 전례 없는 참석률을 기록하며 필리핀 젊은이들 사이에서 한국 음악과 문화의 변함없는 인기를 입증했습니다. 주최측은 내년에는 더 큰 행사를 예고했습니다.",
+      "image_seed": "news2-2026-07-05",
+      "image_query": "K-pop concert crowd lightsticks stage Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Preparations Underway, Focus on Regional Stability",
+      "headline_kr": "아세안-한국 정상회담 준비 박차, 역내 안정에 초점",
+      "summary_en": "Officials from ASEAN member states and Korea are finalizing preparations for the upcoming summit, expected to address regional security, economic cooperation, and climate change initiatives.",
+      "summary_kr": "아세안 회원국과 한국 관계자들이 다가오는 정상회담 준비를 마무리하고 있으며, 역내 안보, 경제 협력 및 기후 변화 이니셔티브를 다룰 예정입니다.",
+      "image_seed": "news3-2026-07-05",
+      "image_query": "ASEAN Korea flags summit meeting room",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Holds Disaster Preparedness Workshop in Quezon City",
+      "headline_kr": "퀘존 시티 한국인 공동체, 재난 대비 워크숍 개최",
+      "summary_en": "The Korean Association in the Philippines hosted a successful workshop in Quezon City, educating residents on earthquake and typhoon preparedness, in collaboration with local disaster response units.",
+      "summary_kr": "필리핀 한국인회가 퀘존 시티에서 지역 재난 대응 부서와 협력하여 지진 및 태풍 대비 교육 워크숍을 성공적으로 개최했습니다.",
+      "image_seed": "news4-2026-07-05",
+      "image_query": "Community members emergency preparedness training workshop",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각각의 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital connectivity project aims to create synergy between the Philippine and Korean tech sectors.",
+    "example_kr": "디지털 연결성 프로젝트는 필리핀과 한국 기술 부문 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
