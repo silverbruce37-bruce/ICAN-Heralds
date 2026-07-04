@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-04",
+  "header_date_line": "SATURDAY, JULY 4, 2026 | PHILIPPINES | VOL. 94",
+  "dashboard": {
+    "php_krw_rate": "24.93",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Partnership Bolsters Regional Innovation",
+    "headline_kr": "한-필 디지털 파트너십, 역내 혁신 가속화",
+    "subtitle_en": "New agreement focuses on AI, fintech, and cybersecurity, aiming to position both nations as leaders in ASEAN's digital transformation.",
+    "subtitle_kr": "인공지능, 핀테크, 사이버 보안에 중점을 둔 새로운 협정은 양국을 아세안 디지털 전환의 선두주자로 자리매김하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila and Seoul have officially entered a new phase of collaboration with the signing of the 'Philippines-Korea Digital Innovation Partnership Agreement' on Friday. The landmark accord, signed by the Philippine Department of Information and Communications Technology (DICT) and Korea's Ministry of Science and ICT (MSIT), aims to foster a robust digital ecosystem across key sectors. This strategic move is expected to drive economic growth, enhance technological capabilities, and create new opportunities for businesses and citizens in both nations.",
+      "Under the agreement, joint initiatives will focus on developing advanced solutions in artificial intelligence (AI), strengthening the fintech landscape, and bolstering cybersecurity infrastructure. Experts from both countries will collaborate on research and development projects, facilitate technology transfer, and establish shared platforms for data exchange and innovation. For the Korean community in the Philippines, this partnership opens doors for tech startups, skilled professionals, and investors looking to leverage the burgeoning digital market.",
+      "The partnership is seen as a pivotal step towards accelerating ASEAN's digital transformation agenda, positioning the Philippines and Korea as key drivers of innovation in the region. Officials emphasized the long-term vision of creating a resilient, interconnected, and secure digital future, inviting further collaboration with other ASEAN member states. This agreement underscores the deepening bilateral ties and a shared commitment to harnessing digital advancements for sustainable development."
+    ],
+    "body_kr": [
+      "마닐라와 서울이 금요일 '필리핀-한국 디지털 혁신 파트너십 협정' 서명과 함께 새로운 협력 단계에 공식적으로 진입했습니다. 필리핀 정보통신기술부(DICT)와 한국 과학기술정보통신부(MSIT)가 서명한 이 획기적인 협정은 주요 분야에 걸쳐 강력한 디지털 생태계를 조성하는 것을 목표로 합니다. 이러한 전략적 움직임은 양국의 경제 성장을 촉진하고 기술 역량을 강화하며 기업과 시민을 위한 새로운 기회를 창출할 것으로 기대됩니다.",
+      "협정 하에, 공동 이니셔티브는 인공지능(AI) 분야의 고급 솔루션 개발, 핀테크 환경 강화, 사이버 보안 인프라 확충에 중점을 둘 것입니다. 양국의 전문가들은 연구 개발 프로젝트에 협력하고, 기술 이전을 촉진하며, 데이터 교환 및 혁신을 위한 공유 플랫폼을 구축할 예정입니다. 필리핀 내 한인 사회에게 이 파트너십은 성장하는 디지털 시장을 활용하려는 기술 스타트업, 숙련된 전문가, 투자자들에게 문을 열어줄 것입니다.",
+      "이 파트너십은 아세안의 디지털 전환 의제를 가속화하고, 필리핀과 한국을 역내 혁신의 핵심 동력으로 자리매김하는 중요한 단계로 평가됩니다. 관계자들은 탄력적이고 상호 연결되며 안전한 디지털 미래를 창조하려는 장기적인 비전을 강조하며, 다른 아세안 회원국들과의 추가 협력을 요청했습니다. 이 협정은 양국 관계의 심화와 지속 가능한 발전을 위한 디지털 발전 활용에 대한 공동의 약속을 강조합니다."
+    ],
+    "image_seed": "cover-2026-07-04",
+    "image_query": "Korean and Philippine officials shaking hands signing digital partnership agreement",
+    "image_caption": "Photo: DICT and MSIT officials finalize the Digital Innovation Partnership Agreement (July 4, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Makati Bolsters Security for Tourists and Residents Amid Peak Season",
+    "headline_kr": "마카티, 성수기 관광객 및 주민 안전 강화 조치 발표",
+    "lead_en": "Makati City has announced enhanced security measures across its commercial and residential districts, particularly targeting areas frequented by foreign tourists and expatriates, including the Korean community. The initiative comes as the city anticipates a surge in visitors during the latter half of the year, aiming to ensure a safe and welcoming environment for everyone.",
+    "lead_kr": "마카티 시는 특히 외국인 관광객과 교민(한인 사회 포함)이 자주 찾는 상업 및 주거 지역 전반에 걸쳐 강화된 보안 조치를 발표했습니다. 이 조치는 하반기 방문객 급증에 대비하여 모두에게 안전하고 환영받는 환경을 보장하기 위한 것입니다.",
+    "image_seed": "feat-2026-07-04",
+    "image_query": "Makati police patrol officer walking business district",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean SMEs Invest in Philippines' Green Energy Transition",
+      "headline_kr": "한국 중소기업, 필리핀 녹색 에너지 전환에 투자",
+      "summary_en": "Several Korean small and medium-sized enterprises (SMEs) have announced significant investments in the Philippines' renewable energy sector, focusing on solar and wind projects. This move aligns with the Philippines' ambitious goals to increase its clean energy capacity and offers promising growth for Korean technology firms.",
+      "summary_kr": "여러 한국 중소기업(SME)들이 필리핀 재생 에너지 부문에 태양광 및 풍력 프로젝트를 중심으로 상당한 투자를 발표했습니다. 이러한 움직임은 필리핀의 청정 에너지 용량 증대 목표와 일치하며 한국 기술 기업들에게 유망한 성장을 제공합니다.",
+      "image_seed": "news1-2026-07-04",
+      "image_query": "Solar panel farm Philippines Korean investor",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Festival Manila Draws Record Crowds, Showcasing Diverse Talents",
+      "headline_kr": "마닐라 K-컬처 페스티벌, 기록적인 인파 속 다양한 재능 선보여",
+      "summary_en": "The annual K-Culture Festival in Manila concluded with unprecedented attendance, celebrating Korean music, dance, film, and traditional arts. Local and Korean artists collaborated, highlighting the growing cultural exchange and the Philippines' strong appreciation for Hallyu.",
+      "summary_kr": "마닐라에서 열린 연례 K-컬처 페스티벌이 전례 없는 인파를 동원하며 한국 음악, 춤, 영화, 전통 예술을 기념했습니다. 현지 및 한국 예술가들이 협력하여 문화 교류의 성장과 필리핀의 한류에 대한 높은 인식을 보여주었습니다.",
+      "image_seed": "news2-2026-07-04",
+      "image_query": "Crowd enjoying K-Pop concert Manila festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines and Korea Launch Joint Maritime Security Drills in West Philippine Sea",
+      "headline_kr": "필리핀-한국, 서필리핀해에서 합동 해상 보안 훈련 실시",
+      "summary_en": "The Philippine Coast Guard and the Republic of Korea Coast Guard commenced joint maritime security exercises in the West Philippine Sea. The drills aim to enhance interoperability, share best practices in maritime law enforcement, and strengthen regional security cooperation.",
+      "summary_kr": "필리핀 해안경비대와 대한민국 해양경찰청이 서필리핀해에서 합동 해상 보안 훈련을 시작했습니다. 이 훈련은 상호 운용성을 강화하고 해상 법 집행의 모범 사례를 공유하며 역내 안보 협력을 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-07-04",
+      "image_query": "Philippine Korean coast guard ships joint exercise",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Emergency Preparedness Seminars for Korean Expats in Manila Gain Traction",
+      "headline_kr": "마닐라 한인 교민 대상 비상 대비 세미나, 큰 호응 얻어",
+      "summary_en": "The Korean Embassy, in collaboration with local disaster agencies, hosted a series of emergency preparedness seminars for Korean expatriates. The sessions covered earthquake safety, typhoon protocols, and crime prevention, receiving positive feedback from attendees keen on enhancing community resilience.",
+      "summary_kr": "주 필리핀 한국 대사관이 현지 재난 기관과 협력하여 한인 교민을 대상으로 비상 대비 세미나를 개최했습니다. 이 세미나는 지진 안전, 태풍 프로토콜, 범죄 예방 등을 다루었으며, 지역 사회 회복력 강화에 대한 참석자들의 긍정적인 평가를 받았습니다.",
+      "image_seed": "news4-2026-07-04",
+      "image_query": "Korean embassy official speaking disaster preparedness",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds significant change or action.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 요인.",
+    "example_en": "The new digital partnership between the Philippines and Korea is expected to be a catalyst for technological innovation in the ASEAN region.",
+    "example_kr": "필리핀과 한국 간의 새로운 디지털 파트너십은 아세안 지역의 기술 혁신에 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

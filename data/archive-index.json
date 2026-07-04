@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-04",
+    "vol": 94,
+    "cover_en": "PH-Korea Digital Partnership Bolsters Regional Innovation",
+    "cover_kr": "한-필 디지털 파트너십, 역내 혁신 가속화",
+    "headlines_en": [
+      "Makati Bolsters Security for Tourists and Residents Amid Peak Season",
+      "Korean SMEs Invest in Philippines' Green Energy Transition",
+      "K-Culture Festival Manila Draws Record Crowds, Showcasing Diverse Talents",
+      "Philippines and Korea Launch Joint Maritime Security Drills in West Philippine Sea",
+      "Emergency Preparedness Seminars for Korean Expats in Manila Gain Traction"
+    ],
+    "headlines_kr": [
+      "마카티, 성수기 관광객 및 주민 안전 강화 조치 발표",
+      "한국 중소기업, 필리핀 녹색 에너지 전환에 투자",
+      "마닐라 K-컬처 페스티벌, 기록적인 인파 속 다양한 재능 선보여",
+      "필리핀-한국, 서필리핀해에서 합동 해상 보안 훈련 실시",
+      "마닐라 한인 교민 대상 비상 대비 세미나, 큰 호응 얻어"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-07-03",
     "vol": 93,
     "cover_en": "Philippines-Korea Digital Hub Project Accelerates, Boosting Tech Sector",
