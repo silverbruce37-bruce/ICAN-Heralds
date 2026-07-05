@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-06",
+    "vol": 96,
+    "cover_en": "Korean Tech Giant Leads Smart City Development in New Clark City",
+    "cover_kr": "한국 기술 대기업, 뉴 클락 시티 스마트 도시 개발 주도",
+    "headlines_en": [
+      "Joint Police Initiative Boosts Safety for Korean Residents in Metro Manila",
+      "Philippines-Korea Trade Volume Surges, Driven by Tech and Manufacturing",
+      "Manila Hosts Successful K-Food Festival, Showcasing Culinary Delights",
+      "Korean Government Expands Scholarship Program for Filipino Students",
+      "Philippine Authorities Issue Typhoon Season Preparedness Advisory"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 안전 위해 한-필 합동 경찰 이니셔티브 강화",
+      "기술 및 제조 분야 주도로 필리핀-한국 무역량 급증",
+      "마닐라, 성공적인 K-푸드 페스티벌 개최, 미식의 즐거움 선사",
+      "한국 정부, 필리핀 학생 대상 장학금 프로그램 확대",
+      "필리핀 당국, 태풍 시즌 대비 주의보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Security",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-07-05",
     "vol": 95,
     "cover_en": "RP-Korea Digital Hub Project Enters Critical Phase, Boosting Regional Connectivity",

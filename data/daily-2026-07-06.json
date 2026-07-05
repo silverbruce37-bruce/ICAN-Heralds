@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-06",
+  "header_date_line": "MONDAY, JULY 6, 2026 | PHILIPPINES | VOL. 96",
+  "dashboard": {
+    "php_krw_rate": "24.89",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.06",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Tech Giant Leads Smart City Development in New Clark City",
+    "headline_kr": "한국 기술 대기업, 뉴 클락 시티 스마트 도시 개발 주도",
+    "subtitle_en": "A landmark partnership between a leading Korean conglomerate and the Philippine government aims to transform New Clark City into a cutting-edge smart urban hub, leveraging advanced digital infrastructure and sustainable technologies.",
+    "subtitle_kr": "한국의 선도적인 대기업과 필리핀 정부 간의 획기적인 파트너십이 첨단 디지털 인프라 및 지속 가능한 기술을 활용하여 뉴 클락 시티를 최첨단 스마트 도시 허브로 변모시키는 것을 목표로 합니다.",
+    "body_en": [
+      "Seoul-based tech conglomerate, Mirae Innovations Group, officially broke ground today on its ambitious 'Digital Philippines 2030' project within New Clark City. This multi-billion dollar investment, lauded by both nations, is set to establish state-of-the-art digital infrastructure, including 5G connectivity, AI-powered urban management systems, and smart grid solutions. Philippine President Ferdinand Marcos Jr. and Korean Ambassador to the Philippines, H.E. Lee Sang-hwa, attended the ceremonial event, emphasizing the project's strategic importance for regional development and bilateral ties.",
+      "The project's initial phase focuses on developing smart residential zones, a high-tech industrial park, and a centralized data center, expected to create over 10,000 direct and indirect jobs for Filipinos. Mirae Innovations Group is committed to integrating sustainable practices, utilizing renewable energy sources and advanced waste management systems to ensure an environmentally friendly urban environment. The initiative aligns perfectly with the Philippine government's vision to foster innovation and digital transformation across key economic hubs.",
+      "For the Korean community in the Philippines, this development signifies strengthened economic prospects and enhanced technological collaboration. Many Korean businesses operating in the IT and manufacturing sectors anticipate new opportunities for expansion and partnership within the burgeoning smart city ecosystem. Experts believe this project will serve as a blueprint for future Korea-Philippines joint ventures in advanced technology and sustainable urban planning, further solidifying the Philippines' position as a key investment destination in Southeast Asia."
+    ],
+    "body_kr": [
+      "서울에 본사를 둔 기술 대기업 미래 이노베이션 그룹이 오늘 뉴 클락 시티 내에서 야심찬 '디지털 필리핀 2030' 프로젝트의 착공식을 가졌습니다. 양국으로부터 찬사를 받은 수십억 달러 규모의 이번 투자는 5G 연결성, AI 기반 도시 관리 시스템, 스마트 그리드 솔루션을 포함한 최첨단 디지털 인프라를 구축할 예정입니다. 페르디난드 마르코스 주니어 필리핀 대통령과 이 상화 주필리핀 한국 대사는 기념 행사에 참석하여 지역 개발 및 양국 관계에 대한 프로젝트의 전략적 중요성을 강조했습니다.",
+      "프로젝트의 초기 단계는 스마트 주거 지역, 첨단 산업 단지 및 중앙 데이터 센터 개발에 중점을 두며, 필리핀인들에게 10,000개 이상의 직간접적인 일자리를 창출할 것으로 예상됩니다. 미래 이노베이션 그룹은 재생 에너지원과 첨단 폐기물 관리 시스템을 활용하여 친환경적인 도시 환경을 보장하는 지속 가능한 관행을 통합하기 위해 노력하고 있습니다. 이 이니셔티브는 주요 경제 허브 전반에 걸쳐 혁신과 디지털 전환을 촉진하려는 필리핀 정부의 비전과 완벽하게 일치합니다.",
+      "필리핀 한인 사회에게 이번 개발은 경제적 전망 강화와 기술 협력 증진을 의미합니다. IT 및 제조 분야에서 사업을 운영하는 많은 한국 기업들은 성장하는 스마트 도시 생태계 내에서 확장 및 파트너십을 위한 새로운 기회를 기대하고 있습니다. 전문가들은 이 프로젝트가 첨단 기술 및 지속 가능한 도시 계획 분야에서 향후 한-필리핀 합작 투자의 청사진 역할을 하여 필리핀이 동남아시아의 핵심 투자처로서의 입지를 더욱 공고히 할 것이라고 믿습니다."
+    ],
+    "image_seed": "cover-2026-07-06",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement",
+    "image_caption": "Photo: Philippine President Marcos Jr. and Korean Ambassador Lee Sang-hwa at the groundbreaking ceremony for the Digital Philippines 2030 project in New Clark City (July 6, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Police Initiative Boosts Safety for Korean Residents in Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 안전 위해 한-필 합동 경찰 이니셔티브 강화",
+    "lead_en": "A new collaborative security program, 'Operation Safe Haven,' has been launched by the Philippine National Police (PNP) and the Korean National Police Agency (KNPA) in key areas of Metro Manila. This initiative aims to enhance the safety and security of the Korean community through increased patrols, community engagement, and rapid response to incidents involving Korean nationals. The program builds on existing cooperation, incorporating advanced surveillance technologies and direct communication channels.",
+    "lead_kr": "필리핀 경찰청(PNP)과 한국 경찰청(KNPA)이 메트로 마닐라 주요 지역에서 새로운 협력 보안 프로그램인 '오퍼레이션 세이프 헤이븐'을 출범했습니다. 이 이니셔티브는 순찰 강화, 지역 사회 참여, 한국 국적 관련 사건에 대한 신속한 대응을 통해 한인 사회의 안전과 보안을 강화하는 것을 목표로 합니다. 이 프로그램은 기존 협력을 기반으로 하며, 첨단 감시 기술과 직접적인 통신 채널을 통합합니다.",
+    "image_seed": "feat-2026-07-06",
+    "image_query": "Philippine Korean police officers patrol Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippines-Korea Trade Volume Surges, Driven by Tech and Manufacturing",
+      "headline_kr": "기술 및 제조 분야 주도로 필리핀-한국 무역량 급증",
+      "summary_en": "Bilateral trade between the Philippines and South Korea has seen a significant increase in the first half of 2026, largely fueled by robust demand in technology components and manufacturing goods. This surge highlights the growing economic interdependence and diversification of trade relations between the two nations.",
+      "summary_kr": "2026년 상반기 필리핀과 한국 간의 양자 무역은 기술 부품 및 제조 상품에 대한 견고한 수요에 힘입어 크게 증가했습니다. 이러한 급증은 양국 간의 경제적 상호 의존성 증가와 무역 관계 다각화를 보여줍니다.",
+      "image_seed": "news1-2026-07-06",
+      "image_query": "Container ships port Manila Korean flag",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Food Festival, Showcasing Culinary Delights",
+      "headline_kr": "마닐라, 성공적인 K-푸드 페스티벌 개최, 미식의 즐거움 선사",
+      "summary_en": "Thousands flocked to the annual K-Food Festival held over the weekend in Manila, enjoying a wide array of traditional and modern Korean dishes. The event, organized by the Korean Cultural Center, aimed to promote Korean culinary heritage and foster cultural exchange among Filipinos.",
+      "summary_kr": "지난 주말 마닐라에서 열린 연례 K-푸드 페스티벌에 수천 명이 몰려 다양한 전통 및 현대 한식을 즐겼습니다. 한국문화원이 주최한 이 행사는 한국 요리 유산을 홍보하고 필리핀인들 사이의 문화 교류를 촉진하는 것을 목표로 했습니다.",
+      "image_seed": "news2-2026-07-06",
+      "image_query": "People enjoying Korean street food festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Government Expands Scholarship Program for Filipino Students",
+      "headline_kr": "한국 정부, 필리핀 학생 대상 장학금 프로그램 확대",
+      "summary_en": "The Korean government announced an expansion of its Global Korea Scholarship (GKS) program, offering more opportunities for Filipino students to pursue higher education in South Korea. This initiative aims to strengthen academic ties and nurture future leaders who can contribute to both nations.",
+      "summary_kr": "한국 정부는 필리핀 학생들이 한국에서 고등 교육을 받을 수 있는 더 많은 기회를 제공하는 글로벌 코리아 장학금(GKS) 프로그램을 확대한다고 발표했습니다. 이 이니셔티브는 학술적 유대를 강화하고 양국에 기여할 미래 지도자를 양성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-07-06",
+      "image_query": "Filipino students studying Korean university campus",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Philippine Authorities Issue Typhoon Season Preparedness Advisory",
+      "headline_kr": "필리핀 당국, 태풍 시즌 대비 주의보 발령",
+      "summary_en": "With the onset of the rainy season, PAGASA has issued a public advisory urging residents, especially foreign nationals, to prepare for potential typhoons and heavy rainfall. The advisory includes tips on emergency kits, evacuation plans, and monitoring official weather updates.",
+      "summary_kr": "장마철이 시작되면서 PAGASA는 주민들, 특히 외국인들에게 잠재적인 태풍과 폭우에 대비할 것을 촉구하는 대중 주의보를 발령했습니다. 주의보에는 비상 키트, 대피 계획 및 공식 기상 업데이트 모니터링에 대한 팁이 포함되어 있습니다.",
+      "image_seed": "news4-2026-07-06",
+      "image_query": "Tropical storm clouds over Philippine city",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 개별적인 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The synergy between Korean technology and Philippine resources promises groundbreaking advancements in smart city development.",
+    "example_kr": "한국의 기술과 필리핀의 자원 간의 시너지는 스마트 도시 개발에 획기적인 발전을 약속합니다.",
+    "grade": "A+"
+  }
+}
