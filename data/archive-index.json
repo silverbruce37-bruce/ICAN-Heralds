@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-07",
+    "vol": 97,
+    "cover_en": "RP-Korea Digital Partnership Deepens with Major Tech Investment",
+    "cover_kr": "필리핀-한국 디지털 파트너십, 대규모 기술 투자로 심화",
+    "headlines_en": [
+      "New Joint Patrols Enhance Safety for Korean Tourists in Popular Destinations",
+      "ASEAN's Q2 Economic Growth Exceeds Expectations Amid Global Challenges",
+      "Manila Hosts Grand K-Pop Festival, Drawing Thousands of Fans",
+      "PH-Korea Student Exchange Program Sees Record Participation",
+      "Community Watch Program Launched in Metro Manila Korean Enclaves"
+    ],
+    "headlines_kr": [
+      "인기 관광지 한국인 관광객 안전 위한 합동 순찰 강화",
+      "세계적 난관 속 아세안 2분기 경제 성장 예상치 상회",
+      "마닐라에서 대규모 K-팝 페스티벌 개최, 수천 명 팬 운집",
+      "필리핀-한국 학생 교류 프로그램 역대 최대 참여 기록",
+      "메트로 마닐라 한인 밀집 지역 커뮤니티 감시 프로그램 출범"
+    ],
+    "tags": [
+      "Cooperation",
+      "Economy",
+      "Culture",
+      "Security",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-07-06",
     "vol": 96,
     "cover_en": "Korean Tech Giant Leads Smart City Development in New Clark City",
