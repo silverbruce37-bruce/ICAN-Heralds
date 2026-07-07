@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-08",
+    "vol": 98,
+    "cover_en": "PH-Korea Forge New Digital Frontier with Innovation Hub Launch in Clark",
+    "cover_kr": "필리핀-한국, 클락에 디지털 혁신 허브 개소하며 새로운 디지털 지평 열다",
+    "headlines_en": [
+      "PH-ROK Navies Expand Joint Patrols Amid Regional Security Concerns",
+      "ASEAN Economic Ministers Discuss Digital Trade Integration Roadmap",
+      "Manila Hosts Grand K-Food Festival: A Taste of Korea's Culinary Delights",
+      "Korean Philanthropic Group Funds New Rural Health Clinics in Palawan",
+      "Makati Police Launch 'Safe Streets' App for Korean Residents"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 해군, 역내 안보 우려 속 공동 순찰 확대",
+      "아세안 경제 장관들, 디지털 무역 통합 로드맵 논의",
+      "마닐라에서 성대한 K-푸드 페스티벌 개최: 한국 미식의 향연",
+      "한국 자선 단체, 팔라완에 새 농촌 보건 진료소 건립 자금 지원",
+      "마카티 경찰, 한인 거주민 위한 '안전 거리' 앱 출시"
+    ],
+    "tags": [
+      "Economy",
+      "Safety",
+      "Security",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-07",
     "vol": 97,
     "cover_en": "RP-Korea Digital Partnership Deepens with Major Tech Investment",

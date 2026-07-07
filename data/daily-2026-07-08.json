@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-08",
+  "header_date_line": "WEDNESDAY, JULY 8, 2026 | PHILIPPINES | VOL. 98",
+  "dashboard": {
+    "php_krw_rate": "24.71",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.08",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge New Digital Frontier with Innovation Hub Launch in Clark",
+    "headline_kr": "필리핀-한국, 클락에 디지털 혁신 허브 개소하며 새로운 디지털 지평 열다",
+    "subtitle_en": "The landmark initiative aims to accelerate technological advancement and foster collaborative R&D between the two nations, attracting significant Korean investment and talent.",
+    "subtitle_kr": "이번 획기적인 이니셔티브는 양국 간 기술 발전을 가속화하고 공동 R&D를 촉진하며, 상당한 한국인 투자와 인재를 유치하는 것을 목표로 합니다.",
+    "body_en": [
+      "Clark Freeport Zone, Philippines – In a significant stride towards strengthening bilateral ties and driving digital transformation, the Philippines and South Korea today officially launched the 'PH-ROK Digital Innovation Hub' located within the bustling Clark Freeport Zone. The state-of-the-art facility, a culmination of years of planning and cooperation, is poised to become a central nexus for cutting-edge research and development, fostering an ecosystem ripe for technological breakthroughs.",
+      "The innovation hub will initially focus on key sectors including artificial intelligence, fintech, smart city solutions, and sustainable technologies. It is designed to provide a collaborative space for Korean and Filipino startups, academic institutions, and established corporations to co-create, test, and scale innovative solutions for both local and regional markets. Experts anticipate that the hub will not only boost the Philippines' digital economy but also serve as a strategic base for Korean companies looking to expand their footprint in Southeast Asia.",
+      "Officials from both governments emphasized the hub's potential to generate high-value jobs, attract foreign direct investment, and facilitate knowledge transfer. For the Korean community in the Philippines, especially those in the tech and entrepreneurial sectors, the launch represents a new wave of opportunities for collaboration, employment, and business expansion. The initiative underscores a shared vision for a digitally empowered future, cementing the Philippines' role as a key partner in South Korea's 'New Southern Policy'."
+    ],
+    "body_kr": [
+      "필리핀 클락 자유항 지역 – 양국 관계를 강화하고 디지털 전환을 추진하기 위한 중요한 발걸음으로, 필리핀과 한국은 오늘 번화한 클락 자유항 지역 내에 '필리핀-한국 디지털 혁신 허브'를 공식 개소했습니다. 수년간의 기획과 협력의 결실인 이 최첨단 시설은 첨단 연구 개발의 중심축이 되어 기술 혁신을 위한 생태계를 조성할 준비가 되어 있습니다.",
+      "혁신 허브는 초기에는 인공지능, 핀테크, 스마트 시티 솔루션, 지속 가능한 기술을 포함한 주요 분야에 집중할 예정입니다. 이 허브는 한국과 필리핀의 스타트업, 학술 기관 및 기존 기업들이 협력하여 현지 및 지역 시장을 위한 혁신적인 솔루션을 공동으로 만들고, 테스트하며, 확장할 수 있는 협업 공간을 제공하도록 설계되었습니다. 전문가들은 이 허브가 필리핀의 디지털 경제를 활성화할 뿐만 아니라, 동남아시아로 사업을 확장하려는 한국 기업들에게 전략적 거점 역할을 할 것으로 기대합니다.",
+      "양국 정부 관계자들은 이 허브가 고부가가치 일자리를 창출하고, 외국인 직접 투자를 유치하며, 지식 이전을 촉진할 잠재력이 크다고 강조했습니다. 필리핀 내 한인 커뮤니티, 특히 기술 및 기업가 분야에 종사하는 이들에게 이번 개소는 협력, 고용 및 사업 확장을 위한 새로운 기회의 물결을 의미합니다. 이 이니셔티브는 디지털 역량 강화된 미래에 대한 공동의 비전을 강조하며, 한국의 '신남방 정책'에서 필리핀의 핵심 파트너 역할을 확고히 합니다."
+    ],
+    "image_seed": "cover-2026-07-08",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Clark",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands at the launch of the Digital Innovation Hub in Clark (July 7, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH-ROK Navies Expand Joint Patrols Amid Regional Security Concerns",
+    "headline_kr": "필리핀-한국 해군, 역내 안보 우려 속 공동 순찰 확대",
+    "lead_en": "In a significant move to bolster maritime security, the Philippine Navy and the Republic of Korea Navy have announced an expansion of their joint patrol operations in the West Philippine Sea. This enhanced cooperation aims to counter piracy, illegal fishing, and ensure freedom of navigation in critical waterways, reflecting deepening military ties.",
+    "lead_kr": "해양 안보 강화를 위한 중요한 움직임으로, 필리핀 해군과 대한민국 해군이 서필리핀해에서의 공동 순찰 작전 확대를 발표했습니다. 이번 강화된 협력은 해적 행위, 불법 조업에 맞서고 중요한 수로에서의 항해의 자유를 보장하며, 심화되는 군사적 유대를 반영합니다.",
+    "image_seed": "feat-2026-07-08",
+    "image_query": "Philippine Korean navy ships patrol West Philippine Sea",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Digital Trade Integration Roadmap",
+      "headline_kr": "아세안 경제 장관들, 디지털 무역 통합 로드맵 논의",
+      "summary_en": "Economic ministers from ASEAN member states convened in Jakarta to discuss a comprehensive roadmap for digital trade integration, aiming to streamline cross-border e-commerce and digital services by 2030.",
+      "summary_kr": "아세안 회원국 경제 장관들이 자카르타에 모여 2030년까지 국경 간 전자상거래 및 디지털 서비스를 간소화하기 위한 디지털 무역 통합 종합 로드맵을 논의했습니다.",
+      "image_seed": "news1-2026-07-08",
+      "image_query": "ASEAN ministers meeting digital trade",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Food Festival: A Taste of Korea's Culinary Delights",
+      "headline_kr": "마닐라에서 성대한 K-푸드 페스티벌 개최: 한국 미식의 향연",
+      "summary_en": "The annual K-Food Festival in Manila drew thousands, offering authentic Korean street food, traditional dishes, and cooking demonstrations, further cementing K-culture's popularity in the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌에 수천 명이 몰려 정통 한국 길거리 음식, 전통 요리, 요리 시연을 선보이며 필리핀에서 K-문화의 인기를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-07-08",
+      "image_query": "Manila K-food festival street food crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Philanthropic Group Funds New Rural Health Clinics in Palawan",
+      "headline_kr": "한국 자선 단체, 팔라완에 새 농촌 보건 진료소 건립 자금 지원",
+      "summary_en": "A prominent Korean philanthropic organization has pledged significant funding for the construction of three new rural health clinics across remote areas of Palawan, improving healthcare access for local communities.",
+      "summary_kr": "유명한 한국 자선 단체가 팔라완 외딴 지역에 3개의 새로운 농촌 보건 진료소 건설을 위해 상당한 자금을 지원하기로 약속하여 지역 사회의 의료 접근성을 향상시켰습니다.",
+      "image_seed": "news3-2026-07-08",
+      "image_query": "Korean NGO building rural clinic Palawan",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati Police Launch 'Safe Streets' App for Korean Residents",
+      "headline_kr": "마카티 경찰, 한인 거주민 위한 '안전 거리' 앱 출시",
+      "summary_en": "Makati City Police has rolled out a new mobile application, 'Safe Streets,' designed to provide Korean residents with immediate emergency assistance and real-time safety advisories, enhancing community security.",
+      "summary_kr": "마카티 시 경찰은 한인 거주민들에게 즉각적인 비상 지원과 실시간 안전 정보를 제공하여 지역 사회 안전을 강화하도록 설계된 새로운 모바일 애플리케이션 '안전 거리'를 출시했습니다.",
+      "image_seed": "news4-2026-07-08",
+      "image_query": "Makati police officer showing safety app",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요소가 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The PH-ROK Digital Innovation Hub aims to foster synergy between Filipino and Korean tech talents.",
+    "example_kr": "필리핀-한국 디지털 혁신 허브는 필리핀과 한국 기술 인재들 간의 시너지를 촉진하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
