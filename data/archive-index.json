@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-09",
+    "vol": 99,
+    "cover_en": "PH-Korea Ink Landmark Digital Infrastructure Pact, Ushering New Era",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 협정 체결, 새로운 시대 예고",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Enhance Safety for Tourists in Key Destinations",
+      "Korean Startups Eye Philippines' Growing Tech Market for Expansion",
+      "Manila to Host Grand 'K-Food Fiesta' Showcasing Culinary Delights",
+      "PH-Korea Expand Educational Exchange Programs for STEM Students",
+      "Embassy Urges Korean Community Vigilance Amid Rising Online Scams"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 순찰, 주요 관광지 관광객 안전 강화",
+      "한국 스타트업들, 필리핀 성장하는 기술 시장으로 확장 모색",
+      "마닐라, 한국 미식의 향연 'K-푸드 피에스타' 개최 예정",
+      "필리핀-한국, STEM 학생 위한 교육 교류 프로그램 확대",
+      "대사관, 온라인 사기 증가에 따른 한인 사회 주의 당부"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-08",
     "vol": 98,
     "cover_en": "PH-Korea Forge New Digital Frontier with Innovation Hub Launch in Clark",
