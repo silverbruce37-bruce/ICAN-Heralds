@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-10",
+    "vol": 100,
+    "cover_en": "PH-Korea Launch Phase Two of Digital Infrastructure Partnership",
+    "cover_kr": "필리핀-한국, 디지털 인프라 파트너십 2단계 착수",
+    "headlines_en": [
+      "Embassy Issues Heightened Alert for Online Scams Targeting Koreans",
+      "ASEAN Economic Outlook Positive for H2 2026, Philippines Leads Growth",
+      "K-Food Festival Manila Draws Record Crowds, Showcases Culinary Diversity",
+      "Joint Naval Drills Between PH and ROK Bolster Maritime Security",
+      "Makati City Police Enhance Patrols in Korean-Populated Areas"
+    ],
+    "headlines_kr": [
+      "대사관, 한인 대상 온라인 사기 경계 강화 경보 발령",
+      "2026년 하반기 아세안 경제 전망 긍정적, 필리핀 성장 주도",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰리며 요리 다양성 선보여",
+      "필리핀-한국 해군 합동 훈련, 해양 안보 강화",
+      "마카티 시 경찰, 한인 밀집 지역 순찰 강화"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-07-09",
     "vol": 99,
     "cover_en": "PH-Korea Ink Landmark Digital Infrastructure Pact, Ushering New Era",

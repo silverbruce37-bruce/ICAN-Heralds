@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-10",
+  "header_date_line": "FRIDAY, JULY 10, 2026 | PHILIPPINES | VOL. 100",
+  "dashboard": {
+    "php_krw_rate": "24.47",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.10",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Phase Two of Digital Infrastructure Partnership",
+    "headline_kr": "필리핀-한국, 디지털 인프라 파트너십 2단계 착수",
+    "subtitle_en": "Manila and Seoul officials today inaugurated the second phase of a groundbreaking digital infrastructure initiative, aiming to further enhance connectivity and smart city solutions across key Philippine urban centers. This expansion underscores a deepening commitment to technological cooperation and economic growth.",
+    "subtitle_kr": "마닐라와 서울 관계자들이 오늘 주요 필리핀 도시 전역의 연결성 및 스마트 도시 솔루션 강화를 목표로 하는 혁신적인 디지털 인프라 이니셔티브의 2단계 착수를 발표했습니다. 이번 확장은 기술 협력과 경제 성장에 대한 깊은 의지를 보여줍니다.",
+    "body_en": [
+      "High-ranking officials from the Philippines' Department of Information and Communications Technology (DICT) and South Korea's Ministry of Science and ICT (MSIT) convened in Manila today to formally launch the second phase of their joint Digital Infrastructure Partnership. The initiative, first conceptualized in 2024, has already seen significant progress in improving internet access and digital government services in pilot areas. Phase Two will focus on deploying advanced 5G technology, establishing secure data centers, and developing AI-powered urban management systems in Metro Manila and Cebu.",
+      "This ambitious expansion is expected to attract substantial Korean investment in the Philippine tech sector, fostering job creation and knowledge transfer. Experts anticipate that enhanced digital infrastructure will not only boost the Philippines' economic competitiveness but also create a more seamless environment for foreign businesses and expatriates, including the vibrant Korean community. The project emphasizes sustainability and inclusivity, ensuring that digital dividends reach underserved populations and contribute to the nation's overall digital transformation.",
+      "The collaboration serves as a testament to the robust and growing bilateral relations between the Philippines and South Korea, extending beyond traditional trade and cultural exchange into cutting-edge technological frontiers. Both nations expressed optimism that the successful implementation of Phase Two will serve as a model for regional digital cooperation within ASEAN, solidifying their roles as key players in the global digital economy. The Korean Embassy in Manila highlighted the potential benefits for Korean businesses operating in the Philippines, promising improved operational efficiency and new market opportunities."
+    ],
+    "body_kr": [
+      "필리핀 정보통신기술부(DICT)와 대한민국 과학기술정보통신부(MSIT) 고위 관계자들이 오늘 마닐라에 모여 양국 공동 디지털 인프라 파트너십의 2단계 착수를 공식 발표했습니다. 2024년 처음 구상된 이 이니셔티브는 시범 지역에서 인터넷 접근성 및 디지털 정부 서비스 개선에 이미 상당한 진전을 보였습니다. 2단계는 메트로 마닐라와 세부에서 첨단 5G 기술 배포, 보안 데이터 센터 구축, AI 기반 도시 관리 시스템 개발에 중점을 둘 것입니다.",
+      "이 야심 찬 확장은 필리핀 기술 부문에 상당한 한국 투자를 유치하여 일자리 창출과 지식 이전을 촉진할 것으로 예상됩니다. 전문가들은 강화된 디지털 인프라가 필리핀의 경제 경쟁력을 높일 뿐만 아니라 활기찬 한인 사회를 포함한 외국 기업 및 해외 거주자들에게 더욱 원활한 환경을 조성할 것으로 전망합니다. 이 프로젝트는 지속 가능성과 포괄성을 강조하며, 디지털 혜택이 소외된 인구에 도달하고 국가의 전반적인 디지털 전환에 기여하도록 보장합니다.",
+      "이번 협력은 필리핀과 한국 간의 견고하고 성장하는 양자 관계를 보여주는 증거이며, 전통적인 무역 및 문화 교류를 넘어 첨단 기술 분야로 확장되고 있습니다. 양국은 2단계의 성공적인 구현이 아세안(ASEAN) 내 지역 디지털 협력의 모델이 되어 글로벌 디지털 경제의 핵심 주체로서의 역할을 공고히 할 것이라는 낙관론을 표명했습니다. 주필리핀 한국 대사관은 필리핀에서 사업을 운영하는 한국 기업에 대한 잠재적 이점을 강조하며, 운영 효율성 향상과 새로운 시장 기회를 약속했습니다."
+    ],
+    "image_seed": "cover-2026-07-10",
+    "image_query": "Korean Philippine officials handshake signing digital infrastructure agreement",
+    "image_caption": "Photo: DICT and MSIT officials sign partnership documents in Manila (July 10, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Embassy Issues Heightened Alert for Online Scams Targeting Koreans",
+    "headline_kr": "대사관, 한인 대상 온라인 사기 경계 강화 경보 발령",
+    "lead_en": "The Korean Embassy in Manila has issued a renewed and heightened alert regarding a surge in online scams specifically targeting Korean nationals residing in the Philippines. The advisory urges vigilance against phishing, investment fraud, and romance scams, providing updated guidelines for prevention and reporting. This comes after an increase in reported cases over the past quarter.",
+    "lead_kr": "주필리핀 한국 대사관은 필리핀 거주 한인들을 대상으로 하는 온라인 사기 급증에 대해 새로운 경계 강화 경보를 발령했습니다. 대사관은 피싱, 투자 사기, 로맨스 사기에 대한 경계를 당부하며 예방 및 신고를 위한 최신 지침을 제공했습니다. 이는 지난 분기 동안 보고된 사례가 증가한 데 따른 조치입니다.",
+    "image_seed": "feat-2026-07-10",
+    "image_query": "Korean embassy official warning about online scams",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive for H2 2026, Philippines Leads Growth",
+      "headline_kr": "2026년 하반기 아세안 경제 전망 긍정적, 필리핀 성장 주도",
+      "summary_en": "Analysts predict a robust second half for the ASEAN economy, with the Philippines poised to lead regional growth, driven by strong domestic demand and continued foreign investment. This positive outlook benefits Korean businesses operating within the bloc.",
+      "summary_kr": "분석가들은 견고한 내수와 지속적인 외국인 투자에 힘입어 필리핀이 지역 성장을 주도하며 아세안 경제의 하반기가 견실할 것으로 예측합니다. 이러한 긍정적인 전망은 블록 내에서 사업을 운영하는 한국 기업들에게 이점을 제공합니다.",
+      "image_seed": "news1-2026-07-10",
+      "image_query": "Manila skyline, stock market chart rising",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Manila Draws Record Crowds, Showcases Culinary Diversity",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰리며 요리 다양성 선보여",
+      "summary_en": "The annual K-Food Festival in Manila concluded last weekend, attracting record numbers of attendees eager to experience authentic Korean cuisine and cultural performances. Organizers noted increased interest in regional Korean dishes beyond the usual favorites.",
+      "summary_kr": "지난 주말 마닐라에서 열린 연례 K-푸드 페스티벌이 성황리에 막을 내렸으며, 정통 한국 요리와 문화 공연을 경험하려는 역대 최대 인파가 몰렸습니다. 주최측은 평소 인기 메뉴를 넘어선 지역별 한국 요리에 대한 관심이 증가했다고 밝혔습니다.",
+      "image_seed": "news2-2026-07-10",
+      "image_query": "Korean food stalls, happy diverse crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Joint Naval Drills Between PH and ROK Bolster Maritime Security",
+      "headline_kr": "필리핀-한국 해군 합동 훈련, 해양 안보 강화",
+      "summary_en": "The Philippine Navy and the Republic of Korea Navy recently concluded joint maritime exercises in the West Philippine Sea, enhancing interoperability and reinforcing commitment to regional peace and stability. The drills focused on search and rescue operations.",
+      "summary_kr": "필리핀 해군과 대한민국 해군이 최근 서필리핀해에서 합동 해상 훈련을 성공적으로 마쳤으며, 상호 운용성을 강화하고 역내 평화와 안정에 대한 의지를 재확인했습니다. 훈련은 수색 및 구조 작업에 중점을 두었습니다.",
+      "image_seed": "news3-2026-07-10",
+      "image_query": "Philippine and Korean navy ships sailing together",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Police Enhance Patrols in Korean-Populated Areas",
+      "headline_kr": "마카티 시 경찰, 한인 밀집 지역 순찰 강화",
+      "summary_en": "Makati City Police announced intensified patrol operations in areas with significant Korean populations, following consultations with the Korean community leaders. The initiative aims to deter crime and enhance the sense of security for residents and businesses.",
+      "summary_kr": "마카티 시 경찰은 한인 사회 지도자들과의 협의 후 한인 밀집 지역에 대한 순찰 작전 강화 계획을 발표했습니다. 이 이니셔티브는 범죄를 억제하고 주민과 사업체의 안보감을 높이는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-07-10",
+      "image_query": "Philippine police patrol car, Makati street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요소들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital infrastructure partnership between the Philippines and Korea aims to create synergy, leading to unprecedented technological advancements.",
+    "example_kr": "필리핀과 한국 간의 디지털 인프라 파트너십은 시너지를 창출하여 전례 없는 기술 발전을 이끄는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
