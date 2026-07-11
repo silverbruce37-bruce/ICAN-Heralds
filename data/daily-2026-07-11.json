@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-11",
+  "header_date_line": "SATURDAY, JULY 11, 2026 | PHILIPPINES | VOL. 101",
+  "dashboard": {
+    "php_krw_rate": "24.43",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.11",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Innovation Hub Project Breaks Ground in Clark",
+    "headline_kr": "필리핀-한국 디지털 혁신 허브 프로젝트 클락에서 착공",
+    "subtitle_en": "A landmark initiative poised to transform the region into a tech powerhouse, fostering economic growth and job creation for both nations.",
+    "subtitle_kr": "양국 경제 성장과 일자리 창출을 촉진하며, 이 지역을 기술 강국으로 변모시킬 획기적인 프로젝트입니다.",
+    "body_en": [
+      "Clark Freeport Zone, Philippines – A new era of technological advancement and bilateral cooperation officially began today with the groundbreaking ceremony for the Philippines-Korea Digital Innovation Hub. Dignitaries from both governments, alongside leading Korean tech executives and local business leaders, gathered to mark the commencement of this ambitious project. The hub, a brainchild of the 2025 Philippines-Korea Joint Economic Commission, aims to establish a state-of-the-art facility for research and development, startup incubation, and digital skills training, positioning the Philippines as a key player in Southeast Asia's digital economy.",
+      "The project, backed by significant Korean investment and technological expertise, is expected to create thousands of direct and indirect jobs, attracting further foreign direct investment into the region. For the Korean community in the Philippines, particularly those involved in IT and entrepreneurship, the hub presents unparalleled opportunities for collaboration, market expansion, and talent development. It will also serve as a bridge for Korean startups looking to penetrate the ASEAN market, leveraging the Philippines' strategic location and burgeoning digital consumer base.",
+      "Beyond economic implications, the Digital Innovation Hub is envisioned as a center for cultural exchange and academic partnership, fostering a deeper understanding between Filipino and Korean professionals. Training programs will be open to both local and expatriate residents, ensuring knowledge transfer and shared growth. This initiative underscores the enduring strength of Philippines-Korea relations, moving beyond traditional trade to embrace the future of digital innovation and human capital development."
+    ],
+    "body_kr": [
+      "필리핀 클락 자유항 지역 – 필리핀-한국 디지털 혁신 허브 착공식이 오늘 공식적으로 거행되며 기술 발전과 양국 협력의 새로운 시대가 시작되었습니다. 양국 정부 고위 관계자들은 한국의 주요 기술 기업 임원 및 현지 비즈니스 리더들과 함께 이 야심찬 프로젝트의 시작을 기념했습니다. 2025년 필리핀-한국 공동 경제 위원회의 구상으로 시작된 이 허브는 연구 개발, 스타트업 인큐베이션, 디지털 기술 교육을 위한 최첨단 시설을 구축하여 필리핀을 동남아시아 디지털 경제의 핵심 플레이어로 자리매김하는 것을 목표로 합니다.",
+      "한국의 상당한 투자와 기술 전문성을 바탕으로 하는 이 프로젝트는 수천 개의 직간접적인 일자리를 창출하고, 이 지역으로의 추가 외국인 직접 투자를 유치할 것으로 예상됩니다. 필리핀 내 한인 사회, 특히 IT 및 기업가 정신 분야에 종사하는 이들에게 이 허브는 협력, 시장 확장 및 인재 개발을 위한 비할 데 없는 기회를 제공합니다. 또한 한국 스타트업이 필리핀의 전략적 위치와 성장하는 디지털 소비자 기반을 활용하여 ASEAN 시장에 진출하는 교두보 역할을 할 것입니다.",
+      "경제적 함의를 넘어, 디지털 혁신 허브는 문화 교류 및 학술 파트너십의 중심지로 구상되어 필리핀과 한국 전문가들 간의 더 깊은 이해를 증진시킬 것입니다. 훈련 프로그램은 현지인과 해외 거주자 모두에게 개방되어 지식 이전과 공동 성장을 보장합니다. 이 이니셔티브는 전통적인 무역을 넘어 디지털 혁신과 인적 자원 개발의 미래를 포괄하는 필리핀-한국 관계의 지속적인 강점을 강조합니다."
+    ],
+    "image_seed": "cover-2026-07-11",
+    "image_query": "Philippine Korean officials groundbreaking ceremony digital innovation hub Clark",
+    "image_caption": "Photo: Philippine and Korean officials break ground on the new Digital Innovation Hub in Clark (July 11, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Patrols Enhance Safety for Korean Tourists in Popular Destinations",
+    "headline_kr": "인기 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+    "lead_en": "Philippine National Police (PNP) and local authorities, in cooperation with the Korean Embassy, have intensified joint security patrols in key tourist areas like Boracay and Palawan. This initiative aims to ensure the safety and well-being of the growing number of Korean visitors, particularly during the peak travel season. The enhanced measures include increased visibility of multilingual officers and dedicated tourist assistance centers.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 현지 당국이 주한 대사관과의 협력 하에 보라카이, 팔라완 등 주요 관광지에서 합동 보안 순찰을 강화했습니다. 이번 조치는 성수기 동안 증가하는 한인 방문객들의 안전과 안녕을 보장하기 위함입니다. 강화된 조치에는 다국어 지원이 가능한 경찰관의 가시성 증대 및 전용 관광객 지원 센터 운영이 포함됩니다.",
+    "image_seed": "feat-2026-07-11",
+    "image_query": "Korean tourists police patrol Boracay beach safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment Surges into ASEAN Green Energy Sector",
+      "headline_kr": "아세안 녹색 에너지 부문 한국 투자 급증",
+      "summary_en": "Korean companies are channeling significant investments into renewable energy projects across ASEAN nations, targeting solar, wind, and geothermal power. This move aligns with regional sustainability goals and strengthens Korea's position as a leader in green technology. The Philippines is a key beneficiary, attracting capital for several large-scale projects.",
+      "summary_kr": "한국 기업들이 태양광, 풍력, 지열 발전을 목표로 아세안 국가 전역의 재생 에너지 프로젝트에 상당한 투자를 집중하고 있습니다. 이러한 움직임은 역내 지속 가능성 목표와 일치하며 녹색 기술 분야에서 한국의 선두 주자로서의 입지를 강화합니다. 필리핀은 여러 대규모 프로젝트에 자본을 유치하며 주요 수혜국 중 하나입니다.",
+      "image_seed": "news1-2026-07-11",
+      "image_query": "Korean engineers solar panel farm ASEAN",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Gears Up for Annual K-Food Festival Next Month",
+      "headline_kr": "마닐라, 다음 달 연례 한식 축제 준비 박차",
+      "summary_en": "The Philippine-Korean Cultural Exchange Center announced that preparations are in full swing for the annual K-Food Festival slated for August. The event, a highlight for culinary enthusiasts, will feature traditional Korean dishes, cooking demonstrations, and cultural performances, drawing thousands of attendees from across Metro Manila.",
+      "summary_kr": "필리핀-한국 문화교류센터는 8월로 예정된 연례 한식 축제 준비가 한창이라고 발표했습니다. 미식 애호가들을 위한 하이라이트인 이 행사는 전통 한식, 요리 시연 및 문화 공연을 선보이며 메트로 마닐라 전역에서 수천 명의 참가자를 끌어모을 예정입니다.",
+      "image_seed": "news2-2026-07-11",
+      "image_query": "Korean food festival street vendors Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine and Korean Navies Conduct Joint Maritime Security Dialogue",
+      "headline_kr": "필리핀-한국 해군, 합동 해양 안보 대화 개최",
+      "summary_en": "Senior naval officials from the Philippines and South Korea held a productive dialogue in Seoul to discuss enhanced cooperation on maritime security, disaster response, and regional stability. The talks focused on intelligence sharing and joint training exercises to address common challenges in the Indo-Pacific.",
+      "summary_kr": "필리핀과 한국 해군 고위 관계자들이 서울에서 해양 안보, 재난 대응 및 역내 안정에 대한 협력 강화를 논의하기 위해 생산적인 대화를 가졌습니다. 회담은 인도-태평양 지역의 공동 과제에 대처하기 위한 정보 공유 및 합동 훈련에 중점을 두었습니다.",
+      "image_seed": "news3-2026-07-11",
+      "image_query": "Philippine Korean navy officers discussion map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Expanded in Metro Manila Korean Enclaves",
+      "headline_kr": "메트로 마닐라 한인 밀집 지역 커뮤니티 감시 프로그램 확대",
+      "summary_en": "Local government units, in partnership with Korean community leaders, are expanding the 'Bantay Komunidad' (Community Watch) program in key Korean enclaves. The initiative involves increased CCTV surveillance, neighborhood patrols, and a direct communication channel with local law enforcement to bolster residents' safety and security.",
+      "summary_kr": "지방 정부는 한인 공동체 지도자들과 협력하여 주요 한인 밀집 지역에서 '반타이 코뮤니다드'(커뮤니티 감시) 프로그램을 확대하고 있습니다. 이 이니셔티브는 CCTV 감시 강화, 지역 순찰 및 지역 법 집행 기관과의 직접적인 통신 채널을 포함하여 주민의 안전과 보안을 강화합니다.",
+      "image_seed": "news4-2026-07-11",
+      "image_query": "CCTV cameras Korean street Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람 또는 사물; 자신은 영구적인 화학적 변화를 겪지 않으면서 화학 반응의 속도를 증가시키는 물질.",
+    "example_en": "The new Digital Innovation Hub is expected to be a catalyst for economic growth and technological advancement in the Philippines.",
+    "example_kr": "새로운 디지털 혁신 허브는 필리핀의 경제 성장과 기술 발전을 위한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

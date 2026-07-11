@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-11",
+    "vol": 101,
+    "cover_en": "Philippines-Korea Digital Innovation Hub Project Breaks Ground in Clark",
+    "cover_kr": "필리핀-한국 디지털 혁신 허브 프로젝트 클락에서 착공",
+    "headlines_en": [
+      "Joint Patrols Enhance Safety for Korean Tourists in Popular Destinations",
+      "Korean Investment Surges into ASEAN Green Energy Sector",
+      "Manila Gears Up for Annual K-Food Festival Next Month",
+      "Philippine and Korean Navies Conduct Joint Maritime Security Dialogue",
+      "Community Watch Program Expanded in Metro Manila Korean Enclaves"
+    ],
+    "headlines_kr": [
+      "인기 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+      "아세안 녹색 에너지 부문 한국 투자 급증",
+      "마닐라, 다음 달 연례 한식 축제 준비 박차",
+      "필리핀-한국 해군, 합동 해양 안보 대화 개최",
+      "메트로 마닐라 한인 밀집 지역 커뮤니티 감시 프로그램 확대"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-10",
     "vol": 100,
     "cover_en": "PH-Korea Launch Phase Two of Digital Infrastructure Partnership",
