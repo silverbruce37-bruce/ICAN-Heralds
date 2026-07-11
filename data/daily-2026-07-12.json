@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-12",
+  "header_date_line": "SUNDAY, JULY 12, 2026 | PHILIPPINES | VOL. 102",
+  "dashboard": {
+    "php_krw_rate": "24.44",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines FTA Boosts SME Trade, Investment Opportunities",
+    "headline_kr": "한-필 FTA, 중소기업 무역 및 투자 기회 확대",
+    "subtitle_en": "The recently implemented Free Trade Agreement is creating new avenues for small and medium-sized enterprises in both nations, fostering greater economic integration and job creation.",
+    "subtitle_kr": "최근 발효된 자유무역협정이 양국 중소기업에 새로운 길을 열어주며 경제 통합과 일자리 창출을 촉진하고 있습니다.",
+    "body_en": [
+      "The Free Trade Agreement (FTA) between Korea and the Philippines, which officially entered its full implementation phase earlier this year, is already demonstrating significant positive impacts, particularly for small and medium-sized enterprises (SMEs). This landmark agreement aims to reduce tariffs and non-tariff barriers, making it easier for SMEs to export and import goods, thereby expanding their market reach beyond domestic borders. Initial reports indicate a surge in interest from Korean SMEs looking to invest in the Philippines' booming manufacturing and service sectors, while Filipino SMEs are exploring opportunities in Korea's advanced technology and consumer markets.",
+      "For the Korean community in the Philippines, the FTA presents a dual advantage. Existing Korean businesses, many of which are SMEs, can now benefit from streamlined trade processes and reduced costs, enhancing their competitiveness. Furthermore, the agreement is expected to stimulate new Korean investments and business ventures in the archipelago, potentially leading to increased employment opportunities for local Koreans and Filipinos alike. This economic integration fosters a more vibrant business environment, encouraging innovation and cross-cultural collaboration within various industries, from food processing to digital services.",
+      "Both governments are actively working to maximize the benefits of the FTA through various support programs, including trade missions, investment seminars, and information dissemination campaigns. The Philippine Department of Trade and Industry (DTI) and Korea's Ministry of Trade, Industry and Energy (MOTIE) have pledged to continue their close cooperation to address any challenges and ensure a smooth operational environment. The long-term vision is to establish a robust and resilient supply chain between the two nations, leveraging their complementary strengths and fostering sustainable economic growth for years to come."
+    ],
+    "body_kr": [
+      "올해 초 전면 시행 단계에 들어선 한국-필리핀 자유무역협정(FTA)이 특히 중소기업(SME)에 상당한 긍정적 영향을 미치고 있습니다. 이 획기적인 협정은 관세 및 비관세 장벽을 줄여 중소기업이 상품을 더 쉽게 수출입할 수 있도록 하여 국내 국경을 넘어 시장을 확대하는 것을 목표로 합니다. 초기 보고서에 따르면 한국 중소기업들은 필리핀의 급성장하는 제조 및 서비스 부문에 투자하는 데 큰 관심을 보이고 있으며, 필리핀 중소기업들은 한국의 첨단 기술 및 소비재 시장에서 기회를 모색하고 있습니다.",
+      "필리핀 한인 사회에게 FTA는 이중적인 이점을 제공합니다. 기존 한인 기업들, 그중 상당수가 중소기업인데, 이제 간소화된 무역 절차와 비용 절감의 혜택을 받아 경쟁력을 강화할 수 있습니다. 또한, 이 협정은 필리핀 군도에 새로운 한국 투자 및 사업 벤처를 촉진하여 현지 한인과 필리핀인 모두에게 고용 기회를 늘릴 것으로 예상됩니다. 이러한 경제 통합은 더욱 활기찬 비즈니스 환경을 조성하여 식품 가공부터 디지털 서비스에 이르는 다양한 산업 분야에서 혁신과 문화 간 협력을 장려합니다.",
+      "양국 정부는 무역 사절단, 투자 세미나, 정보 보급 캠페인 등 다양한 지원 프로그램을 통해 FTA의 혜택을 극대화하기 위해 적극적으로 노력하고 있습니다. 필리핀 통상산업부(DTI)와 한국 산업통상자원부(MOTIE)는 어떠한 어려움도 해결하고 원활한 운영 환경을 보장하기 위해 긴밀한 협력을 계속할 것을 약속했습니다. 장기적인 비전은 양국의 상호 보완적인 강점을 활용하고 향후 수년간 지속 가능한 경제 성장을 촉진하여 견고하고 탄력적인 공급망을 구축하는 것입니다."
+    ],
+    "image_seed": "cover-2026-07-12",
+    "image_query": "Korean Philippine business leaders shaking hands signing trade agreement",
+    "image_caption": "Photo: Korean and Philippine officials finalize details of a trade agreement (July 11, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Launch Joint Safety Campaign in Tourist Hubs",
+    "headline_kr": "필리핀 경찰청, 한국 대사관 관광지 공동 안전 캠페인 개시",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy have initiated a new joint safety campaign targeting popular tourist destinations and Korean community areas. This proactive measure aims to bolster security, deter crime, and ensure a safer environment for Korean nationals across the Philippines.",
+    "lead_kr": "필리핀 경찰청(PNP)과 한국 대사관이 인기 관광지 및 한인 밀집 지역을 대상으로 새로운 공동 안전 캠페인을 시작했습니다. 이 선제적인 조치는 보안을 강화하고 범죄를 억제하며 필리핀 전역의 한인들을 위한 더 안전한 환경을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-12",
+    "image_query": "Philippine police Korean embassy officials safety briefing tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Poised for Continued Growth in H2 2026",
+      "headline_kr": "2026년 하반기 아세안 디지털 경제, 지속 성장 전망",
+      "summary_en": "Analysts predict robust expansion in the ASEAN digital economy for the latter half of 2026, driven by increased e-commerce adoption and technological investments across the region. This growth presents significant opportunities for Korean tech companies and startups looking to expand their market presence.",
+      "summary_kr": "분석가들은 2026년 하반기 아세안 디지털 경제가 전자상거래 채택 증가와 역내 기술 투자에 힘입어 견고한 성장을 보일 것으로 예측합니다. 이러한 성장은 시장 확장을 모색하는 한국 기술 기업 및 스타트업에 중요한 기회를 제공합니다.",
+      "image_seed": "news1-2026-07-12",
+      "image_query": "Southeast Asian business people digital economy conference",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Draws Huge Crowds in Manila",
+      "headline_kr": "마닐라 K-Pop 댄스 페스티벌, 대규모 인파 운집",
+      "summary_en": "Thousands of Filipino K-Pop fans gathered in Manila yesterday for the annual K-Pop Dance Festival, showcasing impressive covers and celebrating Korean music and culture. The event highlights the enduring popularity of Hallyu and strengthens cultural ties between Korea and the Philippines.",
+      "summary_kr": "어제 마닐라에서 수천 명의 필리핀 K-Pop 팬들이 연례 K-Pop 댄스 페스티벌에 모여 인상적인 커버 댄스를 선보이며 한국 음악과 문화를 기념했습니다. 이 행사는 한류의 지속적인 인기를 보여주고 한국과 필리핀 간의 문화적 유대를 강화합니다.",
+      "image_seed": "news2-2026-07-12",
+      "image_query": "Filipino youth dancing K-Pop stage crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Universities Expand Scholarship Programs for Filipino Students",
+      "headline_kr": "한국 대학들, 필리핀 학생 대상 장학금 프로그램 확대",
+      "summary_en": "Several leading South Korean universities have announced expanded scholarship opportunities for Filipino students, aiming to foster academic exchange and contribute to the Philippines' human resource development. This initiative reinforces the strong educational partnership between the two nations.",
+      "summary_kr": "한국의 여러 주요 대학들이 필리핀 학생들을 위한 장학금 기회를 확대한다고 발표했습니다. 이는 학술 교류를 촉진하고 필리핀의 인적 자원 개발에 기여하는 것을 목표로 합니다. 이 이니셔티브는 양국 간의 강력한 교육 파트너십을 강화합니다.",
+      "image_seed": "news3-2026-07-12",
+      "image_query": "Korean university students Filipino students studying together",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Leaders Discuss Traffic Safety Initiatives in Metro Manila",
+      "headline_kr": "한인회 지도자들, 메트로 마닐라 교통 안전 대책 논의",
+      "summary_en": "Korean community leaders held a meeting with local authorities to address growing concerns about traffic safety in Metro Manila, particularly in areas frequented by Korean residents. Discussions focused on implementing clearer signage, pedestrian awareness campaigns, and improved enforcement.",
+      "summary_kr": "한인회 지도자들이 메트로 마닐라, 특히 한인 거주자들이 자주 찾는 지역의 교통 안전에 대한 증가하는 우려를 해소하기 위해 현지 당국과 회의를 가졌습니다. 논의는 더 명확한 표지판, 보행자 인식 캠페인 및 개선된 단속 시행에 중점을 두었습니다.",
+      "image_seed": "news4-2026-07-12",
+      "image_query": "Korean community leaders Philippine police traffic safety meeting",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "ˈsɪnərdʒi",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별 효과를 합친 것보다 더 큰 결합 효과를 내는 것.",
+    "example_en": "The FTA aims to create economic synergy between Korea and the Philippines, benefiting businesses of all sizes.",
+    "example_kr": "FTA는 한국과 필리핀 간의 경제적 시너지를 창출하여 모든 규모의 기업에 이익을 주는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

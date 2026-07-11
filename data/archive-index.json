@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-12",
+    "vol": 102,
+    "cover_en": "Korea-Philippines FTA Boosts SME Trade, Investment Opportunities",
+    "cover_kr": "한-필 FTA, 중소기업 무역 및 투자 기회 확대",
+    "headlines_en": [
+      "PNP, Korean Embassy Launch Joint Safety Campaign in Tourist Hubs",
+      "ASEAN Digital Economy Poised for Continued Growth in H2 2026",
+      "K-Pop Dance Festival Draws Huge Crowds in Manila",
+      "Korean Universities Expand Scholarship Programs for Filipino Students",
+      "Korean Community Leaders Discuss Traffic Safety Initiatives in Metro Manila"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청, 한국 대사관 관광지 공동 안전 캠페인 개시",
+      "2026년 하반기 아세안 디지털 경제, 지속 성장 전망",
+      "마닐라 K-Pop 댄스 페스티벌, 대규모 인파 운집",
+      "한국 대학들, 필리핀 학생 대상 장학금 프로그램 확대",
+      "한인회 지도자들, 메트로 마닐라 교통 안전 대책 논의"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Economy",
+      "Security",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-11",
     "vol": 101,
     "cover_en": "Philippines-Korea Digital Innovation Hub Project Breaks Ground in Clark",
