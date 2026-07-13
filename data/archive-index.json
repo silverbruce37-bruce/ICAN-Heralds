@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-14",
+    "vol": 104,
+    "cover_en": "Philippines-Korea Forge New Smart City Partnership for Digital Future",
+    "cover_kr": "필리핀-한국, 디지털 미래 위한 스마트 도시 파트너십 새 장 열다",
+    "headlines_en": [
+      "PNP, Korean Embassy Launch Joint Anti-Crime Initiative in Metro Manila",
+      "Korean Firms Boost Investment in PH Green Energy Sector",
+      "Manila Hosts Record-Breaking K-Pop Dance Festival",
+      "ASEAN-Korea Summit Focuses on Digital Economy Integration",
+      "Embassy Warns Against Online Scams Targeting Koreans"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청-한국 대사관, 메트로 마닐라 합동 대범죄 이니셔티브 출범",
+      "한국 기업, 필리핀 녹색 에너지 부문 투자 확대",
+      "마닐라, 역대 최대 K-팝 댄스 축제 개최",
+      "아세안-한국 정상회의, 디지털 경제 통합에 중점",
+      "대사관, 한인 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Safety",
+      "Culture",
+      "Economy",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-13",
     "vol": 103,
     "cover_en": "Korea-Philippines Ink Landmark Digital Infrastructure Pact in Manila",

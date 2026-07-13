@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-14",
+  "header_date_line": "TUESDAY, JULY 14, 2026 | PHILIPPINES | VOL. 104",
+  "dashboard": {
+    "php_krw_rate": "24.35",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.14",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Forge New Smart City Partnership for Digital Future",
+    "headline_kr": "필리핀-한국, 디지털 미래 위한 스마트 도시 파트너십 새 장 열다",
+    "subtitle_en": "A landmark agreement signed today aims to accelerate the development of smart cities across the Philippines, leveraging South Korea's advanced technological expertise. This initiative promises to enhance urban living and foster significant economic growth.",
+    "subtitle_kr": "오늘 체결된 획기적인 협정은 한국의 선진 기술 전문 지식을 활용하여 필리핀 전역의 스마트 도시 개발을 가속화하는 것을 목표로 합니다. 이 이니셔티브는 도시 생활을 개선하고 상당한 경제 성장을 촉진할 것으로 기대됩니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant step towards fostering a digitally advanced future, the Philippines and South Korea officially launched a comprehensive Smart City Partnership today. The agreement, signed by high-ranking officials from both nations, focuses on sharing expertise, technology, and resources to develop sustainable and intelligent urban environments. This collaborative effort is expected to transform key urban centers in the Philippines, integrating cutting-edge technologies for improved public services, infrastructure, and environmental management.",
+      "The partnership will initially target several pilot cities, focusing on areas such as smart transportation systems, energy-efficient buildings, digital governance platforms, and advanced public safety networks. South Korea, a global leader in smart city innovation, will provide technical assistance, training programs for Filipino engineers and urban planners, and facilitate technology transfers. Local government units in the Philippines are eager to adopt these models, anticipating a boost in efficiency, sustainability, and quality of life for their residents.",
+      "Beyond technological advancements, this initiative is also poised to open new avenues for economic cooperation and investment, particularly for Korean companies specializing in IT, urban planning, and green technology. The Korean community in the Philippines stands to benefit from improved infrastructure and a more connected society, while also contributing to the project through business ventures and skilled labor. Both governments expressed optimism that this partnership will serve as a blueprint for future bilateral collaborations, cementing a strong bond rooted in innovation and shared progress."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 선진 미래를 육성하기 위한 중요한 단계로, 필리핀과 한국이 오늘 포괄적인 스마트 도시 파트너십을 공식 출범했습니다. 양국 고위 관계자들이 서명한 이 협정은 지속 가능하고 지능적인 도시 환경을 개발하기 위한 전문 지식, 기술 및 자원 공유에 중점을 둡니다. 이 협력 노력은 필리핀의 주요 도시 중심지를 변화시키고, 향상된 공공 서비스, 인프라 및 환경 관리를 위한 최첨단 기술을 통합할 것으로 예상됩니다.",
+      "이 파트너십은 초기에는 스마트 교통 시스템, 에너지 효율적인 건물, 디지털 거버넌스 플랫폼 및 고급 공공 안전 네트워크와 같은 분야에 중점을 두고 여러 시범 도시를 대상으로 할 것입니다. 스마트 도시 혁신의 세계적 리더인 한국은 기술 지원, 필리핀 엔지니어 및 도시 계획가를 위한 교육 프로그램, 그리고 기술 이전을 촉진할 것입니다. 필리핀의 지방 정부는 효율성, 지속 가능성 및 주민들의 삶의 질 향상을 기대하며 이러한 모델을 채택하기를 열망하고 있습니다.",
+      "기술 발전 외에도 이 이니셔티브는 특히 IT, 도시 계획 및 녹색 기술 전문 한국 기업을 위한 경제 협력 및 투자에 새로운 길을 열어줄 것입니다. 필리핀의 한인 사회는 개선된 인프라와 더 연결된 사회로부터 혜택을 받을 것이며, 동시에 사업 투자 및 숙련된 노동력을 통해 프로젝트에 기여할 것입니다. 양국 정부는 이 파트너십이 미래 양자 협력의 청사진이 될 것이며, 혁신과 공동 발전에 기반한 강력한 유대 관계를 공고히 할 것이라고 낙관했습니다."
+    ],
+    "image_seed": "cover-2026-07-14",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands after signing the Smart City Partnership agreement (July 14, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Launch Joint Anti-Crime Initiative in Metro Manila",
+    "headline_kr": "필리핀 경찰청-한국 대사관, 메트로 마닐라 합동 대범죄 이니셔티브 출범",
+    "lead_en": "The Philippine National Police (PNP) and the Embassy of the Republic of Korea have announced a new joint initiative to enhance the safety and security of Korean nationals residing and visiting Metro Manila. This program will focus on intelligence sharing, increased police visibility in Korean-dense areas, and rapid response to incidents involving the Korean community.",
+    "lead_kr": "필리핀 경찰청(PNP)과 대한민국 대사관은 메트로 마닐라에 거주하거나 방문하는 한인들의 안전과 보안을 강화하기 위한 새로운 합동 이니셔티브를 발표했습니다. 이 프로그램은 정보 공유, 한인 밀집 지역의 경찰 가시성 증대, 그리고 한인 사회 관련 사건에 대한 신속한 대응에 중점을 둘 것입니다.",
+    "image_seed": "feat-2026-07-14",
+    "image_query": "Philippine police Korean embassy officials security briefing",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Boost Investment in PH Green Energy Sector",
+      "headline_kr": "한국 기업, 필리핀 녹색 에너지 부문 투자 확대",
+      "summary_en": "Several major Korean energy companies have announced significant new investments in the Philippines' renewable energy sector, signaling growing confidence in the country's green economy potential and commitment to sustainable development goals.",
+      "summary_kr": "여러 주요 한국 에너지 기업들이 필리핀 재생 에너지 부문에 대한 상당한 신규 투자를 발표하며, 필리핀의 녹색 경제 잠재력과 지속 가능한 개발 목표에 대한 신뢰가 커지고 있음을 시사했습니다.",
+      "image_seed": "news1-2026-07-14",
+      "image_query": "Korean executives Philippine solar farm investment",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Record-Breaking K-Pop Dance Festival",
+      "headline_kr": "마닐라, 역대 최대 K-팝 댄스 축제 개최",
+      "summary_en": "Thousands of K-Pop fans gathered in Manila over the weekend for the annual K-Pop Dance Festival, breaking attendance records and showcasing the enduring popularity of Korean culture in the Philippines. Local dance groups performed alongside special guest artists from Korea.",
+      "summary_kr": "지난 주말 마닐라에서 열린 연례 K-팝 댄스 축제에 수천 명의 K-팝 팬들이 모여 역대 최다 관객 수를 기록하며 필리핀에서 한국 문화의 변함없는 인기를 보여주었습니다. 현지 댄스 그룹들이 한국의 특별 초청 가수들과 함께 공연했습니다.",
+      "image_seed": "news2-2026-07-14",
+      "image_query": "K-Pop dance festival Manila crowd stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Focuses on Digital Economy Integration",
+      "headline_kr": "아세안-한국 정상회의, 디지털 경제 통합에 중점",
+      "summary_en": "Leaders from ASEAN nations and South Korea concluded their summit with a joint declaration emphasizing deeper integration of the digital economy. Discussions centered on cybersecurity cooperation, e-commerce growth, and fostering digital literacy across the region.",
+      "summary_kr": "아세안 국가들과 한국 정상들은 디지털 경제의 심층적 통합을 강조하는 공동 선언문으로 정상회의를 마무리했습니다. 논의는 사이버 보안 협력, 전자상거래 성장, 그리고 역내 디지털 문해력 증진에 중점을 두었습니다.",
+      "image_seed": "news3-2026-07-14",
+      "image_query": "ASEAN Korea leaders meeting digital economy",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Warns Against Online Scams Targeting Koreans",
+      "headline_kr": "대사관, 한인 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a renewed advisory urging the community to be vigilant against increasing online scams. They highlighted common tactics and provided guidelines for reporting suspicious activities to local authorities and the embassy.",
+      "summary_kr": "필리핀 주재 한국 대사관은 증가하는 온라인 사기에 대해 한인 사회의 경계를 촉구하는 새로운 주의보를 발령했습니다. 대사관은 일반적인 사기 수법을 강조하고 의심스러운 활동을 현지 당국과 대사관에 신고하는 지침을 제공했습니다.",
+      "image_seed": "news4-2026-07-14",
+      "image_query": "Online scam warning cyber security laptop",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별 효과를 합친 것보다 더 큰 결합 효과를 만들어내는 것.",
+    "example_en": "The smart city partnership between the Philippines and Korea aims to create a powerful synergy that benefits both nations.",
+    "example_kr": "필리핀과 한국 간의 스마트 도시 파트너십은 양국에 이익이 되는 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
