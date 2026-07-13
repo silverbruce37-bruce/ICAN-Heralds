@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-13",
+  "header_date_line": "MONDAY, JULY 13, 2026 | PHILIPPINES | VOL. 103",
+  "dashboard": {
+    "php_krw_rate": "24.44",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Ink Landmark Digital Infrastructure Pact in Manila",
+    "headline_kr": "한국-필리핀, 마닐라에서 획기적인 디지털 인프라 협정 체결",
+    "subtitle_en": "The agreement aims to revolutionize Philippine digital connectivity and foster smart city development, with significant Korean investment and technological expertise.",
+    "subtitle_kr": "이번 협정은 필리핀의 디지털 연결성을 혁신하고 스마트 도시 개발을 촉진하며, 한국의 상당한 투자와 기술 전문성을 활용할 것입니다.",
+    "body_en": [
+      "In a historic ceremony held in Manila, Korea and the Philippines today formalized a landmark digital infrastructure agreement. Attended by high-ranking officials from both nations, the pact outlines a comprehensive roadmap to bridge the digital divide and spur economic growth across the archipelago, marking a significant milestone in bilateral relations for 2026.",
+      "At the core of the agreement is the implementation of advanced digital technologies, including 5G network expansion, AI-driven solutions, and the development of smart city projects. Korea is committed to providing substantial funding and technical expertise to accelerate the Philippines' digital transformation, promising numerous job creation opportunities and fostering an innovation ecosystem.",
+      "ICAN Heralds anticipates this agreement will also positively impact the Korean community in the Philippines. Beyond new business opportunities, improved digital services and infrastructure will enhance daily life and business operations. This collaboration is set to further strengthen the partnership between the two countries, setting a precedent for cooperative models in Southeast Asia."
+    ],
+    "body_kr": [
+      "필리핀 마닐라에서 열린 역사적인 행사에서 한국과 필리핀은 오늘 획기적인 디지털 인프라 협정을 체결했습니다. 양국 고위 관계자들이 참석한 가운데, 이 협정은 필리핀 전역의 디지털 격차를 해소하고 경제 성장을 촉진하기 위한 포괄적인 로드맵을 제시하며, 2026년 양국 관계의 중요한 이정표로 기록될 것입니다.",
+      "협정의 핵심은 5G 네트워크 확장, 인공지능 기반 솔루션, 그리고 스마트 도시 프로젝트 개발을 포함한 첨단 디지털 기술의 구현입니다. 한국은 필리핀의 디지털 전환을 가속화하기 위해 상당한 자금과 기술 전문 지식을 제공할 예정입니다. 이는 필리핀에 수많은 일자리 창출과 혁신 생태계 구축 기회를 제공할 것으로 기대됩니다.",
+      "ICAN Heralds는 이번 협정이 필리핀 내 한인 커뮤니티에도 긍정적인 영향을 미칠 것으로 전망합니다. 새로운 비즈니스 기회는 물론, 개선된 디지털 서비스와 인프라는 생활 및 사업 환경을 한층 더 향상시킬 것입니다. 이는 양국 간의 파트너십을 더욱 강화하고, 동남아시아 지역 내 모범적인 협력 모델을 제시할 것으로 보입니다."
+    ],
+    "image_seed": "cover-2026-07-13",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Korean and Philippine officials finalize the digital infrastructure agreement in Manila (July 12, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Efforts Boost Safety for Korean Tourists in Popular PH Destinations",
+    "headline_kr": "공동 노력으로 필리핀 인기 관광지 내 한인 관광객 안전 증진",
+    "lead_en": "Philippine National Police and the Korean Embassy have announced expanded joint patrols and community outreach programs targeting key tourist areas. The initiative aims to enhance security measures and provide rapid assistance for Korean nationals, building on recent successful collaborations.",
+    "lead_kr": "필리핀 국립경찰과 주필리핀 한국대사관은 주요 관광지를 대상으로 합동 순찰 및 지역사회 협력 프로그램을 확대한다고 발표했습니다. 이 이니셔티브는 최근 성공적인 협력을 바탕으로 한인들의 안전 조치를 강화하고 신속한 지원을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-13",
+    "image_query": "Korean tourists police patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eyeing Expanded Investment in ASEAN Green Energy Sector",
+      "headline_kr": "한국 기업들, 아세안 녹색 에너지 부문 투자 확대 모색",
+      "summary_en": "Korean conglomerates are exploring significant investments in renewable energy projects across ASEAN nations, including the Philippines, driven by regional sustainability goals and lucrative incentives.",
+      "summary_kr": "한국 대기업들이 지역 지속가능성 목표와 매력적인 인센티브에 힘입어 필리핀을 포함한 아세안 국가들의 재생 에너지 프로젝트에 대한 대규모 투자를 모색하고 있습니다.",
+      "image_seed": "news1-2026-07-13",
+      "image_query": "Korean investors ASEAN green energy solar panels",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts 'K-Food Fiesta 2026' Showcasing Culinary Delights",
+      "headline_kr": "마닐라, 한국 요리의 진수를 선보이는 'K-푸드 축제 2026' 개최",
+      "summary_en": "The annual K-Food Fiesta kicks off in Manila, featuring a wide array of traditional and modern Korean dishes, cooking demonstrations, and cultural performances, drawing large crowds.",
+      "summary_kr": "마닐라에서 연례 K-푸드 축제가 시작되어 다양한 전통 및 현대 한국 요리, 요리 시연, 문화 공연을 선보이며 많은 인파를 끌어모으고 있습니다.",
+      "image_seed": "news2-2026-07-13",
+      "image_query": "Korean food festival vibrant street market Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Medical Exchange Program Sees Record Participation",
+      "headline_kr": "필리핀-한국 의료 교류 프로그램, 역대 최고 참가율 기록",
+      "summary_en": "The Philippine-Korea medical exchange program reports its highest ever participation, fostering knowledge transfer and collaboration between healthcare professionals from both countries.",
+      "summary_kr": "필리핀-한국 의료 교류 프로그램이 역대 최고 참가율을 기록하며 양국 의료 전문가들 간의 지식 이전과 협력을 증진하고 있습니다.",
+      "image_seed": "news3-2026-07-13",
+      "image_query": "Filipino Korean doctors discussing medical charts hospital",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "New Travel Advisory Issued for Korean Residents on Typhoon Season Preparedness",
+      "headline_kr": "한인 거주자 대상 태풍 시즌 대비 신규 여행 경보 발령",
+      "summary_en": "The Korean Embassy has issued a new travel advisory urging residents and tourists to take extra precautions and prepare for the peak typhoon season, providing essential safety guidelines.",
+      "summary_kr": "주필리핀 한국대사관은 거주자와 관광객들에게 태풍 시즌에 대비하여 추가적인 주의를 기울이고 필수 안전 지침을 따를 것을 촉구하는 새로운 여행 경보를 발령했습니다.",
+      "image_seed": "news4-2026-07-13",
+      "image_query": "Typhoon warning sign heavy rain Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital partnership aims to achieve synergy between Korean technology and Philippine market potential.",
+    "example_kr": "디지털 파트너십은 한국 기술과 필리핀 시장 잠재력 간의 시너지를 창출하는 것을 목표로 한다.",
+    "grade": "A+"
+  }
+}
