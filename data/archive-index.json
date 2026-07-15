@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-16",
+    "vol": 106,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
+    "cover_kr": "한국과 필리핀, 새 외교 협력으로 관계 강화",
+    "headlines_en": [
+      "Philippines and Korea Boost Maritime Security Cooperation",
+      "ASEAN Economy Grows Steadily Amid Global Uncertainties",
+      "K-Pop Fans Celebrate Korean Music Festival in Manila",
+      "Korean Language Programs Expand in Philippine Schools",
+      "Community Alert: Korean Residents in Metro Manila Urged to Exercise Caution"
+    ],
+    "headlines_kr": [
+      "필리핀과 한국, 해양 안보 협력 강화",
+      "글로벌 불확실 속 ASEAN 경제 꾸준히 성장",
+      "마닐라서 열린 케이팝 페스티벌 열기 후끈",
+      "필리핀 학교에서 한국어 프로그램 확대",
+      "메트로 마닐라 한인 거주민 안전 주의 당부"
+    ],
+    "tags": [
+      "Cooperation",
+      "Security",
+      "Economy",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-15",
     "vol": 105,
     "cover_en": "Korea & PH Unveil 'Smart Laguna' Initiative: A Blueprint for Future Cities",
