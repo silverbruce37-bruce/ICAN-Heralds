@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-15",
+  "header_date_line": "WEDNESDAY, JULY 15, 2026 | PHILIPPINES | VOL. 105",
+  "dashboard": {
+    "php_krw_rate": "24.21",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.15",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea & PH Unveil 'Smart Laguna' Initiative: A Blueprint for Future Cities",
+    "headline_kr": "한-필리핀 '스마트 라구나' 이니셔티브 공개: 미래 도시의 청사진 제시",
+    "subtitle_en": "A landmark bilateral project aims to transform Laguna into a digitally advanced, sustainable urban center, leveraging Korean technology and expertise. This initiative is set to enhance urban living and foster economic growth.",
+    "subtitle_kr": "획기적인 양국 프로젝트는 한국의 기술과 전문성을 활용하여 라구나를 디지털적으로 발전된 지속 가능한 도시로 변화시키는 것을 목표로 합니다. 이 이니셔티브는 도시 생활을 개선하고 경제 성장을 촉진할 것입니다.",
+    "body_en": [
+      "The governments of South Korea and the Philippines today officially launched the 'Smart Laguna' initiative, a comprehensive bilateral project designed to develop Laguna province into a model for future smart cities in Southeast Asia. The agreement, signed by key officials from both nations, outlines a multi-year plan focusing on smart infrastructure, digital governance, sustainable energy solutions, and advanced public services. This collaboration marks a significant milestone in the deepening technological partnership between Seoul and Manila.",
+      "Under the initiative, Korean technology firms will provide cutting-edge solutions for smart traffic management, integrated public safety systems, environmental monitoring, and efficient waste management. The project also includes plans for a robust digital connectivity backbone, smart grids, and e-governance platforms, aiming to improve the quality of life for Laguna residents while creating a favorable environment for new businesses and investments. Officials anticipate a substantial boost in local employment and technological transfer.",
+      "The 'Smart Laguna' project is envisioned as a pilot program, with potential for replication across other Philippine provinces upon successful implementation. Both nations expressed strong commitment to its success, highlighting its role in promoting regional digital transformation and sustainable development. The Korean Embassy in Manila affirmed its support for Korean companies participating in the project, ensuring smooth coordination and timely execution of this ambitious venture that promises to redefine urban landscapes."
+    ],
+    "body_kr": [
+      "한국과 필리핀 정부는 오늘 라구나 주를 동남아시아 미래 스마트 도시의 모델로 개발하기 위한 포괄적인 양자 프로젝트인 '스마트 라구나' 이니셔티브를 공식 출범했습니다. 양국 주요 관계자들이 서명한 이 협정은 스마트 인프라, 디지털 거버넌스, 지속 가능한 에너지 솔루션 및 고급 공공 서비스에 중점을 둔 다년 계획을 설명합니다. 이번 협력은 서울과 마닐라 간의 심화되는 기술 파트너십에 중요한 이정표를 세웠습니다.",
+      "이 이니셔티브에 따라 한국 기술 기업들은 스마트 교통 관리, 통합 공공 안전 시스템, 환경 모니터링 및 효율적인 폐기물 관리를 위한 최첨단 솔루션을 제공할 것입니다. 또한 이 프로젝트에는 강력한 디지털 연결망, 스마트 그리드 및 전자 정부 플랫폼 구축 계획이 포함되어 라구나 주민들의 삶의 질을 향상시키면서 새로운 비즈니스 및 투자에 유리한 환경을 조성하는 것을 목표로 합니다. 관계자들은 지역 고용 및 기술 이전에 상당한 활력이 될 것으로 기대하고 있습니다.",
+      "'스마트 라구나' 프로젝트는 성공적인 구현 시 다른 필리핀 지방으로 확산될 수 있는 시범 프로그램으로 구상되고 있습니다. 양국은 지역 디지털 전환 및 지속 가능한 개발을 촉진하는 역할을 강조하며 프로젝트의 성공에 대한 강력한 의지를 표명했습니다. 마닐라 주재 한국 대사관은 프로젝트에 참여하는 한국 기업들을 지원하며, 도시 경관을 재정의할 이 야심 찬 사업의 원활한 조율과 적시 실행을 보장할 것이라고 밝혔습니다."
+    ],
+    "image_seed": "cover-2026-07-15",
+    "image_query": "Korean and Philippine officials shaking hands signing smart city agreement, digital blueprint overlay",
+    "image_caption": "Photo: Korean and Philippine officials finalize the 'Smart Laguna' agreement (July 15, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korea-PH Cyber Task Force Boosts Digital Defense for Smart City Projects",
+    "headline_kr": "한-필리핀 사이버 태스크포스, 스마트 도시 프로젝트 디지털 방어 강화",
+    "lead_en": "Following the 'Smart Laguna' launch, a joint cybersecurity task force has been established to protect critical digital infrastructure from evolving cyber threats. This collaboration aims to ensure the resilience and integrity of smart city systems.",
+    "lead_kr": "'스마트 라구나' 출범에 따라, 진화하는 사이버 위협으로부터 중요한 디지털 인프라를 보호하기 위한 공동 사이버 보안 태스크포스가 설립되었습니다. 이 협력은 스마트 도시 시스템의 복원력과 무결성을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-15",
+    "image_query": "Cybersecurity experts working on digital network defense, blue data interface",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Conglomerate Invests $50M in PH Renewable Energy Sector",
+      "headline_kr": "한국 대기업, 필리핀 신재생에너지 부문에 5천만 달러 투자",
+      "summary_en": "A major Korean conglomerate announced a $50 million investment in solar and wind power projects in the Philippines, signaling growing confidence in the nation's green energy potential. This move aligns with ASEAN's sustainable development goals.",
+      "summary_kr": "한 주요 한국 대기업이 필리핀의 태양광 및 풍력 발전 프로젝트에 5천만 달러를 투자한다고 발표하며, 필리핀의 녹색 에너지 잠재력에 대한 신뢰를 보여주었습니다. 이 조치는 아세안의 지속 가능한 개발 목표와 일치합니다.",
+      "image_seed": "news1-2026-07-15",
+      "image_query": "Solar panels and wind turbines in a Philippine landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila to Host Grand K-Pop Dance Workshop Series This August",
+      "headline_kr": "마닐라, 8월 대규모 K-팝 댄스 워크숍 시리즈 개최 예정",
+      "summary_en": "K-Pop fans in Manila are gearing up for an exciting August as a series of professional K-Pop dance workshops, featuring renowned Korean choreographers, is set to kick off across the city. This event aims to further bridge cultural ties.",
+      "summary_kr": "마닐라의 K-팝 팬들은 8월에 도시 전역에서 유명 한국 안무가들이 참여하는 전문 K-팝 댄스 워크숍 시리즈가 시작될 예정이어서 흥분하고 있습니다. 이 행사는 문화적 유대를 더욱 강화하는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-07-15",
+      "image_query": "Group of young people dancing K-Pop in a studio",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Joint Disaster Preparedness Training Program Launched for Coastal Communities",
+      "headline_kr": "연안 지역을 위한 공동 재난 대비 훈련 프로그램 시작",
+      "summary_en": "Korea and the Philippines initiated a joint training program focused on disaster preparedness and response for vulnerable coastal communities. Experts from both nations will share best practices to mitigate typhoon and earthquake impacts.",
+      "summary_kr": "한국과 필리핀은 취약한 연안 지역을 위한 재난 대비 및 대응에 중점을 둔 공동 훈련 프로그램을 시작했습니다. 양국 전문가들은 태풍과 지진의 영향을 완화하기 위한 모범 사례를 공유할 것입니다.",
+      "image_seed": "news3-2026-07-15",
+      "image_query": "Philippine and Korean rescue workers in a training exercise",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "PNP Launches New Hotline for Korean Tourists and Residents",
+      "headline_kr": "필리핀 경찰, 한국인 관광객 및 거주자를 위한 새 핫라인 개설",
+      "summary_en": "The Philippine National Police (PNP) has introduced a dedicated 24/7 hotline with Korean-speaking operators to assist Korean tourists and residents in emergencies, enhancing safety and responsiveness for the community.",
+      "summary_kr": "필리핀 국가경찰(PNP)은 한국인 관광객 및 거주자의 비상 상황 지원을 위해 한국어 통역원이 상주하는 24시간 핫라인을 개설하여, 교민 사회의 안전과 대응력을 강화했습니다.",
+      "image_seed": "news4-2026-07-15",
+      "image_query": "Police officer speaking on phone, emergency hotline center",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 개별적인 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The synergy between Korean technology and Philippine resources is key to the success of the 'Smart Laguna' initiative.",
+    "example_kr": "한국 기술과 필리핀 자원 간의 시너지는 '스마트 라구나' 이니셔티브 성공의 핵심입니다.",
+    "grade": "A+"
+  }
+}
