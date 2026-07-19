@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-19",
+  "header_date_line": "SUNDAY, JULY 19, 2026 | PHILIPPINES | VOL. 109",
+  "dashboard": {
+    "php_krw_rate": "24.20",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Launch Joint Digital Innovation Hub to Boost Tech Startups",
+    "headline_kr": "한-필리핀, 기술 스타트업 육성 위한 공동 디지털 혁신 허브 출범",
+    "subtitle_en": "The new initiative aims to foster a vibrant ecosystem for technology startups in both nations, leveraging Korean expertise and Philippine talent, marking a new era of economic partnership.",
+    "subtitle_kr": "이번 신규 이니셔티브는 한국의 전문성과 필리핀의 인재를 활용하여 양국 기술 스타트업을 위한 활기찬 생태계를 조성하고, 새로운 경제 파트너십 시대를 열 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a landmark move to propel both nations into the forefront of the digital economy, South Korea and the Philippines officially inaugurated the 'Korea-Philippines Digital Innovation Hub' (KPDH) today. The collaborative venture, spearheaded by the Ministry of Science and ICT of Korea and the Philippine Department of Information and Communications Technology (DICT), is designed to serve as a central nexus for technology development, startup incubation, and cross-border investment in the rapidly expanding digital sector.",
+      "The KPDH will offer a comprehensive suite of services, including mentorship programs from seasoned Korean tech entrepreneurs, access to venture capital networks, co-working spaces equipped with advanced infrastructure, and specialized training workshops. Philippine startups will gain unparalleled access to the highly competitive Korean market, while Korean startups seeking to expand in Southeast Asia will find a supportive launchpad and a vast talent pool in the Philippines. This strategic alliance is expected to significantly accelerate the growth of innovative enterprises and create high-value jobs.",
+      "Officials from both countries expressed optimism regarding the hub's potential to drive economic growth and foster a deeper understanding of each other's tech landscapes. Ambassador Kim Sang-ho emphasized the importance of digital transformation in post-pandemic recovery and future resilience, highlighting how the KPDH embodies a shared vision for a digitally empowered ASEAN. The Korean community in the Philippines is encouraged to participate, offering their expertise and connecting with local innovators, further solidifying the bilateral ties."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국을 디지털 경제의 선두로 이끌기 위한 획기적인 조치로, 대한민국과 필리핀은 오늘 '한-필리핀 디지털 혁신 허브(KPDH)'를 공식 출범시켰습니다. 한국 과학기술정보통신부와 필리핀 정보통신기술부(DICT)가 주도하는 이 협력 사업은 급속히 확장되는 디지털 부문에서 기술 개발, 스타트업 인큐베이팅, 국경 간 투자를 위한 중심 축 역할을 하도록 설계되었습니다.",
+      "KPDH는 숙련된 한국 기술 기업가들의 멘토링 프로그램, 벤처 캐피탈 네트워크 접근, 첨단 인프라를 갖춘 코워킹 스페이스, 전문 교육 워크숍 등 포괄적인 서비스를 제공할 예정입니다. 필리핀 스타트업은 경쟁이 치열한 한국 시장에 비할 바 없는 접근성을 얻게 되며, 동남아시아로 확장을 모색하는 한국 스타트업은 필리핀에서 지원적인 발판과 방대한 인재 풀을 찾을 수 있을 것입니다. 이번 전략적 제휴는 혁신 기업의 성장을 크게 가속화하고 고부가가치 일자리를 창출할 것으로 기대됩니다.",
+      "양국 관계자들은 이 허브가 경제 성장을 견인하고 서로의 기술 환경에 대한 이해를 심화시킬 잠재력에 대해 낙관적인 전망을 내놓았습니다. 김상호 대사는 팬데믹 이후 회복과 미래 회복력에 있어 디지털 전환의 중요성을 강조하며, KPDH가 디지털 역량을 갖춘 아세안에 대한 공동 비전을 어떻게 구현하는지 역설했습니다. 필리핀 내 한인 사회는 전문 지식을 제공하고 현지 혁신가들과 교류하여 양국 관계를 더욱 공고히 할 것을 권장합니다."
+    ],
+    "image_seed": "cover-2026-07-19",
+    "image_query": "Korean Philippine officials shaking hands in modern tech hub, digital screens",
+    "image_caption": "Photo: Officials from Korea and the Philippines inaugurate the Digital Innovation Hub (July 19, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean National Police Strengthen Joint Patrols for Tourist Safety",
+    "headline_kr": "필리핀 경찰청, 한국 경찰청과 관광객 안전 위한 합동 순찰 강화",
+    "lead_en": "The Philippine National Police (PNP) and the Korean National Police (KNP) have announced an expansion of their joint security patrols, particularly in areas frequented by Korean tourists and residents. This enhanced collaboration aims to deter crime and provide a safer environment for the growing Korean community and visitors across key Philippine cities.",
+    "lead_kr": "필리핀 경찰청(PNP)과 한국 경찰청(KNP)은 한국인 관광객 및 거주자들이 자주 찾는 지역을 중심으로 합동 보안 순찰을 확대한다고 발표했습니다. 이번 협력 강화는 주요 필리핀 도시 전역에서 증가하는 한인 사회와 방문객들을 위한 범죄 예방 및 보다 안전한 환경 제공을 목표로 합니다.",
+    "image_seed": "feat-2026-07-19",
+    "image_query": "Philippine Korean police officers patrolling busy tourist street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Manufacturing Giant Expands Production in Clark Economic Zone",
+      "headline_kr": "한국 제조업 대기업, 클락 경제특구 생산시설 확장",
+      "summary_en": "A leading Korean electronics manufacturer has announced a significant expansion of its production facilities within the Clark Special Economic Zone, promising thousands of new jobs and boosting local economic growth.",
+      "summary_kr": "선도적인 한국 전자 제조업체가 클락 특별 경제특구 내 생산 시설의 대규모 확장을 발표하며, 수천 개의 새로운 일자리 창출과 지역 경제 성장을 약속했습니다.",
+      "image_seed": "news1-2026-07-19",
+      "image_query": "Modern factory building Clark economic zone, Korean flag",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Largest K-Pop Dance Festival of the Year, Drawing Huge Crowds",
+      "headline_kr": "마닐라, 올해 최대 규모 K-POP 댄스 페스티벌 개최, 인파 북적",
+      "summary_en": "Thousands of K-Pop fans gathered in Manila over the weekend for the annual 'Hallyu Movement Dance Fest,' showcasing local talent and international groups, further cementing K-culture's popularity.",
+      "summary_kr": "수천 명의 K-POP 팬들이 주말 동안 마닐라에 모여 연례 '한류 무브먼트 댄스 페스트'를 즐겼으며, 현지 인재와 국제 그룹들이 무대를 선보이며 K-문화의 인기를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-07-19",
+      "image_query": "Crowd watching K-Pop dance performers on stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Discuss Enhanced Maritime Security Cooperation in Joint Dialogue",
+      "headline_kr": "필리핀-한국, 공동 대화에서 해양 안보 협력 강화 논의",
+      "summary_en": "Senior defense officials from both nations held productive talks on strengthening maritime security, sharing intelligence, and conducting joint exercises in the South China Sea, emphasizing regional stability.",
+      "summary_kr": "양국의 고위 국방 관계자들은 남중국해에서의 해양 안보 강화, 정보 공유, 합동 훈련에 대해 생산적인 회담을 가졌으며, 지역 안정의 중요성을 강조했습니다.",
+      "image_seed": "news3-2026-07-19",
+      "image_query": "Naval ships patrolling South China Sea, flags",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Monsoon Season Precautions for Residents",
+      "headline_kr": "주필리핀 한국대사관, 교민 대상 몬순 시즌 주의보 발령",
+      "summary_en": "The Korean Embassy in Manila has urged its nationals to exercise extreme caution during the ongoing monsoon season, providing guidelines on flood preparedness, health risks, and emergency contacts.",
+      "summary_kr": "주마닐라 한국대사관은 현재 진행 중인 몬순 시즌 동안 교민들에게 각별한 주의를 당부하며, 홍수 대비, 건강 위험 및 비상 연락처에 대한 지침을 제공했습니다.",
+      "image_seed": "news4-2026-07-19",
+      "image_query": "Rainy street in Manila, people with umbrellas",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds up significant change or action.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new Digital Innovation Hub will act as a catalyst for technological advancement and economic growth in both Korea and the Philippines.",
+    "example_kr": "새로운 디지털 혁신 허브는 한국과 필리핀 양국의 기술 발전과 경제 성장의 촉매제 역할을 할 것입니다.",
+    "grade": "A+"
+  }
+}

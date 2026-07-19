@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-19",
+    "vol": 109,
+    "cover_en": "Korea-Philippines Launch Joint Digital Innovation Hub to Boost Tech Startups",
+    "cover_kr": "한-필리핀, 기술 스타트업 육성 위한 공동 디지털 혁신 허브 출범",
+    "headlines_en": [
+      "PNP, Korean National Police Strengthen Joint Patrols for Tourist Safety",
+      "Korean Manufacturing Giant Expands Production in Clark Economic Zone",
+      "Manila Hosts Largest K-Pop Dance Festival of the Year, Drawing Huge Crowds",
+      "Philippines, Korea Discuss Enhanced Maritime Security Cooperation in Joint Dialogue",
+      "Korean Embassy Issues Advisory on Monsoon Season Precautions for Residents"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰청, 한국 경찰청과 관광객 안전 위한 합동 순찰 강화",
+      "한국 제조업 대기업, 클락 경제특구 생산시설 확장",
+      "마닐라, 올해 최대 규모 K-POP 댄스 페스티벌 개최, 인파 북적",
+      "필리핀-한국, 공동 대화에서 해양 안보 협력 강화 논의",
+      "주필리핀 한국대사관, 교민 대상 몬순 시즌 주의보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-18",
     "vol": 108,
     "cover_en": "PH, Korea Forge New Digital Partnership to Drive Regional Innovation",
