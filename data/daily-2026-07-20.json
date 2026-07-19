@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-20",
+  "header_date_line": "MONDAY, JULY 20, 2026 | PHILIPPINES | VOL. 110",
+  "dashboard": {
+    "php_krw_rate": "24.20",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea FTA Phase Two Kicks Off, Boosting Digital & Green Tech",
+    "headline_kr": "한-필 FTA 2단계 가동, 디지털 및 녹색 기술 협력 강화",
+    "subtitle_en": "The second phase of the Philippines-Korea Free Trade Agreement officially commences, focusing on expanded trade in digital services, renewable energy, and advanced manufacturing. This initiative aims to accelerate economic growth and foster innovation across both nations.",
+    "subtitle_kr": "필리핀-한국 자유무역협정(FTA) 2단계가 공식적으로 시작되며, 디지털 서비스, 재생에너지 및 첨단 제조업 분야의 무역 확대를 목표로 합니다. 이번 이니셔티브는 양국의 경제 성장을 가속화하고 혁신을 촉진할 것입니다.",
+    "body_en": [
+      "The much-anticipated second phase of the Philippines-Korea Free Trade Agreement (FTA) has officially launched today, marking a significant milestone in bilateral economic relations. This new chapter builds upon the successes of the initial agreement, with a strategic emphasis on high-growth sectors critical for future economic resilience and sustainability. Key areas of focus include the digital economy, encompassing e-commerce and IT services, as well as green technologies such as solar and wind energy solutions, and advanced manufacturing processes.",
+      "Officials from both nations expressed optimism about the expanded scope, highlighting its potential to create new market opportunities and facilitate greater investment flows. Korean businesses are particularly keen on leveraging the Philippines' rapidly growing digital consumer base and its abundant renewable energy resources, while Philippine enterprises anticipate enhanced access to Korea's advanced technological expertise and capital. The agreement is expected to streamline regulatory processes and reduce trade barriers, fostering a more conducive environment for cross-border business ventures.",
+      "For the Korean community in the Philippines, this FTA phase signifies potential benefits through increased job creation in emerging industries, improved access to diverse goods and services, and a strengthened overall economic landscape. Local Korean entrepreneurs are encouraged to explore new partnerships and investment avenues presented by these evolving sectors. The ICAN Heralds will continue to provide in-depth coverage on the implementation and impact of this pivotal agreement on both national economies and the expatriate community."
+    ],
+    "body_kr": [
+      "오랫동안 기다려온 필리핀-한국 자유무역협정(FTA) 2단계가 오늘 공식적으로 시작되어 양국 경제 관계에 중요한 이정표를 세웠습니다. 이 새로운 장은 초기 협정의 성공을 기반으로 하며, 미래 경제 회복력과 지속 가능성에 필수적인 고성장 부문에 전략적으로 중점을 둡니다. 주요 초점 분야에는 전자상거래 및 IT 서비스를 포함한 디지털 경제와 태양광 및 풍력 에너지 솔루션과 같은 녹색 기술, 그리고 첨단 제조 공정이 포함됩니다.",
+      "양국 관계자들은 확대된 범위에 대해 낙관적인 전망을 내놓으며, 새로운 시장 기회를 창출하고 더 큰 투자 흐름을 촉진할 잠재력을 강조했습니다. 한국 기업들은 필리핀의 빠르게 성장하는 디지털 소비자 기반과 풍부한 재생에너지 자원을 활용하는 데 특히 열심이며, 필리핀 기업들은 한국의 첨단 기술 전문 지식과 자본에 대한 접근성 향상을 기대하고 있습니다. 이번 협정은 규제 절차를 간소화하고 무역 장벽을 줄여 국경 간 사업 벤처에 더욱 유리한 환경을 조성할 것으로 예상됩니다.",
+      "필리핀 내 한인 사회에게 이 FTA 단계는 신흥 산업 분야의 일자리 증가, 다양한 상품 및 서비스에 대한 접근성 향상, 그리고 전반적인 경제 환경 강화 등 잠재적인 혜택을 의미합니다. 현지 한인 기업가들은 이러한 발전하는 부문에서 제시되는 새로운 파트너십과 투자 기회를 모색하도록 권장됩니다. ICAN Heralds는 이 중대한 협정이 양국 경제와 교민 사회에 미치는 영향에 대해 심층적인 보도를 계속 제공할 것입니다."
+    ],
+    "image_seed": "cover-2026-07-20",
+    "image_query": "Korean Philippine officials handshake signing digital green tech agreement",
+    "image_caption": "Photo: Philippine and Korean trade officials finalize the FTA Phase Two agreement (July 19, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Patrols Boost Safety in Tourist Zones",
+    "headline_kr": "필리핀-한국 경찰 합동 순찰, 관광지 안전 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) officers have launched expanded joint patrols in key tourist areas and Korean community hubs across Metro Manila and popular destinations like Cebu and Boracay. This initiative aims to enhance safety and provide quicker response times for Korean nationals and other tourists, particularly during the peak travel season.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 요원들이 메트로 마닐라 및 세부, 보라카이와 같은 인기 관광지의 주요 관광 지역과 한인 밀집 지역에서 확대된 합동 순찰을 시작했습니다. 이 이니셔티브는 특히 성수기 동안 한국인 및 기타 관광객의 안전을 강화하고 더 빠른 대응 시간을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-20",
+    "image_query": "Korean and Philippine police officers patrolling tourist street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Retail Brands Eyeing Major Expansion in Philippine Market",
+      "headline_kr": "한국 소매 브랜드, 필리핀 시장 대규모 확장 모색",
+      "summary_en": "Several prominent Korean retail chains, including fashion and beauty brands, are reportedly planning significant expansion into the Philippines, encouraged by the robust consumer market and the newly enacted FTA phase. This move is expected to introduce more diverse Korean products and create local employment opportunities.",
+      "summary_kr": "패션 및 뷰티 브랜드를 포함한 여러 저명한 한국 소매 체인들이 활기찬 소비자 시장과 새로 발효된 FTA 단계에 힘입어 필리핀 시장으로의 대규모 확장을 계획하고 있는 것으로 알려졌습니다. 이러한 움직임은 더 다양한 한국 제품을 소개하고 현지 고용 기회를 창출할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-07-20",
+      "image_query": "Korean fashion beauty products inside Philippine mall",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Draws Record Participation Across PH",
+      "headline_kr": "K-팝 댄스 워크숍 시리즈, 필리핀 전역에서 역대급 참여 기록",
+      "summary_en": "A nationwide K-Pop dance workshop series, sponsored by the Korean Cultural Center in the Philippines, has concluded with unprecedented attendance, attracting thousands of local youth eager to learn popular K-Pop choreography. The success highlights the enduring popularity of Hallyu.",
+      "summary_kr": "주필리핀 한국문화원이 후원한 전국 K-팝 댄스 워크숍 시리즈가 전례 없는 참여율을 기록하며 성황리에 마무리되었습니다. 수천 명의 현지 젊은이들이 인기 K-팝 안무를 배우기 위해 몰려들었으며, 이번 성공은 한류의 지속적인 인기를 보여줍니다.",
+      "image_seed": "news2-2026-07-20",
+      "image_query": "Young Filipinos dancing K-Pop in workshop",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Strengthen Maritime Security Cooperation in Joint Drills",
+      "headline_kr": "필리핀, 한국과 합동 훈련으로 해양 안보 협력 강화",
+      "summary_en": "Naval forces from the Philippines and South Korea recently concluded joint maritime security exercises in the West Philippine Sea, focusing on anti-piracy operations and disaster response. This collaboration underscores both nations' commitment to regional stability and safe sea lanes.",
+      "summary_kr": "필리핀과 한국 해군이 최근 서필리핀해에서 해적 퇴치 작전과 재난 대응에 중점을 둔 합동 해양 안보 훈련을 마쳤습니다. 이번 협력은 역내 안정과 안전한 해상 통로에 대한 양국의 의지를 강조합니다.",
+      "image_seed": "news3-2026-07-20",
+      "image_query": "Philippine Korean naval ships joint exercise at sea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Extreme Heat; Urges Caution",
+      "headline_kr": "주필리핀 한국대사관, 폭염 주의보 발령; 주의 당부",
+      "summary_en": "The Korean Embassy in Manila has issued a public advisory urging Korean residents and tourists to take extreme precautions against the soaring temperatures and high humidity, which increase the risk of heatstroke and other heat-related illnesses. Hydration and limiting outdoor exposure are strongly recommended.",
+      "summary_kr": "주필리핀 한국대사관은 한국 거주민과 관광객들에게 폭염과 높은 습도로 인한 열사병 및 기타 열 관련 질병의 위험 증가에 대해 극도의 주의를 기울일 것을 당부하는 공지를 발표했습니다. 수분 섭취와 야외 활동 제한이 강력히 권고됩니다.",
+      "image_seed": "news4-2026-07-20",
+      "image_query": "Thermometer showing high temperature, person drinking water",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between Philippine workforce and Korean technology is expected to drive innovation under the new FTA.",
+    "example_kr": "필리핀 노동력과 한국 기술 간의 시너지는 새로운 FTA 하에서 혁신을 이끌 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

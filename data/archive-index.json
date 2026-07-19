@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-20",
+    "vol": 110,
+    "cover_en": "PH-Korea FTA Phase Two Kicks Off, Boosting Digital & Green Tech",
+    "cover_kr": "한-필 FTA 2단계 가동, 디지털 및 녹색 기술 협력 강화",
+    "headlines_en": [
+      "Joint PH-Korea Police Patrols Boost Safety in Tourist Zones",
+      "Korean Retail Brands Eyeing Major Expansion in Philippine Market",
+      "K-Pop Dance Workshop Series Draws Record Participation Across PH",
+      "PH, Korea Strengthen Maritime Security Cooperation in Joint Drills",
+      "Korean Embassy Issues Advisory on Extreme Heat; Urges Caution"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 경찰 합동 순찰, 관광지 안전 강화",
+      "한국 소매 브랜드, 필리핀 시장 대규모 확장 모색",
+      "K-팝 댄스 워크숍 시리즈, 필리핀 전역에서 역대급 참여 기록",
+      "필리핀, 한국과 합동 훈련으로 해양 안보 협력 강화",
+      "주필리핀 한국대사관, 폭염 주의보 발령; 주의 당부"
+    ],
+    "tags": [
+      "Culture",
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-07-19",
     "vol": 109,
     "cover_en": "Korea-Philippines Launch Joint Digital Innovation Hub to Boost Tech Startups",
