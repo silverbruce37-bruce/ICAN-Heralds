@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-21",
+    "vol": 111,
+    "cover_en": "PH-Korea Launch Landmark Digital Infrastructure Alliance",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 동맹 출범",
+    "headlines_en": [
+      "Boracay Police Boost Patrols for Korean Tourists",
+      "ASEAN Economic Growth Forecast Revised Upwards for 2026",
+      "K-Food Festival Attracts Record Numbers in Manila",
+      "PH, South Korea Discuss Maritime Security Cooperation in West Philippine Sea",
+      "DOLE Warns Against Illegal Recruitment Schemes Targeting OFWs"
+    ],
+    "headlines_kr": [
+      "보라카이 경찰, 한국인 관광객 위한 순찰 강화",
+      "2026년 아세안 경제 성장률 전망 상향 조정",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "필리핀, 한국과 서필리핀해 해양 안보 협력 논의",
+      "DOLE, 해외 근로자 대상 불법 채용 사기 경고"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-20",
     "vol": 110,
     "cover_en": "PH-Korea FTA Phase Two Kicks Off, Boosting Digital & Green Tech",

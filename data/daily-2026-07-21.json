@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-21",
+  "header_date_line": "TUESDAY, JULY 21, 2026 | PHILIPPINES | VOL. 111",
+  "dashboard": {
+    "php_krw_rate": "23.98",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.21",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Infrastructure Alliance",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 인프라 동맹 출범",
+    "subtitle_en": "New agreement aims to revolutionize Philippine connectivity and smart city development, leveraging Korean tech expertise and investment for a digitally advanced future.",
+    "subtitle_kr": "새로운 협정은 한국의 기술 전문성과 투자를 활용하여 필리핀의 연결성과 스마트 도시 개발을 혁신하고 디지털 선진 미래를 구축하는 것을 목표로 합니다.",
+    "body_en": [
+      "MANILA – In a significant move towards a digitally empowered future, the Philippines and South Korea today officially launched a landmark Digital Infrastructure Alliance. The agreement, signed by Philippine President Ferdinand Marcos Jr. and South Korean President Yoon Suk Yeol during a virtual summit, outlines a comprehensive framework for collaboration on high-speed internet expansion, smart city solutions, and robust cybersecurity infrastructure across the archipelago. The initiative is expected to attract substantial Korean investment and technical assistance, marking a new chapter in bilateral economic cooperation.",
+      "The alliance's immediate focus includes pilot projects in key urban centers, aiming to deploy 5G network enhancements and establish data centers crucial for supporting the burgeoning digital economy. Officials from both nations emphasized that this partnership is not merely about technology transfer but about fostering sustainable growth and creating an inclusive digital ecosystem that benefits all Filipinos. It is anticipated to generate thousands of jobs, enhance educational opportunities through improved connectivity, and streamline public services.",
+      "Experts believe this strategic partnership will significantly bolster the Philippines' position as a rising digital hub in Southeast Asia, while providing Korean tech companies with a vital gateway to the ASEAN market. Challenges, such as geographical complexities and regulatory harmonization, were acknowledged, but both governments expressed strong commitment to overcoming them through continuous dialogue and joint working groups. The long-term vision includes integrating AI-driven solutions and renewable energy sources into the new digital backbone."
+    ],
+    "body_kr": [
+      "마닐라 – 디지털 강국으로 나아가기 위한 중요한 발걸음으로, 필리핀과 한국이 오늘 획기적인 디지털 인프라 동맹을 공식 출범했습니다. 필리핀의 페르디난드 마르코스 주니어 대통령과 한국의 윤석열 대통령이 화상 정상회담에서 서명한 이 협정은 필리핀 전역의 고속 인터넷 확장, 스마트 도시 솔루션 및 강력한 사이버 보안 인프라 구축에 대한 포괄적인 협력 프레임워크를 제시합니다. 이 이니셔티브는 상당한 한국 투자와 기술 지원을 유치하여 양국 경제 협력의 새로운 장을 열 것으로 기대됩니다.",
+      "이 동맹의 즉각적인 초점은 주요 도시 중심에서의 시범 프로젝트를 포함하며, 급성장하는 디지털 경제를 지원하는 데 필수적인 5G 네트워크 향상 및 데이터 센터 구축을 목표로 합니다. 양국 관계자들은 이번 파트너십이 단순한 기술 이전이 아니라 모든 필리핀 국민에게 혜택을 주는 지속 가능한 성장과 포괄적인 디지털 생태계 조성을 위한 것이라고 강조했습니다. 이는 수천 개의 일자리를 창출하고, 개선된 연결성을 통해 교육 기회를 확대하며, 공공 서비스를 간소화할 것으로 예상됩니다.",
+      "전문가들은 이 전략적 파트너십이 필리핀을 동남아시아의 떠오르는 디지털 허브로서의 입지를 크게 강화하는 동시에, 한국 기술 기업들에게 아세안 시장으로의 중요한 진출 기회를 제공할 것이라고 믿습니다. 지리적 복잡성과 규제 조화와 같은 과제들이 인정되었지만, 양국 정부는 지속적인 대화와 공동 실무 그룹을 통해 이를 극복하기 위한 강력한 의지를 표명했습니다. 장기적인 비전에는 새로운 디지털 백본에 AI 기반 솔루션과 재생 에너지원 통합이 포함됩니다."
+    ],
+    "image_seed": "cover-2026-07-21",
+    "image_query": "Philippine Korean officials signing digital infrastructure agreement",
+    "image_caption": "Photo: President Marcos Jr. and President Yoon Suk Yeol during the virtual signing of the Digital Infrastructure Alliance (July 21, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Boracay Police Boost Patrols for Korean Tourists",
+    "headline_kr": "보라카이 경찰, 한국인 관광객 위한 순찰 강화",
+    "lead_en": "Boracay authorities have announced enhanced security measures targeting popular tourist areas, particularly those frequented by Korean visitors. The initiative, dubbed \"Operation Safe Haven,\" includes increased police visibility, CCTV surveillance upgrades, and community engagement programs to ensure a safer environment for international guests.",
+    "lead_kr": "보라카이 당국은 한국인 방문객이 자주 찾는 관광 지역을 중심으로 강화된 보안 조치를 발표했습니다. \"안전한 피난처 작전\"으로 명명된 이 이니셔티브는 국제 관광객을 위한 더 안전한 환경을 보장하기 위해 경찰 가시성 증가, CCTV 감시 시스템 업그레이드 및 지역 사회 참여 프로그램을 포함합니다.",
+    "image_seed": "feat-2026-07-21",
+    "image_query": "Boracay police patrol Korean tourists beach",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Growth Forecast Revised Upwards for 2026",
+      "headline_kr": "2026년 아세안 경제 성장률 전망 상향 조정",
+      "summary_en": "The ASEAN Secretariat has revised its economic growth forecast for 2026 upwards, citing strong regional trade, increased foreign direct investment, and resilient domestic consumption across member states.",
+      "summary_kr": "아세안 사무국은 강력한 역내 무역, 외국인 직접 투자 증가, 회원국 전반의 회복력 있는 국내 소비를 이유로 2026년 경제 성장률 전망을 상향 조정했습니다.",
+      "image_seed": "news1-2026-07-21",
+      "image_query": "ASEAN economic chart growth",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Attracts Record Numbers in Manila",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing diverse Korean culinary traditions and boosting cultural exchange. Visitors enjoyed cooking demonstrations, food stalls, and traditional performances.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 기록하며 막을 내렸습니다. 다양한 한국 요리 전통을 선보이고 문화 교류를 증진했으며, 방문객들은 요리 시연, 음식 부스, 전통 공연을 즐겼습니다.",
+      "image_seed": "news2-2026-07-21",
+      "image_query": "People enjoying K-food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, South Korea Discuss Maritime Security Cooperation in West Philippine Sea",
+      "headline_kr": "필리핀, 한국과 서필리핀해 해양 안보 협력 논의",
+      "summary_en": "High-ranking officials from the Philippines and South Korea held talks on enhancing maritime security cooperation, including joint training exercises and information sharing, particularly concerning the West Philippine Sea.",
+      "summary_kr": "필리핀과 한국의 고위 관계자들이 서필리핀해와 관련하여 공동 훈련 및 정보 공유를 포함한 해양 안보 협력 강화 방안에 대해 논의했습니다.",
+      "image_seed": "news3-2026-07-21",
+      "image_query": "Philippine Korean naval officers meeting",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "DOLE Warns Against Illegal Recruitment Schemes Targeting OFWs",
+      "headline_kr": "DOLE, 해외 근로자 대상 불법 채용 사기 경고",
+      "summary_en": "The Department of Labor and Employment (DOLE) issued a stern warning to aspiring Overseas Filipino Workers (OFWs) regarding sophisticated illegal recruitment schemes, urging vigilance and verification of job offers through official channels.",
+      "summary_kr": "필리핀 노동고용부(DOLE)는 해외 필리핀 근로자(OFW) 지망생들을 대상으로 한 정교한 불법 채용 사기에 대해 강력히 경고하며, 공식 채널을 통한 일자리 제안 확인과 경계를 촉구했습니다.",
+      "image_seed": "news4-2026-07-21",
+      "image_query": "Filipino workers checking job applications",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 주체가 상호 작용하거나 협력하여 각각의 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital infrastructure alliance aims to achieve synergy between Philippine development goals and Korean technological prowess.",
+    "example_kr": "디지털 인프라 동맹은 필리핀의 개발 목표와 한국의 기술력 사이에 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
