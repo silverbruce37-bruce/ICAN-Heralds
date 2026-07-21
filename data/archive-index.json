@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-22",
+    "vol": 112,
+    "cover_en": "PH-Korea Digital Hub Project Breaks Ground in Clark Ecozone",
+    "cover_kr": "필리핀-한국 디지털 허브 프로젝트, 클락 경제특구서 착공",
+    "headlines_en": [
+      "Korean Community in Metro Manila Urged to Exercise Heightened Vigilance",
+      "ASEAN Economic Ministers Discuss Regional Trade Integration in Bali",
+      "K-Pop Dance Workshop Series Kicks Off in Quezon City",
+      "Philippine, Korean Universities Launch Joint Research Program on Climate Change",
+      "Bureau of Immigration Warns Against Visa Scam Operations"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인사회, 경계 강화 당부",
+      "아세안 경제장관들, 발리서 역내 무역 통합 논의",
+      "퀘존 시티에서 K-팝 댄스 워크숍 시리즈 시작",
+      "필리핀-한국 대학들, 기후 변화 공동 연구 프로그램 착수",
+      "이민국, 비자 사기 운영에 대해 경고"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Security",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-21",
     "vol": 111,
     "cover_en": "PH-Korea Launch Landmark Digital Infrastructure Alliance",

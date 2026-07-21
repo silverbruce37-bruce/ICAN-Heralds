@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-22",
+  "header_date_line": "WEDNESDAY, JULY 22, 2026 | PHILIPPINES | VOL. 112",
+  "dashboard": {
+    "php_krw_rate": "24.03",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.22",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Hub Project Breaks Ground in Clark Ecozone",
+    "headline_kr": "필리핀-한국 디지털 허브 프로젝트, 클락 경제특구서 착공",
+    "subtitle_en": "The ambitious joint venture aims to establish a cutting-edge data center and innovation hub, solidifying the Philippines' position as a regional digital economy leader. This project is expected to attract significant foreign investment and create thousands of jobs.",
+    "subtitle_kr": "야심 찬 합작 투자로 첨단 데이터 센터 및 혁신 허브를 구축하여 필리핀을 지역 디지털 경제 리더로 확고히 하는 것을 목표로 합니다. 이 프로젝트는 상당한 해외 투자를 유치하고 수천 개의 일자리를 창출할 것으로 예상됩니다.",
+    "body_en": [
+      "Clark Freeport Zone, Philippines – A landmark groundbreaking ceremony was held today for the Philippine-Korea Digital Hub Project, marking a pivotal moment in the bilateral cooperation between the two nations. Senior officials from both governments, alongside industry leaders, gathered to inaugurate the construction of what is envisioned to be Southeast Asia’s most advanced data center and innovation campus. This initiative, a cornerstone of the 'Digital Philippines 2030' agenda, is set to transform the region's digital infrastructure.",
+      "The project, estimated at $500 million, is largely supported by Korean technological expertise and investment, with leading Korean tech conglomerates playing a crucial role in its development and implementation. It is projected to generate over 10,000 direct and indirect jobs during its construction phase and upon full operation, fostering a new generation of IT professionals in the Philippines. Analysts predict a significant boost to the local economy, attracting further foreign direct investment in the burgeoning digital sector.",
+      "Once operational, the Digital Hub will provide robust cloud services, AI research facilities, and a collaborative environment for startups, positioning the Philippines as a key player in the global digital economy. Ambassador Kim Min-joon emphasized during his speech that this project not only strengthens economic ties but also deepens cultural understanding and mutual growth, reinforcing the strategic partnership between the Philippines and South Korea. The hub is expected to be fully operational by late 2028."
+    ],
+    "body_kr": [
+      "필리핀 클락 자유항 – 오늘 필리핀-한국 디지털 허브 프로젝트의 획기적인 착공식이 열려 양국 간 양자 협력의 중요한 순간을 맞이했습니다. 양국 정부 고위 관계자들과 업계 리더들이 참석하여 동남아시아에서 가장 진보된 데이터 센터 및 혁신 캠퍼스로 구상되는 이 시설의 건설을 공식적으로 시작했습니다. '디지털 필리핀 2030' 의제의 초석인 이 이니셔티브는 이 지역의 디지털 인프라를 변화시킬 것입니다.",
+      "약 5억 달러 규모로 추산되는 이 프로젝트는 한국의 기술 전문성과 투자에 의해 크게 지원되며, 선도적인 한국 기술 대기업들이 개발 및 구현에 핵심적인 역할을 합니다. 건설 단계와 완전 운영 시 10,000개 이상의 직간접적인 일자리를 창출하여 필리핀에 새로운 세대의 IT 전문가를 양성할 것으로 예상됩니다. 분석가들은 급성장하는 디지털 부문에 더 많은 해외 직접 투자를 유치하여 지역 경제에 상당한 활력을 불어넣을 것이라고 예측합니다.",
+      "일단 가동되면 디지털 허브는 강력한 클라우드 서비스, AI 연구 시설 및 스타트업을 위한 협업 환경을 제공하여 필리핀을 글로벌 디지털 경제의 핵심 주체로 자리매김할 것입니다. 김민준 대사는 연설에서 이 프로젝트가 경제적 유대를 강화할 뿐만 아니라 문화적 이해와 상호 성장을 심화하여 필리핀과 한국 간의 전략적 파트너십을 강화한다고 강조했습니다. 이 허브는 2028년 말까지 완전 가동될 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-07-22",
+    "image_query": "Philippine Korean officials groundbreaking ceremony digital hub Clark",
+    "image_caption": "Photo: Philippine and Korean officials at the Digital Hub Project groundbreaking ceremony in Clark (July 22, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Community in Metro Manila Urged to Exercise Heightened Vigilance",
+    "headline_kr": "메트로 마닐라 한인사회, 경계 강화 당부",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy have jointly issued an advisory urging Korean residents in Metro Manila to maintain heightened vigilance following a series of petty crimes targeting foreign nationals. Community leaders are working closely with authorities to enhance security measures and disseminate crucial safety information.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 주필리핀 한국대사관은 최근 외국인들을 대상으로 한 소액 범죄 발생에 따라 메트로 마닐라 거주 한인들에게 경계 강화를 당부하는 공동 권고를 발표했습니다. 한인사회 지도자들은 당국과 긴밀히 협력하여 보안 조치를 강화하고 중요한 안전 정보를 전파하고 있습니다.",
+    "image_seed": "feat-2026-07-22",
+    "image_query": "Korean community members police officer security briefing",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Regional Trade Integration in Bali",
+      "headline_kr": "아세안 경제장관들, 발리서 역내 무역 통합 논의",
+      "summary_en": "Economic ministers from ASEAN member states convened in Bali to discuss strategies for deeper regional trade integration and investment facilitation. Key topics included digital economy frameworks and sustainable development goals.",
+      "summary_kr": "아세안 회원국 경제장관들이 발리에서 역내 무역 통합 심화 및 투자 촉진 전략을 논의하기 위해 모였습니다. 주요 의제로는 디지털 경제 프레임워크와 지속 가능한 개발 목표가 포함되었습니다.",
+      "image_seed": "news1-2026-07-22",
+      "image_query": "ASEAN economic ministers meeting conference table",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Kicks Off in Quezon City",
+      "headline_kr": "퀘존 시티에서 K-팝 댄스 워크숍 시리즈 시작",
+      "summary_en": "A popular K-Pop dance workshop series has launched in Quezon City, attracting hundreds of Filipino youth eager to learn the latest moves. The event aims to further strengthen cultural ties through shared passion for music and dance.",
+      "summary_kr": "인기 있는 K-팝 댄스 워크숍 시리즈가 퀘존 시티에서 시작되어 최신 춤을 배우려는 수백 명의 필리핀 젊은이들을 끌어모았습니다. 이 행사는 음악과 춤에 대한 공유된 열정을 통해 문화적 유대를 더욱 강화하는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-07-22",
+      "image_query": "Filipino youth K-Pop dance workshop",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine, Korean Universities Launch Joint Research Program on Climate Change",
+      "headline_kr": "필리핀-한국 대학들, 기후 변화 공동 연구 프로그램 착수",
+      "summary_en": "Several leading universities from the Philippines and South Korea have partnered to launch a joint research program focusing on climate change adaptation and mitigation strategies. This academic collaboration highlights growing scientific cooperation.",
+      "summary_kr": "필리핀과 한국의 여러 선도 대학들이 기후 변화 적응 및 완화 전략에 중점을 둔 공동 연구 프로그램을 시작하기 위해 협력했습니다. 이 학술 협력은 증가하는 과학적 협력을 보여줍니다.",
+      "image_seed": "news3-2026-07-22",
+      "image_query": "University students scientists laboratory climate research",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Bureau of Immigration Warns Against Visa Scam Operations",
+      "headline_kr": "이민국, 비자 사기 운영에 대해 경고",
+      "summary_en": "The Philippine Bureau of Immigration has issued a public warning about an increase in visa scam operations targeting foreign nationals, including Korean residents. They advise vigilance and direct transactions only with official channels.",
+      "summary_kr": "필리핀 이민국은 한인 거주자를 포함한 외국인들을 대상으로 하는 비자 사기 운영 증가에 대해 대중에게 경고를 발표했습니다. 이민국은 경계를 유지하고 공식 채널을 통해서만 거래할 것을 권고합니다.",
+      "image_seed": "news4-2026-07-22",
+      "image_query": "Philippine immigration officer warning sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərji/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The successful digital hub project is a testament to the powerful synergy between Philippine innovation and Korean technology.",
+    "example_kr": "성공적인 디지털 허브 프로젝트는 필리핀의 혁신과 한국 기술 간의 강력한 시너지 효과를 입증합니다.",
+    "grade": "A+"
+  }
+}
