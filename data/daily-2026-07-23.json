@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-23",
+  "header_date_line": "THURSDAY, JULY 23, 2026 | PHILIPPINES | VOL. 113",
+  "dashboard": {
+    "php_krw_rate": "23.97",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.23",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines and Korea Launch Major 'Smart City' Infrastructure Project",
+    "headline_kr": "필리핀-한국, 대규모 '스마트 시티' 인프라 프로젝트 착수",
+    "subtitle_en": "A groundbreaking ceremony today marked the start of a joint venture aiming to develop sustainable and technologically advanced urban centers in key Philippine regions. This initiative highlights the deepening economic ties between the two nations.",
+    "subtitle_kr": "오늘 열린 기공식은 필리핀 주요 지역에 지속 가능하고 기술적으로 진보된 도시 중심지를 개발하기 위한 합작 투자의 시작을 알렸습니다. 이번 이니셔티브는 양국 간 경제 관계 심화를 보여줍니다.",
+    "body_en": [
+      "The Philippine government, in partnership with a consortium of leading South Korean construction and technology firms, officially broke ground today on the first phase of the ambitious \"Ph-RoK Smart City Initiative.\" This multi-billion-dollar project, years in the making, aims to integrate cutting-edge digital infrastructure, renewable energy solutions, and efficient urban planning to create self-sustaining communities outside of congested metropolitan areas. Officials from both countries lauded the project as a beacon of bilateral cooperation and a model for future regional development.",
+      "The initial phase will focus on developing a pilot smart city in the Central Luzon region, strategically chosen for its growth potential and connectivity. Key features will include advanced public transportation networks, IoT-enabled utilities, smart grids, and eco-friendly residential and commercial zones. Korean expertise in smart city development, honed through projects like Songdo International City, is expected to play a crucial role in the successful implementation and transfer of knowledge to local partners, ensuring long-term sustainability and local job creation.",
+      "President Marcos Jr. and Ambassador Kim Young-min emphasized that this venture is not merely about construction but about fostering innovation and improving the quality of life for Filipinos. They anticipate the project will attract further foreign investment, boost local economies, and set a new standard for urban development across ASEAN. The Korean community in the Philippines is also keenly watching, with many businesses expecting new opportunities in logistics, technology, and services sectors as the project progresses."
+    ],
+    "body_kr": [
+      "필리핀 정부는 한국의 선도적인 건설 및 기술 기업 컨소시엄과 협력하여 오늘 야심찬 \"필리핀-한국 스마트 시티 이니셔티브\"의 1단계 착공식을 공식적으로 가졌습니다. 수년간 준비된 이 수십억 달러 규모의 프로젝트는 최첨단 디지털 인프라, 재생 에너지 솔루션 및 효율적인 도시 계획을 통합하여 혼잡한 대도시 지역 외부에 자립형 커뮤니티를 조성하는 것을 목표로 합니다. 양국 관계자들은 이 프로젝트를 양국 협력의 등대이자 미래 지역 개발의 모델로 극찬했습니다.",
+      "초기 단계는 성장 잠재력과 연결성을 고려하여 전략적으로 선택된 중앙 루손 지역의 파일럿 스마트 시티 개발에 중점을 둘 것입니다. 주요 특징으로는 첨단 대중교통망, IoT 기반 유틸리티, 스마트 그리드, 친환경 주거 및 상업 지구가 포함됩니다. 송도 국제도시와 같은 프로젝트를 통해 연마된 한국의 스마트 시티 개발 전문 지식은 성공적인 구현과 현지 파트너에 대한 지식 이전에 중요한 역할을 하여 장기적인 지속 가능성과 지역 일자리 창출을 보장할 것으로 예상됩니다.",
+      "마르코스 주니어 대통령과 김영민 대사는 이번 합작 투자가 단순한 건설을 넘어 혁신을 촉진하고 필리핀 국민의 삶의 질을 향상시키는 데 목적이 있다고 강조했습니다. 그들은 이 프로젝트가 추가적인 해외 투자를 유치하고 지역 경제를 활성화하며 ASEAN 전역의 도시 개발에 새로운 표준을 제시할 것으로 기대합니다. 필리핀 내 한인 사회도 물류, 기술 및 서비스 부문에서 새로운 기회를 기대하며 프로젝트 진행 상황을 면밀히 주시하고 있습니다."
+    ],
+    "image_seed": "cover-2026-07-23",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement construction site",
+    "image_caption": "Photo: Philippine President and Korean Ambassador shake hands at the Smart City project groundbreaking (2026.07.23)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Patrols Boost Security for Korean Tourists in Popular Destinations",
+    "headline_kr": "인기 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+    "lead_en": "Philippine National Police and Korean National Police Agency officers have commenced intensified joint patrols in key tourist areas, including Boracay and Palawan, following a recent surge in Korean visitors. The initiative aims to enhance safety and provide immediate assistance to the Korean community, addressing concerns over petty crime and ensuring a secure travel experience.",
+    "lead_kr": "최근 한국인 방문객 증가에 따라 필리핀 국립경찰과 한국 경찰청 소속 경찰관들이 보라카이와 팔라완을 포함한 주요 관광 지역에서 강화된 합동 순찰을 시작했습니다. 이 이니셔티브는 한인 사회에 대한 안전을 강화하고 즉각적인 지원을 제공하여 경미한 범죄에 대한 우려를 해소하고 안전한 여행 경험을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-23",
+    "image_query": "Korean and Philippine police officers patrolling tourist beach",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "PH Exports to Korea See Robust Growth in Q2 2026",
+      "headline_kr": "2026년 2분기 필리핀 대 한국 수출 견고한 성장세",
+      "summary_en": "Philippine exports to South Korea, particularly in agricultural products and electronics components, have shown significant growth in the second quarter of 2026, driven by strengthened trade agreements and increased demand. This positive trend contributes to the Philippines' overall economic recovery.",
+      "summary_kr": "강화된 무역 협정과 수요 증가에 힘입어 2026년 2분기 필리핀의 대 한국 수출, 특히 농산물 및 전자 부품에서 상당한 성장을 보였습니다. 이러한 긍정적인 추세는 필리핀의 전반적인 경제 회복에 기여합니다.",
+      "image_seed": "news1-2026-07-23",
+      "image_query": "Philippine agricultural products market export containers Korea",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Launches in Manila, Cebu",
+      "headline_kr": "마닐라, 세부에서 K-팝 댄스 워크숍 시리즈 개강",
+      "summary_en": "A new series of K-Pop dance workshops, featuring popular Korean choreographers, has kicked off in Manila and Cebu, attracting hundreds of Filipino youth eager to learn the latest moves. The event underscores the enduring popularity of Hallyu across the archipelago.",
+      "summary_kr": "인기 한국 안무가들이 참여하는 새로운 K-팝 댄스 워크숍 시리즈가 마닐라와 세부에서 시작되어 최신 안무를 배우려는 수백 명의 필리핀 젊은이들을 끌어모았습니다. 이 행사는 필리핀 전역에서 한류의 지속적인 인기를 보여줍니다.",
+      "image_seed": "news2-2026-07-23",
+      "image_query": "Filipino youth learning K-Pop dance workshop",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for PH Disaster Preparedness Efforts",
+      "headline_kr": "한국, 필리핀 재난 대비 노력에 대한 지원 약속",
+      "summary_en": "South Korea has reaffirmed its commitment to assisting the Philippines in strengthening its disaster preparedness and response capabilities, following recent consultations on climate change adaptation strategies. This aid includes technology transfer and training programs for local agencies.",
+      "summary_kr": "한국은 최근 기후 변화 적응 전략에 대한 협의 후, 필리핀의 재난 대비 및 대응 능력 강화를 지원하겠다는 약속을 재확인했습니다. 이 지원에는 현지 기관을 위한 기술 이전 및 훈련 프로그램이 포함됩니다.",
+      "image_seed": "news3-2026-07-23",
+      "image_query": "Korean and Philippine officials discussing disaster relief map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Online Scams Targeting Korean Expats on the Rise",
+      "headline_kr": "한인 교민 대상 온라인 사기 증가 추세",
+      "summary_en": "The Korean Embassy in Manila has issued a fresh warning to Korean expatriates regarding a spike in online scams, particularly those involving fake investment opportunities and identity theft. The embassy advises extreme caution and reporting suspicious activities.",
+      "summary_kr": "마닐라 주재 한국 대사관은 가짜 투자 기회 및 신분 도용과 관련된 온라인 사기 급증에 대해 한인 교민들에게 새로운 경고를 발표했습니다. 대사관은 극도의 주의와 의심스러운 활동 신고를 당부했습니다.",
+      "image_seed": "news4-2026-07-23",
+      "image_query": "Person looking at scam warning on laptop",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요소가 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 작용.",
+    "example_en": "The smart city project aims to create synergy between advanced technology and sustainable urban living.",
+    "example_kr": "스마트 시티 프로젝트는 첨단 기술과 지속 가능한 도시 생활 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
