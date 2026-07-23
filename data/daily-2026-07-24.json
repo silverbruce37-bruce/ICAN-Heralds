@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-24",
+  "header_date_line": "FRIDAY, JULY 24, 2026 | PHILIPPINES | VOL. 114",
+  "dashboard": {
+    "php_krw_rate": "23.91",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.24",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Innovation Hub in Clark",
+    "headline_kr": "필리핀-한국, 클락에 랜드마크 디지털 혁신 허브 출범",
+    "subtitle_en": "The new facility aims to boost regional tech capabilities, foster startups, and strengthen bilateral economic ties, marking a new era of digital cooperation.",
+    "subtitle_kr": "새 시설은 지역 기술 역량 강화, 스타트업 육성 및 양국 경제 관계 강화에 중점을 두며, 디지털 협력의 새 시대를 엽니다.",
+    "body_en": [
+      "Clark Freeport Zone, Philippines – In a significant stride towards fostering a robust digital economy, the Philippines and South Korea today officially inaugurated the 'PH-Korea Digital Innovation Hub' in Clark. The state-of-the-art facility is designed to serve as a nexus for technological advancement, providing a collaborative environment for Filipino and Korean startups, researchers, and tech professionals. The launch event was attended by high-ranking officials from both nations, underscoring their shared commitment to digital transformation and economic partnership.",
+      "The innovation hub will offer cutting-edge infrastructure, mentorship programs, and access to funding opportunities, aiming to cultivate a new generation of tech-savvy entrepreneurs. Its primary objectives include accelerating the development of innovative solutions in areas such as artificial intelligence, fintech, and smart city technologies. This initiative is expected to attract further Korean investment into the Philippines' burgeoning tech sector, creating numerous job opportunities and enhancing the country's competitiveness in the global digital landscape.",
+      "Beyond its immediate economic impact, the Digital Innovation Hub is poised to become a model for future bilateral cooperation within the ASEAN region. Both governments expressed optimism that the hub will not only strengthen the deep-rooted friendship between the Philippines and South Korea but also serve as a catalyst for regional economic integration and technological exchange. Plans are already underway to explore potential expansion and specialized programs based on the success of this landmark venture."
+    ],
+    "body_kr": [
+      "필리핀 클락 자유항 지역 – 강력한 디지털 경제를 육성하기 위한 중요한 발걸음으로, 필리핀과 한국은 오늘 클락에 '필리핀-한국 디지털 혁신 허브'를 공식적으로 출범시켰습니다. 최첨단 시설은 기술 발전의 중심지 역할을 하도록 설계되었으며, 필리핀 및 한국 스타트업, 연구원, 기술 전문가들을 위한 협력 환경을 제공합니다. 양국 고위 관계자들이 출범식에 참석하여 디지털 전환과 경제 파트너십에 대한 공동의 약속을 강조했습니다.",
+      "혁신 허브는 최첨단 인프라, 멘토링 프로그램, 자금 조달 기회를 제공하여 기술에 능숙한 차세대 기업가들을 육성하는 것을 목표로 합니다. 주요 목표는 인공지능, 핀테크, 스마트 도시 기술과 같은 분야에서 혁신적인 솔루션 개발을 가속화하는 것입니다. 이 이니셔티브는 필리핀의 급성장하는 기술 부문에 대한 한국의 추가 투자를 유치하고, 수많은 일자리를 창출하며, 글로벌 디지털 환경에서 필리핀의 경쟁력을 향상시킬 것으로 기대됩니다.",
+      "즉각적인 경제적 영향을 넘어, 디지털 혁신 허브는 아세안 지역 내 미래 양자 협력의 모델이 될 것입니다. 양국 정부는 이 허브가 필리핀과 한국 간의 깊은 우정을 강화할 뿐만 아니라, 지역 경제 통합 및 기술 교류의 촉매제 역할을 할 것이라고 낙관했습니다. 이 획기적인 벤처의 성공을 바탕으로 잠재적인 확장 및 전문 프로그램 탐색 계획이 이미 진행 중입니다."
+    ],
+    "image_seed": "cover-2026-07-24",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Clark",
+    "image_caption": "Photo: Philippine and Korean officials inaugurate the new Digital Innovation Hub in Clark (July 24, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Safety Measures Rolled Out for Korean Tourists in Popular PH Destinations",
+    "headline_kr": "필리핀 주요 관광지 내 한국인 관광객 안전 조치 강화",
+    "lead_en": "Following recent consultations between Philippine authorities and the Korean Embassy, new protocols are being implemented to ensure the well-being of Korean visitors. These measures include increased police presence, dedicated tourist assistance points, and multilingual information campaigns in popular tourist areas such as Boracay, Cebu, and Palawan.",
+    "lead_kr": "필리핀 당국과 주필리핀 한국 대사관 간의 최근 협의에 따라, 한국인 방문객의 안전을 보장하기 위한 새로운 프로토콜이 시행됩니다. 여기에는 보라카이, 세부, 팔라완과 같은 주요 관광지 내 경찰 인력 증강, 전용 관광객 지원 지점 설치 및 다국어 정보 캠페인이 포함됩니다.",
+    "image_seed": "feat-2026-07-24",
+    "image_query": "Philippine police officers patrolling tourist area with Korean tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Regional Digital Trade Integration",
+      "headline_kr": "아세안 경제 장관들, 역내 디지털 무역 통합 논의",
+      "summary_en": "Ministers from ASEAN nations met to advance plans for a unified digital trade framework, aiming to streamline cross-border e-commerce and boost regional economic resilience. Discussions focused on harmonizing regulations and digital payment systems to foster seamless trade.",
+      "summary_kr": "아세안 국가 장관들이 국경 간 전자상거래를 간소화하고 역내 경제 회복력을 높이기 위한 통합 디지털 무역 프레임워크 계획을 진전시키기 위해 만났습니다. 논의는 원활한 무역을 촉진하기 위한 규제 및 디지털 결제 시스템 조화에 중점을 두었습니다.",
+      "image_seed": "news1-2026-07-24",
+      "image_query": "ASEAN economic ministers meeting conference table",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Kicks Off in Manila, Draws Huge Crowd",
+      "headline_kr": "마닐라에서 K-팝 댄스 워크숍 시리즈 성황리에 개막",
+      "summary_en": "A highly anticipated K-Pop dance workshop series, featuring renowned Korean choreographers, has begun in Manila. Hundreds of Filipino fans flocked to the opening session, eager to learn popular K-Pop routines and connect with Korean culture, highlighting growing cultural exchange.",
+      "summary_kr": "유명 한국 안무가들이 참여하는 기대했던 K-팝 댄스 워크숍 시리즈가 마닐라에서 시작되었습니다. 수백 명의 필리핀 팬들이 인기 K-팝 루틴을 배우고 한국 문화를 접하기 위해 개막 세션에 몰려들었으며, 이는 문화 교류의 증가를 보여줍니다.",
+      "image_seed": "news2-2026-07-24",
+      "image_query": "Filipino youth dancing K-Pop workshop Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Ambassador Visits Cebu to Strengthen Local Ties and Investment",
+      "headline_kr": "한국 대사, 세부 방문하여 지역 관계 및 투자 강화",
+      "summary_en": "The Korean Ambassador to the Philippines concluded a productive visit to Cebu, meeting with local government officials and Korean business leaders. Discussions centered on fostering further Korean investment in the region and enhancing cultural exchange programs, reinforcing bilateral ties.",
+      "summary_kr": "주필리핀 한국 대사가 세부 방문을 성공적으로 마쳤으며, 현지 정부 관계자 및 한국 기업인들과 만났습니다. 논의는 지역 내 한국 투자 증진 및 문화 교류 프로그램 강화에 중점을 두어 양국 관계를 더욱 공고히 했습니다.",
+      "image_seed": "news3-2026-07-24",
+      "image_query": "Korean ambassador Philippine local official Cebu",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Leaders Hold Forum on Disaster Preparedness",
+      "headline_kr": "한인 사회 지도자들, 재난 대비 포럼 개최",
+      "summary_en": "Korean community leaders across the Philippines convened for a forum on disaster preparedness and emergency response. The event aimed to equip residents with crucial information and strategies for natural calamities, emphasizing coordination with local authorities for effective response.",
+      "summary_kr": "필리핀 전역의 한인 사회 지도자들이 재난 대비 및 비상 대응 포럼을 위해 모였습니다. 이 행사는 주민들에게 자연재해에 대한 중요한 정보와 전략을 제공하고, 효과적인 대응을 위해 현지 당국과의 조율을 강조하는 것을 목표로 했습니다.",
+      "image_seed": "news4-2026-07-24",
+      "image_query": "Korean community leaders emergency preparedness meeting",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds significant change or action.",
+    "definition_kr": "사건이나 변화를 촉발하는 사람 또는 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new Digital Innovation Hub is expected to be a catalyst for economic growth and technological advancement in the region.",
+    "example_kr": "새로운 디지털 혁신 허브는 이 지역의 경제 성장과 기술 발전을 위한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
