@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-25",
+    "vol": 115,
+    "cover_en": "PH-Korea Forge Green Energy Alliance, Boosting Sustainable Future",
+    "cover_kr": "필리핀-한국, 녹색 에너지 동맹 구축으로 지속가능한 미래 촉진",
+    "headlines_en": [
+      "Enhanced Safety Hotline for Korean Tourists in PH Now Active",
+      "ASEAN Digital Economy Forum Highlights Korea's Tech Role",
+      "Manila Hosts Successful K-Pop Dance Festival",
+      "Korean Volunteers Support Marawi Rehabilitation Efforts",
+      "Local Authorities Urge Vigilance Against Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "필리핀 내 한국인 관광객을 위한 안전 핫라인 가동",
+      "아세안 디지털 경제 포럼, 한국의 기술 역할 강조",
+      "마닐라에서 성공적인 K-Pop 댄스 페스티벌 개최",
+      "한국인 자원봉사자들, 마라위 재건 노력 지원",
+      "현지 당국, 외국인 대상 온라인 사기 경계 촉구"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Culture",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-24",
     "vol": 114,
     "cover_en": "PH-Korea Launch Landmark Digital Innovation Hub in Clark",

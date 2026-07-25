@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ican-heralds-2026-07-24';
+const CACHE_NAME = 'ican-heralds-2026-07-25';
 const STATIC_ASSETS = [
     './css/style.css',
     './css/food-hunter.css',

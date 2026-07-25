@@ -1,0 +1,89 @@
+{
+  "edition_date": "2026-07-25",
+  "header_date_line": "SATURDAY, JULY 25, 2026 | PHILIPPINES | VOL. 115",
+  "dashboard": {
+    "php_krw_rate": "23.70",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.25",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Green Energy Alliance, Boosting Sustainable Future",
+    "headline_kr": "필리핀-한국, 녹색 에너지 동맹 구축으로 지속가능한 미래 촉진",
+    "subtitle_en": "A landmark agreement has been signed between the Philippines and South Korea to accelerate renewable energy projects. This bilateral initiative aims to foster technological exchange and significant investment in green technologies.",
+    "subtitle_kr": "필리핀과 한국이 재생 에너지 프로젝트 가속화를 위한 획기적인 협약을 체결했습니다. 이 양자 이니셔티브는 녹색 기술에 대한 기술 교류와 상당한 투자를 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant step towards a more sustainable future, the Philippines and South Korea officially inked a comprehensive Green Energy Alliance agreement yesterday. The accord, signed by Energy Secretary Rafael Cusi and Korean Ambassador Park Jin-woo, commits both nations to collaborate on developing and deploying renewable energy solutions across the archipelago. This partnership is expected to draw substantial Korean investment into the Philippine renewable energy sector, fostering economic growth while addressing climate change concerns.",
+      "The agreement outlines several key areas of cooperation, including the joint development of solar, wind, and geothermal power projects, as well as the sharing of expertise in energy storage systems and smart grid technologies. Officials emphasized that the alliance will not only boost the Philippines' energy security by diversifying its power sources but also create numerous job opportunities for local communities. South Korea, a global leader in green technology, will provide technical assistance and facilitate knowledge transfer, ensuring the Philippines can build its capacity in sustainable energy production.",
+      "Analysts view this alliance as a win-win for both countries. For the Philippines, it represents a crucial step towards meeting its ambitious climate goals and reducing reliance on fossil fuels. For South Korea, it opens new avenues for its green technology companies in a rapidly growing market, further solidifying its position as a regional environmental leader. The first joint projects are expected to commence in early 2027, with both governments expressing optimism about the long-term impact on regional energy stability and environmental protection."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 보다 지속가능한 미래를 향한 중요한 발걸음으로, 필리핀과 한국이 어제 포괄적인 녹색 에너지 동맹 협정을 공식적으로 체결했습니다. 라파엘 쿠시 에너지부 장관과 박진우 주한 필리핀 대사가 서명한 이 협정은 양국이 필리핀 전역에서 재생 에너지 솔루션을 개발하고 배치하는 데 협력할 것을 약속합니다. 이 파트너십은 필리핀 재생 에너지 부문에 한국의 상당한 투자를 유치하여 기후 변화 문제를 해결하는 동시에 경제 성장을 촉진할 것으로 기대됩니다.",
+      "이 협정은 태양광, 풍력, 지열 발전 프로젝트의 공동 개발뿐만 아니라 에너지 저장 시스템 및 스마트 그리드 기술에 대한 전문 지식 공유를 포함한 여러 주요 협력 분야를 명시하고 있습니다. 관계자들은 이번 동맹이 전력원을 다변화하여 필리핀의 에너지 안보를 강화할 뿐만 아니라 지역 사회에 수많은 일자리를 창출할 것이라고 강조했습니다. 녹색 기술 분야의 세계적인 선두 주자인 한국은 기술 지원을 제공하고 지식 이전을 촉진하여 필리핀이 지속가능한 에너지 생산 능력을 구축할 수 있도록 도울 것입니다.",
+      "분석가들은 이 동맹을 양국 모두에게 윈-윈(win-win)으로 보고 있습니다. 필리핀에게는 야심찬 기후 목표를 달성하고 화석 연료에 대한 의존도를 줄이는 데 중요한 단계입니다. 한국에게는 빠르게 성장하는 시장에서 녹색 기술 기업을 위한 새로운 길을 열어 지역 환경 리더로서의 입지를 더욱 공고히 합니다. 첫 번째 공동 프로젝트는 2027년 초에 시작될 예정이며, 양국 정부는 지역 에너지 안정성과 환경 보호에 대한 장기적인 영향에 대해 낙관적인 전망을 내놓았습니다."
+    ],
+    "image_seed": "cover-2026-07-25",
+    "image_query": "Korean Philippine officials handshake signing green energy agreement",
+    "image_caption": "Photo: Energy Secretary Rafael Cusi and Korean Ambassador Park Jin-woo shake hands after signing the Green Energy Alliance agreement. (July 24, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Safety Hotline for Korean Tourists in PH Now Active",
+    "headline_kr": "필리핀 내 한국인 관광객을 위한 안전 핫라인 가동",
+    "lead_en": "The Philippine Department of Tourism, in collaboration with the Korean Embassy, has officially launched a dedicated 24/7 safety hotline for Korean tourists. This initiative aims to provide immediate assistance and improve the overall safety experience for the growing number of Korean visitors, addressing concerns about security and support while traveling.",
+    "lead_kr": "필리핀 관광부가 주한 필리핀 대사관과 협력하여 한국인 관광객을 위한 24시간 연중무휴 안전 핫라인을 공식적으로 개설했습니다. 이 이니셔티브는 증가하는 한국인 방문객들에게 즉각적인 지원을 제공하고 전반적인 안전 경험을 향상시켜, 여행 중 보안 및 지원에 대한 우려를 해소하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-25",
+    "image_query": "Korean tourist talking to police officer on street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy", "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Forum Highlights Korea's Tech Role",
+      "headline_kr": "아세안 디지털 경제 포럼, 한국의 기술 역할 강조",
+      "summary_en": "The recent ASEAN Digital Economy Forum in Singapore underscored South Korea's pivotal role in driving digital transformation across the region. Discussions focused on AI, fintech, and cybersecurity, with Korean tech firms presenting innovative solutions for ASEAN markets.",
+      "summary_kr": "싱가포르에서 열린 최근 아세안 디지털 경제 포럼에서 한국이 역내 디지털 전환을 주도하는 데 핵심적인 역할을 하고 있음이 강조되었습니다. 포럼에서는 AI, 핀테크, 사이버 보안에 중점을 두었으며, 한국 기술 기업들이 아세안 시장을 위한 혁신적인 솔루션을 선보였습니다.",
+      "image_seed": "news1-2026-07-25", "image_query": "ASEAN leaders digital economy conference", "read_time_min": 2
+    },
+    {
+      "tag": "Culture", "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Pop Dance Festival",
+      "headline_kr": "마닐라에서 성공적인 K-Pop 댄스 페스티벌 개최",
+      "summary_en": "Thousands of K-Pop enthusiasts gathered in Manila for the annual K-Pop Dance Festival, showcasing the growing popularity of Korean culture in the Philippines. Local dance crews competed, drawing praise from Korean cultural attachés for their talent and passion.",
+      "summary_kr": "수천 명의 K-Pop 팬들이 마닐라에서 연례 K-Pop 댄스 페스티벌에 모여 필리핀 내 한국 문화의 인기가 높아지고 있음을 보여주었습니다. 현지 댄스 크루들이 경쟁하며, 그들의 재능과 열정에 대해 한국 문화원 관계자들로부터 찬사를 받았습니다.",
+      "image_seed": "news2-2026-07-25", "image_query": "K-Pop dance festival Manila crowd", "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation", "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Volunteers Support Marawi Rehabilitation Efforts",
+      "headline_kr": "한국인 자원봉사자들, 마라위 재건 노력 지원",
+      "summary_en": "A new contingent of Korean volunteers has arrived in Marawi to assist in ongoing rehabilitation projects, focusing on education and community development. Their efforts strengthen the humanitarian ties between Korea and the Philippines, aiding communities still recovering.",
+      "summary_kr": "새로운 한국인 자원봉사단이 마라위에 도착하여 교육 및 지역사회 개발에 중점을 둔 재건 프로젝트를 지원하고 있습니다. 이들의 노력은 한국과 필리핀 간의 인도주의적 유대를 강화하며, 여전히 회복 중인 지역사회를 돕고 있습니다.",
+      "image_seed": "news3-2026-07-25", "image_query": "Korean volunteers building school Marawi", "read_time_min": 3
+    },
+    {
+      "tag": "Safety", "tag_class": "tag-safety",
+      "headline_en": "Local Authorities Urge Vigilance Against Online Scams Targeting Expats",
+      "headline_kr": "현지 당국, 외국인 대상 온라인 사기 경계 촉구",
+      "summary_en": "Philippine authorities have issued a warning to expatriates, including the Korean community, to be vigilant against rising online scam activities. They advise verifying unsolicited offers and reporting suspicious communications to prevent financial losses.",
+      "summary_kr": "필리핀 당국은 한국인 공동체를 포함한 외국인들에게 증가하는 온라인 사기 활동에 대한 경계를 촉구하는 경고를 발표했습니다. 그들은 미확인 제안을 확인하고 의심스러운 통신을 신고하여 재정적 손실을 방지하도록 조언합니다.",
+      "image_seed": "news4-2026-07-25", "image_query": "Person looking at scam email phone", "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Sustainable",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "type": "adjective",
+    "definition_en": "Able to be maintained at a certain rate or level; conserving an ecological balance by avoiding depletion of natural resources.",
+    "definition_kr": "어떤 속도나 수준으로 유지될 수 있는; 천연 자원의 고갈을 피함으로써 생태학적 균형을 보존하는.",
+    "example_en": "The new green energy initiative aims for a sustainable future for both nations.",
+    "example_kr": "새로운 녹색 에너지 이니셔티브는 양국을 위한 지속가능한 미래를 목표로 합니다.",
+    "grade": "A+"
+  }
+}
