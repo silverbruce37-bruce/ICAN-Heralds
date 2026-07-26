@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-27",
+    "vol": 117,
+    "cover_en": "PH, Korea Launch Landmark Digital Transformation Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 전환 파트너십 출범",
+    "headlines_en": [
+      "Joint PH-Korea Anti-Crime Task Force Deployed in Metro Manila",
+      "Korean Firms Boost Investment in ASEAN Green Energy Sector",
+      "K-Food Festival Draws Record Crowds in Cebu This Weekend",
+      "PH, Korea Discuss Enhanced Maritime Security Cooperation in West PH Sea",
+      "Makati LGU Launches New Hotline for Foreign Residents' Concerns"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 범죄 단속반, 메트로 마닐라 배치",
+      "한국 기업들, 아세안 녹색 에너지 부문 투자 확대",
+      "세부 K-푸드 페스티벌, 주말 동안 기록적인 인파 기록",
+      "필리핀-한국, 서필리핀해 해양 안보 협력 강화 논의",
+      "마카티 지방정부, 외국인 거주자 민원 전용 핫라인 개설"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-07-26",
     "vol": 116,
     "cover_en": "PH, Korea Launch Joint Digital Innovation Hub to Accelerate Tech Growth",
