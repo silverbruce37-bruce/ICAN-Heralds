@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-26",
+  "header_date_line": "SUNDAY, JULY 26, 2026 | PHILIPPINES | VOL. 116",
+  "dashboard": {
+    "php_krw_rate": "23.73",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.26",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH, Korea Launch Joint Digital Innovation Hub to Accelerate Tech Growth",
+    "headline_kr": "필리핀-한국, 디지털 혁신 허브 출범... 기술 성장 가속화",
+    "subtitle_en": "The new collaborative center aims to foster startups and strengthen bilateral cooperation in cutting-edge technologies, marking a significant milestone in economic ties.",
+    "subtitle_kr": "새로운 협력 센터는 스타트업 육성 및 첨단 기술 분야 양국 협력 강화를 목표로 하며, 경제 관계의 중요한 이정표를 세웠다.",
+    "body_en": [
+      "Manila, Philippines – In a landmark move poised to redefine the digital landscape of Southeast Asia, the Philippines and South Korea officially inaugurated the 'PH-KR Digital Innovation Hub' yesterday. Located in Bonifacio Global City, the hub is envisioned as a vibrant ecosystem designed to nurture local startups, facilitate technology transfer, and foster joint research and development initiatives, ultimately driving job creation and economic diversification in both nations.",
+      "The initiative, a direct outcome of the recent bilateral economic dialogues, focuses on key areas such as Artificial Intelligence, FinTech, cybersecurity, and smart city solutions. Funding will be jointly provided by both governments, alongside private sector investments, ensuring robust support for promising ventures. Experts believe this collaboration will not only enhance the Philippines' digital capabilities but also provide Korean tech companies with an agile gateway to the broader ASEAN market.",
+      "Officials from both countries expressed optimism regarding the hub's potential to serve as a catalyst for regional digital transformation. Philippine Secretary of Trade and Industry, Alfredo Pascual, highlighted the hub's role in empowering local talent, while Korean Ambassador to the Philippines, Lee Sang-hwa, emphasized its significance in deepening the strategic partnership between the two nations beyond traditional trade, moving towards a future-oriented digital economy."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 동남아시아의 디지털 환경을 재정의할 중요한 움직임으로, 필리핀과 한국은 어제 '필리핀-한국 디지털 혁신 허브'를 공식 출범했습니다. 보니파시오 글로벌 시티에 위치한 이 허브는 현지 스타트업을 육성하고, 기술 이전을 촉진하며, 공동 연구 개발 이니셔티브를 장려하여 궁극적으로 양국의 일자리 창출과 경제 다각화를 추진하도록 설계된 활기찬 생태계로 구상됩니다.",
+      "최근 양자 경제 대화의 직접적인 결과물인 이 이니셔티브는 인공지능, 핀테크, 사이버 보안 및 스마트 도시 솔루션과 같은 주요 분야에 중점을 둡니다. 양국 정부와 민간 부문의 공동 투자를 통해 자금이 지원될 예정이며, 유망한 벤처에 대한 강력한 지원을 보장합니다. 전문가들은 이 협력이 필리핀의 디지털 역량을 강화할 뿐만 아니라 한국 기술 기업들이 더 넓은 아세안 시장에 진출할 수 있는 민첩한 관문을 제공할 것이라고 믿습니다.",
+      "양국 관계자들은 이 허브가 지역 디지털 전환의 촉매제 역할을 할 잠재력에 대해 낙관적인 전망을 표명했습니다. 알프레도 파스쿠알 필리핀 무역산업부 장관은 현지 인재 역량 강화에 대한 허브의 역할을 강조했으며, 이상화 주필리핀 한국 대사는 전통적인 무역을 넘어 미래 지향적인 디지털 경제로 나아가는 양국 간의 전략적 파트너십을 심화하는 데 있어 그 중요성을 강조했습니다."
+    ],
+    "image_seed": "cover-2026-07-26",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and South Korean officials sign the agreement for the new Digital Innovation Hub (July 25, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Expanded Security Patrols Boost Safety for Korean Tourists in Key PH Destinations",
+    "headline_kr": "주요 필리핀 관광지서 한국인 관광객 안전 위한 순찰 강화",
+    "lead_en": "Following recent successful pilot programs, joint Philippine-Korean security patrols are being expanded to popular tourist areas like Boracay and Palawan, aiming to provide enhanced safety and peace of mind for the growing number of Korean visitors. This initiative underscores both nations' commitment to fostering a secure environment for tourism and protecting their citizens abroad.",
+    "lead_kr": "최근 시범 프로그램의 성공에 따라, 보라카이와 팔라완 등 인기 관광지에서 필리핀-한국 합동 보안 순찰이 확대되어, 증가하는 한국인 방문객들에게 향상된 안전과 마음의 평화를 제공할 예정이다. 이번 이니셔티브는 관광을 위한 안전한 환경 조성과 해외 자국민 보호에 대한 양국 정부의 노력을 강조한다.",
+    "image_seed": "feat-2026-07-26",
+    "image_query": "Korean tourists police patrol Boracay beach safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eye ASEAN Green Energy Projects Amid Regional Shift",
+      "headline_kr": "한국 투자자들, 지역 전환 속 아세안 친환경 에너지 프로젝트 주목",
+      "summary_en": "Korean conglomerates are increasing their investments in renewable energy infrastructure across ASEAN, particularly in the Philippines, driven by favorable government policies and growing demand for sustainable power solutions.",
+      "summary_kr": "한국 대기업들이 유리한 정부 정책과 지속 가능한 전력 솔루션에 대한 수요 증가에 힘입어 필리핀을 포함한 아세안 전역의 재생 에너지 인프라 투자를 늘리고 있다.",
+      "image_seed": "news1-2026-07-26",
+      "image_query": "Solar panels wind turbines Southeast Asia landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Draws Record Crowds in Manila, Showcasing Youth Talent",
+      "headline_kr": "마닐라 K-팝 댄스 페스티벌, 역대 최대 인파 몰리며 청소년 재능 과시",
+      "summary_en": "Thousands of Filipino youth gathered in Manila for the annual K-Pop Dance Festival, demonstrating impressive talent and the enduring popularity of Korean pop culture in the Philippines. The event highlighted cultural exchange and community engagement.",
+      "summary_kr": "수천 명의 필리핀 청소년들이 연례 K-팝 댄스 페스티벌을 위해 마닐라에 모여 놀라운 재능과 필리핀 내 한국 대중문화의 꾸준한 인기를 보여주었다. 이 행사는 문화 교류와 지역 사회 참여를 강조했다.",
+      "image_seed": "news2-2026-07-26",
+      "image_query": "Filipino youth K-Pop dance festival stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Embassy Hosts Seminar on Visa Reforms for Filipino Workers",
+      "headline_kr": "한국 대사관, 필리핀 근로자 비자 개혁 세미나 개최",
+      "summary_en": "The Korean Embassy in Manila held a crucial seminar detailing recent visa policy reforms designed to streamline the process for Filipino workers seeking employment in South Korea, aiming to foster stronger labor cooperation.",
+      "summary_kr": "주 필리핀 한국 대사관은 한국 취업을 희망하는 필리핀 근로자들을 위한 절차를 간소화하도록 고안된 최근 비자 정책 개혁에 대한 중요한 세미나를 개최하여, 강력한 노동 협력을 증진하는 것을 목표로 한다.",
+      "image_seed": "news3-2026-07-26",
+      "image_query": "Korean embassy seminar Filipino workers visa",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Local Government Units Urged to Enhance Emergency Preparedness for Tourists",
+      "headline_kr": "지방 정부, 관광객 비상 대비 태세 강화 촉구",
+      "summary_en": "Following a recent minor incident, Philippine Local Government Units (LGUs) are being encouraged to review and enhance their emergency response protocols, particularly in areas frequented by foreign tourists, including Koreans, to ensure swift and effective assistance.",
+      "summary_kr": "최근 발생한 경미한 사건 이후, 필리핀 지방 정부(LGU)는 한국인을 포함한 외국인 관광객이 자주 방문하는 지역에서 신속하고 효과적인 지원을 보장하기 위해 비상 대응 프로토콜을 검토하고 강화하도록 권고받고 있다.",
+      "image_seed": "news4-2026-07-26",
+      "image_query": "Philippine emergency services tourist rescue drill",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds up significant change or action.",
+    "definition_kr": "사건이나 변화를 촉발하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속화하는 매개체.",
+    "example_en": "The new digital innovation hub is expected to be a major catalyst for technological advancement in the region.",
+    "example_kr": "새로운 디지털 혁신 허브는 이 지역의 기술 발전을 위한 주요 촉매제가 될 것으로 기대된다.",
+    "grade": "A+"
+  }
+}
