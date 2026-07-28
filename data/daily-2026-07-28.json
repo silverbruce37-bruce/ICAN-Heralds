@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-28",
+  "header_date_line": "TUESDAY, JULY 28, 2026 | PHILIPPINES | VOL. 118",
+  "dashboard": {
+    "php_krw_rate": "23.85",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.28",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Trade Pact Set to Unlock New Economic Horizons",
+    "headline_kr": "필리핀-한국 디지털 무역 협정, 새로운 경제 지평 열다",
+    "subtitle_en": "A landmark agreement between the Philippines and South Korea aims to accelerate digital trade and investment, fostering innovation and economic growth across the ASEAN region. This pact underscores a deepening strategic partnership focused on future-proof industries.",
+    "subtitle_kr": "필리핀과 한국 간의 획기적인 협정이 디지털 무역 및 투자를 가속화하고, 아세안 지역 전반의 혁신과 경제 성장을 촉진할 예정입니다. 이번 협정은 미래 지향적 산업에 중점을 둔 전략적 파트너십의 심화를 강조합니다.",
+    "body_en": [
+      "Manila and Seoul have officially signed the groundbreaking Digital Trade and Economic Partnership Agreement (DTEPA) today, marking a pivotal moment in their bilateral relations. The agreement, years in the making, focuses on streamlining digital transactions, ensuring data security, and promoting cross-border e-commerce. Officials from both nations expressed optimism that DTEPA would significantly boost economic resilience and create new opportunities for businesses, particularly SMEs, in the rapidly evolving digital landscape.",
+      "The DTEPA is expected to facilitate greater investment in digital infrastructure, artificial intelligence, and cybersecurity sectors within the Philippines. South Korean tech giants are already eyeing expansion opportunities, with several memoranda of understanding (MOUs) signed in parallel to the main agreement, signaling a strong commitment to knowledge transfer and capacity building. This initiative is seen as a strategic move to position both countries at the forefront of the global digital economy, leveraging Korea's technological prowess and the Philippines' growing digital workforce.",
+      "Beyond economic benefits, the DTEPA also includes provisions for regulatory cooperation, aiming to harmonize digital policies and create a more predictable operating environment for businesses. This collaborative framework is poised to enhance regional digital integration within ASEAN, setting a precedent for future multilateral agreements. The Philippine Department of Trade and Industry highlighted the agreement's potential to attract more Korean expatriates and digital nomads, further strengthening the Korean community's presence and contribution to the local economy."
+    ],
+    "body_kr": [
+      "마닐라와 서울은 오늘 양국 관계의 전환점이 될 획기적인 디지털 무역 및 경제 파트너십 협정(DTEPA)을 공식적으로 체결했습니다. 수년간 준비된 이 협정은 디지털 거래 간소화, 데이터 보안 보장, 국경 간 전자상거래 촉진에 중점을 둡니다. 양국 관계자들은 DTEPA가 빠르게 변화하는 디지털 환경에서 경제 회복력을 크게 높이고 기업, 특히 중소기업을 위한 새로운 기회를 창출할 것이라고 낙관했습니다.",
+      "DTEPA는 필리핀 내 디지털 인프라, 인공지능 및 사이버 보안 부문에 대한 투자를 더욱 촉진할 것으로 기대됩니다. 한국의 주요 기술 기업들은 이미 확장 기회를 모색하고 있으며, 본 협정과 병행하여 여러 양해각서(MOU)가 체결되어 지식 이전 및 역량 강화에 대한 강력한 의지를 보여주었습니다. 이 이니셔티브는 한국의 기술력과 필리핀의 성장하는 디지털 인력을 활용하여 양국을 글로벌 디지털 경제의 선두에 세우기 위한 전략적 움직임으로 평가됩니다.",
+      "경제적 이점 외에도 DTEPA는 규제 협력 조항을 포함하여 디지털 정책을 조화시키고 기업을 위한 보다 예측 가능한 운영 환경을 조성하는 것을 목표로 합니다. 이 협력 프레임워크는 아세안 내 지역 디지털 통합을 강화하고 미래 다자간 협정을 위한 선례를 세울 것입니다. 필리핀 무역산업부는 이 협정이 더 많은 한국인 해외 거주자 및 디지털 유목민을 유치하여 한국인 커뮤니티의 존재감과 지역 경제에 대한 기여를 더욱 강화할 잠재력이 있다고 강조했습니다."
+    ],
+    "image_seed": "cover-2026-07-28",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine Secretary of Trade and Industry and South Korean Ambassador exchange signed DTEPA documents (July 28, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippine Police, Korean Embassy Launch Joint Safety Campaign in Makati",
+    "headline_kr": "필리핀 경찰, 한국 대사관과 마카티 공동 안전 캠페인 시작",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila have announced a new joint safety campaign specifically targeting areas with a high concentration of Korean residents, such as Makati. This initiative aims to enhance security measures, provide immediate assistance, and foster a safer environment for the Korean community following recent concerns.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 주필리핀 한국 대사관은 마카티와 같이 한국 교민 밀집 지역을 대상으로 하는 새로운 공동 안전 캠페인을 발표했습니다. 이 이니셔티브는 최근 우려 사항에 따라 보안 조치를 강화하고 즉각적인 지원을 제공하며 한국인 커뮤니티를 위한 더 안전한 환경을 조성하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-07-28",
+    "image_query": "Philippine police Korean embassy official meeting safety Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Remains Robust, PH Leads Growth",
+      "headline_kr": "아세안 경제 전망 여전히 견고, 필리핀 성장 주도",
+      "summary_en": "The latest ASEAN economic report projects continued robust growth for the region in 2026, with the Philippines showing strong performance driven by domestic demand and increased foreign investment. Analysts note resilience despite global uncertainties.",
+      "summary_kr": "최신 아세안 경제 보고서는 2026년에도 이 지역의 견고한 성장을 지속할 것으로 전망하며, 필리핀은 내수 및 외국인 투자 증가에 힘입어 강력한 성과를 보이고 있습니다. 분석가들은 글로벌 불확실성에도 불구하고 회복력을 언급합니다.",
+      "image_seed": "news1-2026-07-28",
+      "image_query": "ASEAN economic chart growth Philippines flag",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Set to Dazzle Manila Next Month",
+      "headline_kr": "K-푸드 페스티벌, 다음 달 마닐라를 빛낼 예정",
+      "summary_en": "Food enthusiasts in Manila are eagerly anticipating the annual K-Food Festival scheduled for August, promising a vibrant showcase of traditional and modern Korean cuisine. The event will feature cooking demonstrations, tasting booths, and cultural performances.",
+      "summary_kr": "마닐라의 음식 애호가들은 8월로 예정된 연례 K-푸드 페스티벌을 간절히 기다리고 있으며, 전통 및 현대 한국 요리의 활기찬 전시를 약속합니다. 이 행사에는 요리 시연, 시식 부스 및 문화 공연이 포함될 예정입니다.",
+      "image_seed": "news2-2026-07-28",
+      "image_query": "Korean food festival street stalls Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Manila, Seoul Advance Talks on Climate Resilience Initiatives",
+      "headline_kr": "마닐라, 서울 기후 회복력 이니셔티브 논의 진전",
+      "summary_en": "High-level discussions between Philippine and South Korean environmental agencies are progressing, focusing on joint projects for climate change adaptation and disaster risk reduction. The collaboration aims to share expertise and technology.",
+      "summary_kr": "필리핀과 한국 환경 기관 간의 고위급 논의가 기후 변화 적응 및 재난 위험 감소를 위한 공동 프로젝트에 중점을 두고 진전되고 있습니다. 이 협력은 전문 지식과 기술 공유를 목표로 합니다.",
+      "image_seed": "news3-2026-07-28",
+      "image_query": "Green energy climate change conference Philippines Korea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Emergency Preparedness Seminar for Korean Expats in Quezon City",
+      "headline_kr": "퀘존 시티 한국 교민 대상 비상 대비 세미나",
+      "summary_en": "The Korean Association in Quezon City, in partnership with local authorities, will host an emergency preparedness seminar next week. The event aims to equip Korean residents with essential knowledge for natural disasters and other emergencies.",
+      "summary_kr": "퀘존 시티 한인회는 다음 주 지역 당국과 협력하여 비상 대비 세미나를 개최합니다. 이 행사는 한국 교민들에게 자연재해 및 기타 비상 상황에 대한 필수 지식을 제공하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-07-28",
+      "image_query": "Korean expats emergency preparedness seminar",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds significant change or action.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속하는 매개체.",
+    "example_en": "The new digital trade pact is expected to be a major catalyst for economic growth in the region.",
+    "example_kr": "새로운 디지털 무역 협정은 이 지역의 경제 성장에 주요 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
