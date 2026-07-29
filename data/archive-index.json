@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-30",
+    "vol": 120,
+    "cover_en": "Philippines, Korea Ink Landmark Digital Economy Pact to Boost Bilateral Trade",
+    "cover_kr": "필리핀-한국, 양국 교역 활성화 위한 디지털 경제 협정 체결",
+    "headlines_en": [
+      "Joint Maritime Drills Conclude, Strengthening PH-ROK Naval Ties",
+      "Korean Firms Eye Renewable Energy Expansion in PH",
+      "Manila Gears Up for Major K-Pop Summer Festival",
+      "PH-Korea Education Exchange Programs See Record Enrollment",
+      "Embassy Urges Vigilance for Korean Residents Amid Monsoon Season"
+    ],
+    "headlines_kr": [
+      "한-필리핀 해군, 합동 해상 훈련 성공적 마무리…해양 안보 강화",
+      "한국 기업들, 필리핀 재생 에너지 시장 확장 모색",
+      "마닐라, 대규모 K-팝 여름 페스티벌 준비 박차",
+      "한-필리핀 교육 교류 프로그램, 사상 최고 등록률 기록",
+      "주필리핀 한국대사관, 몬순 시즌 한인 거주민 안전 유의 당부"
+    ],
+    "tags": [
+      "Economy",
+      "Cooperation",
+      "Security",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-07-29",
     "vol": 119,
     "cover_en": "Korea-Philippines Digital Infrastructure Pact Enters New Phase",

@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-07-30",
+  "header_date_line": "THURSDAY, JULY 30, 2026 | PHILIPPINES | VOL. 120",
+  "dashboard": {
+    "php_krw_rate": "23.57",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.07.30",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Ink Landmark Digital Economy Pact to Boost Bilateral Trade",
+    "headline_kr": "필리핀-한국, 양국 교역 활성화 위한 디지털 경제 협정 체결",
+    "subtitle_en": "The agreement aims to streamline digital trade processes and enhance technological cooperation, promising significant growth for both nations. Officials highlight increased investment opportunities for Korean businesses in the Philippine tech sector.",
+    "subtitle_kr": "이번 협정은 디지털 무역 절차를 간소화하고 기술 협력을 강화하여 양국의 상당한 성장을 약속합니다. 관계자들은 필리핀 기술 부문에서 한국 기업을 위한 투자 기회가 증가할 것이라고 강조했습니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal move to solidify bilateral economic ties, the Philippines and the Republic of Korea officially signed a comprehensive Digital Economy Partnership Agreement (DEPA) today. The landmark accord, inked by Secretary of Trade and Industry Alfredo Pascual and Korean Minister of Trade, Industry and Energy Ahn Duk-geun, aims to foster a seamless digital trade environment, promote cross-border data flows, and facilitate cooperation in emerging technologies such as AI and blockchain.",
+      "The DEPA is expected to significantly benefit Korean enterprises operating in or looking to enter the Philippine market. It will reduce digital trade barriers, enhance legal certainty for e-commerce transactions, and provide a framework for mutual recognition of digital certificates. This strategic partnership is particularly timely as both nations accelerate their digital transformation agendas, seeking to leverage technology for sustainable economic development and job creation. Industry analysts predict a surge in Korean direct investment into the Philippine digital infrastructure and startup ecosystem.",
+      "Beyond trade facilitation, the agreement also includes provisions for capacity building and knowledge sharing, ensuring that both countries can collectively address future challenges and opportunities in the digital realm. Officials from both sides expressed optimism that the DEPA will serve as a blueprint for future regional digital cooperation within ASEAN, setting a precedent for robust, forward-looking economic partnerships. The focus now shifts to implementation, with working groups already established to translate the agreement's principles into tangible benefits for businesses and consumers."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국 경제 관계를 강화하는 중요한 움직임으로, 필리핀과 대한민국은 오늘 포괄적인 디지털 경제 파트너십 협정(DEPA)을 공식적으로 체결했습니다. 알프레도 파스쿠알 필리핀 통상산업부 장관과 안덕근 한국 산업통상자원부 장관이 서명한 이번 협정은 원활한 디지털 무역 환경을 조성하고, 국경 간 데이터 흐름을 촉진하며, AI 및 블록체인과 같은 신흥 기술 분야에서의 협력을 용이하게 하는 것을 목표로 합니다.",
+      "이번 DEPA는 필리핀 시장에 진출했거나 진출하려는 한국 기업에 상당한 이점을 가져다줄 것으로 기대됩니다. 디지털 무역 장벽을 줄이고, 전자상거래 거래에 대한 법적 확실성을 높이며, 디지털 인증서의 상호 인정을 위한 프레임워크를 제공할 것입니다. 양국이 지속 가능한 경제 발전과 일자리 창출을 위해 기술을 활용하고자 디지털 전환 의제를 가속화하고 있는 시점에서 이 전략적 파트너십은 특히 시의적절합니다. 산업 분석가들은 필리핀 디지털 인프라 및 스타트업 생태계에 대한 한국의 직접 투자가 급증할 것으로 예측하고 있습니다.",
+      "무역 촉진을 넘어, 이번 협정에는 역량 강화 및 지식 공유 조항도 포함되어 있어 양국이 디지털 영역에서 미래의 도전과 기회를 함께 해결할 수 있도록 보장합니다. 양측 관계자들은 DEPA가 아세안(ASEAN) 내 미래 지역 디지털 협력의 청사진 역할을 하여 견고하고 미래 지향적인 경제 파트너십의 선례를 세울 것이라는 낙관론을 표명했습니다. 이제 실무 그룹이 이미 구성되어 협정의 원칙을 기업과 소비자에게 실질적인 이익으로 전환하는 데 초점을 맞추고 있습니다."
+    ],
+    "image_seed": "cover-2026-07-30",
+    "image_query": "Korean Philippine officials handshake signing digital agreement, Manila, modern conference room",
+    "image_caption": "Photo: Secretary Pascual and Minister Ahn sign the Digital Economy Partnership Agreement (July 30, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Maritime Drills Conclude, Strengthening PH-ROK Naval Ties",
+    "headline_kr": "한-필리핀 해군, 합동 해상 훈련 성공적 마무리…해양 안보 강화",
+    "lead_en": "Philippine and Republic of Korea naval forces successfully concluded their joint maritime exercises in the West Philippine Sea, focusing on interoperability and regional security. The drills aimed to enhance collective defense capabilities and promote stability in critical waterways, fostering deeper military cooperation.",
+    "lead_kr": "필리핀과 대한민국 해군이 서필리핀해에서 상호 운용성 및 지역 안보에 중점을 둔 합동 해상 훈련을 성공적으로 마쳤습니다. 이번 훈련은 집단 방위 역량을 강화하고 주요 수로의 안정성을 증진하며, 심도 깊은 군사 협력을 촉진하는 것을 목표로 했습니다.",
+    "image_seed": "feat-2026-07-30",
+    "image_query": "Philippine, Korean navy ships sailing together, West Philippine Sea",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eye Renewable Energy Expansion in PH",
+      "headline_kr": "한국 기업들, 필리핀 재생 에너지 시장 확장 모색",
+      "summary_en": "Several leading Korean energy companies are reportedly exploring significant investments in the Philippines' burgeoning renewable energy sector, particularly in solar and wind power projects. This move aligns with the Philippines' ambitious clean energy targets and offers attractive incentives for foreign investors.",
+      "summary_kr": "여러 한국 주요 에너지 기업들이 필리핀의 급성장하는 재생 에너지 부문, 특히 태양광 및 풍력 프로젝트에 대한 대규모 투자를 모색하고 있는 것으로 알려졌습니다. 이러한 움직임은 필리핀의 야심찬 청정 에너지 목표와 일치하며 외국인 투자자들에게 매력적인 인센티브를 제공합니다.",
+      "image_seed": "news1-2026-07-30",
+      "image_query": "Korean engineers inspecting solar panels, Philippine farm",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Gears Up for Major K-Pop Summer Festival",
+      "headline_kr": "마닐라, 대규모 K-팝 여름 페스티벌 준비 박차",
+      "summary_en": "Excitement builds in Manila as preparations are underway for the highly anticipated 'K-Pop Fiesta Summer 2026,' featuring top Korean idol groups and emerging talents. The festival, scheduled for late August, promises a vibrant celebration of Korean music and culture, drawing thousands of fans.",
+      "summary_kr": "최고의 한국 아이돌 그룹과 신예들이 출연하는 대망의 'K-팝 피에스타 여름 2026' 준비가 한창인 가운데 마닐라의 열기가 고조되고 있습니다. 8월 말로 예정된 이 페스티벌은 수천 명의 팬을 끌어모으며 한국 음악과 문화를 생생하게 기념할 것을 약속합니다.",
+      "image_seed": "news2-2026-07-30",
+      "image_query": "Crowd cheering K-Pop concert, Manila stadium",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Education Exchange Programs See Record Enrollment",
+      "headline_kr": "한-필리핀 교육 교류 프로그램, 사상 최고 등록률 기록",
+      "summary_en": "Educational exchange programs between the Philippines and Korea have witnessed a record number of students enrolling for the upcoming academic year, reflecting growing interest in cross-cultural learning and academic collaboration. Both governments continue to support these initiatives.",
+      "summary_kr": "필리핀과 한국 간 교육 교류 프로그램에 다가오는 학년도에 사상 최고 인원의 학생들이 등록하며, 상호 문화 학습 및 학술 협력에 대한 관심이 증가하고 있음을 보여주었습니다. 양국 정부는 이러한 이니셔티브를 계속해서 지원하고 있습니다.",
+      "image_seed": "news3-2026-07-30",
+      "image_query": "Korean, Filipino students studying together, university library",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Urges Vigilance for Korean Residents Amid Monsoon Season",
+      "headline_kr": "주필리핀 한국대사관, 몬순 시즌 한인 거주민 안전 유의 당부",
+      "summary_en": "The Korean Embassy in the Philippines has issued an advisory reminding Korean residents and tourists to exercise heightened vigilance during the ongoing monsoon season. The advisory emphasizes safety precautions against heavy rains, flooding, and potential health risks, urging adherence to local emergency guidelines.",
+      "summary_kr": "주필리핀 한국대사관은 현재 진행 중인 몬순 시즌 동안 한국 거주민과 관광객들에게 각별한 주의를 기울일 것을 당부하는 권고를 발표했습니다. 이 권고는 폭우, 홍수 및 잠재적 건강 위험에 대한 안전 예방 조치를 강조하며, 현지 비상 지침 준수를 촉구합니다.",
+      "image_seed": "news4-2026-07-30",
+      "image_query": "Philippine street flooded, people walking carefully",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요소가 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital economy pact aims to create synergy between the Philippine and Korean tech sectors, leading to unprecedented growth.",
+    "example_kr": "디지털 경제 협정은 필리핀과 한국 기술 부문 간의 시너지를 창출하여 전례 없는 성장을 이끄는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
