@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-31",
+    "vol": 121,
+    "cover_en": "PH-Korea Launch Landmark Smart City Initiative in New Clark City",
+    "cover_kr": "필리핀-한국, 뉴클락시티 스마트시티 건설 프로젝트 착수",
+    "headlines_en": [
+      "Joint Police-Community Patrols Enhance Safety for Koreans in Boracay",
+      "Korean Investment Surges in Philippine Renewable Energy Sector",
+      "Manila to Host Inaugural K-Food & Culture Expo This September",
+      "PH-Korea Maritime Security Dialogue Strengthens Regional Stability",
+      "Korean Embassy Issues Rainy Season Safety Advisory for Residents"
+    ],
+    "headlines_kr": [
+      "보라카이 한인 안전 강화를 위한 한-필 공동 순찰대 활동",
+      "필리핀 신재생에너지 부문에 한국 투자 급증",
+      "마닐라, 오는 9월 첫 K-푸드 & 문화 엑스포 개최 예정",
+      "필리핀-한국 해양 안보 대화, 역내 안정 강화",
+      "주필리핀 한국대사관, 교민 대상 우기 안전 수칙 권고"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Security",
+      "Economy",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-07-30",
     "vol": 120,
     "cover_en": "Philippines, Korea Ink Landmark Digital Economy Pact to Boost Bilateral Trade",
