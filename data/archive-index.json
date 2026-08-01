@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-01",
+    "vol": 122,
+    "cover_en": "PH-Korea Launch Landmark Smart City Partnership in New Clark City",
+    "cover_kr": "필리핀-한국, 뉴 클락 시티에 획기적인 스마트 시티 파트너십 출범",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Deployed to Boracay for Tourist Safety",
+      "ASEAN Digital Economy Ministers Conclude Summit in Manila with Key Agreements",
+      "K-Pop Dance Festival Lights Up Quezon City, Draws Thousands of Fans",
+      "Korean Volunteers Join Philippine Disaster Preparedness Program in Bicol",
+      "PNP Warns Korean Expats Against Sophisticated Online Scams"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 태스크포스, 보라카이 관광객 안전 위해 배치",
+      "아세안 디지털 경제 장관 회의, 마닐라에서 주요 합의 도출하며 폐막",
+      "퀘존 시티를 밝힌 K-팝 댄스 페스티벌, 수천 명의 팬 운집",
+      "한국인 자원봉사자들, 비콜 지역 필리핀 재난 대비 프로그램에 참여",
+      "필리핀 경찰, 한국 교민들에게 정교한 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-07-31",
     "vol": 121,
     "cover_en": "PH-Korea Launch Landmark Smart City Initiative in New Clark City",

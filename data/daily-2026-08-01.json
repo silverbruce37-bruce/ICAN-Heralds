@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-01",
+  "header_date_line": "SATURDAY, AUGUST 1, 2026 | PHILIPPINES | VOL. 122",
+  "dashboard": {
+    "php_krw_rate": "23.59",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.01",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Smart City Partnership in New Clark City",
+    "headline_kr": "필리핀-한국, 뉴 클락 시티에 획기적인 스마트 시티 파트너십 출범",
+    "subtitle_en": "The ambitious joint initiative aims to integrate cutting-edge technology into urban planning, fostering sustainable growth and enhanced living for citizens in Central Luzon.",
+    "subtitle_kr": "이 야심찬 공동 이니셔티브는 도시 계획에 최첨단 기술을 통합하여 중앙 루손 지역 주민들의 지속 가능한 성장과 향상된 삶을 촉진하는 것을 목표로 합니다.",
+    "body_en": [
+      "New Clark City, Philippines – The Philippines and South Korea officially launched a groundbreaking smart city partnership today, August 1, 2026, marking a significant milestone in bilateral cooperation. The initiative, dubbed the 'PH-Korea Smart Urban Development Project,' will leverage Korean expertise in smart infrastructure and digital solutions to transform New Clark City into a model of sustainable and technologically advanced urban living. Officials from both nations emphasized their commitment to creating a future-ready metropolis that addresses the challenges of rapid urbanization through innovative strategies.",
+      "The project encompasses several key areas, including intelligent transportation systems, energy-efficient building designs, advanced waste management, and comprehensive digital connectivity. Korean technology firms will collaborate closely with Philippine counterparts, facilitating knowledge transfer and capacity building for local engineers and urban planners. This partnership is expected to attract substantial foreign investment, creating numerous job opportunities and stimulating economic growth not only in Central Luzon but across the wider Philippine economy, positioning the region as a hub for smart technology innovation.",
+      "Beyond technological advancements, the 'PH-Korea Smart Urban Development Project' also prioritizes community welfare and environmental sustainability. Plans include the integration of green spaces, smart public services, and disaster resilience infrastructure, ensuring a high quality of life for residents. Both governments expressed optimism that this collaboration will serve as a blueprint for future smart city developments in ASEAN, further strengthening the strategic alliance between the Philippines and South Korea and demonstrating their shared vision for a prosperous and technologically empowered future."
+    ],
+    "body_kr": [
+      "필리핀 뉴 클락 시티 – 필리핀과 한국은 오늘 2026년 8월 1일, 양국 협력의 중요한 이정표를 세우며 획기적인 스마트 시티 파트너십을 공식 출범했습니다. '필리핀-한국 스마트 도시 개발 프로젝트'로 명명된 이 이니셔티브는 한국의 스마트 인프라 및 디지털 솔루션 전문 지식을 활용하여 뉴 클락 시티를 지속 가능하고 기술적으로 진보된 도시 생활의 모델로 탈바꿈시킬 것입니다. 양국 관계자들은 혁신적인 전략을 통해 급속한 도시화의 도전에 대처하는 미래 지향적인 대도시를 건설하겠다는 약속을 강조했습니다.",
+      "이 프로젝트는 지능형 교통 시스템, 에너지 효율적인 건물 설계, 첨단 폐기물 관리 및 포괄적인 디지털 연결성을 포함한 여러 핵심 영역을 포괄합니다. 한국 기술 기업들은 필리핀 기업들과 긴밀히 협력하여 현지 엔지니어 및 도시 계획가를 위한 지식 이전 및 역량 구축을 촉진할 것입니다. 이 파트너십은 상당한 해외 투자를 유치하고 수많은 일자리를 창출하며 중앙 루손뿐만 아니라 더 넓은 필리핀 경제 전반에 걸쳐 경제 성장을 촉진하여 이 지역을 스마트 기술 혁신의 허브로 자리매김할 것으로 예상됩니다.",
+      "기술 발전 외에도 '필리핀-한국 스마트 도시 개발 프로젝트'는 지역 사회 복지 및 환경 지속 가능성을 우선시합니다. 녹지 공간, 스마트 공공 서비스, 재난 복원력 인프라 통합 계획이 포함되어 주민들의 높은 삶의 질을 보장합니다. 양국 정부는 이번 협력이 아세안 지역의 미래 스마트 시티 개발을 위한 청사진이 될 것이며, 필리핀과 한국 간의 전략적 동맹을 더욱 강화하고 번영하고 기술적으로 역량 있는 미래에 대한 공동의 비전을 보여줄 것이라고 낙관했습니다."
+    ],
+    "image_seed": "cover-2026-08-01",
+    "image_query": "Korean Philippine officials handshake signing smart city agreement, New Clark City skyline background",
+    "image_caption": "Photo: Philippine and Korean officials formalize the Smart Urban Development Project (August 1, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Deployed to Boracay for Tourist Safety",
+    "headline_kr": "필리핀-한국 합동 경찰 태스크포스, 보라카이 관광객 안전 위해 배치",
+    "lead_en": "Following recent concerns, a specialized joint task force comprising Philippine National Police (PNP) and Korean National Police Agency (KNPA) officers has been deployed to Boracay Island. The initiative aims to enhance security for Korean tourists and address potential issues proactively, ensuring a safe and enjoyable experience in the popular destination.",
+    "lead_kr": "최근 우려에 따라 필리핀 국립경찰(PNP)과 한국 경찰청(KNPA) 요원으로 구성된 특별 합동 태스크포스가 보라카이 섬에 배치되었습니다. 이 이니셔티브는 한국인 관광객의 보안을 강화하고 잠재적인 문제를 사전에 해결하여 인기 있는 여행지에서 안전하고 즐거운 경험을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-08-01",
+    "image_query": "Philippine Korean police officers patrol Boracay beach",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Ministers Conclude Summit in Manila with Key Agreements",
+      "headline_kr": "아세안 디지털 경제 장관 회의, 마닐라에서 주요 합의 도출하며 폐막",
+      "summary_en": "Digital economy ministers from ASEAN member states concluded their annual summit in Manila, approving new frameworks for cross-border data flow and digital trade. The agreements are set to boost regional e-commerce and technological integration.",
+      "summary_kr": "아세안 회원국 디지털 경제 장관들은 마닐라에서 연례 정상회의를 마치고 국경 간 데이터 흐름 및 디지털 무역을 위한 새로운 프레임워크를 승인했습니다. 이 합의는 역내 전자상거래 및 기술 통합을 촉진할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-08-01",
+      "image_query": "ASEAN ministers handshake digital economy summit",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Lights Up Quezon City, Draws Thousands of Fans",
+      "headline_kr": "퀘존 시티를 밝힌 K-팝 댄스 페스티벌, 수천 명의 팬 운집",
+      "summary_en": "The annual 'K-Pop Fiesta' in Quezon City saw record attendance, with local dance groups and enthusiasts showcasing their talents to a massive crowd. The event highlighted the enduring popularity of Korean culture in the Philippines.",
+      "summary_kr": "퀘존 시티에서 열린 연례 'K-팝 피에스타'는 기록적인 참석률을 보였으며, 지역 댄스 그룹과 열성 팬들이 대규모 관중 앞에서 재능을 선보였습니다. 이 행사는 필리핀에서 한국 문화의 지속적인 인기를 강조했습니다.",
+      "image_seed": "news2-2026-08-01",
+      "image_query": "K-Pop dance festival stage crowd cheering",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Volunteers Join Philippine Disaster Preparedness Program in Bicol",
+      "headline_kr": "한국인 자원봉사자들, 비콜 지역 필리핀 재난 대비 프로그램에 참여",
+      "summary_en": "A contingent of Korean volunteers has arrived in the Bicol Region to participate in a joint disaster preparedness and relief training program. Their efforts aim to strengthen local communities' resilience against natural calamities, a critical issue during typhoon season.",
+      "summary_kr": "한국인 자원봉사단이 비콜 지역에 도착하여 공동 재난 대비 및 구호 훈련 프로그램에 참여하고 있습니다. 이들의 노력은 태풍 시즌 동안 중요한 문제인 자연 재해에 대한 지역 사회의 회복력을 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-08-01",
+      "image_query": "Korean Philippine volunteers disaster relief training",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "PNP Warns Korean Expats Against Sophisticated Online Scams",
+      "headline_kr": "필리핀 경찰, 한국 교민들에게 정교한 온라인 사기 주의보 발령",
+      "summary_en": "The Philippine National Police (PNP) has issued a fresh warning to the Korean expatriate community regarding a surge in sophisticated online scams. Authorities urge vigilance and reporting of suspicious activities to prevent financial losses.",
+      "summary_kr": "필리핀 국립경찰(PNP)은 정교한 온라인 사기 급증과 관련하여 한국 교민들에게 새로운 경고를 발표했습니다. 당국은 재정적 손실을 방지하기 위해 경계를 늦추지 않고 의심스러운 활동을 신고할 것을 촉구했습니다.",
+      "image_seed": "news4-2026-08-01",
+      "image_query": "Laptop screen scam warning Korean expat",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; an agent that provokes or speeds significant change or action.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 중요한 변화나 행동을 유발하거나 가속하는 매개체.",
+    "example_en": "The new smart city partnership is expected to be a catalyst for economic growth and technological innovation in the region.",
+    "example_kr": "새로운 스마트 시티 파트너십은 이 지역의 경제 성장과 기술 혁신에 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
