@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-02",
+    "vol": 123,
+    "cover_en": "PH-Korea Forge Stronger Digital Economy Alliance for ASEAN Growth",
+    "cover_kr": "필리핀-한국, 아세안 성장을 위한 디지털 경제 동맹 강화",
+    "headlines_en": [
+      "Enhanced Security Measures Rolled Out for Korean Tourists in PH",
+      "Korean Startups Eye Philippine Market for ASEAN Expansion Hub",
+      "K-Pop Dance Festival Lights Up Manila Stage, Fostering Youth Exchange",
+      "PH-Korea Environmental Partnership Tackles Marine Plastic Waste",
+      "New Hotline Launched for Korean Residents Facing Emergency Situations"
+    ],
+    "headlines_kr": [
+      "필리핀 내 한국인 관광객을 위한 강화된 보안 조치 시행",
+      "한국 스타트업, 아세안 확장 허브로 필리핀 시장 주목",
+      "K-팝 댄스 페스티벌, 마닐라 무대 밝히며 청소년 교류 증진",
+      "필리핀-한국 환경 파트너십, 해양 플라스틱 폐기물 문제 해결",
+      "위급 상황에 처한 한인 거주민을 위한 새로운 핫라인 개설"
+    ],
+    "tags": [
+      "Security",
+      "Culture",
+      "Economy",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-08-01",
     "vol": 122,
     "cover_en": "PH-Korea Launch Landmark Smart City Partnership in New Clark City",
