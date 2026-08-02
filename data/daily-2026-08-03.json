@@ -1,0 +1,89 @@
+{
+  "edition_date": "2026-08-03",
+  "header_date_line": "MONDAY, AUGUST 3, 2026 | PHILIPPINES | VOL. 124",
+  "dashboard": {
+    "php_krw_rate": "23.51",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.03",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines and Korea Forge New Digital Partnership to Boost Innovation",
+    "headline_kr": "필리핀-한국, 혁신 증진 위한 새로운 디지털 파트너십 구축",
+    "subtitle_en": "A landmark agreement signed in Manila aims to accelerate digital transformation, foster job creation, and strengthen economic ties between the two nations.",
+    "subtitle_kr": "마닐라에서 체결된 획기적인 협정은 디지털 전환을 가속화하고 일자리 창출을 촉진하며 양국 간 경제 관계를 강화하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant move to propel both nations into a new era of technological advancement, the Philippines and South Korea officially signed a comprehensive Digital Economy Partnership Agreement yesterday. The signing ceremony, attended by high-ranking officials from both governments, took place at the Department of Trade and Industry (DTI) headquarters in Makati, emphasizing a shared vision for a digitally inclusive and prosperous future.",
+      "The agreement outlines extensive cooperation across various sectors, including artificial intelligence, fintech, smart city development, and cybersecurity. It is expected to facilitate greater investment by Korean tech companies in the Philippines, fostering innovation and creating high-value jobs for Filipinos. Furthermore, the pact aims to streamline digital trade processes and enhance data exchange, significantly boosting bilateral commerce and technological transfer.",
+      "Officials highlighted that this partnership will not only benefit large corporations but also provide substantial opportunities for small and medium-sized enterprises (SMEs) in both countries. For the Korean community in the Philippines, the agreement promises a more robust digital infrastructure and a more dynamic business environment, encouraging further entrepreneurial ventures and strengthening the overall economic presence of Koreans in the archipelago. This strategic alliance is poised to be a cornerstone of regional digital transformation."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국을 기술 발전의 새로운 시대로 이끌기 위한 중요한 움직임으로, 필리핀과 한국은 어제 포괄적인 디지털 경제 파트너십 협정을 공식적으로 체결했습니다. 마카티에 위치한 통상산업부(DTI) 본부에서 양국 정부 고위 관계자들이 참석한 가운데 열린 서명식은 디지털 포괄적이고 번영하는 미래에 대한 공동의 비전을 강조했습니다.",
+      "이 협정은 인공지능, 핀테크, 스마트 도시 개발 및 사이버 보안을 포함한 다양한 부문에 걸쳐 광범위한 협력을 명시하고 있습니다. 이는 한국 기술 기업의 필리핀 투자를 촉진하여 혁신을 육성하고 필리핀인들을 위한 고부가가치 일자리를 창출할 것으로 기대됩니다. 또한, 이 협정은 디지털 무역 프로세스를 간소화하고 데이터 교환을 강화하여 양자 간 상업 및 기술 이전을 크게 활성화할 것입니다.",
+      "관계자들은 이번 파트너십이 대기업뿐만 아니라 양국의 중소기업(SME)에도 상당한 기회를 제공할 것이라고 강조했습니다. 필리핀 한인 사회에게 이 협정은 더욱 강력한 디지털 인프라와 역동적인 비즈니스 환경을 약속하며, 추가적인 기업가적 벤처를 장려하고 군도 내 한인들의 전반적인 경제적 입지를 강화할 것입니다. 이 전략적 동맹은 지역 디지털 전환의 초석이 될 것입니다."
+    ],
+    "image_seed": "cover-2026-08-03",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine President and Korean Ambassador sign digital economy pact (August 2, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures Rolled Out in Korean Tourist Hubs",
+    "headline_kr": "한인 밀집 관광지 보안 강화 조치 시행",
+    "lead_en": "Local authorities, in cooperation with the Korean Embassy, have implemented new security protocols in key areas frequented by Korean tourists and residents. The initiative aims to bolster safety and reassure the community amidst rising concerns.",
+    "lead_kr": "현지 당국은 주한 필리핀 대사관과 협력하여 한인 관광객과 거주자들이 자주 찾는 주요 지역에 새로운 보안 프로토콜을 시행했습니다. 이 이니셔티브는 증가하는 우려 속에서 안전을 강화하고 지역 사회를 안심시키기 위한 것입니다.",
+    "image_seed": "feat-2026-08-03",
+    "image_query": "Philippine police patrol Korean business district Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy", "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive Amidst Global Headwinds",
+      "headline_kr": "글로벌 역풍 속 아세안 경제 전망 긍정적",
+      "summary_en": "A recent economic forum highlighted ASEAN's resilience and robust growth projections for 2026-2027, attracting increased foreign direct investment, including from South Korea.",
+      "summary_kr": "최근 경제 포럼에서 아세안의 회복력과 2026-2027년 강력한 성장 전망이 강조되었으며, 이는 한국을 포함한 외국인 직접 투자를 증가시키고 있습니다.",
+      "image_seed": "news1-2026-08-03", "image_query": "ASEAN business leaders conference economic chart", "read_time_min": 2
+    },
+    {
+      "tag": "Culture", "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Makati",
+      "headline_kr": "마카티 K-푸드 페스티벌 역대급 인파 기록",
+      "summary_en": "The annual K-Food Festival in Makati concluded with unprecedented attendance, showcasing diverse Korean cuisine and fostering vibrant cultural exchange between Korean and Filipino communities.",
+      "summary_kr": "마카티에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 기록하며 성황리에 막을 내렸습니다. 다양한 한국 음식을 선보이며 한인과 필리핀 커뮤니티 간 활발한 문화 교류를 촉진했습니다.",
+      "image_seed": "news2-2026-08-03", "image_query": "Korean food stalls diverse crowd festival", "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation", "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippines' Climate Resilience Programs",
+      "headline_kr": "한국, 필리핀 기후 회복력 프로그램 지원 약속",
+      "summary_en": "Seoul has committed significant aid to Manila for climate change adaptation and disaster preparedness initiatives, further strengthening the diplomatic ties and shared environmental goals between the two nations.",
+      "summary_kr": "한국은 필리핀의 기후 변화 적응 및 재난 대비 이니셔티브에 상당한 지원을 약속하며, 양국 간 외교 관계와 공유된 환경 목표를 더욱 강화했습니다.",
+      "image_seed": "news3-2026-08-03", "image_query": "Korean Philippine flags handshake environmental aid", "read_time_min": 3
+    },
+    {
+      "tag": "Safety", "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Launched in Angeles City",
+      "headline_kr": "앙헬레스시, 지역사회 치안 유지 프로그램 시작",
+      "summary_en": "A new community-led safety initiative has been introduced in Angeles City, a popular area for Korean residents, aiming to enhance local security and prevent crime through active citizen participation.",
+      "summary_kr": "한인 거주자들에게 인기 있는 앙헬레스시에서 새로운 지역사회 주도 안전 이니셔티브가 시작되었습니다. 시민들의 적극적인 참여를 통해 지역 치안을 강화하고 범죄를 예방하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-08-03", "image_query": "Angeles residents community watch sign", "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합 효과를 만들어내는 것.",
+    "example_en": "The new digital partnership aims to create synergy between Philippine innovation and Korean technological expertise.",
+    "example_kr": "새로운 디지털 파트너십은 필리핀의 혁신과 한국의 기술 전문성 사이의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
