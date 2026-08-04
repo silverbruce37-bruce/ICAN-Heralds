@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-04",
+  "header_date_line": "TUESDAY, AUGUST 4, 2026 | PHILIPPINES | VOL. 125",
+  "dashboard": {
+    "php_krw_rate": "23.39",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch 'Smart Archipelago' Initiative for Digital Future",
+    "headline_kr": "필리핀-한국, 디지털 미래 위한 '스마트 군도' 이니셔티브 출범",
+    "subtitle_en": "A landmark agreement signed in Manila aims to integrate advanced digital infrastructure across key Philippine cities, leveraging Korean technological expertise.",
+    "subtitle_kr": "마닐라에서 체결된 획기적인 협정은 한국의 기술 전문성을 활용하여 필리핀 주요 도시에 첨단 디지털 인프라를 통합하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal step towards accelerating digital transformation, the Philippines and South Korea today unveiled the 'Smart Archipelago' initiative. This ambitious program, formalized through a signing ceremony attended by high-ranking officials from both nations, seeks to establish a robust and interconnected digital ecosystem across the Philippine islands. The initiative focuses on integrating cutting-edge Korean smart city technologies into urban planning, public services, and infrastructure development.",
+      "The 'Smart Archipelago' is designed to foster sustainable growth, improve urban efficiency, and enhance the quality of life for Filipinos. Key projects under the initiative include the deployment of smart traffic management systems, digital governance platforms, and advanced public safety solutions in metropolitan areas. For the Korean community in the Philippines, this collaboration opens new avenues for business investment, technological exchange, and the integration of Korean innovation into the local economy, potentially creating numerous opportunities for Korean enterprises and professionals.",
+      "Both governments expressed strong commitment to the long-term success of the initiative, emphasizing its potential to serve as a model for regional digital cooperation. The 'Smart Archipelago' is expected to not only bridge the digital divide within the Philippines but also strengthen the strategic partnership between the two countries, laying the groundwork for future collaborations in critical sectors such as green energy and advanced manufacturing. Follow-up meetings are scheduled for late 2026 to outline specific project timelines and funding mechanisms."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 전환 가속화를 위한 중요한 단계로, 필리핀과 한국은 오늘 '스마트 군도(Smart Archipelago)' 이니셔티브를 공개했습니다. 양국 고위 관계자들이 참석한 서명식을 통해 공식화된 이 야심찬 프로그램은 필리핀 전역에 견고하고 상호 연결된 디지털 생태계를 구축하는 것을 목표로 합니다. 이 이니셔티브는 한국의 최첨단 스마트 도시 기술을 도시 계획, 공공 서비스 및 인프라 개발에 통합하는 데 중점을 둡니다.",
+      "'스마트 군도'는 지속 가능한 성장을 촉진하고, 도시 효율성을 개선하며, 필리핀 국민의 삶의 질을 향상시키기 위해 고안되었습니다. 이 이니셔티브의 주요 프로젝트에는 대도시 지역에 스마트 교통 관리 시스템, 디지털 거버넌스 플랫폼, 첨단 공공 안전 솔루션 배치가 포함됩니다. 필리핀 한인 사회에게 이 협력은 비즈니스 투자, 기술 교류 및 한국 혁신을 현지 경제에 통합할 수 있는 새로운 길을 열어주며, 한인 기업과 전문가들에게 수많은 기회를 창출할 잠재력이 있습니다.",
+      "양국 정부는 이 이니셔티브의 장기적인 성공에 대한 강력한 의지를 표명하며, 이것이 지역 디지털 협력의 모델이 될 수 있는 잠재력을 강조했습니다. '스마트 군도'는 필리핀 내 디지털 격차를 해소할 뿐만 아니라 양국 간의 전략적 파트너십을 강화하여 녹색 에너지 및 첨단 제조와 같은 중요한 분야에서 미래 협력을 위한 토대를 마련할 것으로 기대됩니다. 2026년 하반기에는 특정 프로젝트 일정 및 자금 조달 메커니즘을 구체화하기 위한 후속 회의가 예정되어 있습니다."
+    ],
+    "image_seed": "cover-2026-08-04",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials formalize the 'Smart Archipelago' initiative (August 4, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Tourist Safety in Boracay",
+    "headline_kr": "필리핀-한국 합동 경찰 순찰, 보라카이 관광객 안전 강화",
+    "lead_en": "Following a surge in Korean tourist arrivals, Philippine and Korean police forces have expanded their joint patrol program in Boracay. The initiative aims to enhance security and provide immediate assistance to visitors, particularly the Korean community, ensuring a safer travel experience.",
+    "lead_kr": "한국인 관광객 증가에 따라 필리핀과 한국 경찰이 보라카이에서 합동 순찰 프로그램을 확대했습니다. 이 이니셔티브는 특히 한인 사회를 포함한 방문객의 안전을 강화하고 즉각적인 지원을 제공하여 더욱 안전한 여행 경험을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-08-04",
+    "image_query": "Korean Philippine police officers patrolling Boracay beach",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye Philippine Tech Market Amidst ASEAN Growth",
+      "headline_kr": "한국 스타트업, 아세안 성장 속 필리핀 기술 시장 주목",
+      "summary_en": "A recent report highlights increasing interest from Korean tech startups looking to invest in the burgeoning Philippine digital economy. This trend signifies growing confidence in ASEAN's market potential and the Philippines' skilled workforce.",
+      "summary_kr": "최근 보고서에 따르면 한국 기술 스타트업들이 성장하는 필리핀 디지털 경제에 투자하려는 관심이 증가하고 있습니다. 이러한 추세는 아세안 시장 잠재력과 필리핀의 숙련된 인력에 대한 신뢰가 커지고 있음을 나타냅니다.",
+      "image_seed": "news1-2026-08-04",
+      "image_query": "Korean startup founders shaking hands Philippine tech",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila's K-Food Festival Draws Record Crowds, Celebrates Culinary Ties",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파 속에서 요리 문화 교류 기념",
+      "summary_en": "The annual 'Taste of Korea' food festival in Manila concluded with unprecedented attendance, showcasing the rich diversity of Korean cuisine. The event further cemented cultural bonds and promoted Korean culinary businesses within the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 '한국의 맛' 음식 축제가 전례 없는 인파 속에서 성황리에 막을 내리며 한국 요리의 풍부한 다양성을 선보였습니다. 이 행사는 문화적 유대를 더욱 강화하고 필리핀 내 한국 요리 사업을 홍보했습니다.",
+      "image_seed": "news2-2026-08-04",
+      "image_query": "People enjoying Korean food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Joint Disaster Relief Training Enhances Regional Preparedness",
+      "headline_kr": "필리핀-한국 합동 재난 구호 훈련, 지역 대비 태세 강화",
+      "summary_en": "Philippine and Korean emergency response teams recently completed a joint training exercise focused on disaster preparedness and humanitarian aid. This collaboration strengthens regional resilience and mutual support in times of crisis.",
+      "summary_kr": "필리핀과 한국의 비상 대응팀이 최근 재난 대비 및 인도적 지원에 중점을 둔 합동 훈련을 마쳤습니다. 이 협력은 위기 시 지역 회복력과 상호 지원을 강화합니다.",
+      "image_seed": "news3-2026-08-04",
+      "image_query": "Philippine Korean rescue teams disaster training",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Watch Program Expands in Metro Manila Suburbs",
+      "headline_kr": "메트로 마닐라 교외 지역으로 한인 커뮤니티 자율방범대 프로그램 확대",
+      "summary_en": "The successful Korean Community Watch program, in partnership with local authorities, has announced its expansion to more suburbs across Metro Manila. The initiative aims to enhance neighborhood safety and provide a rapid response network for residents.",
+      "summary_kr": "성공적인 한인 커뮤니티 자율방범대 프로그램이 지역 당국과의 협력으로 메트로 마닐라 전역의 더 많은 교외 지역으로 확장을 발표했습니다. 이 이니셔티브는 이웃 안전을 강화하고 주민들을 위한 신속 대응 네트워크를 제공하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-08-04",
+      "image_query": "Korean community members neighborhood watch sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The smart city initiative aims to create a synergy between Korean technology and Philippine development goals.",
+    "example_kr": "스마트 도시 이니셔티브는 한국 기술과 필리핀 개발 목표 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

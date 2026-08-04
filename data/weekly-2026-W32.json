@@ -1,0 +1,215 @@
+{
+  "week": "2026-W32",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Saluhan Bistro",
+    "name_kr": "살루한 비스트로",
+    "cuisine_tags": [
+      {
+        "en": "Modern Filipino",
+        "kr": "모던 필리핀"
+      },
+      {
+        "en": "Gastronomic",
+        "kr": "미식"
+      }
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Stepping into Saluhan Bistro feels like a warm embrace of Filipino heritage, reimagined with contemporary elegance. Each dish is a story, meticulously crafted to elevate familiar flavors into an unforgettable culinary journey. From the moment you're seated, the soft glow of the ambient lighting and the gentle hum of conversation promise an evening of delightful discovery, making it the perfect spot for both adventurous palates and those seeking a refined taste of home.",
+    "lead_kr": "살루한 비스트로에 들어서는 순간, 현대적인 우아함으로 재해석된 필리핀 유산의 따뜻한 포옹을 느낄 수 있습니다. 모든 요리는 친숙한 맛을 잊을 수 없는 미식의 여정으로 승화시키기 위해 세심하게 만들어진 이야기입니다. 은은한 조명과 부드러운 대화 소리가 어우러진 이곳은 모험적인 미식가와 고향의 세련된 맛을 찾는 이들 모두에게 완벽한 장소입니다.",
+    "quote_en": "We honor our ancestors' recipes by understanding their essence, then daring to present them in a way that sparks new conversations.",
+    "quote_kr": "우리는 선조들의 레시피를 본질을 이해하며 존중하고, 새로운 대화를 이끌어낼 방식으로 과감하게 선보입니다.",
+    "location": "G/F The Grand Tower, Ayala Avenue, Salcedo Village, Makati City",
+    "price_range": "₱800–2500",
+    "hours": "Tue-Sun: 11:30 AM – 2:30 PM, 6:00 PM – 10:00 PM",
+    "hours_closed_en": "Closed Mondays",
+    "hours_closed_kr": "월요일 휴무",
+    "language_en": "English, Filipino",
+    "language_kr": "영어, 필리핀어",
+    "must_try": [
+      {
+        "en": "Adobo sa Gata with Crispy Pork Belly",
+        "kr": "코코넛 밀크 아도보와 바삭한 삼겹살",
+        "price": "₱950"
+      },
+      {
+        "en": "Kinilaw na Tanigue Tartare",
+        "kr": "타니게 타르타르 키닐라우",
+        "price": "₱680"
+      },
+      {
+        "en": "Ube Cheesecake with Latik Crumble",
+        "kr": "우베 치즈케이크와 라틱 크럼블",
+        "price": "₱420"
+      }
+    ],
+    "tip_en": "Reservations are highly recommended, especially for dinner on weekends. Try to get a table near the window for a lovely city view.",
+    "tip_kr": "주말 저녁에는 사전 예약이 강력히 권장됩니다. 창가 테이블을 예약하여 멋진 도시 전망을 즐겨보세요.",
+    "hero_image_seed": "food-w2026-W32",
+    "image_query": "modern filipino adobo sa gata crispy pork belly elegant restaurant interior warm lighting",
+    "gallery_seeds": [
+      "food-g1-w2026-W32",
+      "food-g2-w2026-W32",
+      "food-g3-w2026-W32"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W32",
+      "image_query": "hidden urban garden lush greenery tranquil escape makati city",
+      "badge_en": "SECRET SPOT",
+      "badge_kr": "숨은 명소",
+      "tags": [
+        {
+          "en": "Nature",
+          "kr": "자연"
+        },
+        {
+          "en": "Relaxation",
+          "kr": "휴식"
+        }
+      ],
+      "name_en": "Ayala Triangle Gardens",
+      "name_kr": "아야라 트라이앵글 가든",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "Nestled amidst the towering skyscrapers of Makati, Ayala Triangle Gardens offers a verdant sanctuary from the urban hustle. This beautifully landscaped park is perfect for a leisurely stroll, a quiet picnic, or simply unwinding under the shade of ancient trees. In the evenings, it transforms with dazzling light shows, making it a magical escape right in the heart of the city.",
+      "lead_kr": "마카티의 우뚝 솟은 고층 빌딩들 사이에 자리한 아야라 트라이앵글 가든은 도시의 번잡함에서 벗어나 푸른 안식처를 제공합니다. 아름답게 조경된 이 공원은 한가로운 산책, 조용한 피크닉, 또는 고목 그늘 아래서 휴식을 취하기에 완벽합니다. 저녁에는 눈부신 조명 쇼로 변모하여 도시 한가운데서 마법 같은 탈출을 선사합니다.",
+      "location": "Paseo de Roxas St. cor. Ayala Ave. cor. Makati Ave., Makati City",
+      "cost": "FREE",
+      "tip_en": "Visit during weekday mornings for a peaceful experience, or in the evenings during the holiday season for spectacular light installations.",
+      "tip_kr": "평일 오전에 방문하여 평화로운 경험을 하거나, 휴가철 저녁에 방문하여 멋진 조명 설치물을 감상하세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W32",
+      "image_query": "grand colonial architecture national museum of fine arts manila historic",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "Culture",
+          "kr": "문화"
+        },
+        {
+          "en": "History",
+          "kr": "역사"
+        }
+      ],
+      "name_en": "National Museum of Fine Arts",
+      "name_kr": "국립 미술관",
+      "stars": "★★★★★",
+      "rating": 4.7,
+      "lead_en": "Housed in the magnificent Old Legislative Building, the National Museum of Fine Arts is a treasure trove of Filipino artistic masterpieces. Wander through grand halls adorned with iconic works, including Juan Luna's 'Spoliarium,' and immerse yourself in centuries of Philippine art history. It's an inspiring journey that connects you to the nation's creative soul and rich cultural narrative.",
+      "lead_kr": "웅장한 구 국회의사당 건물에 자리한 국립 미술관은 필리핀 예술 걸작의 보고입니다. 후안 루나의 '스폴리아리움'을 포함한 상징적인 작품들로 장식된 웅장한 홀을 거닐며 수세기에 걸친 필리핀 미술사에 몰입해 보세요. 국가의 창조적인 영혼과 풍부한 문화적 서사와 연결되는 영감을 주는 여정입니다.",
+      "location": "Padre Burgos Ave, Ermita, Manila, 1000 Metro Manila",
+      "cost": "FREE",
+      "tip_en": "Allocate at least 2-3 hours to fully appreciate the extensive collection. Combine your visit with the nearby National Museum of Anthropology and Natural History.",
+      "tip_kr": "방대한 컬렉션을 충분히 감상하려면 최소 2~3시간을 할애하세요. 근처에 있는 국립 인류학 박물관 및 자연사 박물관과 함께 방문하는 것을 추천합니다."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "APR 17",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "금요일",
+      "image_seed": "event1-w2026-W32",
+      "image_query": "indie rock band concert stage lights crowd energy",
+      "title": "The Midnight Bloom Live in Manila",
+      "desc_en": "Catch The Midnight Bloom, one of the hottest indie rock bands, for an electrifying night of original music and powerful performances. Expect a captivating setlist that blends melodic hooks with raw energy, leaving you wanting more.",
+      "desc_kr": "가장 인기 있는 인디 록 밴드 중 하나인 더 미드나잇 블룸의 오리지널 음악과 파워풀한 공연으로 전율적인 밤을 보내세요. 멜로디컬한 후크와 생생한 에너지가 어우러진 매혹적인 세트리스트가 여러분을 사로잡을 것입니다.",
+      "venue_en": "The Blackbird Live House",
+      "venue_kr": "더 블랙버드 라이브 하우스",
+      "address_en": "2/F, The Forum, 7th Ave cor. 26th St, Bonifacio Global City, Taguig",
+      "address_kr": "타기그 보니파시오 글로벌 시티 26번가 7번가 코너, 더 포럼 2층",
+      "time_en": "Doors 7:00 PM · Show 8:30 PM",
+      "time_kr": "입장 오후 7시 · 공연 오후 8시 30분",
+      "price_en": "₱1200 advance / ₱1500 at door",
+      "price_kr": "사전 ₱1200 / 현장 ₱1500",
+      "contact": "@theblackbirdlivehouse_mnl",
+      "note_en": "Strictly 18+ event. Valid ID required for entry. Limited seating, standing room only available.",
+      "note_kr": "만 18세 이상 입장 가능. 신분증 필수 지참. 좌석 제한, 스탠딩만 가능."
+    },
+    {
+      "date_badge": "MAY 04",
+      "day_of_week_en": "Monday",
+      "day_of_week_kr": "월요일",
+      "image_seed": "event2-w2026-W32",
+      "image_query": "artisan market handmade crafts local food stalls vibrant",
+      "title": "Kapwa Artisan Fair: Summer Edition",
+      "desc_en": "Discover unique handmade crafts, local delicacies, and sustainable products from talented Filipino artisans. The Kapwa Artisan Fair is a celebration of creativity and community, offering a vibrant atmosphere perfect for finding one-of-a-kind treasures.",
+      "desc_kr": "재능 있는 필리핀 장인들의 독특한 수공예품, 현지 별미, 친환경 제품을 만나보세요. 카프와 장인 박람회는 창의성과 공동체의 축제로, 특별한 보물을 찾기에 완벽한 활기찬 분위기를 제공합니다.",
+      "venue_en": "Uptown Bonifacio Mall Atrium",
+      "venue_kr": "업타운 보니파시오 몰 아트리움",
+      "address_en": "36th Street, Uptown Bonifacio, Taguig, 1634 Metro Manila",
+      "address_kr": "타기그 업타운 보니파시오 36번가, 1634 메트로 마닐라",
+      "time_en": "10:00 AM – 8:00 PM",
+      "time_kr": "오전 10시 – 오후 8시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "info@kapwaartisanfair.ph",
+      "note_en": "Pet-friendly event. Bring your own reusable bags for shopping. Ample parking available in the mall basement.",
+      "note_kr": "반려동물 동반 가능. 쇼핑 시 재사용 가능한 가방 지참. 몰 지하에 충분한 주차 공간."
+    },
+    {
+      "date_badge": "JUN 12",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "목요일",
+      "image_seed": "event3-w2026-W32",
+      "image_query": "contemporary art gallery opening modern abstract paintings wine reception",
+      "title": "Echoes of the Archipelago: A Solo Exhibit by Lia Cruz",
+      "desc_en": "Experience the evocative works of Lia Cruz as she explores themes of identity and landscape through her vibrant abstract paintings. Join the artist for an intimate opening night reception, offering a chance to meet Lia and discuss her inspirations.",
+      "desc_kr": "리아 크루즈가 생생한 추상화를 통해 정체성과 풍경의 주제를 탐구하는 감동적인 작품들을 경험하세요. 작가와 함께하는 오프닝 리셉션에 참여하여 리아를 만나고 그녀의 영감에 대해 이야기를 나눌 기회를 잡으세요.",
+      "venue_en": "Silverlens Galleries",
+      "venue_kr": "실버렌즈 갤러리",
+      "address_en": "2263 Chino Roces Ave Ext, Makati, 1231 Metro Manila",
+      "address_kr": "마카티 치노 로세스 애비뉴 익스텐션 2263, 1231 메트로 마닐라",
+      "time_en": "Opening Reception: 6:00 PM – 9:00 PM",
+      "time_kr": "오프닝 리셉션: 오후 6시 – 오후 9시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "(02) 8816 0044",
+      "note_en": "Exhibit runs until July 12, 2026. Gallery hours are Tue-Sat, 10 AM - 5 PM. Light refreshments will be served at the opening.",
+      "note_kr": "전시는 2026년 7월 12일까지 진행됩니다. 갤러리 운영 시간은 화-토요일, 오전 10시 - 오후 5시. 오프닝 리셉션에서 간단한 다과가 제공됩니다."
+    },
+    {
+      "date_badge": "JUL 20",
+      "day_of_week_en": "Monday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W32",
+      "image_query": "watercolor painting workshop art supplies vibrant colors",
+      "title": "Beginner's Watercolor Calligraphy Workshop",
+      "desc_en": "Unleash your inner artist in this beginner-friendly watercolor calligraphy workshop. Learn basic strokes, color blending techniques, and create beautiful hand-lettered pieces. All materials are provided, just bring your enthusiasm!",
+      "desc_kr": "초보자도 쉽게 참여할 수 있는 수채화 캘리그라피 워크숍에서 내면의 예술가를 깨워보세요. 기본 필획, 색상 혼합 기술을 배우고 아름다운 손글씨 작품을 만들어 보세요. 모든 재료가 제공되니, 열정만 가져오세요!",
+      "venue_en": "Craft Central Workshop Space",
+      "venue_kr": "크래프트 센트럴 워크숍 공간",
+      "address_en": "4/F Greenbelt 5, Ayala Center, Makati City",
+      "address_kr": "마카티 아얄라 센터 그린벨트 5층 4층",
+      "time_en": "1:00 PM – 4:00 PM",
+      "time_kr": "오후 1시 – 오후 4시",
+      "price_en": "₱2500 (inclusive of materials)",
+      "price_kr": "₱2500 (재료비 포함)",
+      "contact": "book@craftcentral.ph or +639178881234",
+      "note_en": "Limited slots available, pre-registration is required. Suitable for ages 12 and up. Snacks and drinks will be provided.",
+      "note_kr": "정원 제한, 사전 등록 필수. 12세 이상 참여 가능. 간식과 음료가 제공됩니다."
+    }
+  ],
+  "picks": {
+    "date": "2026.08.04",
+    "title_en": "The Art of Reimagining: A Taste of Heritage",
+    "title_kr": "재해석의 예술: 유산의 맛",
+    "body_en": [
+      "There's something profoundly satisfying about seeing tradition not just preserved, but thoughtfully reimagined. It’s like discovering a cherished family story told in a new, captivating voice. This week's feature, Saluhan Bistro, perfectly embodies this spirit, taking the soul of Filipino cuisine and presenting it with a fresh perspective that respects its roots while boldly exploring new horizons.",
+      "In a world that often rushes towards the new, there's immense value in pausing to appreciate the foundations. But true innovation, I believe, lies not in discarding the old, but in understanding it deeply enough to elevate it. It’s about asking: 'How can we honor this beloved dish, this age-old technique, in a way that resonates with today’s palate, today’s story?'",
+      "This journey of culinary rediscovery isn't just about food; it's a metaphor for how we engage with our culture, our history, and even ourselves. It reminds us that our past isn't a static monument, but a living, breathing narrative that can inspire endless creativity. And sometimes, the most delicious discoveries are found at the intersection of what was and what could be."
+    ],
+    "body_kr": [
+      "전통이 보존될 뿐만 아니라 사려 깊게 재해석되는 것을 보는 것은 깊은 만족감을 줍니다. 마치 소중한 가족 이야기를 새롭고 매혹적인 목소리로 듣는 것과 같습니다. 이번 주 특집인 살루한 비스트로는 이러한 정신을 완벽하게 구현하여 필리핀 요리의 영혼을 뿌리를 존중하면서도 새로운 지평을 대담하게 탐험하는 신선한 관점으로 제시합니다.",
+      "종종 새로운 것을 향해 서두르는 세상에서, 우리는 토대를 감상하기 위해 멈춰 서는 것에 큰 가치를 둡니다. 그러나 진정한 혁신은 오래된 것을 버리는 것이 아니라, 그것을 깊이 이해하여 더 높은 수준으로 끌어올리는 데 있다고 저는 믿습니다. 이것은 '이 사랑받는 요리, 이 오래된 기술을 오늘날의 입맛, 오늘날의 이야기와 공명하는 방식으로 어떻게 존중할 수 있을까?'라고 묻는 것입니다.",
+      "이러한 요리 재발견의 여정은 단순히 음식에 관한 것이 아닙니다. 그것은 우리가 우리의 문화, 역사, 심지어 우리 자신과 어떻게 소통하는지에 대한 은유입니다. 그것은 우리의 과거가 정적인 기념물이 아니라 끝없는 창의성을 고무할 수 있는 살아 숨 쉬는 이야기임을 상기시켜 줍니다. 그리고 때로는 가장 맛있는 발견은 과거와 미래가 교차하는 지점에서 찾아집니다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}
