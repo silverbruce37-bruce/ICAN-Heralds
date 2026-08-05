@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-06",
+  "header_date_line": "THURSDAY, AUGUST 6, 2026 | PHILIPPINES | VOL. 127",
+  "dashboard": {
+    "php_krw_rate": "23.46",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.06",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Trade Pact Set to Transform Regional Commerce",
+    "headline_kr": "필리핀-한국 디지털 무역 협정, 역내 상업 혁신 예고",
+    "subtitle_en": "The landmark agreement aims to streamline digital transactions, foster innovation, and significantly boost economic growth across ASEAN.",
+    "subtitle_kr": "획기적인 협정은 디지털 거래를 간소화하고 혁신을 촉진하며 아세안 전반의 경제 성장을 크게 증대시키는 것을 목표로 합니다.",
+    "body_en": [
+      "The Philippines and South Korea officially ratified a comprehensive Digital Trade Pact yesterday, marking a pivotal moment for economic cooperation in Southeast Asia. Signed by Trade Secretary Alfredo Pascual and his Korean counterpart, Minister Ahn Duk-geun, the agreement establishes a framework for secure and efficient cross-border digital transactions, data exchange, and the mutual recognition of digital signatures. This initiative is expected to dramatically reduce trade barriers for e-commerce businesses and tech startups operating between the two nations, providing a significant boost to the digital economy.",
+      "The pact specifically targets key sectors such as fintech, AI-driven logistics, and cloud computing services, where Korean expertise and Philippine growth potential can create powerful synergies. For the Korean community in the Philippines, this means increased opportunities for digital entrepreneurship and easier access to Korean digital services and products. Local businesses are also poised to benefit from enhanced market access to South Korea, fostering a more integrated and competitive regional supply chain that could serve as a model for broader ASEAN integration.",
+      "Looking ahead, both governments have committed to establishing a joint working group tasked with overseeing the implementation of the pact and addressing any emerging challenges. The focus will be on ensuring robust data protection measures, fostering a fair digital marketplace, and promoting technical cooperation to upgrade digital infrastructure in the Philippines. Analysts predict the agreement will not only deepen bilateral ties but also contribute substantially to ASEAN's ambitious digital transformation agenda, positioning the region as a global hub for digital innovation and trade by the end of the decade."
+    ],
+    "body_kr": [
+      "필리핀과 한국은 어제 포괄적인 디지털 무역 협정을 공식 비준하며 동남아시아 경제 협력의 중요한 전환점을 마련했습니다. 알프레도 파스쿠알 필리핀 통상산업부 장관과 안덕근 한국 산업통상자원부 장관이 서명한 이 협정은 안전하고 효율적인 국경 간 디지털 거래, 데이터 교환, 디지털 서명 상호 인정을 위한 프레임워크를 구축합니다. 이 이니셔티브는 양국 간 전자 상거래 기업 및 기술 스타트업의 무역 장벽을 극적으로 줄여 디지털 경제에 상당한 활력을 불어넣을 것으로 기대됩니다.",
+      "이번 협정은 특히 핀테크, AI 기반 물류, 클라우드 컴퓨팅 서비스와 같은 핵심 분야를 목표로 하며, 한국의 전문성과 필리핀의 성장 잠재력이 강력한 시너지를 창출할 수 있습니다. 필리핀 내 한인 사회에는 디지털 기업가 정신에 대한 기회가 증가하고 한국의 디지털 서비스 및 제품에 대한 접근성이 용이해질 것을 의미합니다. 또한 현지 기업들은 한국 시장 접근성 향상으로 이점을 얻을 수 있으며, 이는 더 넓은 아세안 통합의 모델이 될 수 있는 보다 통합적이고 경쟁력 있는 지역 공급망을 육성할 것입니다.",
+      "양국 정부는 향후 협정 이행을 감독하고 발생하는 모든 문제를 해결하기 위한 공동 실무 그룹을 설립하기로 약속했습니다. 데이터 보호 조치 강화, 공정한 디지털 시장 조성, 필리핀의 디지털 인프라 업그레이드를 위한 기술 협력 증진에 중점을 둘 것입니다. 분석가들은 이번 협정이 양국 관계를 심화시킬 뿐만 아니라 아세안의 야심 찬 디지털 전환 의제에 크게 기여하여, 이번 10년 말까지 이 지역을 디지털 혁신 및 무역의 글로벌 허브로 자리매김할 것으로 전망합니다."
+    ],
+    "image_seed": "cover-2026-08-06",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Trade officials from the Philippines and South Korea finalize the landmark Digital Trade Pact in Manila (2026-08-05).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Task Force Bolsters Safety for Korean Residents in Metro Manila",
+    "headline_kr": "한인 사회 안전 강화를 위한 메트로 마닐라 합동 태스크포스",
+    "lead_en": "A newly activated joint task force, comprising Philippine National Police (PNP) and representatives from the Korean Embassy, has significantly ramped up security measures for Korean nationals residing in Metro Manila. The initiative follows recent community concerns and aims to ensure a safer environment through increased patrols and improved rapid response.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 주필리핀 한국대사관 대표들로 구성된 신설 합동 태스크포스가 메트로 마닐라에 거주하는 한인들의 보안 조치를 크게 강화했습니다. 최근 지역 사회의 우려에 따라 시작된 이 이니셔티브는 순찰 강화와 신속 대응 개선을 통해 더욱 안전한 환경을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-08-06",
+    "image_query": "Philippine Korean police officers patrol Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Lead Investment Surge in ASEAN's Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 아세안 신재생에너지 부문 투자 급증 주도",
+      "summary_en": "South Korean companies are significantly increasing their investments in renewable energy projects across ASEAN, particularly in solar and wind power in the Philippines and Vietnam, driving regional green growth and job creation.",
+      "summary_kr": "한국 기업들이 필리핀과 베트남의 태양광 및 풍력 발전 등 아세안 전역의 신재생에너지 프로젝트 투자를 대폭 확대하며 역내 녹색 성장과 일자리 창출을 이끌고 있습니다.",
+      "image_seed": "news1-2026-08-06",
+      "image_query": "Korean solar panel factory ASEAN workers",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival in Manila Draws Record Crowds, Boosts Cultural Exchange",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰리며 문화 교류 증진",
+      "summary_en": "The annual K-Food Festival in Manila concluded with unprecedented attendance, showcasing diverse Korean culinary delights and cultural performances, further strengthening the bond between the Korean community and Filipinos.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 동원하며 성황리에 막을 내렸습니다. 다양한 한국 음식과 문화 공연을 선보이며 한인 사회와 필리핀인들 간의 유대를 더욱 강화했습니다.",
+      "image_seed": "news2-2026-08-06",
+      "image_query": "K-Food festival street market Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines and Korea Advance Discussions on Maritime Security Cooperation",
+      "headline_kr": "필리핀-한국, 해양 안보 협력 논의 진전",
+      "summary_en": "High-level officials from the Philippines and South Korea met to discuss enhanced maritime security cooperation, including joint patrols and intelligence sharing, to address regional challenges and ensure stability in strategic waterways.",
+      "summary_kr": "필리핀과 한국의 고위 관계자들이 역내 도전에 대응하고 전략적 수로의 안정을 보장하기 위한 공동 순찰 및 정보 공유를 포함한 해양 안보 협력 강화를 논의했습니다.",
+      "image_seed": "news3-2026-08-06",
+      "image_query": "Philippine Korean naval ships patrol sea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Travel Advisory for Palawan, Emphasizes Safety Protocols",
+      "headline_kr": "주필리핀 한국대사관, 팔라완 여행경보 발령 및 안전 수칙 강조",
+      "summary_en": "The Korean Embassy in Manila has issued a travel advisory for Palawan province, urging residents and tourists to exercise heightened caution and adhere strictly to local safety guidelines following recent minor incidents.",
+      "summary_kr": "주필리핀 한국대사관은 최근 경미한 사건 발생 후 팔라완 주에 대한 여행경보를 발령하고, 거주민과 관광객들에게 각별한 주의를 기울이고 현지 안전 수칙을 엄격히 준수할 것을 당부했습니다.",
+      "image_seed": "news4-2026-08-06",
+      "image_query": "Korean embassy sign travel advisory",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital trade pact aims to create synergy between the Philippine and Korean economies, leading to unprecedented growth.",
+    "example_kr": "디지털 무역 협정은 필리핀과 한국 경제 간의 시너지를 창출하여 전례 없는 성장을 이끄는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

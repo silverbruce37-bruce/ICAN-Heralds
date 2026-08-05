@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-06",
+    "vol": 127,
+    "cover_en": "Philippines-Korea Digital Trade Pact Set to Transform Regional Commerce",
+    "cover_kr": "필리핀-한국 디지털 무역 협정, 역내 상업 혁신 예고",
+    "headlines_en": [
+      "Joint Task Force Bolsters Safety for Korean Residents in Metro Manila",
+      "Korean Firms Lead Investment Surge in ASEAN's Renewable Energy Sector",
+      "K-Food Festival in Manila Draws Record Crowds, Boosts Cultural Exchange",
+      "Philippines and Korea Advance Discussions on Maritime Security Cooperation",
+      "Korean Embassy Issues Travel Advisory for Palawan, Emphasizes Safety Protocols"
+    ],
+    "headlines_kr": [
+      "한인 사회 안전 강화를 위한 메트로 마닐라 합동 태스크포스",
+      "한국 기업들, 아세안 신재생에너지 부문 투자 급증 주도",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰리며 문화 교류 증진",
+      "필리핀-한국, 해양 안보 협력 논의 진전",
+      "주필리핀 한국대사관, 팔라완 여행경보 발령 및 안전 수칙 강조"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Security",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-08-05",
     "vol": 126,
     "cover_en": "PH-Korea Launch Landmark Digital Economy Partnership for Future Growth",
