@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-07",
+    "vol": 128,
+    "cover_en": "Korea, Philippines Launch Major Digital Cooperation Initiative",
+    "cover_kr": "한-필리핀, 대규모 디지털 협력 이니셔티브 출범",
+    "headlines_en": [
+      "PNP, Korean Police Intensify Joint Efforts Against Cybercrime",
+      "Korean Investment Surges in Philippine Renewable Energy Sector",
+      "K-Food Festival Draws Record Crowds in Manila, Showcasing Culinary Diversity",
+      "ASEAN-Korea Summit Preparations Underway in Seoul",
+      "Makati City Launches New Safety App for Foreign Residents"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 한국 경찰과 사이버 범죄 공동 대응 강화",
+      "한국, 필리핀 재생에너지 부문 투자 급증",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파로 요리 다양성 선보여",
+      "서울에서 아세안-한국 정상회의 준비 진행 중",
+      "마카티 시, 외국인 거주자를 위한 새로운 안전 앱 출시"
+    ],
+    "tags": [
+      "Economy",
+      "Cooperation",
+      "Safety",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-08-06",
     "vol": 127,
     "cover_en": "Philippines-Korea Digital Trade Pact Set to Transform Regional Commerce",

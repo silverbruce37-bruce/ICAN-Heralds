@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-07",
+  "header_date_line": "FRIDAY, AUGUST 7, 2026 | PHILIPPINES | VOL. 128",
+  "dashboard": {
+    "php_krw_rate": "23.44",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.07",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, Philippines Launch Major Digital Cooperation Initiative",
+    "headline_kr": "한-필리핀, 대규모 디지털 협력 이니셔티브 출범",
+    "subtitle_en": "This landmark agreement aims to bolster technological exchange and drive innovation, promising significant economic benefits for both nations and strengthening bilateral ties in the digital age.",
+    "subtitle_kr": "이번 획기적인 협정은 기술 교류를 강화하고 혁신을 추진하여 양국에 상당한 경제적 이익을 약속하며 디지털 시대에 양국 관계를 더욱 공고히 할 것입니다.",
+    "body_en": [
+      "MANILA – The Republic of Korea and the Republic of the Philippines today officially launched a comprehensive Digital Cooperation Initiative, marking a new era of technological partnership between the two nations. The agreement, signed by high-ranking officials from both governments, focuses on key areas such as artificial intelligence, cybersecurity, smart city development, and digital governance. This strategic collaboration is expected to accelerate the Philippines' digital transformation agenda while opening new avenues for Korean tech companies in the burgeoning ASEAN market.",
+      "Under the initiative, joint research and development projects will be established, alongside capacity-building programs designed to enhance the digital skills of the Philippine workforce. Experts from Korea will provide technical assistance and share best practices in developing robust digital infrastructure and secure online environments. Philippine officials expressed optimism that this partnership would not only attract substantial Korean investment but also foster a vibrant ecosystem for local tech startups and innovation hubs, bridging the digital divide across the archipelago.",
+      "The launch event emphasized the shared vision of both countries for a digitally empowered future and underscored the growing importance of regional collaboration in navigating global technological advancements. This initiative is seen as a cornerstone in strengthening the broader economic and diplomatic ties between Korea and the Philippines, building on decades of robust relations and setting a precedent for future bilateral engagements focused on sustainable and inclusive growth in the Indo-Pacific region."
+    ],
+    "body_kr": [
+      "마닐라 – 대한민국과 필리핀 공화국은 오늘 포괄적인 디지털 협력 이니셔티브를 공식적으로 출범하며 양국 간 기술 파트너십의 새로운 시대를 열었습니다. 양국 정부 고위 관계자들이 서명한 이 협정은 인공지능, 사이버 보안, 스마트 도시 개발 및 디지털 거버넌스와 같은 주요 분야에 중점을 둡니다. 이 전략적 협력은 필리핀의 디지털 전환 의제를 가속화하는 동시에 성장하는 아세안 시장에서 한국 기술 기업에게 새로운 길을 열어줄 것으로 기대됩니다.",
+      "이니셔티브에 따라 필리핀 노동력의 디지털 기술을 향상시키기 위한 역량 강화 프로그램과 함께 공동 연구 개발 프로젝트가 수립될 예정입니다. 한국 전문가들은 견고한 디지털 인프라 및 안전한 온라인 환경 개발에 대한 기술 지원을 제공하고 모범 사례를 공유할 것입니다. 필리핀 관계자들은 이번 파트너십이 상당한 한국 투자를 유치할 뿐만 아니라 현지 기술 스타트업 및 혁신 허브를 위한 활기찬 생태계를 조성하여 군도 전역의 디지털 격차를 해소할 것이라고 낙관적인 견해를 밝혔습니다.",
+      "이번 출범 행사는 디지털적으로 역량 강화된 미래에 대한 양국의 공유 비전을 강조하고 글로벌 기술 발전을 헤쳐나가는 데 있어 지역 협력의 중요성이 커지고 있음을 부각했습니다. 이 이니셔티브는 수십 년간의 견고한 관계를 바탕으로 한국과 필리핀 간의 광범위한 경제 및 외교 관계를 강화하는 초석으로 간주되며, 인도-태평양 지역의 지속 가능하고 포괄적인 성장에 중점을 둔 미래 양자 협력의 선례를 세우고 있습니다."
+    ],
+    "image_seed": "cover-2026-08-07",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Korean and Philippine officials shake hands after signing the new digital cooperation agreement. (August 7, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Police Intensify Joint Efforts Against Cybercrime",
+    "headline_kr": "필리핀 경찰, 한국 경찰과 사이버 범죄 공동 대응 강화",
+    "lead_en": "Following a recent surge in online scams targeting foreign residents, the Philippine National Police (PNP) and the Korean National Police Agency (KNPA) have announced an intensified joint task force. This initiative aims to enhance intelligence sharing and operational coordination to protect the Korean community from digital threats and ensure their safety in the Philippines.",
+    "lead_kr": "최근 외국인 거주자를 대상으로 한 온라인 사기 급증에 따라 필리핀 국가경찰(PNP)과 한국 경찰청(KNPA)은 공동 태스크포스를 강화한다고 발표했습니다. 이 이니셔티브는 정보 공유 및 작전 조정을 강화하여 디지털 위협으로부터 한인 사회를 보호하고 필리핀 내 안전을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-08-07",
+    "image_query": "Philippine Korean police officers collaborate on computer cybercrime investigation",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment Surges in Philippine Renewable Energy Sector",
+      "headline_kr": "한국, 필리핀 재생에너지 부문 투자 급증",
+      "summary_en": "Korean companies are significantly increasing their investments in solar and wind energy projects across the Philippines, aligning with the nation's ambitious green energy transition goals. This influx of capital is expected to create thousands of jobs and boost local economies.",
+      "summary_kr": "한국 기업들이 필리핀 전역의 태양광 및 풍력 에너지 프로젝트에 대한 투자를 크게 늘리고 있으며, 이는 필리핀의 야심찬 녹색 에너지 전환 목표와 일치합니다. 이러한 자본 유입은 수천 개의 일자리를 창출하고 지역 경제를 활성화할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-08-07",
+      "image_query": "Korean engineer inspecting solar panel field Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Manila, Showcasing Culinary Diversity",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파로 요리 다양성 선보여",
+      "summary_en": "The recently concluded K-Food Festival in Manila attracted unprecedented numbers of attendees, highlighting the ever-growing popularity of Korean cuisine. The event featured collaborations between local Filipino chefs and Korean restaurateurs, offering a wide array of traditional and modern dishes.",
+      "summary_kr": "최근 마닐라에서 성황리에 막을 내린 K-푸드 페스티벌은 전례 없는 수의 방문객을 유치하며 한국 음식의 끊임없이 성장하는 인기를 입증했습니다. 이 행사에는 현지 필리핀 셰프와 한국 식당 경영자들의 협업이 이루어져 다양한 전통 및 현대 요리를 선보였습니다.",
+      "image_seed": "news2-2026-08-07",
+      "image_query": "Crowded K-Food festival stall serving bibimbap kimchi Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-Korea Summit Preparations Underway in Seoul",
+      "headline_kr": "서울에서 아세안-한국 정상회의 준비 진행 중",
+      "summary_en": "Officials from ASEAN member states and South Korea are meeting in Seoul to finalize the agenda for the upcoming ASEAN-Korea Summit. Discussions focus on enhancing regional stability, economic integration, and cooperation in emerging technologies and climate change initiatives.",
+      "summary_kr": "아세안 회원국과 한국 관계자들이 서울에서 다가오는 아세안-한국 정상회의 의제를 확정하기 위해 회의를 진행하고 있습니다. 논의는 역내 안정 강화, 경제 통합, 신흥 기술 및 기후 변화 이니셔티브 협력에 중점을 둡니다.",
+      "image_seed": "news3-2026-08-07",
+      "image_query": "ASEAN Korea flags conference room officials discussing",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Launches New Safety App for Foreign Residents",
+      "headline_kr": "마카티 시, 외국인 거주자를 위한 새로운 안전 앱 출시",
+      "summary_en": "Makati City, a popular residential area for many expatriates including Koreans, has introduced a new mobile application designed to provide real-time safety alerts, emergency contacts, and local advisories. The app was developed with input from various foreign community leaders.",
+      "summary_kr": "한국인을 포함한 많은 외국인 거주자들에게 인기 있는 주거 지역인 마카티 시가 실시간 안전 경보, 비상 연락처 및 현지 안내를 제공하도록 설계된 새로운 모바일 애플리케이션을 출시했습니다. 이 앱은 다양한 외국인 커뮤니티 리더들의 의견을 반영하여 개발되었습니다.",
+      "image_seed": "news4-2026-08-07",
+      "image_query": "Hand holding smartphone safety app Makati city background",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 개별 효과의 합보다 더 큰 결합 효과를 생성하는 것.",
+    "example_en": "The digital cooperation initiative aims to create significant synergy between Korea and the Philippines' technological advancements.",
+    "example_kr": "디지털 협력 이니셔티브는 한국과 필리핀의 기술 발전 사이에 상당한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
