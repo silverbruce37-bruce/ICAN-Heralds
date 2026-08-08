@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-08",
+    "vol": 129,
+    "cover_en": "Philippines, Korea Launch Landmark Digital Transformation Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 전환 파트너십 출범",
+    "headlines_en": [
+      "PNP Enhances Patrols in Korean-Populated Areas Following Recent Incidents",
+      "Korean Investors Eyeing Renewable Energy Projects Across ASEAN",
+      "K-Pop Dance Festival Draws Record Crowds in Quezon City",
+      "Expanded Scholarship Program for Filipinos to Study in Korea Announced",
+      "Korean Embassy Issues Advisory on Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "최근 사건 발생 후, PNP 한인 밀집 지역 순찰 강화",
+      "한국 투자자들, 아세안 전역 재생에너지 프로젝트 주목",
+      "퀘존시티 K-Pop 댄스 페스티벌, 역대급 인파 운집",
+      "필리핀 학생 대상 한국 유학 장학금 프로그램 확대 발표",
+      "주필리핀 한국 대사관, 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-08-07",
     "vol": 128,
     "cover_en": "Korea, Philippines Launch Major Digital Cooperation Initiative",
