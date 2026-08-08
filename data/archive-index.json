@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-09",
+    "vol": 130,
+    "cover_en": "Philippines-Korea Launch Major Digital Trade Hub in Manila",
+    "cover_kr": "필리핀-한국, 마닐라에 주요 디지털 무역 허브 출범",
+    "headlines_en": [
+      "New Joint Task Force to Enhance Safety for Korean Tourists",
+      "Korean Investors Eyeing Renewable Energy Projects in Visayas",
+      "Manila Hosts Successful K-Food Festival, Showcasing Culinary Diversity",
+      "Philippines, Korea Expand Educational Exchange Programs for Students",
+      "Korean Community Reminded of Online Scams Amid Rising Incidents"
+    ],
+    "headlines_kr": [
+      "한인 관광객 안전 강화를 위한 새로운 합동 태스크포스 출범",
+      "한국 투자자들, 비사야스 지역 신재생에너지 프로젝트에 관심",
+      "마닐라, 성공적인 K-푸드 페스티벌 개최, 요리 다양성 선보여",
+      "필리핀, 한국 학생 교환 프로그램 확대",
+      "급증하는 온라인 사기 사건 속 한인 커뮤니티 주의 당부"
+    ],
+    "tags": [
+      "Cooperation",
+      "Culture",
+      "Economy",
+      "Security",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-08-08",
     "vol": 129,
     "cover_en": "Philippines, Korea Launch Landmark Digital Transformation Partnership",

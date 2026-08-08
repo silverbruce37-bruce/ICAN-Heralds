@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-09",
+  "header_date_line": "SUNDAY, AUGUST 9, 2026 | PHILIPPINES | VOL. 130",
+  "dashboard": {
+    "php_krw_rate": "23.20",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.09",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Launch Major Digital Trade Hub in Manila",
+    "headline_kr": "필리핀-한국, 마닐라에 주요 디지털 무역 허브 출범",
+    "subtitle_en": "The initiative aims to streamline e-commerce, boost bilateral trade, and foster technological exchange, promising significant economic growth and stronger ties.",
+    "subtitle_kr": "이 이니셔티브는 전자상거래를 간소화하고 양국 간 무역을 활성화하며 기술 교류를 촉진하여 상당한 경제 성장과 더욱 강력한 관계를 약속합니다.",
+    "body_en": [
+      "Manila, Philippines – A landmark digital trade hub, a joint venture between the Philippines and South Korea, was officially inaugurated today in Manila. Attended by high-ranking officials from both nations, including Philippine President Ferdinand Marcos Jr. and Korean Minister of Trade, Industry, and Energy Ahn Duk-geun, the hub is set to revolutionize bilateral commerce. The project, a cornerstone of the 'Digital Philippines, Digital Korea' initiative, aims to leverage cutting-edge technology to create a seamless platform for cross-border e-commerce, logistics, and digital services, making trade more efficient and accessible for small and medium-sized enterprises (SMEs).",
+      "The newly established hub is expected to significantly reduce trade barriers and operational costs for businesses looking to expand into either market. Korean companies operating in the Philippines will find it easier to export their products back to Korea or to other ASEAN markets, while Philippine businesses gain unprecedented access to the highly competitive Korean consumer base. Experts project an initial 15% increase in bilateral digital trade volume within the first year, contributing substantially to both countries' post-pandemic economic recovery and digital transformation agendas.",
+      "Beyond its immediate economic impact, the digital trade hub symbolizes a deepening of strategic partnership between the Philippines and South Korea. It is anticipated to foster greater technological collaboration, promote knowledge transfer, and create numerous job opportunities in the digital sector. Both governments expressed optimism that this initiative will serve as a model for future regional economic cooperation, solidifying their commitment to a digitally inclusive and prosperous future for the Korean community in the Philippines and the broader ASEAN region."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀과 한국 간의 합작 투자로 이루어진 획기적인 디지털 무역 허브가 오늘 마닐라에서 공식적으로 출범했습니다. 필리핀의 페르디난드 마르코스 주니어 대통령과 한국의 안덕근 산업통상자원부 장관을 포함한 양국 고위 관계자들이 참석한 가운데, 이 허브는 양국 간 상거래에 혁명을 가져올 것으로 기대됩니다. '디지털 필리핀, 디지털 한국' 이니셔티브의 초석인 이 프로젝트는 최첨단 기술을 활용하여 국경 간 전자상거래, 물류 및 디지털 서비스를 위한 원활한 플랫폼을 구축하고, 중소기업(SME)이 더욱 효율적이고 접근하기 쉬운 무역 환경을 조성하는 것을 목표로 합니다.",
+      "새롭게 설립된 허브는 양국 시장으로 진출하려는 기업들의 무역 장벽과 운영 비용을 크게 줄일 것으로 예상됩니다. 필리핀에서 사업을 운영하는 한국 기업들은 한국 또는 다른 아세안 시장으로 제품을 수출하기가 더 쉬워질 것이며, 필리핀 기업들은 매우 경쟁적인 한국 소비자층에 전례 없는 접근성을 얻게 됩니다. 전문가들은 첫 해에 양국 간 디지털 무역량이 초기 15% 증가하여 양국의 팬데믹 이후 경제 회복과 디지털 전환 의제에 크게 기여할 것으로 예측합니다.",
+      "즉각적인 경제적 영향 외에도, 이 디지털 무역 허브는 필리핀과 한국 간의 전략적 파트너십 심화를 상징합니다. 이는 더 큰 기술 협력을 촉진하고 지식 이전을 장려하며 디지털 부문에서 수많은 일자리를 창출할 것으로 예상됩니다. 양국 정부는 이 이니셔티브가 미래 지역 경제 협력의 모델이 되어, 필리핀 내 한인 커뮤니티와 더 넓은 아세안 지역의 디지털 포괄적이고 번영하는 미래에 대한 그들의 약속을 공고히 할 것이라는 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-08-09",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine President Marcos Jr. and Korean Minister Ahn Duk-geun at the Digital Trade Hub inauguration (Aug. 9, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "New Joint Task Force to Enhance Safety for Korean Tourists",
+    "headline_kr": "한인 관광객 안전 강화를 위한 새로운 합동 태스크포스 출범",
+    "lead_en": "Philippine National Police (PNP) and Korean Embassy officials announced a new collaborative task force aimed at bolstering security measures and rapid response for Korean nationals visiting and residing in popular tourist destinations across the Philippines. This initiative follows recent consultations addressing community concerns regarding safety and crime prevention.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 대사관 관계자들이 필리핀 주요 관광지를 방문하거나 거주하는 한국인들의 보안 조치 및 신속 대응을 강화하기 위한 새로운 합동 태스크포스 출범을 발표했습니다. 이번 이니셔티브는 안전 및 범죄 예방에 대한 지역 사회의 우려를 해결하기 위한 최근 협의에 따른 것입니다.",
+    "image_seed": "feat-2026-08-09",
+    "image_query": "Philippine police and Korean embassy personnel meeting",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eyeing Renewable Energy Projects in Visayas",
+      "headline_kr": "한국 투자자들, 비사야스 지역 신재생에너지 프로젝트에 관심",
+      "summary_en": "Several prominent Korean energy firms are exploring significant investments in solar and wind power projects across the Visayas region, aligning with the Philippines' ambitious green energy transition goals.",
+      "summary_kr": "여러 한국 유수 에너지 기업들이 필리핀의 야심찬 녹색 에너지 전환 목표에 맞춰 비사야스 지역 전반의 태양광 및 풍력 발전 프로젝트에 대한 상당한 투자를 모색하고 있습니다.",
+      "image_seed": "news1-2026-08-09",
+      "image_query": "Solar panels wind turbines Visayas landscape",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Food Festival, Showcasing Culinary Diversity",
+      "headline_kr": "마닐라, 성공적인 K-푸드 페스티벌 개최, 요리 다양성 선보여",
+      "summary_en": "Thousands attended the annual K-Food Festival in Manila this weekend, celebrating the rich flavors of Korean cuisine and fostering cultural understanding through various culinary demonstrations and tastings.",
+      "summary_kr": "이번 주말 마닐라에서 열린 연례 K-푸드 페스티벌에 수천 명이 참석하여 풍부한 한국 음식의 맛을 기념하고 다양한 요리 시연 및 시식을 통해 문화적 이해를 증진했습니다.",
+      "image_seed": "news2-2026-08-09",
+      "image_query": "People enjoying Korean food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Expand Educational Exchange Programs for Students",
+      "headline_kr": "필리핀, 한국 학생 교환 프로그램 확대",
+      "summary_en": "New scholarships and university partnerships announced this week aim to foster academic collaboration and cultural understanding, offering more opportunities for students from both nations to study abroad.",
+      "summary_kr": "이번 주 발표된 새로운 장학금 및 대학 파트너십은 학술 협력과 문화 이해를 증진하고, 양국 학생들이 해외에서 공부할 수 있는 더 많은 기회를 제공하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-08-09",
+      "image_query": "Korean Philippine students university campus books",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Reminded of Online Scams Amid Rising Incidents",
+      "headline_kr": "급증하는 온라인 사기 사건 속 한인 커뮤니티 주의 당부",
+      "summary_en": "The Korean Embassy in Manila has issued a new advisory, urging nationals to be extra vigilant against sophisticated online fraud schemes targeting expats, following a recent uptick in reported cases.",
+      "summary_kr": "마닐라 주재 한국 대사관은 최근 보고된 사례 증가에 따라, 교민들을 대상으로 하는 정교한 온라인 사기 수법에 대해 각별한 주의를 기울일 것을 당부하는 새로운 권고를 발표했습니다.",
+      "image_seed": "news4-2026-08-09",
+      "image_query": "Person looking at phone scam alert warning",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Facilitate",
+    "pronunciation": "/fəˈsɪlɪteɪt/",
+    "type": "verb",
+    "definition_en": "To make an action or process easy or easier.",
+    "definition_kr": "(어떤 일을) 용이하게 하다; 촉진하다.",
+    "example_en": "The new digital trade hub will facilitate smoother transactions between Korean and Philippine businesses.",
+    "example_kr": "새로운 디지털 무역 허브는 한국과 필리핀 기업 간의 거래를 더욱 원활하게 촉진할 것입니다.",
+    "grade": "A+"
+  }
+}
