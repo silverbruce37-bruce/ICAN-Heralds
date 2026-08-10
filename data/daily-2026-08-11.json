@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-11",
+  "header_date_line": "TUESDAY, AUGUST 11, 2026 | PHILIPPINES | VOL. 132",
+  "dashboard": {
+    "php_krw_rate": "23.38",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.11",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Unveil Landmark Smart City Project in Central Luzon",
+    "headline_kr": "필리핀-한국, 루손 중부 지역에 랜드마크 스마트시티 프로젝트 공개",
+    "subtitle_en": "A new era of sustainable urban development begins with a multi-billion dollar joint venture aimed at creating future-ready communities.",
+    "subtitle_kr": "수십억 달러 규모의 합작 투자로 미래 지향적 커뮤니티 조성을 목표로 하는 지속 가능한 도시 개발의 새 시대가 열립니다.",
+    "body_en": [
+      "The Philippines and South Korea have officially launched a groundbreaking smart city development project in Central Luzon, marking a significant milestone in bilateral economic cooperation. The initiative, led by a consortium of prominent Korean and Philippine firms, aims to transform a vast area into a model of sustainable urban living, integrating advanced technology with eco-friendly infrastructure. Officials from both nations emphasized the project's potential to drive economic growth and enhance quality of life for residents.",
+      "The ambitious plan encompasses a wide range of innovations, including smart grids for energy efficiency, intelligent transportation systems, digital governance platforms, and state-of-the-art residential and commercial zones. Special attention will be given to green spaces, waste management solutions, and climate-resilient designs, ensuring the city's long-term environmental sustainability. This project is expected to create thousands of jobs, attracting further foreign investment and positioning the Philippines as a hub for smart urban development in ASEAN.",
+      "During the signing ceremony, representatives from the Philippine Department of Human Settlements and Urban Development and the Korean Ministry of Land, Infrastructure and Transport hailed the project as a testament to the strong partnership between the two countries. They expressed optimism that this collaborative effort would not only serve as a blueprint for future smart cities across the region but also deepen the cultural and economic ties between the Philippines and South Korea for decades to come."
+    ],
+    "body_kr": [
+      "필리핀과 한국이 루손 중부 지역에서 획기적인 스마트시티 개발 프로젝트를 공식 출범하며 양국 경제 협력의 중요한 이정표를 세웠습니다. 한국과 필리핀의 저명한 기업 컨소시엄이 주도하는 이 이니셔티브는 광대한 지역을 지속 가능한 도시 생활의 모델로 탈바꿈시키고, 첨단 기술과 친환경 인프라를 통합하는 것을 목표로 합니다. 양국 관계자들은 이 프로젝트가 경제 성장을 견인하고 주민들의 삶의 질을 향상시킬 잠재력을 강조했습니다.",
+      "이 야심찬 계획은 에너지 효율을 위한 스마트 그리드, 지능형 교통 시스템, 디지털 거버넌스 플랫폼, 최첨단 주거 및 상업 지구를 포함한 광범위한 혁신을 포괄합니다. 녹지 공간, 폐기물 관리 솔루션, 기후 탄력적 설계에 특별한 주의를 기울여 도시의 장기적인 환경 지속 가능성을 보장할 것입니다. 이 프로젝트는 수천 개의 일자리를 창출하고 추가 외국인 투자를 유치하며 필리핀을 아세안 지역 스마트 도시 개발의 허브로 자리매김할 것으로 예상됩니다.",
+      "조인식에서 필리핀 주거 및 도시 개발부와 한국 국토교통부 대표들은 이 프로젝트가 양국 간의 강력한 파트너십을 증명하는 것이라고 극찬했습니다. 그들은 이 협력 노력이 이 지역의 미래 스마트시티를 위한 청사진 역할을 할 뿐만 아니라 앞으로 수십 년 동안 필리핀과 한국 간의 문화적, 경제적 유대를 심화시킬 것이라는 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-08-11",
+    "image_query": "Korean Philippine officials shaking hands signing smart city agreement blueprint",
+    "image_caption": "Photo: Philippine and Korean officials finalize the smart city development agreement (August 11, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Tourist Safety in Key Areas",
+    "headline_kr": "필리핀-한국 합동 경찰 순찰, 주요 지역 관광객 안전 강화",
+    "lead_en": "Philippine National Police and Korean National Police Agency have expanded their joint patrol operations in popular tourist destinations frequented by Koreans, aiming to deter crime and provide immediate assistance. This initiative comes amidst growing concerns over the safety of foreign visitors.",
+    "lead_kr": "필리핀 국가경찰과 한국 경찰청은 한국인 방문이 잦은 인기 관광지에서 합동 순찰 작전을 확대하여 범죄를 억제하고 즉각적인 지원을 제공하고 있습니다. 이번 조치는 외국인 방문객 안전에 대한 우려가 커지는 가운데 나왔습니다.",
+    "image_seed": "feat-2026-08-11",
+    "image_query": "Korean tourists police patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Pour Capital into Philippine Fintech Sector",
+      "headline_kr": "한국 투자자들, 필리핀 핀테크 부문에 자본 집중",
+      "summary_en": "Korean venture capital firms are increasingly targeting the burgeoning fintech landscape in the Philippines, drawn by its young, tech-savvy population and growing digital adoption rates. This surge in investment is expected to foster innovation and create new job opportunities.",
+      "summary_kr": "한국 벤처 캐피탈 기업들이 젊고 기술에 능숙한 인구와 증가하는 디지털 채택률에 힘입어 필리핀의 급성장하는 핀테크 시장을 점점 더 많이 목표로 삼고 있습니다. 이러한 투자 증가는 혁신을 촉진하고 새로운 일자리를 창출할 것으로 예상됩니다.",
+      "image_seed": "news1-2026-08-11",
+      "image_query": "Korean investor Philippine fintech startup handshake",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop in Manila Attracts Hundreds of Enthusiasts",
+      "headline_kr": "마닐라 K-POP 댄스 워크숍, 수백 명의 열성 팬 모여",
+      "summary_en": "A highly anticipated K-Pop dance workshop, featuring renowned Korean choreographers, took place over the weekend in Manila, drawing hundreds of Filipino fans eager to learn the latest moves. The event underscored the enduring popularity of Hallyu in the Philippines.",
+      "summary_kr": "유명 한국 안무가들이 참여한 높은 기대의 K-POP 댄스 워크숍이 지난 주말 마닐라에서 열려, 최신 춤 동작을 배우려는 수백 명의 필리핀 팬들을 끌어모았습니다. 이 행사는 필리핀에서 한류의 지속적인 인기를 강조했습니다.",
+      "image_seed": "news2-2026-08-11",
+      "image_query": "Filipino youth K-Pop dance workshop",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Hold High-Level Maritime Security Dialogue",
+      "headline_kr": "필리핀-한국, 고위급 해양 안보 대화 개최",
+      "summary_en": "Top defense and security officials from the Philippines and South Korea convened for their annual maritime security dialogue, discussing regional challenges, joint training exercises, and enhanced cooperation in safeguarding vital sea lanes. The meeting reaffirmed their strategic partnership.",
+      "summary_kr": "필리핀과 한국의 최고 국방 및 안보 관계자들이 연례 해양 안보 대화를 위해 모여, 지역적 도전 과제, 합동 훈련, 그리고 핵심 해상 교통로 보호를 위한 강화된 협력을 논의했습니다. 이번 회의는 양국의 전략적 파트너십을 재확인했습니다.",
+      "image_seed": "news3-2026-08-11",
+      "image_query": "Philippine Korean naval officers meeting map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Typhoon Season Safety Advisory",
+      "headline_kr": "주필리핀 한국 대사관, 태풍 시즌 안전 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has released a comprehensive safety advisory for its nationals, urging heightened vigilance and preparation as the typhoon season intensifies. The advisory includes emergency contact information and tips for disaster readiness.",
+      "summary_kr": "주필리핀 한국 대사관은 태풍 시즌이 심화됨에 따라 교민들에게 경각심을 높이고 대비할 것을 촉구하는 포괄적인 안전 주의보를 발표했습니다. 주의보에는 비상 연락처 정보와 재난 대비 요령이 포함되어 있습니다.",
+      "image_seed": "news4-2026-08-11",
+      "image_query": "Korean embassy typhoon advisory sign rain",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnər.dʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The smart city project aims to achieve synergy between advanced Korean technology and Philippine local expertise.",
+    "example_kr": "스마트시티 프로젝트는 한국의 첨단 기술과 필리핀의 현지 전문성 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

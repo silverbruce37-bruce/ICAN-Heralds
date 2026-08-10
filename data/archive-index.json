@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-11",
+    "vol": 132,
+    "cover_en": "PH-Korea Unveil Landmark Smart City Project in Central Luzon",
+    "cover_kr": "필리핀-한국, 루손 중부 지역에 랜드마크 스마트시티 프로젝트 공개",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Boost Tourist Safety in Key Areas",
+      "Korean Investors Pour Capital into Philippine Fintech Sector",
+      "K-Pop Dance Workshop in Manila Attracts Hundreds of Enthusiasts",
+      "Philippines, Korea Hold High-Level Maritime Security Dialogue",
+      "Korean Embassy Issues Typhoon Season Safety Advisory"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 순찰, 주요 지역 관광객 안전 강화",
+      "한국 투자자들, 필리핀 핀테크 부문에 자본 집중",
+      "마닐라 K-POP 댄스 워크숍, 수백 명의 열성 팬 모여",
+      "필리핀-한국, 고위급 해양 안보 대화 개최",
+      "주필리핀 한국 대사관, 태풍 시즌 안전 주의보 발령"
+    ],
+    "tags": [
+      "Economy",
+      "Cooperation",
+      "Culture",
+      "Safety",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-08-10",
     "vol": 131,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Agreement",
