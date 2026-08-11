@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-12",
+    "vol": 133,
+    "cover_en": "PH-Korea Launch Landmark Smart City Initiative for Sustainable Growth",
+    "cover_kr": "한-필, 지속 가능한 성장을 위한 랜드마크 스마트시티 이니셔티브 출범",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Boost Tourist Safety in Makati",
+      "Korean Agri-Tech Investments Surge in Mindanao",
+      "K-Food Festival Draws Record Crowds in Cebu",
+      "PH-Korea Discuss Joint Disaster Response Training",
+      "New Traffic Ordinance in Quezon City Affects Commuters"
+    ],
+    "headlines_kr": [
+      "한-필 합동 경찰 순찰, 마카티 관광객 안전 강화",
+      "민다나오, 한국 농업 기술 투자 급증",
+      "세부 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "한-필, 합동 재난 대응 훈련 논의",
+      "퀘존 시 신규 교통 조례, 통근자들에게 영향"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Cooperation",
+      "Culture",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-08-11",
     "vol": 132,
     "cover_en": "PH-Korea Unveil Landmark Smart City Project in Central Luzon",

@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-12",
+  "header_date_line": "WEDNESDAY, AUGUST 12, 2026 | PHILIPPINES | VOL. 133",
+  "dashboard": {
+    "php_krw_rate": "23.09",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Smart City Initiative for Sustainable Growth",
+    "headline_kr": "한-필, 지속 가능한 성장을 위한 랜드마크 스마트시티 이니셔티브 출범",
+    "subtitle_en": "The ambitious 'Future Cities 2030' project aims to integrate advanced digital infrastructure and green technologies into urban development, fostering innovation and enhancing quality of life across key Philippine cities. This collaboration signifies a new era of bilateral cooperation.",
+    "subtitle_kr": "야심찬 '미래 도시 2030' 프로젝트는 첨단 디지털 인프라와 친환경 기술을 도시 개발에 통합하여 혁신을 촉진하고 필리핀 주요 도시의 삶의 질을 향상시키는 것을 목표로 합니다. 이번 협력은 양국 관계의 새로운 시대를 예고합니다.",
+    "body_en": [
+      "Philippine President and South Korean Minister of Trade officially inaugurated the \"Future Cities 2030\" initiative in Manila today. This multi-billion dollar project, backed by both governments and private sector investment, will focus on developing smart infrastructure, renewable energy solutions, and advanced digital connectivity in selected urban centers, starting with a pilot project in Clark.",
+      "The initiative is expected to create thousands of jobs, attract further foreign direct investment, and significantly improve urban efficiency and environmental sustainability. For the Korean community in the Philippines, this means new business opportunities in tech, construction, and urban planning, as well as an improved living environment and access to advanced public services.",
+      "Experts believe \"Future Cities 2030\" will serve as a model for ASEAN regional development, showcasing the potential of international collaboration in tackling urbanization challenges. Both nations expressed commitment to long-term partnership, with plans for technology transfer and capacity building programs to ensure the project's success and scalability."
+    ],
+    "body_kr": [
+      "필리핀 대통령과 한국 산업통상자원부 장관은 오늘 마닐라에서 \"미래 도시 2030\" 이니셔티브를 공식 출범시켰습니다. 양국 정부와 민간 부문의 수십억 달러 투자를 기반으로 하는 이 야심찬 프로젝트는 클라크 시범 사업을 시작으로, 선정된 도시 중심지에 스마트 인프라, 재생 에너지 솔루션 및 첨단 디지털 연결성을 개발하는 데 중점을 둘 것입니다.",
+      "이 이니셔티브는 수천 개의 일자리를 창출하고 추가적인 해외 직접 투자를 유치하며 도시 효율성과 환경 지속 가능성을 크게 향상시킬 것으로 기대됩니다. 필리핀 내 한인 커뮤니티에게는 기술, 건설 및 도시 계획 분야에서 새로운 사업 기회는 물론, 개선된 생활 환경과 첨단 공공 서비스에 대한 접근성을 의미합니다.",
+      "전문가들은 \"미래 도시 2030\"이 도시화 문제 해결을 위한 국제 협력의 잠재력을 보여주며 아세안 지역 개발의 모델이 될 것이라고 평가합니다. 양국은 프로젝트의 성공과 확장성을 보장하기 위한 기술 이전 및 역량 강화 프로그램 계획과 함께 장기적인 파트너십에 대한 약속을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-08-12",
+    "image_query": "Philippine Korean officials shaking hands signing smart city agreement, digital blueprint background",
+    "image_caption": "Photo: Philippine President and South Korean Minister of Trade at the 'Future Cities 2030' launch (2026.08.12)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Tourist Safety in Makati",
+    "headline_kr": "한-필 합동 경찰 순찰, 마카티 관광객 안전 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) representatives announced an expansion of their joint patrol program in key tourist and business districts of Metro Manila, particularly Makati. This initiative aims to provide a safer environment for Korean residents and visitors, deterring crime and offering immediate assistance.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 대표들은 메트로 마닐라, 특히 마카티의 주요 관광 및 비즈니스 지구에서 합동 순찰 프로그램을 확대한다고 발표했습니다. 이 이니셔티브는 한인 거주민과 방문객에게 더 안전한 환경을 제공하고 범죄를 예방하며 즉각적인 지원을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-08-12",
+    "image_query": "Korean Philippine police officers patrolling busy Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Agri-Tech Investments Surge in Mindanao",
+      "headline_kr": "민다나오, 한국 농업 기술 투자 급증",
+      "summary_en": "South Korean agricultural technology firms are increasingly investing in Mindanao, bringing advanced farming techniques and sustainable practices. This surge is boosting local economies and improving food security in the southern Philippines.",
+      "summary_kr": "한국 농업 기술 기업들이 민다나오에 대한 투자를 늘리며 첨단 농업 기술과 지속 가능한 농업 방식을 도입하고 있습니다. 이러한 투자는 필리핀 남부 지역 경제를 활성화하고 식량 안보를 개선하는 데 기여하고 있습니다.",
+      "image_seed": "news1-2026-08-12",
+      "image_query": "Korean agricultural experts inspecting crops Mindanao farm",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Cebu",
+      "headline_kr": "세부 K-푸드 페스티벌, 역대 최대 인파 기록",
+      "summary_en": "The annual K-Food Festival in Cebu concluded with unprecedented attendance, showcasing diverse Korean culinary delights and cultural performances. The event further cemented K-culture's growing popularity in the Visayas region.",
+      "summary_kr": "세부에서 열린 연례 K-푸드 페스티벌이 전례 없는 인파를 모으며 다양한 한국 요리와 문화 공연을 선보였습니다. 이번 행사는 비사야 지역에서 K-문화의 인기를 더욱 확고히 했습니다.",
+      "image_seed": "news2-2026-08-12",
+      "image_query": "Crowded K-Food festival Cebu, people enjoying food",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Discuss Joint Disaster Response Training",
+      "headline_kr": "한-필, 합동 재난 대응 훈련 논의",
+      "summary_en": "Officials from the Philippines and South Korea met to discuss expanding joint training programs for disaster preparedness and response. The initiative aims to leverage Korean expertise in disaster management to bolster Philippine resilience.",
+      "summary_kr": "필리핀과 한국 관계자들이 재난 대비 및 대응을 위한 합동 훈련 프로그램 확대를 논의했습니다. 이 이니셔티브는 한국의 재난 관리 전문 지식을 활용하여 필리핀의 회복력을 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-08-12",
+      "image_query": "Philippine Korean officials discussing disaster relief map",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "New Traffic Ordinance in Quezon City Affects Commuters",
+      "headline_kr": "퀘존 시 신규 교통 조례, 통근자들에게 영향",
+      "summary_en": "Quezon City has implemented a new traffic ordinance aimed at easing congestion, particularly around major commercial hubs. Korean residents are advised to review the new rules to avoid penalties and plan commutes accordingly.",
+      "summary_kr": "퀘존 시가 주요 상업 중심지 주변의 혼잡을 완화하기 위한 새로운 교통 조례를 시행했습니다. 한인 거주민들은 벌금을 피하고 통근 계획을 적절히 세우기 위해 새로운 규칙을 숙지할 것을 권고합니다.",
+      "image_seed": "news4-2026-08-12",
+      "image_query": "Busy Quezon City intersection traffic, new road signs",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "definition_kr": "어떤 사건이나 변화를 촉진하는 사람이나 사물; 화학 반응의 속도를 높이지만 그 자신은 영구적인 화학적 변화를 겪지 않는 물질.",
+    "example_en": "The new smart city initiative is expected to be a major catalyst for economic development in the region.",
+    "example_kr": "새로운 스마트시티 이니셔티브는 이 지역의 경제 발전에 주요 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
