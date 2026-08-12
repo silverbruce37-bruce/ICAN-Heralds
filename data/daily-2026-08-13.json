@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-13",
+  "header_date_line": "THURSDAY, AUGUST 13, 2026 | PHILIPPINES | VOL. 134",
+  "dashboard": {
+    "php_krw_rate": "23.19",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Ink Landmark Digital Infrastructure Pact",
+    "headline_kr": "한-필리핀, 획기적인 디지털 인프라 협정 체결",
+    "subtitle_en": "The agreement aims to bolster the Philippines' digital economy, creating new opportunities for Korean tech firms and fostering robust bilateral cooperation in the era of advanced technology.",
+    "subtitle_kr": "이번 협정은 필리핀의 디지털 경제를 강화하고 한국 기술 기업에 새로운 기회를 제공하며, 첨단 기술 시대에 양국 간의 강력한 협력을 증진하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards a digitally empowered future, South Korea and the Philippines officially signed a landmark agreement yesterday to collaborate on digital infrastructure development. The pact, ratified by high-ranking officials from both nations, focuses on enhancing broadband connectivity, developing smart city solutions, and strengthening cybersecurity frameworks across the archipelago. This strategic partnership is expected to accelerate the Philippines' digital transformation agenda, bringing cutting-edge Korean technology and expertise to critical sectors.",
+      "The comprehensive agreement outlines several key initiatives, including joint research and development projects, technology transfer programs, and capacity-building workshops for Filipino IT professionals. For the Korean community in the Philippines, this means potential new business ventures for Korean tech companies, increased demand for skilled Korean IT workers, and an overall improvement in digital services and connectivity that will benefit both residents and businesses. The collaboration is poised to create a vibrant ecosystem for innovation and entrepreneurship, fostering economic growth and job creation.",
+      "Officials from both sides expressed optimism about the long-term impact of the agreement, highlighting its potential to set a new benchmark for bilateral cooperation in the digital age. This partnership is not only about technological advancement but also about strengthening the bond between Korea and the Philippines, ensuring shared prosperity and resilience in an increasingly interconnected world. Future discussions are anticipated to explore expanding this collaboration into areas like artificial intelligence and data analytics, further cementing the two nations' commitment to a technologically advanced future."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 역량을 강화하는 미래를 향한 중대한 발걸음으로, 대한민국과 필리핀은 어제 디지털 인프라 개발 협력을 위한 획기적인 협정을 공식적으로 체결했습니다. 양국 고위 관계자들이 비준한 이 협정은 필리핀 전역의 광대역 연결성을 강화하고 스마트 도시 솔루션을 개발하며 사이버 보안 프레임워크를 강화하는 데 중점을 둡니다. 이 전략적 파트너십은 필리핀의 디지털 전환 의제를 가속화하고 한국의 최첨단 기술과 전문 지식을 핵심 부문에 가져올 것으로 기대됩니다.",
+      "이 포괄적인 협정은 공동 연구 개발 프로젝트, 기술 이전 프로그램, 필리핀 IT 전문가를 위한 역량 강화 워크숍 등 여러 주요 이니셔티브를 포함합니다. 필리핀 한인 사회에게 이는 한국 기술 기업을 위한 잠재적인 새로운 사업 기회, 숙련된 한국 IT 인력에 대한 수요 증가, 그리고 거주민과 기업 모두에게 혜택을 줄 디지털 서비스 및 연결성의 전반적인 개선을 의미합니다. 이 협력은 혁신과 기업가 정신을 위한 활기찬 생태계를 조성하여 경제 성장과 일자리 창출을 촉진할 것입니다.",
+      "양측 관계자들은 이번 협정의 장기적인 영향에 대해 낙관적인 입장을 표명하며, 디지털 시대 양국 협력의 새로운 기준을 세울 잠재력을 강조했습니다. 이 파트너십은 기술 발전뿐만 아니라 한국과 필리핀 간의 유대를 강화하고, 점점 더 상호 연결되는 세상에서 공동의 번영과 회복력을 보장하는 데 의미가 있습니다. 인공지능 및 데이터 분석과 같은 분야로 협력을 확대하기 위한 향후 논의가 예상되며, 이는 기술적으로 진보된 미래에 대한 양국의 약속을 더욱 공고히 할 것입니다."
+    ],
+    "image_seed": "cover-2026-08-13",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Officials from Korea and the Philippines formalize a digital infrastructure agreement in Manila. (August 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Patrols Boost Safety for Korean Tourists in Popular Spots",
+    "headline_kr": "인기 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+    "lead_en": "Philippine National Police (PNP) and representatives from the Korean Embassy have announced enhanced joint security patrols across major tourist destinations popular with Korean visitors. This initiative follows recent consultations aimed at proactively addressing safety concerns and ensuring a secure environment for the growing influx of Korean travelers.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 주필리핀 한국대사관 관계자들은 한인 방문객이 많은 주요 관광지에서 합동 보안 순찰을 강화한다고 발표했습니다. 이번 조치는 최근 협의에 따른 것으로, 한인 여행객의 안전 우려를 사전에 해소하고 증가하는 방문객을 위한 안전한 환경을 보장하기 위함입니다.",
+    "image_seed": "feat-2026-08-13",
+    "image_query": "Korean Philippine police officers patrol tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Digital Trade Framework",
+      "headline_kr": "아세안 경제장관들, 디지털 무역 프레임워크 논의",
+      "summary_en": "ASEAN economic ministers convened in Jakarta to discuss a unified digital trade framework, aiming to streamline cross-border e-commerce and boost regional economic integration, with potential benefits for Korean businesses operating in the region.",
+      "summary_kr": "아세안 경제장관들이 자카르타에서 통일된 디지털 무역 프레임워크를 논의하기 위해 모였습니다. 이는 국경 간 전자상거래를 간소화하고 역내 경제 통합을 촉진하여, 역내 한국 기업들에게 잠재적인 이점을 제공할 것으로 기대됩니다.",
+      "image_seed": "news1-2026-08-13",
+      "image_query": "ASEAN economic ministers meeting digital trade",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Food Festival: A Culinary Delight",
+      "headline_kr": "마닐라에서 성대한 K-푸드 페스티벌 개최: 미식의 향연",
+      "summary_en": "The annual K-Food Festival kicked off in Manila, attracting thousands of food enthusiasts eager to sample traditional and modern Korean dishes. The event highlights the growing popularity of Korean cuisine and culture in the Philippines.",
+      "summary_kr": "연례 K-푸드 페스티벌이 마닐라에서 개막하여 전통 및 현대 한국 요리를 맛보려는 수천 명의 미식가들을 끌어모았습니다. 이 행사는 필리핀에서 한국 요리와 문화의 인기가 높아지고 있음을 보여줍니다.",
+      "image_seed": "news2-2026-08-13",
+      "image_query": "People enjoying K-food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Delegation Explores Renewable Energy Investment in Palawan",
+      "headline_kr": "한국 대표단, 팔라완 재생에너지 투자 기회 모색",
+      "summary_en": "A Korean business delegation visited Palawan to assess opportunities for investment in renewable energy projects, particularly solar and wind power. This move signifies Korea's commitment to supporting the Philippines' green energy transition.",
+      "summary_kr": "한국 경제 사절단이 팔라완을 방문하여 태양광 및 풍력 발전 프로젝트 등 재생에너지 투자 기회를 평가했습니다. 이는 필리핀의 녹색 에너지 전환을 지원하려는 한국의 의지를 보여줍니다.",
+      "image_seed": "news3-2026-08-13",
+      "image_query": "Korean delegates Palawan renewable energy discussion",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Travel Advisory for Typhoon Season Ahead",
+      "headline_kr": "대사관, 태풍 시즌 대비 여행 경보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a travel advisory urging residents and tourists to prepare for the upcoming typhoon season. It emphasizes monitoring local weather reports and having emergency plans in place for safety.",
+      "summary_kr": "주필리핀 한국대사관은 다가오는 태풍 시즌에 대비하여 거주민과 관광객들에게 준비를 촉구하는 여행 경보를 발령했습니다. 대사관은 지역 기상 보고서 모니터링과 안전을 위한 비상 계획 마련의 중요성을 강조했습니다.",
+      "image_seed": "news4-2026-08-13",
+      "image_query": "Typhoon warning sign Philippines rain",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Bolster",
+    "pronunciation": "/ˈboʊlstər/",
+    "type": "verb",
+    "definition_en": "To support or strengthen; to give a boost to.",
+    "definition_kr": "지지하거나 강화하다; 북돋아 주다.",
+    "example_en": "The new agreement will bolster economic ties between the two nations.",
+    "example_kr": "새로운 협정은 양국 간의 경제적 유대를 강화할 것입니다.",
+    "grade": "A+"
+  }
+}

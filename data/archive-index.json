@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-13",
+    "vol": 134,
+    "cover_en": "Korea-Philippines Ink Landmark Digital Infrastructure Pact",
+    "cover_kr": "한-필리핀, 획기적인 디지털 인프라 협정 체결",
+    "headlines_en": [
+      "Joint Patrols Boost Safety for Korean Tourists in Popular Spots",
+      "ASEAN Economic Ministers Discuss Digital Trade Framework",
+      "Manila Hosts Grand K-Food Festival: A Culinary Delight",
+      "Korean Delegation Explores Renewable Energy Investment in Palawan",
+      "Embassy Issues Travel Advisory for Typhoon Season Ahead"
+    ],
+    "headlines_kr": [
+      "인기 관광지 한인 관광객 안전 위한 합동 순찰 강화",
+      "아세안 경제장관들, 디지털 무역 프레임워크 논의",
+      "마닐라에서 성대한 K-푸드 페스티벌 개최: 미식의 향연",
+      "한국 대표단, 팔라완 재생에너지 투자 기회 모색",
+      "대사관, 태풍 시즌 대비 여행 경보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-08-12",
     "vol": 133,
     "cover_en": "PH-Korea Launch Landmark Smart City Initiative for Sustainable Growth",
