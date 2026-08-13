@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-14",
+    "vol": 135,
+    "cover_en": "Korea-PH Digital Partnership Unveils Smart City Initiative",
+    "cover_kr": "한-필리핀 디지털 파트너십, 스마트 도시 이니셔티브 발표",
+    "headlines_en": [
+      "New Joint Patrols Enhance Safety in Korean Enclaves Across Metro Manila",
+      "Korean Firms Eyeing Expanded Investment in ASEAN Green Energy Sector",
+      "Manila Hosts Grand K-Food Festival: A Taste of Korea's Culinary Heritage",
+      "PH, Korea Collaborate on Maritime Security Training in West Philippine Sea",
+      "Embassy Issues Travel Advisory for Upcoming Typhoon Season"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 밀집 지역에 새로운 합동 순찰 강화",
+      "한국 기업들, 아세안 녹색 에너지 부문 투자 확대 모색",
+      "마닐라에서 성대한 K-푸드 페스티벌 개최: 한국 미식 유산의 맛",
+      "필리핀, 한국과 서필리핀해 해양 안보 훈련 협력",
+      "대사관, 다가오는 태풍 시즌에 대한 여행 경보 발령"
+    ],
+    "tags": [
+      "Cooperation",
+      "Security",
+      "Safety",
+      "Culture",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-08-13",
     "vol": 134,
     "cover_en": "Korea-Philippines Ink Landmark Digital Infrastructure Pact",
