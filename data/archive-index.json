@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-15",
+    "vol": 136,
+    "cover_en": "Philippines, Korea Mark Gwangbokjeol with Renewed Partnership Pledge",
+    "cover_kr": "필리핀-한국, 광복절 맞아 파트너십 강화 다짐",
+    "headlines_en": [
+      "Enhanced Police Patrols Boost Safety for Korean Tourists, Residents",
+      "ASEAN Economic Ministers Discuss Digital Trade Integration",
+      "Manila Hosts Successful 'Taste of Korea' Food Festival",
+      "Korean Startups Eye Philippine Tech Market for Expansion",
+      "Korean Embassy Holds Emergency Preparedness Drill for Community"
+    ],
+    "headlines_kr": [
+      "강화된 경찰 순찰, 한인 관광객 및 거주민 안전 증진",
+      "아세안 경제 장관들, 디지털 무역 통합 논의",
+      "마닐라에서 성공적인 '한국의 맛' 음식 축제 개최",
+      "한국 스타트업들, 필리핀 기술 시장 진출 모색",
+      "주필리핀 한국대사관, 한인 사회 대상 비상 대비 훈련 실시"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-08-14",
     "vol": 135,
     "cover_en": "Korea-PH Digital Partnership Unveils Smart City Initiative",

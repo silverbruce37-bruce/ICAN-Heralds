@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-15",
+  "header_date_line": "SATURDAY, AUGUST 15, 2026 | PHILIPPINES | VOL. 136",
+  "dashboard": {
+    "php_krw_rate": "23.09",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.15",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Mark Gwangbokjeol with Renewed Partnership Pledge",
+    "headline_kr": "필리핀-한국, 광복절 맞아 파트너십 강화 다짐",
+    "subtitle_en": "Joint celebration underscores deepening diplomatic ties and commitment to regional stability and economic growth. Leaders emphasize shared values and future-oriented collaboration.",
+    "subtitle_kr": "공동 기념식은 심화되는 외교 관계와 역내 안정 및 경제 성장에 대한 약속을 강조했습니다. 양국 정상들은 공유된 가치와 미래 지향적 협력을 강조했습니다.",
+    "body_en": [
+      "On this significant Gwangbokjeol, Korea's Liberation Day, the Philippines and the Republic of Korea embarked on a joint commemoration, signaling a profound deepening of their bilateral relationship. High-ranking officials from both nations gathered in Manila for a series of events, including a solemn wreath-laying ceremony and a vibrant cultural exchange, to honor the historical struggles and celebrate the enduring friendship that has flourished over decades. The shared spirit of freedom and resilience resonated throughout the day's proceedings, setting a powerful tone for future collaborations.",
+      "Discussions between the Philippine Department of Foreign Affairs and the Korean Ministry of Foreign Affairs highlighted key areas for renewed cooperation, particularly in economic development, regional security, and cultural exchange. Both sides committed to exploring new avenues for investment, especially in sustainable infrastructure and digital innovation, aiming to foster mutual prosperity. Furthermore, enhanced security dialogues were initiated to address common challenges, reinforcing their shared commitment to peace and stability within the ASEAN region and beyond.",
+      "This strengthened partnership is expected to yield tangible benefits for the Korean community residing in the Philippines, promising improved services, greater cultural integration, and enhanced safety measures. Leaders emphasized the importance of people-to-people exchanges, ensuring that the growing number of Korean expatriates and tourists continue to thrive and contribute positively to Philippine society. The Gwangbokjeol commemoration served not just as a look back at history, but as a forward-looking declaration of a robust and dynamic alliance."
+    ],
+    "body_kr": [
+      "대한민국의 광복절인 오늘, 필리핀과 대한민국은 양국 관계의 심화를 알리는 공동 기념 행사를 시작했습니다. 양국 고위 관계자들이 마닐라에 모여 엄숙한 헌화식과 활기찬 문화 교류를 포함한 일련의 행사를 통해 수십 년간 꽃피운 역사적 투쟁과 변함없는 우정을 기렸습니다. 자유와 회복력에 대한 공동의 정신이 하루 종일 진행된 행사 전반에 울려 퍼졌으며, 미래 협력에 강력한 분위기를 조성했습니다.",
+      "필리핀 외교부와 한국 외교부 간의 논의에서는 특히 경제 개발, 지역 안보 및 문화 교류 분야에서 새로운 협력의 핵심 영역이 강조되었습니다. 양측은 상호 번영을 촉진하기 위해 지속 가능한 인프라와 디지털 혁신 분야를 중심으로 새로운 투자 기회를 모색하기로 약속했습니다. 또한, 공통 과제를 해결하기 위한 강화된 안보 대화가 시작되어 아세안 지역 및 그 너머의 평화와 안정에 대한 공동의 약속을 재확인했습니다.",
+      "이러한 강화된 파트너십은 필리핀에 거주하는 한인 사회에 실질적인 혜택을 가져올 것으로 기대되며, 개선된 서비스, 더 큰 문화 통합 및 강화된 안전 조치를 약속합니다. 양국 정상들은 인적 교류의 중요성을 강조하며, 증가하는 한인 교민과 관광객들이 계속해서 번성하고 필리핀 사회에 긍정적으로 기여할 수 있도록 보장했습니다. 광복절 기념식은 역사를 되돌아보는 것뿐만 아니라, 강력하고 역동적인 동맹의 미래 지향적인 선언 역할을 했습니다."
+    ],
+    "image_seed": "cover-2026-08-15",
+    "image_query": "Korean Philippine officials handshake signing agreement Gwangbokjeol celebration",
+    "image_caption": "Photo: Philippine and Korean officials exchange pleasantries during the Gwangbokjeol celebration in Manila (August 15, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Police Patrols Boost Safety for Korean Tourists, Residents",
+    "headline_kr": "강화된 경찰 순찰, 한인 관광객 및 거주민 안전 증진",
+    "lead_en": "Following recent incidents, Philippine National Police (PNP) has deployed additional units to key areas frequented by Korean nationals across Metro Manila and popular tourist destinations. This initiative aims to deter crime and provide a greater sense of security for the growing Korean community and visitors.",
+    "lead_kr": "최근 사건 발생 후, 필리핀 국립경찰(PNP)은 메트로 마닐라와 인기 관광지 내 한인 밀집 지역에 추가 병력을 배치했습니다. 이 조치는 증가하는 한인 커뮤니티와 방문객들에게 범죄 억제와 더 큰 안도감을 제공하기 위함입니다.",
+    "image_seed": "feat-2026-08-15",
+    "image_query": "Philippine police patrol Korean community streets Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Digital Trade Integration",
+      "headline_kr": "아세안 경제 장관들, 디지털 무역 통합 논의",
+      "summary_en": "ASEAN economic ministers convened to strategize on accelerating digital trade integration within the bloc, aiming to streamline cross-border e-commerce and boost regional economic resilience. Discussions focused on harmonizing regulations and infrastructure.",
+      "summary_kr": "아세안 경제 장관들이 역내 디지털 무역 통합 가속화를 위한 전략을 논의하기 위해 모여, 국경 간 전자상거래를 간소화하고 지역 경제 회복력을 강화하는 것을 목표로 했습니다. 규제 및 인프라 조화에 초점이 맞춰졌습니다.",
+      "image_seed": "news1-2026-08-15",
+      "image_query": "ASEAN economic ministers meeting conference table",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful 'Taste of Korea' Food Festival",
+      "headline_kr": "마닐라에서 성공적인 '한국의 맛' 음식 축제 개최",
+      "summary_en": "The annual 'Taste of Korea' food festival in Manila drew thousands, showcasing traditional Korean dishes, modern street food, and cooking demonstrations. The event further cemented K-food's popularity and cultural exchange in the Philippines.",
+      "summary_kr": "마닐라에서 열린 연례 '한국의 맛' 음식 축제에 수천 명이 방문하여 전통 한식, 현대 길거리 음식, 요리 시연을 선보였습니다. 이 행사는 필리핀에서 한식의 인기와 문화 교류를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-08-15",
+      "image_query": "Korean food festival Manila street stalls",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Startups Eye Philippine Tech Market for Expansion",
+      "headline_kr": "한국 스타트업들, 필리핀 기술 시장 진출 모색",
+      "summary_en": "A delegation of Korean tech startups visited Manila to explore investment opportunities and potential partnerships with local companies. Their focus includes AI, fintech, and sustainable technologies, aiming to leverage the Philippines' growing digital economy.",
+      "summary_kr": "한국 기술 스타트업 대표단이 마닐라를 방문하여 현지 기업과의 투자 기회 및 잠재적 파트너십을 모색했습니다. AI, 핀테크, 지속 가능한 기술에 중점을 두며 필리핀의 성장하는 디지털 경제를 활용하고자 합니다.",
+      "image_seed": "news3-2026-08-15",
+      "image_query": "Korean Philippine tech entrepreneurs discussing partnership",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Holds Emergency Preparedness Drill for Community",
+      "headline_kr": "주필리핀 한국대사관, 한인 사회 대상 비상 대비 훈련 실시",
+      "summary_en": "The Korean Embassy in Manila conducted a comprehensive emergency preparedness drill for its nationals, covering disaster response and crisis management protocols. The initiative aims to equip the community with vital knowledge and coordination skills for various emergencies.",
+      "summary_kr": "주필리핀 한국대사관은 자국민을 대상으로 재난 대응 및 위기 관리 프로토콜을 다루는 포괄적인 비상 대비 훈련을 실시했습니다. 이 이니셔티브는 다양한 비상 상황에 대비하여 한인 사회에 필수적인 지식과 조정 기술을 제공하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-08-15",
+      "image_query": "Korean embassy staff conducting emergency drill",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Commemoration",
+    "pronunciation": "/kəˌmɛməˈreɪʃən/",
+    "type": "noun",
+    "definition_en": "The act of remembering, honoring, or celebrating a person, event, or thing, especially with a ceremony or by creating a memorial.",
+    "definition_kr": "사람, 사건 또는 사물을 기억하고 기리거나 축하하는 행위, 특히 의식이나 기념물 건립을 통해.",
+    "example_en": "The joint ceremony was a powerful commemoration of the historical bonds between the Philippines and Korea.",
+    "example_kr": "공동 기념식은 필리핀과 한국 간의 역사적 유대를 강력하게 기념하는 행사였습니다.",
+    "grade": "A+"
+  }
+}
