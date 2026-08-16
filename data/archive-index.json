@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-17",
+    "vol": 138,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Trade Initiative",
+    "cover_kr": "한국-필리핀, 새로운 무역 협력으로 관계 강화",
+    "headlines_en": [
+      "Philippine-Korea Joint Security Drills Conducted Amid Rising Tensions",
+      "ASEAN Economy Gains Momentum with Korean Investment",
+      "K-pop Concert Draws Thousands in Manila",
+      "Korean Language Schools Expand in Philippine Cities",
+      "Community Safety Initiatives Boost Korean Resident Security"
+    ],
+    "headlines_kr": [
+      "긴장 고조 속 필리핀-한국 공동 방위 훈련 실시",
+      "한국 투자로 ASEAN 경제 성장 가속화",
+      "마닐라에서 K-팝 콘서트 열기",
+      "필리핀 도시들에서 한국어 학교 확대",
+      "한국인 거주 지역 안전 프로그램 강화"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Culture",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-08-16",
     "vol": 137,
     "cover_en": "Korea, Philippines Launch Landmark Digital Innovation Hub in Manila",
