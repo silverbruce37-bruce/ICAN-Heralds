@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-19",
+  "header_date_line": "WEDNESDAY, AUGUST 19, 2026 | PHILIPPINES | VOL. 140",
+  "dashboard": {
+    "php_krw_rate": "22.89",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
+    "headline_kr": "한국과 필리핀, 새 외교 이니셔티브로 우호 강화",
+    "subtitle_en": "Leaders from both nations discuss increased cooperation in trade, culture, and security during recent summit.",
+    "subtitle_kr": "양국 정상은 최근 정상회담에서 무역, 문화, 안보 분야 협력 강화를 논의했다.",
+    "body_en": [
+      "Korea and the Philippines have announced a series of new diplomatic initiatives aimed at deepening their bilateral relations. The recent summit held in Manila saw leaders exchanging views on expanding economic cooperation and cultural exchanges, reflecting a strong commitment to mutual growth.",
+      "One of the key agreements involves the establishment of a joint cultural center in Manila, which will promote Korean language and arts among Filipino youth. Additionally, both nations agreed to enhance military and security cooperation to ensure regional stability amidst growing geopolitical tensions.",
+      "Experts highlight that these efforts are part of a broader strategy to foster closer ties within ASEAN and to promote peace and prosperity across the region. The initiatives are expected to create numerous opportunities for businesses and cultural ambassadors from both countries."
+    ],
+    "body_kr": [
+      "한국과 필리핀은 양국 관계를 심화시키기 위한 일련의 외교적 이니셔티브를 발표했다. 마닐라에서 열린 최근 정상회담에서는 경제 협력 확대와 문화 교류에 대한 의견을 교환하며 상호 성장에 대한 강한 의지를 보여줬다.",
+      "주요 협약 중 하나는 마닐라에 한국 문화센터 설립으로, 필리핀 청소년에게 한국어와 문화를 알릴 계획이다. 또한, 양국은 지역 안보 강화를 위해 군사 및 안보 협력도 강화하기로 했다.",
+      "전문가들은 이러한 노력이 ASEAN 내에서의 긴밀한 관계 구축과 지역 평화·번영을 위한 전략의 일환이라고 평가한다. 이번 이니셔티브는 양국 기업과 문화교류단에게 다양한 기회를 제공할 것으로 기대된다."
+    ],
+    "image_seed": "cover-2026-08-19",
+    "image_query": "Korean Philippine leaders handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Philippine leaders shaking hands during diplomatic summit in Manila (August 19, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Enhances Security Measures Following Recent Threats",
+    "headline_kr": "최근 위협에 따른 필리핀, 보안 강화 조치 시행",
+    "lead_en": "The Philippine government has increased security protocols across key areas after receiving credible threats targeting public spaces.",
+    "lead_kr": "필리핀 정부는 공공장소를 대상으로 한 신뢰할 만한 위협 정보를 접한 후 보안 조치를 강화했다.",
+    "image_seed": "feat-2026-08-19",
+    "image_query": "Philippine police patrol urban street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Growth Accelerates in Q2",
+      "headline_kr": "ASEAN 경제 성장, 2분기 가속화",
+      "summary_en": "Regional economic indicators show a significant rebound, driven by increased trade and foreign investments.",
+      "summary_kr": "지역 경제 지표는 무역과 외국인 투자의 증가로 뚜렷한 회복세를 보이고 있다.",
+      "image_seed": "news1-2026-08-19",
+      "image_query": "ASEAN trade ships port economic growth",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Events Draw Crowds in Manila",
+      "headline_kr": "마닐라에서 열리는 K-문화 행사, 관람객 몰려",
+      "summary_en": "Major Korean cultural festivals attract thousands of fans, showcasing K-pop, K-drama, and traditional arts.",
+      "summary_kr": "주요 한국 문화 축제들이 수천 명의 팬들을 모으며 K팝, K드라마, 전통 예술을 선보이고 있다.",
+      "image_seed": "news2-2026-08-19",
+      "image_query": "K-pop concert crowd Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Joint Research Projects Expand",
+      "headline_kr": "한국과 필리핀, 공동 연구 프로젝트 확대",
+      "summary_en": "Research collaborations in science and technology are growing, focusing on sustainable energy and health innovations.",
+      "summary_kr": "과학기술 분야의 연구 협력이 늘고 있으며, 지속가능 에너지와 건강 혁신에 초점이 맞춰지고 있다.",
+      "image_seed": "news3-2026-08-19",
+      "image_query": "Scientists in lab collaboration Seoul Manila",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Safety Drills Conducted in Metro Manila",
+      "headline_kr": "메트로 마닐라에서 한인 커뮤니티 안전 훈련 실시",
+      "summary_en": "Korean residents participate in safety exercises to prepare for emergencies, promoting community resilience.",
+      "summary_kr": "한국인 거주자들이 비상사태 대비 안전 훈련에 참여하여 지역사회의 회복력을 높이고 있다.",
+      "image_seed": "news4-2026-08-19",
+      "image_query": "Korean community safety drill Metro Manila",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Diplomacy",
+    "pronunciation": "dɪˈploʊ.mə.si",
+    "type": "noun",
+    "definition_en": "The conduct by government officials of negotiations and other relations between nations.",
+    "definition_kr": "국가 간 정부 관계자들의 협상 및 기타 교섭 활동.",
+    "example_en": "Effective diplomacy is essential for maintaining peaceful international relations.",
+    "example_kr": "효과적인 외교는 평화로운 국제 관계 유지를 위해 필수적이다.",
+    "grade": "A+"
+  }
+}
