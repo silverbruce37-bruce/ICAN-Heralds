@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-20",
+    "vol": 141,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Bilateral Agreements",
+    "cover_kr": "한국과 필리핀, 새로운 양국 협약으로 관계 강화",
+    "headlines_en": [
+      "Philippines Enhances Safety Measures for Korean Residents",
+      "ASEAN Economy Shows Resilience Amid Global Market Fluctuations",
+      "K-Drama and K-Food Events Boost Cultural Ties in Manila",
+      "Korea and Philippines Collaborate on Sustainable Energy Projects",
+      "Korean Community in Cebu Reports No Incidents in Recent Week"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국인 거주자 안전 강화 조치 시행",
+      "전 세계 시장 변동 속 ASEAN 경제, 회복력 보여줘",
+      "K드라마와 K푸드 행사, 마닐라에서 문화 교류 활기",
+      "한국과 필리핀, 지속가능 에너지 프로젝트 협력",
+      "세부 한국인 커뮤니티, 최근 주 동안 사고 보고 없음"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Security",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "vol": 140,
     "cover_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
