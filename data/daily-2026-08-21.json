@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-21",
+  "header_date_line": "FRIDAY, AUGUST 21, 2026 | PHILIPPINES | VOL. 142",
+  "dashboard": {
+    "php_krw_rate": "22.61",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.21",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Economic Initiatives",
+    "headline_kr": "한국과 필리핀, 새로운 경제 협력 강화",
+    "subtitle_en": "Leaders from both nations announce collaborative projects to boost trade and investment during summit in Manila.",
+    "subtitle_kr": "양국 정상, 마닐라 정상회담에서 무역과 투자를 촉진하는 협력 프로젝트 발표",
+    "body_en": [
+      "During the recent summit in Manila, Korean and Philippine officials unveiled a series of new economic initiatives aimed at deepening bilateral trade and investment. The projects include joint ventures in technology, infrastructure development, and renewable energy sectors. This move signals a strong commitment to fostering economic growth and regional stability.",
+      "Both countries emphasized the importance of expanding cultural and business exchanges to attract more Korean tourists and investors to the Philippines. The agreements also focus on easing visa procedures and establishing dedicated trade zones, which are expected to boost economic activities and create new jobs.",
+      "Analysts predict that these initiatives will significantly enhance Korea-Philippines relations, opening up more opportunities for Filipino businesses and paving the way for a resilient regional economy. The partnership aligns with ASEAN's broader goals of economic integration and sustainable development."
+    ],
+    "body_kr": [
+      "최근 마닐라 정상회담에서 한국과 필리핀 정부는 양국 간 무역과 투자를 강화하기 위한 새로운 경제 협력 방안을 발표했다. 이번 프로젝트에는 첨단기술, 인프라 개발, 재생에너지 분야의 공동 벤처가 포함되어 있으며, 이는 지역 안정과 경제 성장에 대한 강한 의지를 보여준다.",
+      "양국은 문화와 비즈니스 교류 확대의 중요성을 강조하며, 한국인 관광객과 투자가 더 많이 유입될 수 있도록 비자 절차 간소화와 전용 무역 구역 설립을 추진한다. 이는 경제 활동 증대와 일자리 창출에 기여할 전망이다.",
+      "전문가들은 이러한 협력 방안이 한국과 필리핀 관계를 크게 강화할 것으로 예상하며, 필리핀 기업들에게 더 많은 기회를 제공하고 지역 경제의 지속 가능성에 기여할 것이라고 분석한다. 이 협력은 ASEAN의 경제 통합 목표와도 부합한다."
+    ],
+    "image_seed": "cover-2026-08-21",
+    "image_query": "Korean Philippine officials handshake trade agreement Manila",
+    "image_caption": "Photo: Korean and Philippine leaders shake hands during economic summit in Manila (2026.08.21)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Community in Philippines Reports No Incidents Amidst Rising Safety Concerns",
+    "headline_kr": "필리핀 내 한국인 커뮤니티, 안전 우려 속 무사히 신고",
+    "lead_en": "The Korean community in the Philippines reports stable safety conditions despite recent concerns about security in certain areas. Local authorities continue to monitor and improve safety measures.",
+    "lead_kr": "최근 일부 지역의 치안 우려에도 불구하고, 필리핀 내 한국인 커뮤니티는 안전 상태가 안정적임을 보고했다. 지역 당국은 안전 조치를 계속 강화하고 있다.",
+    "image_seed": "feat-2026-08-21",
+    "image_query": "Korean community patrol safety patrol Philippines",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economy Shows Resilience Amid Global Uncertainties",
+      "headline_kr": "글로벌 불확실성 속 ASEAN 경제 회복세 보여",
+      "summary_en": "ASEAN economies demonstrate strong growth despite global economic challenges, driven by intra-regional trade and new investment flows.",
+      "summary_kr": "아세안 경제는 내부 무역과 신규 투자 흐름으로 글로벌 경제 도전 속에서도 강한 성장세를 보이고 있다.",
+      "image_seed": "news1-2026-08-21",
+      "image_query": "ASEAN trade meeting officials discussing trade",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Festival Brings Korean Pop and Cuisine to Manila",
+      "headline_kr": "K-컬처 페스티벌, 마닐라서 한류 열기 뜨겁게",
+      "summary_en": "The annual K-Culture Festival features K-pop concerts, Korean food stalls, and cultural workshops, attracting thousands of fans and visitors.",
+      "summary_kr": "매년 열리는 K-컬처 페스티벌에서는 K-pop 콘서트, 한식 부스, 문화 체험이 진행되어 수천 명의 팬과 방문객을 끌어모으고 있다.",
+      "image_seed": "news2-2026-08-21",
+      "image_query": "K-pop concert fans Korean food stalls Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Educational Exchange Program Expands",
+      "headline_kr": "한국-필리핀 교육 교류 프로그램 확대",
+      "summary_en": "New scholarships and student exchange initiatives aim to strengthen academic ties and promote cultural understanding between the two nations.",
+      "summary_kr": "새로운 장학금과 학생 교류 프로그램은 양국 간의 학술적 유대와 문화 이해를 증진하는 것을 목표로 한다.",
+      "image_seed": "news3-2026-08-21",
+      "image_query": "Korean Philippine students exchange university campus",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Philippine Authorities Increase Patrols in Tourist Areas",
+      "headline_kr": "필리핀 당국, 관광지에 순찰 강화",
+      "summary_en": "To ensure tourist safety, local police have intensified patrols in popular destinations, with additional security measures implemented across major sites.",
+      "summary_kr": "관광객 안전을 위해, 지역 경찰은 인기 여행지에서 순찰을 강화하고 주요 장소에 보안 조치를 추가로 시행하고 있다.",
+      "image_seed": "news4-2026-08-21",
+      "image_query": "Philippine police patrol tourists security",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Resilience",
+    "pronunciation": "ri-zil-yuhns",
+    "type": "noun",
+    "definition_en": "The capacity to recover quickly from difficulties; toughness.",
+    "definition_kr": "어려움에서 빠르게 회복하는 능력; 강인함.",
+    "example_en": "The ASEAN economy demonstrates resilience despite global uncertainties.",
+    "example_kr": "아세안 경제는 글로벌 불확실성 속에서도 회복력을 보여줍니다.",
+    "grade": "A+"
+  }
+}
