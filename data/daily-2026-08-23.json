@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-23",
+  "header_date_line": "SUNDAY, AUGUST 23, 2026 | PHILIPPINES | VOL. 144",
+  "dashboard": {
+    "php_krw_rate": "22.51",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.23",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Diplomatic Ties Amid Cultural Exchange Boom",
+    "headline_kr": "한국과 필리핀, 문화 교류 확대로 외교 강화",
+    "subtitle_en": "Recent initiatives focus on economic cooperation, cultural programs, and community safety enhancements.",
+    "subtitle_kr": "최근 이니셔티브는 경제 협력, 문화 프로그램, 지역사회 안전 향상에 초점을 맞추고 있다.",
+    "body_en": [
+      "In a significant move to deepen bilateral relations, Korea and the Philippines announced new agreements aimed at boosting trade, cultural exchange, and educational collaborations. The Korean Embassy in Manila highlighted the importance of strengthening people-to-people ties through joint cultural festivals and language programs. These efforts are expected to foster greater mutual understanding and economic cooperation between the two nations.",
+      "Meanwhile, community safety remains a top priority as both countries work together to enhance security measures for Korean residents and tourists. Recent patrols and safety training sessions have been organized in major Filipino cities, ensuring a secure environment for Koreans living and visiting the Philippines. The diplomatic missions continue to collaborate on initiatives to prevent crime and promote safety awareness among expatriates.",
+      "On the cultural front, Korean pop culture continues to enjoy immense popularity in the Philippines, with K-dramas, K-pop concerts, and culinary festivals drawing large crowds. These cultural exchanges are not only promoting soft power but also strengthening economic ties through tourism and business opportunities. The joint efforts are seen as a testament to the growing friendship and strategic partnership between Korea and the Philippines."
+    ],
+    "body_kr": [
+      "한국과 필리핀은 무역, 문화 교류, 교육 협력을 강화하기 위한 새로운 협정을 발표하며 양국 관계를 심화시키는 중요한 조치를 취했다. 마닐라에 위치한 한국 대사관은 문화 축제와 언어 프로그램을 통한 민간 교류 강화의 중요성을 강조했다. 이러한 노력은 상호 이해와 경제 협력을 증진하는 데 기여할 것으로 기대된다.",
+      "한편, 지역사회 안전은 양국이 함께 추진하는 우선 과제로, 한국인 거주자와 관광객의 안전한 환경 조성을 위해 보안 조치와 안전 교육이 강화되고 있다. 주요 도시에서는 최근 순찰과 안전 캠페인들이 실시되어 범죄 예방과 안전 인식 제고에 힘쓰고 있다. 외교 기관들은 협력 강화를 위해 지속적으로 노력하고 있다.",
+      "문화 영역에서는 한국의 대중문화가 필리핀에서 큰 인기를 끌고 있으며, K-드라마, K-Pop 콘서트, 음식 축제 등이 많은 관객을 모으고 있다. 이러한 문화 교류는 소프트 파워 증진뿐만 아니라 관광과 비즈니스 기회의 확대를 가져오고 있다. 두 나라의 우호와 전략적 파트너십이 더욱 공고해지고 있음을 보여주는 사례다."
+    ],
+    "image_seed": "cover-2026-08-23",
+    "image_query": "Korean Philippine officials handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Filipino diplomats sign bilateral agreement during official ceremony in Manila (August 23, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Community Safety Initiatives Boost in Metro Manila",
+    "headline_kr": "메트로 마닐라 한국인 안전 강화 프로젝트",
+    "lead_en": "New safety programs for Koreans in Metro Manila aim to reduce crime and promote community well-being.",
+    "lead_kr": "메트로 마닐라 내 한국인 대상의 새로운 안전 프로그램이 범죄를 줄이고 지역사회의 복지를 증진하는 데 기여하고 있다.",
+    "image_seed": "feat-2026-08-23",
+    "image_query": "Korean community patrol security Metro Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economies Show Resilience Amid Global Uncertainties",
+      "headline_kr": "아세안 경제권, 글로벌 불확실성 속에서도 견고한 성장세",
+      "summary_en": "ASEAN countries continue to demonstrate economic resilience, with trade and investment flows steadily increasing.",
+      "summary_kr": "아세안 국가들은 무역과 투자가 꾸준히 증가하며 경제적 탄력성을 보여주고 있다.",
+      "image_seed": "news1-2026-08-23",
+      "image_query": "ASEAN trade conference Bangkok",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Festivals Draw Thousands in Manila",
+      "headline_kr": "마닐라에서 열리는 K-컬처 페스티벌, 수천 명 몰려",
+      "summary_en": "K-pop, Korean food, and traditional arts festivals attract large Filipino audiences, strengthening cultural ties.",
+      "summary_kr": "K-팝, 한국 음식, 전통 예술 축제가 많은 필리핀 관객을 끌어들여 문화적 유대감을 강화하고 있다.",
+      "image_seed": "news2-2026-08-23",
+      "image_query": "K-pop concert Manila crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Joint Economic Development Projects Expand",
+      "headline_kr": "한국-필리핀, 공동 경제 개발 프로젝트 확대",
+      "summary_en": "New collaborations focus on infrastructure, renewable energy, and technology transfer to boost growth.",
+      "summary_kr": "인프라, 재생 에너지, 기술 이전을 중심으로 신규 협력이 확대되어 성장 동력을 강화하고 있다.",
+      "image_seed": "news3-2026-08-23",
+      "image_query": "Korea Philippines infrastructure project collaboration",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Tourists Advised to Exercise Caution During Travel",
+      "headline_kr": "한국인 관광객, 여행 시 안전 유의 권고",
+      "summary_en": "Travel advisories recommend vigilance and awareness of local safety guidelines for Korean visitors in the Philippines.",
+      "summary_kr": "여행 권고사항은 한국인 방문객들이 필리핀 내 안전 수칙을 준수하며 주의를 기울일 것을 권고하고 있다.",
+      "image_seed": "news4-2026-08-23",
+      "image_query": "Korean tourists safety patrol Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Resilience",
+    "pronunciation": "ri-ZIL-yens",
+    "type": "noun",
+    "definition_en": "The capacity to recover quickly from difficulties; toughness.",
+    "definition_kr": "어려움에서 빠르게 회복하는 능력; 강인함.",
+    "example_en": "The ASEAN economies showed remarkable resilience despite global uncertainties.",
+    "example_kr": "아세안 경제권은 글로벌 불확실성 속에서도 놀라운 회복력을 보여주었다.",
+    "grade": "A+"
+  }
+}

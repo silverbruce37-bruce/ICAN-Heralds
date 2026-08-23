@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-23",
+    "vol": 144,
+    "cover_en": "Korea and Philippines Strengthen Diplomatic Ties Amid Cultural Exchange Boom",
+    "cover_kr": "한국과 필리핀, 문화 교류 확대로 외교 강화",
+    "headlines_en": [
+      "Korean Community Safety Initiatives Boost in Metro Manila",
+      "ASEAN Economies Show Resilience Amid Global Uncertainties",
+      "K-Culture Festivals Draw Thousands in Manila",
+      "Korea-Philippines Joint Economic Development Projects Expand",
+      "Korean Tourists Advised to Exercise Caution During Travel"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한국인 안전 강화 프로젝트",
+      "아세안 경제권, 글로벌 불확실성 속에서도 견고한 성장세",
+      "마닐라에서 열리는 K-컬처 페스티벌, 수천 명 몰려",
+      "한국-필리핀, 공동 경제 개발 프로젝트 확대",
+      "한국인 관광객, 여행 시 안전 유의 권고"
+    ],
+    "tags": [
+      "Security",
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-08-22",
     "vol": 143,
     "cover_en": "Korea and Philippines Strengthen Ties with New Economic and Cultural Initiatives",
