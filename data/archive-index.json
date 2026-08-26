@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-27",
+    "vol": 148,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
+    "cover_kr": "한국과 필리핀, 새 외교 협력으로 관계 강화",
+    "headlines_en": [
+      "Philippines Enhances Security Measures for Korean Community",
+      "ASEAN Economy Shows Resilience Amid Global Uncertainty",
+      "K-Culture Events Draw Crowds in Manila",
+      "Joint Maritime Exercises Boost Regional Security",
+      "Korean Community Safety Tips Released"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국인 안전 위한 보안 강화 조치 발표",
+      "전 세계 불확실성 속 ASEAN 경제 회복세 지속",
+      "마닐라에서 K-문화 축제 성황리에 개최",
+      "합동 해상 훈련으로 지역 안보 강화",
+      "한국인 대상 안전 수칙 안내 발표"
+    ],
+    "tags": [
+      "Security",
+      "Safety",
+      "Cooperation",
+      "Culture",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-08-26",
     "vol": 147,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Initiatives",
