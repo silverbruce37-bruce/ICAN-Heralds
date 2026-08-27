@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-28",
+  "header_date_line": "FRIDAY, AUGUST 28, 2026 | PHILIPPINES | VOL. 149",
+  "dashboard": {
+    "php_krw_rate": "22.35",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.28",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Bilateral Agreements",
+    "headline_kr": "한국-필리핀, 양국 협력 강화 위한 새 협정 체결",
+    "subtitle_en": "Leaders from both nations meet to discuss economic cooperation and regional security measures amid rising ASEAN influence.",
+    "subtitle_kr": "양국 정상, ASEAN 영향력 증대 속 경제 협력 및 지역 안보 논의 위해 만남",
+    "body_en": [
+      "In a significant diplomatic move, Korean and Filipino officials signed multiple bilateral agreements today aimed at boosting economic collaboration and regional security. The ceremonies took place in Manila, with President Kim and President Reyes emphasizing the importance of strengthening their partnership amidst growing regional challenges.",
+      "The agreements include frameworks for increased trade, technological cooperation, and joint efforts in combating maritime security threats. Experts believe that these steps will not only deepen economic ties but also enhance stability in Southeast Asia, reaffirming Korea's commitment to regional development.",
+      "Local businesses and communities are expected to benefit from these developments, with new investments and infrastructure projects projected to create jobs and foster cultural exchange programs. The partnership reflects a shared vision for a peaceful and prosperous ASEAN region."
+    ],
+    "body_kr": [
+      "오늘 한국과 필리핀 정부는 경제 협력과 지역 안보 강화를 목적으로 한 여러 양자 협정을 체결하였다. 마닐라에서 열린 이 행사에는 김 대통령과 레예스 대통령이 참석하여, 지역의 도전 과제 속에서 양국 관계 강화의 중요성을 강조하였다.",
+      "이번 협정에는 무역 확대, 기술 협력, 해양 안보 공동 대응 방안이 포함되어 있으며, 전문가들은 이러한 조치가 경제적 유대뿐만 아니라 동남아시아의 안정성을 높일 것이라고 기대하고 있다. 이는 한국이 지역 발전에 헌신하는 모습을 보여주는 계기이다.",
+      "이번 협력은 지역사회와 기업들에게도 긍정적인 영향을 미칠 전망으로, 신규 투자와 인프라 프로젝트를 통해 일자리 창출과 문화 교류가 촉진될 것으로 보인다. 양국의 파트너십은 평화롭고 번영하는 ASEAN 미래를 위한 공동 비전을 반영한다."
+    ],
+    "image_seed": "cover-2026-08-28",
+    "image_query": "Korean Filipino leaders handshake signing agreement Manila",
+    "image_caption": "Photo: Leaders from Korea and the Philippines sign bilateral agreements during summit in Manila (August 28, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Enhances Maritime Security with Korean Support",
+    "headline_kr": "필리핀, 한국 지원으로 해양 안보 강화",
+    "lead_en": "The Philippines has announced new joint patrol initiatives with South Korea to safeguard vital maritime routes amid rising regional tensions.",
+    "lead_kr": "필리핀은 지역 긴장 고조 속에서 해양 경로 보호를 위해 한국과의 합동 순찰 계획을 발표하였다.",
+    "image_seed": "feat-2026-08-28",
+    "image_query": "Korean Filipino naval ships patrol maritime route",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economy Shows Signs of Recovery",
+      "headline_kr": "ASEAN 경제, 회복 조짐 보여",
+      "summary_en": "Regional economic data indicates steady growth, with increased foreign investments from Korea and neighboring countries.",
+      "summary_kr": "지역 경제 지표가 꾸준한 성장세를 보이고 있으며, 한국 및 인근 국가들의 외국인 투자가 늘어나고 있다.",
+      "image_seed": "news1-2026-08-28",
+      "image_query": "ASEAN map with trade arrows and trade port",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Festival Attracts Thousands in Manila",
+      "headline_kr": "한국 문화 페스티벌, 마닐라서 성황리 개최",
+      "summary_en": "The annual event showcased K-pop, K-food, and traditional Korean arts, drawing large crowds from the Filipino community.",
+      "summary_kr": "이 연례 행사에는 케이팝, K-음식, 한국 전통 예술이 소개되어 많은 필리핀인 관객이 몰렸다.",
+      "image_seed": "news2-2026-08-28",
+      "image_query": "K-pop dance performance at festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Launch New Education Partnership",
+      "headline_kr": "한국과 필리핀, 새로운 교육 협력 프로그램 시작",
+      "summary_en": "Both countries have agreed to exchange students and collaborate on academic research to foster mutual understanding.",
+      "summary_kr": "양국은 학생 교환과 공동 연구를 통해 상호 이해 증진을 목표로 하는 새로운 교육 협력 프로그램을 시작하였다.",
+      "image_seed": "news3-2026-08-28",
+      "image_query": "Students from Korea and Philippines in classroom exchange",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Safety Campaigns Receive Government Support",
+      "headline_kr": "지역 안전 캠페인, 정부 지원 확대",
+      "summary_en": "Initiatives focusing on youth and migrant safety are gaining momentum with increased police and community involvement.",
+      "summary_kr": "청소년과 이주민 안전 강화를 위한 캠페인들이 경찰과 지역사회 참여로 활기를 띠고 있다.",
+      "image_seed": "news4-2026-08-28",
+      "image_query": "Community police patrol safety campaign Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Partnership",
+    "pronunciation": "ˈpɑːrtnərʃɪp",
+    "type": "noun",
+    "definition_en": "A formal arrangement between two or more parties to work together towards common goals.",
+    "definition_kr": "공통의 목표를 위해 두 개 이상 당사자가 협력하기 위한 공식적인 약속 또는 협약.",
+    "example_en": "The partnership between Korea and the Philippines has led to numerous economic and cultural collaborations.",
+    "example_kr": "한국과 필리핀 간의 파트너십은 수많은 경제 및 문화 협력을 이끌어냈다.",
+    "grade": "A+"
+  }
+}
