@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-30",
+  "header_date_line": "SUNDAY, AUGUST 30, 2026 | PHILIPPINES | VOL. 151",
+  "dashboard": {
+    "php_krw_rate": "22.18",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.30",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Bilateral Initiatives",
+    "headline_kr": "한국과 필리핀, 신뢰 구축 위한 양자 협력 강화",
+    "subtitle_en": "Leaders from both nations meet to discuss economic, cultural, and security collaborations amid regional challenges.",
+    "subtitle_kr": "양국 지도자들이 지역 도전 속에서 경제, 문화, 안보 협력 강화를 위해 회담을 가졌다.",
+    "body_en": [
+      "Korea and the Philippines have announced a series of new initiatives aimed at deepening their bilateral relationship. During the recent summit held in Manila, both leaders emphasized the importance of economic cooperation, cultural exchange, and regional security. The agreements include increased investments in Philippine infrastructure and expanded K-culture programs to boost tourism and people-to-people ties.",
+      "The partnership also addresses regional security concerns, with both nations reaffirming their commitment to maintaining stability in Southeast Asia. Defense officials from both countries discussed joint training exercises and intelligence sharing to counter transnational threats. Experts see this as a strategic move to strengthen regional resilience against evolving security challenges.",
+      "Cultural exchanges are expected to flourish further, with new Korean language centers opening across the Philippines and Filipino artists gaining more exposure in Korea. Both sides aim to foster mutual understanding and economic growth through these collaborations, reflecting a shared vision for a prosperous future."
+    ],
+    "body_kr": [
+      "한국과 필리핀은 양국 관계 강화를 위한 새로운 협력 방안을 발표했다. 마닐라에서 열린 정상회담에서 양국 지도자들은 경제 협력, 문화 교류, 지역 안보의 중요성을 강조하였다. 이번 협약에는 필리핀 인프라 투자 확대와 K-문화 프로그램 강화가 포함되어 있어 관광과 국민 간 교류를 촉진할 전망이다.",
+      "이 협력은 지역 안보 문제도 다루고 있으며, 양국은 동남아시아의 안정을 위해 공동군사훈련 및 정보 공유를 재확인했다. 전문가들은 이를 지역 내 역량 강화와 위기 대응 능력 향상의 전략적 조치로 평가하고 있다.",
+      "문화 교류도 활성화될 예정으로, 한국어 센터가 필리핀 전역에 새로 개설되고, 필리핀 예술가들이 한국 내에서 더 많은 활동을 할 수 있게 될 전망이다. 양국은 이러한 협력을 통해 상호 이해와 경제적 번영을 도모하고자 한다."
+    ],
+    "image_seed": "cover-2026-08-30",
+    "image_query": "Korean Philippine leaders handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Filipino leaders meet to sign bilateral agreements in Manila, August 2026",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Enhances Coastal Security with Korean Support",
+    "headline_kr": "필리핀, 한국 지원으로 해안 방어 강화",
+    "lead_en": "In response to rising maritime security threats, the Philippines has partnered with Korea to upgrade its coastal defense systems. The joint initiative aims to safeguard vital shipping lanes and prevent illegal activities.",
+    "lead_kr": "해상 안보 위협 증가에 대응하여, 필리핀은 한국과 협력해 해안 방어 시스템을 업그레이드한다. 이번 협력은 중요 항로 보호와 불법 활동 방지에 초점을 맞춘다.",
+    "image_seed": "feat-2026-08-30",
+    "image_query": "Korean military ships patrol Philippine coast security",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Growth Accelerates in Q2",
+      "headline_kr": "ASEAN 경제 성장, 2분기 가속화",
+      "summary_en": "ASEAN countries reported a 4.5% increase in economic output during the second quarter, driven by exports and regional investments, with Korea playing a significant role.",
+      "summary_kr": "ASEAN 국가들은 2분기 동안 수출과 지역 투자를 바탕으로 4.5%의 경제 성장을 기록했다. 한국도 중요한 역할을 했다.",
+      "image_seed": "news1-2026-08-30",
+      "image_query": "ASEAN countries economic growth chart",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-pop Concert Draws Thousands in Manila",
+      "headline_kr": "마닐라에서 K-pop 콘서트 성황리 개최",
+      "summary_en": "K-pop idols performed live last night, attracting a large Filipino audience and further cementing Korea's cultural influence in the Philippines.",
+      "summary_kr": "지난 밤, K-pop 아이돌들이 공연을 펼쳐 많은 필리핀 팬들을 열광시켰으며, 한국 문화의 영향력이 더욱 확산되고 있다.",
+      "image_seed": "news2-2026-08-30",
+      "image_query": "K-pop concert fans Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines and Korea Launch New Trade Initiative",
+      "headline_kr": "필리핀과 한국, 신무역 협력 추진",
+      "summary_en": "The two nations announced a new trade partnership focused on technology exchange and export promotion, aiming to boost economic ties further.",
+      "summary_kr": "양국은 기술 교류와 수출 촉진을 목표로 하는 새로운 무역 협력을 추진하기로 했다. 이는 경제 관계 강화를 위한 조치다.",
+      "image_seed": "news3-2026-08-30",
+      "image_query": "Korean Filipino business negotiation",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Safety Measures Boosted in Metro Manila",
+      "headline_kr": "메트로 마닐라 지역 안전 강화 조치",
+      "summary_en": "Local authorities have increased patrols and surveillance to ensure safety of residents, especially Korean expatriates and tourists.",
+      "summary_kr": "지역 당국은 주민과 특히 한국인 교민, 관광객의 안전 확보를 위해 순찰과 감시를 강화하였다.",
+      "image_seed": "news4-2026-08-30",
+      "image_query": "Korean community patrol Manila",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Resilience",
+    "pronunciation": "ri-ZIL-yens",
+    "type": "noun",
+    "definition_en": "The capacity to recover quickly from difficulties; resilience in regional cooperation.",
+    "definition_kr": "어려움에서 빠르게 회복하는 능력; 지역 협력에서의 회복력.",
+    "example_en": "The resilience of Korea and the Philippines is evident in their strengthened partnership amid regional challenges.",
+    "example_kr": "한국과 필리핀의 회복력은 지역 내 도전 속에서 강화된 협력에서 드러난다.",
+    "grade": "A+"
+  }
+}
