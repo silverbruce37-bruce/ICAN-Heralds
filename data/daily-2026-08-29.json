@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-08-29",
+  "header_date_line": "SATURDAY, AUGUST 29, 2026 | PHILIPPINES | VOL. 150",
+  "dashboard": {
+    "php_krw_rate": "22.18",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.08.29",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Trade Initiatives",
+    "headline_kr": "한국-필리핀, 무역 협력 강화 위한 새 이니셔티브 발표",
+    "subtitle_en": "Leaders from Korea and the Philippines announce increased trade collaborations to boost economic growth amid regional challenges.",
+    "subtitle_kr": "한국과 필리핀 지도자들이 지역 도전 속에서 경제 성장을 촉진하기 위한 무역 협력 확대를 발표하다.",
+    "body_en": [
+      "In a high-level summit held in Manila, Korean and Philippine officials unveiled a series of new trade agreements aimed at enhancing bilateral economic cooperation. The initiatives focus on technology transfer, renewable energy projects, and infrastructure development, signaling stronger economic ties between the two nations.",
+      "Korean companies have expressed increased interest in investing in the Philippines, especially in the manufacturing and IT sectors. This move is expected to create numerous jobs and boost the local economy, further solidifying Korea's presence in Southeast Asia.",
+      "Experts believe that these efforts will not only bolster economic growth but also foster cultural exchanges and diplomatic relations, paving the way for a more integrated partnership in the Asia-Pacific region."
+    ],
+    "body_kr": [
+      "마닐라에서 열린 고위급 정상회담에서 한국과 필리핀 정부는 양국 간 경제 협력을 강화하기 위한 일련의 무역 협정을 발표했다. 이번 이니셔티브는 기술 이전, 재생 에너지 프로젝트, 인프라 개발에 초점을 맞추고 있으며, 양국 간 경제 관계를 한층 강화하는 신호탄이 되고 있다.",
+      "한국 기업들은 특히 제조업과 정보기술(IT) 분야에서 필리핀에 대한 투자를 늘리고 있다고 밝혔다. 이는 많은 일자리를 창출하고 지역 경제를 활성화하는 데 기여할 것으로 기대된다.",
+      "전문가들은 이러한 노력이 경제 성장뿐만 아니라 문화 교류와 외교 관계를 증진하는 데도 중요한 역할을 할 것이라고 전망하며, 아시아 태평양 지역에서의 긴밀한 협력을 기대하고 있다."
+    ],
+    "image_seed": "cover-2026-08-29",
+    "image_query": "Korea Philippine trade agreement signing officials",
+    "image_caption": "Photo: Korean and Philippine officials sign trade agreements in Manila (August 29, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Community in Manila Celebrates Cultural Festival",
+    "headline_kr": "마닐라 한인 커뮤니티, 문화 축제 성황리에 개최",
+    "lead_en": "The Korean community in Manila hosted a vibrant cultural festival this weekend, showcasing traditional music, dance, and cuisine to promote cultural understanding and community bonding.",
+    "lead_kr": "이번 주말, 마닐라의 한인 커뮤니티가 전통 음악, 춤, 음식 등을 선보이며 문화 교류와 커뮤니티 유대를 강화하는 축제를 열었다.",
+    "image_seed": "feat-2026-08-29",
+    "image_query": "Korean community festival cultural performances Manila",
+    "desk": "Community Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook 2026: Growth and Challenges",
+      "headline_kr": "2026 ASEAN 경제 전망: 성장과 도전",
+      "summary_en": "The ASEAN region is projected to experience steady economic growth this year, driven by intra-regional trade and new investments, despite global uncertainties.",
+      "summary_kr": "전 세계 불확실성 속에서도 역내 무역과 신규 투자를 바탕으로 ASEAN 지역은 올해 안정적인 경제 성장을 기대하고 있다.",
+      "image_seed": "news1-2026-08-29",
+      "image_query": "ASEAN map trade infrastructure development",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Concert Draws Thousands in Manila",
+      "headline_kr": "마닐라에서 열린 케이팝 콘서트, 수천 명 관객 몰리다",
+      "summary_en": "K-pop sensation groups performed at a sold-out concert in Manila, exemplifying the global influence of Korean pop culture and its popularity among Filipino fans.",
+      "summary_kr": "한국의 인기 그룹들이 매진된 마닐라 콘서트에서 공연하며, 한국 대중문화의 세계적 영향력과 필리핀 팬들의 뜨거운 반응을 보여줬다.",
+      "image_seed": "news2-2026-08-29",
+      "image_query": "K-pop concert Manila crowd stage performance",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Strengthen Maritime Security Cooperation",
+      "headline_kr": "한국과 필리핀, 해양 안보 협력 강화",
+      "summary_en": "Both nations announced new joint patrols and intelligence sharing initiatives to enhance maritime security amid rising regional tensions in the South China Sea.",
+      "summary_kr": "양국은 남중국해 지역 긴장 고조 속에서 해양경비와 정보 공유를 위한 새로운 공동 순찰 및 협력 방안을 발표했다.",
+      "image_seed": "news3-2026-08-29",
+      "image_query": "Korean Philippine navy joint patrol ships",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Residents in the Philippines Urged to Stay Alert",
+      "headline_kr": "필리핀 내 한국인 주민, 안전 유의를 당부",
+      "summary_en": "The Korean embassy has issued safety advisories following recent incidents, urging the community to remain vigilant and follow local authorities’ guidance.",
+      "summary_kr": "최근 사건들에 따라 한국 대사관이 안전 유의문을 발표하며, 한인 커뮤니티에 경계심을 유지하고 현지 당국의 지침을 따를 것을 당부했다.",
+      "image_seed": "news4-2026-08-29",
+      "image_query": "Korean residents safety patrol Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Alliance",
+    "pronunciation": "əˈlaɪəns",
+    "type": "noun",
+    "definition_en": "A union or association formed for mutual benefit, especially between countries or organizations.",
+    "definition_kr": "상호 이익을 위해 형성된 연합 또는 협회, 특히 국가 또는 조직 간의 연합.",
+    "example_en": "The alliance between Korea and the Philippines has led to numerous economic and cultural collaborations.",
+    "example_kr": "한국과 필리핀 간의 동맹은 수많은 경제 및 문화 협력을 이끌어냈다.",
+    "grade": "A+"
+  }
+}
