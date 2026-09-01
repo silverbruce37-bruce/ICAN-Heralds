@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-02",
+    "vol": 154,
+    "cover_en": "Philippines, Korea Ink Landmark Digital Infrastructure Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 파트너십 체결",
+    "headlines_en": [
+      "Makati Police Boost Patrols in Korean Community Areas",
+      "ASEAN Economic Outlook Remains Strong for Q4 2026",
+      "K-Food Festival to Showcase Korean Culinary Delights in Cebu",
+      "Korea Expands Vocational Training Support for Filipino Workers",
+      "Bureau of Immigration Warns Against Visa Scam Syndicates"
+    ],
+    "headlines_kr": [
+      "마카티 경찰, 한인 밀집 지역 순찰 강화",
+      "2026년 4분기 아세안 경제 전망 여전히 강세",
+      "세부에서 한식 페스티벌 개최, 한국 요리의 진수 선보여",
+      "한국, 필리핀 노동자 직업 훈련 지원 확대",
+      "이민국, 비자 사기 조직에 대한 경고"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Cooperation",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-09-01",
     "vol": 153,
     "cover_en": "Korea and Philippines Strengthen Ties with New Trade Agreements",

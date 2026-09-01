@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-02",
+  "header_date_line": "WEDNESDAY, SEPTEMBER 2, 2026 | PHILIPPINES | VOL. 154",
+  "dashboard": {
+    "php_krw_rate": "22.04",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.02",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Ink Landmark Digital Infrastructure Partnership",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 인프라 파트너십 체결",
+    "subtitle_en": "The two nations have formalized a joint venture aimed at accelerating digital transformation and enhancing connectivity across the archipelago. This strategic alliance is expected to significantly boost economic growth and foster innovation.",
+    "subtitle_kr": "양국은 필리핀 전역의 디지털 전환을 가속화하고 연결성을 강화하기 위한 합작 투자를 공식화했습니다. 이 전략적 제휴는 경제 성장을 크게 촉진하고 혁신을 육성할 것으로 기대됩니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal moment for bilateral relations, the Philippines and South Korea today officially launched a comprehensive digital infrastructure partnership. The agreement, signed by high-ranking officials from both governments, outlines plans for joint investments in high-speed internet networks, data centers, and smart city technologies over the next five years. This initiative builds upon a series of preparatory discussions held earlier this year, recognizing the critical role of digital connectivity in modern economies.",
+      "The partnership is designed to address the Philippines' growing demand for robust digital services, which has been further amplified by the increasing adoption of digital platforms across various sectors. For the Korean community residing in the Philippines, this means improved access to reliable online services, better communication channels, and enhanced opportunities for Korean businesses operating in tech and related industries. Experts anticipate that the collaboration will not only bridge the digital divide but also create numerous jobs and foster a more competitive digital ecosystem.",
+      "Looking ahead, this landmark agreement is poised to serve as a model for regional cooperation in Southeast Asia, aligning with ASEAN's broader digital integration agenda. Both nations expressed optimism about the long-term benefits, emphasizing a shared commitment to sustainable development and technological advancement. The first phase of projects is expected to commence by early 2027, focusing initially on urban centers and expanding to underserved rural areas thereafter, ensuring inclusive growth."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 양국 관계에 있어 중요한 순간으로, 필리핀과 한국은 오늘 포괄적인 디지털 인프라 파트너십을 공식적으로 출범했습니다. 양국 정부의 고위 관계자들이 서명한 이 협정은 향후 5년간 고속 인터넷망, 데이터 센터, 스마트 시티 기술에 대한 공동 투자 계획을 담고 있습니다. 이번 이니셔티브는 현대 경제에서 디지털 연결성의 중요한 역할을 인지하고 올해 초 진행된 일련의 준비 논의를 바탕으로 합니다.",
+      "이번 파트너십은 다양한 분야에서 디지털 플랫폼 채택이 증가하면서 더욱 커진 필리핀의 강력한 디지털 서비스 수요를 충족시키기 위해 고안되었습니다. 필리핀에 거주하는 한인 사회에게는 안정적인 온라인 서비스에 대한 접근성 향상, 더 나은 통신 채널, 그리고 기술 및 관련 산업에서 활동하는 한인 기업들에게 더 많은 기회를 의미합니다. 전문가들은 이번 협력이 디지털 격차를 해소할 뿐만 아니라 수많은 일자리를 창출하고 더욱 경쟁력 있는 디지털 생태계를 조성할 것으로 기대하고 있습니다.",
+      "앞으로 이 획기적인 협정은 아세안(ASEAN)의 광범위한 디지털 통합 의제와 일치하며 동남아시아 지역 협력의 모델이 될 것입니다. 양국은 지속 가능한 발전과 기술 발전에 대한 공동의 의지를 강조하며 장기적인 이점에 대한 낙관론을 표명했습니다. 프로젝트의 첫 번째 단계는 2027년 초에 시작될 예정이며, 초기에는 도시 중심에 집중하고 이후 소외된 농촌 지역으로 확대하여 포괄적인 성장을 보장할 것입니다."
+    ],
+    "image_seed": "cover-2026-09-02",
+    "image_query": "Korean Philippine officials handshake signing digital infrastructure agreement",
+    "image_caption": "Photo: Philippine and Korean officials finalize the digital infrastructure partnership in Manila (Sept 2, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Makati Police Boost Patrols in Korean Community Areas",
+    "headline_kr": "마카티 경찰, 한인 밀집 지역 순찰 강화",
+    "lead_en": "Makati City Police have announced increased visibility and enhanced patrol operations in key areas frequented by the Korean community, including Poblacion and Salcedo Village. This move comes after recent consultations with Korean community leaders aimed at addressing safety concerns and ensuring a secure environment for residents and businesses.",
+    "lead_kr": "마카티 시 경찰은 포블라시온과 살세도 빌리지를 포함한 한인 사회가 자주 찾는 주요 지역에서 가시성을 높이고 순찰 작전을 강화한다고 발표했습니다. 이번 조치는 주민과 기업을 위한 안전한 환경을 보장하고 안전 문제를 해결하기 위한 한인 사회 지도자들과의 최근 협의 후에 이루어졌습니다.",
+    "image_seed": "feat-2026-09-02",
+    "image_query": "Philippine police officers patrolling Makati street day",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Remains Strong for Q4 2026",
+      "headline_kr": "2026년 4분기 아세안 경제 전망 여전히 강세",
+      "summary_en": "Analysts project continued robust growth across the ASEAN region, driven by strong domestic demand and stable export performance. Digitalization efforts are also contributing significantly to economic resilience.",
+      "summary_kr": "강력한 내수와 안정적인 수출 실적에 힘입어 아세안 지역 전반에 걸쳐 견고한 성장이 지속될 것으로 분석가들은 전망합니다. 디지털화 노력 또한 경제 회복력에 크게 기여하고 있습니다.",
+      "image_seed": "news1-2026-09-02",
+      "image_query": "ASEAN flags economic growth chart rising",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival to Showcase Korean Culinary Delights in Cebu",
+      "headline_kr": "세부에서 한식 페스티벌 개최, 한국 요리의 진수 선보여",
+      "summary_en": "Cebu is set to host its inaugural K-Food Festival next month, featuring traditional and modern Korean dishes, cooking demonstrations, and cultural performances. The event aims to further popularize Korean cuisine.",
+      "summary_kr": "세부는 다음 달에 전통 및 현대 한식, 요리 시연, 문화 공연을 선보이는 첫 한식 페스티벌을 개최할 예정입니다. 이번 행사는 한식의 인기를 더욱 높이는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-09-02",
+      "image_query": "Korean food bibimbap kimchi street market",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Expands Vocational Training Support for Filipino Workers",
+      "headline_kr": "한국, 필리핀 노동자 직업 훈련 지원 확대",
+      "summary_en": "Seoul announced increased funding for vocational training programs in the Philippines, focusing on high-demand sectors like IT and manufacturing. This initiative strengthens bilateral workforce development.",
+      "summary_kr": "한국은 IT 및 제조업과 같은 고수요 부문에 중점을 둔 필리핀 직업 훈련 프로그램에 대한 자금 지원 확대를 발표했습니다. 이 이니셔티브는 양국 간 인력 개발을 강화합니다.",
+      "image_seed": "news3-2026-09-02",
+      "image_query": "Korean instructor Filipino students computer lab",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Bureau of Immigration Warns Against Visa Scam Syndicates",
+      "headline_kr": "이민국, 비자 사기 조직에 대한 경고",
+      "summary_en": "The Philippine Bureau of Immigration issued a public advisory, urging foreign nationals, including Koreans, to be vigilant against unscrupulous individuals offering fake visa services. Report suspicious activities immediately.",
+      "summary_kr": "필리핀 이민국은 한국인을 포함한 외국인들에게 가짜 비자 서비스를 제공하는 불법 조직에 대해 경계를 늦추지 말 것을 촉구하는 공공 권고를 발표했습니다. 의심스러운 활동은 즉시 신고하십시오.",
+      "image_seed": "news4-2026-09-02",
+      "image_query": "Philippine immigration office warning sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각각의 효과를 합친 것보다 더 큰 결합된 효과를 내는 것.",
+    "example_en": "The synergy between the Philippines' emerging market and Korea's advanced technology will drive unprecedented growth.",
+    "example_kr": "필리핀의 신흥 시장과 한국의 첨단 기술 간의 시너지는 전례 없는 성장을 이끌 것입니다.",
+    "grade": "A+"
+  }
+}
