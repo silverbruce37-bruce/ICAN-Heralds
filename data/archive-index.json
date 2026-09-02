@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-03",
+    "vol": 155,
+    "cover_en": "Philippines-Korea Digital Innovation Hub Launched, Boosting Tech Synergy",
+    "cover_kr": "필리핀-한국 디지털 혁신 허브 출범, 기술 시너지 강화",
+    "headlines_en": [
+      "Enhanced PH-ROK Maritime Drills Conclude, Boosting Regional Security",
+      "Korean Investors Eyeing Philippines' Renewable Energy Sector",
+      "K-Food Festival Draws Record Crowds in Manila, Showcasing Culinary Diplomacy",
+      "ASEAN-ROK Summit Preparations Underway, Philippines to Host Key Dialogue",
+      "PNP Launches New Tourist Police Unit for Popular Korean Destinations"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 해상 훈련 성공적 마무리, 지역 안보 강화",
+      "한국 투자자들, 필리핀 재생 에너지 부문에 관심",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파로 요리 외교 선보여",
+      "아세안-한국 정상회담 준비 박차, 필리핀 주요 대화 주최",
+      "필리핀 경찰, 한국인 인기 관광지 전담 관광 경찰 부대 신설"
+    ],
+    "tags": [
+      "Cooperation",
+      "Security",
+      "Safety",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-09-02",
     "vol": 154,
     "cover_en": "Philippines, Korea Ink Landmark Digital Infrastructure Partnership",

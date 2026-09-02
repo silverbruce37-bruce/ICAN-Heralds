@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-03",
+  "header_date_line": "THURSDAY, SEPTEMBER 3, 2026 | PHILIPPINES | VOL. 155",
+  "dashboard": {
+    "php_krw_rate": "21.75",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.03",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Innovation Hub Launched, Boosting Tech Synergy",
+    "headline_kr": "필리핀-한국 디지털 혁신 허브 출범, 기술 시너지 강화",
+    "subtitle_en": "A new joint innovation center opens in Clark, aiming to foster startups, R&D, and digital transformation across both nations. The initiative marks a significant milestone in bilateral economic cooperation.",
+    "subtitle_kr": "클락에 새로운 공동 혁신 센터가 문을 열며 양국의 스타트업, R&D, 디지털 전환을 촉진할 예정입니다. 이 이니셔티브는 양국 경제 협력의 중요한 이정표가 될 것입니다.",
+    "body_en": [
+      "The much-anticipated Philippines-Korea Digital Innovation Hub officially opened its doors today in Clark Global City, Pampanga, signaling a new era of technological collaboration between the two nations. High-ranking officials from both governments, alongside industry leaders and startup founders, attended the grand inauguration ceremony. The hub is designed to serve as a nexus for digital transformation, providing resources, mentorship, and a collaborative environment for budding entrepreneurs and established tech companies from both the Philippines and South Korea.",
+      "This strategic initiative is expected to significantly bolster the digital economies of both countries. By facilitating cross-border partnerships and knowledge exchange, the hub aims to accelerate the development of innovative solutions in key sectors such as AI, fintech, e-commerce, and smart cities. Experts predict that the center will not only attract substantial foreign investment but also create thousands of high-value jobs, particularly for Filipino tech professionals, fostering a vibrant ecosystem for technological advancement and economic growth.",
+      "During the ceremony, representatives emphasized the shared vision of building a resilient and future-ready digital economy. The hub will host regular workshops, hackathons, and investor pitching sessions, connecting Filipino talent with Korean technological expertise and capital. This long-term commitment underscores the deepening economic ties between the Philippines and South Korea, positioning them as key partners in the rapidly evolving global digital landscape and setting a precedent for future bilateral cooperation models."
+    ],
+    "body_kr": [
+      "오랫동안 기다려온 필리핀-한국 디지털 혁신 허브가 오늘 팜팡가 클락 글로벌 시티에서 공식적으로 문을 열며 양국 간 기술 협력의 새로운 시대를 알렸습니다. 양국 정부 고위 관계자들과 산업 리더, 스타트업 창업자들이 대규모 개소식에 참석했습니다. 이 허브는 디지털 전환의 연결 고리 역할을 하도록 설계되었으며, 필리핀과 한국의 신생 기업가 및 기존 기술 기업에 자원, 멘토링, 협업 환경을 제공할 것입니다.",
+      "이 전략적 이니셔티브는 양국의 디지털 경제를 크게 강화할 것으로 기대됩니다. 국경을 넘는 파트너십과 지식 교환을 촉진함으로써, 이 허브는 AI, 핀테크, 전자상거래, 스마트시티와 같은 주요 분야에서 혁신적인 솔루션 개발을 가속화하는 것을 목표로 합니다. 전문가들은 이 센터가 상당한 외국인 투자를 유치할 뿐만 아니라, 특히 필리핀 기술 전문가들을 위한 수천 개의 고부가가치 일자리를 창출하여 기술 발전과 경제 성장을 위한 활기찬 생태계를 조성할 것으로 예측합니다.",
+      "개소식에서 대표단은 회복력 있고 미래 지향적인 디지털 경제를 구축하려는 공동의 비전을 강조했습니다. 이 허브는 정기적인 워크숍, 해커톤, 투자자 피칭 세션을 개최하여 필리핀의 인재를 한국의 기술 전문성 및 자본과 연결할 것입니다. 이러한 장기적인 약속은 필리핀과 한국 간의 심화되는 경제 관계를 보여주며, 빠르게 진화하는 글로벌 디지털 환경에서 핵심 파트너로서의 위상을 확고히 하고 미래 양자 협력 모델의 선례를 제시합니다."
+    ],
+    "image_seed": "cover-2026-09-03",
+    "image_query": "Korean Philippine officials handshake signing digital agreement, tech hub backdrop",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands at the launch of the Digital Innovation Hub (September 3, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced PH-ROK Maritime Drills Conclude, Boosting Regional Security",
+    "headline_kr": "필리핀-한국 해상 훈련 성공적 마무리, 지역 안보 강화",
+    "lead_en": "Joint naval exercises between the Philippine Navy and the Republic of Korea Navy concluded successfully in the West Philippine Sea, focusing on maritime domain awareness and anti-piracy operations. The drills aimed to strengthen interoperability and address shared security challenges in the region, reaffirming both nations' commitment to a free and open Indo-Pacific.",
+    "lead_kr": "필리핀 해군과 대한민국 해군 간의 연합 해상 훈련이 서필리핀해에서 성공적으로 마무리되었으며, 해양 영역 인식 및 해적 퇴치 작전에 중점을 두었습니다. 이번 훈련은 지역 내 상호 운용성을 강화하고 공동 안보 과제에 대처하며, 자유롭고 개방적인 인도-태평양에 대한 양국의 약속을 재확인하는 것을 목표로 했습니다.",
+    "image_seed": "feat-2026-09-03",
+    "image_query": "Philippine and Korean navy ships sailing formation, West Philippine Sea",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investors Eyeing Philippines' Renewable Energy Sector",
+      "headline_kr": "한국 투자자들, 필리핀 재생 에너지 부문에 관심",
+      "summary_en": "Several major Korean conglomerates are exploring significant investments in the Philippines' burgeoning renewable energy market, particularly in solar and wind power projects. This move aligns with global sustainability goals and the Philippines' push for energy independence.",
+      "summary_kr": "여러 주요 한국 대기업들이 필리핀의 성장하는 재생 에너지 시장, 특히 태양광 및 풍력 발전 프로젝트에 대한 상당한 투자를 모색하고 있습니다. 이는 글로벌 지속 가능성 목표와 필리핀의 에너지 독립 추진에 부합합니다.",
+      "image_seed": "news1-2026-09-03",
+      "image_query": "Solar panels wind turbines Philippine landscape sunset",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Manila, Showcasing Culinary Diplomacy",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 기록적인 인파로 요리 외교 선보여",
+      "summary_en": "Manila's annual K-Food Festival concluded with unprecedented attendance, highlighting the growing popularity of Korean cuisine among Filipinos. The event featured cooking demonstrations, food stalls, and cultural performances, fostering deeper cultural understanding.",
+      "summary_kr": "마닐라 연례 K-푸드 페스티벌이 전례 없는 인파 속에서 마무리되며 필리핀인들 사이에서 한국 음식의 인기가 높아지고 있음을 보여주었습니다. 이 행사는 요리 시연, 음식 가판대, 문화 공연을 선보이며 더 깊은 문화 이해를 촉진했습니다.",
+      "image_seed": "news2-2026-09-03",
+      "image_query": "Filipino families enjoying Korean food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "ASEAN-ROK Summit Preparations Underway, Philippines to Host Key Dialogue",
+      "headline_kr": "아세안-한국 정상회담 준비 박차, 필리핀 주요 대화 주최",
+      "summary_en": "Preparations are in full swing for the upcoming ASEAN-Republic of Korea Summit, with the Philippines slated to host a crucial preliminary dialogue on regional economic integration later this year. This highlights Manila's growing role in regional diplomacy.",
+      "summary_kr": "다가오는 아세안-대한민국 정상회담 준비가 한창이며, 필리핀은 올해 말 지역 경제 통합에 대한 중요한 예비 대화를 주최할 예정입니다. 이는 지역 외교에서 마닐라의 역할이 커지고 있음을 보여줍니다.",
+      "image_seed": "news3-2026-09-03",
+      "image_query": "ASEAN ROK flags conference table officials",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "PNP Launches New Tourist Police Unit for Popular Korean Destinations",
+      "headline_kr": "필리핀 경찰, 한국인 인기 관광지 전담 관광 경찰 부대 신설",
+      "summary_en": "The Philippine National Police (PNP) has activated a specialized Tourist Police unit dedicated to ensuring the safety and security of foreign visitors, particularly in areas popular with Korean tourists like Boracay and Palawan. This is a direct response to community feedback.",
+      "summary_kr": "필리핀 국가경찰(PNP)이 보라카이, 팔라완 등 한국인 관광객에게 인기 있는 지역에서 외국인 방문객의 안전과 보안을 보장하기 위한 전문 관광 경찰 부대를 출범시켰습니다. 이는 지역 사회의 피드백에 대한 직접적인 대응입니다.",
+      "image_seed": "news4-2026-09-03",
+      "image_query": "Philippine tourist police officers patrolling beach",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 개별적인 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The new digital innovation hub aims to create synergy between Filipino talent and Korean technology, leading to groundbreaking solutions.",
+    "example_kr": "새로운 디지털 혁신 허브는 필리핀 인재와 한국 기술 간의 시너지를 창출하여 획기적인 솔루션으로 이어지는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
