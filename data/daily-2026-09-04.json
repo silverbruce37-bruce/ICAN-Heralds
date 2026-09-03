@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-04",
+  "header_date_line": "FRIDAY, SEPTEMBER 4, 2026 | PHILIPPINES | VOL. 156",
+  "dashboard": {
+    "php_krw_rate": "21.75",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "RP-Korea Ink Landmark Digital Economy Pact, Boost Regional Innovation",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 경제 협정 체결로 지역 혁신 촉진",
+    "subtitle_en": "The agreement aims to expand cooperation in AI, fintech, and e-commerce, setting a new benchmark for bilateral economic ties and fostering a vibrant digital ecosystem across ASEAN.",
+    "subtitle_kr": "이번 협정은 인공지능, 핀테크, 전자상거래 분야의 협력을 확대하고, 양국 경제 관계의 새로운 기준을 제시하며 아세안 전역의 활기찬 디지털 생태계를 조성하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – Philippine and Korean officials today formally signed the groundbreaking Digital Economy Partnership Agreement (DEPA), marking a significant milestone in their burgeoning bilateral relations. The pact, years in the making, establishes a comprehensive framework for cooperation across key digital sectors, including artificial intelligence, blockchain, cybersecurity, fintech, and e-commerce. Dignitaries from both nations hailed the agreement as a testament to their shared vision for a technologically advanced and interconnected future.",
+      "The DEPA is expected to unlock substantial economic opportunities for both countries. For the Philippines, it promises increased foreign direct investment in its digital infrastructure and startup ecosystem, as well as knowledge transfer from Korea's world-leading tech industry. Korean companies, in turn, gain enhanced market access and a strategic base within the rapidly growing ASEAN digital landscape, fostering innovation and creating new jobs in both economies. The agreement also includes provisions for joint research and development initiatives.",
+      "Beyond direct economic benefits, the partnership is poised to strengthen regional digital resilience and foster greater collaboration within ASEAN. By setting a precedent for robust digital cooperation, the Philippines and Korea aim to contribute to the broader digital transformation agenda of Southeast Asia. Officials emphasized their commitment to inclusive growth, ensuring that the benefits of digital advancement reach all segments of society and promote sustainable development across the region."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀과 한국 정부 관계자들이 오늘 획기적인 디지털 경제 파트너십 협정(DEPA)에 공식 서명하며, 양국 간 급성장하는 관계에서 중요한 이정표를 세웠습니다. 수년간 준비된 이번 협정은 인공지능, 블록체인, 사이버 보안, 핀테크, 전자상거래를 포함한 주요 디지털 부문 전반에 걸쳐 포괄적인 협력 프레임워크를 구축합니다. 양국 고위 인사들은 이 협정이 기술적으로 발전하고 상호 연결된 미래에 대한 공동의 비전을 입증하는 것이라고 평가했습니다.",
+      "DEPA는 양국에 상당한 경제적 기회를 제공할 것으로 예상됩니다. 필리핀에게는 디지털 인프라 및 스타트업 생태계에 대한 외국인 직접 투자 증가와 한국의 세계 최고 수준 기술 산업으로부터의 지식 이전을 약속합니다. 한국 기업들은 빠르게 성장하는 아세안 디지털 환경 내에서 시장 접근성을 높이고 전략적 거점을 확보하여 양국 경제에서 혁신을 촉진하고 새로운 일자리를 창출할 것입니다. 이 협정에는 공동 연구 개발 이니셔티브에 대한 조항도 포함되어 있습니다.",
+      "직접적인 경제적 이점 외에도, 이 파트너십은 지역 디지털 회복력을 강화하고 아세안 내에서 더 큰 협력을 촉진할 것입니다. 강력한 디지털 협력의 선례를 설정함으로써 필리핀과 한국은 동남아시아의 광범위한 디지털 전환 의제에 기여하는 것을 목표로 합니다. 관계자들은 포괄적인 성장에 대한 의지를 강조하며, 디지털 발전의 혜택이 사회의 모든 계층에 도달하고 지역 전반의 지속 가능한 발전을 촉진할 것을 약속했습니다."
+    ],
+    "image_seed": "cover-2026-09-04",
+    "image_query": "Korean Philippine officials handshake digital agreement signing ceremony",
+    "image_caption": "Photo: Philippine and Korean officials finalize the Digital Economy Partnership Agreement in Manila (Sept 3, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Launch Joint Safety Initiative for Tourists",
+    "headline_kr": "필리핀 경찰청-한국 대사관, 관광객 안전 위한 공동 이니셔티브 출범",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy have announced a new collaborative program aimed at bolstering the safety and security of Korean nationals visiting or residing in the Philippines. This initiative includes increased police visibility in popular tourist destinations and a dedicated hotline for urgent assistance.",
+    "lead_kr": "필리핀 경찰청(PNP)과 한국 대사관은 필리핀을 방문하거나 거주하는 한국인의 안전과 보안을 강화하기 위한 새로운 협력 프로그램을 발표했습니다. 이 이니셔티브는 인기 관광지의 경찰 가시성 증가와 긴급 지원을 위한 전용 핫라인을 포함합니다.",
+    "image_seed": "feat-2026-09-04",
+    "image_query": "Korean tourist police patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eye Major Investment in PH Renewable Energy Sector",
+      "headline_kr": "한국 기업들, 필리핀 재생 에너지 부문에 대규모 투자 모색",
+      "summary_en": "Several leading Korean energy companies are reportedly in advanced talks to invest billions in Philippine renewable energy projects, particularly solar and wind farms. This move aligns with both nations' climate goals and aims to diversify the Philippines' energy mix.",
+      "summary_kr": "여러 선도적인 한국 에너지 기업들이 필리핀 재생 에너지 프로젝트, 특히 태양광 및 풍력 발전소에 수십억 달러를 투자하기 위한 심도 있는 협상을 진행 중인 것으로 알려졌습니다. 이러한 움직임은 양국의 기후 목표와 일치하며 필리핀의 에너지 혼합을 다양화하는 것을 목표로 합니다.",
+      "image_seed": "news1-2026-09-04",
+      "image_query": "Korean executives renewable energy project Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila to Host Grand Korean Food & Culture Festival Next Month",
+      "headline_kr": "마닐라, 다음 달 대규모 한국 음식 문화 축제 개최 예정",
+      "summary_en": "The annual Korea Food & Culture Festival is set to return to Manila next month, promising a vibrant celebration of Korean culinary delights and traditional performances. The event aims to further bridge cultural understanding between the two nations.",
+      "summary_kr": "매년 열리는 한국 음식 문화 축제가 다음 달 마닐라로 돌아와 한국의 미식과 전통 공연을 활기차게 기념할 예정입니다. 이 행사는 양국 간의 문화적 이해를 더욱 증진시키는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-09-04",
+      "image_query": "Korean food festival street market Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "RP-Korea Expand Joint Scholarship Program for Students",
+      "headline_kr": "필리핀-한국, 학생들을 위한 공동 장학 프로그램 확대",
+      "summary_en": "The Philippine and Korean governments have announced a significant expansion of their joint scholarship program, offering more opportunities for students from both countries to study abroad. This initiative aims to foster future leaders and strengthen bilateral ties.",
+      "summary_kr": "필리핀과 한국 정부는 양국 학생들에게 해외 유학 기회를 더 많이 제공하는 공동 장학 프로그램을 대폭 확대한다고 발표했습니다. 이 이니셔티브는 미래 지도자 양성 및 양국 관계 강화를 목표로 합니다.",
+      "image_seed": "news3-2026-09-04",
+      "image_query": "Philippine Korean students university campus",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Praises Recent Anti-Crime Operations in Pampanga",
+      "headline_kr": "한인 사회, 팜팡가 최근 범죄 단속 작전 칭찬",
+      "summary_en": "The Korean community in Pampanga has expressed appreciation for the recent successful anti-crime operations conducted by local authorities, which led to the dismantling of several criminal syndicates. These efforts have significantly improved the sense of security in the area.",
+      "summary_kr": "팜팡가 한인 사회는 최근 현지 당국이 실시한 성공적인 범죄 단속 작전에 감사를 표했습니다. 이 작전으로 여러 범죄 조직이 해체되었으며, 지역의 안전감이 크게 향상되었습니다.",
+      "image_seed": "news4-2026-09-04",
+      "image_query": "Philippine police officers community patrol",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The new digital economy pact aims to create a powerful synergy between the technological strengths of Korea and the emerging market potential of the Philippines.",
+    "example_kr": "새로운 디지털 경제 협정은 한국의 기술력과 필리핀의 신흥 시장 잠재력 사이의 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
