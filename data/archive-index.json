@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-05",
+    "vol": 157,
+    "cover_en": "Philippines and Korea Launch New Digital Innovation Hub in Manila",
+    "cover_kr": "필리핀-한국, 마닐라에 디지털 혁신 허브 출범",
+    "headlines_en": [
+      "Enhanced Joint Patrols Boost Safety in Korean Community Areas",
+      "Philippine IT-BPM Sector Attracts Major Korean Tech Investments",
+      "Manila Hosts Successful K-Pop Dance Festival, Showcasing Local Talent",
+      "Korea and Philippines Agree on Joint Climate Change Initiatives",
+      "Embassy Issues Advisory on Online Scams Targeting Korean Expats"
+    ],
+    "headlines_kr": [
+      "한인 밀집 지역 안전 강화를 위한 합동 순찰 강화",
+      "필리핀 IT-BPM 부문, 한국 주요 기술 투자 유치",
+      "마닐라, 성공적인 K-팝 댄스 페스티벌 개최, 현지 인재 발굴",
+      "한국-필리핀, 기후 변화 공동 이니셔티브 합의",
+      "대사관, 한인 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Culture",
+      "Economy",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-09-04",
     "vol": 156,
     "cover_en": "RP-Korea Ink Landmark Digital Economy Pact, Boost Regional Innovation",

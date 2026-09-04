@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-05",
+  "header_date_line": "SATURDAY, SEPTEMBER 5, 2026 | PHILIPPINES | VOL. 157",
+  "dashboard": {
+    "php_krw_rate": "21.53",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.05",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines and Korea Launch New Digital Innovation Hub in Manila",
+    "headline_kr": "필리핀-한국, 마닐라에 디지털 혁신 허브 출범",
+    "subtitle_en": "This landmark initiative aims to foster advanced technology development and strengthen bilateral economic ties, positioning both nations for future digital leadership.",
+    "subtitle_kr": "이 획기적인 이니셔티브는 첨단 기술 개발을 촉진하고 양국 경제 관계를 강화하며, 미래 디지털 리더십을 위한 양국을 포지셔닝하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards a digitally advanced future, the Philippines and South Korea officially inaugurated the Philippines-Korea Digital Innovation Hub (PKDIH) today. The ceremony, attended by high-ranking officials from both governments and key industry leaders, marked the beginning of a new chapter in bilateral economic cooperation focused on technology and innovation. Located in the heart of Manila, the PKDIH is envisioned as a central ecosystem for startups, researchers, and tech companies from both countries.",
+      "The PKDIH will serve as a collaborative platform for developing cutting-edge technologies in artificial intelligence, blockchain, cybersecurity, and smart city solutions. It will facilitate joint research projects, provide incubation support for promising startups, and offer training programs to upskill the local workforce in digital competencies. This initiative is expected to attract substantial Korean investment into the Philippine tech sector, creating numerous job opportunities and fostering a vibrant innovation culture within the ASEAN region.",
+      "Officials emphasized the long-term vision of the hub, highlighting its potential to not only drive economic growth but also to bridge the digital divide and enhance regional competitiveness. Both President Marcos and President Yoon (or their representatives) conveyed strong commitments to supporting the PKDIH's goals, ensuring a sustained partnership that benefits the Korean community in the Philippines through enhanced economic opportunities and technological advancements."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 선진 미래를 향한 중요한 발걸음으로, 필리핀과 대한민국은 오늘 필리핀-한국 디지털 혁신 허브(PKDIH)를 공식 출범시켰습니다. 양국 정부 고위 관계자와 주요 산업 리더들이 참석한 가운데 열린 기념식은 기술과 혁신에 중점을 둔 양국 경제 협력의 새로운 장을 열었습니다. 마닐라 중심부에 위치한 PKDIH는 양국 스타트업, 연구원 및 기술 기업을 위한 중심 생태계로 구상되고 있습니다.",
+      "PKDIH는 인공지능, 블록체인, 사이버 보안 및 스마트 시티 솔루션 분야의 첨단 기술 개발을 위한 협력 플랫폼 역할을 할 것입니다. 이는 공동 연구 프로젝트를 촉진하고, 유망 스타트업에 인큐베이션 지원을 제공하며, 지역 인력의 디지털 역량 강화를 위한 교육 프로그램을 제공할 예정입니다. 이 이니셔티브는 필리핀 기술 부문에 상당한 한국 투자를 유치하여 수많은 일자리를 창출하고 아세안 지역 내에서 활기찬 혁신 문화를 조성할 것으로 기대됩니다.",
+      "관계자들은 허브의 장기적인 비전을 강조하며, 경제 성장을 주도할 뿐만 아니라 디지털 격차를 해소하고 지역 경쟁력을 강화할 잠재력을 언급했습니다. 마르코스 대통령과 윤 대통령(또는 그들의 대표)은 PKDIH의 목표를 지원하고, 경제적 기회와 기술 발전 증진을 통해 필리핀 내 한인 사회에 이익이 되는 지속적인 파트너십을 보장하겠다는 강력한 의지를 표명했습니다."
+    ],
+    "image_seed": "cover-2026-09-05",
+    "image_query": "Korean and Philippine officials shaking hands in front of a digital innovation hub sign",
+    "image_caption": "Photo: Philippine and Korean officials shaking hands at the launch of the Digital Innovation Hub (2026.09.05)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Joint Patrols Boost Safety in Korean Community Areas",
+    "headline_kr": "한인 밀집 지역 안전 강화를 위한 합동 순찰 강화",
+    "lead_en": "Following a recent surge in community feedback, the Philippine National Police (PNP) and the Korean Embassy's security liaison have announced an expansion of joint patrol operations in key areas with high Korean populations, including Makati, Taguig, and Pasig. This initiative aims to deter crime and provide a greater sense of security for Korean residents and tourists.",
+    "lead_kr": "최근 한인 사회의 피드백 증가에 따라, 필리핀 경찰청(PNP)과 주 필리핀 한국 대사관 보안 담당자는 마카티, 따귁, 파식 등 한인 밀집 지역에서 합동 순찰 작전 확대를 발표했습니다. 이 이니셔티브는 범죄를 억제하고 한인 거주자 및 관광객에게 더 큰 안보감을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-05",
+    "image_query": "Philippine and Korean police officers patrolling a bustling street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine IT-BPM Sector Attracts Major Korean Tech Investments",
+      "headline_kr": "필리핀 IT-BPM 부문, 한국 주요 기술 투자 유치",
+      "summary_en": "The Philippine IT-BPM (Information Technology-Business Process Management) sector is experiencing a significant influx of capital from Korean tech firms, drawn by the skilled workforce and government incentives. This trend is driving job creation and technological advancement.",
+      "summary_kr": "필리핀 IT-BPM(정보 기술-비즈니스 프로세스 관리) 부문은 숙련된 인력과 정부 인센티브에 이끌려 한국 기술 기업들로부터 상당한 자본 유입을 경험하고 있습니다. 이러한 추세는 일자리 창출과 기술 발전을 주도하고 있습니다.",
+      "image_seed": "news1-2026-09-05",
+      "image_query": "Modern office interior, people collaborating on computers",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Pop Dance Festival, Showcasing Local Talent",
+      "headline_kr": "마닐라, 성공적인 K-팝 댄스 페스티벌 개최, 현지 인재 발굴",
+      "summary_en": "Thousands gathered in Manila for the annual K-Pop Dance Festival, where Filipino dance groups showcased their passion and talent, reinforcing the strong cultural bond between the two nations. The event highlighted emerging local K-Pop talents.",
+      "summary_kr": "수천 명이 마닐라에서 연례 K-팝 댄스 페스티벌에 모여 필리핀 댄스 그룹들이 그들의 열정과 재능을 선보이며 양국 간의 강력한 문화적 유대를 강화했습니다. 이번 행사는 떠오르는 현지 K-팝 인재들을 조명했습니다.",
+      "image_seed": "news2-2026-09-05",
+      "image_query": "Energetic K-Pop dance group performing on stage, large crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Agree on Joint Climate Change Initiatives",
+      "headline_kr": "한국-필리핀, 기후 변화 공동 이니셔티브 합의",
+      "summary_en": "Both nations have pledged to deepen cooperation on environmental protection and climate change adaptation. New joint projects focusing on renewable energy and disaster preparedness are expected to be rolled out next year.",
+      "summary_kr": "양국은 환경 보호 및 기후 변화 적응에 대한 협력을 심화하기로 약속했습니다. 재생 에너지 및 재난 대비에 중점을 둔 새로운 공동 프로젝트가 내년에 시작될 예정입니다.",
+      "image_seed": "news3-2026-09-05",
+      "image_query": "Korean and Philippine flags, wind turbines in background",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Online Scams Targeting Korean Expats",
+      "headline_kr": "대사관, 한인 교민 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in Manila has released an urgent advisory warning its citizens about a rise in sophisticated online scams. They urge vigilance and prompt reporting of suspicious activities to local authorities and the embassy.",
+      "summary_kr": "주 마닐라 한국 대사관은 정교한 온라인 사기 증가에 대해 시민들에게 경고하는 긴급 주의보를 발표했습니다. 대사관은 의심스러운 활동을 현지 당국과 대사관에 즉시 신고할 것을 당부했습니다.",
+      "image_seed": "news4-2026-09-05",
+      "image_query": "Person looking at a phone with warning symbols, blurry background",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 작용제가 결합하여 개별적인 효과의 합보다 더 큰 결합 효과를 만들어내는 상호 작용 또는 협력.",
+    "example_en": "The synergy between the Philippine and Korean tech sectors is expected to drive unprecedented growth.",
+    "example_kr": "필리핀과 한국 기술 부문 간의 시너지는 전례 없는 성장을 이끌 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
