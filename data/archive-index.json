@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-09",
+    "vol": 161,
+    "cover_en": "PH-Korea Unveil Landmark Smart City Initiative in New Clark City",
+    "cover_kr": "필리핀-한국, 뉴클락시티 스마트 도시 이니셔티브 발표",
+    "headlines_en": [
+      "Korean Community Leaders Meet PNP for Enhanced Safety Protocols",
+      "Korean Investment Surges in PH Renewable Energy Sector",
+      "K-Food Festival Draws Crowds in Makati, Showcasing Culinary Diversity",
+      "PH, Korea Collaborate on Marine Conservation Project in Palawan",
+      "New Hotline Launched for Korean Tourists in Boracay"
+    ],
+    "headlines_kr": [
+      "한인 커뮤니티 리더, 필리핀 경찰청과 안전 프로토콜 강화 논의",
+      "한국, 필리핀 신재생에너지 부문 투자 급증",
+      "마카티 K-푸드 페스티벌 성황리 개최, 한식의 다양성 선보여",
+      "필리핀-한국, 팔라완 해양 보존 프로젝트 협력",
+      "보라카이 한인 관광객 위한 새로운 핫라인 개설"
+    ],
+    "tags": [
+      "Culture",
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-09-08",
     "vol": 160,
     "cover_en": "Philippines-Korea Digital Partnership Set to Boost Smart City Initiatives",
