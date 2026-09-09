@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-10",
+    "vol": 162,
+    "cover_en": "PH-Korea Digital Partnership Accelerates, Boosting Regional Tech Hub Ambitions",
+    "cover_kr": "필리핀-한국 디지털 파트너십 가속화, 지역 기술 허브 야망 증대",
+    "headlines_en": [
+      "PNP Launches Enhanced Safety Program for Korean Residents Amid Digital Push",
+      "Korean Agri-Tech Investments Surge in Mindanao, Bolstering PH Food Security",
+      "Manila Hosts Grand K-Culture Festival, Drawing Thousands of Fans",
+      "Korea, PH Partner on Marine Conservation Project in Palawan",
+      "Makati City Reminds Residents of Revised Waste Management Schedule"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 디지털 전환 속 한인 거주자 안전 강화 프로그램 착수",
+      "한국 농업 기술 투자 민다나오 급증, 필리핀 식량 안보 강화",
+      "마닐라, 수천 명 팬 운집한 대규모 K-컬처 페스티벌 개최",
+      "한국, 필리핀 팔라완 해양 보존 프로젝트에 협력",
+      "마카티 시, 주민들에게 개정된 폐기물 관리 일정 상기시켜"
+    ],
+    "tags": [
+      "Security",
+      "Culture",
+      "Safety",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-09-09",
     "vol": 161,
     "cover_en": "PH-Korea Unveil Landmark Smart City Initiative in New Clark City",

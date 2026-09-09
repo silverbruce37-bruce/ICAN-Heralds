@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-10",
+  "header_date_line": "THURSDAY, SEPTEMBER 10, 2026 | PHILIPPINES | VOL. 162",
+  "dashboard": {
+    "php_krw_rate": "21.48",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.10",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Partnership Accelerates, Boosting Regional Tech Hub Ambitions",
+    "headline_kr": "필리핀-한국 디지털 파트너십 가속화, 지역 기술 허브 야망 증대",
+    "subtitle_en": "New initiatives focus on smart city development and cybersecurity, promising economic growth and enhanced services for both nations.",
+    "subtitle_kr": "새로운 이니셔티브는 스마트 도시 개발과 사이버 보안에 중점을 두어 양국에 경제 성장과 향상된 서비스를 약속합니다.",
+    "body_en": [
+      "MANILA – The Philippines and South Korea have entered a new phase of their robust digital partnership, with recent agreements poised to significantly enhance the archipelago's technological landscape. Officials from both nations convened in Manila this week to finalize frameworks for joint projects spanning smart city infrastructure and advanced cybersecurity solutions, underscoring a mutual commitment to digital transformation.",
+      "The expanded collaboration aims to leverage South Korea's renowned expertise in information and communication technology (ICT) to support the Philippines' ambitious 'Digital Cities' program. Key initiatives include the development of integrated urban management systems, deployment of advanced surveillance technologies for public safety, and the establishment of a joint cybersecurity task force to combat evolving digital threats, safeguarding critical national infrastructure and personal data.",
+      "This strengthened alliance is expected to create numerous opportunities for Korean businesses in the Philippines, fostering innovation and job creation. For the Korean community residing here, these advancements promise more secure digital environments, improved public services, and a more connected lifestyle, aligning with the Philippines' vision to become a leading digital economy in Southeast Asia."
+    ],
+    "body_kr": [
+      "마닐라 – 필리핀과 한국이 견고한 디지털 파트너십의 새로운 단계에 돌입했으며, 최근 합의를 통해 필리핀의 기술 환경이 크게 향상될 것으로 기대됩니다. 양국 관계자들은 이번 주 마닐라에서 스마트 도시 인프라 및 고급 사이버 보안 솔루션에 걸친 공동 프로젝트의 프레임워크를 확정하기 위해 회의를 가졌으며, 이는 디지털 전환에 대한 상호 약속을 강조합니다.",
+      "확대된 협력은 한국의 정보통신기술(ICT) 분야의 뛰어난 전문성을 활용하여 필리핀의 야심 찬 '디지털 도시' 프로그램을 지원하는 것을 목표로 합니다. 주요 이니셔티브에는 통합 도시 관리 시스템 개발, 공공 안전을 위한 고급 감시 기술 배포, 그리고 진화하는 디지털 위협에 대처하고 중요한 국가 인프라 및 개인 데이터를 보호하기 위한 공동 사이버 보안 태스크포스 설립이 포함됩니다.",
+      "이 강화된 동맹은 필리핀 내 한국 기업들에게 수많은 기회를 창출하고 혁신과 일자리 창출을 촉진할 것으로 예상됩니다. 이곳에 거주하는 한인 커뮤니티에게는 이러한 발전이 더욱 안전한 디지털 환경, 향상된 공공 서비스, 그리고 더 연결된 라이프스타일을 약속하며, 동남아시아의 선도적인 디지털 경제가 되고자 하는 필리핀의 비전과 일치합니다."
+    ],
+    "image_seed": "cover-2026-09-10",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials finalize a digital partnership agreement in Manila (Sept. 9, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Launches Enhanced Safety Program for Korean Residents Amid Digital Push",
+    "headline_kr": "필리핀 경찰, 디지털 전환 속 한인 거주자 안전 강화 프로그램 착수",
+    "lead_en": "In response to growing community concerns and the increasing digital landscape, the Philippine National Police (PNP), in collaboration with the Korean Embassy, has introduced a new safety program. This initiative is designed to address common issues faced by Korean expatriates and tourists, including online scams, identity theft, and petty crime, aiming to provide a safer environment.",
+    "lead_kr": "커뮤니티의 증가하는 우려와 디지털 환경의 확장에 대응하여 필리핀 국가경찰(PNP)이 주한 필리핀 대사관과 협력하여 새로운 안전 프로그램을 도입했습니다. 이 이니셔티브는 온라인 사기, 신분 도용 및 경범죄를 포함하여 한인 해외 거주자와 관광객이 직면하는 일반적인 문제들을 해결하고 보다 안전한 환경을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-10",
+    "image_query": "Philippine police officers interacting Korean community members street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Agri-Tech Investments Surge in Mindanao, Bolstering PH Food Security",
+      "headline_kr": "한국 농업 기술 투자 민다나오 급증, 필리핀 식량 안보 강화",
+      "summary_en": "South Korean companies are significantly increasing investments in agricultural technology across Mindanao, aiming to modernize farming practices and enhance food production in the Philippines, aligning with national food security goals.",
+      "summary_kr": "한국 기업들이 민다나오 전역에 걸쳐 농업 기술 투자를 대폭 확대하며, 필리핀의 농업 관행을 현대화하고 식량 생산을 증대하여 국가 식량 안보 목표에 기여하고 있습니다.",
+      "image_seed": "news1-2026-09-10",
+      "image_query": "Korean agri-tech experts Philippine farmers discussing crops",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Culture Festival, Drawing Thousands of Fans",
+      "headline_kr": "마닐라, 수천 명 팬 운집한 대규모 K-컬처 페스티벌 개최",
+      "summary_en": "The annual K-Culture Festival in Manila concluded successfully, featuring vibrant K-Pop performances, traditional Korean arts, and diverse food stalls, attracting a diverse crowd of Filipino and Korean attendees.",
+      "summary_kr": "마닐라에서 연례 K-컬처 페스티벌이 성황리에 막을 내렸습니다. 활기찬 K-Pop 공연, 전통 한국 예술, 다양한 음식 부스가 선보여 필리핀과 한국의 다양한 관객을 끌어모았습니다.",
+      "image_seed": "news2-2026-09-10",
+      "image_query": "K-Pop fans enjoying festival Manila stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea, PH Partner on Marine Conservation Project in Palawan",
+      "headline_kr": "한국, 필리핀 팔라완 해양 보존 프로젝트에 협력",
+      "summary_en": "A new bilateral project between South Korea and the Philippines has been launched to protect marine biodiversity and promote sustainable fishing practices in the ecologically rich waters of Palawan, a key tourism destination.",
+      "summary_kr": "한국과 필리핀 간의 새로운 양자 프로젝트가 팔라완의 생태학적으로 풍부한 해역에서 해양 생물 다양성을 보호하고 지속 가능한 어업 관행을 촉진하기 위해 시작되었습니다.",
+      "image_seed": "news3-2026-09-10",
+      "image_query": "Korean Philippine researchers marine conservation Palawan",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Reminds Residents of Revised Waste Management Schedule",
+      "headline_kr": "마카티 시, 주민들에게 개정된 폐기물 관리 일정 상기시켜",
+      "summary_en": "Makati City officials issued a reminder about the updated waste collection schedule, urging all residents, including the expatriate community, to strictly adhere to new guidelines for improved urban sanitation and environmental health.",
+      "summary_kr": "마카티 시 당국은 업데이트된 폐기물 수거 일정을 상기시키며, 외국인 커뮤니티를 포함한 모든 주민들에게 개선된 도시 위생 및 환경 건강을 위한 새로운 지침을 엄격히 준수할 것을 촉구했습니다.",
+      "image_seed": "news4-2026-09-10",
+      "image_query": "Makati city street clean waste bins",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람이나 사물. 촉매.",
+    "example_en": "The new digital agreement is expected to be a catalyst for economic growth in the region.",
+    "example_kr": "새로운 디지털 협약은 이 지역 경제 성장의 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
