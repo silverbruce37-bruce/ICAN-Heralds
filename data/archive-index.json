@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-11",
+    "vol": 163,
+    "cover_en": "Philippines, Korea Launch Joint Digital Infrastructure Fund",
+    "cover_kr": "필리핀-한국, 공동 디지털 인프라 기금 출범",
+    "headlines_en": [
+      "KNPA, PNP Boost Joint Efforts for Korean Community Safety",
+      "ASEAN Economic Ministers Meeting Concludes, Korea Pledges Further Investment",
+      "Manila Hosts Successful K-Pop Dance Festival, Draws Huge Crowd",
+      "Korea-Philippines Discuss Renewable Energy Partnership",
+      "Makati City Implements New Safety Program for Foreign Residents"
+    ],
+    "headlines_kr": [
+      "경찰청, 필리핀 경찰청과 한인 사회 안전 위한 공동 노력 강화",
+      "아세안 경제장관회의 폐막, 한국 추가 투자 약속",
+      "마닐라, 성공적인 K-팝 댄스 페스티벌 개최, 엄청난 인파 몰려",
+      "한국-필리핀, 재생에너지 파트너십 논의",
+      "마카티 시, 외국인 거주자를 위한 새로운 안전 프로그램 시행"
+    ],
+    "tags": [
+      "Safety",
+      "Cooperation",
+      "Security",
+      "Economy",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-09-10",
     "vol": 162,
     "cover_en": "PH-Korea Digital Partnership Accelerates, Boosting Regional Tech Hub Ambitions",

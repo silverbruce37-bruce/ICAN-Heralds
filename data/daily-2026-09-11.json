@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-11",
+  "header_date_line": "FRIDAY, SEPTEMBER 11, 2026 | PHILIPPINES | VOL. 163",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.11",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines, Korea Launch Joint Digital Infrastructure Fund",
+    "headline_kr": "필리핀-한국, 공동 디지털 인프라 기금 출범",
+    "subtitle_en": "The new initiative aims to accelerate smart city development and enhance digital connectivity across the Philippines, fostering a robust regional digital economy.",
+    "subtitle_kr": "이 새로운 이니셔티브는 필리핀 전역의 스마트 도시 개발을 가속화하고 디지털 연결성을 강화하여 강력한 역내 디지털 경제를 육성하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila and Seoul officially launched the \"Korea-Philippines Digital Future Fund\" today, a landmark initiative designed to funnel significant investments into the Philippines' burgeoning digital infrastructure. The fund, with an initial commitment of $500 million, will target projects ranging from high-speed internet expansion and data center construction to the implementation of smart city technologies and AI-driven public services. This strategic partnership underscores both nations' commitment to digital transformation and sustainable economic growth in the ASEAN region.",
+      "Philippine President Marcos Jr. hailed the fund as a game-changer for the nation's digital landscape, emphasizing its potential to bridge the digital divide and create numerous employment opportunities for Filipinos. Korean Minister of Science and ICT, Lee Young-hee, echoed this sentiment, highlighting how Korean expertise in advanced digital technologies will be instrumental in developing resilient and future-proof infrastructure. The collaboration is expected to attract further private sector investment, fostering a dynamic ecosystem for innovation.",
+      "For the Korean community in the Philippines, this fund signifies enhanced connectivity and improved access to digital services, potentially easing communication with families back home and streamlining business operations. Experts believe the initiative will also stimulate demand for skilled Korean IT professionals and entrepreneurs looking to contribute to and benefit from the Philippines' digital revolution. Discussions are already underway for subsequent phases, focusing on cybersecurity and digital education programs."
+    ],
+    "body_kr": [
+      "마닐라와 서울은 오늘 필리핀의 급성장하는 디지털 인프라에 상당한 투자를 유치하기 위한 획기적인 이니셔티브인 \"한-필리핀 디지털 미래 기금\"을 공식 출범했습니다. 초기 5억 달러의 약정 규모로 조성된 이 기금은 고속 인터넷 확장 및 데이터 센터 구축부터 스마트 도시 기술 및 AI 기반 공공 서비스 구현에 이르는 프로젝트를 목표로 합니다. 이 전략적 파트너십은 아세안 지역의 디지털 전환과 지속 가능한 경제 성장에 대한 양국의 의지를 강조합니다.",
+      "필리핀 마르코스 주니어 대통령은 이 기금이 필리핀의 디지털 격차를 해소하고 필리핀인들에게 수많은 고용 기회를 창출할 잠재력을 가진 국가 디지털 환경의 판도를 바꾸는 것이라고 평가했습니다. 이영희 과학기술정보통신부 장관은 첨단 디지털 기술에 대한 한국의 전문성이 회복력 있고 미래 지향적인 인프라를 개발하는 데 중요한 역할을 할 것이라고 강조하며 이러한 견해에 동조했습니다. 이번 협력은 추가적인 민간 부문 투자를 유치하여 혁신을 위한 역동적인 생태계를 조성할 것으로 기대됩니다.",
+      "필리핀 내 한인 사회에게 이 기금은 향상된 연결성과 디지털 서비스에 대한 접근성 개선을 의미하며, 본국 가족과의 소통을 용이하게 하고 사업 운영을 간소화할 수 있습니다. 전문가들은 이 이니셔티브가 필리핀의 디지털 혁명에 기여하고 이로부터 혜택을 받고자 하는 숙련된 한국 IT 전문가 및 기업가에 대한 수요를 자극할 것이라고 믿습니다. 사이버 보안 및 디지털 교육 프로그램에 초점을 맞춘 다음 단계에 대한 논의도 이미 진행 중입니다."
+    ],
+    "image_seed": "cover-2026-09-11",
+    "image_query": "Korean Philippine officials handshake digital agreement signing ceremony",
+    "image_caption": "Photo: Philippine President and Korean Minister of Science and ICT shaking hands after signing the digital fund agreement in Manila (2026.09.11)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "KNPA, PNP Boost Joint Efforts for Korean Community Safety",
+    "headline_kr": "경찰청, 필리핀 경찰청과 한인 사회 안전 위한 공동 노력 강화",
+    "lead_en": "The Korean National Police Agency (KNPA) and the Philippine National Police (PNP) have announced an expanded joint security initiative aimed at enhancing the safety and welfare of the Korean community across the Philippines. This intensified cooperation includes increased joint patrols in Korean-heavy areas, advanced intelligence sharing, and specialized training programs for local police on handling cases involving foreign residents.",
+    "lead_kr": "대한민국 경찰청(KNPA)과 필리핀 국가경찰(PNP)은 필리핀 전역의 한인 사회 안전과 복지 증진을 목표로 하는 확대된 공동 보안 이니셔티브를 발표했습니다. 이번 강화된 협력에는 한인 밀집 지역의 공동 순찰 증대, 첨단 정보 공유, 외국인 거주자 관련 사건 처리를 위한 현지 경찰 대상 전문 교육 프로그램 등이 포함됩니다.",
+    "image_seed": "feat-2026-09-11",
+    "image_query": "Korean Philippine police officers patrolling Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Meeting Concludes, Korea Pledges Further Investment",
+      "headline_kr": "아세안 경제장관회의 폐막, 한국 추가 투자 약속",
+      "summary_en": "The ASEAN Economic Ministers Meeting in Kuala Lumpur concluded with a renewed commitment to regional trade integration. South Korea reaffirmed its pledge for substantial investment in key sectors like manufacturing and sustainable energy, aiming to bolster supply chain resilience within the ASEAN bloc.",
+      "summary_kr": "쿠알라룸푸르에서 열린 아세안 경제장관회의가 역내 무역 통합에 대한 새로운 의지를 다지며 폐막했습니다. 한국은 아세안 블록 내 공급망 회복력 강화를 목표로 제조업 및 지속 가능한 에너지와 같은 주요 부문에 대한 상당한 투자 약속을 재확인했습니다.",
+      "image_seed": "news1-2026-09-11",
+      "image_query": "ASEAN flag, business leaders discussion",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Pop Dance Festival, Draws Huge Crowd",
+      "headline_kr": "마닐라, 성공적인 K-팝 댄스 페스티벌 개최, 엄청난 인파 몰려",
+      "summary_en": "Thousands of K-Pop enthusiasts gathered in Manila for the annual K-Pop Dance Festival, showcasing local talent and celebrating Korean culture. The event featured dance covers, fan meet-and-greets, and traditional Korean performances, highlighting the growing cultural exchange between the two nations.",
+      "summary_kr": "수천 명의 K-팝 팬들이 마닐라에서 연례 K-팝 댄스 페스티벌에 모여 현지 재능을 선보이고 한국 문화를 기념했습니다. 이 행사는 댄스 커버, 팬 미팅, 전통 한국 공연 등을 선보이며 양국 간의 증가하는 문화 교류를 부각시켰습니다.",
+      "image_seed": "news2-2026-09-11",
+      "image_query": "K-pop dance festival stage crowd",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Discuss Renewable Energy Partnership",
+      "headline_kr": "한국-필리핀, 재생에너지 파트너십 논의",
+      "summary_en": "High-level officials from Korea and the Philippines held discussions on strengthening cooperation in renewable energy, including solar, wind, and geothermal projects. The talks focused on technology transfer, joint development, and investment opportunities to achieve energy security and sustainability goals.",
+      "summary_kr": "한국과 필리핀 고위 관계자들이 태양광, 풍력, 지열 프로젝트를 포함한 재생에너지 협력 강화를 논의했습니다. 이번 회담은 에너지 안보 및 지속 가능성 목표 달성을 위한 기술 이전, 공동 개발, 투자 기회에 중점을 두었습니다.",
+      "image_seed": "news3-2026-09-11",
+      "image_query": "Solar panels wind turbines officials meeting",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati City Implements New Safety Program for Foreign Residents",
+      "headline_kr": "마카티 시, 외국인 거주자를 위한 새로운 안전 프로그램 시행",
+      "summary_en": "Makati City has launched a comprehensive safety program tailored for its large foreign resident population, including Koreans. The initiative provides multilingual emergency hotlines, community seminars on local laws and customs, and increased police visibility in expat-heavy districts to ensure a secure living environment.",
+      "summary_kr": "마카티 시는 한인을 포함한 대규모 외국인 거주자를 위한 포괄적인 안전 프로그램을 시작했습니다. 이 이니셔티브는 다국어 비상 핫라인, 지역 법률 및 관습에 대한 커뮤니티 세미나, 외국인 밀집 지역의 경찰 가시성 증가를 제공하여 안전한 생활 환경을 보장합니다.",
+      "image_seed": "news4-2026-09-11",
+      "image_query": "Makati street safety signs police",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between Korean technology and Philippine market potential is expected to drive significant economic growth.",
+    "example_kr": "한국 기술과 필리핀 시장 잠재력 간의 시너지는 상당한 경제 성장을 견인할 것으로 예상됩니다.",
+    "grade": "A+"
+  }
+}
