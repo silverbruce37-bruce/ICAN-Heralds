@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-12",
+  "header_date_line": "SATURDAY, SEPTEMBER 12, 2026 | PHILIPPINES | VOL. 164",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Hub Project Kicks Off, Boosting ASEAN Connectivity",
+    "headline_kr": "필리핀-한국 디지털 허브 프로젝트 착수, 아세안 연결성 강화",
+    "subtitle_en": "The ambitious joint venture aims to establish a state-of-the-art digital infrastructure, enhancing internet access and data exchange across the region. This initiative marks a significant step in bilateral economic partnership.",
+    "subtitle_kr": "야심찬 합작 사업은 최첨단 디지털 인프라를 구축하여 지역 전반의 인터넷 접근성과 데이터 교환을 강화하는 것을 목표로 합니다. 이번 이니셔티브는 양국 경제 파트너십의 중요한 진전입니다.",
+    "body_en": [
+      "Manila, Philippines – A landmark digital infrastructure project, a collaborative effort between the Philippines and South Korea, officially commenced operations yesterday, marking a new era of technological advancement and regional connectivity. The 'ASEAN Digital Hub Initiative,' spearheaded by both governments and key private sector players, aims to upgrade the Philippines' digital backbone, creating a high-speed, resilient network that will serve as a crucial gateway for data traffic across Southeast Asia.",
+      "This ambitious project involves significant investment in fiber optic networks, data centers, and submarine cables, promising to dramatically improve internet speeds and reliability for millions. For Korean businesses operating in the Philippines and the broader ASEAN region, this means enhanced operational efficiency, reduced communication costs, and new opportunities in digital services. Experts anticipate a surge in foreign direct investment into the Philippine tech sector, further solidifying its position as a regional digital economy hub.",
+      "The long-term vision extends beyond mere infrastructure, fostering a robust digital ecosystem that supports innovation, e-commerce, and digital education. The Korean community in the Philippines stands to benefit from improved connectivity for personal and business use, facilitating stronger ties with their homeland and enabling seamless integration into the local digital landscape. Both nations expressed optimism that this project will not only bridge the digital divide but also serve as a model for future bilateral cooperation in critical sectors."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀과 한국의 협력 노력으로 추진된 획기적인 디지털 인프라 프로젝트가 어제 공식적으로 가동을 시작하며 기술 발전과 지역 연결성의 새로운 시대를 열었습니다. 양국 정부와 주요 민간 부문 참여자들이 주도하는 '아세안 디지털 허브 이니셔티브'는 필리핀의 디지털 백본을 업그레이드하여 동남아시아 전역의 데이터 트래픽을 위한 중요한 관문 역할을 할 고속의 탄력적인 네트워크를 구축하는 것을 목표로 합니다.",
+      "이 야심찬 프로젝트는 광섬유 네트워크, 데이터 센터 및 해저 케이블에 대한 상당한 투자를 포함하며, 수백만 명의 인터넷 속도와 신뢰성을 획기적으로 향상시킬 것을 약속합니다. 필리핀 및 더 넓은 아세안 지역에서 사업을 운영하는 한국 기업들에게 이는 운영 효율성 향상, 통신 비용 절감, 디지털 서비스 분야의 새로운 기회를 의미합니다. 전문가들은 필리핀 기술 부문에 대한 외국인 직접 투자가 급증하여 지역 디지털 경제 허브로서의 입지를 더욱 공고히 할 것으로 예상합니다.",
+      "장기적인 비전은 단순한 인프라를 넘어 혁신, 전자상거래 및 디지털 교육을 지원하는 강력한 디지털 생태계를 조성하는 데 있습니다. 필리핀 한인 사회는 개인 및 비즈니스 용도로 개선된 연결성으로부터 혜택을 받아 고국과의 유대를 강화하고 현지 디지털 환경에 원활하게 통합될 수 있습니다. 양국은 이 프로젝트가 디지털 격차를 해소할 뿐만 아니라 주요 부문에서 미래 양자 협력의 모델이 될 것이라고 낙관했습니다."
+    ],
+    "image_seed": "cover-2026-09-12",
+    "image_query": "Korean Philippine officials shaking hands digital agreement signing ceremony",
+    "image_caption": "Photo: Philippine and Korean officials finalize agreements for the Digital Hub Project (September 11, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Safety",
+    "tag_class": "tag-safety",
+    "headline_en": "Korean Community Safety Drive Intensifies in Metro Manila",
+    "headline_kr": "메트로 마닐라 한인사회 안전 캠페인 강화",
+    "lead_en": "Local authorities, in partnership with the Korean Embassy and community leaders, have launched an intensified safety drive across key areas in Metro Manila. The initiative focuses on increasing police visibility and implementing new alert systems to protect residents.",
+    "lead_kr": "현지 당국은 주필리핀 대한민국 대사관 및 한인사회 리더들과 협력하여 메트로 마닐라 주요 지역에서 강화된 안전 캠페인을 시작했습니다. 이 이니셔티브는 경찰 가시성을 높이고 주민 보호를 위한 새로운 경고 시스템을 구현하는 데 중점을 둡니다.",
+    "image_seed": "feat-2026-09-12",
+    "image_query": "Philippine police Korean community leader meeting safety initiatives",
+    "desk": "Safety Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Remains Strong Despite Global Headwinds",
+      "headline_kr": "글로벌 역풍에도 아세안 경제 전망 여전히 강세",
+      "summary_en": "A recent report highlights ASEAN's resilience, projecting continued growth fueled by robust domestic demand and strategic trade agreements. Korean businesses are advised to leverage regional opportunities.",
+      "summary_kr": "최근 보고서는 견고한 내수와 전략적 무역 협정에 힘입어 아세안의 지속적인 성장을 전망하며 회복력을 강조했습니다. 한국 기업들은 지역 기회를 활용하는 것이 좋습니다.",
+      "image_seed": "news1-2026-09-12",
+      "image_query": "ASEAN economic graph upward trend",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Thousands in Bonifacio Global City",
+      "headline_kr": "본파시오 글로벌 시티 K-푸드 페스티벌 성황리 개최",
+      "summary_en": "The annual K-Food Festival concluded successfully in BGC, showcasing diverse Korean culinary delights and cultural performances. The event attracted a large crowd of both locals and expats.",
+      "summary_kr": "매년 열리는 K-푸드 페스티벌이 BGC에서 성공적으로 막을 내리며 다양한 한국 요리와 문화 공연을 선보였습니다. 이 행사는 현지인과 외국인 모두에게 큰 인기를 끌었습니다.",
+      "image_seed": "news2-2026-09-12",
+      "image_query": "K-food festival crowd enjoying food",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Aid Boosts Philippine Rural Development Projects",
+      "headline_kr": "한국 원조, 필리핀 농촌 개발 프로젝트에 활력",
+      "summary_en": "South Korea's commitment to supporting sustainable development in the Philippines continues, with new aid packages focused on agricultural technology and infrastructure in rural areas.",
+      "summary_kr": "한국은 필리핀의 지속 가능한 개발 지원 약속을 계속하고 있으며, 농촌 지역의 농업 기술 및 인프라에 중점을 둔 새로운 원조 패키지를 제공합니다.",
+      "image_seed": "news3-2026-09-12",
+      "image_query": "Korean flag Philippine flag rural development project",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "New Hotline Launched for Korean Tourists in Boracay",
+      "headline_kr": "보라카이 한국인 관광객 위한 새 핫라인 개설",
+      "summary_en": "To ensure safer travel experiences, a dedicated 24/7 hotline has been established for Korean tourists visiting Boracay, offering immediate assistance for emergencies and inquiries.",
+      "summary_kr": "더 안전한 여행 경험을 위해 보라카이를 방문하는 한국인 관광객을 위한 24시간 전용 핫라인이 개설되어 긴급 상황 및 문의에 즉각적인 지원을 제공합니다.",
+      "image_seed": "news4-2026-09-12",
+      "image_query": "Boracay beach tourist helpline phone",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합 효과를 만들어내는 것.",
+    "example_en": "The digital infrastructure project is expected to create significant synergy between the Philippine and Korean tech sectors.",
+    "example_kr": "이 디지털 인프라 프로젝트는 필리핀과 한국 기술 부문 간에 상당한 시너지를 창출할 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

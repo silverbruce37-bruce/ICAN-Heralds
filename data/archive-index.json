@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-09-12",
+    "vol": 164,
+    "cover_en": "Philippines-Korea Digital Hub Project Kicks Off, Boosting ASEAN Connectivity",
+    "cover_kr": "필리핀-한국 디지털 허브 프로젝트 착수, 아세안 연결성 강화",
+    "headlines_en": [
+      "Korean Community Safety Drive Intensifies in Metro Manila",
+      "ASEAN Economic Outlook Remains Strong Despite Global Headwinds",
+      "K-Food Festival Draws Thousands in Bonifacio Global City",
+      "Korean Aid Boosts Philippine Rural Development Projects",
+      "New Hotline Launched for Korean Tourists in Boracay"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인사회 안전 캠페인 강화",
+      "글로벌 역풍에도 아세안 경제 전망 여전히 강세",
+      "본파시오 글로벌 시티 K-푸드 페스티벌 성황리 개최",
+      "한국 원조, 필리핀 농촌 개발 프로젝트에 활력",
+      "보라카이 한국인 관광객 위한 새 핫라인 개설"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Culture",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-09-11",
     "vol": 163,
     "cover_en": "Philippines, Korea Launch Joint Digital Infrastructure Fund",
