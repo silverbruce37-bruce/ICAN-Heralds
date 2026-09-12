@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-13",
+  "header_date_line": "SUNDAY, SEPTEMBER 13, 2026 | PHILIPPINES | VOL. 165",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-PH Digital Partnership Enters New Era, Boosting Regional Economy",
+    "headline_kr": "한-필리핀 디지털 파트너십 새 시대 진입, 역내 경제 활성화 기대",
+    "subtitle_en": "A landmark agreement signed last week aims to accelerate digital transformation, focusing on AI, fintech, and renewable energy technologies. This initiative is set to attract significant Korean investment and foster technological exchange.",
+    "subtitle_kr": "지난주 체결된 획기적인 협정은 AI, 핀테크, 재생에너지 기술에 중점을 두어 디지털 전환을 가속화하는 것을 목표로 합니다. 이번 이니셔티브는 상당한 한국 투자 유치 및 기술 교류 증진에 기여할 것으로 기대됩니다.",
+    "body_en": [
+      "The Philippines and South Korea have officially launched a new phase in their digital partnership, cementing their commitment to collaborative innovation and economic growth. The agreement, finalized during a high-level summit in Manila, outlines a strategic roadmap for joint projects in advanced digital technologies, including artificial intelligence applications, secure fintech solutions, and smart grid development for renewable energy integration. This move is seen as a crucial step towards strengthening the ASEAN region's digital infrastructure and competitiveness.",
+      "Korean tech giants and startups have expressed keen interest in participating in the Philippines' burgeoning digital economy, viewing it as a strategic gateway to the broader Southeast Asian market. The partnership is expected to facilitate technology transfer, create numerous job opportunities for local talent, and enhance the digital literacy of the Filipino workforce. For the Korean community in the Philippines, this means increased business opportunities, enhanced digital services, and a more robust economic environment.",
+      "Analysts predict that this enhanced digital cooperation will not only drive economic prosperity but also foster deeper cultural and social ties between the two nations. Both governments are committed to ensuring equitable access to these technological advancements, aiming to bridge the digital divide and promote inclusive growth. Future initiatives are expected to include joint research and development centers, talent exchange programs, and digital policy dialogues to address emerging challenges in the rapidly evolving tech landscape."
+    ],
+    "body_kr": [
+      "필리핀과 한국은 디지털 파트너십의 새로운 단계를 공식적으로 시작하며, 협력적 혁신과 경제 성장에 대한 약속을 확고히 했습니다. 마닐라에서 열린 고위급 정상회담에서 최종 확정된 이번 협정은 인공지능 애플리케이션, 보안 핀테크 솔루션, 재생에너지 통합을 위한 스마트 그리드 개발 등 첨단 디지털 기술 분야의 공동 프로젝트를 위한 전략적 로드맵을 제시합니다. 이러한 움직임은 아세안 지역의 디지털 인프라와 경쟁력을 강화하는 데 중요한 단계로 평가됩니다.",
+      "한국의 기술 대기업과 스타트업들은 필리핀의 급성장하는 디지털 경제에 참여하는 데 큰 관심을 표명하며, 필리핀을 더 넓은 동남아시아 시장으로 향하는 전략적 관문으로 보고 있습니다. 이번 파트너십은 기술 이전을 촉진하고, 현지 인재를 위한 수많은 일자리를 창출하며, 필리핀 노동력의 디지털 역량을 향상시킬 것으로 기대됩니다. 필리핀 내 한인 사회에게는 비즈니스 기회 증가, 디지털 서비스 개선, 그리고 더욱 견고한 경제 환경을 의미합니다.",
+      "분석가들은 이러한 강화된 디지털 협력이 경제적 번영을 이끌 뿐만 아니라 양국 간의 문화적, 사회적 유대를 더욱 심화시킬 것이라고 전망합니다. 양국 정부는 이러한 기술 발전의 공정한 접근을 보장하여 디지털 격차를 해소하고 포괄적인 성장을 촉진하는 데 전념하고 있습니다. 향후 이니셔티브에는 공동 연구 개발 센터, 인재 교류 프로그램, 그리고 급변하는 기술 환경에서 발생하는 문제에 대처하기 위한 디지털 정책 대화가 포함될 것으로 예상됩니다."
+    ],
+    "image_seed": "cover-2026-09-13",
+    "image_query": "Korean and Philippine officials shaking hands after signing digital cooperation agreement",
+    "image_caption": "Photo: Officials from Korea and the Philippines finalize a digital cooperation pact in Manila (September 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Patrols Boost Safety in Tourist Hubs",
+    "headline_kr": "한-필리핀 합동 경찰 순찰, 관광 중심지 안전 강화",
+    "lead_en": "Recent reports indicate a significant reduction in street crime and incidents targeting the Korean community in major tourist destinations, attributed to the expanded joint patrol initiatives between Philippine and Korean police forces. The increased visibility and coordinated efforts have created a safer environment for residents and visitors alike.",
+    "lead_kr": "최근 보고서에 따르면 필리핀과 한국 경찰 간의 확대된 합동 순찰 이니셔티브 덕분에 주요 관광지에서 한인 사회를 대상으로 한 길거리 범죄와 사건이 크게 감소했습니다. 가시성 증대와 협력적인 노력은 주민과 방문객 모두에게 더 안전한 환경을 조성했습니다.",
+    "image_seed": "feat-2026-09-13",
+    "image_query": "Philippine and Korean police officers patrolling busy street in Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Startups Eye Philippine Market for ASEAN Expansion",
+      "headline_kr": "한국 스타트업들, 아세안 확장을 위해 필리핀 시장 주목",
+      "summary_en": "A growing number of Korean startups are looking towards the Philippines as a primary entry point for expanding into the broader ASEAN market, particularly in fintech, e-commerce, and sustainable technology sectors.",
+      "summary_kr": "점점 더 많은 한국 스타트업들이 핀테크, 전자상거래, 지속 가능한 기술 분야를 중심으로 더 넓은 아세안 시장으로 확장하기 위한 주요 진출 거점으로 필리핀을 주목하고 있습니다.",
+      "image_seed": "news1-2026-09-13",
+      "image_query": "Korean startup team meeting in modern Manila office",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Crowds in Cebu, Showcasing Culinary Diversity",
+      "headline_kr": "세부 K-푸드 페스티벌 성황리 개최, 요리 다양성 선보여",
+      "summary_en": "The annual K-Food Festival in Cebu concluded with record attendance, celebrating the rich culinary heritage of Korea and promoting cultural exchange through various food stalls and cooking demonstrations.",
+      "summary_kr": "세부에서 열린 연례 K-푸드 페스티벌이 역대 최고 참석률을 기록하며 성황리에 막을 내렸습니다. 다양한 음식 부스와 요리 시연을 통해 한국의 풍부한 요리 유산을 기념하고 문화 교류를 증진했습니다.",
+      "image_seed": "news2-2026-09-13",
+      "image_query": "People enjoying Korean street food at outdoor festival Cebu",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines, Korea Discuss Maritime Security Cooperation in South China Sea",
+      "headline_kr": "필리핀-한국, 남중국해 해양 안보 협력 논의",
+      "summary_en": "High-level defense officials from both nations held talks to explore enhanced cooperation in maritime domain awareness, joint exercises, and capacity building amidst regional security challenges.",
+      "summary_kr": "양국의 고위 국방 관계자들이 지역 안보 문제에 직면하여 해양 영역 인식, 합동 훈련 및 역량 강화 분야에서 협력 증진 방안을 모색하기 위한 회담을 가졌습니다.",
+      "image_seed": "news3-2026-09-13",
+      "image_query": "Korean and Philippine naval officers reviewing maritime maps",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "New Immigration Guidelines for Korean Residents Announced",
+      "headline_kr": "한인 거주민 위한 새로운 이민국 지침 발표",
+      "summary_en": "The Bureau of Immigration has released updated procedures and requirements, aiming to streamline visa renewals and other essential services for the long-term Korean resident community in the Philippines.",
+      "summary_kr": "이민국은 필리핀 내 장기 거주 한인 커뮤니티를 위한 비자 갱신 및 기타 필수 서비스 절차를 간소화하기 위해 업데이트된 지침과 요건을 발표했습니다.",
+      "image_seed": "news4-2026-09-13",
+      "image_query": "Korean resident interacting with Philippine immigration officer at counter",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital partnership aims to achieve synergy between Korean technology and Philippine market potential.",
+    "example_kr": "이번 디지털 파트너십은 한국 기술과 필리핀 시장 잠재력 간의 시너지를 목표로 한다.",
+    "grade": "A+"
+  }
+}

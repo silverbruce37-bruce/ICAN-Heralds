@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-13",
+    "vol": 165,
+    "cover_en": "Korea-PH Digital Partnership Enters New Era, Boosting Regional Economy",
+    "cover_kr": "한-필리핀 디지털 파트너십 새 시대 진입, 역내 경제 활성화 기대",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Boost Safety in Tourist Hubs",
+      "Korean Startups Eye Philippine Market for ASEAN Expansion",
+      "K-Food Festival Draws Crowds in Cebu, Showcasing Culinary Diversity",
+      "Philippines, Korea Discuss Maritime Security Cooperation in South China Sea",
+      "New Immigration Guidelines for Korean Residents Announced"
+    ],
+    "headlines_kr": [
+      "한-필리핀 합동 경찰 순찰, 관광 중심지 안전 강화",
+      "한국 스타트업들, 아세안 확장을 위해 필리핀 시장 주목",
+      "세부 K-푸드 페스티벌 성황리 개최, 요리 다양성 선보여",
+      "필리핀-한국, 남중국해 해양 안보 협력 논의",
+      "한인 거주민 위한 새로운 이민국 지침 발표"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-09-12",
     "vol": 164,
     "cover_en": "Philippines-Korea Digital Hub Project Kicks Off, Boosting ASEAN Connectivity",
