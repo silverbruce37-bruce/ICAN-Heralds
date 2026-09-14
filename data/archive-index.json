@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-15",
+    "vol": 167,
+    "cover_en": "Philippines-Korea Digital Trade Corridor Boosts Bilateral Economy",
+    "cover_kr": "필리핀-한국 디지털 무역 회랑, 양국 경제 활성화",
+    "headlines_en": [
+      "Korean Embassy Enhances Safety Protocols for Community Members",
+      "Philippine Q3 GDP Shows Robust Growth, Attracting More Korean Investment",
+      "K-Food Festival Draws Thousands in Manila, Showcasing Culinary Delights",
+      "Korea Supports Philippine Renewable Energy Transition with New Aid Package",
+      "Local Police Remind Residents of Typhoon Season Safety Measures"
+    ],
+    "headlines_kr": [
+      "주필리핀 한국대사관, 교민 안전 프로토콜 강화",
+      "필리핀 3분기 GDP 견조한 성장세, 한국 투자 유치 확대",
+      "마닐라 K-푸드 페스티벌 성황리 개최, 한국 음식 문화 선보여",
+      "한국, 필리핀 재생에너지 전환에 신규 지원 패키지 제공",
+      "현지 경찰, 태풍 시즌 안전 수칙 준수 당부"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Security",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-09-14",
     "vol": 166,
     "cover_en": "PH-Korea Unveil Landmark Digital Infrastructure Partnership",

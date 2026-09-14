@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-15",
+  "header_date_line": "TUESDAY, SEPTEMBER 15, 2026 | PHILIPPINES | VOL. 167",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.15",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Trade Corridor Boosts Bilateral Economy",
+    "headline_kr": "필리핀-한국 디지털 무역 회랑, 양국 경제 활성화",
+    "subtitle_en": "A new framework agreement signed yesterday aims to streamline digital transactions and foster innovation between the two nations, promising significant economic growth.",
+    "subtitle_kr": "어제 체결된 새로운 협약은 양국 간 디지털 거래를 간소화하고 혁신을 촉진하여 상당한 경제 성장을 약속합니다.",
+    "body_en": [
+      "Manila, Philippines – A landmark agreement was formally inked yesterday between the Philippines and South Korea, establishing a 'Digital Trade Corridor' designed to enhance cross-border e-commerce and digital services. The initiative, signed by officials from both governments, is expected to significantly reduce bureaucratic hurdles and transaction costs for businesses operating between the two countries.",
+      "This new framework specifically targets sectors ripe for digital transformation, including logistics, financial technology, and online retail. Korean businesses investing in the Philippines will benefit from simplified digital customs procedures and improved data exchange protocols, fostering a more efficient and transparent trade environment. Conversely, Filipino entrepreneurs will gain easier access to the lucrative Korean market, promoting a broader range of goods and services.",
+      "Experts believe the Digital Trade Corridor will act as a catalyst for increased foreign direct investment from Korea into the Philippines, particularly in the burgeoning tech and innovation hubs. This strategic partnership not only strengthens bilateral economic ties but also positions both nations as leaders in the digital economy within the broader ASEAN region, paving the way for future collaborative projects in smart infrastructure and AI-driven solutions."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀과 한국이 어제 국경을 넘는 전자상거래와 디지털 서비스를 강화하기 위한 '디지털 무역 회랑'을 구축하는 획기적인 협약을 공식적으로 체결했습니다. 양국 정부 관계자들이 서명한 이 이니셔티브는 양국 간 사업을 운영하는 기업들의 관료적 장벽과 거래 비용을 크게 줄일 것으로 기대됩니다.",
+      "이 새로운 프레임워크는 물류, 핀테크, 온라인 소매 등 디지털 전환에 적합한 분야를 특히 목표로 합니다. 필리핀에 투자하는 한국 기업들은 간소화된 디지털 통관 절차와 개선된 데이터 교환 프로토콜의 혜택을 받아 보다 효율적이고 투명한 무역 환경을 조성할 것입니다. 반대로 필리핀 기업가들은 수익성 높은 한국 시장에 더 쉽게 접근하여 더 넓은 범위의 상품과 서비스를 홍보할 수 있게 됩니다.",
+      "전문가들은 디지털 무역 회랑이 필리핀의 급성장하는 기술 및 혁신 허브에 대한 한국의 해외 직접 투자를 증가시키는 촉매제 역할을 할 것이라고 믿습니다. 이 전략적 파트너십은 양국 간의 경제적 유대를 강화할 뿐만 아니라 더 넓은 아세안 지역 내에서 두 국가를 디지털 경제의 선두 주자로 자리매김하며, 스마트 인프라 및 AI 기반 솔루션 분야의 미래 협력 프로젝트를 위한 길을 열 것입니다."
+    ],
+    "image_seed": "cover-2026-09-15",
+    "image_query": "Korean Philippine officials handshake signing digital trade agreement",
+    "image_caption": "Photo: Officials from Korea and the Philippines finalize a digital trade agreement in Manila (Sept. 14, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Embassy Enhances Safety Protocols for Community Members",
+    "headline_kr": "주필리핀 한국대사관, 교민 안전 프로토콜 강화",
+    "lead_en": "The Korean Embassy in the Philippines announced new security measures and strengthened cooperation with local authorities to ensure the safety and well-being of the Korean community. These initiatives include increased patrols in key Korean residential areas and a new emergency alert system.",
+    "lead_kr": "주필리핀 한국대사관은 교민의 안전과 복지를 보장하기 위해 새로운 보안 조치를 발표하고 현지 당국과의 협력을 강화했습니다. 이러한 이니셔티브에는 주요 한인 거주 지역 순찰 강화와 새로운 비상 경보 시스템 도입이 포함됩니다.",
+    "image_seed": "feat-2026-09-15",
+    "image_query": "Korean embassy official Philippine police patrol Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Q3 GDP Shows Robust Growth, Attracting More Korean Investment",
+      "headline_kr": "필리핀 3분기 GDP 견조한 성장세, 한국 투자 유치 확대",
+      "summary_en": "The Philippine economy recorded a strong Q3 GDP growth, exceeding market expectations. This positive trend is drawing significant interest from Korean investors looking to expand their presence in Southeast Asia.",
+      "summary_kr": "필리핀 경제가 시장 기대치를 뛰어넘는 견조한 3분기 GDP 성장을 기록했습니다. 이러한 긍정적인 추세는 동남아시아로의 확장을 모색하는 한국 투자자들의 상당한 관심을 끌고 있습니다.",
+      "image_seed": "news1-2026-09-15",
+      "image_query": "Manila skyline construction cranes economic growth",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Thousands in Manila, Showcasing Culinary Delights",
+      "headline_kr": "마닐라 K-푸드 페스티벌 성황리 개최, 한국 음식 문화 선보여",
+      "summary_en": "Manila's annual K-Food Festival concluded successfully, attracting thousands of visitors eager to experience authentic Korean cuisine and cultural performances. The event highlighted the growing popularity of Korean food in the Philippines.",
+      "summary_kr": "마닐라 연례 K-푸드 페스티벌이 성공적으로 막을 내렸으며, 수천 명의 방문객이 정통 한국 음식과 문화 공연을 경험했습니다. 이 행사는 필리핀에서 한국 음식의 인기가 높아지고 있음을 보여주었습니다.",
+      "image_seed": "news2-2026-09-15",
+      "image_query": "People enjoying Korean food at festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Supports Philippine Renewable Energy Transition with New Aid Package",
+      "headline_kr": "한국, 필리핀 재생에너지 전환에 신규 지원 패키지 제공",
+      "summary_en": "South Korea announced a new aid package to support the Philippines' transition to renewable energy sources. This initiative underscores bilateral commitment to sustainable development and climate action.",
+      "summary_kr": "한국은 필리핀의 재생에너지 전환을 지원하기 위한 새로운 지원 패키지를 발표했습니다. 이 이니셔티브는 지속 가능한 개발 및 기후 행동에 대한 양국의 약속을 강조합니다.",
+      "image_seed": "news3-2026-09-15",
+      "image_query": "Solar panels Philippines landscape Korean flag",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Local Police Remind Residents of Typhoon Season Safety Measures",
+      "headline_kr": "현지 경찰, 태풍 시즌 안전 수칙 준수 당부",
+      "summary_en": "With the peak of typhoon season approaching, local police are urging residents, including the Korean community, to review and follow essential safety measures to minimize risks and ensure preparedness.",
+      "summary_kr": "태풍 시즌이 다가옴에 따라 현지 경찰은 한인 교민을 포함한 주민들에게 위험을 최소화하고 대비를 보장하기 위해 필수 안전 수칙을 검토하고 따를 것을 촉구하고 있습니다.",
+      "image_seed": "news4-2026-09-15",
+      "image_query": "Philippine police officer community safety briefing",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "[ˈkætəlɪst]",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; something that causes a change without being directly involved in the change itself.",
+    "definition_kr": "사건이나 변화를 촉발하는 사람이나 사물; 변화 자체에 직접 관여하지 않고 변화를 일으키는 것.",
+    "example_en": "The new digital trade agreement is expected to be a major catalyst for economic growth between the Philippines and Korea.",
+    "example_kr": "새로운 디지털 무역 협정은 필리핀과 한국 간의 경제 성장에 중요한 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
