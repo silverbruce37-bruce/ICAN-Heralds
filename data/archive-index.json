@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-16",
+    "vol": 168,
+    "cover_en": "Philippines, S. Korea Forge Ahead with Landmark Digital Infrastructure Pact",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 인프라 협정 체결로 미래 향해 나아가다",
+    "headlines_en": [
+      "Enhanced Security Protocols Rolled Out for Korean Community in Key Areas",
+      "ASEAN-Korea FTA Boosts Trade for Local SMEs, Report Shows",
+      "Manila Gears Up for Highly Anticipated K-Pop Festival 2026",
+      "Joint Maritime Drills Strengthen PH-ROK Defense Ties Amid Regional Tensions",
+      "Korean Community Leaders Advocate for Stronger Neighborhood Watch Programs"
+    ],
+    "headlines_kr": [
+      "주요 지역 한인 사회 위한 강화된 보안 프로토콜 시행",
+      "보고서: 아세안-한국 FTA, 현지 중소기업 무역 증진",
+      "마닐라, 기대되는 2026 K-Pop 페스티벌 준비 박차",
+      "역내 긴장 속 필리핀-한국 합동 해상 훈련, 국방 관계 강화",
+      "한인 사회 리더들, 강력한 이웃 감시 프로그램 옹호"
+    ],
+    "tags": [
+      "Security",
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-09-15",
     "vol": 167,
     "cover_en": "Philippines-Korea Digital Trade Corridor Boosts Bilateral Economy",
