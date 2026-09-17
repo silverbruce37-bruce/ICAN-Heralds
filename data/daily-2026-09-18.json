@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-18",
+  "header_date_line": "FRIDAY, SEPTEMBER 18, 2026 | PHILIPPINES | VOL. 170",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.18",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Digital Innovation Hub, Boosting Tech Collaboration",
+    "headline_kr": "한-필리핀 디지털 혁신 허브 출범, 기술 협력 강화",
+    "subtitle_en": "The new center in Taguig aims to foster startups, enhance bilateral tech exchange, and create opportunities for skilled Korean professionals.",
+    "subtitle_kr": "타귁에 설립된 새 센터는 스타트업 육성, 양국 기술 교류 증진 및 숙련된 한국인 전문가들을 위한 기회 창출을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a landmark move to cement their strategic partnership in the digital age, the Philippines and South Korea officially launched the 'PH-Korea Digital Innovation Hub' yesterday in Taguig City. The state-of-the-art facility is designed to serve as a nexus for technological advancement, fostering collaboration between Filipino and Korean tech startups, researchers, and established companies. Officials from both nations emphasized the hub's role in driving innovation across key sectors such as AI, fintech, and sustainable technologies.",
+      "The initiative is expected to bring substantial benefits to the Korean community in the Philippines, offering new avenues for employment, investment, and entrepreneurial ventures. Korean professionals and businesses will find a supportive ecosystem for developing and scaling their solutions, while also contributing to the Philippines' burgeoning digital economy. The hub will provide incubation programs, mentorship from industry leaders, and access to a network of investors, aiming to create a vibrant cross-cultural tech landscape.",
+      "Both governments have pledged significant resources to ensure the hub's success, highlighting its importance in their long-term economic development strategies. This collaborative effort is anticipated to not only accelerate digital transformation within the Philippines but also position the two nations as leaders in regional technological innovation, attracting further foreign direct investment and talent to the ASEAN bloc. The hub is set to open its doors to its first cohort of startups by early 2027."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 시대의 전략적 파트너십을 공고히 하기 위한 획기적인 조치로, 필리핀과 한국은 어제 타귁 시에서 '한-필리핀 디지털 혁신 허브'를 공식 출범시켰습니다. 최첨단 시설은 기술 발전을 위한 중심지로 설계되었으며, 필리핀 및 한국 기술 스타트업, 연구원, 그리고 기존 기업 간의 협력을 촉진할 것입니다. 양국 관계자들은 AI, 핀테크, 지속 가능한 기술과 같은 주요 부문에서 혁신을 주도하는 허브의 역할을 강조했습니다.",
+      "이 이니셔티브는 필리핀 한인 커뮤니티에 상당한 이점을 가져다줄 것으로 예상되며, 고용, 투자 및 기업가적 벤처를 위한 새로운 길을 제공할 것입니다. 한국 전문가와 기업은 솔루션을 개발하고 확장하기 위한 지원 생태계를 찾을 수 있으며, 필리핀의 급성장하는 디지털 경제에도 기여할 것입니다. 허브는 인큐베이션 프로그램, 업계 리더의 멘토링, 투자자 네트워크 접근을 제공하여 활기찬 다문화 기술 환경을 조성하는 것을 목표로 합니다.",
+      "양국 정부는 허브의 성공을 보장하기 위해 상당한 자원을 약속했으며, 장기적인 경제 발전 전략에서 그 중요성을 강조했습니다. 이러한 협력 노력은 필리핀 내 디지털 전환을 가속화할 뿐만 아니라, 두 국가를 지역 기술 혁신의 리더로 자리매김하여 ASEAN 블록으로 더 많은 해외 직접 투자와 인재를 유치할 것으로 예상됩니다. 허브는 2027년 초까지 첫 번째 스타트업 그룹에게 문을 열 예정입니다."
+    ],
+    "image_seed": "cover-2026-09-18",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials finalize the agreement for the new Digital Innovation Hub in Taguig (Sept. 17, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Boosts Tourist Safety in Key Areas",
+    "headline_kr": "한-필리핀 합동 경찰 기동대, 주요 지역 관광객 안전 강화",
+    "lead_en": "A new joint task force comprising Philippine National Police and Korean National Police representatives has been deployed to popular tourist destinations and Korean community hubs to deter crime and ensure visitor safety. The initiative follows recent discussions on strengthening bilateral security cooperation.",
+    "lead_kr": "필리핀 국가경찰과 한국 경찰청 대표로 구성된 새로운 합동 기동대가 인기 관광지와 한인 커뮤니티 중심지에 배치되어 범죄를 억제하고 방문객의 안전을 보장합니다. 이 이니셔티브는 양자 안보 협력 강화에 대한 최근 논의에 따른 것입니다.",
+    "image_seed": "feat-2026-09-18",
+    "image_query": "Korean Philippine police officers patrol street Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Exports to Korea See Significant Rise in Q3 2026",
+      "headline_kr": "2026년 3분기 필리핀 대(對)한국 수출량 크게 증가",
+      "summary_en": "Philippine trade officials report a substantial increase in exports of agricultural products and electronics to South Korea, signaling robust bilateral trade relations and economic growth in the region.",
+      "summary_kr": "필리핀 무역 당국은 한국으로의 농산물 및 전자제품 수출이 크게 증가했다고 보고하며, 이는 강력한 양자 무역 관계와 지역 경제 성장을 시사합니다.",
+      "image_seed": "news1-2026-09-18",
+      "image_query": "container ships port Manila sunrise",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Festival Draws Record Crowds in Cebu",
+      "headline_kr": "세부 K-팝 댄스 페스티벌 역대 최다 관객 동원",
+      "summary_en": "Cebu hosted a vibrant K-Pop dance festival, attracting thousands of fans and showcasing the growing popularity of Korean culture among Filipino youth. Local dance groups competed, performing intricate routines.",
+      "summary_kr": "세부에서 활기찬 K-팝 댄스 페스티벌이 개최되어 수천 명의 팬을 끌어모았으며, 필리핀 청소년들 사이에서 한국 문화의 인기가 높아지고 있음을 보여주었습니다. 현지 댄스 그룹들이 복잡한 안무로 경쟁했습니다.",
+      "image_seed": "news2-2026-09-18",
+      "image_query": "K-Pop dance festival stage crowd Cebu",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean NGOs Partner with Local Groups for Mangrove Reforestation",
+      "headline_kr": "한국 NGO, 현지 단체와 맹그로브 재조림 사업 협력",
+      "summary_en": "Several Korean non-governmental organizations have launched a joint initiative with Philippine environmental groups to restore critical mangrove ecosystems along coastal areas, emphasizing sustainable development and climate resilience.",
+      "summary_kr": "여러 한국 비정부 기구들이 필리핀 환경 단체들과 협력하여 해안 지역의 중요한 맹그로브 생태계를 복원하기 위한 공동 이니셔티브를 시작했으며, 지속 가능한 발전과 기후 회복력을 강조합니다.",
+      "image_seed": "news3-2026-09-18",
+      "image_query": "people planting mangrove trees Philippines",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Reminder on Online Scams Targeting Korean Residents",
+      "headline_kr": "대사관, 한인 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has reissued a warning to its nationals regarding the rise of sophisticated online scams, urging vigilance and caution when dealing with unsolicited digital communications or investment offers.",
+      "summary_kr": "주 필리핀 대한민국 대사관은 정교한 온라인 사기가 증가함에 따라 자국민에게 경고를 재차 발령하고, 원치 않는 디지털 통신이나 투자 제안에 대해 경계하고 주의할 것을 당부했습니다.",
+      "image_seed": "news4-2026-09-18",
+      "image_query": "person looking at phishing email computer",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "definition_kr": "사건이나 변화를 촉진하는 사람이나 사물; 자신은 영구적인 화학적 변화를 겪지 않으면서 화학 반응 속도를 증가시키는 물질.",
+    "example_en": "The new Digital Innovation Hub is expected to be a catalyst for technological advancement and economic growth in the Philippines.",
+    "example_kr": "새로운 디지털 혁신 허브는 필리핀의 기술 발전과 경제 성장의 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
