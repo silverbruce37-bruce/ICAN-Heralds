@@ -1,0 +1,3 @@
+# Python dependencies for the ICAN Heralds generator/utility scripts.
+# The scripts otherwise rely only on the Python 3.12 standard library.
+requests==2.33.1
