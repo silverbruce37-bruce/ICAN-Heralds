@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-19",
+  "header_date_line": "SATURDAY, SEPTEMBER 19, 2026 | PHILIPPINES | VOL. 2501",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Tech Investment Fuels Philippines' Digital Infrastructure Leap",
+    "headline_kr": "한국 기술 투자, 필리핀 디지털 인프라 도약에 박차",
+    "subtitle_en": "A major Korean consortium announces the successful completion of Phase 1 of the New Clark City smart infrastructure project, promising enhanced connectivity and economic growth.",
+    "subtitle_kr": "한국 주요 컨소시엄, 뉴클락시티 스마트 인프라 프로젝트 1단계 성공적 완료 발표, 연결성 강화 및 경제 성장 약속.",
+    "body_en": [
+      "MANILA – A landmark collaboration between a leading Korean technology consortium and the Philippine government has reached a significant milestone with the successful completion of Phase 1 of the ambitious New Clark City smart infrastructure project. This development, announced yesterday by officials from both nations, marks a crucial step forward in the Philippines' journey towards becoming a digitally advanced economy, leveraging cutting-edge Korean expertise.",
+      "Phase 1 focused on laying the foundational digital backbone for the sprawling smart city, including high-speed fiber optic networks, integrated data centers, and advanced IoT sensor systems designed to optimize urban services. Experts predict that the enhanced connectivity and data capabilities will attract further foreign direct investment, particularly in sectors like IT-BPM, logistics, and smart manufacturing, creating thousands of new job opportunities for Filipinos.",
+      "Looking ahead, the consortium and the Bases Conversion and Development Authority (BCDA) are set to finalize plans for Phase 2, which will involve the deployment of smart mobility solutions, AI-powered urban management systems, and sustainable energy grids. This long-term partnership underscores the strengthening economic ties between Korea and the Philippines, positioning New Clark City as a model for future sustainable and technologically integrated urban development in Southeast Asia."
+    ],
+    "body_kr": [
+      "마닐라 – 한국의 선도적인 기술 컨소시엄과 필리핀 정부 간의 획기적인 협력이 야심찬 뉴클락시티 스마트 인프라 프로젝트 1단계의 성공적인 완료로 중요한 이정표에 도달했습니다. 어제 양국 관계자들이 발표한 이 개발은 최첨단 한국의 전문성을 활용하여 필리핀이 디지털 선진 경제로 나아가는 데 중요한 발걸음을 내디뎠음을 의미합니다.",
+      "1단계는 광활한 스마트 도시의 기초 디지털 백본 구축에 중점을 두었으며, 여기에는 고속 광섬유 네트워크, 통합 데이터 센터 및 도시 서비스를 최적화하도록 설계된 고급 IoT 센서 시스템이 포함됩니다. 전문가들은 강화된 연결성과 데이터 역량이 IT-BPM, 물류 및 스마트 제조와 같은 분야에서 추가적인 해외 직접 투자를 유치하여 필리핀에 수천 개의 새로운 일자리를 창출할 것으로 예측합니다.",
+      "앞으로 컨소시엄과 기지 전환 개발청(BCDA)은 스마트 모빌리티 솔루션, AI 기반 도시 관리 시스템 및 지속 가능한 에너지 그리드 배치를 포함하는 2단계 계획을 확정할 예정입니다. 이 장기적인 파트너십은 한국과 필리핀 간의 경제적 유대 강화를 강조하며, 뉴클락시티를 동남아시아의 미래 지속 가능하고 기술적으로 통합된 도시 개발의 모델로 자리매김하고 있습니다."
+    ],
+    "image_seed": "cover-2026-09-19",
+    "image_query": "Korean Philippine officials handshake signing digital agreement New Clark City",
+    "image_caption": "Photo: Korean and Philippine officials celebrate the completion of New Clark City's Phase 1 digital infrastructure (2026-09-18)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Boost Safety in Tourist Hubs",
+    "headline_kr": "필리핀-한국 경찰 합동, 관광 중심지 안전 강화",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) representatives have announced expanded joint patrols and community engagement programs in key tourist destinations like Makati and Boracay, aiming to ensure the safety of both locals and foreign visitors, especially the Korean community.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 대표들은 마카티와 보라카이 등 주요 관광지에서 합동 순찰 및 지역사회 참여 프로그램을 확대한다고 발표했다. 이는 현지인과 외국인 방문객, 특히 한인 커뮤니티의 안전을 보장하기 위함이다.",
+    "image_seed": "feat-2026-09-19",
+    "image_query": "Philippine Korean police officers patrol Makati street",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Forecasted for Robust Growth",
+      "headline_kr": "아세안 디지털 경제, 견고한 성장 전망",
+      "summary_en": "Experts at the recent ASEAN Economic Forum projected continued strong growth for the region's digital economy, driven by increased e-commerce adoption and tech investments, with implications for Korean businesses.",
+      "summary_kr": "최근 아세안 경제 포럼에서 전문가들은 전자상거래 채택 증가와 기술 투자에 힘입어 역내 디지털 경제의 견고한 성장을 예측했으며, 이는 한국 기업들에게도 영향을 미칠 것이다.",
+      "image_seed": "news1-2026-09-19",
+      "image_query": "ASEAN business people digital economy conference",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Manila",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰려",
+      "summary_en": "The annual K-Food Festival concluded successfully in Manila, attracting thousands of Filipinos eager to experience authentic Korean cuisine and cultural performances, highlighting the growing popularity of Hallyu.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 페스티벌이 성공적으로 막을 내리며, 수천 명의 필리핀인이 정통 한국 요리와 문화 공연을 경험하기 위해 모여 한류의 인기를 다시 한번 입증했다.",
+      "image_seed": "news2-2026-09-19",
+      "image_query": "Filipino families enjoying Korean food festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Launch New Climate Resilience Initiative",
+      "headline_kr": "필리핀-한국, 새로운 기후 복원력 이니셔티브 출범",
+      "summary_en": "The Philippines and South Korea have launched a joint initiative to enhance climate resilience in vulnerable communities, focusing on sustainable practices and technology transfer.",
+      "summary_kr": "필리핀과 한국은 취약 지역사회의 기후 복원력을 강화하기 위한 공동 이니셔티브를 시작했으며, 지속 가능한 관행과 기술 이전에 중점을 둔다.",
+      "image_seed": "news3-2026-09-19",
+      "image_query": "Philippine Korean scientists discuss climate project",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Reminders for Korean Travelers During Peak Season",
+      "headline_kr": "대사관, 성수기 한국인 여행객 안전 유의사항 당부",
+      "summary_en": "The Korean Embassy in the Philippines has released a public advisory urging Korean nationals to exercise caution and adhere to local regulations, especially during the upcoming holiday season.",
+      "summary_kr": "주필리핀 한국 대사관은 다가오는 휴가철을 맞아 한국 국민들에게 각별한 주의와 현지 규정 준수를 당부하는 공공 안전 권고를 발표했다.",
+      "image_seed": "news4-2026-09-19",
+      "image_query": "Korean embassy building Manila advisory sign",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change.",
+    "definition_kr": "어떤 변화나 사건을 촉발하는 사람이나 사물.",
+    "example_en": "The new Korean tech investment is expected to be a catalyst for the Philippines' digital transformation.",
+    "example_kr": "새로운 한국 기술 투자는 필리핀의 디지털 전환을 위한 촉매제가 될 것으로 기대된다.",
+    "grade": "A+"
+  }
+}

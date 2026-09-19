@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-19",
+    "vol": 171,
+    "cover_en": "Korean Tech Investment Fuels Philippines' Digital Infrastructure Leap",
+    "cover_kr": "한국 기술 투자, 필리핀 디지털 인프라 도약에 박차",
+    "headlines_en": [
+      "Joint PH-Korea Police Boost Safety in Tourist Hubs",
+      "ASEAN Digital Economy Forecasted for Robust Growth",
+      "K-Food Festival Draws Record Crowds in Manila",
+      "PH, Korea Launch New Climate Resilience Initiative",
+      "Embassy Issues Reminders for Korean Travelers During Peak Season"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 경찰 합동, 관광 중심지 안전 강화",
+      "아세안 디지털 경제, 견고한 성장 전망",
+      "마닐라 K-푸드 페스티벌, 역대 최대 인파 몰려",
+      "필리핀-한국, 새로운 기후 복원력 이니셔티브 출범",
+      "대사관, 성수기 한국인 여행객 안전 유의사항 당부"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-09-18",
     "vol": 170,
     "cover_en": "PH-Korea Launch Digital Innovation Hub, Boosting Tech Collaboration",
