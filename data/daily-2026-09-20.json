@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-20",
+  "header_date_line": "SUNDAY, SEPTEMBER 20, 2026 | PHILIPPINES | VOL. 172",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Launch Joint Digital Infrastructure Initiative",
+    "headline_kr": "한-필리핀, 디지털 인프라 공동 이니셔티브 출범",
+    "subtitle_en": "The landmark project aims to bridge the digital divide and foster innovation across key sectors, marking a new era of bilateral collaboration.",
+    "subtitle_kr": "이번 획기적인 프로젝트는 디지털 격차를 해소하고 주요 분야에서 혁신을 촉진하며, 양국 협력의 새로운 시대를 열 것으로 기대된다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards a digitally empowered future, the Republic of Korea and the Republic of the Philippines officially inaugurated their Joint Digital Infrastructure Initiative yesterday. Attended by high-ranking officials from both nations, including Korea's Minister of Science and ICT and the Philippines' Secretary of Information and Communications Technology, the launch ceremony highlighted a shared vision for enhanced connectivity and technological advancement across the archipelago.",
+      "This ambitious initiative is set to deploy advanced 5G networks, develop smart city solutions in urban centers, and establish secure data centers to support critical government and private sector operations. The collaboration will also focus on capacity building, offering training programs for Filipino professionals in areas such as cybersecurity, artificial intelligence, and big data analytics, thereby fostering a skilled local workforce crucial for sustainable digital growth.",
+      "Experts believe this partnership will not only accelerate the Philippines' digital transformation agenda but also strengthen economic ties between the two countries. For the Korean community residing in the Philippines, improved digital infrastructure promises better access to services, enhanced communication with home, and new business opportunities, further integrating them into the host country's rapidly evolving digital landscape. The project signifies a deep commitment to mutual prosperity and technological synergy."
+    ],
+    "body_kr": [
+      "마닐라, 필리핀 – 디지털 역량 강화의 미래를 향한 중요한 발걸음으로, 대한민국과 필리핀 공화국이 어제 공식적으로 공동 디지털 인프라 이니셔티브를 출범했습니다. 한국 과학기술정보통신부 장관과 필리핀 정보통신기술부 장관을 포함한 양국 고위 관계자들이 참석한 출범식은 필리핀 전역의 연결성 강화와 기술 발전에 대한 공동 비전을 강조했습니다.",
+      "이 야심찬 이니셔티브는 첨단 5G 네트워크를 구축하고, 도시 중심지에 스마트 시티 솔루션을 개발하며, 핵심 정부 및 민간 부문 운영을 지원하기 위한 보안 데이터 센터를 설립할 예정입니다. 또한 이 협력은 사이버 보안, 인공지능, 빅데이터 분석과 같은 분야에서 필리핀 전문가를 위한 교육 프로그램을 제공하여 지속 가능한 디지털 성장에 필수적인 숙련된 현지 인력을 양성하는 데 중점을 둘 것입니다.",
+      "전문가들은 이번 파트너십이 필리핀의 디지털 전환 의제를 가속화할 뿐만 아니라 양국 간 경제 관계를 강화할 것으로 보고 있습니다. 필리핀에 거주하는 한인 커뮤니티에게는 개선된 디지털 인프라가 서비스 접근성 향상, 본국과의 원활한 소통, 그리고 새로운 사업 기회를 약속하며, 빠르게 변화하는 현지 디지털 환경에 더욱 통합될 것입니다. 이 프로젝트는 상호 번영과 기술적 시너지에 대한 깊은 약속을 의미합니다."
+    ],
+    "image_seed": "cover-2026-09-20",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Officials from Korea and the Philippines shake hands after signing the digital infrastructure agreement (2026-09-19)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Intensifies Anti-Crime Operations Targeting Foreign Residents",
+    "headline_kr": "필리핀, 외국인 거주자 대상 범죄 단속 작전 강화",
+    "lead_en": "The Philippine National Police (PNP) has announced intensified anti-crime operations across major cities, specifically targeting syndicates preying on foreign nationals. This move comes after a series of incidents affecting expatriate communities, including Koreans, prompting calls for greater protection and swift justice.",
+    "lead_kr": "필리핀 국가경찰(PNP)은 주요 도시 전역에서 외국인들을 노리는 범죄 조직을 대상으로 한 강화된 단속 작전을 발표했습니다. 이번 조치는 한인 사회를 포함한 외국인 커뮤니티에 영향을 미친 일련의 사건들 이후, 더 큰 보호와 신속한 사법 처리를 요구하는 목소리에 따른 것입니다.",
+    "image_seed": "feat-2026-09-20",
+    "image_query": "Philippine police officers patrolling busy street with diverse crowd",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine Exports to Korea See Significant Surge in Q3",
+      "headline_kr": "필리핀, 3분기 한국 수출 급증세 기록",
+      "summary_en": "The Philippine Statistics Authority reports a 15% year-on-year increase in exports to South Korea for the third quarter of 2026, driven by strong demand for agricultural products and electronics components. This growth highlights the deepening economic ties between the two nations.",
+      "summary_kr": "필리핀 통계청은 2026년 3분기 한국으로의 수출이 농산물 및 전자 부품에 대한 강력한 수요에 힘입어 전년 대비 15% 증가했다고 발표했습니다. 이러한 성장은 양국 간 심화되는 경제 관계를 보여줍니다.",
+      "image_seed": "news1-2026-09-20",
+      "image_query": "Cargo ship containers Philippine port Korean flag",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Makati Hosts Vibrant Korean Food Festival This Weekend",
+      "headline_kr": "마카티, 이번 주말 활기찬 한국 음식 축제 개최",
+      "summary_en": "Food enthusiasts and K-culture fans are flocking to Makati this weekend for the annual Korean Food Festival, showcasing traditional dishes, modern culinary twists, and cultural performances. Organized by the Korean Cultural Center, the event aims to promote Korean cuisine and foster cultural exchange.",
+      "summary_kr": "음식 애호가와 K-컬처 팬들이 이번 주말 마카티에서 열리는 연례 한국 음식 축제에 모여 전통 요리, 현대적인 요리 변형, 문화 공연을 즐기고 있습니다. 한국문화원이 주최하는 이 행사는 한국 음식을 홍보하고 문화 교류를 촉진하는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-09-20",
+      "image_query": "Korean street food stalls busy festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "headline_kr": "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "summary_en": "Seoul has reiterated its commitment to supporting the Philippines' transition to sustainable energy, pledging significant investment and technical assistance for new solar and wind power initiatives. This collaboration underscores shared environmental goals and regional climate action efforts.",
+      "summary_kr": "한국은 필리핀의 지속 가능한 에너지 전환을 지원하기 위한 약속을 재확인하며, 새로운 태양광 및 풍력 발전 이니셔티브에 대한 상당한 투자와 기술 지원을 약속했습니다. 이 협력은 공동의 환경 목표와 지역 기후 행동 노력을 강조합니다.",
+      "image_seed": "news3-2026-09-20",
+      "image_query": "Solar farm Philippines Korean engineers consulting",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Expanded in Pampanga for Korean Residents",
+      "headline_kr": "팜팡가 한인 거주자 위한 지역사회 감시 프로그램 확대",
+      "summary_en": "The local government of Pampanga, in coordination with the Korean Association, has expanded its community watch program to enhance the safety and security of Korean residents. The initiative includes increased police visibility and a dedicated hotline for urgent concerns.",
+      "summary_kr": "팜팡가 지방 정부는 한인회와 협력하여 한인 거주자들의 안전과 보안을 강화하기 위해 지역사회 감시 프로그램을 확대했습니다. 이 이니셔티브에는 경찰 가시성 증가 및 긴급 문제 전용 핫라인이 포함됩니다.",
+      "image_seed": "news4-2026-09-20",
+      "image_query": "Community meeting Korean Filipino residents police",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The new Korea-Philippines digital infrastructure initiative aims to achieve synergy by combining advanced Korean technology with the Philippines' growing market potential.",
+    "example_kr": "새로운 한-필리핀 디지털 인프라 이니셔티브는 한국의 첨단 기술과 필리핀의 성장하는 시장 잠재력을 결합하여 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

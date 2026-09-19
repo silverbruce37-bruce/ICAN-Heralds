@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-20",
+    "vol": 172,
+    "cover_en": "Korea-Philippines Launch Joint Digital Infrastructure Initiative",
+    "cover_kr": "한-필리핀, 디지털 인프라 공동 이니셔티브 출범",
+    "headlines_en": [
+      "Philippines Intensifies Anti-Crime Operations Targeting Foreign Residents",
+      "Philippine Exports to Korea See Significant Surge in Q3",
+      "Makati Hosts Vibrant Korean Food Festival This Weekend",
+      "Korea Pledges Support for Philippine Renewable Energy Projects",
+      "Community Watch Program Expanded in Pampanga for Korean Residents"
+    ],
+    "headlines_kr": [
+      "필리핀, 외국인 거주자 대상 범죄 단속 작전 강화",
+      "필리핀, 3분기 한국 수출 급증세 기록",
+      "마카티, 이번 주말 활기찬 한국 음식 축제 개최",
+      "한국, 필리핀 재생 에너지 프로젝트 지원 약속",
+      "팜팡가 한인 거주자 위한 지역사회 감시 프로그램 확대"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-09-19",
     "vol": 171,
     "cover_en": "Korean Tech Investment Fuels Philippines' Digital Infrastructure Leap",
