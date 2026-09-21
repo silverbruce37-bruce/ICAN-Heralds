@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-22",
+    "vol": 174,
+    "cover_en": "Philippines-Korea Launch Landmark Digital Innovation Partnership",
+    "cover_kr": "필리핀-한국, 획기적인 디지털 혁신 파트너십 출범",
+    "headlines_en": [
+      "Joint Patrols Boost Safety in Korean Enclaves Across Metro Manila",
+      "Korean Investors Eye Philippine Renewable Energy Sector Growth",
+      "K-Food Festival in Taguig Showcases Culinary Delights",
+      "Korea Extends Support for Philippine Vocational Training Programs",
+      "Embassy Reminds Koreans of Online Scam Vigilance"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 밀집 지역 합동 순찰 강화로 안전 증진",
+      "한국 투자자들, 필리핀 재생 에너지 부문 성장 주시",
+      "따귁 K-푸드 페스티벌, 한국 미식의 향연 선보여",
+      "한국, 필리핀 직업 훈련 프로그램 지원 확대",
+      "대사관, 온라인 사기 경계심 유지 당부"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Economy",
+      "Security",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-09-21",
     "vol": 173,
     "cover_en": "Korea-PH Digital Infrastructure Pact to Transform Urban Landscapes",
