@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-23",
+  "header_date_line": "WEDNESDAY, SEPTEMBER 23, 2026 | PHILIPPINES | VOL. 175",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.23",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Unveil Digital Innovation Hub Agreement, Boosting Bilateral Tech Ties",
+    "headline_kr": "필리핀-한국, 디지털 혁신 허브 협정 공개, 양국 기술 협력 강화",
+    "subtitle_en": "The landmark deal aims to accelerate digital transformation and create new opportunities for both nations in the rapidly evolving tech landscape. It signifies a deepened commitment to shared progress.",
+    "subtitle_kr": "이번 획기적인 협정은 급변하는 기술 환경 속에서 양국의 디지털 전환을 가속화하고 새로운 기회를 창출하는 것을 목표로 합니다. 이는 공동 발전에 대한 깊어진 약속을 의미합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards fostering a robust digital economy, the Philippines and South Korea today officially signed an agreement to establish a joint Digital Innovation Hub. The signing ceremony, held at the Malacañang Palace, saw President Ferdinand Marcos Jr. and visiting South Korean Minister of Science and ICT, Lee Jong-ho, formalize the partnership. This initiative is set to become a cornerstone of technological advancement and bilateral cooperation, focusing on areas such as artificial intelligence, fintech, and cybersecurity.",
+      "The Digital Innovation Hub, slated for completion by late 2027, will serve as a research and development center, a startup incubator, and a training ground for IT professionals from both countries. Experts believe this collaboration will not only drive economic growth but also facilitate the exchange of knowledge and expertise, addressing critical skill gaps in the burgeoning Philippine tech sector. For Korean companies, it offers a strategic gateway to the ASEAN market and a platform to test innovative solutions in a dynamic environment.",
+      "The agreement underscores the deepening strategic partnership between the Philippines and South Korea, extending beyond traditional trade and investment into the crucial domain of future technologies. It is expected to attract significant Korean investment into the Philippine tech ecosystem and create numerous high-value jobs, directly benefiting the local economy and offering new prospects for the Korean community residing in the Philippines. Both nations expressed optimism for a future marked by shared digital prosperity and innovation."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 견고한 디지털 경제 구축을 위한 중요한 발걸음으로, 필리핀과 한국은 오늘 공동 디지털 혁신 허브 설립에 관한 협정을 공식적으로 체결했습니다. 말라카냥 궁에서 열린 서명식에는 페르디난드 마르코스 주니어 대통령과 방한 중인 이종호 과학기술정보통신부 장관이 참석하여 파트너십을 공식화했습니다. 이 이니셔티브는 인공지능, 핀테크, 사이버 보안과 같은 분야에 중점을 두고 기술 발전과 양국 협력의 초석이 될 것입니다.",
+      "2027년 말 완공 예정인 디지털 혁신 허브는 양국 IT 전문가를 위한 연구 개발 센터, 스타트업 인큐베이터, 훈련장 역할을 할 것입니다. 전문가들은 이번 협력이 경제 성장을 견인할 뿐만 아니라 지식과 전문성 교환을 촉진하여 급성장하는 필리핀 기술 부문의 중요한 기술 격차를 해소할 것으로 보고 있습니다. 한국 기업에게는 아세안 시장으로의 전략적 진출 통로이자 역동적인 환경에서 혁신적인 솔루션을 시험할 수 있는 플랫폼을 제공합니다.",
+      "이번 협정은 필리핀과 한국 간의 심화되는 전략적 파트너십을 보여주며, 전통적인 무역 및 투자를 넘어 미래 기술이라는 중요한 영역으로 확장되고 있습니다. 이는 필리핀 기술 생태계에 상당한 한국 투자를 유치하고 수많은 고부가가치 일자리를 창출하여 지역 경제에 직접적인 혜택을 주고 필리핀에 거주하는 한인 사회에 새로운 전망을 제시할 것으로 기대됩니다. 양국은 공유된 디지털 번영과 혁신으로 특징지어질 미래에 대한 낙관론을 표명했습니다."
+    ],
+    "image_seed": "cover-2026-09-23",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: President Marcos Jr. and Minister Lee Jong-ho shake hands after signing the digital innovation agreement (2026-09-23)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP, Korean Embassy Launch Enhanced Safety Campaign for Tourists",
+    "headline_kr": "필리핀 경찰(PNP)과 한국 대사관, 관광객을 위한 강화된 안전 캠페인 시작",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila have announced a new, enhanced safety campaign targeting Korean tourists and residents. This initiative aims to bolster security measures and provide quicker assistance in popular tourist destinations and Korean enclaves, following recent discussions on community safety.",
+    "lead_kr": "필리핀 경찰(PNP)과 주필리핀 한국 대사관은 한국인 관광객과 교민을 대상으로 하는 새로운 강화 안전 캠페인을 발표했습니다. 이번 이니셔티브는 최근 지역사회 안전에 대한 논의에 따라 인기 관광지와 한인 밀집 지역의 보안 조치를 강화하고 신속한 지원을 제공하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-23",
+    "image_query": "Korean tourists police patrol Makati street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Summit Emphasizes Digital Economy Integration Amidst Global Shifts",
+      "headline_kr": "아세안 정상회의, 글로벌 변화 속 디지털 경제 통합 강조",
+      "summary_en": "Leaders at the recent ASEAN Summit in Jakarta reiterated their commitment to integrating digital economies across the region. This push aims to enhance intra-ASEAN trade and resilience against external economic pressures.",
+      "summary_kr": "자카르타에서 열린 아세안 정상회의에서 지도자들은 역내 디지털 경제 통합에 대한 의지를 재확인했습니다. 이는 아세안 내 무역을 강화하고 외부 경제 압력에 대한 회복력을 높이는 것을 목표로 합니다.",
+      "image_seed": "news1-2026-09-23",
+      "image_query": "ASEAN leaders meeting digital screens conference",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Record Crowds in Cebu, Showcasing Culinary Diplomacy",
+      "headline_kr": "세부 K-푸드 페스티벌, 기록적인 인파 속 미식 외교 선보여",
+      "summary_en": "The annual Korean Food Festival in Cebu concluded with unprecedented attendance, highlighting the growing popularity of K-food in the Visayas region. The event fostered cultural understanding through shared culinary experiences.",
+      "summary_kr": "세부에서 열린 연례 한식 페스티벌이 전례 없는 참석자 수를 기록하며 비사야 지역에서 K-푸드의 인기가 높아지고 있음을 보여주었습니다. 이 행사는 공유된 미식 경험을 통해 문화적 이해를 증진했습니다.",
+      "image_seed": "news2-2026-09-23",
+      "image_query": "Korean food festival crowd tasting dishes",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "KOICA Funds New Vocational Training Center in Palawan for Sustainable Development",
+      "headline_kr": "코이카, 팔라완에 지속 가능한 개발 위한 새 직업 훈련 센터 건립 지원",
+      "summary_en": "The Korea International Cooperation Agency (KOICA) announced funding for a new vocational training center in Palawan. This project aims to empower local communities with essential skills for sustainable tourism and economic growth.",
+      "summary_kr": "한국국제협력단(KOICA)은 팔라완에 새로운 직업 훈련 센터 건립을 위한 자금 지원을 발표했습니다. 이 프로젝트는 지속 가능한 관광 및 경제 성장을 위한 필수 기술로 지역 사회의 역량을 강화하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-09-23",
+      "image_query": "Korean KOICA officials groundbreaking ceremony Palawan",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Leaders Discuss Local Crime Prevention with Quezon City Officials",
+      "headline_kr": "한인사회 지도자들, 퀘존시 관계자들과 지역 범죄 예방 논의",
+      "summary_en": "Korean community leaders in Quezon City met with local government officials to discuss proactive measures for crime prevention. The discussion focused on enhancing neighborhood watch programs and improving communication channels.",
+      "summary_kr": "퀘존시 한인사회 지도자들이 지역 정부 관계자들과 만나 범죄 예방을 위한 선제적 조치들을 논의했습니다. 논의는 이웃 감시 프로그램 강화 및 소통 채널 개선에 중점을 두었습니다.",
+      "image_seed": "news4-2026-09-23",
+      "image_query": "Korean community leaders meeting Quezon City officials",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 생산하는 것.",
+    "example_en": "The synergy between the Philippine and Korean tech sectors is expected to drive unprecedented innovation and growth.",
+    "example_kr": "필리핀과 한국 기술 부문 간의 시너지는 전례 없는 혁신과 성장을 이끌 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
