@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-24",
+    "vol": 176,
+    "cover_en": "Korea, Philippines Launch 'Smart Metro' Digital Partnership Initiative",
+    "cover_kr": "한국-필리핀, '스마트 메트로' 디지털 파트너십 이니셔티브 출범",
+    "headlines_en": [
+      "PNP, Korean Embassy Launch Joint Anti-Crime Hotline for Tourists",
+      "ASEAN Economic Outlook 2027: Digitalization Drives Growth",
+      "K-Food Festival Manila Showcases Culinary Diversity",
+      "Korean Volunteers Support Remote Philippine Communities",
+      "Cybersecurity Alert Issued for Korean Businesses in PH"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 한국 대사관과 합동 대사관 한인 관광객 대상 범죄방지 핫라인 개설",
+      "ASEAN 경제 전망 2027: 디지털화가 성장 주도",
+      "마닐라 K-푸드 페스티벌, 다채로운 한식의 매력 선보여",
+      "한국인 자원봉사자, 필리핀 외딴 지역 사회 지원 나서",
+      "필리핀 내 한국 기업 대상 사이버 보안 경보 발령"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Security",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-09-23",
     "vol": 175,
     "cover_en": "PH-Korea Unveil Digital Innovation Hub Agreement, Boosting Bilateral Tech Ties",

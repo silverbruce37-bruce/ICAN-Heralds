@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-24",
+  "header_date_line": "THURSDAY, SEPTEMBER 24, 2026 | PHILIPPINES | VOL. 176",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.24",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea, Philippines Launch 'Smart Metro' Digital Partnership Initiative",
+    "headline_kr": "한국-필리핀, '스마트 메트로' 디지털 파트너십 이니셔티브 출범",
+    "subtitle_en": "The landmark agreement aims to integrate advanced Korean digital technologies into Philippine urban centers, enhancing public services and infrastructure. This collaboration is set to boost economic growth and improve daily life for residents.",
+    "subtitle_kr": "획기적인 협정은 한국의 첨단 디지털 기술을 필리핀 도시 중심부에 통합하여 공공 서비스 및 인프라를 향상시키는 것을 목표로 합니다. 이 협력은 경제 성장을 촉진하고 주민들의 일상생활을 개선할 것으로 기대됩니다.",
+    "body_en": [
+      "MANILA – In a significant stride towards future-proofing urban development, Korea and the Philippines officially inaugurated the 'Smart Metro' Digital Partnership Initiative today. Senior officials from both nations, including Korea's Minister of Science and ICT and the Philippines' Department of Information and Communications Technology (DICT) Secretary, signed a comprehensive memorandum of understanding outlining joint projects in smart transportation, digital governance, and cybersecurity. The initiative is a direct outcome of President Bongbong Marcos's visit to Seoul earlier this year, emphasizing shared visions for technological advancement.",
+      "The 'Smart Metro' program will initially focus on pilot projects in Metro Manila and Cebu, leveraging Korean expertise in AI-driven traffic management systems, intelligent public safety networks, and efficient e-governance platforms. Korean tech firms are expected to invest heavily, providing both capital and cutting-edge solutions, while creating numerous job opportunities for Filipinos. This partnership is designed to not only modernize urban infrastructure but also to foster a robust digital economy, positioning the Philippines as a regional leader in smart city development.",
+      "For the Korean community residing in the Philippines, this initiative holds particular promise. Enhanced digital services will streamline various aspects of daily life, from public transport navigation to accessing government services. Furthermore, the increased presence of Korean companies and experts is anticipated to strengthen bilateral ties and create more avenues for cultural and professional exchange. Both governments expressed optimism that the 'Smart Metro' initiative will serve as a model for future regional collaborations, demonstrating the power of international synergy in addressing complex urban challenges."
+    ],
+    "body_kr": [
+      "마닐라 – 도시 개발의 미래를 대비하는 중요한 진전으로, 한국과 필리핀은 오늘 공식적으로 '스마트 메트로' 디지털 파트너십 이니셔티브를 출범했습니다. 한국 과학기술정보통신부 장관과 필리핀 정보통신기술부(DICT) 장관을 포함한 양국 고위 관계자들은 스마트 교통, 디지털 거버넌스, 사이버 보안 분야의 공동 프로젝트를 명시한 포괄적인 양해각서에 서명했습니다. 이 이니셔티브는 올해 초 봉봉 마르코스 대통령의 서울 방문의 직접적인 결과이며, 기술 발전에 대한 공유된 비전을 강조합니다.",
+      "'스마트 메트로' 프로그램은 초기에는 메트로 마닐라와 세부에서 시범 프로젝트에 중점을 둘 것이며, AI 기반 교통 관리 시스템, 지능형 공공 안전 네트워크, 효율적인 전자 정부 플랫폼 분야의 한국 전문 지식을 활용할 것입니다. 한국 기업들은 상당한 투자를 통해 자본과 최첨단 솔루션을 제공하고, 필리핀인들에게 수많은 일자리를 창출할 것으로 예상됩니다. 이 파트너십은 도시 인프라를 현대화할 뿐만 아니라 견고한 디지털 경제를 육성하여 필리핀을 스마트 도시 개발의 지역 선두 주자로 자리매김하는 것을 목표로 합니다.",
+      "필리핀에 거주하는 한인 커뮤니티에게 이 이니셔티브는 특히 유망합니다. 향상된 디지털 서비스는 대중교통 안내부터 정부 서비스 이용에 이르기까지 일상생활의 다양한 측면을 간소화할 것입니다. 또한, 한국 기업 및 전문가의 증가는 양국 관계를 강화하고 문화적, 직업적 교류를 위한 더 많은 길을 열 것으로 예상됩니다. 양국 정부는 '스마트 메트로' 이니셔티브가 복잡한 도시 문제를 해결하는 데 있어 국제적 시너지의 힘을 보여주는 미래 지역 협력의 모델이 될 것이라고 낙관했습니다."
+    ],
+    "image_seed": "cover-2026-09-24",
+    "image_query": "Korean Philippine officials handshake signing digital agreement smart city",
+    "image_caption": "Photo: Korean and Philippine officials seal the 'Smart Metro' Digital Partnership (Sept 24, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Safety",
+    "tag_class": "tag-safety",
+    "headline_en": "PNP, Korean Embassy Launch Joint Anti-Crime Hotline for Tourists",
+    "headline_kr": "필리핀 경찰, 한국 대사관과 합동 대사관 한인 관광객 대상 범죄방지 핫라인 개설",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila have announced the launch of a dedicated 24/7 anti-crime hotline aimed at providing immediate assistance to Korean tourists and residents. This joint initiative seeks to enhance safety measures and foster quicker response times for incidents involving the Korean community across the Philippines.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 주필리핀 한국 대사관은 한국인 관광객 및 거주자에게 즉각적인 지원을 제공하기 위한 24시간 연중무휴 범죄 방지 핫라인 개설을 발표했습니다. 이 공동 이니셔티브는 필리핀 전역의 한인 커뮤니티 관련 사건에 대한 안전 조치를 강화하고 신속한 대응 시간을 촉진하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-24",
+    "image_query": "Philippine police Korean embassy official discussing safety program",
+    "desk": "Safety Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook 2027: Digitalization Drives Growth",
+      "headline_kr": "ASEAN 경제 전망 2027: 디지털화가 성장 주도",
+      "summary_en": "Analysts predict a robust economic year for ASEAN in 2027, driven by accelerated digitalization efforts and increased foreign direct investment. Korean businesses are poised to capitalize on these trends.",
+      "summary_kr": "분석가들은 가속화된 디지털화 노력과 외국인 직접 투자 증가에 힘입어 2027년 ASEAN의 견고한 경제 성장세를 예측합니다. 한국 기업들은 이러한 추세를 활용할 준비가 되어 있습니다.",
+      "image_seed": "news1-2026-09-24",
+      "image_query": "ASEAN economic growth chart digital transformation",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Manila Showcases Culinary Diversity",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 다채로운 한식의 매력 선보여",
+      "summary_en": "The annual K-Food Festival kicked off in Manila, attracting thousands with its diverse range of traditional and modern Korean dishes. Culinary workshops and K-pop performances are also featured.",
+      "summary_kr": "연례 K-푸드 페스티벌이 마닐라에서 개막하여 전통 한식과 현대 한식의 다양한 스펙트럼으로 수천 명의 방문객을 끌어모았습니다. 요리 워크숍과 K-팝 공연도 함께 진행됩니다.",
+      "image_seed": "news2-2026-09-24",
+      "image_query": "K-Food festival street food stalls Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Volunteers Support Remote Philippine Communities",
+      "headline_kr": "한국인 자원봉사자, 필리핀 외딴 지역 사회 지원 나서",
+      "summary_en": "A contingent of Korean volunteers has arrived in Palawan to provide medical aid and educational support to underserved communities. This initiative strengthens bilateral goodwill.",
+      "summary_kr": "한국인 자원봉사단이 팔라완에 도착하여 소외된 지역 사회에 의료 지원과 교육 지원을 제공합니다. 이 이니셔티브는 양국 간의 선의를 강화합니다.",
+      "image_seed": "news3-2026-09-24",
+      "image_query": "Korean volunteers helping children remote Philippine village",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Security",
+      "tag_class": "tag-security",
+      "headline_en": "Cybersecurity Alert Issued for Korean Businesses in PH",
+      "headline_kr": "필리핀 내 한국 기업 대상 사이버 보안 경보 발령",
+      "summary_en": "The Philippine National Police Cybercrime Unit issued an alert regarding increased phishing attempts targeting Korean businesses. Companies are advised to bolster their digital defenses.",
+      "summary_kr": "필리핀 국립경찰 사이버범죄국은 한국 기업을 대상으로 한 피싱 시도 증가에 대한 경보를 발령했습니다. 기업들은 디지털 방어를 강화할 것을 권고받았습니다.",
+      "image_seed": "news4-2026-09-24",
+      "image_query": "Cybersecurity warning digital lock screen",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "ˈsɪnərdʒi",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각각의 효과를 합친 것보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The 'Smart Metro' initiative aims to achieve synergy between Korean technology and Philippine urban development needs.",
+    "example_kr": "'스마트 메트로' 이니셔티브는 한국 기술과 필리핀 도시 개발 요구 사항 간의 시너지를 달성하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
