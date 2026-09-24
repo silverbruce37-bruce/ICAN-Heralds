@@ -1,0 +1,89 @@
+{
+  "edition_date": "2026-09-25",
+  "header_date_line": "FRIDAY, SEPTEMBER 25, 2026 | PHILIPPINES | VOL. 177",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.25",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korean Tech Giant Breaks Ground on New Philippine Innovation Hub",
+    "headline_kr": "한국 IT 대기업, 필리핀 혁신 허브 착공식 개최",
+    "subtitle_en": "The multi-million dollar project is set to create thousands of jobs and accelerate digital transformation in the region, marking a new era of bilateral cooperation.",
+    "subtitle_kr": "수백만 달러 규모의 이 프로젝트는 수천 개의 일자리를 창출하고 지역의 디지털 전환을 가속화하며, 양국 협력의 새로운 시대를 열 것으로 기대됩니다.",
+    "body_en": [
+      "A leading South Korean technology conglomerate, Innovatech Korea, officially broke ground today on its ambitious new innovation hub in Clark Global City, Pampanga. The state-of-the-art facility, spanning over 50 hectares, is envisioned to become a regional center for artificial intelligence research, software development, and digital incubation, attracting both local and international talent.",
+      "Philippine President Ferdinand Marcos Jr. and South Korean Ambassador to the Philippines, H.E. Lee Sang-hwa, graced the ceremony, emphasizing the project's strategic importance. President Marcos highlighted the investment's potential to significantly boost the Philippines' digital economy, foster technological transfer, and provide high-skilled employment opportunities for Filipino youth. Ambassador Lee underscored the enduring partnership between the two nations, positioning this hub as a cornerstone for future collaborative ventures in the digital realm.",
+      "Innovatech Korea's CEO, Kim Min-joon, expressed confidence that the innovation hub will serve as a catalyst for growth, driving innovation not just within the company but across the entire ASEAN region. The facility is expected to be fully operational by late 2028, with initial phases focusing on R&D and talent development programs that will commence early next year."
+    ],
+    "body_kr": [
+      "대한민국의 선도적인 기술 대기업인 이노베이텍 코리아가 오늘 팜팡가 클락 글로벌 시티에서 야심 찬 새 혁신 허브의 착공식을 공식적으로 개최했습니다. 50 헥타르 이상 규모의 이 최첨단 시설은 인공지능 연구, 소프트웨어 개발 및 디지털 인큐베이션을 위한 지역 중심지가 되어 국내외 인재를 유치할 것으로 기대됩니다.",
+      "페르디난드 마르코스 주니어 필리핀 대통령과 이성화 주필리핀 대한민국 대사가 착공식에 참석하여 프로젝트의 전략적 중요성을 강조했습니다. 마르코스 대통령은 이번 투자가 필리핀 디지털 경제를 크게 활성화하고 기술 이전을 촉진하며 필리핀 청년들에게 고숙련 일자리를 제공할 잠재력을 가지고 있다고 강조했습니다. 이 대사는 양국 간의 지속적인 파트너십을 강조하며, 이 허브가 디지털 영역에서 미래 협력 사업의 초석이 될 것이라고 언급했습니다.",
+      "이노베이텍 코리아의 김민준 CEO는 이 혁신 허브가 회사뿐만 아니라 전체 아세안(ASEAN) 지역에 걸쳐 혁신을 주도하는 성장의 촉매제가 될 것이라고 확신했습니다. 이 시설은 2028년 말까지 완전히 가동될 예정이며, 초기 단계는 내년 초부터 시작될 R&D 및 인재 개발 프로그램에 중점을 둘 것입니다."
+    ],
+    "image_seed": "cover-2026-09-25",
+    "image_query": "Korean Philippine officials groundbreaking ceremony innovation hub Clark",
+    "image_caption": "Photo: Dignitaries break ground at the new Innovatech Korea innovation hub in Clark (2026-09-25)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PNP Boosts Security in Key Korean Community Areas Ahead of Holiday Season",
+    "headline_kr": "필리핀 경찰, 한인 밀집 지역 연휴 앞두고 보안 강화",
+    "lead_en": "The Philippine National Police (PNP) has announced intensified patrols and increased police presence in areas with significant Korean populations, including Makati, Taguig, and Angeles City. This initiative aims to ensure the safety and security of the Korean community as the holiday season approaches, often seeing an uptick in visitors and economic activity.",
+    "lead_kr": "필리핀 경찰청(PNP)은 마카티, 타기그, 앙헬레스 시 등 한인 거주 인구가 많은 지역에 대한 순찰 강화 및 경찰력 증원을 발표했습니다. 이 이니셔티브는 연휴 시즌이 다가오면서 방문객과 경제 활동이 증가하는 시기에 한인 커뮤니티의 안전과 보안을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-25",
+    "image_query": "Philippine police patrol Korean community street Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy", "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Affirm Strong Q3 Growth Projections",
+      "headline_kr": "아세안 경제 장관들, 3분기 강력한 성장 전망 재확인",
+      "summary_en": "ASEAN economic ministers concluded their virtual meeting, reiterating confidence in robust Q3 growth driven by domestic demand and recovering tourism, despite global headwinds.",
+      "summary_kr": "아세안 경제 장관들은 가상 회의를 마치고, 글로벌 역풍에도 불구하고 내수와 회복하는 관광업에 힘입어 3분기 견조한 성장에 대한 확신을 재확인했습니다.",
+      "image_seed": "news1-2026-09-25", "image_query": "ASEAN economic ministers virtual meeting screen", "read_time_min": 2
+    },
+    {
+      "tag": "Culture", "tag_class": "tag-culture",
+      "headline_en": "Manila Gears Up for Annual K-Food Festival: A Taste of Korea",
+      "headline_kr": "마닐라, 연례 K-푸드 페스티벌 준비 박차: 한국의 맛",
+      "summary_en": "The highly anticipated annual K-Food Festival is set to kick off next month in Manila, promising a vibrant showcase of Korean culinary delights, traditional performances, and cultural workshops.",
+      "summary_kr": "많은 기대를 모으는 연례 K-푸드 페스티벌이 다음 달 마닐라에서 개막할 예정이며, 한국의 맛있는 요리, 전통 공연 및 문화 워크숍을 선보일 것입니다.",
+      "image_seed": "news2-2026-09-25", "image_query": "Korean food festival street vendors Manila", "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation", "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Volunteers Launch New Educational Outreach Program in Rural Philippines",
+      "headline_kr": "한국인 자원봉사자들, 필리핀 농촌 지역 교육 지원 프로그램 시작",
+      "summary_en": "A group of Korean volunteers has initiated a new educational outreach program in remote Philippine provinces, providing vital school supplies and tutoring to underprivileged children.",
+      "summary_kr": "한국인 자원봉사자 그룹이 필리핀 외딴 지방에서 새로운 교육 지원 프로그램을 시작하여 소외 계층 어린이들에게 필수 학용품과 개인지도를 제공하고 있습니다.",
+      "image_seed": "news3-2026-09-25", "image_query": "Korean volunteers teaching children rural Philippines", "read_time_min": 3
+    },
+    {
+      "tag": "Safety", "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Online Scams Targeting Expats",
+      "headline_kr": "주필리핀 한국 대사관, 교민 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in Manila has released a public advisory warning its citizens against a recent surge in online scams, particularly those targeting expatriates through investment schemes and fake job offers.",
+      "summary_kr": "주필리핀 한국 대사관은 최근 온라인 사기, 특히 투자 사기 및 허위 채용 제안을 통해 교민을 대상으로 하는 사기가 급증하고 있음을 경고하는 공지를 발표했습니다.",
+      "image_seed": "news4-2026-09-25", "image_query": "Cyber security warning computer screen police", "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change.",
+    "definition_kr": "사건이나 변화를 촉발하는 사람이나 사물. 촉매.",
+    "example_en": "The new Korean investment is expected to be a catalyst for technological advancement and job creation in the Philippines.",
+    "example_kr": "새로운 한국의 투자는 필리핀의 기술 발전과 일자리 창출에 촉매제가 될 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}

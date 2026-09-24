@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-25",
+    "vol": 177,
+    "cover_en": "Korean Tech Giant Breaks Ground on New Philippine Innovation Hub",
+    "cover_kr": "한국 IT 대기업, 필리핀 혁신 허브 착공식 개최",
+    "headlines_en": [
+      "PNP Boosts Security in Key Korean Community Areas Ahead of Holiday Season",
+      "ASEAN Economic Ministers Affirm Strong Q3 Growth Projections",
+      "Manila Gears Up for Annual K-Food Festival: A Taste of Korea",
+      "Korean Volunteers Launch New Educational Outreach Program in Rural Philippines",
+      "Korean Embassy Issues Advisory on Online Scams Targeting Expats"
+    ],
+    "headlines_kr": [
+      "필리핀 경찰, 한인 밀집 지역 연휴 앞두고 보안 강화",
+      "아세안 경제 장관들, 3분기 강력한 성장 전망 재확인",
+      "마닐라, 연례 K-푸드 페스티벌 준비 박차: 한국의 맛",
+      "한국인 자원봉사자들, 필리핀 농촌 지역 교육 지원 프로그램 시작",
+      "주필리핀 한국 대사관, 교민 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Cooperation",
+      "Economy",
+      "Culture",
+      "Security"
+    ]
+  },
+  {
     "date": "2026-09-24",
     "vol": 176,
     "cover_en": "Korea, Philippines Launch 'Smart Metro' Digital Partnership Initiative",
