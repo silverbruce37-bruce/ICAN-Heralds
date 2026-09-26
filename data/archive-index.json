@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-26",
+    "vol": 178,
+    "cover_en": "Philippines, South Korea Forge Landmark Digital Infrastructure Pact",
+    "cover_kr": "필리핀-한국, 랜드마크 디지털 인프라 협정 체결",
+    "headlines_en": [
+      "Enhanced Police Patrols Boost Safety for Korean Tourists in Key Areas",
+      "Korean Firms Boost Investment in Philippine Renewable Energy Sector",
+      "Manila Gears Up for Annual K-Food Festival Next Month",
+      "Korea-Philippines Joint Education Program Expands to Remote Regions",
+      "Korean Community Leaders Launch New Disaster Preparedness Campaign"
+    ],
+    "headlines_kr": [
+      "주요 지역 한국인 관광객 안전 위한 경찰 순찰 강화",
+      "한국 기업들, 필리핀 신재생에너지 부문 투자 확대",
+      "마닐라, 다음 달 연례 K-푸드 페스티벌 준비 박차",
+      "한-필리핀 공동 교육 프로그램, 원격 지역으로 확대",
+      "한인회, 새로운 재난 대비 캠페인 시작"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Cooperation",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-09-25",
     "vol": 177,
     "cover_en": "Korean Tech Giant Breaks Ground on New Philippine Innovation Hub",
