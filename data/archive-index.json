@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-09-28",
+    "vol": 180,
+    "cover_en": "Korea Pledges Major Boost to Philippine Digital Infrastructure",
+    "cover_kr": "한국, 필리핀 디지털 인프라 대규모 투자 약속",
+    "headlines_en": [
+      "New Joint Patrols Launched to Enhance Safety for Korean Tourists",
+      "ASEAN Economic Ministers Discuss Digital Trade Integration",
+      "K-Pop Dance Workshop Draws Large Crowd in Quezon City",
+      "PH, Korea Launch Joint Program for Marine Conservation",
+      "Embassy Issues Advisory on Online Scams Targeting Koreans"
+    ],
+    "headlines_kr": [
+      "한국인 관광객 안전 강화를 위한 새로운 합동 순찰대 발족",
+      "아세안 경제 장관들, 디지털 무역 통합 논의",
+      "케손시티에서 열린 K-팝 댄스 워크숍에 많은 인파 몰려",
+      "필리핀, 한국 해양 보존 공동 프로그램 착수",
+      "대사관, 한인 대상 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Economy",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-09-27",
     "vol": 179,
     "cover_en": "Korea-Philippines Digital Economy Partnership Set to Boost Bilateral Trade",

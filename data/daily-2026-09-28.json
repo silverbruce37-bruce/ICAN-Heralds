@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-28",
+  "header_date_line": "MONDAY, SEPTEMBER 28, 2026 | PHILIPPINES | VOL. 180",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.28",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea Pledges Major Boost to Philippine Digital Infrastructure",
+    "headline_kr": "한국, 필리핀 디지털 인프라 대규모 투자 약속",
+    "subtitle_en": "A new bilateral agreement aims to accelerate the Philippines' digital transformation, focusing on high-speed internet and smart city development across key regions.",
+    "subtitle_kr": "새로운 양자 협정은 필리핀의 디지털 전환을 가속화하고, 주요 지역의 고속 인터넷 및 스마트 도시 개발에 중점을 둡니다.",
+    "body_en": [
+      "Representatives from the Republic of Korea and the Philippines convened in Manila yesterday to unveil a landmark agreement designed to significantly upgrade the archipelago's digital infrastructure. This initiative, part of Korea's broader commitment to ASEAN development, will channel substantial investment into enhancing broadband connectivity, establishing cutting-edge data centers, and fostering smart urban solutions in underserved and rapidly growing areas. The move is expected to bridge the digital divide and stimulate economic growth.",
+      "The collaboration will see Korean technology firms partnering with local Philippine companies, bringing advanced expertise and innovative solutions to the forefront. Key projects identified include the deployment of 5G networks in provincial hubs, the development of intelligent transportation systems in metropolitan areas, and the implementation of e-governance platforms to streamline public services. Officials emphasized the long-term vision of creating a robust and resilient digital ecosystem crucial for the Philippines' future competitiveness.",
+      "President Ferdinand Marcos Jr. lauded the agreement as a \"game-changer\" for the Philippine economy, projecting job creation and enhanced access to education and healthcare through improved digital access. Korean Ambassador to the Philippines, H.E. Lee Sang-hwa, reiterated Korea's dedication to being a steadfast partner in the Philippines' journey towards prosperity and technological advancement, highlighting the mutual benefits this strengthened digital cooperation will bring to both nations."
+    ],
+    "body_kr": [
+      "어제 마닐라에서 대한민국과 필리핀 대표단은 필리핀 군도의 디지털 인프라를 대폭 개선하기 위한 획기적인 협정을 공개했습니다. 아세안 개발에 대한 한국의 광범위한 공약의 일환인 이 이니셔티브는 고속 광대역 연결성 강화, 최첨단 데이터 센터 구축, 그리고 서비스가 부족하거나 빠르게 성장하는 지역의 스마트 도시 솔루션 육성에 상당한 투자를 유치할 것입니다. 이번 조치는 디지털 격차를 해소하고 경제 성장을 촉진할 것으로 기대됩니다.",
+      "이 협력은 한국 기술 기업들이 필리핀 현지 기업들과 협력하여 선진 전문 지식과 혁신적인 솔루션을 전면에 내세울 것입니다. 주요 프로젝트로는 지방 허브에 5G 네트워크 배포, 대도시 지역에 지능형 교통 시스템 개발, 공공 서비스 간소화를 위한 전자정부 플랫폼 구현 등이 포함됩니다. 관계자들은 필리핀의 미래 경쟁력에 필수적인 강력하고 탄력적인 디지털 생태계를 구축하려는 장기적인 비전을 강조했습니다.",
+      "페르디난드 마르코스 주니어 대통령은 이 협정을 필리핀 경제의 \"판도를 바꾸는\" 조치로 평가하며, 디지털 접근성 개선을 통해 일자리 창출과 교육 및 의료 접근성 향상을 예상했습니다. 이한국 주필리핀 대사는 필리핀의 번영과 기술 발전 여정에 확고한 파트너가 되겠다는 한국의 헌신을 재확인하며, 강화된 디지털 협력이 양국에 가져올 상호 이익을 강조했습니다."
+    ],
+    "image_seed": "cover-2026-09-28",
+    "image_query": "Korean Philippine officials shaking hands signing digital infrastructure agreement Manila",
+    "image_caption": "Photo: Korean and Philippine officials finalize a digital infrastructure agreement (2026.09.27)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Safety",
+    "tag_class": "tag-safety",
+    "headline_en": "New Joint Patrols Launched to Enhance Safety for Korean Tourists",
+    "headline_kr": "한국인 관광객 안전 강화를 위한 새로운 합동 순찰대 발족",
+    "lead_en": "Philippine National Police and local Korean community representatives have initiated joint patrols in popular tourist areas, aiming to bolster security and provide immediate assistance to visitors. This collaborative effort comes after recent discussions on improving safety measures for foreign nationals.",
+    "lead_kr": "필리핀 국립경찰과 현지 한인 커뮤니티 대표들이 인기 관광지에서 합동 순찰을 시작하여 방문객들의 보안을 강화하고 즉각적인 지원을 제공하는 것을 목표로 합니다. 이러한 협력 노력은 외국인 안전 조치 개선에 대한 최근 논의 후에 이루어졌습니다.",
+    "image_seed": "feat-2026-09-28",
+    "image_query": "Korean Philippine police officers patrolling tourist street Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Ministers Discuss Digital Trade Integration",
+      "headline_kr": "아세안 경제 장관들, 디지털 무역 통합 논의",
+      "summary_en": "Ministers from ASEAN member states met to advance discussions on regional digital trade frameworks, aiming to streamline cross-border e-commerce and foster a more integrated digital economy by 2030.",
+      "summary_kr": "아세안 회원국 장관들이 역내 디지털 무역 프레임워크를 진전시키기 위한 논의를 가졌으며, 2030년까지 국경 간 전자상거래를 간소화하고 보다 통합된 디지털 경제를 육성하는 것을 목표로 합니다.",
+      "image_seed": "news1-2026-09-28",
+      "image_query": "ASEAN ministers at economic summit discussing trade",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Draws Large Crowd in Quezon City",
+      "headline_kr": "케손시티에서 열린 K-팝 댄스 워크숍에 많은 인파 몰려",
+      "summary_en": "A free K-Pop dance workshop held over the weekend attracted hundreds of Filipino youth, showcasing the enduring popularity of Korean culture and fostering cultural exchange through music and dance.",
+      "summary_kr": "주말 동안 열린 무료 K-팝 댄스 워크숍에 수백 명의 필리핀 젊은이들이 몰려 한국 문화의 지속적인 인기를 보여주고 음악과 춤을 통해 문화 교류를 증진했습니다.",
+      "image_seed": "news2-2026-09-28",
+      "image_query": "Filipino youth dancing K-Pop workshop stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Launch Joint Program for Marine Conservation",
+      "headline_kr": "필리핀, 한국 해양 보존 공동 프로그램 착수",
+      "summary_en": "Manila and Seoul have initiated a joint research and conservation program focused on protecting marine biodiversity in the West Philippine Sea, emphasizing sustainable practices and scientific collaboration.",
+      "summary_kr": "마닐라와 서울은 서필리핀해의 해양 생물 다양성 보호에 중점을 둔 공동 연구 및 보존 프로그램을 시작했으며, 지속 가능한 관행과 과학적 협력을 강조했습니다.",
+      "image_seed": "news3-2026-09-28",
+      "image_query": "Korean Philippine scientists marine research vessel",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Advisory on Online Scams Targeting Koreans",
+      "headline_kr": "대사관, 한인 대상 온라인 사기 주의보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has released a public advisory warning its citizens about a rise in sophisticated online scams, urging vigilance against phishing attempts and fraudulent investment schemes.",
+      "summary_kr": "주필리핀 한국 대사관은 정교한 온라인 사기 증가에 대해 자국민에게 경고하는 대중 주의보를 발표하며, 피싱 시도 및 사기성 투자 계획에 대한 경계를 촉구했습니다.",
+      "image_seed": "news4-2026-09-28",
+      "image_query": "Cybersecurity lock digital scam warning screen",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkætəlɪst/",
+    "type": "noun",
+    "definition_en": "A person or thing that precipitates an event or change; a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+    "definition_kr": "사건이나 변화를 촉진시키는 사람이나 사물; 자신은 영구적인 화학적 변화를 겪지 않으면서 화학 반응 속도를 증가시키는 물질.",
+    "example_en": "The new investment agreement is expected to act as a catalyst for economic growth in the Philippines.",
+    "example_kr": "새로운 투자 협정은 필리핀 경제 성장의 촉매제 역할을 할 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
