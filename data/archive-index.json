@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-30",
+    "vol": 182,
+    "cover_en": "Korea-PH Green Tech Pact: Boosting Sustainable Growth & Jobs",
+    "cover_kr": "한-필 녹색 기술 협약: 지속 가능한 성장 및 일자리 창출 가속화",
+    "headlines_en": [
+      "Enhanced Security Measures for Korean Tourists in Popular PH Destinations",
+      "ASEAN Digital Economy Forum Concludes, Highlights Regional Integration",
+      "Manila Hosts Successful K-Food Festival: A Taste of Korea's Culinary Delights",
+      "Korean Community Donates Educational Supplies to Local Schools in Pampanga",
+      "PNP Issues Advisory on Online Scams Targeting Foreign Residents"
+    ],
+    "headlines_kr": [
+      "필리핀 주요 관광지 내 한국인 관광객 위한 보안 강화 조치",
+      "아세안 디지털 경제 포럼 폐막, 역내 통합 강조",
+      "마닐라에서 성공적인 K-푸드 페스티벌 개최: 한국 요리의 진미를 맛보다",
+      "한인 커뮤니티, 팜팡가 지역 학교에 교육 용품 기부",
+      "필리핀 경찰청, 외국인 거주자 겨냥 온라인 사기 주의보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-09-29",
     "vol": 181,
     "cover_en": "PH, Korea Sign Landmark Digital Connectivity & Green Energy Pact",

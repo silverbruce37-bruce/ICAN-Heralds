@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-30",
+  "header_date_line": "WEDNESDAY, SEPTEMBER 30, 2026 | PHILIPPINES | VOL. 182",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.30",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-PH Green Tech Pact: Boosting Sustainable Growth & Jobs",
+    "headline_kr": "한-필 녹색 기술 협약: 지속 가능한 성장 및 일자리 창출 가속화",
+    "subtitle_en": "The landmark agreement focuses on renewable energy and smart city solutions, promising significant investment and job creation in the Philippines. Experts foresee a new era of bilateral cooperation.",
+    "subtitle_kr": "이번 기념비적인 협약은 재생 에너지 및 스마트 도시 솔루션에 중점을 두며, 필리핀에 상당한 투자와 일자리 창출을 약속합니다. 전문가들은 양국 협력의 새로운 시대를 예견하고 있습니다.",
+    "body_en": [
+      "Manila, Philippines – South Korea and the Philippines today inked a groundbreaking Green Technology Partnership Agreement, signaling a robust commitment to sustainable development and economic growth. The pact, signed by Philippine Secretary of Trade and Industry, Alfredo Pascual, and South Korean Minister of Trade, Industry, and Energy, Ahn Duk-geun, aims to foster collaboration in renewable energy, waste management, and smart urban infrastructure. The ceremony, held at the Malacañang Palace, emphasized the shared vision of both nations for a greener and more resilient future.",
+      "Under the terms of the agreement, Korean companies will commit an initial investment package worth over $500 million into key green sectors across the Philippines over the next three years. This includes projects ranging from solar and wind energy farms to advanced water purification systems and eco-friendly transportation networks. Philippine officials anticipate that these initiatives will not only address critical environmental challenges but also generate an estimated 20,000 new jobs, significantly boosting local economies and providing opportunities for skilled workers.",
+      "The partnership is expected to open new avenues for technology transfer and capacity building, allowing the Philippines to leverage Korea's expertise in advanced green technologies. For the Korean community in the Philippines, this agreement presents new business opportunities and reinforces the strong bilateral ties. Both governments expressed optimism that this collaboration will serve as a model for regional sustainable development, inviting further international partnerships and investment in Southeast Asia's burgeoning green economy."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 대한민국과 필리핀은 오늘 지속 가능한 발전과 경제 성장에 대한 강력한 의지를 표명하는 획기적인 녹색 기술 파트너십 협약을 체결했습니다. 알프레도 파스쿠알 필리핀 무역산업부 장관과 안덕근 대한민국 산업통상자원부 장관이 서명한 이번 협약은 재생 에너지, 폐기물 관리 및 스마트 도시 인프라 분야에서의 협력을 촉진하는 것을 목표로 합니다. 말라카냥 궁에서 열린 서명식에서는 더 푸르고 회복력 있는 미래를 위한 양국의 공동 비전이 강조되었습니다.",
+      "협약 조건에 따라 한국 기업들은 향후 3년간 필리핀 전역의 주요 녹색 부문에 5억 달러 이상의 초기 투자 패키지를 약속할 것입니다. 이는 태양광 및 풍력 발전 단지부터 첨단 정수 시스템 및 친환경 교통망에 이르는 프로젝트를 포함합니다. 필리핀 관계자들은 이러한 이니셔티브가 중요한 환경 문제를 해결할 뿐만 아니라 약 2만 개의 새로운 일자리를 창출하여 지역 경제를 크게 활성화하고 숙련된 노동자들에게 기회를 제공할 것으로 기대하고 있습니다.",
+      "이 파트너십은 기술 이전 및 역량 강화의 새로운 길을 열어 필리핀이 한국의 첨단 녹색 기술 전문 지식을 활용할 수 있도록 할 것으로 예상됩니다. 필리핀 내 한인 커뮤니티에게 이 협약은 새로운 사업 기회를 제공하고 강력한 양국 관계를 강화합니다. 양국 정부는 이번 협력이 지역 지속 가능한 발전의 모델이 되어 동남아시아의 급성장하는 녹색 경제에 대한 추가적인 국제 파트너십과 투자를 유치할 것이라는 낙관적인 전망을 내놓았습니다."
+    ],
+    "image_seed": "cover-2026-09-30",
+    "image_query": "Korean and Philippine officials shaking hands signing green technology agreement",
+    "image_caption": "Photo: Philippine Secretary Pascual and Korean Minister Ahn shake hands after signing the Green Tech Pact (2026.09.30)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures for Korean Tourists in Popular PH Destinations",
+    "headline_kr": "필리핀 주요 관광지 내 한국인 관광객 위한 보안 강화 조치",
+    "lead_en": "The Philippine National Police (PNP) and the Korean Embassy in Manila announced a joint initiative to boost security for Korean tourists. This comes after recent discussions addressing concerns in high-traffic areas like Boracay, Palawan, and Cebu. Increased police visibility and dedicated tourist assistance centers are part of the new plan.",
+    "lead_kr": "필리핀 경찰청(PNP)과 주필리핀 한국 대사관은 한국인 관광객의 보안 강화를 위한 공동 이니셔티브를 발표했습니다. 이는 보라카이, 팔라완, 세부와 같은 유동인구가 많은 지역의 우려 사항을 해결하기 위한 최근 논의에 따른 것입니다. 경찰 가시성 증대 및 전담 관광객 지원 센터 운영이 새로운 계획에 포함됩니다.",
+    "image_seed": "feat-2026-09-30",
+    "image_query": "Philippine police officer and Korean tourist police discussing tourist safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Forum Concludes, Highlights Regional Integration",
+      "headline_kr": "아세안 디지털 경제 포럼 폐막, 역내 통합 강조",
+      "summary_en": "The annual ASEAN Digital Economy Forum concluded in Singapore, with leaders emphasizing the importance of seamless digital integration and cross-border e-commerce to drive regional economic growth. Discussions focused on harmonizing digital policies.",
+      "summary_kr": "싱가포르에서 열린 연례 아세안 디지털 경제 포럼이 폐막했으며, 정상들은 역내 경제 성장을 위한 원활한 디지털 통합과 국경 간 전자상거래의 중요성을 강조했습니다. 디지털 정책 조화에 대한 논의가 집중되었습니다.",
+      "image_seed": "news1-2026-09-30",
+      "image_query": "ASEAN leaders digital economy conference stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Successful K-Food Festival: A Taste of Korea's Culinary Delights",
+      "headline_kr": "마닐라에서 성공적인 K-푸드 페스티벌 개최: 한국 요리의 진미를 맛보다",
+      "summary_en": "Thousands flocked to the SM Megamall event grounds for the highly anticipated K-Food Festival, experiencing authentic Korean cuisine, cooking demonstrations, and cultural performances. Organizers hailed it as the biggest turnout yet.",
+      "summary_kr": "수천 명이 SM 메가몰 행사장을 찾아 큰 기대를 모았던 K-푸드 페스티벌에서 정통 한국 요리, 요리 시연 및 문화 공연을 경험했습니다. 주최측은 역대 최대 인파가 몰렸다고 평가했습니다.",
+      "image_seed": "news2-2026-09-30",
+      "image_query": "Korean food festival crowd eating bibimbap street food",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Community Donates Educational Supplies to Local Schools in Pampanga",
+      "headline_kr": "한인 커뮤니티, 팜팡가 지역 학교에 교육 용품 기부",
+      "summary_en": "The Korean Association in Pampanga, in partnership with local NGOs, delivered essential school supplies and refurbished computers to several elementary schools. This initiative aims to support underprivileged students and foster strong community ties.",
+      "summary_kr": "팜팡가 한인회는 지역 NGO와 협력하여 여러 초등학교에 필수 학용품과 수리된 컴퓨터를 전달했습니다. 이 이니셔티브는 소외 계층 학생들을 지원하고 강력한 지역 사회 유대 관계를 조성하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-09-30",
+      "image_query": "Korean community members donating school supplies children",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "PNP Issues Advisory on Online Scams Targeting Foreign Residents",
+      "headline_kr": "필리핀 경찰청, 외국인 거주자 겨냥 온라인 사기 주의보 발령",
+      "summary_en": "The Philippine National Police has issued a public advisory warning foreign residents, including Koreans, about a rise in online phishing and investment scams. They urge vigilance and advise reporting suspicious activities to authorities immediately.",
+      "summary_kr": "필리핀 경찰청은 한국인을 포함한 외국인 거주자들에게 온라인 피싱 및 투자 사기 증가에 대한 공개 주의보를 발령했습니다. 경찰은 경계를 늦추지 말고 의심스러운 활동을 즉시 당국에 신고할 것을 당부했습니다.",
+      "image_seed": "news4-2026-09-30",
+      "image_query": "Philippine police officer warning about online scams computer",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Sustainable",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "type": "adjective",
+    "definition_en": "Able to be maintained at a certain rate or level; conserving an ecological balance by avoiding depletion of natural resources.",
+    "definition_kr": "어떤 속도나 수준으로 유지될 수 있는; 천연 자원의 고갈을 피함으로써 생태학적 균형을 보존하는.",
+    "example_en": "The new agreement aims to promote sustainable development in the region.",
+    "example_kr": "새로운 협정은 이 지역의 지속 가능한 발전을 촉진하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
