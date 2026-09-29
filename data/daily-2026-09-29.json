@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-09-29",
+  "header_date_line": "TUESDAY, SEPTEMBER 29, 2026 | PHILIPPINES | VOL. 181",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.09.29",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH, Korea Sign Landmark Digital Connectivity & Green Energy Pact",
+    "headline_kr": "필리핀-한국, 디지털 연결성 및 친환경 에너지 협력 협정 체결",
+    "subtitle_en": "The Philippines and South Korea have formalized a comprehensive agreement aimed at accelerating digital infrastructure development and promoting green energy initiatives across the archipelago, marking a new era of bilateral cooperation.",
+    "subtitle_kr": "필리핀과 한국은 필리핀 전역의 디지털 인프라 개발을 가속화하고 친환경 에너지 이니셔티브를 촉진하기 위한 포괄적인 협정을 공식화하며, 새로운 양국 협력 시대를 열었습니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal ceremony held yesterday at Malacañang Palace, President Ferdinand Marcos Jr. and South Korean President Yoon Suk Yeol officially inked a groundbreaking Memorandum of Understanding (MOU) focusing on advanced digital connectivity and sustainable energy solutions. This strategic pact underscores the growing commitment of both nations to foster innovation and environmental stewardship, setting ambitious targets for the next five years.",
+      "The agreement outlines specific projects, including the expansion of high-speed internet infrastructure in remote Philippine regions, the deployment of smart city technologies, and significant investments in renewable energy sources such as solar and wind power. For the Korean community in the Philippines, this means improved digital services, enhanced business opportunities in green industries, and a more robust economic environment that supports long-term growth and stability.",
+      "Officials from both sides emphasized the pact's potential to drive economic recovery and resilience post-pandemic, creating thousands of jobs and attracting further foreign direct investment. The joint task force established under the MOU will immediately begin feasibility studies and project implementations, with initial pilot projects expected to commence by early 2027, promising tangible benefits for citizens and businesses alike."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 어제 말라카냥 궁에서 열린 중요한 행사에서 페르디난드 마르코스 주니어 필리핀 대통령과 윤석열 대한민국 대통령은 첨단 디지털 연결성과 지속 가능한 에너지 솔루션에 중점을 둔 획기적인 양해각서(MOU)에 공식적으로 서명했습니다. 이 전략적 협정은 혁신과 환경 보호를 육성하려는 양국의 증대된 의지를 강조하며 향후 5년간의 야심찬 목표를 설정합니다.",
+      "이 협정은 필리핀 외곽 지역의 고속 인터넷 인프라 확장, 스마트 도시 기술 도입, 태양광 및 풍력 발전과 같은 재생 에너지원에 대한 상당한 투자를 포함한 구체적인 프로젝트들을 명시하고 있습니다. 필리핀 내 한인 사회에게는 개선된 디지털 서비스, 녹색 산업에서의 향상된 사업 기회, 그리고 장기적인 성장과 안정을 지원하는 더욱 견고한 경제 환경을 의미합니다.",
+      "양측 관계자들은 이 협정이 팬데믹 이후 경제 회복과 회복력을 주도하고 수천 개의 일자리를 창출하며 추가 외국인 직접 투자를 유치할 잠재력을 강조했습니다. MOU에 따라 설립된 공동 태스크포스는 즉시 타당성 조사 및 프로젝트 실행에 착수할 예정이며, 2027년 초까지 초기 시범 프로젝트가 시작될 것으로 예상되어 시민과 기업 모두에게 실질적인 혜택을 약속합니다."
+    ],
+    "image_seed": "cover-2026-09-29",
+    "image_query": "Philippine Korean presidents shaking hands, digital green energy background",
+    "image_caption": "Photo: President Marcos Jr. and President Yoon Suk Yeol after signing the MOU (September 28, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Police Task Force Launched for Enhanced Tourist Safety",
+    "headline_kr": "필리핀-한국 합동 경찰 태스크포스, 관광객 안전 강화를 위해 출범",
+    "lead_en": "A new joint task force comprising Philippine National Police (PNP) and Korean National Police Agency (KNPA) officers officially commenced operations this week. The initiative aims to significantly enhance the safety and security of Korean tourists and residents across major Philippine destinations, addressing concerns about petty crime and emergency response.",
+    "lead_kr": "필리핀 국가경찰(PNP)과 한국 경찰청(KNPA) 소속 경찰관으로 구성된 새로운 합동 태스크포스가 이번 주 공식적으로 활동을 시작했습니다. 이 이니셔티브는 주요 필리핀 관광지에서 한국인 관광객과 거주자의 안전 및 보안을 크게 강화하고, 경범죄 및 긴급 대응에 대한 우려를 해소하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-09-29",
+    "image_query": "Korean and Philippine police officers patrolling tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investment Fuels PH Startup Boom, Tech Sector Growth",
+      "headline_kr": "한국 투자, 필리핀 스타트업 붐 및 기술 부문 성장에 불을 지피다",
+      "summary_en": "Korean venture capital firms are increasingly channeling funds into the Philippine startup ecosystem, particularly in fintech and e-commerce. This influx of investment is accelerating technological innovation and creating new opportunities for local talent.",
+      "summary_kr": "한국 벤처 캐피탈 기업들이 핀테크 및 전자상거래 분야를 중심으로 필리핀 스타트업 생태계에 자금을 점점 더 많이 투입하고 있습니다. 이러한 투자 유입은 기술 혁신을 가속화하고 현지 인재를 위한 새로운 기회를 창출하고 있습니다.",
+      "image_seed": "news1-2026-09-29",
+      "image_query": "Diverse startup team collaborating, Manila skyline",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Breaks Attendance Records in Metro Manila",
+      "headline_kr": "K-푸드 축제, 메트로 마닐라에서 역대 최고 참석 기록 경신",
+      "summary_en": "The annual Korean Food Festival concluded last weekend, drawing unprecedented crowds eager to experience authentic Korean cuisine and cultural performances. Organizers report record-breaking attendance, highlighting K-food's growing popularity in the Philippines.",
+      "summary_kr": "지난 주말 막을 내린 연례 한국 음식 축제는 정통 한식과 문화 공연을 경험하려는 전례 없는 인파를 모았습니다. 주최 측은 K-푸드의 필리핀 내 인기가 높아지고 있음을 보여주는 역대 최고 참석 기록을 보고했습니다.",
+      "image_seed": "news2-2026-09-29",
+      "image_query": "People enjoying Korean food, vibrant festival atmosphere",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Joint Research on Climate Resilience Gains Momentum",
+      "headline_kr": "기후 탄력성 필리핀-한국 공동 연구, 탄력 받다",
+      "summary_en": "Scientists from both countries are collaborating on critical research initiatives focused on climate change adaptation and disaster risk reduction. The projects aim to develop sustainable solutions for vulnerable communities in Southeast Asia.",
+      "summary_kr": "양국의 과학자들이 기후 변화 적응 및 재난 위험 감소에 중점을 둔 중요한 연구 이니셔티브에 협력하고 있습니다. 이 프로젝트들은 동남아시아 취약 지역 사회를 위한 지속 가능한 솔루션을 개발하는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-09-29",
+      "image_query": "Scientists collaborating in lab, climate data screens",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Watch Program Expands to Safeguard Korean Expats",
+      "headline_kr": "한인 교민 보호 위한 커뮤니티 감시 프로그램 확대",
+      "summary_en": "Local government units in key expat areas are extending their community watch programs, integrating more Korean community leaders. This aims to foster a safer environment and improve communication channels for addressing security concerns.",
+      "summary_kr": "주요 교민 거주 지역의 지방 정부 기관들이 커뮤니티 감시 프로그램을 확대하고 있으며, 더 많은 한인 커뮤니티 리더들을 통합하고 있습니다. 이는 더 안전한 환경을 조성하고 보안 문제 해결을 위한 소통 채널을 개선하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-09-29",
+      "image_query": "Community leaders discussing safety, residents looking secure",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital connectivity pact aims to create a powerful synergy between Philippine and Korean technological advancements.",
+    "example_kr": "디지털 연결성 협정은 필리핀과 한국의 기술 발전 간에 강력한 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
