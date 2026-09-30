@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-01",
+    "vol": 183,
+    "cover_en": "PH-Korea Digital Trade Hub Opens, Set to Revolutionize Bilateral Commerce",
+    "cover_kr": "필리핀-한국 디지털 무역 허브 개소, 양국 상거래 혁신 기대",
+    "headlines_en": [
+      "Enhanced Security Measures for Korean Tourists in Boracay Ahead of Peak Season",
+      "ASEAN Leaders Discuss Digital Economy Integration at Manila Summit",
+      "Korean Cultural Center Hosts Hanbok Fashion Show in Manila",
+      "DOST-KOICA Partnership Develops Agri-Tech Solutions for Rural PH",
+      "Makati Police Launch Community Watch Program with Korean Residents"
+    ],
+    "headlines_kr": [
+      "보라카이, 성수기 앞두고 한인 관광객 대상 보안 강화 조치",
+      "마닐라 정상회담서 아세안 지도자들 디지털 경제 통합 논의",
+      "한국문화원, 마닐라에서 한복 패션쇼 개최",
+      "필리핀 과학기술부-코이카, 농촌 필리핀 위한 농업 기술 솔루션 개발",
+      "마카티 경찰, 한인 주민과 함께 지역사회 감시 프로그램 시작"
+    ],
+    "tags": [
+      "Economy",
+      "Culture",
+      "Cooperation",
+      "Security",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-09-30",
     "vol": 182,
     "cover_en": "Korea-PH Green Tech Pact: Boosting Sustainable Growth & Jobs",

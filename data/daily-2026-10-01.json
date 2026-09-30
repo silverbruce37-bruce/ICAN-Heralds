@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-01",
+  "header_date_line": "THURSDAY, OCTOBER 1, 2026 | PHILIPPINES | VOL. 183",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.01",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Digital Trade Hub Opens, Set to Revolutionize Bilateral Commerce",
+    "headline_kr": "필리핀-한국 디지털 무역 허브 개소, 양국 상거래 혁신 기대",
+    "subtitle_en": "A landmark initiative between Manila and Seoul aims to streamline trade processes and enhance economic ties through advanced digital platforms. This hub is expected to significantly benefit Korean businesses in the Philippines.",
+    "subtitle_kr": "마닐라와 서울 간의 획기적인 이니셔티브는 첨단 디지털 플랫폼을 통해 무역 프로세스를 간소화하고 경제 관계를 강화하는 것을 목표로 합니다. 이 허브는 필리핀 내 한인 기업들에게 큰 이점을 가져다줄 것으로 기대됩니다.",
+    "body_en": [
+      "The Philippines and South Korea officially inaugurated the 'PH-Korea Digital Trade Hub' today, marking a significant milestone in their economic partnership. Located in Taguig City, the state-of-the-art facility will serve as a central platform for digitalizing trade transactions, improving supply chain efficiency, and fostering greater transparency between the two nations. Officials from both governments emphasized the hub's potential to cut down bureaucratic hurdles and accelerate goods and services exchange, benefiting small and medium-sized enterprises (SMEs) in particular.",
+      "This ambitious project, first conceptualized during a bilateral summit in 2024, integrates cutting-edge technologies such as blockchain for secure transactions, AI-powered logistics optimization, and big data analytics for market insights. For the Korean community in the Philippines, especially those involved in import-export, manufacturing, and retail, the hub promises a more seamless and cost-effective operational environment. It is anticipated to boost Korean investments and expand market access for Philippine products in Korea, strengthening overall bilateral trade volumes.",
+      "The opening ceremony saw key dignitaries, including the Philippine Secretary of Trade and Industry and the Korean Ambassador to the Philippines, underscore the hub's role in future-proofing the two countries' economic relationship against global uncertainties. Training programs and workshops will be rolled out in the coming months to help businesses adapt to the new digital framework, ensuring that the benefits of this innovative partnership are widely accessible across both economies."
+    ],
+    "body_kr": [
+      "필리핀과 한국은 오늘 '필리핀-한국 디지털 무역 허브'를 공식 개소하며 양국 경제 파트너십에 중요한 이정표를 세웠습니다. 타귁 시에 위치한 이 최첨단 시설은 무역 거래를 디지털화하고, 공급망 효율성을 개선하며, 양국 간 투명성을 높이는 중심 플랫폼 역할을 할 것입니다. 양국 정부 관계자들은 이 허브가 관료적 장벽을 줄이고 상품 및 서비스 교환을 가속화하여 특히 중소기업(SME)에 혜택을 줄 잠재력이 크다고 강조했습니다.",
+      "2024년 양자 정상회담에서 처음 구상된 이 야심찬 프로젝트는 안전한 거래를 위한 블록체인, AI 기반 물류 최적화, 시장 통찰력을 위한 빅데이터 분석과 같은 최첨단 기술을 통합합니다. 필리핀 내 한인 커뮤니티, 특히 수출입, 제조업, 소매업에 종사하는 기업들에게 이 허브는 더욱 원활하고 비용 효율적인 운영 환경을 약속합니다. 이는 한국의 투자를 촉진하고 필리핀 제품의 한국 시장 접근성을 확대하여 전반적인 양자 무역량을 강화할 것으로 예상됩니다.",
+      "개소식에는 필리핀 무역산업부 장관과 주필리핀 한국 대사를 비롯한 주요 인사들이 참석하여 글로벌 불확실성에 대비하여 양국 경제 관계를 미래 지향적으로 만드는 데 있어 허브의 역할을 강조했습니다. 향후 몇 달 동안 기업들이 새로운 디지털 프레임워크에 적응할 수 있도록 교육 프로그램과 워크숍이 진행될 예정이며, 이 혁신적인 파트너십의 혜택이 양국 경제 전반에 걸쳐 널리 제공될 수 있도록 할 것입니다."
+    ],
+    "image_seed": "cover-2026-10-01",
+    "image_query": "Korean Philippine officials handshake signing digital trade agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials shake hands at the Digital Trade Hub inauguration (2026-10-01)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Security Measures for Korean Tourists in Boracay Ahead of Peak Season",
+    "headline_kr": "보라카이, 성수기 앞두고 한인 관광객 대상 보안 강화 조치",
+    "lead_en": "Philippine authorities, in collaboration with the Korean Embassy, have announced heightened security protocols for popular tourist destinations like Boracay. This proactive step aims to ensure the safety of the growing number of Korean visitors as the peak travel season approaches, following recent discussions on tourist safety.",
+    "lead_kr": "필리핀 당국은 주필리핀 한국 대사관과 협력하여 보라카이와 같은 인기 관광지에 대한 보안 프로토콜을 강화한다고 발표했습니다. 이는 최근 관광객 안전에 대한 논의에 따라 성수기를 앞두고 증가하는 한인 방문객들의 안전을 보장하기 위한 선제적인 조치입니다.",
+    "image_seed": "feat-2026-10-01",
+    "image_query": "Philippine police patrol Boracay beach Korean tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Leaders Discuss Digital Economy Integration at Manila Summit",
+      "headline_kr": "마닐라 정상회담서 아세안 지도자들 디지털 경제 통합 논의",
+      "summary_en": "Leaders from ASEAN member states convened in Manila to discuss strategies for deeper digital economy integration, aiming to boost regional trade and investment. Key topics included cross-border data flow and digital payment systems.",
+      "summary_kr": "아세안 회원국 정상들이 마닐라에 모여 역내 무역 및 투자를 활성화하기 위한 디지털 경제 통합 전략을 논의했습니다. 주요 의제로는 국경 간 데이터 흐름과 디지털 결제 시스템이 포함되었습니다.",
+      "image_seed": "news1-2026-10-01",
+      "image_query": "ASEAN leaders conference table digital economy",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Korean Cultural Center Hosts Hanbok Fashion Show in Manila",
+      "headline_kr": "한국문화원, 마닐라에서 한복 패션쇼 개최",
+      "summary_en": "The Korean Cultural Center in the Philippines (KCC) captivated audiences with a stunning Hanbok fashion show, showcasing traditional and modern interpretations of Korean attire. The event fostered cultural exchange and celebrated Korean heritage.",
+      "summary_kr": "필리핀 한국문화원(KCC)이 전통과 현대적 해석을 아우르는 한복 패션쇼로 관객들을 사로잡았습니다. 이 행사는 문화 교류를 촉진하고 한국의 유산을 기념했습니다.",
+      "image_seed": "news2-2026-10-01",
+      "image_query": "Hanbok fashion show models stage Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "DOST-KOICA Partnership Develops Agri-Tech Solutions for Rural PH",
+      "headline_kr": "필리핀 과학기술부-코이카, 농촌 필리핀 위한 농업 기술 솔루션 개발",
+      "summary_en": "The Philippine Department of Science and Technology (DOST) and KOICA have successfully launched a new phase of their partnership, focusing on developing sustainable agri-technology solutions to uplift rural communities across the Philippines. This initiative aims to enhance food security and farmer livelihoods.",
+      "summary_kr": "필리핀 과학기술부(DOST)와 코이카(KOICA)가 필리핀 농촌 지역 사회를 발전시키기 위한 지속 가능한 농업 기술 솔루션 개발에 중점을 둔 새로운 파트너십 단계를 성공적으로 시작했습니다. 이 이니셔티브는 식량 안보와 농민 생활 개선을 목표로 합니다.",
+      "image_seed": "news3-2026-10-01",
+      "image_query": "Korean Philippine scientists agri-tech research farm",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Makati Police Launch Community Watch Program with Korean Residents",
+      "headline_kr": "마카티 경찰, 한인 주민과 함께 지역사회 감시 프로그램 시작",
+      "summary_en": "The Makati City Police Department has initiated a new 'Community Watch' program, actively involving Korean residents to enhance local safety and security. The program focuses on neighborhood patrols and immediate reporting of suspicious activities.",
+      "summary_kr": "마카티 시 경찰국은 지역 안전 및 보안 강화를 위해 한인 주민들이 적극적으로 참여하는 새로운 '지역사회 감시' 프로그램을 시작했습니다. 이 프로그램은 지역 순찰과 의심스러운 활동의 즉각적인 보고에 중점을 둡니다.",
+      "image_seed": "news4-2026-10-01",
+      "image_query": "Makati police Korean residents community watch",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "SIN-er-jee",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 현상.",
+    "example_en": "The digital trade hub aims to create synergy between Philippine and Korean economies, leading to unprecedented growth.",
+    "example_kr": "디지털 무역 허브는 필리핀과 한국 경제 간의 시너지를 창출하여 전례 없는 성장을 이끌어내는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
