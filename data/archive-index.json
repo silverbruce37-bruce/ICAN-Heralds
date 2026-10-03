@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-03",
+    "vol": 185,
+    "cover_en": "Korea-Philippines Digital Partnership Summit Forges New Era of Tech Collaboration",
+    "cover_kr": "한-필리핀 디지털 파트너십 정상회담, 기술 협력의 새 시대 열어",
+    "headlines_en": [
+      "Joint PH-Korean Police Patrols Intensify in Metro Manila Tourist Zones",
+      "Korean Investments Surge in Philippine Renewable Energy Sector",
+      "Manila Hosts Successful 'Taste of Korea' Food Festival",
+      "Philippines and Korea Discuss Enhanced Tourism Exchange Programs",
+      "Korean Embassy Issues Travel Advisory for Upcoming Holiday Season"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 관광 지역, 한-필리핀 공동 경찰 순찰 강화",
+      "필리핀 재생 에너지 부문에 한국 투자 급증",
+      "마닐라에서 '한국의 맛' 음식 축제 성황리에 개최",
+      "필리핀과 한국, 관광 교류 프로그램 강화 논의",
+      "주필리핀 한국 대사관, 다가오는 연휴 시즌 여행 경보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Cooperation",
+      "Culture",
+      "Economy",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "vol": 184,
     "cover_en": "Korea-PH Digital Transformation Partnership Enters New Phase",
