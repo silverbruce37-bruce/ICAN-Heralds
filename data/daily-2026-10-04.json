@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-04",
+  "header_date_line": "SUNDAY, OCTOBER 4, 2026 | PHILIPPINES | VOL. 186",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.04",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Philippines-Korea Digital Trade Hub Nears Completion, Boosting Regional Economy",
+    "headline_kr": "필리핀-한국 디지털 무역 허브 완공 임박, 지역 경제 활성화 기대",
+    "subtitle_en": "The ambitious joint project is set to revolutionize trade logistics and foster digital transformation across the ASEAN region, marking a new era of bilateral cooperation.",
+    "subtitle_kr": "야심찬 이 공동 프로젝트는 ASEAN 지역 전반의 무역 물류를 혁신하고 디지털 전환을 촉진하여 양국 협력의 새로운 시대를 열 것으로 기대됩니다.",
+    "body_en": [
+      "The Philippines-Korea Digital Trade Hub, a landmark infrastructure project designed to streamline cross-border commerce and enhance digital connectivity, is reportedly in its final stages of development. Officials from both nations anticipate its full operational launch by early next year, promising a significant boost to the regional economy and positioning the Philippines as a key digital logistics gateway in Southeast Asia.",
+      "Funded primarily through a substantial Korean investment and technical expertise, the hub integrates advanced AI-driven customs processing, blockchain-secured supply chain management, and a robust e-commerce platform. This technological infusion is expected to drastically cut down processing times, reduce operational costs for businesses, and create thousands of new jobs in the logistics and IT sectors across the archipelago.",
+      "Beyond its immediate economic impact, the Digital Trade Hub symbolizes the deepening strategic partnership between the Philippines and South Korea. It aims to attract more Korean businesses seeking efficient market access to ASEAN, while also empowering Filipino entrepreneurs with global reach. This collaborative effort underscores a shared vision for a digitally inclusive and economically vibrant future."
+    ],
+    "body_kr": [
+      "국경 간 상거래를 간소화하고 디지털 연결성을 강화하기 위해 고안된 필리핀-한국 디지털 무역 허브는 현재 개발의 최종 단계에 접어든 것으로 알려졌습니다. 양국 관계자들은 내년 초 완전한 운영 개시를 예상하며, 이는 지역 경제에 상당한 활력을 불어넣고 필리핀을 동남아시아의 핵심 디지털 물류 허브로 자리매김할 것으로 기대됩니다.",
+      "주로 한국의 상당한 투자와 기술 전문 지식으로 자금을 지원받은 이 허브는 첨단 AI 기반 세관 처리, 블록체인 보안 공급망 관리 및 강력한 전자상거래 플랫폼을 통합합니다. 이러한 기술 도입은 처리 시간을 획기적으로 단축하고 기업의 운영 비용을 절감하며, 필리핀 전역의 물류 및 IT 부문에서 수천 개의 새로운 일자리를 창출할 것으로 예상됩니다.",
+      "즉각적인 경제적 영향 외에도 디지털 무역 허브는 필리핀과 한국 간의 심화되는 전략적 파트너십을 상징합니다. 이는 효율적인 ASEAN 시장 접근을 모색하는 더 많은 한국 기업을 유치하는 동시에 필리핀 기업가들에게 글로벌 시장 진출 기회를 제공하는 것을 목표로 합니다. 이러한 협력 노력은 디지털적으로 포용적이고 경제적으로 활기찬 미래에 대한 공동의 비전을 강조합니다."
+    ],
+    "image_seed": "cover-2026-10-04",
+    "image_query": "Korean and Philippine officials review digital trade hub blueprints",
+    "image_caption": "Photo: Officials discuss the final phases of the PH-Korea Digital Trade Hub (Oct 3, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint Police Operation Enhances Korean Community Safety in Metro Manila",
+    "headline_kr": "메트로 마닐라 한인 커뮤니티 안전 강화 위한 한-필 합동 경찰 작전",
+    "lead_en": "A recent joint operation involving Philippine National Police and Korean Embassy security liaisons has led to increased patrols and improved response times in areas with high Korean populations. The initiative aims to bolster safety and deter crime, receiving positive feedback from residents.",
+    "lead_kr": "필리핀 경찰청과 한국 대사관 보안 담당자들의 최근 합동 작전으로 한인 밀집 지역의 순찰이 강화되고 대응 시간이 단축되었습니다. 이 이니셔티브는 안전을 강화하고 범죄를 억제하는 것을 목표로 하며 주민들로부터 긍정적인 평가를 받고 있습니다.",
+    "image_seed": "feat-2026-10-04",
+    "image_query": "Philippine and Korean police officers patrolling jointly Makati",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive for Korean Investors in Q4 2026",
+      "headline_kr": "2026년 4분기 ASEAN 경제 전망, 한국 투자자에게 긍정적",
+      "summary_en": "Analysts predict robust growth in key ASEAN markets, presenting significant investment opportunities for Korean businesses, particularly in manufacturing and digital services.",
+      "summary_kr": "분석가들은 주요 ASEAN 시장의 견고한 성장을 예측하며, 특히 제조업 및 디지털 서비스 분야에서 한국 기업들에게 중요한 투자 기회를 제공할 것이라고 밝혔습니다.",
+      "image_seed": "news1-2026-10-04",
+      "image_query": "Modern skyline Manila with financial district",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Successful K-Pop Dance Festival Draws Thousands in Manila",
+      "headline_kr": "마닐라에서 성황리에 열린 K-POP 댄스 페스티벌, 수천 명 참가",
+      "summary_en": "The annual K-Pop Dance Festival held in Manila showcased local talent and the enduring popularity of Korean culture, attracting a massive crowd of fans and participants.",
+      "summary_kr": "마닐라에서 열린 연례 K-POP 댄스 페스티벌은 현지 재능과 한국 문화의 지속적인 인기를 보여주며 수많은 팬과 참가자들을 끌어모았습니다.",
+      "image_seed": "news2-2026-10-04",
+      "image_query": "K-Pop fans cheering at outdoor concert",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Expands Scholarship Programs for Filipino Students in 2027",
+      "headline_kr": "한국, 2027년 필리핀 학생 대상 장학금 프로그램 확대 발표",
+      "summary_en": "The Korean government announced increased funding and new grants for Filipino students pursuing higher education in Korea, focusing on STEM and vocational fields.",
+      "summary_kr": "한국 정부는 STEM 및 직업 분야에 중점을 두고 한국에서 고등 교육을 받는 필리핀 학생들을 위한 장학금 지원 및 신규 장학금을 확대한다고 발표했습니다.",
+      "image_seed": "news3-2026-10-04",
+      "image_query": "Filipino students studying in modern library",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Travel Advisory for Northern Luzon Amid Weather Concerns",
+      "headline_kr": "기상 악화 우려로 주필리핀 한국 대사관, 북부 루손 여행 경보 발령",
+      "summary_en": "Due to anticipated heavy rains and potential landslides, the Embassy advises Korean nationals to exercise extreme caution and postpone non-essential travel to Northern Luzon.",
+      "summary_kr": "예상되는 폭우와 산사태 가능성으로 인해 대사관은 한인들에게 북부 루손 지역으로의 불필요한 여행을 연기하고 각별한 주의를 기울일 것을 권고했습니다.",
+      "image_seed": "news4-2026-10-04",
+      "image_query": "Philippine map with highlighted Northern Luzon region",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "ˈsɪnərʤi",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "두 개 이상의 조직, 물질 또는 다른 요인들이 상호 작용하거나 협력하여 각 개별 효과의 합보다 더 큰 결합된 효과를 생성하는 것.",
+    "example_en": "The digital trade hub project aims to create synergy between Philippine logistics and Korean technology.",
+    "example_kr": "디지털 무역 허브 프로젝트는 필리핀 물류와 한국 기술 간의 시너지를 창출하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}

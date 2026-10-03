@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-04",
+    "vol": 186,
+    "cover_en": "Philippines-Korea Digital Trade Hub Nears Completion, Boosting Regional Economy",
+    "cover_kr": "필리핀-한국 디지털 무역 허브 완공 임박, 지역 경제 활성화 기대",
+    "headlines_en": [
+      "Joint Police Operation Enhances Korean Community Safety in Metro Manila",
+      "ASEAN Economic Outlook Positive for Korean Investors in Q4 2026",
+      "Successful K-Pop Dance Festival Draws Thousands in Manila",
+      "Korea Expands Scholarship Programs for Filipino Students in 2027",
+      "Korean Embassy Issues Travel Advisory for Northern Luzon Amid Weather Concerns"
+    ],
+    "headlines_kr": [
+      "메트로 마닐라 한인 커뮤니티 안전 강화 위한 한-필 합동 경찰 작전",
+      "2026년 4분기 ASEAN 경제 전망, 한국 투자자에게 긍정적",
+      "마닐라에서 성황리에 열린 K-POP 댄스 페스티벌, 수천 명 참가",
+      "한국, 2027년 필리핀 학생 대상 장학금 프로그램 확대 발표",
+      "기상 악화 우려로 주필리핀 한국 대사관, 북부 루손 여행 경보 발령"
+    ],
+    "tags": [
+      "Security",
+      "Cooperation",
+      "Culture",
+      "Safety",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-10-03",
     "vol": 185,
     "cover_en": "Korea-Philippines Digital Partnership Summit Forges New Era of Tech Collaboration",
