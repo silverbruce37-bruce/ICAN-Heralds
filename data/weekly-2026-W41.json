@@ -1,0 +1,215 @@
+{
+  "week": "2026-W41",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Saluyot & Sage",
+    "name_kr": "살루욧 앤 세이지",
+    "cuisine_tags": [
+      {
+        "en": "Modern Filipino",
+        "kr": "모던 필리핀 요리"
+      },
+      {
+        "en": "Farm-to-Table",
+        "kr": "팜투테이블"
+      }
+    ],
+    "rating": 4.8,
+    "stars": "★★★★★",
+    "lead_en": "Nestled in a quiet corner of Makati, Saluyot & Sage offers a refreshing take on Filipino cuisine, blending traditional flavors with contemporary techniques. The ambiance is a harmonious blend of rustic charm and modern elegance, with soft lighting and lush greenery creating an inviting atmosphere. Each dish tells a story, celebrating local produce and heritage ingredients in a way that feels both familiar and excitingly new, promising an unforgettable gastronomic journey.",
+    "lead_kr": "마카티의 조용한 골목에 자리한 살루욧 앤 세이지는 전통적인 맛과 현대적인 기법을 결합하여 필리핀 요리에 신선한 해석을 더합니다. 소박한 매력과 현대적인 우아함이 조화를 이루는 분위기는 부드러운 조명과 푸른 식물들로 아늑함을 선사합니다. 각 요리는 현지 농산물과 전통 재료를 기념하며 친숙하면서도 새롭게 느껴지는 이야기를 들려주어 잊을 수 없는 미식 경험을 약속합니다.",
+    "quote_en": "Our kitchen is a tribute to the Philippines' rich culinary tapestry, reimagined for the modern palate while honoring the soul of our ancestors' recipes.",
+    "quote_kr": "저희 주방은 조상들의 레시피 정신을 기리면서 현대인의 입맛에 맞게 재해석된 필리핀의 풍부한 요리 태피스트리에 대한 헌사입니다.",
+    "location": "G/F The Columns, Tower 2, Ayala Ave., Makati City",
+    "price_range": "₱800–₱2,500",
+    "hours": "Tue-Sun: 11:30 AM – 2:30 PM, 6:00 PM – 10:00 PM",
+    "hours_closed_en": "Closed Mondays",
+    "hours_closed_kr": "월요일 휴무",
+    "language_en": "English, Tagalog",
+    "language_kr": "영어, 타갈로그어",
+    "must_try": [
+      {
+        "en": "Adobo sa Gata with Crispy Kangkong",
+        "kr": "코코넛 밀크 아도보와 바삭한 캉콩",
+        "price": "₱780"
+      },
+      {
+        "en": "Kinilaw na Tanigue with Calamansi Caviar",
+        "kr": "깔라만시 캐비아를 곁들인 키닐라우 나 타니구에",
+        "price": "₱650"
+      },
+      {
+        "en": "Ube Cheesecake with Pandan Crumble",
+        "kr": "판단 크럼블 우베 치즈케이크",
+        "price": "₱420"
+      }
+    ],
+    "tip_en": "Book a table in advance, especially for dinner. Don't miss their seasonal tasting menu for a full culinary journey.",
+    "tip_kr": "특히 저녁 식사를 위해 미리 테이블을 예약하세요. 전체적인 미식 경험을 위해 제철 테이스팅 메뉴를 놓치지 마세요.",
+    "hero_image_seed": "food-w2026-W41",
+    "image_query": "modern filipino adobo sa gata with crispy kangkong elegant restaurant interior warm lighting",
+    "gallery_seeds": [
+      "food-g1-w2026-W41",
+      "food-g2-w2026-W41",
+      "food-g3-w2026-W41"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W41",
+      "image_query": "serene historic garden paco park manila lush greenery fountain",
+      "badge_en": "URBAN OASIS",
+      "badge_kr": "도시 속 오아시스",
+      "tags": [
+        {
+          "en": "Nature",
+          "kr": "자연"
+        },
+        {
+          "en": "History",
+          "kr": "역사"
+        }
+      ],
+      "name_en": "Paco Park",
+      "name_kr": "파코 공원",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "Step into the tranquil confines of Paco Park, a historical cemetery turned into a beautiful public park. Its circular design, ancient stone walls, and lush gardens offer a serene escape from Manila's bustling streets. Perfect for a leisurely stroll or quiet reflection, this hidden gem is also a popular venue for intimate concerts and cultural events.",
+      "lead_kr": "역사적인 묘지에서 아름다운 공원으로 변모한 파코 공원의 고요한 공간으로 들어서 보세요. 원형 디자인, 고대 석벽, 울창한 정원은 마닐라의 번잡한 거리에서 벗어나 평온한 휴식을 제공합니다. 여유로운 산책이나 조용한 사색에 완벽하며, 친밀한 콘서트와 문화 행사를 위한 인기 있는 장소이기도 합니다.",
+      "location": "San Marcelino St, Paco, Manila",
+      "cost": "₱20 entrance fee",
+      "tip_en": "Visit in the late afternoon for cooler temperatures and beautiful golden hour lighting. Check their schedule for free classical concerts.",
+      "tip_kr": "선선한 기온과 아름다운 골든아워 조명을 위해 늦은 오후에 방문하세요. 무료 클래식 콘서트 일정을 확인해 보세요."
+    },
+    {
+      "image_seed": "travel2-w2026-W41",
+      "image_query": "historic escolta street art deco architecture vintage buildings manila",
+      "badge_en": "HERITAGE WALK",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "Culture",
+          "kr": "문화"
+        },
+        {
+          "en": "Architecture",
+          "kr": "건축"
+        }
+      ],
+      "name_en": "Escolta Street",
+      "name_kr": "에스콜타 거리",
+      "stars": "★★★★☆",
+      "rating": 4.3,
+      "lead_en": "Take a journey back in time along Escolta Street, Manila's former 'Queen of Streets' and commercial hub during the American colonial era. Marvel at the stunning Art Deco and Neoclassical architecture of buildings like the First United Building and Burke Building. Despite its faded grandeur, Escolta is experiencing a renaissance, with new cafes, art spaces, and a vibrant community breathing life back into its historic structures.",
+      "lead_kr": "미국 식민지 시대 마닐라의 '거리의 여왕'이자 상업 중심지였던 에스콜타 거리를 따라 시간 여행을 떠나보세요. 퍼스트 유나이티드 빌딩과 버크 빌딩 같은 곳에서 멋진 아르데코 및 신고전주의 건축물을 감상하세요. 퇴색된 웅장함에도 불구하고 에스콜타는 새로운 카페, 예술 공간, 활기찬 커뮤니티가 역사적인 건물에 생명을 불어넣으며 르네상스를 경험하고 있습니다.",
+      "location": "Escolta St, Binondo, Manila",
+      "cost": "Free to explore; some establishments may have fees.",
+      "tip_en": "Join a guided walking tour to learn about the street's rich history and architectural details. Don't forget to visit the local shops and cafes.",
+      "tip_kr": "거리의 풍부한 역사와 건축적 세부 사항을 배우려면 가이드 도보 투어에 참여하세요. 현지 상점과 카페를 방문하는 것을 잊지 마세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "OCT 09",
+      "day_of_week_en": "Friday",
+      "day_of_week_kr": "금요일",
+      "image_seed": "event1-w2026-W41",
+      "image_query": "indie music concert stage lights crowd philippines",
+      "title": "Manila Indie Music Fest",
+      "desc_en": "Experience a night of electrifying performances from Manila's top independent artists. Featuring a diverse lineup of genres from folk to alternative rock, this festival celebrates the vibrant underground music scene. Discover your next favorite band in an energetic atmosphere.",
+      "desc_kr": "마닐라 최고의 독립 아티스트들의 전율적인 공연을 경험하세요. 포크부터 얼터너티브 록까지 다양한 장르의 라인업을 선보이며, 이 축제는 활기찬 언더그라운드 음악 신을 기념합니다. 에너지 넘치는 분위기에서 다음으로 좋아하는 밴드를 찾아보세요.",
+      "venue_en": "The Social House",
+      "venue_kr": "더 소셜 하우스",
+      "address_en": "4/F Power Plant Mall, Rockwell Dr., Makati City",
+      "address_kr": "4층 파워 플랜트 몰, 록웰 드라이브, 마카티 시티",
+      "time_en": "Doors 7:00 PM · Show 8:00 PM",
+      "time_kr": "입장 오후 7시 · 공연 오후 8시",
+      "price_en": "₱800 advance / ₱1,000 at door",
+      "price_kr": "사전 ₱800 / 현장 ₱1,000",
+      "contact": "@thesocialhousemnl on Instagram",
+      "note_en": "Attendees must be 18+ with valid ID. Limited seating available, first come, first served.",
+      "note_kr": "유효한 신분증을 소지한 18세 이상만 입장 가능합니다. 좌석이 제한되어 있으며, 선착순입니다."
+    },
+    {
+      "date_badge": "OCT 10",
+      "day_of_week_en": "Saturday",
+      "day_of_week_kr": "토요일",
+      "image_seed": "event2-w2026-W41",
+      "image_query": "local food and craft market outdoor stalls happy crowd quezon city",
+      "title": "QC Food & Craft Fair",
+      "desc_en": "Indulge in a delightful array of local delicacies, artisanal crafts, and unique homegrown products. This bustling fair brings together Quezon City's finest food vendors and talented artisans, offering everything from gourmet street food to handmade jewelry. A perfect weekend outing for families and foodies alike.",
+      "desc_kr": "다양한 현지 별미, 수공예품, 독특한 국내산 제품을 만끽하세요. 이 활기찬 박람회는 퀘존 시티 최고의 음식 판매상과 재능 있는 장인들을 한자리에 모아 고급 길거리 음식부터 수제 보석까지 모든 것을 제공합니다. 가족과 미식가 모두에게 완벽한 주말 나들이입니다.",
+      "venue_en": "UP Town Center Amphitheater",
+      "venue_kr": "UP 타운 센터 원형극장",
+      "address_en": "Katipunan Ave, Diliman, Quezon City",
+      "address_kr": "카티푸난 애비뉴, 딜리만, 퀘존 시티",
+      "time_en": "10:00 AM – 8:00 PM",
+      "time_kr": "오전 10시 – 오후 8시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "facebook.com/qcfoodcraftfair",
+      "note_en": "Pet-friendly area available. Bring your own reusable bags for purchases.",
+      "note_kr": "반려동물 동반 가능 구역이 있습니다. 구매 시 재사용 가능한 가방을 지참하세요."
+    },
+    {
+      "date_badge": "OCT 11",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event3-w2026-W41",
+      "image_query": "art exhibit modern art gallery colorful paintings manila",
+      "title": "Art in Bloom: Contemporary Filipino Art",
+      "desc_en": "Immerse yourself in a vibrant collection of contemporary Filipino art, showcasing works from emerging and established artists. This exhibit explores themes of identity, nature, and urban life through diverse mediums. A thought-provoking experience for art enthusiasts and curious minds.",
+      "desc_kr": "떠오르는 작가와 기성 작가의 작품을 선보이는 현대 필리핀 미술의 생동감 넘치는 컬렉션에 푹 빠져보세요. 이 전시는 다양한 매체를 통해 정체성, 자연, 도시 생활의 주제를 탐구합니다. 예술 애호가와 호기심 많은 사람들을 위한 생각을 자극하는 경험입니다.",
+      "venue_en": "Silverlens Galleries",
+      "venue_kr": "실버렌스 갤러리",
+      "address_en": "2263 Don Chino Roces Ave Ext, Makati City",
+      "address_kr": "돈 치노 로세스 애비뉴 익스텐션 2263, 마카티 시티",
+      "time_en": "10:00 AM – 6:00 PM",
+      "time_kr": "오전 10시 – 오후 6시",
+      "price_en": "FREE",
+      "price_kr": "무료",
+      "contact": "silverlensgalleries.com",
+      "note_en": "Guided tours available every Sunday at 2 PM. Photography allowed without flash.",
+      "note_kr": "매주 일요일 오후 2시에 가이드 투어가 제공됩니다. 플래시 없이 사진 촬영이 허용됩니다."
+    },
+    {
+      "date_badge": "OCT 08",
+      "day_of_week_en": "Wednesday",
+      "day_of_week_kr": "수요일",
+      "image_seed": "event4-w2026-W41",
+      "image_query": "sunrise yoga class rooftop city view manila",
+      "title": "Wellness Wednesday: Sunrise Yoga Flow",
+      "desc_en": "Start your mid-week with an invigorating sunrise yoga session on a rooftop overlooking the city skyline. This all-levels vinyasa flow class focuses on breath, movement, and mindfulness, helping you find your balance and energy for the rest of the week.",
+      "desc_kr": "도시 스카이라인이 내려다보이는 옥상에서 활기찬 일출 요가 세션으로 한 주의 중간을 시작하세요. 이 모든 레벨의 빈야사 플로우 클래스는 호흡, 움직임, 마음챙김에 중점을 두어 한 주 동안 균형과 에너지를 찾는 데 도움을 줍니다.",
+      "venue_en": "The Loft Yoga Studio",
+      "venue_kr": "더 로프트 요가 스튜디오",
+      "address_en": "8/F W Fifth Ave Bldg, 5th Ave, Bonifacio Global City, Taguig",
+      "address_kr": "8층 W 피프스 애비뉴 빌딩, 5번가, 보니파시오 글로벌 시티, 타귁",
+      "time_en": "6:30 AM – 7:30 AM",
+      "time_kr": "오전 6시 30분 – 오전 7시 30분",
+      "price_en": "₱600 per session / ₱2,500 for 5 sessions",
+      "price_kr": "세션당 ₱600 / 5회 세션 ₱2,500",
+      "contact": "theloftyoga.ph/book",
+      "note_en": "Bring your own yoga mat and water bottle. Arrive 15 minutes early for registration.",
+      "note_kr": "개인 요가 매트와 물통을 지참하세요. 등록을 위해 15분 일찍 도착하세요."
+    }
+  ],
+  "picks": {
+    "date": "2026.10.06",
+    "title_en": "The Heartbeat of Filipino Flavors: A Culinary Evolution",
+    "title_kr": "필리핀 맛의 심장: 요리의 진화",
+    "body_en": [
+      "There's a certain magic in Filipino cuisine that transcends mere sustenance; it's a narrative woven through generations, a comforting embrace of home, and a vibrant expression of culture. From the sour tang of sinigang to the savory richness of adobo, each dish carries a legacy, often passed down through family recipes whispered from lola to apo. But what happens when these cherished traditions meet the keen eye of modern culinary artistry?",
+      "Our featured restaurant, Saluyot & Sage, beautifully exemplifies this evolution. It's not about reinventing the wheel, but rather refining the spokes, polishing the hub, and presenting it in a new light. They take familiar ingredients, elevate them with innovative techniques, and present them with a sophistication that challenges preconceived notions of Filipino food. It’s a bold step forward, celebrating local produce and forgotten flavors, making them accessible and exciting for a new generation.",
+      "This week, I invite you to not just eat, but to experience. To taste the history, the innovation, and the passion that goes into every plate. It's a reminder that while our roots run deep, our branches can always reach for the sky, bringing new fruits to savor and share. Let's celebrate the journey of Filipino food, a journey that continues to surprise and delight."
+    ],
+    "body_kr": [
+      "필리핀 요리에는 단순한 영양 공급을 넘어선 특별한 마법이 있습니다. 그것은 세대를 거쳐 전해지는 이야기이자, 집의 편안한 포옹이며, 문화의 생생한 표현입니다. 시니강의 신맛부터 아도보의 풍부한 감칠맛까지, 각 요리에는 종종 할머니에서 손주에게 속삭이듯 전해지는 가족 레시피를 통해 유산이 담겨 있습니다. 하지만 소중한 전통이 현대 요리 예술의 예리한 시선을 만날 때 어떤 일이 벌어질까요?",
+      "이번 주에 소개된 레스토랑 살루욧 앤 세이지는 이러한 진화를 아름답게 보여줍니다. 바퀴를 재발명하는 것이 아니라, 바퀴살을 다듬고 허브를 광택 내어 새로운 시선으로 제시하는 것입니다. 그들은 친숙한 재료를 혁신적인 기술로 승화시키고, 필리핀 음식에 대한 고정관념에 도전하는 세련미로 선보입니다. 이는 현지 농산물과 잊혀진 맛을 기념하며, 새로운 세대에게 접근 가능하고 흥미롭게 만드는 대담한 전진입니다.",
+      "이번 주에는 단순히 먹는 것을 넘어 경험해 보시길 권합니다. 모든 접시에 담긴 역사, 혁신, 그리고 열정을 맛보세요. 이는 우리의 뿌리가 깊어도 가지는 항상 하늘을 향해 뻗어 나가 새로운 열매를 맛보고 나눌 수 있다는 것을 상기시켜 줍니다. 계속해서 놀라움과 즐거움을 선사하는 필리핀 음식의 여정을 함께 축하합시다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}

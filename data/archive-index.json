@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-06",
+    "vol": 188,
+    "cover_en": "PH-Korea Forge Landmark Digital Partnership for Smart Cities",
+    "cover_kr": "한-필, 스마트 도시 위한 획기적인 디지털 파트너십 구축",
+    "headlines_en": [
+      "Joint PH-Korea Task Force Busts Cybercrime Ring Targeting Expats",
+      "ASEAN Economic Outlook Positive Despite Global Headwinds",
+      "K-Pop Dance Workshop Series Kicks Off in Manila",
+      "Philippine-Korean Medical Exchange Program Expands",
+      "Embassy Issues Travel Advisory for Northern Luzon"
+    ],
+    "headlines_kr": [
+      "한-필 합동 태스크포스, 교민 표적 사이버 범죄 조직 적발",
+      "글로벌 역풍에도 아세안 경제 전망 긍정적",
+      "마닐라에서 K-팝 댄스 워크숍 시리즈 개막",
+      "필리핀-한국 의료 교류 프로그램 확대",
+      "대사관, 북부 루손 지역 여행 경보 발령"
+    ],
+    "tags": [
+      "Safety",
+      "Culture",
+      "Cooperation",
+      "Security",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-10-05",
     "vol": 187,
     "cover_en": "Philippines, S. Korea Ink Landmark Digital Trade Pact to Boost Bilateral Economy",

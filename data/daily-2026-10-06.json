@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-06",
+  "header_date_line": "TUESDAY, OCTOBER 6, 2026 | PHILIPPINES | VOL. 188",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.06",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Landmark Digital Partnership for Smart Cities",
+    "headline_kr": "한-필, 스마트 도시 위한 획기적인 디지털 파트너십 구축",
+    "subtitle_en": "A new memorandum of understanding aims to leverage Korean technological expertise to accelerate the Philippines' smart city initiatives, boosting economic growth and improving urban living.",
+    "subtitle_kr": "새로운 양해각서는 필리핀의 스마트 도시 이니셔티브를 가속화하기 위해 한국의 기술 전문성을 활용하여 경제 성장을 촉진하고 도시 생활을 개선하는 것을 목표로 합니다.",
+    "body_en": [
+      "Manila, Philippines – The Philippines and South Korea have officially solidified a landmark digital partnership, signing a Memorandum of Understanding (MOU) aimed at advancing smart city development across the archipelago. The agreement, signed yesterday by key officials from both nations, focuses on sharing Korean expertise in digital infrastructure, urban planning, and smart technologies to address the Philippines' growing urbanization challenges and foster sustainable development.",
+      "Under the terms of the MOU, Korean firms will collaborate with Philippine counterparts on pilot projects in selected cities, focusing on areas such as intelligent transport systems, smart grids, digital governance platforms, and data-driven urban services. This initiative is expected to create significant business opportunities for Korean companies in the Philippines, while also providing invaluable technological transfer and job creation for the local workforce, directly benefiting the Korean community through enhanced infrastructure and economic vibrancy.",
+      "Both governments expressed strong commitment to the long-term success of this partnership, envisioning a future where Philippine cities are transformed into efficient, resilient, and digitally-advanced hubs. The collaboration is seen as a crucial step towards realizing the Philippines' 'Digital Cities' vision and further strengthening the bilateral ties between the two nations, setting a precedent for regional digital cooperation in Southeast Asia."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 필리핀과 한국이 스마트 도시 개발을 위한 획기적인 디지털 파트너십을 공식화하고 양해각서(MOU)를 체결했습니다. 어제 양국 주요 관계자들이 서명한 이 협정은 필리핀의 증가하는 도시화 문제를 해결하고 지속 가능한 발전을 촉진하기 위해 디지털 인프라, 도시 계획 및 스마트 기술 분야에서 한국의 전문성을 공유하는 데 중점을 둡니다.",
+      "MOU 조건에 따라 한국 기업들은 선정된 도시에서 지능형 교통 시스템, 스마트 그리드, 디지털 거버넌스 플랫폼 및 데이터 기반 도시 서비스와 같은 분야에 중점을 둔 시범 프로젝트에서 필리핀 파트너들과 협력할 것입니다. 이 이니셔티브는 필리핀 내 한국 기업들에게 상당한 사업 기회를 창출하는 동시에, 현지 인력에게 귀중한 기술 이전과 일자리 창출을 제공하여 향상된 인프라와 경제 활력을 통해 한국 교민들에게 직접적인 혜택을 줄 것으로 기대됩니다.",
+      "양국 정부는 필리핀 도시들이 효율적이고 회복력 있으며 디지털적으로 발전된 허브로 변화하는 미래를 그리며 이 파트너십의 장기적인 성공에 대한 강력한 의지를 표명했습니다. 이번 협력은 필리핀의 '디지털 도시' 비전을 실현하고 양국 간의 양자 관계를 더욱 강화하는 중요한 단계로 평가되며, 동남아시아 지역 디지털 협력의 선례를 만들 것으로 보입니다."
+    ],
+    "image_seed": "cover-2026-10-06",
+    "image_query": "Korean and Philippine officials signing digital infrastructure agreement, smart city blueprint background",
+    "image_caption": "Photo: Philippine and South Korean officials finalize a digital partnership agreement in Manila (October 5, 2026).",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korea Task Force Busts Cybercrime Ring Targeting Expats",
+    "headline_kr": "한-필 합동 태스크포스, 교민 표적 사이버 범죄 조직 적발",
+    "lead_en": "A collaborative effort between Philippine law enforcement agencies and the Korean National Police has led to the successful dismantling of a sophisticated cybercrime syndicate. The group was notorious for preying on Korean expatriates through phishing scams and online fraud, causing significant financial losses.",
+    "lead_kr": "필리핀 법 집행 기관과 한국 경찰청의 협력으로 정교한 사이버 범죄 조직이 성공적으로 해체되었습니다. 이 조직은 피싱 사기와 온라인 사기를 통해 한국 교민들을 표적으로 삼아 상당한 재정적 손실을 입혔습니다.",
+    "image_seed": "feat-2026-10-06",
+    "image_query": "Cybercrime investigation team, police officers monitoring computer screens, evidence",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Outlook Positive Despite Global Headwinds",
+      "headline_kr": "글로벌 역풍에도 아세안 경제 전망 긍정적",
+      "summary_en": "The latest ASEAN economic report indicates resilient growth projections for 2027, driven by robust domestic demand and strategic infrastructure investments. Analysts suggest the region is well-positioned to navigate potential global economic slowdowns.",
+      "summary_kr": "최신 아세안 경제 보고서는 견고한 내수와 전략적 인프라 투자에 힘입어 2027년까지 회복력 있는 성장 전망을 제시합니다. 분석가들은 이 지역이 잠재적인 글로벌 경제 둔화를 헤쳐나갈 준비가 잘 되어 있다고 말합니다.",
+      "image_seed": "news1-2026-10-06",
+      "image_query": "ASEAN country flags, growth chart, business people",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Dance Workshop Series Kicks Off in Manila",
+      "headline_kr": "마닐라에서 K-팝 댄스 워크숍 시리즈 개막",
+      "summary_en": "A highly anticipated K-Pop dance workshop series, featuring renowned choreographers from Seoul, has commenced in Manila, attracting hundreds of Filipino dance enthusiasts. The event aims to further strengthen cultural ties and promote Korean performing arts.",
+      "summary_kr": "서울의 유명 안무가들이 참여하는 기대를 모았던 K-팝 댄스 워크숍 시리즈가 마닐라에서 시작되어 수백 명의 필리핀 댄스 애호가들을 끌어모았습니다. 이 행사는 문화적 유대를 강화하고 한국 공연 예술을 홍보하는 것을 목표로 합니다.",
+      "image_seed": "news2-2026-10-06",
+      "image_query": "Young people dancing K-pop, instructor, stage lights",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippine-Korean Medical Exchange Program Expands",
+      "headline_kr": "필리핀-한국 의료 교류 프로그램 확대",
+      "summary_en": "Building on successful pilot initiatives, the bilateral medical exchange program between the Philippines and South Korea is set to expand, allowing more healthcare professionals to share knowledge and best practices. This collaboration aims to enhance healthcare services in both nations.",
+      "summary_kr": "성공적인 시범 이니셔티브를 바탕으로 필리핀과 한국 간의 양자 의료 교류 프로그램이 확대될 예정이며, 더 많은 의료 전문가들이 지식과 모범 사례를 공유할 수 있게 됩니다. 이 협력은 양국의 의료 서비스를 향상시키는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-10-06",
+      "image_query": "Doctors discussing medical charts, diverse group, hospital setting",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Travel Advisory for Northern Luzon",
+      "headline_kr": "대사관, 북부 루손 지역 여행 경보 발령",
+      "summary_en": "The Korean Embassy in the Philippines has issued a temporary travel advisory for certain areas in Northern Luzon due to recent weather disturbances and localized security concerns. Residents and tourists are advised to exercise caution and monitor local news.",
+      "summary_kr": "주필리핀 대한민국 대사관은 최근 기상 악화와 지역 보안 문제로 인해 북부 루손 일부 지역에 대한 임시 여행 경보를 발령했습니다. 거주자 및 관광객은 주의를 기울이고 지역 뉴스를 주시할 것을 권고합니다.",
+      "image_seed": "news4-2026-10-06",
+      "image_query": "Warning sign, stormy weather background, map of Luzon",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Innovation",
+    "pronunciation": "/ˌɪnəˈveɪʃən/",
+    "type": "noun",
+    "definition_en": "The action or process of innovating; a new method, idea, product, etc.",
+    "definition_kr": "혁신; 새로운 방법, 아이디어, 제품 등을 도입하는 행위나 과정.",
+    "example_en": "The new digital partnership aims to foster innovation in smart city technologies across the Philippines.",
+    "example_kr": "새로운 디지털 파트너십은 필리핀 전역의 스마트 도시 기술 혁신을 촉진하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
