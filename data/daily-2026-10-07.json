@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-07",
+  "header_date_line": "WEDNESDAY, OCTOBER 7, 2026 | PHILIPPINES | VOL. 189",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.07",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital Infrastructure Pact",
+    "headline_kr": "필리핀-한국, 획기적인 디지털 인프라 협정 체결",
+    "subtitle_en": "The two nations commit to a multi-billion dollar project aimed at enhancing connectivity and digital services across the archipelago, marking a new era of bilateral cooperation.",
+    "subtitle_kr": "양국은 필리핀 전역의 연결성과 디지털 서비스 강화를 목표로 하는 수십억 달러 규모의 프로젝트에 전념하며, 새로운 양국 협력 시대를 열었습니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal moment for regional digital transformation, the Philippines and South Korea today officially launched a landmark agreement to develop advanced digital infrastructure across the Philippine archipelago. The multi-billion dollar initiative, signed in a ceremony attended by President Ferdinand Marcos Jr. and a high-level Korean delegation, focuses on expanding high-speed internet access, establishing secure data centers, and fostering innovation in smart city technologies. This strategic partnership is expected to significantly boost the Philippines' digital economy and improve public services.",
+      "The project, dubbed 'Digital Connect PH-KR 2030,' will see Korean technology firms collaborating closely with Philippine counterparts, bringing expertise in 5G networks, artificial intelligence, and cybersecurity. Funding will be sourced through a combination of government grants, private sector investments, and official development assistance from South Korea, underscoring the deep commitment from both sides. Officials highlighted the potential for job creation, skills transfer, and enhanced economic competitiveness for the Philippines on the global stage.",
+      "For the Korean community in the Philippines, this agreement holds particular significance. Improved digital infrastructure will facilitate smoother communication with home, enhance business operations for Korean enterprises, and potentially lead to new investment opportunities in the burgeoning tech sector. Ambassador Kim Sang-pyo emphasized that this collaboration reflects the enduring friendship and shared vision for a digitally empowered future, promising tangible benefits for both nations' citizens and expatriate communities alike."
+    ],
+    "body_kr": [
+      "마닐라, 필리핀 – 지역 디지털 전환의 중추적인 순간을 맞아, 필리핀과 한국은 오늘 필리핀 군도 전역에 걸쳐 첨단 디지털 인프라를 개발하기 위한 획기적인 협정을 공식적으로 시작했습니다. 페르디난드 마르코스 주니어 대통령과 한국 고위 대표단이 참석한 가운데 서명된 수십억 달러 규모의 이 이니셔티브는 고속 인터넷 접속 확대, 보안 데이터 센터 구축, 스마트 도시 기술 혁신 촉진에 중점을 둡니다. 이 전략적 파트너십은 필리핀의 디지털 경제를 크게 활성화하고 공공 서비스를 개선할 것으로 기대됩니다.",
+      "'디지털 커넥트 PH-KR 2030'으로 명명된 이 프로젝트는 한국 기술 기업들이 필리핀 기업들과 긴밀히 협력하여 5G 네트워크, 인공지능 및 사이버 보안 분야의 전문 지식을 제공할 것입니다. 자금은 정부 보조금, 민간 부문 투자 및 한국의 공식 개발 원조를 통해 조달될 예정이며, 이는 양국의 깊은 약속을 강조합니다. 관계자들은 일자리 창출, 기술 이전, 그리고 세계 무대에서 필리핀의 경제 경쟁력 강화 가능성을 강조했습니다.",
+      "필리핀 내 한인 커뮤니티에게 이 협정은 특별한 의미를 가집니다. 개선된 디지털 인프라는 본국과의 원활한 통신을 촉진하고, 한국 기업의 사업 운영을 강화하며, 급성장하는 기술 부문에서 새로운 투자 기회로 이어질 수 있습니다. 김상표 대사는 이번 협력이 디지털 역량 강화를 위한 지속적인 우정과 공유된 비전을 반영하며, 양국 시민과 재외 동포 커뮤니티 모두에게 실질적인 혜택을 약속한다고 강조했습니다."
+    ],
+    "image_seed": "cover-2026-10-07",
+    "image_query": "Philippine Korean officials handshake signing digital infrastructure agreement",
+    "image_caption": "Photo: President Marcos Jr. and a Korean delegate shake hands after signing the digital infrastructure agreement. (Oct 7, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH-Korea Launch Joint Tourist Safety Initiative Ahead of Peak Season",
+    "headline_kr": "성수기 앞두고 필리핀-한국 합동 관광객 안전 캠페인 개시",
+    "lead_en": "Philippine National Police (PNP) and Korean National Police Agency (KNPA) have announced a new joint initiative to enhance the safety and security of Korean tourists and residents across popular destinations. This campaign focuses on increased patrols, public awareness, and rapid response to incidents, aiming to create a safer environment as the holiday season approaches.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한국 경찰청(KNPA)은 인기 관광지에서 한국인 관광객과 거주자의 안전 및 보안을 강화하기 위한 새로운 합동 이니셔티브를 발표했습니다. 이 캠페인은 순찰 강화, 대중 인식 제고, 사건에 대한 신속 대응에 중점을 두며, 연말연시를 앞두고 더욱 안전한 환경을 조성하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-10-07",
+    "image_query": "Philippine Korean police officers patrol street tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Firms Eyeing Increased Investment in ASEAN Manufacturing Hubs",
+      "headline_kr": "한국 기업들, 아세안 제조 허브 투자 확대 모색",
+      "summary_en": "As ASEAN economies show robust growth, Korean manufacturing firms are exploring opportunities to expand their presence in the region, particularly in the Philippines. This move is driven by favorable trade policies and a skilled workforce.",
+      "summary_kr": "아세안 경제가 견고한 성장을 보이면서, 한국 제조업체들은 특히 필리핀에서 지역 내 입지를 확대할 기회를 모색하고 있습니다. 이러한 움직임은 우호적인 무역 정책과 숙련된 노동력에 의해 추진됩니다.",
+      "image_seed": "news1-2026-10-07",
+      "image_query": "Korean factory managers discussing plans industrial zone",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Gears Up for Grand K-Culture Festival This Weekend",
+      "headline_kr": "마닐라, 이번 주말 대규모 K-컬처 페스티벌 준비 박차",
+      "summary_en": "The annual K-Culture Festival is set to electrify Manila this weekend, featuring K-pop performances, traditional Korean food stalls, and interactive cultural workshops. Thousands are expected to attend, celebrating the vibrant cultural exchange.",
+      "summary_kr": "매년 열리는 K-컬처 페스티벌이 이번 주말 마닐라를 뜨겁게 달굴 예정입니다. K-팝 공연, 한국 전통 음식 부스, 인터랙티브 문화 워크숍 등이 특징입니다. 수천 명이 참석하여 활기찬 문화 교류를 기념할 것으로 예상됩니다.",
+      "image_seed": "news2-2026-10-07",
+      "image_query": "People enjoying Korean street food festival stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "New PH-Korea Youth Exchange Program Launched for 2027",
+      "headline_kr": "2027년 필리핀-한국 청소년 교류 프로그램 신설",
+      "summary_en": "A new bilateral youth exchange program has been announced, allowing students from both countries to experience each other's culture and education system. Applications for the 2027 intake open next month.",
+      "summary_kr": "양국 학생들이 서로의 문화와 교육 시스템을 경험할 수 있는 새로운 양자 청소년 교류 프로그램이 발표되었습니다. 2027년 참가자 모집은 다음 달에 시작됩니다.",
+      "image_seed": "news3-2026-10-07",
+      "image_query": "Korean Filipino students interacting university campus",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "MMDA Launches New Traffic Safety Campaign Targeting Expats",
+      "headline_kr": "MMDA, 외국인 대상 신규 교통안전 캠페인 시작",
+      "summary_en": "The Metropolitan Manila Development Authority (MMDA) has initiated a new traffic safety awareness campaign, specifically tailored for expatriates, including the Korean community. It aims to educate on local traffic rules and pedestrian safety.",
+      "summary_kr": "메트로 마닐라 개발청(MMDA)은 한인 커뮤니티를 포함한 외국인들을 대상으로 특별히 고안된 새로운 교통안전 인식 캠페인을 시작했습니다. 이는 지역 교통 규칙 및 보행자 안전에 대해 교육하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-10-07",
+      "image_query": "Traffic warden explaining rules expat driver Manila",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Pact",
+    "pronunciation": "/pækt/",
+    "type": "noun",
+    "definition_en": "A formal agreement or treaty between individuals or parties.",
+    "definition_kr": "개인이나 당사자 간의 공식적인 합의나 조약.",
+    "example_en": "The two nations signed a historic pact to enhance digital connectivity.",
+    "example_kr": "양국은 디지털 연결성 강화를 위한 역사적인 협정을 체결했습니다.",
+    "grade": "A+"
+  }
+}
