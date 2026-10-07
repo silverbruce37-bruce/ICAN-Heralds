@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-08",
+    "vol": 190,
+    "cover_en": "PH-Korea Unveil Ambitious 'Green Horizons' Smart City Initiative",
+    "cover_kr": "필리핀-한국, 야심찬 '그린 호라이즌' 스마트 도시 프로젝트 공개",
+    "headlines_en": [
+      "PH-Korea Police Boost Cybercrime Fight Targeting Korean Community",
+      "K-Food Exports to Philippines Soar Amid Rising Hallyu Influence",
+      "Manila Vibrates with Energy at Grand K-Pop Dance Festival",
+      "Korea Donates Advanced Medical Equipment to PH Rural Hospitals",
+      "Traffic Advisory for Korean Tourists: Metro Manila Regulations Tighten"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 경찰, 교민 대상 사이버 범죄 척결 공조 강화",
+      "한류 영향으로 필리핀 K-푸드 수출 급증",
+      "마닐라, 성대한 K-팝 댄스 페스티벌로 활기 넘쳐",
+      "한국, 필리핀 농촌 병원에 첨단 의료 장비 기증",
+      "한국인 관광객 대상 교통 주의보: 메트로 마닐라 규제 강화"
+    ],
+    "tags": [
+      "Economy",
+      "Safety",
+      "Culture",
+      "Security",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-10-07",
     "vol": 189,
     "cover_en": "PH-Korea Launch Landmark Digital Infrastructure Pact",

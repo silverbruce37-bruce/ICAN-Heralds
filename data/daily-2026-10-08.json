@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-08",
+  "header_date_line": "THURSDAY, OCTOBER 8, 2026 | PHILIPPINES | VOL. 190",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.08",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Unveil Ambitious 'Green Horizons' Smart City Initiative",
+    "headline_kr": "필리핀-한국, 야심찬 '그린 호라이즌' 스마트 도시 프로젝트 공개",
+    "subtitle_en": "The multi-billion dollar project aims to integrate cutting-edge sustainable technology and infrastructure, setting a new benchmark for urban development in Southeast Asia. It will foster economic growth and create numerous opportunities for both nations.",
+    "subtitle_kr": "수십억 달러 규모의 이 프로젝트는 최첨단 지속 가능한 기술과 인프라를 통합하여 동남아시아 도시 개발의 새로운 기준을 제시할 것입니다. 양국에 경제 성장과 수많은 기회를 제공할 예정입니다.",
+    "body_en": [
+      "In a landmark move set to redefine urban landscapes, the Philippines and South Korea today officially launched the \"Green Horizons Smart City Initiative.\" This multi-billion dollar joint venture, spearheaded by the Philippine Department of Human Settlements and Urban Development (DHSUD) and a consortium of leading Korean technology firms, aims to develop a fully integrated, sustainable smart city in the New Clark City expansion area. The project will incorporate advanced digital infrastructure, renewable energy solutions, and eco-friendly urban planning, demonstrating a shared vision for future-proof development.",
+      "The initiative is projected to be a significant catalyst for economic growth, generating thousands of direct and indirect jobs for Filipinos in construction, technology, and urban management sectors. For Korean companies, it represents a pivotal opportunity to showcase their cutting-edge smart city technologies and expertise in a rapidly developing ASEAN market. Beyond job creation, the project is expected to attract further foreign direct investment, foster technology transfer, and boost local economies through robust supply chains and ancillary services.",
+      "Both nations highlighted the project's strategic importance in strengthening bilateral ties and positioning the Philippines as a hub for sustainable innovation in Southeast Asia. President Marcos Jr. and President Yoon Suk-yeol, in a joint statement, emphasized that \"Green Horizons\" is not just about building a city, but about cultivating a model for resilient, intelligent, and environmentally conscious urban living that can be replicated across the region, solidifying the Philippines and Korea's leadership in the global smart city movement."
+    ],
+    "body_kr": [
+      "도시 경관을 재정의할 획기적인 움직임으로, 필리핀과 한국은 오늘 공식적으로 \"그린 호라이즌 스마트 도시 이니셔티브\"를 출범시켰습니다. 필리핀 인적 정주 및 도시 개발부(DHSUD)와 한국 유수 기술 기업 컨소시엄이 주도하는 이 수십억 달러 규모의 합작 투자는 뉴 클락 시티 확장 지역에 완전히 통합되고 지속 가능한 스마트 도시를 개발하는 것을 목표로 합니다. 이 프로젝트는 첨단 디지털 인프라, 재생 에너지 솔루션 및 친환경 도시 계획을 통합하여 미래 지향적인 개발에 대한 공동의 비전을 보여줄 것입니다.",
+      "이 이니셔티브는 건설, 기술 및 도시 관리 부문에서 수천 명의 필리핀인에게 직간접적인 일자리를 창출하여 경제 성장의 중요한 촉매제가 될 것으로 예상됩니다. 한국 기업들에게는 빠르게 발전하는 아세안 시장에서 첨단 스마트 도시 기술과 전문 지식을 선보일 중요한 기회를 제공합니다. 일자리 창출을 넘어, 이 프로젝트는 추가적인 외국인 직접 투자를 유치하고, 기술 이전을 촉진하며, 강력한 공급망과 부대 서비스를 통해 지역 경제를 활성화할 것으로 기대됩니다.",
+      "양국은 이 프로젝트가 양국 관계를 강화하고 필리핀을 동남아시아의 지속 가능한 혁신 허브로 자리매김하는 데 있어 전략적 중요성을 강조했습니다. 마르코스 주니어 대통령과 윤석열 대통령은 공동 성명에서 \"그린 호라이즌\"은 단순히 도시를 건설하는 것을 넘어, 지역 전반에 걸쳐 복제될 수 있는 회복력 있고 지능적이며 환경을 의식하는 도시 생활 모델을 육성하여 스마트 도시 운동에서 필리핀과 한국의 리더십을 공고히 하는 것이라고 강조했습니다."
+    ],
+    "image_seed": "cover-2026-10-08",
+    "image_query": "Korean Philippine officials handshake signing smart city blueprints",
+    "image_caption": "Photo: Philippine and Korean officials finalize smart city agreement (2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "PH-Korea Police Boost Cybercrime Fight Targeting Korean Community",
+    "headline_kr": "필리핀-한국 경찰, 교민 대상 사이버 범죄 척결 공조 강화",
+    "lead_en": "The Philippine National Police (PNP) and the Korean National Police Agency (KNPA) have announced enhanced joint efforts to combat rising cybercrime incidents specifically targeting the Korean expatriate community in the Philippines. This initiative comes amidst a surge in online scams and phishing attacks that have defrauded several Korean residents.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 한국 경찰청(KNPA)은 필리핀 내 한국 교민을 표적으로 하는 사이버 범죄 증가에 맞서 공동 대응을 강화한다고 발표했습니다. 이번 조치는 여러 한국 거주자들에게 피해를 입힌 온라인 사기 및 피싱 공격의 급증에 따른 것입니다.",
+    "image_seed": "feat-2026-10-08",
+    "image_query": "Philippine Korean police officers discussing cybercrime strategy",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "K-Food Exports to Philippines Soar Amid Rising Hallyu Influence",
+      "headline_kr": "한류 영향으로 필리핀 K-푸드 수출 급증",
+      "summary_en": "Korean food exports to the Philippines have seen a significant increase in the past year, attributed largely to the growing popularity of Korean culture and a wider distribution network. This boom is benefiting both Korean producers and local distributors.",
+      "summary_kr": "지난 한 해 동안 필리핀으로의 한국 식품 수출이 크게 증가했으며, 이는 한국 문화의 인기가 높아지고 유통망이 확대된 덕분입니다. 이러한 호황은 한국 생산자와 현지 유통업자 모두에게 이익이 되고 있습니다.",
+      "image_seed": "news1-2026-10-08",
+      "image_query": "Korean ramen kimchi grocery store Philippines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Vibrates with Energy at Grand K-Pop Dance Festival",
+      "headline_kr": "마닐라, 성대한 K-팝 댄스 페스티벌로 활기 넘쳐",
+      "summary_en": "Thousands of K-Pop enthusiasts gathered in Manila for the annual K-Pop Dance Festival, showcasing local talent and celebrating the global phenomenon of Korean music and choreography. The event highlighted the strong cultural ties between the two nations.",
+      "summary_kr": "수천 명의 K-팝 팬들이 마닐라에서 열린 연례 K-팝 댄스 페스티벌에 모여 현지 인재를 선보이고 한국 음악과 안무의 세계적인 현상을 기념했습니다. 이 행사는 양국 간의 강력한 문화적 유대를 보여주었습니다.",
+      "image_seed": "news2-2026-10-08",
+      "image_query": "K-pop dance festival crowd lights stage",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea Donates Advanced Medical Equipment to PH Rural Hospitals",
+      "headline_kr": "한국, 필리핀 농촌 병원에 첨단 의료 장비 기증",
+      "summary_en": "In an ongoing commitment to strengthen public health in the Philippines, the Korean government has delivered a substantial donation of advanced medical equipment to several rural hospitals. This initiative aims to improve healthcare access and quality in underserved areas.",
+      "summary_kr": "필리핀 공중 보건 강화에 대한 지속적인 노력의 일환으로, 한국 정부는 여러 농촌 병원에 상당량의 첨단 의료 장비를 기증했습니다. 이 이니셔티브는 소외 지역의 의료 접근성과 질을 향상시키는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-10-08",
+      "image_query": "Korean ambassador Philippine doctor medical equipment",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Traffic Advisory for Korean Tourists: Metro Manila Regulations Tighten",
+      "headline_kr": "한국인 관광객 대상 교통 주의보: 메트로 마닐라 규제 강화",
+      "summary_en": "The Korean Embassy in Manila has issued an advisory for Korean tourists and residents regarding new and stricter traffic enforcement measures being implemented across Metro Manila. Visitors are urged to familiarize themselves with updated rules to avoid penalties.",
+      "summary_kr": "주필리핀 한국대사관은 메트로 마닐라 전역에서 시행되는 새롭고 강화된 교통 단속 조치에 대해 한국인 관광객과 거주자들에게 주의보를 발령했습니다. 방문객들은 벌금 부과를 피하기 위해 업데이트된 규칙을 숙지할 것을 촉구합니다.",
+      "image_seed": "news4-2026-10-08",
+      "image_query": "Metro Manila traffic police officer",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Endeavor",
+    "pronunciation": "/ɪnˈdɛvər/",
+    "type": "noun",
+    "definition_en": "An attempt to achieve a goal; a serious, earnest effort.",
+    "definition_kr": "목표를 달성하려는 시도; 진지하고 성실한 노력.",
+    "example_en": "The joint smart city project is a monumental endeavor that requires significant collaboration from both nations.",
+    "example_kr": "공동 스마트 도시 프로젝트는 양국의 상당한 협력을 필요로 하는 기념비적인 노력입니다.",
+    "grade": "A+"
+  }
+}
