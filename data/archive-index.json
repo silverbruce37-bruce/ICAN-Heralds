@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-10",
+    "vol": 192,
+    "cover_en": "PH-Korea Forge Landmark Digital Infrastructure Fund for ASEAN",
+    "cover_kr": "필리핀-한국, 아세안 디지털 인프라 기금 조성",
+    "headlines_en": [
+      "Enhanced Police Presence Boosts Boracay Safety for Korean Tourists",
+      "ASEAN Digital Economy Forum Highlights PH-Korea Tech Partnership",
+      "K-Food Festival Draws Crowds in Manila, Showcasing Culinary Diversity",
+      "Korean Ambassador Visits Cebu to Strengthen Regional Ties",
+      "Korean Embassy Issues Advisory on Typhoon Season Preparedness"
+    ],
+    "headlines_kr": [
+      "보라카이 한국인 관광객 안전 위해 경찰력 강화",
+      "아세안 디지털 경제 포럼, 필리핀-한국 기술 파트너십 강조",
+      "마닐라 K-푸드 페스티벌, 다양한 요리 선보이며 인파 몰려",
+      "한국 대사, 세부 방문하여 지역 유대 강화",
+      "주필리핀 한국대사관, 태풍 시즌 대비 공지 발표"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Safety",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-10-09",
     "vol": 191,
     "cover_en": "Korea-Philippines Unveil Landmark Digital Infrastructure Partnership",

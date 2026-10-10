@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-10",
+  "header_date_line": "SATURDAY, OCTOBER 10, 2026 | PHILIPPINES | VOL. 192",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.10",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Landmark Digital Infrastructure Fund for ASEAN",
+    "headline_kr": "필리핀-한국, 아세안 디지털 인프라 기금 조성",
+    "subtitle_en": "A new joint initiative aims to accelerate digital transformation and connectivity across the archipelago, benefiting both nations and strengthening regional ties. The fund targets key areas like smart cities and rural broadband.",
+    "subtitle_kr": "새로운 공동 이니셔티브는 필리핀 전역의 디지털 전환과 연결성을 가속화하여 양국에 이익을 주고 지역 관계를 강화하는 것을 목표로 합니다. 이 기금은 스마트 도시 및 농촌 광대역과 같은 핵심 영역을 대상으로 합니다.",
+    "body_en": [
+      "Manila, Philippines – In a significant stride towards a digitally empowered future, the Philippines and South Korea officially launched the 'ASEAN Digital Infrastructure and Innovation Fund' today. This landmark agreement, signed by top officials from both governments, commits substantial resources to enhance digital connectivity, develop smart city solutions, and foster technological innovation across the Philippine archipelago and potentially the broader ASEAN region.",
+      "The newly established fund, with an initial capitalization exceeding $500 million, will focus on projects that bridge the digital divide, particularly in underserved rural areas. It aims to deploy advanced broadband networks, establish data centers, and support the development of AI-driven solutions for public services. Korean technology firms are expected to play a pivotal role, bringing their expertise and investment, while Filipino talents will contribute to local implementation and innovation.",
+      "Experts believe this collaboration marks a new era of economic partnership, moving beyond traditional trade to high-tech cooperation. The initiative is set to create numerous job opportunities, stimulate economic growth, and position the Philippines as a key player in ASEAN's digital economy. Both nations expressed optimism that this fund will serve as a model for future bilateral and regional partnerships in the rapidly evolving digital landscape."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 강국으로 나아가기 위한 중요한 발걸음으로, 필리핀과 한국은 오늘 '아세안 디지털 인프라 및 혁신 기금'을 공식 출범했습니다. 양국 정부 고위 관계자들이 서명한 이 획기적인 협정은 필리핀 전역과 더 나아가 아세안 지역의 디지털 연결성을 강화하고, 스마트 도시 솔루션을 개발하며, 기술 혁신을 촉진하기 위한 상당한 자원을 투입할 것을 약속합니다.",
+      "초기 자본금 5억 달러 이상으로 조성된 이 기금은 특히 소외된 농촌 지역의 디지털 격차를 해소하는 프로젝트에 중점을 둘 것입니다. 고급 광대역 네트워크를 구축하고, 데이터 센터를 설립하며, 공공 서비스를 위한 AI 기반 솔루션 개발을 지원하는 것을 목표로 합니다. 한국 기술 기업들은 전문성과 투자를 통해 중추적인 역할을 할 것으로 예상되며, 필리핀 인재들은 현지 구현 및 혁신에 기여할 것입니다.",
+      "전문가들은 이번 협력이 전통적인 무역을 넘어 첨단 기술 협력으로 나아가는 새로운 경제 파트너십 시대를 열었다고 평가합니다. 이 이니셔티브는 수많은 일자리를 창출하고 경제 성장을 촉진하며, 필리핀을 아세안 디지털 경제의 핵심 주체로 자리매김할 것으로 기대됩니다. 양국은 이 기금이 빠르게 변화하는 디지털 환경에서 미래 양자 및 지역 파트너십의 모델이 될 것이라고 낙관했습니다."
+    ],
+    "image_seed": "cover-2026-10-10",
+    "image_query": "Korean Philippine officials handshake signing digital agreement Manila",
+    "image_caption": "Photo: Philippine and Korean officials finalize the ASEAN Digital Infrastructure and Innovation Fund agreement (2026-10-10)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Police Presence Boosts Boracay Safety for Korean Tourists",
+    "headline_kr": "보라카이 한국인 관광객 안전 위해 경찰력 강화",
+    "lead_en": "Boracay Island authorities have implemented increased police patrols and surveillance measures in key tourist areas, specifically targeting the safety and security of foreign visitors, including the growing number of Korean tourists. This initiative comes as tourist arrivals continue to surge post-pandemic, prompting proactive steps to maintain the island's reputation as a safe destination.",
+    "lead_kr": "보라카이 당국은 한국인 관광객을 포함한 외국인 방문객의 안전과 보안을 위해 주요 관광 지역에 경찰 순찰 및 감시 조치를 강화했습니다. 이러한 이니셔티브는 팬데믹 이후 관광객 수가 계속 증가함에 따라 섬의 안전한 목적지로서의 명성을 유지하기 위한 선제적인 조치입니다.",
+    "image_seed": "feat-2026-10-10",
+    "image_query": "Boracay police officers patrolling tourist beach Korean tourists",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Digital Economy Forum Highlights PH-Korea Tech Partnership",
+      "headline_kr": "아세안 디지털 경제 포럼, 필리핀-한국 기술 파트너십 강조",
+      "summary_en": "The recent ASEAN Digital Economy Forum in Jakarta emphasized the critical role of bilateral partnerships, with a special focus on the burgeoning tech collaboration between the Philippines and South Korea in fintech and e-commerce.",
+      "summary_kr": "자카르타에서 열린 최근 아세안 디지털 경제 포럼은 핀테크 및 전자상거래 분야에서 필리핀과 한국 간의 급증하는 기술 협력에 특별히 초점을 맞춰 양자 파트너십의 중요한 역할을 강조했습니다.",
+      "image_seed": "news1-2026-10-10",
+      "image_query": "ASEAN leaders discussing digital economy future",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Crowds in Manila, Showcasing Culinary Diversity",
+      "headline_kr": "마닐라 K-푸드 페스티벌, 다양한 요리 선보이며 인파 몰려",
+      "summary_en": "Thousands flocked to the annual K-Food Festival in Bonifacio Global City this week, enjoying traditional Korean dishes, cooking demonstrations, and modern fusion cuisine, further cementing K-food's popularity in the Philippines.",
+      "summary_kr": "이번 주 보니파시오 글로벌 시티에서 열린 연례 K-푸드 페스티벌에 수천 명이 몰려 전통 한식, 요리 시연 및 현대 퓨전 요리를 즐기며 필리핀에서 K-푸드의 인기를 더욱 공고히 했습니다.",
+      "image_seed": "news2-2026-10-10",
+      "image_query": "People enjoying Korean food festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korean Ambassador Visits Cebu to Strengthen Regional Ties",
+      "headline_kr": "한국 대사, 세부 방문하여 지역 유대 강화",
+      "summary_en": "The Korean Ambassador to the Philippines concluded a productive visit to Cebu, meeting with local government officials and the Korean community to discuss investment opportunities and enhance bilateral cooperation in the Visayas region.",
+      "summary_kr": "주필리핀 한국 대사는 세부를 방문하여 지방 정부 관계자 및 한인 사회와 만나 투자 기회를 논의하고 비사야스 지역의 양자 협력을 강화하는 생산적인 일정을 마쳤습니다.",
+      "image_seed": "news3-2026-10-10",
+      "image_query": "Korean Ambassador meeting Cebu government officials",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Embassy Issues Advisory on Typhoon Season Preparedness",
+      "headline_kr": "주필리핀 한국대사관, 태풍 시즌 대비 공지 발표",
+      "summary_en": "With the peak of typhoon season approaching, the Korean Embassy in Manila has urged its nationals to review emergency plans, monitor weather updates, and secure their properties, emphasizing safety precautions.",
+      "summary_kr": "태풍 시즌 절정에 다가옴에 따라 주필리핀 한국대사관은 자국민들에게 비상 계획을 검토하고, 기상 정보를 모니터링하며, 재산을 보호하는 등 안전 예방 조치를 강조했습니다.",
+      "image_seed": "news4-2026-10-10",
+      "image_query": "Typhoon storm clouds over Philippine city",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The synergy between Philippine and Korean tech firms is expected to drive significant innovation in the region's digital infrastructure.",
+    "example_kr": "필리핀과 한국 기술 기업 간의 시너지는 이 지역 디지털 인프라에 상당한 혁신을 가져올 것으로 기대됩니다.",
+    "grade": "A+"
+  }
+}
