@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-11",
+    "vol": 193,
+    "cover_en": "PH-Korea Launch Landmark Digital Partnership for Sustainable Growth",
+    "cover_kr": "필리핀-한국, 지속 가능한 성장을 위한 디지털 파트너십 출범",
+    "headlines_en": [
+      "Joint PH-Korea Police Task Force Expands Operations for Tourist Safety",
+      "Korean Tech Firms Eye Major Expansion in Philippine IT-BPM Sector",
+      "Manila K-Food Festival Draws Record Crowds, Showcasing Culinary Diversity",
+      "PH-Korea Maritime Security Dialogue Yields New Regional Stability Pacts",
+      "Local Authorities Issue Updated Safety Guidelines for Korean Expats"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 태스크포스, 관광객 안전 위해 작전 확대",
+      "한국 IT 기업들, 필리핀 IT-BPM 부문 대규모 확장 모색",
+      "마닐라 K-푸드 페스티벌, 기록적인 인파 속 한식의 다양성 선보여",
+      "필리핀-한국 해양 안보 대화, 새로운 지역 안정 협정 도출",
+      "현지 당국, 한국 교민을 위한 최신 안전 지침 발표"
+    ],
+    "tags": [
+      "Culture",
+      "Cooperation",
+      "Safety",
+      "Security",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-10-10",
     "vol": 192,
     "cover_en": "PH-Korea Forge Landmark Digital Infrastructure Fund for ASEAN",
