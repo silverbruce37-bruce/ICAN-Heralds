@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-12",
+    "vol": 194,
+    "cover_en": "PH-Korea Forge Alliance for Digital Future: Smart City AI Integration",
+    "cover_kr": "필리핀-한국, 디지털 미래 동맹 강화: 스마트 도시 AI 통합",
+    "headlines_en": [
+      "Joint PH-Korean Police Operations Boost Safety in Tourist Zones",
+      "Korean Investments Surge in PH Renewable Energy Sector",
+      "Manila Hosts Grand K-Food Festival: A Taste of Korea's Culinary Delights",
+      "PH, Korea Expand Educational Exchange for STEM Fields",
+      "Local Community Watch Groups Strengthened in Makati"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 합동 경찰 작전, 관광지 치안 강화",
+      "필리핀 신재생에너지 분야 한국 투자 급증",
+      "마닐라, 대규모 K-푸드 페스티벌 개최: 한국 미식의 향연",
+      "필리핀-한국, STEM 분야 교육 교류 확대",
+      "마카티 지역 주민 자율 방범대 강화"
+    ],
+    "tags": [
+      "Cooperation",
+      "Safety",
+      "Economy",
+      "Security",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-10-11",
     "vol": 193,
     "cover_en": "PH-Korea Launch Landmark Digital Partnership for Sustainable Growth",

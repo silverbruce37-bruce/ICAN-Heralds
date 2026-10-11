@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-12",
+  "header_date_line": "MONDAY, OCTOBER 12, 2026 | PHILIPPINES | VOL. 194",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.12",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Forge Alliance for Digital Future: Smart City AI Integration",
+    "headline_kr": "필리핀-한국, 디지털 미래 동맹 강화: 스마트 도시 AI 통합",
+    "subtitle_en": "A landmark agreement signed today between the Philippines and South Korea aims to accelerate the development of smart cities through advanced AI and digital infrastructure, beginning with New Clark City.",
+    "subtitle_kr": "오늘 필리핀과 한국이 체결한 획기적인 협정은 뉴클락시티를 시작으로 첨단 AI 및 디지털 인프라를 통해 스마트 도시 개발을 가속화하는 것을 목표로 합니다.",
+    "body_en": [
+      "The memorandum of understanding, signed by key officials from both nations, outlines a comprehensive framework for collaboration in urban planning, digital governance, and the deployment of AI-powered solutions for traffic management, public safety, and environmental monitoring. This initiative is expected to transform Philippine urban centers into more efficient, sustainable, and livable environments, leveraging South Korea's renowned expertise in smart technology.",
+      "Initial pilot projects are slated to commence in New Clark City, envisioned as a prime example of a modern, green, and smart metropolis. Korean technology firms and urban developers will work alongside Philippine counterparts, sharing knowledge and fostering local talent in critical areas of digital infrastructure and AI implementation. This collaboration is set to create numerous job opportunities and drive economic growth in the regions involved.",
+      "The Korean community in the Philippines stands to benefit from these advancements, not only through improved urban services and infrastructure but also via potential business ventures and expanded cultural exchange opportunities. Both governments emphasized their commitment to a long-term partnership, aiming to establish the Philippines as a regional hub for smart city innovation, further solidifying the strong ties between the two nations."
+    ],
+    "body_kr": [
+      "양국 고위 관계자들이 서명한 이번 양해각서는 도시 계획, 디지털 거버넌스, 그리고 교통 관리, 공공 안전, 환경 모니터링을 위한 AI 기반 솔루션 배포에 대한 포괄적인 협력 프레임워크를 제시합니다. 이 이니셔티브는 한국의 스마트 기술 분야의 뛰어난 전문성을 활용하여 필리핀의 도시 중심지를 보다 효율적이고 지속 가능하며 살기 좋은 환경으로 변화시킬 것으로 기대됩니다.",
+      "초기 시범 프로젝트는 현대적이고 친환경적이며 스마트한 대도시의 대표적인 사례로 구상되는 뉴클락시티에서 시작될 예정입니다. 한국 기술 기업과 도시 개발자들은 필리핀 파트너들과 협력하여 디지털 인프라 및 AI 구현의 핵심 분야에서 지식을 공유하고 지역 인재를 육성할 것입니다. 이 협력은 관련 지역에서 수많은 일자리 창출과 경제 성장을 촉진할 것입니다.",
+      "필리핀 한인 사회는 개선된 도시 서비스 및 인프라뿐만 아니라 잠재적인 사업 기회 및 확장된 문화 교류 기회를 통해 이러한 발전의 혜택을 누릴 것입니다. 양국 정부는 필리핀을 스마트 도시 혁신의 지역 허브로 구축하여 양국 간의 강력한 유대를 더욱 공고히 하는 것을 목표로 장기적인 파트너십에 대한 약속을 강조했습니다."
+    ],
+    "image_seed": "cover-2026-10-12",
+    "image_query": "Korean Philippine officials shaking hands signing digital agreement smart city backdrop",
+    "image_caption": "Photo: Philippine and Korean officials formalize smart city partnership (Oct 12, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Joint PH-Korean Police Operations Boost Safety in Tourist Zones",
+    "headline_kr": "필리핀-한국 합동 경찰 작전, 관광지 치안 강화",
+    "lead_en": "Philippine and Korean police forces have intensified their joint patrols and intelligence sharing operations in popular tourist destinations frequented by Korean nationals. This enhanced collaboration aims to deter crime and ensure the safety of the Korean community and visitors, following recent incidents.",
+    "lead_kr": "필리핀과 한국 경찰은 한국인 관광객이 자주 찾는 인기 관광지에서 합동 순찰 및 정보 공유 작전을 강화했습니다. 최근 발생한 사건들에 따라, 이번 협력 강화는 범죄를 억제하고 한인 사회 및 방문객의 안전을 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-10-12",
+    "image_query": "Philippine Korean police officers patrol busy street tourist area",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Investments Surge in PH Renewable Energy Sector",
+      "headline_kr": "필리핀 신재생에너지 분야 한국 투자 급증",
+      "summary_en": "South Korean firms are significantly increasing their investments in the Philippines' renewable energy sector, particularly in solar and wind projects, driven by favorable government policies and growing demand for sustainable power.",
+      "summary_kr": "한국 기업들은 필리핀 정부의 우호적인 정책과 지속 가능한 전력에 대한 수요 증가에 힘입어 필리핀의 신재생에너지 분야, 특히 태양광 및 풍력 프로젝트에 대한 투자를 크게 늘리고 있습니다.",
+      "image_seed": "news1-2026-10-12",
+      "image_query": "Solar panels wind turbines Korean flag Philippine flag",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Manila Hosts Grand K-Food Festival: A Taste of Korea's Culinary Delights",
+      "headline_kr": "마닐라, 대규모 K-푸드 페스티벌 개최: 한국 미식의 향연",
+      "summary_en": "The annual K-Food Festival kicked off in Manila, attracting thousands with its diverse array of traditional and modern Korean dishes, cooking demonstrations, and cultural performances. The event highlights the growing popularity of Korean cuisine in the Philippines.",
+      "summary_kr": "연례 K-푸드 페스티벌이 마닐라에서 개막하여 다양한 전통 및 현대 한국 음식, 요리 시연, 문화 공연으로 수천 명의 방문객을 끌어모았습니다. 이 행사는 필리핀에서 한국 요리의 인기가 높아지고 있음을 보여줍니다.",
+      "image_seed": "news2-2026-10-12",
+      "image_query": "People enjoying Korean food stalls festival Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH, Korea Expand Educational Exchange for STEM Fields",
+      "headline_kr": "필리핀-한국, STEM 분야 교육 교류 확대",
+      "summary_en": "A new bilateral agreement aims to boost student and faculty exchanges between Philippine and Korean universities, focusing on Science, Technology, Engineering, and Mathematics (STEM) fields to foster innovation and academic collaboration.",
+      "summary_kr": "새로운 양자 협정은 혁신과 학술 협력을 육성하기 위해 과학, 기술, 공학, 수학(STEM) 분야에 중점을 두고 필리핀과 한국 대학 간의 학생 및 교수진 교류를 늘리는 것을 목표로 합니다.",
+      "image_seed": "news3-2026-10-12",
+      "image_query": "Students in lab coats looking at microscope Philippine Korean",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Local Community Watch Groups Strengthened in Makati",
+      "headline_kr": "마카티 지역 주민 자율 방범대 강화",
+      "summary_en": "Makati local government, in collaboration with resident associations including the Korean community, has reinforced its community watch programs. Enhanced patrols and communication networks aim to improve local safety and rapid response times.",
+      "summary_kr": "마카티 지방 정부는 한인 사회를 포함한 주민 협회와 협력하여 지역 자율 방범 프로그램을 강화했습니다. 강화된 순찰과 통신망은 지역 안전 및 신속한 대응 시간을 개선하는 것을 목표로 합니다.",
+      "image_seed": "news4-2026-10-12",
+      "image_query": "Community watch volunteers patrolling street at night",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərʤi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요인들이 상호 작용하거나 협력하여 각각의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 현상.",
+    "example_en": "The synergy between Philippine innovation and Korean technology will drive the success of the new smart city project.",
+    "example_kr": "필리핀의 혁신과 한국의 기술 간의 시너지가 새로운 스마트 도시 프로젝트의 성공을 이끌 것입니다.",
+    "grade": "A+"
+  }
+}
