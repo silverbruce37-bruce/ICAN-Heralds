@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-13",
+  "header_date_line": "TUESDAY, OCTOBER 13, 2026 | PHILIPPINES | VOL. 195",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.13",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Economic and Cultural Initiatives",
+    "headline_kr": "한국과 필리핀, 경제·문화 협력 강화",
+    "subtitle_en": "Recent agreements and cultural exchanges mark a new chapter in bilateral relations.",
+    "subtitle_kr": "최근 협약과 문화 교류는 양국 관계의 새 장을 열고 있다.",
+    "body_en": [
+      "Korea and the Philippines have announced a series of new initiatives aimed at boosting economic cooperation and cultural exchange. The two nations signed a landmark trade agreement last week, focusing on technology transfer and joint infrastructure projects, which are expected to enhance regional economic stability.",
+      "Cultural festivals showcasing K-pop, Korean cuisine, and traditional arts are increasingly popular across Filipino cities, strengthening people-to-people ties. The Korean embassy in Manila has also launched educational programs to promote Korean language and history among Filipino youth.",
+      "Officials from both countries emphasized the importance of deepening diplomatic relations amid regional challenges. The recent developments suggest a strategic partnership that benefits both nations economically and culturally, fostering mutual growth and understanding."
+    ],
+    "body_kr": [
+      "한국과 필리핀은 경제 협력과 문화 교류를 강화하기 위한 일련의 새로운 이니셔티브를 발표했다. 양국은 지난주 기술 이전과 공동 인프라 프로젝트를 중심으로 하는 중요한 무역 협정을 체결하여 지역 경제 안정에 기여할 것으로 기대된다.",
+      "K-pop, 한국 음식, 전통 예술을 선보이는 문화 축제들이 필리핀 전역에서 인기를 끌며 양국 국민 간 유대감을 강화하고 있다. 한국 대사관은 또한 필리핀 청소년 대상 한국어와 한국사 교육 프로그램을 시작하여 문화적 연결고리를 넓히고 있다.",
+      "양국 관계자들은 지역 내 도전 과제 속에서도 외교 관계를 더욱 공고히 하는 것이 중요하다고 강조했다. 최근의 발전은 양국 모두에게 경제적·문화적 이익을 가져다주며 상호 성장과 이해를 촉진하는 전략적 파트너십의 신호탄이다."
+    ],
+    "image_seed": "cover-2026-10-13",
+    "image_query": "Korean Philippine officials handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Filipino officials signing bilateral agreement, Manila (2026.10.13)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Enhances Coastal Security with Korean Support",
+    "headline_kr": "필리핀, 한국 지원으로 해안 방어 강화",
+    "lead_en": "The Philippines has upgraded its coastal security systems with advanced technology provided by Korea, aiming to prevent illegal activities and ensure safety.",
+    "lead_kr": "필리핀은 한국이 제공한 첨단 기술로 해안 방어 시스템을 업그레이드하여 불법 활동을 방지하고 안전을 확보한다.",
+    "image_seed": "feat-2026-10-13",
+    "image_query": "Korean coast guard patrol ship Filipino coastline security",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economic Growth Accelerates in Q3",
+      "headline_kr": "ASEAN 경제 성장, 3분기 가속화",
+      "summary_en": "Regional economic indicators show significant growth driven by increased trade and investment activities among ASEAN countries.",
+      "summary_kr": "지역 경제 지표는 ASEAN 국가 간 무역 및 투자 활동 증가로 인해 눈에 띄는 성장을 보여준다.",
+      "image_seed": "news1-2026-10-13",
+      "image_query": "ASEAN leaders meeting trade graphs economic charts",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Festival Draws Thousands in Manila",
+      "headline_kr": "K-푸드 축제, 마닐라서 수천 명 몰려",
+      "summary_en": "The annual K-food festival in Manila attracted a record number of visitors eager to experience Korean cuisine and culture firsthand.",
+      "summary_kr": "마닐라에서 열린 연례 K-푸드 축제는 한국 음식과 문화를 직접 체험하려는 방문객들이 역대 최대 규모로 몰렸다.",
+      "image_seed": "news2-2026-10-13",
+      "image_query": "Korean food booth crowded Manila festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Launch Joint Environmental Project",
+      "headline_kr": "한국과 필리핀, 공동 환경 프로젝트 시작",
+      "summary_en": "A new partnership aims to address climate change impacts through joint research and sustainable initiatives in coastal areas.",
+      "summary_kr": "새 협력은 해안 지역에서의 공동 연구와 지속 가능한 이니셔티브를 통해 기후 변화 대응을 목표로 한다.",
+      "image_seed": "news3-2026-10-13",
+      "image_query": "Korean Filipino scientists coastal project collaboration",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Community Safety Campaigns Boost Korean Community Security",
+      "headline_kr": "커뮤니티 안전 캠페인, 한국인 사회 안전 강화",
+      "summary_en": "Local authorities have organized safety awareness programs for the Korean community to prevent scams and ensure safety amid rising concerns.",
+      "summary_kr": "지역 당국은 사기 방지와 안전 확보를 위해 한국인 커뮤니티 대상 안전 인식 캠페인을 실시하고 있다.",
+      "image_seed": "news4-2026-10-13",
+      "image_query": "Korean community safety patrol Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Bilateral",
+    "pronunciation": "baɪˈlætərəl",
+    "type": "adjective",
+    "definition_en": "Relating to or involving two sides, typically countries or organizations.",
+    "definition_kr": "두 측 간의, 일반적으로 두 나라 또는 조직 간의 관계를 의미하는 형용사.",
+    "example_en": "The bilateral talks between Korea and the Philippines resulted in new agreements on trade and security.",
+    "example_kr": "한국과 필리핀 간의 양자 회담은 무역과 안보에 관한 새로운 협약으로 이어졌다.",
+    "grade": "A+"
+  }
+}

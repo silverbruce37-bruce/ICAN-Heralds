@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-13",
+    "vol": 195,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Economic and Cultural Initiatives",
+    "cover_kr": "한국과 필리핀, 경제·문화 협력 강화",
+    "headlines_en": [
+      "Philippines Enhances Coastal Security with Korean Support",
+      "ASEAN Economic Growth Accelerates in Q3",
+      "K-Food Festival Draws Thousands in Manila",
+      "Korea and Philippines Launch Joint Environmental Project",
+      "Community Safety Campaigns Boost Korean Community Security"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국 지원으로 해안 방어 강화",
+      "ASEAN 경제 성장, 3분기 가속화",
+      "K-푸드 축제, 마닐라서 수천 명 몰려",
+      "한국과 필리핀, 공동 환경 프로젝트 시작",
+      "커뮤니티 안전 캠페인, 한국인 사회 안전 강화"
+    ],
+    "tags": [
+      "Culture",
+      "Economy",
+      "Security",
+      "Safety",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-10-12",
     "vol": 194,
     "cover_en": "PH-Korea Forge Alliance for Digital Future: Smart City AI Integration",

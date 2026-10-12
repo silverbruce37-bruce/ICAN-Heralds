@@ -1,0 +1,296 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korea and Philippines Strengthen Ties",
+        "title_kr": "한국과 필리핀이 관계 강화",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are working together more closely through new agreements. These agreements include economic and cultural projects. Such efforts help both countries build a better relationship. <span class=kw>Diplomacy</span> and <span class=kw>culture</span> are key words here.",
+        "text_kr": "한국과 필리핀이 새 협약을 통해 더 가까워지고 있어요. 이 협약에는 경제와 문화 프로젝트가 포함되어 있어요. 이런 노력은 양국이 더 좋은 관계를 만드는 데 도움을 줍니다. <span class=kw>외교</span>와 <span class=kw>문화</span>가 핵심 용어예요.",
+        "bilingual_en": "Strong relationships between countries help create peace and understanding.",
+        "bilingual_kr": "국가 간의 강한 관계는 평화와 이해를 돕습니다.",
+        "speaking_en": "Say one way Korea and the Philippines are working together.",
+        "speaking_kr": "한국과 필리핀이 함께 하는 방법을 말해 봅시다.",
+        "writing_en": "Write a sentence about why countries work on agreements.",
+        "writing_kr": "나라들이 협약을 하는 이유를 한 문장으로 써 봅시다.",
+        "vocab": [{"en": "agreement", "kr": "협약"}, {"en": "relationship", "kr": "관계"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Both Korea and the Philippines want to improve their <span class=kw>relationship</span> through cultural and economic <span class=kw>exchanges</span>. These efforts help promote <span class=kw>friendship</span> and mutual understanding. The two countries also share interests in trade and security.",
+        "text_kr": "한국과 필리핀은 문화와 경제 교류를 통해 <span class=kw>관계</span>를 향상시키고 싶어 해요. 이런 노력은 <span class=kw>우정</span>과 이해를 증진하는 데 도움을 줍니다. 두 나라는 무역과 안보에서도 관심사를 공유하고 있어요.",
+        "bilingual_en": "Understanding each other's culture and economy helps countries become better friends.",
+        "bilingual_kr": "서로의 문화와 경제를 이해하는 것은 나라들이 더 친해지게 도와줍니다.",
+        "speaking_en": "Describe one reason why cultural exchanges are important.",
+        "speaking_kr": "문화 교류가 왜 중요한지 한 가지 이유를 말해 봅시다.",
+        "writing_en": "Write about how cultural exchanges can help countries.",
+        "writing_kr": "문화 교류가 나라들에 어떤 도움이 되는지 써 봅시다.",
+        "vocab": [{"en": "exchange", "kr": "교류"}, {"en": "mutual understanding", "kr": "상호 이해"}],
+        "quiz": {
+          "q_en": "Why do countries want to improve their relationship?",
+          "q_kr": "왜 나라들이 관계를 개선하려고 할까?",
+          "opts": [
+            {"en": "To become enemies", "kr": "적이 되기 위해", "correct": false},
+            {"en": "To build friendship and trust", "kr": "우정과 신뢰를 쌓기 위해", "correct": true},
+            {"en": "To ignore each other", "kr": "서로 무시하기 위해", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["한국과 필리핀의 관계는 왜 중요할까?", "문화 교류의 예를 하나 말해 봅시다.", "두 나라가 협력하는 이유는 무엇일까?"],
+    "suggestions_kr": ["한국과 필리핀의 관계는 왜 중요할까?", "문화 교류의 예를 하나 말해 봅시다.", "두 나라가 협력하는 이유는 무엇일까?"]
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Philippines and Korea Boost Cultural and Economic Ties",
+        "title_kr": "필리핀과 한국, 문화와 경제 강화",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "The Philippines and Korea are working to strengthen their <span class=kw>relationship</span> through new <span class=kw>initiatives</span>. These include cultural festivals and economic <span class=kw>partnerships</span>. Such activities help both countries share their <span class=kw>culture</span> and grow their economies.",
+        "text_kr": "필리핀과 한국은 새로운 <span class=kw>이니셔티브</span>를 통해 관계를 강화하고 있어요. 여기에는 문화 축제와 경제 <span class=kw>협력</span>이 포함됩니다. 이런 활동은 양국이 문화를 공유하고 경제를 성장시키는 데 도움을 줍니다.",
+        "bilingual_en": "Cultural festivals and economic partnerships help countries grow closer.",
+        "bilingual_kr": "문화 축제와 경제 협력은 나라들이 더 가까워지게 도와줍니다.",
+        "speaking_en": "Name one activity that helps countries share culture.",
+        "speaking_kr": "나라들이 문화를 공유하는 활동 하나를 말해 봅시다.",
+        "writing_en": "Write about why cultural festivals are good for countries.",
+        "writing_kr": "문화 축제가 나라들에 좋은 이유를 써 봅시다.",
+        "vocab": [{"en": "initiative", "kr": "이니셔티브"}, {"en": "partnership", "kr": "협력"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The Philippines and Korea want to increase <span class=kw>cultural</span> and <span class=kw>economic</span> <span class=kw>exchanges</span> to boost <span class=kw>friendship</span>. These activities can lead to more <span class=kw>trade</span> and <span class=kw>mutual understanding</span>. Both countries see this as a way to build a stronger <span class=kw>relationship</span>.",
+        "text_kr": "필리핀과 한국은 문화와 경제 교류를 늘려 우정을 키우고 싶어요. 이런 활동은 무역과 상호 이해를 높일 수 있어요. 두 나라는 이것이 더 강한 관계를 만드는 방법이라고 봅니다.",
+        "bilingual_en": "Sharing culture and economy creates better friendship and trust.",
+        "bilingual_kr": "문화를 공유하고 경제를 발전시키면 더 좋은 우정과 신뢰가 생깁니다.",
+        "speaking_en": "Explain one benefit of cultural exchanges.",
+        "speaking_kr": "문화 교류의 한 가지 장점을 말해 봅시다.",
+        "writing_en": "Write how cultural exchanges can improve friendship.",
+        "writing_kr": "문화 교류가 우정을 어떻게 높일 수 있는지 써 봅시다.",
+        "vocab": [{"en": "exchange", "kr": "교류"}, {"en": "friendship", "kr": "우정"}],
+        "quiz": {
+          "q_en": "What is a main reason countries promote cultural and economic exchanges?",
+          "q_kr": "나라들이 문화와 경제 교류를 추진하는 주요 이유는 무엇일까?",
+          "opts": [
+            {"en": "To build stronger relationships", "kr": "더 강한 관계를 만들기 위해", "correct": true},
+            {"en": "To create conflicts", "kr": "갈등을 만들기 위해", "correct": false},
+            {"en": "To ignore each other", "kr": "서로 무시하기 위해", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["한국과 필리핀의 문화 교류는 어떤 것들이 있을까?", "이니셔티브가 왜 중요할까?", "두 나라의 협력 효과는 무엇일까?"],
+    "suggestions_kr": ["한국과 필리핀의 문화 교류는 어떤 것들이 있을까?", "이니셔티브가 왜 중요할까?", "두 나라의 협력 효과는 무엇일까?"]
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "ASEAN Economic Growth in Q3",
+        "title_kr": "ASEAN(아세안) 경제 성장 3분기",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "The <span class=kw>ASEAN</span> countries, including Vietnam and Indonesia, experienced <span class=kw>economic growth</span> in the third quarter (Q3). This means their economies are getting bigger. Trade between ASEAN countries increased, helping everyone improve their <span class=kw>living standards</span>.",
+        "text_kr": "베트남, 인도네시아 등 ASEAN 국가들이 3분기에 <span class=kw>경제 성장</span>을 했어요. 이는 그들의 경제가 커지고 있다는 의미입니다. ASEAN 국가 간 무역도 늘어나서 모두의 <span class=kw>생활 수준</span>이 좋아지고 있어요.",
+        "bilingual_en": "Regional growth makes countries wealthier and happier.",
+        "bilingual_kr": "지역 성장으로 나라들이 더 부유하고 행복해집니다.",
+        "speaking_en": "Say one thing that helps ASEAN countries grow.",
+        "speaking_kr": "ASEAN 나라들이 성장하는 데 도움이 되는 한 가지를 말해 봅시다.",
+        "writing_en": "Write about why trade is important for countries.",
+        "writing_kr": "무역이 나라들에게 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "growth", "kr": "성장"}, {"en": "trade", "kr": "무역"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The ASEAN economic growth in Q3 is important because it shows regional <span class=kw>progress</span>. Countries work together through <span class=kw>trade</span> and <span class=kw>investment</span>. This helps improve <span class=kw>economies</span> and creates more jobs, making people’s lives better.",
+        "text_kr": "3분기 ASEAN의 경제 성장은 지역의 <span class=kw>진전</span>을 보여줍니다. 나라들은 <span class=kw>무역</span>과 <span class=kw>투자</span>를 통해 함께 일합니다. 이것은 경제를 향상시키고 더 많은 일자리를 만들어 사람들의 삶을 더 좋게 합니다.",
+        "bilingual_en": "Working together economically benefits everyone.",
+        "bilingual_kr": "경제적으로 함께 일하는 것은 모두에게 이득이 됩니다.",
+        "speaking_en": "Explain one way trade helps countries.",
+        "speaking_kr": "무역이 나라들을 어떻게 도와주는지 말해 봅시다.",
+        "writing_en": "Write about how trade improves people’s lives.",
+        "writing_kr": "무역이 사람들의 삶을 어떻게 좋게 만드는지 써 봅시다.",
+        "vocab": [{"en": "investment", "kr": "투자"}, {"en": "jobs", "kr": "일자리"}],
+        "quiz": {
+          "q_en": "Why is regional economic growth important?",
+          "q_kr": "지역 경제 성장이 왜 중요할까?",
+          "opts": [
+            {"en": "It creates conflict", "kr": "갈등을 만든다", "correct": false},
+            {"en": "It helps countries develop and create jobs", "kr": "나라들이 발전하고 일자리를 만든다", "correct": true},
+            {"en": "It reduces trade", "kr": "무역을 줄인다", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["ASEAN의 경제 성장 원인은 무엇일까?", "무역이 경제에 어떤 영향을 줄까?", "지역 발전을 위해 어떤 노력이 필요할까?"],
+    "suggestions_kr": ["ASEAN의 경제 성장 원인은 무엇일까?", "무역이 경제에 어떤 영향을 줄까?", "지역 발전을 위해 어떤 노력이 필요할까?"]
+  },
+  "news_2": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "K-Food Festival in Manila",
+        "title_kr": "마닐라에서 열린 K-푸드 축제",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>K-food festival</span> was held in Manila. Many people visited to try <span class=kw>Korean</span> dishes like kimchi and barbecue. Festivals like this help people learn about <span class=kw>Korean culture</span> and make friends.",
+        "text_kr": "마닐라에서 K-푸드 축제가 열렸어요. 많은 사람들이 김치와 바비큐 같은 한국 음식을 맛보러 왔어요. 이런 축제는 사람들이 한국 문화를 배우고 친구를 사귀는 데 도움을 줍니다.",
+        "bilingual_en": "Food festivals are fun ways to share culture.",
+        "bilingual_kr": "음식 축제는 문화를 나누는 재미있는 방법입니다.",
+        "speaking_en": "Say one Korean dish you want to try.",
+        "speaking_kr": "먹어 보고 싶은 한국 음식을 말해 봅시다.",
+        "writing_en": "Write about why food festivals are popular.",
+        "writing_kr": "왜 음식 축제가 인기 있는지 써 봅시다.",
+        "vocab": [{"en": "festival", "kr": "축제"}, {"en": "culture", "kr": "문화"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The K-food festival in Manila helps promote <span class=kw>Korean culture</span> in the Philippines. Such events increase understanding and friendship between the two countries. Sharing food is a simple way to learn about each other's <span class=kw>traditions</span>.",
+        "text_kr": "마닐라에서 열린 K-푸드 축제는 한국 문화를 필리핀에 알리는 데 도움이 돼요. 이런 행사들은 두 나라 간 이해와 우정을 높입니다. 음식을 함께 나누는 것은 서로의 <span class=kw>전통</span>을 배우는 쉬운 방법입니다.",
+        "bilingual_en": "Food helps people understand each other's traditions.",
+        "bilingual_kr": "음식은 서로의 전통을 이해하는 데 도움을 줍니다.",
+        "speaking_en": "Explain why sharing food is a good way to learn about culture.",
+        "speaking_kr": "음식을 나누는 것이 문화를 배우는 좋은 방법인 이유를 말해 봅시다.",
+        "writing_en": "Write about how food festivals can bring people together.",
+        "writing_kr": "음식 축제가 사람들을 어떻게 모이게 하는지 써 봅시다.",
+        "vocab": [{"en": "tradition", "kr": "전통"}, {"en": "festival", "kr": "축제"}],
+        "quiz": {
+          "q_en": "What is one benefit of food festivals?",
+          "q_kr": "음식 축제의 한 가지 이점은 무엇일까?",
+          "opts": [
+            {"en": "It causes conflicts", "kr": "갈등을 일으킨다", "correct": false},
+            {"en": "It helps people learn about other cultures", "kr": "사람들이 다른 문화를 배울 수 있게 돕는다", "correct": true},
+            {"en": "It makes people less friendly", "kr": "사람들이 덜 친해지게 한다", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["한국 음식의 종류는 무엇이 있을까?", "축제를 통해 어떤 문화 차이를 알 수 있을까?", "음식 문화가 중요한 이유는 무엇일까?"],
+    "suggestions_kr": ["한국 음식의 종류는 무엇이 있을까?", "축제를 통해 어떤 문화 차이를 알 수 있을까?", "음식 문화가 중요한 이유는 무엇일까?"]
+  },
+  "news_3": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korea-Philippines Environmental Project",
+        "title_kr": "한국-필리핀 환경 협력 프로젝트",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines started a <span class=kw>joint environmental project</span>. The goal is to protect <span class=kw>coastal areas</span> from climate change effects. They will do <span class=kw>research</span> and create <span class=kw>sustainable</span> solutions. This teamwork helps fight <span class=kw>climate change</span>.",
+        "text_kr": "한국과 필리핀이 <span class=kw>공동 환경 프로젝트</span>를 시작했어요. 목표는 기후 변화로 인한 <span class=kw>해안 지역</span> 보호입니다. 연구를 하고 <span class=kw>지속 가능한</span> 해결책을 만들 거예요. 이 협력은 <span class=kw>기후 변화</span>와 싸우는 데 도움을 줍니다.",
+        "bilingual_en": "Working together on environmental issues helps protect our planet.",
+        "bilingual_kr": "환경 문제에 함께 힘쓰면 지구를 보호할 수 있습니다.",
+        "speaking_en": "Say one way teamwork can help fight climate change.",
+        "speaking_kr": "팀워크가 기후 변화와 싸우는 한 가지 방법을 말해 봅시다.",
+        "writing_en": "Write about why protecting coastal areas is important.",
+        "writing_kr": "해안 지역을 보호하는 것이 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "sustainable", "kr": "지속 가능한"}, {"en": "climate change", "kr": "기후 변화"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Climate change causes sea levels to rise and damages <span class=kw>coastal areas</span>. The joint project between Korea and the Philippines aims to find <span class=kw>solutions</span>. Protecting coastal regions helps prevent <span class=kw>disasters</span> and preserves <span class=kw>habitats</span> for animals and plants.",
+        "text_kr": "기후 변화로 인해 해수면이 올라가고 해안 지역이 손상돼요. 한국과 필리핀의 공동 프로젝트는 <span class=kw>해결책</span>을 찾는 것이 목표예요. 해안 지역을 보호하면 재해를 막고 동물과 식물의 <span class=kw>서식지</span>를 지킬 수 있어요.",
+        "bilingual_en": "Protecting coastlines is key to saving animals and preventing disasters.",
+        "bilingual_kr": "해안선을 보호하는 것은 동물을 구하고 재해를 막는 데 중요합니다.",
+        "speaking_en": "Explain one way climate change affects coastal areas.",
+        "speaking_kr": "기후 변화가 해안 지역에 어떤 영향을 미치는지 말해 봅시다.",
+        "writing_en": "Write about how protecting coasts can help communities.",
+        "writing_kr": "해안 보호가 지역 사회에 어떻게 도움이 되는지 써 봅시다.",
+        "vocab": [{"en": "disaster", "kr": "재해"}, {"en": "habitat", "kr": "서식지"}],
+        "quiz": {
+          "q_en": "Why is protecting coastal areas important?",
+          "q_kr": "해안 지역을 보호하는 이유는 무엇일까?",
+          "opts": [
+            {"en": "It causes more floods", "kr": "홍수가 더 난다", "correct": false},
+            {"en": "It helps prevent disasters and protects animals", "kr": "재해를 막고 동물을 보호하는 데 도움", "correct": true},
+            {"en": "It increases pollution", "kr": "오염을 늘린다", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["기후 변화의 영향은 무엇일까?", "해안 지역 보호의 방법은?", "환경 협력이 왜 중요할까?"],
+    "suggestions_kr": ["기후 변화의 영향은 무엇일까?", "해안 지역 보호의 방법은?", "환경 협력이 왜 중요할까?"]
+  },
+  "news_4": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Community Safety Campaigns for Koreans in PH",
+        "title_kr": "필리핀 내 한인 안전 캠페인",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Local authorities organized <span class=kw>safety campaigns</span> for the <span class=kw>Korean community</span> in the Philippines. These programs aim to prevent <span class=kw>scams</span> and improve <span class=kw>security</span>. Such efforts help Koreans stay safe and feel welcomed.",
+        "text_kr": "지역 당국은 필리핀 내 한인들을 위한 <span class=kw>안전 캠페인</span>을 열었어요. 이 프로그램은 사기를 막고 <span class=kw>안전</span>을 높이기 위한 거예요. 이런 노력은 한인들이 안전하게 지내고 환영받는 느낌을 갖게 도와줍니다.",
+        "bilingual_en": "Safety campaigns help communities stay safe and feel secure.",
+        "bilingual_kr": "안전 캠페인은 지역 사회가 안전하게 지내고 안전하다고 느끼게 도와줍니다.",
+        "speaking_en": "Mention one way safety campaigns help people.",
+        "speaking_kr": "안전 캠페인이 사람들에게 도움이 되는 한 가지 방법을 말해 봅시다.",
+        "writing_en": "Write about why safety is important for communities.",
+        "writing_kr": "지역 사회에서 안전이 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "campaign", "kr": "캠페인"}, {"en": "security", "kr": "보안"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Context & Why it matters",
+        "title_kr": "맥락과 중요성",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Koreans living in the Philippines can face safety issues like scams or crime. Community safety programs help prevent these problems. Keeping the community safe makes everyone feel more comfortable and welcomed in a new country.",
+        "text_kr": "필리핀에 사는 한국인들은 사기나 범죄 같은 안전 문제를 겪을 수 있어요. 지역 안전 프로그램은 이런 문제를 막는 데 도움이 돼요. 안전하게 지내면 새로운 나라에서도 더 편하고 환영받는다고 느낍니다.",
+        "bilingual_en": "Safety helps people feel comfortable and belong in a community.",
+        "bilingual_kr": "안전은 사람들이 편하게 느끼고 공동체에 속한 느낌을 갖게 합니다.",
+        "speaking_en": "Explain one reason why safety programs are needed.",
+        "speaking_kr": "왜 안전 프로그램이 필요한지 한 가지 이유를 말해 봅시다.",
+        "writing_en": "Write about how safety campaigns can make communities better.",
+        "writing_kr": "안전 캠페인이 지역사회를 어떻게 더 좋게 만들 수 있는지 써 봅시다.",
+        "vocab": [{"en": "scam", "kr": "사기"}, {"en": "community", "kr": "지역사회"}],
+        "quiz": {
+          "q_en": "What is one benefit of community safety campaigns?",
+          "q_kr": "지역 안전 캠페인의 한 가지 이점은 무엇일까?",
+          "opts": [
+            {"en": "They increase crime", "kr": "범죄를 늘린다", "correct": false},
+            {"en": "They help people stay safe and feel welcomed", "kr": "사람들이 안전하게 지내고 환영받는 느낌을 갖게 돕는다", "correct": true},
+            {"en": "They cause confusion", "kr": "혼란을 일으킨다", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["지역 안전을 위해 어떤 노력이 필요할까?", "범죄 예방 방법은 무엇일까?", "커뮤니티 안전 프로그램의 효과는?"],
+    "suggestions_kr": ["지역 안전을 위해 어떤 노력이 필요할까?", "범죄 예방 방법은 무엇일까?", "커뮤니티 안전 프로그램의 효과는?"]
+  }
+}
