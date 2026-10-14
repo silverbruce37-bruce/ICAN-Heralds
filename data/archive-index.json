@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-15",
+    "vol": 197,
+    "cover_en": "Korea-Philippines Strengthen Ties with New Trade and Cultural Initiatives",
+    "cover_kr": "한국-필리핀, 무역과 문화 협력 강화",
+    "headlines_en": [
+      "Philippines Intensifies Security Measures Amid Rising Tensions",
+      "ASEAN Economy Shows Signs of Recovery in 2026",
+      "K-Culture Events Draw Crowds in Manila",
+      "Korea and Philippines Strengthen Disaster Relief Collaboration",
+      "Korean Community in Manila Adopts New Safety Protocols"
+    ],
+    "headlines_kr": [
+      "필리핀, 긴장 고조에 따른 치안 강화 조치",
+      "2026년 ASEAN 경제, 회복 조짐 보여",
+      "마닐라에서 K-문화 행사 성황리에 개최",
+      "한국과 필리핀, 재난 구호 협력 강화",
+      "마닐라 한국인 커뮤니티, 새 안전 수칙 도입"
+    ],
+    "tags": [
+      "Economy",
+      "Security",
+      "Safety",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "vol": 196,
     "cover_en": "Korea-Philippines Strengthen Ties with New Trade Agreements",
