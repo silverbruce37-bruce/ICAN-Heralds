@@ -1,0 +1,13 @@
+{
+  "name": "ICAN Heralds",
+  "install": "pip install -r requirements.txt",
+  "terminals": [
+    {
+      "name": "Static Server",
+      "command": "python3 -m http.server 8000"
+    }
+  ],
+  "ports": [
+    8000
+  ]
+}
