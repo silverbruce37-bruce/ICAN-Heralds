@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-18",
+    "vol": 200,
+    "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Initiatives",
+    "cover_kr": "한국과 필리핀, 새로운 무역 협력으로 외교 관계 강화",
+    "headlines_en": [
+      "Philippines Boosts Community Safety with New Korean Patrol Units",
+      "ASEAN Economic Outlook 2026: Growth and Challenges",
+      "K-Culture Festival Celebrates Korean Food and Music in Manila",
+      "Korea and Philippines Expand Educational Exchange Programs",
+      "Community Safety Campaigns Lead to Drop in Crime Rates"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국 경찰 순찰대 신설로 지역 안전 강화",
+      "2026 ASEAN 경제 전망: 성장과 도전",
+      "마닐라에서 열리는 K-컬처 축제, 한국 음식과 음악 축제",
+      "한국과 필리핀, 교육 교류 프로그램 확대",
+      "지역 안전 캠페인으로 범죄율 감소"
+    ],
+    "tags": [
+      "Safety",
+      "Economy",
+      "Culture",
+      "Security",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-10-17",
     "vol": 199,
     "cover_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
