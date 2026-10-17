@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-17",
+    "vol": 199,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
+    "cover_kr": "한국과 필리핀, 새 외교 협력 강화",
+    "headlines_en": [
+      "Korean Community Safety Initiatives Boosted in Manila",
+      "ASEAN Economies Show Resilience Amid Global Uncertainty",
+      "K-Culture Festivals Draw Thousands in Philippine Cities",
+      "Korea-Philippines Education Exchange Program Expanded",
+      "Korean Community Safety Measures in Manila Enhanced"
+    ],
+    "headlines_kr": [
+      "마닐라 한인 커뮤니티 안전 강화 프로젝트",
+      "글로벌 불확실성 속 ASEAN 경제 회복세 지속",
+      "한국 문화 축제, 필리핀 도시서 수천 명 참여",
+      "한국-필리핀 교육 교류 프로그램 확대",
+      "마닐라 한인 커뮤니티 안전 조치 강화"
+    ],
+    "tags": [
+      "Safety",
+      "Security",
+      "Economy",
+      "Culture",
+      "Cooperation"
+    ]
+  },
+  {
     "date": "2026-10-16",
     "vol": 198,
     "cover_en": "Korea and Philippines Strengthen Ties with New Bilateral Initiatives",
