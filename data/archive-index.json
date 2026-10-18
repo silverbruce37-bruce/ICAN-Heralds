@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-19",
+    "vol": 201,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Economic Partnership",
+    "cover_kr": "한국과 필리핀, 새 경제 협력으로 우호 강화",
+    "headlines_en": [
+      "Philippine-Korea Joint Patrols Enhance Community Safety",
+      "ASEAN Economy Grows Amid Global Challenges",
+      "K-Pop Concert Draws Thousands in Manila",
+      "Korea and Philippines Expand Educational Exchanges",
+      "Korean Community Safety Initiatives Continue"
+    ],
+    "headlines_kr": [
+      "필리핀-한국 공동 순찰로 지역 안전 강화",
+      "글로벌 도전 속 ASEAN 경제 성장",
+      "마닐라에서 K-Pop 콘서트 열기",
+      "한국과 필리핀, 교육 교류 확대",
+      "한국인 커뮤니티 안전 활동 지속"
+    ],
+    "tags": [
+      "Cooperation",
+      "Security",
+      "Economy",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-10-18",
     "vol": 200,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Initiatives",

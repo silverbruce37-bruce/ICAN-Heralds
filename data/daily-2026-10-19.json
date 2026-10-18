@@ -1,0 +1,97 @@
+{
+  "edition_date": "2026-10-19",
+  "header_date_line": "MONDAY, OCTOBER 19, 2026 | PHILIPPINES | VOL. 201",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.19",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Economic Partnership",
+    "headline_kr": "한국과 필리핀, 새 경제 협력으로 우호 강화",
+    "subtitle_en": "Leaders from both nations sign a comprehensive trade agreement to boost regional cooperation and investment.",
+    "subtitle_kr": "양국 지도자들이 지역 협력과 투자를 촉진하기 위한 포괄적 무역 협정을 체결하다.",
+    "body_en": [
+      "In a landmark event yesterday, Korean President Kim and Philippine President Marcos signed a new economic partnership agreement aimed at enhancing trade, investments, and technological exchange between the two countries. The agreement is expected to boost bilateral trade volume by 20% over the next five years, fostering greater economic integration within ASEAN.",
+      "The agreement includes provisions for joint infrastructure projects, increased Korean investment in Philippine industries, and cultural exchange programs to promote understanding and cooperation. Both leaders emphasized the importance of regional stability and economic growth amid global uncertainties.",
+      "Businesses from both nations expressed optimism about the new partnership, with Korean tech firms planning to expand their operations in the Philippines, and Filipino entrepreneurs looking to access Korean markets. The event marks a significant step towards deeper collaboration and mutual development."
+    ],
+    "body_kr": [
+      "어제 한국 대통령 김과 필리핀 대통령 마르코스는 양국 간 무역, 투자, 기술 교류 강화를 목표로 하는 새로운 경제 협력 협정을 체결하는 역사적인 행사를 가졌습니다. 이 협정은 향후 5년간 양국 간 무역량을 20% 확대하는 데 기여할 것으로 기대되며, ASEAN 내 경제 통합을 촉진할 전망입니다.",
+      "이번 협정에는 공동 인프라 프로젝트, 필리핀 산업에 대한 한국 투자 증대, 그리고 상호 이해와 협력을 증진하는 문화 교류 프로그램이 포함되어 있습니다. 양국 지도자들은 글로벌 불확실성 속에서 지역 안정과 경제 성장이 중요하다고 강조했습니다.",
+      "양국 기업들은 이번 협력을 통해 긍정적인 기대를 표하며, 한국의 기술 기업들은 필리핀에서 사업을 확장할 계획이고, 필리핀 기업들은 한국 시장 진출을 기대하고 있습니다. 이번 행사는 더욱 깊은 협력과 상생 발전의 중요한 계기가 될 것입니다."
+    ],
+    "image_seed": "cover-2026-10-19",
+    "image_query": "Korean Philippine leaders signing trade agreement Manila",
+    "image_caption": "Photo: Korean and Philippine leaders signing economic partnership agreement (October 19, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippine-Korea Joint Patrols Enhance Community Safety",
+    "headline_kr": "필리핀-한국 공동 순찰로 지역 안전 강화",
+    "lead_en": "The Philippine and Korean authorities have launched joint patrols in Metro Manila to improve safety and prevent crime, strengthening bilateral security cooperation.",
+    "lead_kr": "필리핀과 한국 당국이 마닐라 지역에서 공동 순찰을 시작하여 안전을 증진하고 범죄를 방지하며 양국 간 안보 협력을 강화하고 있습니다.",
+    "image_seed": "feat-2026-10-19",
+    "image_query": "Korean Philippine police patrol Manila street safety",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy", "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economy Grows Amid Global Challenges",
+      "headline_kr": "글로벌 도전 속 ASEAN 경제 성장",
+      "summary_en": "ASEAN countries continue to show resilience with steady economic growth despite global uncertainties, driven by intra-regional trade and investments.",
+      "summary_kr": "글로벌 불확실성 속에서도 ASEAN 국가들은 역내 무역과 투자를 바탕으로 꾸준한 경제 성장을 보여주고 있습니다.",
+      "image_seed": "news1-2026-10-19",
+      "image_query": "ASEAN map trade graphs economic growth",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture", "tag_class": "tag-culture",
+      "headline_en": "K-Pop Concert Draws Thousands in Manila",
+      "headline_kr": "마닐라에서 K-Pop 콘서트 열기",
+      "summary_en": "A major K-pop concert in Manila attracted thousands of fans, showcasing the ongoing popularity of Korean culture in the Philippines.",
+      "summary_kr": "대형 K-팝 콘서트가 마닐라에서 열려 수천 명의 팬들이 참여하며 한국 문화의 인기를 다시 한 번 입증했습니다.",
+      "image_seed": "news2-2026-10-19",
+      "image_query": "K-Pop fans concert Manila stage fans",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation", "tag_class": "tag-diplomacy",
+      "headline_en": "Korea and Philippines Expand Educational Exchanges",
+      "headline_kr": "한국과 필리핀, 교육 교류 확대",
+      "summary_en": "Both countries announced new scholarship programs and academic partnerships to foster better understanding and collaboration among students.",
+      "summary_kr": "양국은 장학금 프로그램과 학술 협력을 새롭게 발표하며 학생들 간의 이해와 협력을 증진하고자 합니다.",
+      "image_seed": "news3-2026-10-19",
+      "image_query": "Students exchange program university classroom",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety", "tag_class": "tag-safety",
+      "headline_en": "Korean Community Safety Initiatives Continue",
+      "headline_kr": "한국인 커뮤니티 안전 활동 지속",
+      "summary_en": "Korean community leaders and local authorities jointly organize safety seminars and patrols to ensure the well-being of Korean residents in the Philippines.",
+      "summary_kr": "한국 커뮤니티 리더들과 현지 당국이 공동으로 안전 세미나와 순찰을 개최하여 필리핀 내 한국인 거주민들의 안전을 보장하고 있습니다.",
+      "image_seed": "news4-2026-10-19",
+      "image_query": "Korean community safety seminar patrol Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Collaboration",
+    "pronunciation": "kə-lab-ə-ˈreɪ-ʃən",
+    "type": "noun",
+    "definition_en": "The action of working with someone to produce or create something.",
+    "definition_kr": "누군가와 함께 일하여 무언가를 만들어 내는 행동.",
+    "example_en": "International collaboration helps countries achieve shared goals.",
+    "example_kr": "국제 협력은 국가들이 공동 목표를 달성하는 데 도움을 준다.",
+    "grade": "A+"
+  }
+}

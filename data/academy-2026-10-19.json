@@ -1,0 +1,371 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "International Partnerships",
+        "title_kr": "국제 협력 관계",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are working together to improve their relationship. They signed a trade agreement to promote trade and investment. This helps both countries grow and cooperate more closely. <span class=kw>International partnership</span> means countries working together for mutual benefit.",
+        "text_kr": "한국과 필리핀이 서로 협력하기 위해 협정을 맺었어요. 이것은 무역과 투자를 늘리기 위한 것이에요. 두 나라가 더 가까워지고 함께 성장하는 데 도움이 돼요. <span class=kw>국제 협력</span>은 나라들이 서로 돕기 위해 함께 일하는 것을 말해요.",
+        "bilingual_en": "When countries work together, they can solve big problems and share resources.",
+        "bilingual_kr": "나라들이 함께 일하면 큰 문제를 해결하고 자원을 나눌 수 있어요.",
+        "speaking_en": "Describe one way Korea and the Philippines are working together.",
+        "speaking_kr": "한국과 필리핀이 어떻게 함께 일하는지 말해봅시다.",
+        "writing_en": "Write a sentence about why international partnerships are important.",
+        "writing_kr": "국제 협력의 중요성에 대해 한 문장 써 봅시다.",
+        "vocab": [{"en": "trade agreement", "kr": "무역 협정"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "This partnership can lead to more jobs, better technology, and cultural exchange. It also shows how countries can help each other grow. Global cooperation is important especially during challenges like economic problems or health crises.",
+        "text_kr": "이 협력은 더 많은 일자리, 더 좋은 기술, 문화 교류를 가져올 수 있어요. 또한 나라들이 서로 성장하는 방법이기도 해요. 특히 경제 문제나 건강 위기 시기에 글로벌 협력은 매우 중요해요.",
+        "bilingual_en": "Strong international ties help countries face global challenges together.",
+        "bilingual_kr": "강한 국제 관계는 나라들이 함께 글로벌 문제를 해결하는 데 도움을 줘요.",
+        "speaking_en": "Explain one benefit of international partnerships.",
+        "speaking_kr": "국제 협력의 한 가지 이점에 대해 말해봅시다.",
+        "writing_en": "Write about a challenge countries can solve by working together.",
+        "writing_kr": "나라들이 협력해서 해결할 수 있는 문제에 대해 써 봅시다.",
+        "vocab": [{"en": "cooperation", "kr": "협력"}],
+        "quiz": {
+          "q_en": "Why do countries form partnerships?",
+          "q_kr": "왜 나라들은 협력 관계를 맺나요?",
+          "opts": [
+            {"en": "To compete", "kr": "경쟁하기 위해", "correct": false},
+            {"en": "To work together", "kr": "함께 일하기 위해", "correct": true},
+            {"en": "To stay apart", "kr": "멀리 있기 위해", "correct": false}
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 내 한국인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "The strengthened partnership can lead to more jobs and educational opportunities for Koreans living in the Philippines. Korean businesses may expand, and cultural events like K-pop concerts become more common. These changes help Korean residents feel more connected and secure.",
+        "text_kr": "이 협력으로 인해 필리핀에 사는 한국인들이 더 많은 일자리와 교육 기회를 얻을 수 있어요. 한국 기업들이 확장하거나, 케이팝 공연 같은 문화 행사도 많아질 거예요. 이는 한국인들이 더 안전하고 편하게 느끼게 도와줍니다.",
+        "bilingual_en": "Stronger ties between Korea and the Philippines help Korean residents have better lives.",
+        "bilingual_kr": "한국과 필리핀의 강한 관계는 한국인들의 삶을 더 좋게 만듭니다.",
+        "speaking_en": "Talk about how the partnership benefits Korean people in the Philippines.",
+        "speaking_kr": "이 협력이 필리핀 내 한국인들에게 어떤 도움을 주는지 말해봅시다.",
+        "writing_en": "Write about one way Korean residents in the Philippines might benefit.",
+        "writing_kr": "필리핀 내 한국인들이 어떻게 이득을 볼 수 있는지 써 봅시다.",
+        "vocab": [{"en": "community", "kr": "지역 사회"}]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "Stronger international ties can foster peace and economic stability in the region. However, some worry about losing cultural identity or dependence on other countries. It's important to find a balance between cooperation and independence.",
+        "text_kr": "더 강한 국제 관계는 평화와 경제 안정에 도움을 줄 수 있어요. 하지만 문화 정체성을 잃거나 타국에 의존하게 될까 걱정하는 사람들도 있어요. 협력과 독립 사이에 균형을 찾는 것이 중요합니다.",
+        "bilingual_en": "Balancing cooperation and independence is key to a healthy international relationship.",
+        "bilingual_kr": "협력과 독립의 균형을 맞추는 것이 건강한 국제 관계의 핵심입니다.",
+        "speaking_en": "State your opinion on whether countries should prioritize independence or cooperation.",
+        "speaking_kr": "나라들이 독립을 더 우선시해야 할지, 협력을 우선시해야 할지 말해봅시다.",
+        "writing_en": "Write a short paragraph about the importance of balancing independence and cooperation.",
+        "writing_kr": "독립과 협력의 균형이 왜 중요한지 짧게 써봅시다.",
+        "debate_en": "Should countries focus more on independence or cooperation? Why?",
+        "debate_kr": "나라들은 독립을 더 중시해야 할까요, 아니면 협력을 더 중시해야 할까요? 왜 그런가요?",
+        "vocab": [{"en": "balance", "kr": "균형"}]
+      }
+    ],
+    "suggestions_en": ["How do international partnerships help countries?", "Why might cultural exchange be important?", "What are some challenges of working with other countries?"],
+    "suggestions_kr": ["국제 협력이 나라에 어떻게 도움이 될까?", "문화 교류가 왜 중요할까?", "다른 나라와 협력할 때 어떤 어려움이 있을까?"]
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Cultural Exchange & Community Safety",
+        "title_kr": "문화 교류와 지역 사회 안전",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korean culture, like K-pop, is popular in the Philippines. Many fans go to concerts and events. Also, community safety is important, so Korean leaders organize patrols and seminars to protect residents. These efforts help Koreans feel safe and connected.",
+        "text_kr": "케이팝 같은 한국 문화는 필리핀에서 인기가 많아요. 많은 팬들이 콘서트와 행사에 가요. 또한, 지역 사회 안전도 중요해서 한국 지도자들이 순찰과 세미나를 열어 주민들을 보호해요. 이런 노력은 한국인들이 안전하게 느끼게 도와줍니다.",
+        "bilingual_en": "Cultural events and safety efforts help Korean communities feel at home abroad.",
+        "bilingual_kr": "문화 행사와 안전 활동은 해외에서 한국인들이 집처럼 느끼게 도와줍니다.",
+        "speaking_en": "Share one way Korean culture is popular in the Philippines.",
+        "speaking_kr": "한국 문화가 필리핀에서 어떻게 인기 있는지 말해봅시다.",
+        "writing_en": "Write about why community safety is important for immigrants.",
+        "writing_kr": "이민자들에게 지역 사회 안전이 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "cultural exchange", "kr": "문화 교류"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Events like K-pop concerts bring Koreans and Filipinos closer. Safety initiatives ensure residents feel secure. These activities promote friendship and understanding, which are essential in a multicultural community.",
+        "text_kr": "케이팝 공연 같은 이벤트는 한국인과 필리핀 사람들을 더 가깝게 만듭니다. 안전 활동은 사람들이 안전하게 느끼게 해주고, 우정과 이해를 돕습니다. 이는 다문화 사회에서 매우 중요해요.",
+        "bilingual_en": "Cultural and safety efforts strengthen community bonds.",
+        "bilingual_kr": "문화와 안전 활동은 지역 사회의 유대를 강화합니다.",
+        "speaking_en": "Explain one benefit of cultural exchanges in communities.",
+        "speaking_kr": "문화 교류가 지역 사회에 어떤 이점을 주는지 말해봅시다.",
+        "writing_en": "Write about how safety initiatives can improve community life.",
+        "writing_kr": "안전 활동이 지역 사회 생활을 어떻게 개선하는지 써 봅시다.",
+        "vocab": [{"en": "community", "kr": "지역 사회"}],
+        "quiz": {
+          "q_en": "How do cultural events help communities?",
+          "q_kr": "문화 행사가 지역 사회에 어떤 도움을 줄까?",
+          "opts": [
+            {"en": "Create conflicts", "kr": "갈등을 만들다", "correct": false},
+            {"en": "Build friendships", "kr": "우정을 쌓다", "correct": true},
+            {"en": "Cause confusion", "kr": "혼란을 일으키다", "correct": false}
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 내 한국인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Korean residents benefit from safety programs and cultural events, which make living abroad safer and more enjoyable. These efforts help Koreans feel accepted and happy in the Philippines. It also encourages more cultural sharing and friendship between the two nations.",
+        "text_kr": "한국인들은 안전 프로그램과 문화 행사 덕분에 해외 생활이 더 안전하고 즐거워집니다. 이러한 노력은 한국인들이 필리핀에서 받아들여지고 행복하게 느끼게 도와줍니다. 또한 두 나라 간의 문화 교류와 우정을 더 늘릴 수 있어요.",
+        "bilingual_en": "Safety and cultural activities improve life for Koreans living in the Philippines.",
+        "bilingual_kr": "안전과 문화 활동은 필리핀에서 사는 한국인들의 삶을 더 좋게 만듭니다.",
+        "speaking_en": "Describe one way safety efforts help Korean residents.",
+        "speaking_kr": "안전 활동이 한국인 거주자에게 어떻게 도움을 주는지 말해봅시다.",
+        "writing_en": "Write about the importance of safety in multicultural communities.",
+        "writing_kr": "다문화 사회에서 안전이 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "safety", "kr": "안전"}]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "While cultural exchange and safety initiatives help communities, some argue they may lead to dependence or loss of local traditions. It is important to balance these efforts with respect for local culture and independence. Finding this balance can lead to stronger, more resilient communities.",
+        "text_kr": "문화 교류와 안전 활동이 지역 사회에 도움을 주지만, 일부 사람들은 의존이나 전통 상실을 우려하기도 해요. 이러한 노력과 지역 문화, 독립성을 균형 있게 유지하는 것이 중요합니다. 이렇게 균형을 찾으면 더 강하고 건강한 공동체가 될 수 있어요.",
+        "bilingual_en": "Balancing cultural exchange and safety with independence creates stronger communities.",
+        "bilingual_kr": "문화 교류와 안전을 독립성과 함께 균형 있게 유지하는 것이 더 강한 공동체를 만듭니다.",
+        "speaking_en": "Share your opinion on whether communities should focus more on safety or cultural exchange.",
+        "speaking_kr": "지역 사회가 안전이나 문화 교류 중 어떤 것에 더 집중해야 하는지 의견을 말해봅시다.",
+        "writing_en": "Write a short paragraph about how to keep a community safe while respecting traditions.",
+        "writing_kr": "전통을 존중하면서 어떻게 지역사회를 안전하게 유지할 수 있을지 짧게 써봅시다.",
+        "debate_en": "Should communities prioritize safety or cultural preservation? Why?",
+        "debate_kr": "지역사회는 안전을 더 우선시해야 할까, 아니면 문화 보존을 더 중요시해야 할까? 왜 그런가요?",
+        "vocab": [{"en": "balance", "kr": "균형"}]
+      }
+    ],
+    "suggestions_en": ["How can cultural exchange help friendships?", "Why is community safety important?", "What can communities do to stay united?"],
+    "suggestions_kr": ["문화 교류가 우정을 어떻게 도울까?", "지역 사회 안전이 왜 중요할까?", "지역 사회가 어떻게 단합할 수 있을까?"]
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "ASEAN Economic Growth",
+        "title_kr": "ASEAN 경제 성장",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "ASEAN is a group of Southeast Asian countries working together. Despite global problems, ASEAN countries still grow their economies. This is because they trade and invest a lot within the region. <span class=kw>Regional cooperation</span> helps countries become stronger together.",
+        "text_kr": "ASEAN은 동남아시아 나라들이 함께 일하는 그룹이에요. 세계적인 문제에도 불구하고 ASEAN 나라들은 경제가 계속 성장하고 있어요. 지역 내 무역과 투자가 활발하기 때문이에요. <span class=kw>지역 협력</span>은 나라들이 더 강해지도록 도와줍니다.",
+        "bilingual_en": "Working together helps countries grow even during tough times.",
+        "bilingual_kr": "함께 일하는 것이 어려운 시기에도 나라들이 성장하는 데 도움을 줘요.",
+        "speaking_en": "Explain why regional cooperation is important.",
+        "speaking_kr": "지역 협력이 왜 중요한지 말해봅시다.",
+        "writing_en": "Write one reason why ASEAN countries are still growing.",
+        "writing_kr": "ASEAN 나라들이 계속 성장하는 한 가지 이유를 써 봅시다.",
+        "vocab": [{"en": "regional cooperation", "kr": "지역 협력"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Economic growth in ASEAN means more jobs, better technology, and improved living standards. It also shows that countries can support each other. Even with challenges like global crises, regional cooperation keeps the economy steady and growing.",
+        "text_kr": "ASEAN의 경제 성장은 더 많은 일자리, 더 좋은 기술, 더 나은 삶의 질을 의미해요. 또한 나라들이 서로 도울 수 있다는 것을 보여줍니다. 글로벌 위기 같은 도전에도 지역 협력은 경제를 안정시키고 성장하게 해요.",
+        "bilingual_en": "Regional growth helps everyone in the area have better lives.",
+        "bilingual_kr": "지역 성장은 그 지역 사람들의 삶을 더 좋게 만듭니다.",
+        "speaking_en": "Describe one benefit of regional economic growth.",
+        "speaking_kr": "지역 경제 성장의 한 가지 이점을 말해봅시다.",
+        "writing_en": "Write about how regional cooperation can help during global challenges.",
+        "writing_kr": "글로벌 위기 때 지역 협력이 어떻게 도움이 되는지 써 봅시다.",
+        "vocab": [{"en": "growth", "kr": "성장"}],
+        "quiz": {
+          "q_en": "What helps ASEAN countries grow during tough times?",
+          "q_kr": "어려운 시기에 ASEAN 나라들이 성장할 수 있는 방법은 무엇일까요?",
+          "opts": [
+            {"en": "Technological isolation", "kr": "기술 격리", "correct": false},
+            {"en": "Regional cooperation", "kr": "지역 협력", "correct": true},
+            {"en": "Stopping trade", "kr": "무역 중단", "correct": false}
+          ]
+        }
+      }
+    ]
+  },
+  "news_2": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "K-Pop's Popularity in Philippines",
+        "title_kr": "필리핀에서의 케이팝 인기",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "K-pop is a style of Korean pop music. Many young people in the Philippines love K-pop and go to concerts. This shows how Korean culture is popular outside Korea. <span class=kw>K-pop</span> helps spread Korean language and fashion too.",
+        "text_kr": "케이팝은 한국의 대중음악이에요. 필리핀의 많은 젊은이들이 케이팝을 좋아하고 콘서트에 가요. 이것은 한국 문화가 한국 밖에서도 인기가 있다는 것을 보여줍니다. <span class=kw>K-pop</span>은 한국어와 패션도 널리 알리고 있어요.",
+        "bilingual_en": "K-pop concerts bring fans from different countries closer to Korean culture.",
+        "bilingual_kr": "케이팝 콘서트는 팬들이 한국 문화를 더 가까이 느끼게 해줍니다.",
+        "speaking_en": "Describe why K-pop is popular in the Philippines.",
+        "speaking_kr": "왜 케이팝이 필리핀에서 인기 있는지 말해봅시다.",
+        "writing_en": "Write about one way K-pop influences young people.",
+        "writing_kr": "케이팝이 젊은이들에게 어떤 영향을 주는지 써 봅시다.",
+        "vocab": [{"en": "K-pop", "kr": "케이팝"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The popularity of K-pop helps spread Korean language and fashion. It also creates cultural understanding between Korea and the Philippines. These cultural ties can lead to more friendship and cooperation.",
+        "text_kr": "케이팝 인기 덕분에 한국어와 패션이 퍼지고 있어요. 또한 한국과 필리핀 사이의 문화적 이해도 높아집니다. 이러한 문화적 유대는 우정과 협력을 더 강화할 수 있어요.",
+        "bilingual_en": "Cultural exchange through music can build stronger international relationships.",
+        "bilingual_kr": "음악을 통한 문화 교류는 더 강한 국제 관계를 만들 수 있어요.",
+        "speaking_en": "Explain how K-pop helps Korean culture abroad.",
+        "speaking_kr": "케이팝이 해외에서 한국 문화를 어떻게 도와주는지 말해봅시다.",
+        "writing_en": "Write about one benefit of cultural exchange via music.",
+        "writing_kr": "음악을 통한 문화 교류의 한 가지 이점을 써 봅시다.",
+        "vocab": [{"en": "cultural exchange", "kr": "문화 교류"}]
+      }
+    ]
+  },
+  "news_3": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Educational Exchanges between Korea and Philippines",
+        "title_kr": "한국과 필리핀의 교육 교류",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are sharing educational programs. They offer scholarships and student exchanges. This helps students learn about each other's culture and language. <span class=kw>Educational exchange</span> builds friendship and understanding.",
+        "text_kr": "한국과 필리핀이 교육 프로그램을 공유하고 있어요. 장학금과 학생 교환 프로그램이 있어요. 이것은 학생들이 서로의 문화와 언어를 배우는 데 도움이 돼요. <span class=kw>교육 교류</span>는 우정과 이해를 높입니다.",
+        "bilingual_en": "Exchange programs give students new experiences and help them understand different cultures.",
+        "bilingual_kr": "교환 프로그램은 학생들에게 새로운 경험을 주고 서로 다른 문화를 이해하게 도와줍니다.",
+        "speaking_en": "Describe one benefit of student exchanges.",
+        "speaking_kr": "학생 교환의 한 가지 이점에 대해 말해봅시다.",
+        "writing_en": "Write about how educational exchanges can improve friendship between countries.",
+        "writing_kr": "교육 교류가 나라 간 우정을 어떻게 높일 수 있는지 써 봅시다.",
+        "vocab": [{"en": "educational exchange", "kr": "교육 교류"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Educational exchanges help students learn about each other's culture and language. They create friendships that last a long time. These programs also promote peace and cooperation between countries.",
+        "text_kr": "교육 교류는 학생들이 서로의 문화와 언어를 배우게 해요. 오래 가는 우정을 만들고, 나라들 간의 평화와 협력도 증진시켜요.",
+        "bilingual_en": "Student exchanges build understanding and peace between nations.",
+        "bilingual_kr": "학생 교류는 나라 간 이해와 평화를 만들어 갑니다.",
+        "speaking_en": "Explain why educational exchanges are good for countries.",
+        "speaking_kr": "교육 교류가 나라에 왜 좋은지 말해봅시다.",
+        "writing_en": "Write about one way exchanges help build peace.",
+        "writing_kr": "교환이 어떻게 평화에 도움을 줄 수 있는지 써 봅시다.",
+        "vocab": [{"en": "peace", "kr": "평화"}]
+      }
+    ]
+  },
+  "news_4": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korean Community Safety Initiatives",
+        "title_kr": "한국인 안전 활동",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korean community leaders and local authorities organize safety seminars and patrols. These activities help protect Korean residents in the Philippines. They also teach safety rules and how to help each other. <span class=kw>Safety initiatives</span> make the community safer.",
+        "text_kr": "한국 커뮤니티 리더와 지역 당국이 안전 세미나와 순찰을 열어요. 이 활동들은 필리핀 내 한국인들을 지키는 데 도움을 줍니다. 안전 규칙과 서로 돕는 방법도 가르쳐요. <span class=kw>안전 활동</span>은 지역사회를 더 안전하게 만듭니다.",
+        "bilingual_en": "Safety programs help Korean residents feel secure and connected.",
+        "bilingual_kr": "안전 프로그램은 한국인들이 안전하고 연결된 느낌을 갖게 해줍니다.",
+        "speaking_en": "Describe one safety activity for Korean residents.",
+        "speaking_kr": "한국인 거주자를 위한 안전 활동 하나를 말해봅시다.",
+        "writing_en": "Write about why safety is important for communities.",
+        "writing_kr": "지역사회를 위한 안전이 왜 중요한지 써 봅시다.",
+        "vocab": [{"en": "safety", "kr": "안전"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Safety initiatives help residents feel protected and comfortable. They also encourage community bonding. When people feel safe, they can focus on building friendships and helping each other.",
+        "text_kr": "안전 활동은 주민들이 안전하게 느끼고 편하게 지내게 도와줍니다. 또한 지역 사회 유대감도 강해져요. 사람들이 안전하다고 느끼면 우정을 쌓고 서로 도울 수 있습니다.",
+        "bilingual_en": "Safety is key to strong and friendly communities.",
+        "bilingual_kr": "안전은 강하고 친근한 지역사회를 만드는 핵심입니다.",
+        "speaking_en": "Explain how safety initiatives can improve community life.",
+        "speaking_kr": "안전 활동이 지역사회를 어떻게 개선하는지 말해봅시다.",
+        "writing_en": "Write about one way safety helps communities stay united.",
+        "writing_kr": "안전이 어떻게 지역사회를 하나로 유지하는 데 도움을 주는지 써 봅시다.",
+        "vocab": [{"en": "community", "kr": "지역 사회"}]
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 내 한국인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Korean residents benefit from safety programs and community activities. These efforts help them feel secure and welcomed. A safe community encourages more cultural sharing and helps Koreans live happily in the Philippines.",
+        "text_kr": "한국인들은 안전 프로그램과 지역 활동 덕분에 안전하고 환영받는 느낌을 받아요. 안전한 공동체는 더 많은 문화 교류를 가능하게 하고, 한국인들이 필리핀에서 행복하게 살 수 있게 도와줍니다.",
+        "bilingual_en": "Safety and community efforts help Koreans enjoy peaceful lives abroad.",
+        "bilingual_kr": "안전과 지역 사회 활동은 한국인들이 해외에서 평화롭게 살도록 도와줍니다.",
+        "speaking_en": "Describe one way safety programs help Korean residents.",
+        "speaking_kr": "안전 프로그램이 한국인 거주자에게 어떻게 도움을 주는지 말해봅시다.",
+        "writing_en": "Write about why safety is essential for all communities.",
+        "writing_kr": "모든 지역사회에 안전이 왜 필수적인지 써 봅시다.",
+        "vocab": [{"en": "community safety", "kr": "지역사회 안전"}]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "While safety programs help communities, some worry they may create dependence or reduce self-reliance. It is important to develop safety awareness that encourages everyone to help themselves and others. Balancing safety measures with independence makes communities stronger.",
+        "text_kr": "안전 프로그램은 지역사회에 도움을 주지만, 일부는 의존성을 높이거나 자립심을 떨어뜨릴까 걱정해요. 모든 사람들이 스스로 돕고 서로 도울 수 있도록 안전 인식을 키우는 것이 중요해요. 안전 조치와 자립의 균형이 강한 지역사회를 만듭니다.",
+        "bilingual_en": "Balancing safety efforts with promoting independence creates resilient communities.",
+        "bilingual_kr": "안전 활동과 자립 촉진을 균형 있게 하면 강한 지역사회를 만들 수 있습니다.",
+        "speaking_en": "Share your opinion on whether communities should focus more on safety or independence.",
+        "speaking_kr": "지역사회가 안전이나 자립 중 어떤 것에 더 집중해야 한다고 생각하나요? 이유도 말해봅시다.",
+        "writing_en": "Write a short paragraph about how communities can stay safe while encouraging independence.",
+        "writing_kr": "지역사회를 안전하게 하면서도 자립심을 키우는 방법에 대해 짧게 써봅시다.",
+        "debate_en": "Should communities prioritize safety or independence? Why?",
+        "debate_kr": "지역사회는 안전을 더 우선시해야 할까요, 아니면 자립을 더 중요시해야 할까요? 이유는 무엇인가요?",
+        "vocab": [{"en": "resilience", "kr": "회복력"}]
+      }
+    ],
+    "suggestions_en": ["Why is community safety important?", "How can communities stay united?", "What can safety programs do for residents?"],
+    "suggestions_kr": ["지역사회 안전이 왜 중요할까?", "지역 사회를 어떻게 단합시킬 수 있을까?", "안전 프로그램이 주민들에게 어떤 도움을 줄까?"]
+  }
+}
