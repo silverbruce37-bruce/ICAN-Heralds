@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-20",
+  "header_date_line": "TUESDAY, OCTOBER 20, 2026 | PHILIPPINES | VOL. 202",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.20",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Diplomatic Initiatives",
+    "headline_kr": "한국과 필리핀, 새로운 외교 협력으로 관계 강화",
+    "subtitle_en": "Leaders from both nations meet to discuss economic cooperation and cultural exchange initiatives amid regional stability efforts.",
+    "subtitle_kr": "양국 지도자들이 지역 안정과 경제, 문화 협력을 논의하기 위해 만남",
+    "body_en": [
+      "In a significant diplomatic development, Korean and Filipino leaders convened in Manila yesterday to reinforce their bilateral ties. The summit focused on expanding economic collaborations, including new trade agreements and joint infrastructure projects aimed at boosting regional development. Both nations emphasized the importance of strengthening strategic partnerships amid shifting geopolitical dynamics in Southeast Asia.",
+      "Cultural exchange programs were also a key agenda item, with plans to promote K-culture through festivals, language programs, and tourism initiatives. The leaders highlighted the growing popularity of K-pop, Korean cuisine, and Korean dramas among Filipinos, which serve as cultural bridges fostering mutual understanding and friendship. These efforts are expected to further deepen the soft power influence of Korea in the Philippines.",
+      "Furthermore, discussions included regional security cooperation, especially concerning maritime safety and counter-terrorism efforts. Both countries reaffirmed their commitment to stability in the South China Sea and agreed to enhance joint patrols and intelligence sharing. The summit signals a new phase of strategic partnership aimed at promoting peace, prosperity, and cultural ties in the Indo-Pacific region."
+    ],
+    "body_kr": [
+      "중요한 외교적 발전으로, 한국과 필리핀의 지도자들이 어제 마닐라에서 만나 양국 간 관계 강화를 논의했다. 이번 정상회담은 무역 협정 확대와 공동 인프라 프로젝트를 포함한 경제 협력 증진에 초점을 맞췄으며, 지역 발전을 목표로 하고 있다. 양국은 동남아시아의 지정학적 변화 속에서 전략적 파트너십 강화의 중요성을 강조했다.",
+      "문화교류 프로그램도 핵심 의제였으며, K-문화의 홍보를 위한 축제, 언어 프로그램, 관광 활성화 방안이 논의되었다. 양국 정상은 K-pop, 한국 음식, 드라마가 필리핀인들 사이에서 인기를 끌며 상호 이해와 우정을 증진하는 문화적 다리 역할을 하고 있다고 평가했다. 이러한 노력은 한국의 소프트 파워 강화를 기대하게 한다.",
+      "또한, 지역 안보 협력, 특히 해양 안전과 대테러 활동에 관한 논의도 진행되었다. 양국은 남중국해의 안정과 평화를 위해 공동 순찰과 정보 공유를 강화하기로 재확인하였다. 이번 정상회담은 평화와 번영, 문화적 유대를 증진하는 전략적 동반자의 새 장을 열었다."
+    ],
+    "image_seed": "cover-2026-10-20",
+    "image_query": "Korean Philippine leaders handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Filipino leaders shaking hands during summit in Manila (October 20, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Boosts Community Safety Measures in Korean Districts",
+    "headline_kr": "필리핀, 한인 밀집 지역 안전 강화 조치 시행",
+    "lead_en": "Local authorities in key Korean communities in the Philippines are implementing new safety protocols to protect residents amid rising security concerns. Enhanced patrols and community outreach programs aim to ensure a secure environment for Korean expatriates.",
+    "lead_kr": "필리핀 내 주요 한인 밀집 지역에서 경찰과 지역사회가 안전 강화를 위해 새로운 조치를 시행하며 한인 거주민 보호에 나섰다.",
+    "image_seed": "feat-2026-10-20",
+    "image_query": "Korean community police patrol Manila neighborhood safety",
+    "desk": "Safety Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Philippine ASEAN Economic Growth Accelerates",
+      "headline_kr": "필리핀, ASEAN 경제 성장 가속화",
+      "summary_en": "The Philippines reports robust economic growth driven by increased foreign investment and regional trade, positioning itself as a key player in ASEAN’s economic landscape.",
+      "summary_kr": "필리핀이 외국인 투자 확대와 지역 무역 증가로 강력한 경제 성장을 기록하며 ASEAN 경제의 핵심 국가로 자리매김하고 있다.",
+      "image_seed": "news1-2026-10-20",
+      "image_query": "Philippine city skyline with trade and investment symbols",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Festivals Draw Thousands in Manila",
+      "headline_kr": "마닐라에서 열린 K-컬처 축제, 수천 명 방문",
+      "summary_en": "The annual K-pop and Korean food festival in Manila attracted large crowds, showcasing Korea’s vibrant culture and strengthening people-to-people ties.",
+      "summary_kr": "매년 열리는 K-pop과 한국 음식 축제에 수천 명이 몰리며 한국 문화의 활기찬 면모를 선보이고, 양국 간 친밀감이 높아지고 있다.",
+      "image_seed": "news2-2026-10-20",
+      "image_query": "Korean pop concert crowd Manila festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Joint Training Exercises Enhance Maritime Security",
+      "headline_kr": "해양안보 강화를 위한 한-필리핀 합동훈련 실시",
+      "summary_en": "Korea and the Philippines conducted joint maritime patrols and security drills, emphasizing their commitment to regional safety and cooperation in the South China Sea.",
+      "summary_kr": "한국과 필리핀은 남중국해의 안전 강화를 위해 합동 해양순찰과 군사훈련을 실시하며 협력 의지를 보여주었다.",
+      "image_seed": "news3-2026-10-20",
+      "image_query": "Korean Filipino naval ships joint patrol South China Sea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Safety Drills Held Across Manila",
+      "headline_kr": "마닐라 전역서 한인 커뮤니티 안전 훈련 실시",
+      "summary_en": "Safety drills and emergency preparedness sessions were organized for the Korean community in Manila to ensure readiness against potential threats and emergencies.",
+      "summary_kr": "마닐라 내 한인 커뮤니티를 대상으로 안전 훈련과 비상 대비 교육이 실시되어 위기 상황에 대비하고 있다.",
+      "image_seed": "news4-2026-10-20",
+      "image_query": "Korean community safety drill Manila",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Diplomacy",
+    "pronunciation": "dih-PLOH-muh-see",
+    "type": "noun",
+    "definition_en": "The art and practice of conducting negotiations and maintaining relationships between nations.",
+    "definition_kr": "국가 간 협상과 관계 유지를 위한 외교 활동 및 기술.",
+    "example_en": "Effective diplomacy is essential for peaceful international relations.",
+    "example_kr": "효과적인 외교는 평화로운 국제 관계를 위해 필수적이다.",
+    "grade": "A+"
+  }
+}
