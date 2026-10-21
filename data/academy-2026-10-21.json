@@ -1,0 +1,296 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korea-Philippines Diplomatic Ties",
+        "title_kr": "한국과 필리핀의 외교 관계",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are two countries that work together to build friendship and help each other. They share ideas, trade goods, and learn about each other's culture. Recently, they announced new ways to cooperate economically and culturally. <span class=kw>Diplomatic ties</span> help countries stay friends and solve problems together.",
+        "text_kr": "한국과 필리핀은 서로 우정을 쌓고 도움을 주는 나라입니다. 서로 아이디어를 나누고, 물건을 사고팔며, 문화를 배우기도 합니다. 최근 두 나라가 경제와 문화 분야에서 더 협력하는 방안을 발표했어요. <span class=kw>외교 관계</span>는 나라들이 친구처럼 지내고 문제를 함께 해결하는 데 중요합니다.",
+        "bilingual_en": "Strong diplomatic ties help countries work together during regional challenges.",
+        "bilingual_kr": "강한 외교 관계는 나라들이 지역 문제를 함께 해결하는 데 도움을 줍니다.",
+        "speaking_en": "Say one way Korea and the Philippines are working together.",
+        "speaking_kr": "한국과 필리핀이 함께 일하는 방법 하나를 말해 봅시다.",
+        "writing_en": "Write a sentence about why diplomatic ties are important.",
+        "writing_kr": "외교 관계가 왜 중요한지 한 문장 써 봅시다.",
+        "vocab": [{"en": "diplomatic ties", "kr": "외교 관계"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why It Matters",
+        "title_kr": "이것이 왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Good relationships between countries make it easier to solve problems like trade issues or environmental challenges. When Korea and the Philippines work together, they can protect their regions better. This cooperation also helps people learn from each other's cultures and traditions.",
+        "text_kr": "나라들이 좋은 관계를 유지하면 무역 문제나 환경 문제를 더 쉽게 해결할 수 있어요. 한국과 필리핀이 함께 일하면 지역을 더 잘 지킬 수 있습니다. 또, 서로의 문화와 전통을 배우는 데도 도움이 됩니다.",
+        "bilingual_en": "International cooperation leads to better solutions for regional challenges.",
+        "bilingual_kr": "국제 협력은 지역 문제 해결에 더 좋은 방안을 가져옵니다.",
+        "speaking_en": "Explain why countries need to cooperate.",
+        "speaking_kr": "나라들이 왜 협력해야 하는지 말해 봅시다.",
+        "writing_en": "Describe a benefit of Korea and the Philippines working together.",
+        "writing_kr": "한국과 필리핀이 함께 일하는 이점 하나를 써 봅시다.",
+        "vocab": [{"en": "cooperation", "kr": "협력"}],
+        "quiz": {
+          "q_en": "Why is cooperation between countries important?",
+          "q_kr": "나라들 간의 협력이 왜 중요합니까?",
+          "opts": [
+            {"en": "It helps solve problems.", "kr": "문제 해결에 도움이 된다.", "correct": true},
+            {"en": "It causes conflicts.", "kr": "갈등을 일으킨다.", "correct": false},
+            {"en": "It is not necessary.", "kr": "필요 없다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Cultural Influence",
+        "title_kr": "문화적 영향력",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "K-culture, including <span class=kw>K-pop</span> and <span class=kw>K-dramas</span>, is popular in the Philippines. Many Filipinos enjoy Korean music and TV shows. This has led to new festivals celebrating Korean culture all over the country.",
+        "text_kr": "케이팝과 한국 드라마 같은 케이컬처는 필리핀에서도 인기가 많습니다. 많은 필리핀 사람들이 한국 음악과 TV를 좋아해요. 그래서 한국 문화를 기념하는 축제도 생겼어요.",
+        "bilingual_en": "K-culture's popularity connects young people across Korea and the Philippines.",
+        "bilingual_kr": "케이컬처의 인기는 한국과 필리핀의 젊은이들을 연결해 줍니다.",
+        "speaking_en": "Name a Korean cultural item popular in the Philippines.",
+        "speaking_kr": "필리핀에서 인기 있는 한국 문화를 하나 말해 봅시다.",
+        "writing_en": "Write about your favorite Korean drama or song.",
+        "writing_kr": "좋아하는 한국 드라마나 노래에 대해 써 봅시다.",
+        "vocab": [{"en": "K-pop", "kr": "케이팝"}, {"en": "K-drama", "kr": "한국 드라마"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Cultural Impact & Future",
+        "title_kr": "문화 영향과 미래",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "The spread of Korean culture in the Philippines promotes friendship and understanding. As Korean culture continues to grow, more Filipino festivals and events are celebrating it. This helps people from both countries learn about each other's traditions.",
+        "text_kr": "한국 문화가 필리핀에 퍼지면서 우정과 이해가 늘어나고 있어요. 한국 문화가 계속 퍼지면서 필리핀에서도 한국 축제와 행사가 많아지고 있습니다. 이렇게 서로의 전통을 배우는 것이 중요해요.",
+        "bilingual_en": "Cultural exchange fosters mutual respect and friendship.",
+        "bilingual_kr": "문화 교류는 서로 존중하고 우정을 키우는 데 도움을 줍니다.",
+        "speaking_en": "Explain how Korean culture influences the Philippines.",
+        "speaking_kr": "한국 문화가 필리핀에 어떤 영향을 미치는지 말해 봅시다.",
+        "writing_en": "Describe a Filipino festival inspired by Korean culture.",
+        "writing_kr": "한국 문화에서 영감을 받은 필리핀 축제에 대해 써 봅시다.",
+        "vocab": [{"en": "cultural exchange", "kr": "문화 교류"}],
+        "quiz": {
+          "q_en": "What is one benefit of Korean culture spreading in the Philippines?",
+          "q_kr": "한국 문화가 필리핀에 퍼지는 것의 한 가지 이점은 무엇입니까?",
+          "opts": [
+            {"en": "It creates conflicts.", "kr": "갈등을 만든다.", "correct": false},
+            {"en": "It helps people understand each other.", "kr": "서로 이해하는 데 도움을 준다.", "correct": true},
+            {"en": "It causes language barriers.", "kr": "언어 장벽을 만든다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "ASEAN Economies Resilience",
+        "title_kr": "ASEAN 경제의 회복력",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "ASEAN is a group of countries in Southeast Asia, including the Philippines. Despite global economic changes, ASEAN economies are doing well. They attract foreign investments, which means other countries or companies put money into their businesses.",
+        "text_kr": "ASEAN은 필리핀을 포함한 동남아시아 나라들의 그룹입니다. 세계 경제가 흔들릴 때도 ASEAN 나라들은 잘 버티고 있어요. 외국인들이 그 나라에 투자해서 사업을 돕고 있습니다.",
+        "bilingual_en": "Resilient economies can adapt and grow even during tough times.",
+        "bilingual_kr": "회복력 있는 경제는 어려운 시기에도 적응하고 성장할 수 있습니다.",
+        "speaking_en": "Mention one reason ASEAN economies are strong.",
+        "speaking_kr": "ASEAN 나라들이 강한 이유 하나를 말해 봅시다.",
+        "writing_en": "Write about what helps ASEAN economies stay strong.",
+        "writing_kr": "ASEAN 나라들이 강하게 유지되는 이유를 써 봅시다.",
+        "vocab": [{"en": "resilience", "kr": "회복력"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Impact on Korea-Philippines Ties",
+        "title_kr": "한국-필리핀 관계에 미치는 영향",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "When ASEAN economies are strong, Korea and the Philippines can work more easily together. This helps them build better trade and environmental projects, benefiting both countries. A strong regional economy makes cooperation smoother.",
+        "text_kr": "ASEAN 경제가 강하면 한국과 필리핀도 더 쉽게 협력할 수 있어요. 무역이나 환경 프로젝트를 더 잘 할 수 있고, 두 나라 모두에게 도움이 됩니다. 강한 지역 경제는 협력을 쉽게 만들어 줍니다.",
+        "bilingual_en": "Regional economic strength supports bilateral cooperation.",
+        "bilingual_kr": "지역 경제의 힘이 양국 협력을 돕습니다.",
+        "speaking_en": "Explain how ASEAN resilience helps Korea and the Philippines.",
+        "speaking_kr": "ASEAN의 회복력이 한국과 필리핀에 어떻게 도움이 되는지 말해 봅시다.",
+        "writing_en": "Describe a benefit of regional economic strength.",
+        "writing_kr": "지역 경제의 힘이 주는 이점 하나를 써 봅시다.",
+        "vocab": [{"en": "bilateral cooperation", "kr": "양국 협력"}],
+        "quiz": {
+          "q_en": "How does ASEAN resilience help Korea and the Philippines?",
+          "q_kr": "ASEAN의 회복력이 한국과 필리핀에 어떻게 도움이 됩니까?",
+          "opts": [
+            {"en": "It makes cooperation harder.", "kr": "협력을 더 어렵게 만든다.", "correct": false},
+            {"en": "It makes cooperation easier.", "kr": "협력을 더 쉽게 만든다.", "correct": true},
+            {"en": "It has no effect.", "kr": "효과가 없다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  },
+  "news_2": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "K-Culture and Festivals",
+        "title_kr": "케이컬처와 축제",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "K-pop과 Korean dramas는 전 세계적으로 인기가 많아요. 필리핀에서도 많은 사람들이 좋아해서 한국 관련 축제도 생겼어요. 이 축제들은 한국의 음악, 춤, 전통 음식을 보여줍니다.",
+        "text_kr": "케이팝과 한국 드라마는 전 세계에서 인기가 많아요. 필리핀에서도 많은 사람들이 좋아해서 한국 축제도 열리고 있어요. 이 축제들은 한국의 음악, 춤, 음식 등을 보여 줍니다.",
+        "bilingual_en": "K-culture brings people closer and creates fun festivals.",
+        "bilingual_kr": "케이컬처는 사람들을 가까이 있게 하고 재미있는 축제를 만듭니다.",
+        "speaking_en": "Name a Korean cultural item popular in the Philippines.",
+        "speaking_kr": "필리핀에서 인기 있는 한국 문화를 하나 말해 봅시다.",
+        "writing_en": "Write about your favorite Korean drama or song.",
+        "writing_kr": "좋아하는 한국 드라마나 노래에 대해 써 봅시다.",
+        "vocab": [{"en": "K-pop", "kr": "케이팝"}, {"en": "K-drama", "kr": "한국 드라마"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Cultural Exchange & Future",
+        "title_kr": "문화 교류와 미래",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Korean culture's popularity helps Filipinos learn more about Korea. As this continues, more Korean festivals happen in the Philippines. This encourages friendship and understanding between the two countries.",
+        "text_kr": "한국 문화가 인기 많아지면서 필리핀 사람들도 한국에 대해 더 알게 됐어요. 앞으로 더 많은 한국 축제와 행사가 열리면서 두 나라가 더 가까워지고 있습니다.",
+        "bilingual_en": "Cultural exchange builds friendship and mutual respect.",
+        "bilingual_kr": "문화 교류는 우정과 상호 존중을 키워 줍니다.",
+        "speaking_en": "Explain how Korean culture influences the Philippines.",
+        "speaking_kr": "한국 문화가 필리핀에 어떤 영향을 미치는지 말해 봅시다.",
+        "writing_en": "Describe a Filipino festival inspired by Korean culture.",
+        "writing_kr": "한국 문화에서 영감을 받은 필리핀 축제에 대해 써 봅시다.",
+        "vocab": [{"en": "cultural exchange", "kr": "문화 교류"}],
+        "quiz": {
+          "q_en": "What is one benefit of Korean culture spreading in the Philippines?",
+          "q_kr": "한국 문화가 필리핀에 퍼지는 것의 한 가지 이점은 무엇입니까?",
+          "opts": [
+            {"en": "It creates conflicts.", "kr": "갈등을 만든다.", "correct": false},
+            {"en": "It helps people understand each other.", "kr": "서로 이해하는 데 도움을 준다.", "correct": true},
+            {"en": "It causes language barriers.", "kr": "언어 장벽을 만든다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  },
+  "news_3": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Environmental Partnership",
+        "title_kr": "환경 협력",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are working together to protect the environment. They focus on renewable energy, like solar power, and protecting coastlines from erosion. These efforts help fight climate change and keep our planet healthy.",
+        "text_kr": "한국과 필리핀이 함께 환경을 지키기 위해 노력하고 있어요. 태양광 같은 재생 에너지와 해안 침식을 막는 일을 합니다. 이 노력들은 기후 변화와 싸우고 지구를 건강하게 만듭니다.",
+        "bilingual_en": "Joint environmental efforts help both countries fight climate change.",
+        "bilingual_kr": "공동 환경 노력은 두 나라가 기후 변화와 싸우는 데 도움을 줍니다.",
+        "speaking_en": "Name one way Korea and the Philippines are helping the environment.",
+        "speaking_kr": "한국과 필리핀이 환경을 돕는 방법 하나를 말해 봅시다.",
+        "writing_en": "Write about a project that helps protect the environment.",
+        "writing_kr": "환경을 지키는 프로젝트에 대해 써 봅시다.",
+        "vocab": [{"en": "climate change", "kr": "기후 변화"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Impact of Environmental Cooperation",
+        "title_kr": "환경 협력의 영향",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Working together on environmental issues makes Korea and the Philippines stronger. It creates new jobs in renewable energy and improves protection for coastlines. This partnership also shows how countries can solve big problems by helping each other.",
+        "text_kr": "환경 문제에서 함께 일하면 한국과 필리핀 모두 강해집니다. 재생 에너지 관련 일자리가 늘고 해안 보호도 좋아집니다. 이런 협력은 큰 문제를 함께 해결하는 방법을 보여줍니다.",
+        "bilingual_en": "International environmental cooperation leads to economic and social benefits.",
+        "bilingual_kr": "국제 환경 협력은 경제적, 사회적 이득을 가져옵니다.",
+        "speaking_en": "Explain how joint environmental projects help both countries.",
+        "speaking_kr": "공동 환경 프로젝트가 두 나라에 어떻게 도움이 되는지 말해 봅시다.",
+        "writing_en": "Describe a benefit of working together on the environment.",
+        "writing_kr": "환경을 위해 함께 일하는 것의 이점을 써 봅시다.",
+        "vocab": [{"en": "renewable energy", "kr": "재생 에너지"}],
+        "quiz": {
+          "q_en": "How does environmental cooperation benefit Korea and the Philippines?",
+          "q_kr": "환경 협력이 한국과 필리핀에 어떤 이득을 가져다줍니까?",
+          "opts": [
+            {"en": "It causes pollution.", "kr": "오염을 만든다.", "correct": false},
+            {"en": "It creates economic growth and protects nature.", "kr": "경제 성장과 자연 보호를 모두 도와준다.", "correct": true},
+            {"en": "It increases climate change.", "kr": "기후 변화를 더 심하게 만든다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  },
+  "news_4": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Travel Safety Tips",
+        "title_kr": "여행 안전 수칙",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korean travelers visiting the Philippines are advised to be careful. Due to rising crime, it is important to stay alert and follow safety tips. Always keep your belongings close and avoid risky places to stay safe while traveling.",
+        "text_kr": "한국인 여행자들이 필리핀에 갈 때 조심해야 해요. 범죄가 늘어나고 있기 때문에, 주의를 기울이고 안전 수칙을 따르는 게 중요합니다. 소지품을 잘 챙기고 위험한 곳은 피합시다.",
+        "bilingual_en": "Staying cautious helps travelers enjoy their trip safely.",
+        "bilingual_kr": "조심하는 것이 여행을 안전하게 즐기는 방법입니다.",
+        "speaking_en": "Share one safety tip for travelers in the Philippines.",
+        "speaking_kr": "필리핀 여행 시 안전 수칙 하나를 말해 봅시다.",
+        "writing_en": "Write a safety tip for Korean travelers.",
+        "writing_kr": "한국인 여행자에게 안전 수칙 하나 써 봅시다.",
+        "vocab": [{"en": "safety tips", "kr": "안전 수칙"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Safety Challenges & Solutions",
+        "title_kr": "안전 문제와 해결책",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Rising crime levels make safety more important for travelers. Both travelers and local authorities need to work together. Following safety guidelines and staying aware of surroundings can prevent problems and keep everyone safe.",
+        "text_kr": "범죄가 늘어나면서 여행객들의 안전이 더 중요해졌어요. 여행객과 현지 당국이 함께 노력해야 합니다. 안전 수칙을 잘 따르고 주변을 잘 살피면 문제를 예방할 수 있어요.",
+        "bilingual_en": "Safety awareness and cooperation are key to secure travel.",
+        "bilingual_kr": "안전 의식과 협력이 안전한 여행의 열쇠입니다.",
+        "speaking_en": "Explain why following safety tips is important.",
+        "speaking_kr": "왜 안전 수칙을 지키는 것이 중요한지 말해 봅시다.",
+        "writing_en": "Describe a safety measure travelers should follow.",
+        "writing_kr": "여행객이 따라야 하는 안전 수칙 하나를 써 봅시다.",
+        "vocab": [{"en": "safety guidelines", "kr": "안전 수칙"}],
+        "quiz": {
+          "q_en": "What can travelers do to stay safe in the Philippines?",
+          "q_kr": "필리핀에서 안전하게 여행하려면 여행객이 무엇을 해야 합니까?",
+          "opts": [
+            {"en": "Ignore warnings.", "kr": "경고를 무시한다.", "correct": false},
+            {"en": "Follow safety tips and stay alert.", "kr": "안전 수칙을 따르고 주의한다.", "correct": true},
+            {"en": "Travel alone at night.", "kr": "밤에 혼자 여행한다.", "correct": false}
+          ]
+        }
+      }
+    ],
+    "suggestions_en": ["Q1?", "Q2?", "Q3?"],
+    "suggestions_kr": ["질문1?", "질문2?", "질문3?"]
+  }
+}

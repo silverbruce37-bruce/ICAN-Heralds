@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-21",
+  "header_date_line": "WEDNESDAY, OCTOBER 21, 2026 | PHILIPPINES | VOL. 203",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.21",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Initiatives",
+    "headline_kr": "한국과 필리핀, 새 무역 협력으로 외교 관계 강화",
+    "subtitle_en": "Leaders from both nations announced a series of economic and cultural collaborations aimed at boosting bilateral relations amid regional challenges.",
+    "subtitle_kr": "양국 지도자들은 지역 내 도전 속에서 양자 관계 강화를 위한 경제 및 문화 협력 계획을 발표했다.",
+    "body_en": [
+      "During the recent high-level summit in Manila, Korean and Philippine officials unveiled a new trade agreement designed to facilitate smoother commerce and investment flows. This initiative is expected to deepen economic ties and create more opportunities for businesses from both countries.",
+      "Cultural exchanges are also on the rise, with upcoming K-pop concerts and Filipino art festivals scheduled across major cities. These events aim to foster mutual understanding and strengthen people-to-people connections amidst growing regional cooperation.",
+      "Experts believe that these diplomatic efforts will not only enhance economic growth but also serve as a strategic move to counterbalance regional geopolitical tensions. Both governments emphasized their commitment to long-term partnership and stability in Southeast Asia."
+    ],
+    "body_kr": [
+      "최근 마닐라에서 열린 고위급 정상회담에서 한국과 필리핀 관계자들은 원활한 무역과 투자를 촉진하는 새로운 협정안을 발표했다. 이번 협력은 경제적 유대 강화를 기대하며 양국 기업들에게 더 많은 기회를 제공할 전망이다.",
+      "문화 교류도 활기를 띠고 있으며, 주요 도시에서는 케이팝 콘서트와 필리핀 아트 페스티벌이 예정되어 있다. 이러한 행사는 상호 이해를 증진시키고 지역 협력 속에서 국민 간 연결을 강화하는 역할을 한다.",
+      "전문가들은 이러한 외교적 노력들이 경제 성장뿐만 아니라 지역 지정학적 긴장 완화 전략의 일환이라고 평가한다. 양국은 동남아시아 내 장기적 파트너십과 안정에 대한 의지를 재확인했다."
+    ],
+    "image_seed": "cover-2026-10-21",
+    "image_query": "Korean Philippine officials handshake signing agreement Manila",
+    "image_caption": "Photo: Korean and Philippine officials shaking hands during signing ceremony, Manila (2026.10.21)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Philippines Implements New Safety Measures for Korean Community",
+    "headline_kr": "필리핀, 한국인 커뮤니티 안전 강화 새 조치 시행",
+    "lead_en": "In response to recent safety concerns, authorities in the Philippines have introduced new measures to protect Korean residents and visitors.",
+    "lead_kr": "최근 안전 문제에 대응하여, 필리핀 정부는 한국인 주민과 방문객 보호를 위한 새로운 조치를 도입했다.",
+    "image_seed": "feat-2026-10-21",
+    "image_query": "Korean community safety patrol Philippines",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economies Show Resilience Amid Global Uncertainty",
+      "headline_kr": "아세안 경제권, 글로벌 불확실성 속에서도 회복력 보여",
+      "summary_en": "Regional economies remain robust despite global market fluctuations, with increased foreign investments and trade activity.",
+      "summary_kr": "전 세계 시장 변동성 속에서도 아세안 지역 경제는 견고한 모습을 보이며 외국인 투자와 무역 활동이 증가하고 있다.",
+      "image_seed": "news1-2026-10-21",
+      "image_query": "ASEAN region economic growth chart",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Culture Popularity Sparks New Philippine Festivals",
+      "headline_kr": "케이컬처 인기, 필리핀 신축 페스티벌 유도",
+      "summary_en": "K-pop and Korean dramas continue to captivate Filipinos, inspiring new cultural festivals across the country.",
+      "summary_kr": "케이팝과 한국 드라마가 필리핀인들의 마음을 사로잡으며 전국 곳곳에서 새로운 문화 축제가 열리고 있다.",
+      "image_seed": "news2-2026-10-21",
+      "image_query": "K-pop concert Philippines festival",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines and Korea Expand Environmental Partnership",
+      "headline_kr": "필리핀과 한국, 환경 협력 확대",
+      "summary_en": "Joint efforts to combat climate change include renewable energy projects and coastal protection initiatives.",
+      "summary_kr": "기후 변화 대응을 위한 공동 노력으로 재생 에너지 프로젝트와 해안 보호 사업이 추진되고 있다.",
+      "image_seed": "news3-2026-10-21",
+      "image_query": "Korean Philippine environmental teamwork",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Travelers Advised to Exercise Caution Amid Rising Crime",
+      "headline_kr": "한국인 여행객, 범죄 증가 속 주의 요청",
+      "summary_en": "Authorities urge Korean visitors to stay vigilant and follow safety guidelines while exploring popular destinations.",
+      "summary_kr": "당국은 한국인 방문객들에게 인기 관광지에서 안전 수칙을 준수하며 경계를 늦추지 말 것을 당부했다.",
+      "image_seed": "news4-2026-10-21",
+      "image_query": "Korean tourists safety Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Resilience",
+    "pronunciation": "rɪˈzɪl.jəns",
+    "type": "noun",
+    "definition_en": "The capacity to recover quickly from difficulties; toughness.",
+    "definition_kr": "어려움에서 빠르게 회복하는 능력; 강인함.",
+    "example_en": "The region's resilience helped it bounce back from economic setbacks.",
+    "example_kr": "그 지역의 회복력은 경제적 어려움에서 빠르게 회복하는 데 도움을 주었다.",
+    "grade": "A+"
+  }
+}
