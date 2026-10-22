@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-22",
+    "vol": 204,
+    "cover_en": "Korea and Philippines Strengthen Diplomatic Ties Amid Regional Challenges",
+    "cover_kr": "한국과 필리핀, 지역 도전 속 외교 협력 강화",
+    "headlines_en": [
+      "Philippines Boosts Security Measures for Korean Community",
+      "Korean Investment in Philippine Tech Sector Grows Rapidly",
+      "K-pop Concert Draws Thousands in Manila",
+      "Korea and Philippines Launch New Educational Exchange Program",
+      "Korean Community Safety Drills Conducted in Metro Manila"
+    ],
+    "headlines_kr": [
+      "필리핀, 한국인 커뮤니티 안전 강화 조치 발표",
+      "필리핀 기술 분야 한국 투자 급증",
+      "마닐라에서 K-pop 콘서트 성황리에 개최",
+      "한국과 필리핀, 새 교육 교류 프로그램 시작",
+      "메트로 마닐라서 한국인 안전 훈련 실시"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Safety",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-10-21",
     "vol": 203,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties with New Trade Initiatives",

@@ -1,0 +1,309 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korea-Philippines Diplomatic Relations",
+        "title_kr": "한국과 필리핀의 외교 관계",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines are two different countries in Asia. They work together to improve their economy and security. Recently, their leaders talked about how to strengthen their friendship. <span class=kw>Diplomatic ties</span> mean that countries agree to cooperate and help each other.",
+        "text_kr": "한국과 필리핀은 아시아에 있는 두 나라입니다. 두 나라는 경제와 안보를 위해 협력합니다. 최근 지도자들이 우정을 더 강화하는 방법에 대해 이야기했어요. <span class=kw>외교 관계</span>는 나라들이 협력하고 서로 돕는 것을 의미해요.",
+        "bilingual_en": "Strong diplomatic ties help countries work together during regional challenges.",
+        "bilingual_kr": "강한 외교 관계는 지역 문제를 해결하는 데 서로 협력하는 데 도움이 돼요.",
+        "speaking_en": "Tell your friend why countries need to have good diplomatic relations.",
+        "speaking_kr": "나라들이 좋은 외교 관계를 갖는 이유를 친구에게 말해 봅시다.",
+        "writing_en": "Write a short paragraph about why countries should cooperate.",
+        "writing_kr": "나라들이 왜 협력해야 하는지 짧게 써 봅시다.",
+        "vocab": [{"en": "diplomatic ties", "kr": "외교 관계"}]
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Strong relations help Korea and the Philippines solve regional problems together. They can work on economic growth and safety. When leaders meet and talk, they build trust and friendship. This helps both countries stay safe and successful.",
+        "text_kr": "좋은 관계는 한국과 필리핀의 지역 문제 해결에 도움을 줍니다. 경제 성장과 안전을 위해 협력할 수 있어요. 지도자들이 만나서 이야기하면 신뢰와 우정을 쌓게 됩니다. 이것이 두 나라가 안전하고 성공하는 데 중요해요.",
+        "bilingual_en": "Building trust through talks leads to better teamwork in the region.",
+        "bilingual_kr": "대화를 통해 신뢰를 쌓으면 지역에서 더 나은 협력이 가능해요.",
+        "speaking_en": "Explain why good relations between countries are important.",
+        "speaking_kr": "나라 두 곳이 좋은 관계를 갖는 게 왜 중요한지 말해 봅시다.",
+        "writing_en": "Describe how countries can build trust.",
+        "writing_kr": "나라들이 어떻게 신뢰를 쌓을 수 있는지 써 봅시다.",
+        "vocab": [{"en": "trust", "kr": "신뢰"}],
+        "quiz": {
+          "q_en": "Why do leaders meet and talk?",
+          "q_kr": "왜 지도자들이 만나서 이야기하나요?",
+          "opts": [
+            {"en": "To build trust", "kr": "신뢰를 쌓기 위해", "correct": true},
+            {"en": "To play games", "kr": "게임하기 위해", "correct": false},
+            {"en": "To go on vacation", "kr": "휴가 가기 위해", "correct": false}
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact on Korean community in the Philippines",
+        "title_kr": "필리핀에 사는 한인 사회에 미치는 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "As Korea and the Philippines strengthen their friendship, the Korean community in the Philippines benefits. There are more jobs, safety programs, and cultural events. Korean businesses grow, and Koreans feel more secure living there. This makes the community stronger and happier.",
+        "text_kr": "한국과 필리핀이 우정을 강화하면, 필리핀에 사는 한국인들이 더 많은 일자리와 안전 프로그램, 문화 행사를 누릴 수 있어요. 한국 기업도 성장하고, 한국인들이 더 안전하게 살 수 있게 됩니다. 이렇게 해서 한인 사회가 더 강해지고 행복해져요.",
+        "bilingual_en": "A strong friendship between Korea and the Philippines creates a better life for Koreans living there.",
+        "bilingual_kr": "한국과 필리핀의 강한 우정은 그곳에 사는 한국인들의 삶을 더 좋게 만들어 줍니다.",
+        "speaking_en": "Share how good relations between countries can help communities.",
+        "speaking_kr": "나라 간 좋은 관계가 어떻게 공동체에 도움을 주는지 말해 봅시다.",
+        "writing_en": "Write about ways the Korean community benefits from diplomatic ties.",
+        "writing_kr": "한국인 공동체가 외교 관계에서 어떤 도움을 받는지 써 봅시다."
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "Stronger diplomatic ties can lead to regional stability and economic growth. However, some argue that focusing too much on politics might overlook local community needs. It's important to balance international relations with the well-being of ordinary people.",
+        "text_kr": "더 강한 외교 관계는 지역 안정과 경제 발전을 가져올 수 있습니다. 하지만 일부는 정치에 너무 집중하면 지역 주민들의 필요를 간과할 수도 있다고 생각해요. 국제 관계와 국민들의 행복 사이의 균형이 중요합니다.",
+        "bilingual_en": "Balancing international diplomacy and local community needs is crucial for lasting peace.",
+        "bilingual_kr": "국제 외교와 지역 사회의 필요를 균형 있게 맞추는 것이 평화를 유지하는 핵심입니다.",
+        "speaking_en": "State your opinion on whether countries should prioritize diplomacy or local needs.",
+        "speaking_kr": "나라들이 외교를 우선시해야 할지 아니면 지역 사회의 필요를 먼저 고려해야 할지 말해 봅시다.",
+        "writing_en": "Write your opinion on how to balance diplomacy and community needs.",
+        "writing_kr": "외교와 지역사회의 필요를 어떻게 균형 잡을지 의견을 써 봅시다.",
+        "debate_en": "Should countries focus more on international relations or on helping their own communities? Why?",
+        "debate_kr": "나라들이 국제 관계보다 지역 공동체를 더 도와야 할까요? 왜 그렇게 생각하나요?"
+      }
+    ],
+    "suggestions_en": ["What is diplomatic relation?", "Why do countries meet?", "How does friendship help communities?"],
+    "suggestions_kr": ["외교 관계란 무엇인가?", "왜 나라들이 만나요?", "우정이 공동체에 어떤 도움을 주나요?"]
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Economic and Cultural Ties",
+        "title_kr": "경제와 문화 연결",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines work together in many ways. Korean companies invest in the Philippines, creating jobs. Also, Korean culture is popular there, especially K-pop music and concerts. These connections help both countries grow closer.",
+        "text_kr": "한국과 필리핀은 여러 방법으로 협력합니다. 한국 기업이 필리핀에 투자해서 일자리를 만들고 있어요. 또, 한국 문화, 특히 K-pop이 인기가 많아요. 이런 연결이 두 나라를 더 가깝게 만듭니다.",
+        "bilingual_en": "Sharing culture and business builds stronger friendship.",
+        "bilingual_kr": "문화와 비즈니스를 나누는 것이 우정을 더 강하게 만들어요.",
+        "speaking_en": "Talk about how culture and business help countries become friends.",
+        "speaking_kr": "문화와 비즈니스를 통해 나라들이 어떻게 친구가 되는지 말해 봅시다.",
+        "writing_en": "Write about your favorite Korean culture or business in the Philippines.",
+        "writing_kr": "필리핀에서 좋아하는 한국 문화나 비즈니스를 써 봅시다."
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Economic investments and cultural events make the relationship stronger. They create jobs and promote understanding between people. When Koreans and Filipinos share their culture, they learn to respect each other more. This helps both countries stay friendly and successful.",
+        "text_kr": "경제 투자와 문화행사는 관계를 더 강하게 만듭니다. 일자리를 만들고 서로를 이해하는 데 도움을 줘요. 한국인과 필리핀인들이 문화를 나누면 서로를 더 존중하게 됩니다. 이것이 두 나라가 우정을 유지하는 데 중요해요.",
+        "bilingual_en": "Sharing culture and business helps build mutual respect.",
+        "bilingual_kr": "문화와 비즈니스를 나누는 것이 서로를 존중하는 데 도움을 줍니다.",
+        "speaking_en": "Explain why cultural exchanges are important for friendship.",
+        "speaking_kr": "문화 교류가 우정에 왜 중요한지 말해 봅시다.",
+        "writing_en": "Describe a cultural event that helps people understand each other.",
+        "writing_kr": "사람들이 서로 이해하는 데 도움이 되는 문화 행사를 써 봅시다."
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact on Koreans in the Philippines",
+        "title_kr": "필리핀 거주 한국인에게 미치는 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Korean investments and cultural events benefit the Korean community in the Philippines. More Korean businesses open, creating jobs. Cultural festivals and K-pop concerts help Koreans feel connected and happy. These activities make the community stronger and more vibrant.",
+        "text_kr": "한국의 투자와 문화행사는 필리핀에 사는 한국인에게 도움을 줍니다. 더 많은 한국 기업이 생기고 일자리가 만들어져요. 문화 축제와 K-pop 콘서트는 한국인들이 연결되고 행복하게 느끼게 해줍니다. 이렇게 공동체가 더 강해지고 활기차게 됩니다.",
+        "bilingual_en": "Economic and cultural ties improve life for Koreans living in the Philippines.",
+        "bilingual_kr": "경제와 문화 연결은 필리핀에 사는 한국인들의 삶을 더 좋게 만듭니다.",
+        "speaking_en": "Share how cultural events can make communities happier.",
+        "speaking_kr": "문화 행사가 공동체를 어떻게 더 행복하게 만드는지 말해 봅시다.",
+        "writing_en": "Write about a cultural event that you would like to see.",
+        "writing_kr": "보고 싶은 문화 행사를 써 봅시다."
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "While economic and cultural exchanges strengthen ties, some worry that too much focus on business and entertainment might ignore important social issues. Balancing economic growth with social well-being is essential for long-term friendship and stability.",
+        "text_kr": "경제와 문화 교류는 우정을 강화하지만, 일부는 너무 많은 비즈니스와 엔터테인먼트에 집중하면 중요한 사회 문제를 간과할 수 있다고 걱정해요. 경제 성장과 사회 복지의 균형이 중요합니다.",
+        "bilingual_en": "Balancing economic growth with social issues ensures sustainable friendship.",
+        "bilingual_kr": "경제 성장과 사회 문제의 균형이 지속 가능한 우정을 만듭니다.",
+        "speaking_en": "Discuss whether economic growth or social issues should be prioritized.",
+        "speaking_kr": "경제 성장이나 사회 문제 중 어느 쪽이 더 중요하다고 생각하나요?",
+        "writing_en": "Write your opinion on how to balance economic and social priorities.",
+        "writing_kr": "경제와 사회의 우선순위를 어떻게 조화시킬지 의견을 써 봅시다.",
+        "debate_en": "Should countries focus more on economic development or social well-being? Why?",
+        "debate_kr": "나라들이 경제 발전보다 사회 복지에 더 집중해야 할까요? 왜 그렇게 생각하나요?"
+      }
+    ],
+    "suggestions_en": ["How do countries share culture?", "Why is economic growth important?", "What makes a good friendship?"],
+    "suggestions_kr": ["나라들이 문화를 어떻게 나누나요?", "왜 경제 성장이 중요할까요?", "좋은 우정을 만들려면 무엇이 필요할까요?"]
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Korean Investment in Philippine Tech Industry",
+        "title_kr": "필리핀 기술 산업에 대한 한국 투자",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korean tech companies are investing in the Philippines. This means they are putting money into local technology businesses. Their goal is to help the Philippines develop new technology and create jobs. These investments make both countries stronger.",
+        "text_kr": "한국의 기술 회사들이 필리핀에 투자하고 있어요. 이는 한국이 현지 기술 기업에 돈을 넣는 것을 의미해요. 목적은 필리핀의 기술 발전과 일자리 창출을 돕기 위해서예요. 이러한 투자는 두 나라를 더 강하게 만듭니다.",
+        "bilingual_en": "Korean investments boost the Philippines' tech growth and create jobs.",
+        "bilingual_kr": "한국 투자는 필리핀의 기술 발전과 일자리 창출을 도와줍니다.",
+        "speaking_en": "Explain how foreign investments can help a country's economy.",
+        "speaking_kr": "외국 투자가 나라 경제에 어떤 도움이 되는지 말해 봅시다.",
+        "writing_en": "Write about a company you know that invests in other countries.",
+        "writing_kr": "외국에 투자하는 회사에 대해 써 봅시다."
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "When Korean tech companies invest in the Philippines, they bring new technology and skills. This helps the Philippines become more advanced. It also creates jobs for local people. These investments help both countries grow stronger and more connected.",
+        "text_kr": "한국 기술 회사들이 필리핀에 투자하면 새로운 기술과 기술을 가져옵니다. 이것은 필리핀을 더 발전하게 도와줘요. 또, 지역 사람들에게 일자리도 만들어줍니다. 이렇게 투자하면 두 나라가 더 강하고 가까워집니다.",
+        "bilingual_en": "Foreign investments help develop technology and improve lives.",
+        "bilingual_kr": "외국 투자는 기술 발전과 삶의 질 향상에 도움을 줍니다.",
+        "speaking_en": "Describe how investments can help a country's future.",
+        "speaking_kr": "투자가 나라의 미래에 어떻게 도움이 되는지 설명해 봅시다.",
+        "writing_en": "Write about a time when investment helped a community.",
+        "writing_kr": "투자가 지역사회에 도움을 준 적에 대해 써 봅시다."
+      }
+    ],
+    "suggestions_en": ["How do investments help countries?", "What industries benefit from foreign money?", "Why do countries want foreign investments?"],
+    "suggestions_kr": ["투자가 나라에 어떻게 도움이 되나요?", "어떤 산업이 외국 돈으로 이익을 얻나요?", "왜 나라들은 외국 투자를 원하나요?"]
+  },
+  "news_2": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "K-pop Concert in Manila",
+        "title_kr": "마닐라에서 열린 K-pop 콘서트",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Many fans in the Philippines love Korean music, especially K-pop. A big K-pop concert was held in Manila with popular Korean artists. Fans enjoyed singing and dancing together. This shows how Korean culture is popular in the Philippines.",
+        "text_kr": "필리핀의 많은 팬들이 한국 음악, 특히 K-pop을 좋아해요. 마닐라에서 인기 가수들이 공연을 했어요. 팬들은 함께 노래하고 춤췄어요. 이건 한국 문화가 필리핀에서 인기가 많다는 것을 보여줍니다.",
+        "bilingual_en": "K-pop concerts bring fans from both countries closer together.",
+        "bilingual_kr": "K-pop 콘서트는 두 나라 팬들을 더 가깝게 만듭니다.",
+        "speaking_en": "Describe your favorite Korean singer or band.",
+        "speaking_kr": "가장 좋아하는 한국 가수나 그룹에 대해 말해 봅시다.",
+        "writing_en": "Write about a concert or event you would like to attend.",
+        "writing_kr": "가고 싶은 콘서트나 이벤트를 써 봅시다."
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "K-pop concerts help people in the Philippines learn about Korean culture. Fans become more interested and respectful of Korea. This cultural exchange makes friendship stronger. Music can connect different people and break language barriers.",
+        "text_kr": "K-pop 콘서트는 필리핀 사람들이 한국 문화를 배우는 데 도움을 줍니다. 팬들은 더 관심을 갖고 한국을 존중하게 돼요. 이런 문화 교류는 우정을 더 강하게 만듭니다. 음악은 서로 다른 사람들이 연결되고 언어 장벽을 넘게 도와줍니다.",
+        "bilingual_en": "Music helps build friendships across cultures.",
+        "bilingual_kr": "음악은 문화 간 우정을 쌓는 데 도움을 줍니다.",
+        "speaking_en": "Explain how music can help people understand each other.",
+        "speaking_kr": "음악이 어떻게 사람들이 서로 이해하는 데 도움을 주는지 말해 봅시다.",
+        "writing_en": "Describe a music event you enjoyed or want to attend.",
+        "writing_kr": "즐기거나 가보고 싶은 음악 행사를 써 봅시다."
+      }
+    ],
+    "suggestions_en": ["How does music connect people?", "Why do cultural events matter?", "What is your favorite Korean culture?"],
+    "suggestions_kr": ["음악이 사람들을 어떻게 연결하나요?", "문화 행사가 왜 중요하나요?", "가장 좋아하는 한국 문화는 무엇인가요?"]
+  },
+  "news_3": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Educational Exchange Program",
+        "title_kr": "교육 교류 프로그램",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Korea and the Philippines started a new program for students. They will exchange students and do joint research. This helps students learn more about each other's culture and ideas. It also prepares future leaders of both countries.",
+        "text_kr": "한국과 필리핀이 새로운 학생 교류 프로그램을 시작했어요. 학생들이 서로 교환되고 연구도 함께 할 거예요. 이 프로그램은 학생들이 서로의 문화를 더 배우고, 미래의 지도자를 준비하는 데 도움을 줍니다.",
+        "bilingual_en": "Student exchanges and joint research build understanding and leadership.",
+        "bilingual_kr": "학생 교류와 공동 연구는 이해와 리더십을 키워요.",
+        "speaking_en": "Tell how student exchange programs can help people learn about each other.",
+        "speaking_kr": "학생 교류 프로그램이 서로를 이해하는 데 어떻게 도움이 되는지 말해 봅시다.",
+        "writing_en": "Write about a place you want to visit for study or exchange.",
+        "writing_kr": "공부하거나 교환하고 싶은 곳에 대해 써 봅시다."
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Educational exchanges help students learn new ideas and understand different cultures. When students from Korea and the Philippines study together, they develop respect and friendship. This creates a strong bond that benefits both countries in the future.",
+        "text_kr": "교육 교류는 학생들이 새로운 아이디어를 배우고 다른 문화를 이해하는 데 도움을 줍니다. 한국과 필리핀 학생들이 함께 공부하면 서로를 존중하고 우정을 키워요. 이것이 두 나라의 미래를 위해 강한 유대감을 만듭니다.",
+        "bilingual_en": "Learning together builds respect and long-term friendships.",
+        "bilingual_kr": "함께 배우는 것이 존중과 오랜 우정을 만듭니다.",
+        "speaking_en": "Explain why student exchanges are good for countries.",
+        "speaking_kr": "학생 교류가 나라에 왜 좋은지 말해 봅시다.",
+        "writing_en": "Describe a cultural or educational goal you have.",
+        "writing_kr": "당신이 가지고 있는 문화 또는 교육 목표를 써 봅시다."
+      }
+    ],
+    "suggestions_en": ["How do student exchanges help?", "Why is learning about other cultures important?", "What do you want to learn from traveling?"],
+    "suggestions_kr": ["학생 교류가 어떻게 도움이 되나요?", "다른 문화를 배우는 게 왜 중요하죠?", "여행을 통해 무엇을 배우고 싶나요?"]
+  },
+  "news_4": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "Safety Drills for Korean Community",
+        "title_kr": "한국인 커뮤니티 안전 훈련",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "Safety drills are practice exercises to prepare for emergencies like earthquakes or fires. Korean community members in Manila participated in these drills. The drills help everyone know what to do during an emergency to stay safe.",
+        "text_kr": "안전 훈련은 지진이나 화재 같은 비상 사태에 대비하는 연습입니다. 마닐라에 사는 한국인들이 이 훈련에 참여했어요. 훈련은 비상시에 안전하게 행동하는 방법을 알게 도와줍니다.",
+        "bilingual_en": "Safety drills keep communities prepared and safe.",
+        "bilingual_kr": "안전 훈련은 공동체를 준비시키고 안전하게 만듭니다.",
+        "speaking_en": "Describe what you should do in an emergency.",
+        "speaking_kr": "비상시에 무엇을 해야 하는지 말해 봅시다.",
+        "writing_en": "Write instructions for emergency safety drills.",
+        "writing_kr": "비상 안전 훈련을 위한 지침을 써 봅시다."
+      },
+      {
+        "depth": 2,
+        "title_en": "Why it matters",
+        "title_kr": "왜 중요한가",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Safety drills help people learn how to stay safe during emergencies. They reduce panic and confusion. When communities practice safety, everyone knows what to do, and injuries can be prevented. This is especially important for foreign communities living abroad.",
+        "text_kr": "안전 훈련은 비상 시 안전하게 행동하는 방법을 배우게 해줍니다. 당황함과 혼란이 줄어들어요. 사람들이 안전 훈련을 하면 모두가 무엇을 해야 하는지 알고, 부상도 예방할 수 있어요. 해외에 사는 외국인 공동체에게 특히 중요합니다.",
+        "bilingual_en": "Prepared communities handle emergencies better.",
+        "bilingual_kr": "준비된 공동체는 비상 상황을 더 잘 대처할 수 있어요.",
+        "speaking_en": "Explain why practicing safety drills is important.",
+        "speaking_kr": "왜 안전 훈련을 연습하는 게 중요한지 말해 봅시다.",
+        "writing_en": "Write a short safety plan for your school or home.",
+        "writing_kr": "학교나 집에서 안전 계획을 짧게 써 봅시다."
+      }
+    ],
+    "suggestions_en": ["How can safety drills help us?", "Why is being prepared important?", "What safety steps should everyone know?"],
+    "suggestions_kr": ["안전 훈련이 어떻게 도움이 되나요?", "준비가 왜 중요하죠?", "모든 사람이 알아야 할 안전 수칙은 무엇인가요?"]
+  }
+}
