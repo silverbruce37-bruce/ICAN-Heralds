@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-10-23",
+  "header_date_line": "FRIDAY, OCTOBER 23, 2026 | PHILIPPINES | VOL. 205",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.10.23",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea and Philippines Strengthen Ties with New Economic Cooperation Pact",
+    "headline_kr": "한국과 필리핀, 새 경제 협력 협약으로 관계 강화",
+    "subtitle_en": "Leaders from both nations sign landmark agreement to boost trade and investment.",
+    "subtitle_kr": "양국 정상들이 무역과 투자를 촉진하기 위한 역사적 협약에 서명하다.",
+    "body_en": [
+      "In a historic move, Korea and the Philippines have formalized a new economic cooperation agreement aimed at enhancing bilateral trade, technology exchange, and investment opportunities. The signing ceremony took place in Manila, with leaders emphasizing the importance of deepening economic ties amidst regional challenges.",
+      "The pact includes provisions for joint infrastructure projects, digital economy initiatives, and support for small and medium-sized enterprises. Korean companies are expected to increase their presence in the Philippine market, fostering job creation and long-term economic growth.",
+      "Experts believe this agreement will not only bolster economic stability but also serve as a foundation for broader diplomatic and cultural collaborations between the two nations, reinforcing their strategic partnership in Southeast Asia."
+    ],
+    "body_kr": [
+      "역사적인 조치로 한국과 필리핀이 양자 간 무역, 기술 교류, 투자 기회를 강화하는 새로운 경제 협력 협약을 체결했다. 마닐라에서 열린 서명식에서 양국 정상이 지역 내 도전 속에서 경제적 유대 강화를 강조했다.",
+      "이 협약에는 인프라 공동 프로젝트, 디지털 경제 이니셔티브, 중소기업 지원 방안이 포함되어 있다. 한국 기업들은 필리핀 시장 내 존재감을 높여 고용 창출과 장기적 경제 성장을 기대하고 있다.",
+      "전문가들은 이번 협약이 경제적 안정성을 높이는 것은 물론, 양국 간 외교·문화 교류의 토대가 될 것으로 기대하며, 동남아시아 내 전략적 파트너십을 강화할 것이라고 평가한다."
+    ],
+    "image_seed": "cover-2026-10-23",
+    "image_query": "Korean Philippine leaders signing economic agreement Manila",
+    "image_caption": "Photo: Korean and Philippine leaders signing economic cooperation agreement in Manila (October 23, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Korean Embassy Implements New Safety Measures Amid Rising Concerns",
+    "headline_kr": "한국 대사관, 증가하는 우려 속 안전 조치 강화",
+    "lead_en": "The Korean embassy in Manila has announced enhanced safety protocols following recent security concerns affecting the Korean community.",
+    "lead_kr": "최근 보안 문제로 인해 한국 대사관이 안전 조치를 강화했다고 발표했다.",
+    "image_seed": "feat-2026-10-23",
+    "image_query": "Korean embassy security personnel patrol Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ASEAN Economies Show Resilience Amid Global Uncertainty",
+      "headline_kr": "글로벌 불확실성 속 ASEAN 경제, 견고한 회복세",
+      "summary_en": "ASEAN countries continue to demonstrate economic resilience with steady growth forecasts despite global challenges.",
+      "summary_kr": "전 세계적 어려움 속에서도 ASEAN 국가들은 안정적인 성장 전망으로 경제 회복력을 보여주고 있다.",
+      "image_seed": "news1-2026-10-23",
+      "image_query": "ASEAN country flags and economic charts",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Pop Concert Draws Thousands in Manila",
+      "headline_kr": "마닐라에서 열린 K-팝 콘서트, 수천 명 관객 몰려",
+      "summary_en": "K-pop groups drew large crowds at a concert in Manila, highlighting the ongoing popularity of Korean culture in the Philippines.",
+      "summary_kr": "K-팝 그룹들이 마닐라 콘서트에서 많은 관객을 끌어모으며, 한국 문화의 인기를 실감케 했다.",
+      "image_seed": "news2-2026-10-23",
+      "image_query": "K-pop concert crowd Manila",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Educational Exchange Program Expanded",
+      "headline_kr": "한국-필리핀 교육 교류 프로그램 확대",
+      "summary_en": "New initiatives aim to increase student exchanges and academic collaborations between Korea and the Philippines.",
+      "summary_kr": "새 프로그램은 한국과 필리핀 간 학생 교류와 학술 협력을 확대하는 것을 목표로 하고 있다.",
+      "image_seed": "news3-2026-10-23",
+      "image_query": "Students exchanging documents Philippines Korea",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Korean Community Safety Drills Conducted in Manila",
+      "headline_kr": "마닐라 한국 커뮤니티 안전 훈련 실시",
+      "summary_en": "Safety drills were held in the Korean community to prepare residents for emergencies, emphasizing community security.",
+      "summary_kr": "지역 주민 안전 강화를 위해 한국 커뮤니티에서 안전 훈련이 실시되었다.",
+      "image_seed": "news4-2026-10-23",
+      "image_query": "Korean community safety drill Manila",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Resilience",
+    "pronunciation": "ri-ZIL-yuhns",
+    "type": "noun",
+    "definition_en": "The capacity to recover quickly from difficulties; toughness.",
+    "definition_kr": "어려움에서 빠르게 회복하는 능력; 강인함.",
+    "example_en": "The country's economic resilience helped it withstand global shocks.",
+    "example_kr": "그 나라의 경제적 회복력은 글로벌 충격을 견뎌내는 데 도움을 주었다.",
+    "grade": "A+"
+  }
+}

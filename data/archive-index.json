@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-23",
+    "vol": 205,
+    "cover_en": "Korea and Philippines Strengthen Ties with New Economic Cooperation Pact",
+    "cover_kr": "한국과 필리핀, 새 경제 협력 협약으로 관계 강화",
+    "headlines_en": [
+      "Korean Embassy Implements New Safety Measures Amid Rising Concerns",
+      "ASEAN Economies Show Resilience Amid Global Uncertainty",
+      "K-Pop Concert Draws Thousands in Manila",
+      "Korea-Philippines Educational Exchange Program Expanded",
+      "Korean Community Safety Drills Conducted in Manila"
+    ],
+    "headlines_kr": [
+      "한국 대사관, 증가하는 우려 속 안전 조치 강화",
+      "글로벌 불확실성 속 ASEAN 경제, 견고한 회복세",
+      "마닐라에서 열린 K-팝 콘서트, 수천 명 관객 몰려",
+      "한국-필리핀 교육 교류 프로그램 확대",
+      "마닐라 한국 커뮤니티 안전 훈련 실시"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Safety"
+    ]
+  },
+  {
     "date": "2026-10-22",
     "vol": 204,
     "cover_en": "Korea and Philippines Strengthen Diplomatic Ties Amid Regional Challenges",
