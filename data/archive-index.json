@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-03",
+    "vol": 206,
+    "cover_en": "PH-Korea Launch Landmark Digital City Partnership for Future Growth",
+    "cover_kr": "필리핀-한국, 미래 성장을 위한 획기적인 디지털 도시 파트너십 출범",
+    "headlines_en": [
+      "Enhanced Safety Patrols Launched in Key Tourist, Korean Community Areas",
+      "Korean Tech Firm Expands AI R&D Center in Taguig, Creates 500 New Jobs",
+      "Successful K-Food Fair in Manila Highlights Culinary Exchange",
+      "PH-Korea Marine Conservation Project Achieves Key Milestones",
+      "Embassy Issues Travel Advisory for Northern Luzon Due to Weather"
+    ],
+    "headlines_kr": [
+      "주요 관광지 및 한인 밀집 지역에 강화된 안전 순찰대 배치",
+      "한국 IT 기업, 타귁 AI R&D 센터 확장… 500개 신규 일자리 창출",
+      "마닐라 K-푸드 페어 성황리 개최, 요리 문화 교류 강조",
+      "필리핀-한국 해양 보존 프로젝트, 주요 목표 달성",
+      "대사관, 북부 루손 지역 기상 악화로 여행 경보 발령"
+    ],
+    "tags": [
+      "Economy",
+      "Safety",
+      "Security",
+      "Cooperation",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-10-23",
     "vol": 205,
     "cover_en": "Korea and Philippines Strengthen Ties with New Economic Cooperation Pact",

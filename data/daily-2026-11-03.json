@@ -1,0 +1,103 @@
+{
+  "edition_date": "2026-11-03",
+  "header_date_line": "TUESDAY, NOVEMBER 3, 2026 | PHILIPPINES | VOL. 206",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.11.03",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "PH-Korea Launch Landmark Digital City Partnership for Future Growth",
+    "headline_kr": "필리핀-한국, 미래 성장을 위한 획기적인 디지털 도시 파트너십 출범",
+    "subtitle_en": "The ambitious joint initiative aims to integrate advanced digital infrastructure and smart technologies across Philippine urban centers, leveraging Korea's expertise in smart city development. This collaboration is expected to significantly boost economic competitiveness and improve quality of life.",
+    "subtitle_kr": "양국의 야심찬 공동 이니셔티브는 한국의 스마트 도시 개발 전문성을 활용하여 필리핀 도시 전반에 첨단 디지털 인프라와 스마트 기술을 통합하는 것을 목표로 합니다. 이번 협력은 경제 경쟁력을 크게 높이고 삶의 질을 향상시킬 것으로 기대됩니다.",
+    "body_en": [
+      "Manila, Philippines – In a pivotal move towards a digitally advanced future, the Philippines and South Korea officially launched the 'Digital City Partnership' yesterday, a comprehensive bilateral initiative designed to revolutionize urban development across the archipelago. The agreement, signed by high-ranking officials from both nations, focuses on integrating cutting-edge technologies such as Artificial Intelligence (AI), Internet of Things (IoT), 5G connectivity, and sustainable urban planning principles into key Philippine cities. This partnership signals a new era of cooperation, aiming to create more efficient, resilient, and citizen-centric urban environments.",
+      "The collaboration will see Korean technological prowess and investment channelled into critical sectors, including smart transportation systems, energy-efficient infrastructure, and advanced public services. This is projected to generate substantial economic growth, create thousands of high-skilled jobs for Filipinos, and enhance the Philippines' standing as a regional hub for innovation. Initial pilot projects are slated for Metro Manila and New Clark City, with plans for rapid expansion to other urban centers, demonstrating a shared commitment to sustainable development and technological advancement.",
+      "For the Korean community residing in the Philippines, this partnership brings promising prospects. Improved digital infrastructure and smart services will translate into enhanced daily living, from more efficient public transport to streamlined government processes. Furthermore, the influx of Korean technology and investment is expected to foster new business opportunities and deepen cultural ties, reinforcing the strong bond between the two nations. Both governments expressed optimism that this long-term endeavor will serve as a model for regional digital transformation.",
+      "The partnership underscores the growing strategic alliance between the Philippines and South Korea, extending beyond traditional economic ties to embrace the challenges and opportunities of the Fourth Industrial Revolution."
+    ],
+    "body_kr": [
+      "필리핀 마닐라 – 디지털 선진 미래를 향한 중대한 발걸음으로, 필리핀과 한국은 어제 '디지털 도시 파트너십'을 공식 출범시켰습니다. 이는 필리핀 전역의 도시 개발을 혁신하기 위해 고안된 포괄적인 양자 이니셔티브입니다. 양국 고위 관계자들이 서명한 이 협정은 인공지능(AI), 사물 인터넷(IoT), 5G 연결성, 지속 가능한 도시 계획 원칙과 같은 최첨단 기술을 필리핀 주요 도시에 통합하는 데 중점을 둡니다. 이번 파트너십은 보다 효율적이고 탄력적이며 시민 중심적인 도시 환경을 조성하기 위한 새로운 협력 시대를 예고합니다.",
+      "이번 협력을 통해 한국의 기술력과 투자가 스마트 교통 시스템, 에너지 효율적인 인프라, 첨단 공공 서비스 등 핵심 분야에 집중될 것입니다. 이는 상당한 경제 성장을 창출하고 필리핀인들에게 수천 개의 고숙련 일자리를 제공하며, 동남아시아 혁신 허브로서 필리핀의 위상을 높일 것으로 예상됩니다. 초기 시범 프로젝트는 메트로 마닐라와 뉴 클락 시티에서 시작될 예정이며, 지속 가능한 개발 및 기술 발전에 대한 공동의 약속을 보여주며 다른 도시 중심지로의 빠른 확장을 계획하고 있습니다.",
+      "필리핀에 거주하는 한인 커뮤니티에게 이번 파트너십은 유망한 전망을 가져다줍니다. 개선된 디지털 인프라와 스마트 서비스는 보다 효율적인 대중교통부터 간소화된 정부 프로세스에 이르기까지 일상생활을 향상시킬 것입니다. 또한, 한국 기술과 투자의 유입은 새로운 사업 기회를 창출하고 문화적 유대를 심화하여 양국 간의 강력한 유대 관계를 강화할 것으로 기대됩니다. 양국 정부는 이 장기적인 노력이 지역 디지털 전환의 모델이 될 것이라고 낙관했습니다.",
+      "이번 파트너십은 필리핀과 한국 간의 전략적 동맹이 전통적인 경제 관계를 넘어 4차 산업혁명의 도전과 기회를 포괄하는 방향으로 성장하고 있음을 강조합니다."
+    ],
+    "image_seed": "cover-2026-11-03",
+    "image_query": "Korean Philippine officials handshake signing digital city agreement with smart city hologram background",
+    "image_caption": "Photo: Philippine and Korean officials finalize the Digital City Partnership agreement in Manila (Nov 2, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Enhanced Safety Patrols Launched in Key Tourist, Korean Community Areas",
+    "headline_kr": "주요 관광지 및 한인 밀집 지역에 강화된 안전 순찰대 배치",
+    "lead_en": "The Philippine National Police (PNP) and local authorities, in cooperation with the Korean Embassy, have initiated intensified security patrols and community engagement programs in popular tourist destinations and areas with significant Korean populations. This proactive measure aims to ensure the safety and well-being of both residents and visitors, responding to recent calls for increased vigilance.",
+    "lead_kr": "필리핀 국립경찰(PNP)과 지방 당국은 주필리핀 한국 대사관과 협력하여 주요 관광지와 한인 밀집 지역에 강화된 보안 순찰 및 지역사회 참여 프로그램을 시작했습니다. 이러한 선제적 조치는 최근 증가하는 경계 강화 요구에 부응하여 거주민 및 방문객 모두의 안전과 복지를 보장하는 것을 목표로 합니다.",
+    "image_seed": "feat-2026-11-03",
+    "image_query": "Philippine police officers patrolling street with Korean tourists, Makati city",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Korean Tech Firm Expands AI R&D Center in Taguig, Creates 500 New Jobs",
+      "headline_kr": "한국 IT 기업, 타귁 AI R&D 센터 확장… 500개 신규 일자리 창출",
+      "summary_en": "A leading South Korean artificial intelligence firm announced a significant expansion of its research and development center in Taguig City, projecting to create over 500 high-tech jobs. This move underscores the Philippines' growing appeal as a hub for innovation and skilled talent in Southeast Asia.",
+      "summary_kr": "선도적인 한국 인공지능 기업이 타귁 시에 위치한 연구 개발 센터의 대규모 확장을 발표하며 500개 이상의 첨단 기술 일자리 창출을 전망했습니다. 이는 필리핀이 동남아시아 혁신 및 숙련된 인재의 허브로서 매력을 더하고 있음을 보여줍니다.",
+      "image_seed": "news1-2026-11-03",
+      "image_query": "AI research lab, Korean engineers, Taguig skyline",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Successful K-Food Fair in Manila Highlights Culinary Exchange",
+      "headline_kr": "마닐라 K-푸드 페어 성황리 개최, 요리 문화 교류 강조",
+      "summary_en": "The annual K-Food Fair concluded successfully in Manila, drawing thousands of visitors eager to experience authentic Korean cuisine and cooking demonstrations. The event fostered cultural exchange and boosted the popularity of Korean food products in the local market.",
+      "summary_kr": "연례 K-푸드 페어가 마닐라에서 성공적으로 마무리되어 수천 명의 방문객이 정통 한국 요리와 요리 시연을 경험했습니다. 이 행사는 문화 교류를 촉진하고 현지 시장에서 한국 식품의 인기를 높였습니다.",
+      "image_seed": "news2-2026-11-03",
+      "image_query": "Korean food market stall, people tasting kimchi",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "PH-Korea Marine Conservation Project Achieves Key Milestones",
+      "headline_kr": "필리핀-한국 해양 보존 프로젝트, 주요 목표 달성",
+      "summary_en": "A joint marine conservation initiative between the Philippines and South Korea has reported significant progress in coral reef restoration and sustainable fisheries management. The project, funded by both governments, highlights a shared commitment to environmental protection in the region.",
+      "summary_kr": "필리핀과 한국 간의 공동 해양 보존 이니셔티브가 산호초 복원 및 지속 가능한 어업 관리에서 상당한 진전을 보고했습니다. 양국 정부가 자금을 지원하는 이 프로젝트는 지역 환경 보호에 대한 공동의 약속을 강조합니다.",
+      "image_seed": "news3-2026-11-03",
+      "image_query": "Underwater coral reef, divers, marine life",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Embassy Issues Travel Advisory for Northern Luzon Due to Weather",
+      "headline_kr": "대사관, 북부 루손 지역 기상 악화로 여행 경보 발령",
+      "summary_en": "The Korean Embassy has issued a travel advisory for Northern Luzon, urging Korean nationals to exercise caution due to anticipated heavy rainfall and potential localized flooding. Residents are advised to monitor local news and follow safety guidelines.",
+      "summary_kr": "주필리핀 한국 대사관은 북부 루손 지역에 여행 경보를 발령하며, 예상되는 폭우와 국지적 홍수 가능성으로 인해 한국 국민들에게 주의를 당부했습니다. 거주민들은 현지 뉴스를 주시하고 안전 지침을 따르도록 권고됩니다.",
+      "image_seed": "news4-2026-11-03",
+      "image_query": "Heavy rain, flooded street, car driving cautiously",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Synergy",
+    "pronunciation": "/ˈsɪnərˌdʒi/",
+    "type": "noun",
+    "definition_en": "The interaction or cooperation of two or more organizations, substances, or other agents to produce a combined effect greater than the sum of their separate effects.",
+    "definition_kr": "둘 이상의 조직, 물질 또는 기타 요원이 상호 작용하거나 협력하여 각자의 개별적인 효과의 합보다 더 큰 결합된 효과를 만들어내는 것.",
+    "example_en": "The digital city partnership aims to achieve synergy between Korean technology and Philippine innovation for sustainable urban development.",
+    "example_kr": "디지털 도시 파트너십은 한국 기술과 필리핀 혁신 간의 시너지를 통해 지속 가능한 도시 개발을 달성하는 것을 목표로 합니다.",
+    "grade": "A+"
+  }
+}
