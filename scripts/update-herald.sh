@@ -45,7 +45,7 @@ payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'ma
 print(json.dumps(payload))
 " > "$payload_file"
 
-    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
+    local response=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
         -H "Content-Type: application/json" \
         -d @"$payload_file")
     

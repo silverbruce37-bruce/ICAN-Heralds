@@ -103,7 +103,7 @@ json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
             raw_resp=$(curl -s -w "\n%{http_code}" \
-                "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
+                "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}" \
                 -H "content-type: application/json" \
                 -d @"$gemini_payload" 2>&1)
             http_code=$(echo "$raw_resp" | tail -1)
@@ -115,7 +115,8 @@ json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
 import sys, json, re
 try:
     resp = json.load(sys.stdin)
-    text = resp['candidates'][0]['content']['parts'][0]['text']
+    parts = resp['candidates'][0]['content']['parts']
+    text = ''.join(p.get('text', '') for p in parts if not p.get('thought'))
     if text.startswith('\`\`\`json'): text = text[7:]
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
@@ -129,20 +130,21 @@ try:
 except Exception as e:
     print(f'Gemini parse error: {e}', file=sys.stderr)
 ")
-                [ -n "$result" ] && echo "  [Engine] Gemini OK" >&2
+                [ -n "$result" ] && echo "  [Engine] Gemini OK (gemini-3.5-flash-lite)" >&2
             else
-                echo "  Gemini HTTP $http_code → OpenRouter 폴백" >&2
+                echo "  Gemini HTTP $http_code → 다음 엔진" >&2
+                echo "  Gemini error: $(echo "$body" | python3 -c 'import sys,json; d=json.load(sys.stdin); print(d.get("error",{}).get("message","") or str(d)[:300])' 2>/dev/null)" >&2
             fi
         fi
 
-        # ── Engine 2: OpenAI (gpt-4.1-nano) ─────────────────────────────────
+        # ── Engine 2: OpenAI (gpt-6-luna) ───────────────────────────────────
         if [ -z "$result" ] && [ -n "${OPENAI_API_KEY:-}" ]; then
             local oai_payload
             oai_payload=$(mktemp)
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'model': 'gpt-4.1-nano', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
+payload = {'model': 'gpt-6-luna', 'max_completion_tokens': 8192, 'reasoning_effort': 'low', 'messages': [{'role': 'user', 'content': prompt}]}
 json.dump(payload, open('$oai_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
@@ -157,10 +159,41 @@ json.dump(payload, open('$oai_payload', 'w'), ensure_ascii=False)
 
             if [ "$http_code" = "200" ]; then
                 result=$(echo "$body" | _parse_openai_json)
-                [ -n "$result" ] && echo "  [Engine] OpenAI OK (gpt-4.1-nano)" >&2
+                [ -n "$result" ] && echo "  [Engine] OpenAI OK (gpt-6-luna)" >&2
             else
                 echo "  OpenAI HTTP $http_code → Anthropic 폴백" >&2
                 echo "  OpenAI error: $(echo "$body" | python3 -c 'import sys,json; d=json.load(sys.stdin); print(d.get("error",{}).get("message",""))' 2>/dev/null)" >&2
+            fi
+        fi
+
+        # ── Engine 2b: OpenRouter (OPENROUTER_API_KEY 있을 때만) ─────────────
+        if [ -z "$result" ] && [ -n "${OPENROUTER_API_KEY:-}" ]; then
+            local or_payload
+            or_payload=$(mktemp)
+            python3 -c "
+import json
+prompt = open('$prompt_file').read()
+payload = {'model': '$OPENROUTER_MODEL', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
+json.dump(payload, open('$or_payload', 'w'), ensure_ascii=False)
+"
+            local raw_resp http_code body
+            raw_resp=$(curl -s -w "\n%{http_code}" \
+                "https://openrouter.ai/api/v1/chat/completions" \
+                -H "Authorization: Bearer ${OPENROUTER_API_KEY}" \
+                -H "Content-Type: application/json" \
+                -H "HTTP-Referer: https://ican-heralds.vercel.app" \
+                -H "X-Title: ICAN Heralds" \
+                -d @"$or_payload" 2>&1)
+            http_code=$(echo "$raw_resp" | tail -1)
+            body=$(echo "$raw_resp" | sed '$d')
+            rm -f "$or_payload"
+
+            if [ "$http_code" = "200" ]; then
+                result=$(echo "$body" | _parse_openai_json)
+                [ -n "$result" ] && echo "  [Engine] OpenRouter OK ($OPENROUTER_MODEL)" >&2
+            else
+                echo "  OpenRouter HTTP $http_code → Anthropic 폴백" >&2
+                echo "  OpenRouter error: $(echo "$body" | python3 -c 'import sys,json; d=json.load(sys.stdin); print(d.get("error",{}).get("message","") or str(d)[:300])' 2>/dev/null)" >&2
             fi
         fi
 
@@ -237,7 +270,7 @@ except Exception as e:
     done
 
     if [ -z "$result" ]; then
-        echo "ERROR: 모든 AI 엔진 실패 (Gemini/OpenRouter/Anthropic/CLI)" >&2
+        echo "ERROR: 모든 AI 엔진 실패 (Gemini/OpenAI/OpenRouter/Anthropic/CLI)" >&2
         return 1
     fi
 

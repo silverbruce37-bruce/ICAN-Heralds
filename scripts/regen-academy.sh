@@ -173,9 +173,9 @@ openai_key = os.environ.get("OPENAI_API_KEY", "")
 if openai_key:
     try:
         payload = json.dumps({
-            "model": "gpt-4.1-nano",
+            "model": "gpt-6-luna",
             "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 12000, "temperature": 0.7
+            "max_completion_tokens": 12000, "reasoning_effort": "low"
         }).encode()
         req = urllib.request.Request(
             "https://api.openai.com/v1/chat/completions",
