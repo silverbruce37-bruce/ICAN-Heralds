@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-11-25",
+  "header_date_line": "WEDNESDAY, NOVEMBER 25, 2026 | PHILIPPINES | VOL. 207",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.11.25",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Korea-Philippines Trade Pact Opens New Paths for Business",
+    "headline_kr": "한-필리핀 무역협정, 기업 교류의 새 길 열어",
+    "subtitle_en": "The bilateral free trade agreement provides a framework for lowering trade barriers and expanding commercial ties. Businesses still need to check product-specific rules and market requirements.",
+    "subtitle_kr": "양국 자유무역협정은 무역 장벽을 낮추고 상업 교류를 넓힐 제도적 기반을 마련합니다. 기업들은 품목별 규정과 시장 요건을 꼼꼼히 확인해야 합니다.",
+    "body_en": [
+      "The Korea-Philippines Free Trade Agreement, which took effect in 2024, gives businesses in both countries a framework for improved market access. Its provisions cover trade in goods and services, investment and other areas of economic cooperation, linking two economies with established commercial and people-to-people ties.",
+      "For exporters, the agreement does not mean that every product automatically qualifies for preferential treatment. Rules of origin, customs documentation and product-specific schedules matter; companies should confirm requirements with customs authorities or qualified trade advisers before shipping. Smaller firms may also need support navigating standards, labeling and distribution networks.",
+      "The pact builds on a broader relationship that includes Korean investment and tourism in the Philippines, Filipino workers and students in Korea, and longstanding security cooperation. Its practical value will depend on how effectively businesses use its provisions and how both governments keep information accessible. For Korean residents in the Philippines, stronger commercial links can create opportunities while making reliable, up-to-date guidance especially important."
+    ],
+    "body_kr": [
+      "2024년 발효된 한-필리핀 자유무역협정은 양국 기업의 시장 접근성을 높일 제도적 틀을 제공합니다. 상품과 서비스 교역, 투자 등 경제협력 분야를 다루며, 오랜 상업·인적 교류를 이어 온 두 경제를 한층 가깝게 연결합니다.",
+      "협정이 모든 수출품에 자동으로 특혜를 보장하는 것은 아닙니다. 원산지 기준과 통관 서류, 품목별 양허 내용을 확인해야 하며, 기업은 선적 전에 관세 당국이나 무역 전문가에게 적용 요건을 문의하는 것이 좋습니다. 중소기업에는 제품 기준과 표시 규정, 현지 유통망에 대한 정보도 중요합니다.",
+      "이번 협정은 필리핀 내 한국 기업과 관광, 한국 내 필리핀 노동자와 유학생, 오랜 안보 협력 등 폭넓은 관계 위에 놓여 있습니다. 협정의 실질적인 성과는 기업이 조항을 얼마나 잘 활용하고 양국 정부가 관련 정보를 얼마나 쉽게 제공하는지에 달려 있습니다. 필리핀 거주 한인에게도 상업 교류 확대는 기회가 될 수 있지만, 정확하고 최신인 안내를 확인하는 일이 중요합니다."
+    ],
+    "image_seed": "cover-2026-11-25",
+    "image_query": "Korean Philippine business leaders meeting Manila trade documents",
+    "image_caption": "Photo: Business representatives review trade documents at a Manila meeting (November 25, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Residents Urged to Verify Emergency Contacts Before Holiday Travel",
+    "headline_kr": "연말 이동 앞두고 비상 연락처와 안전 정보 확인 당부",
+    "lead_en": "As holiday travel and gatherings approach, residents can reduce avoidable stress by checking current contact details for local emergency services, their building administration and their embassy. Save key numbers offline, share travel plans with someone you trust and follow official advisories for your destination.",
+    "lead_kr": "연말 여행과 모임이 늘어나는 시기에는 현지 긴급 신고처와 건물 관리사무소, 대사관의 최신 연락처를 미리 확인해 두면 도움이 됩니다. 주요 번호를 오프라인으로 저장하고 믿을 만한 사람과 일정을 공유하며, 목적지의 공식 안전 안내를 확인하세요.",
+    "image_seed": "feat-2026-11-25",
+    "image_query": "Korean residents checking emergency phone contacts Manila",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Exporters Should Check Rules of Origin Under Trade Pact",
+      "headline_kr": "수출 기업, 협정 원산지 기준 확인해야",
+      "summary_en": "Preferential tariff treatment depends on the product and whether it meets the agreement's rules of origin. Businesses should confirm documentation and customs requirements before making shipping commitments.",
+      "summary_kr": "협정에 따른 관세 혜택은 품목과 원산지 기준 충족 여부에 따라 달라집니다. 기업은 선적을 확정하기 전에 필요한 서류와 통관 요건을 확인해야 합니다.",
+      "image_seed": "news1-2026-11-25",
+      "image_query": "export boxes customs paperwork Manila port",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Korean Food Events Invite Filipinos to Explore Regional Flavors",
+      "headline_kr": "한국 음식 행사, 지역별 맛과 식문화 소개",
+      "summary_en": "Community food events can offer an introduction to dishes beyond familiar Korean favorites, from regional specialties to seasonal recipes. Visitors should check organizers' announcements for venue, hours and ticket details.",
+      "summary_kr": "지역 특색 음식과 제철 요리를 소개하는 한식 행사는 익숙한 메뉴를 넘어 한국의 다양한 식문화를 경험할 기회입니다. 방문객은 장소와 운영 시간, 입장 정보를 주최 측 안내에서 확인하세요.",
+      "image_seed": "news2-2026-11-25",
+      "image_query": "Korean regional food festival Manila stalls",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Korea-Philippines Ties Span Trade, Tourism and Security",
+      "headline_kr": "한-필리핀 관계, 교역·관광·안보 협력으로 확대",
+      "summary_en": "The two countries' relationship includes economic links, travel and longstanding defense cooperation. Continued exchanges among officials, businesses and communities help sustain those ties.",
+      "summary_kr": "양국 관계는 경제 교류와 관광, 오랜 국방 협력을 아우릅니다. 정부와 기업, 지역사회 간 지속적인 교류가 관계를 뒷받침합니다.",
+      "image_seed": "news3-2026-11-25",
+      "image_query": "Korean Philippine flags government building",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Simple Steps Help Families Prepare for Tropical Weather",
+      "headline_kr": "열대성 기상에 대비하는 가정 내 안전 수칙",
+      "summary_en": "Keep drinking water, a flashlight, essential medicines and charged power banks accessible during periods of heavy rain or severe weather. Follow local government and weather-agency updates rather than unverified social media posts.",
+      "summary_kr": "폭우나 악천후에 대비해 식수와 손전등, 필수 의약품, 충전된 보조배터리를 손쉽게 꺼낼 수 있는 곳에 두세요. 확인되지 않은 소셜미디어 게시물보다 지방정부와 기상 당국의 안내를 따르세요.",
+      "image_seed": "news4-2026-11-25",
+      "image_query": "family emergency supplies rainy Philippines",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Framework",
+    "pronunciation": "/ˈfreɪmˌwɜːrk/",
+    "type": "noun",
+    "definition_en": "A basic structure or system that supports or guides a plan, agreement or activity.",
+    "definition_kr": "계획이나 협정, 활동을 뒷받침하고 방향을 제시하는 기본 구조나 체계.",
+    "example_en": "The trade agreement provides a framework for closer economic cooperation.",
+    "example_kr": "무역협정은 더 긴밀한 경제 협력을 위한 틀을 제공합니다.",
+    "grade": "A+"
+  }
+}

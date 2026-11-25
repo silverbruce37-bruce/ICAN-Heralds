@@ -1,0 +1,215 @@
+{
+  "week": "2026-W48",
+  "food_feature": {
+    "badge_en": "EDITOR'S CHOICE",
+    "badge_kr": "에디터 추천",
+    "name_en": "Manam Comfort Filipino",
+    "name_kr": "마남 컴포트 필리피노",
+    "cuisine_tags": [
+      {
+        "en": "Filipino",
+        "kr": "필리핀 요리"
+      },
+      {
+        "en": "Modern comfort food",
+        "kr": "현대식 컴포트 푸드"
+      }
+    ],
+    "rating": 4.7,
+    "stars": "★★★★★",
+    "lead_en": "Manam is the sort of place where a table fills up quickly with dishes meant to be passed around. Its familiar Filipino flavors arrive with a playful twist, but the cooking still feels generous and reassuring rather than fussy. Order the sinigang and let its bright, sour broth cut through a round of rich, savory bites. It makes an easygoing meal feel like a small celebration.",
+    "lead_kr": "마남은 여러 음식을 가운데 놓고 나눠 먹다 보면 테이블이 금세 풍성해지는 곳입니다. 익숙한 필리핀의 맛에 재치 있는 변주를 더했지만, 요리는 과하게 꾸미기보다 넉넉하고 편안한 인상을 줍니다. 새콤한 국물이 매력적인 시니강을 곁들이면 진하고 짭짤한 음식 사이를 산뜻하게 정리해 줍니다. 편안한 한 끼가 작은 축하처럼 느껴지는 곳입니다.",
+    "quote_en": "A note from the editors: rather than inventing a chef quote, we recommend arriving hungry and ordering for the table.",
+    "quote_kr": "편집자 메모: 셰프의 말을 지어내기보다, 배를 비우고 여럿이 함께 나눠 먹을 메뉴를 주문해 보세요.",
+    "location": "Greenbelt 2, Greenbelt Drive, Makati City, Metro Manila, Philippines. Confirm the current unit and address with the restaurant before visiting.",
+    "price_range": "₱300–₱1,000",
+    "hours": "Hours vary by branch; check Manam's official channels before visiting.",
+    "hours_closed_en": "Check the branch schedule before visiting.",
+    "hours_closed_kr": "방문 전 지점 운영 일정을 확인하세요.",
+    "language_en": "Filipino and English; availability may vary by staff.",
+    "language_kr": "필리핀어와 영어 사용 가능; 직원에 따라 다를 수 있습니다.",
+    "must_try": [
+      {
+        "en": "House Crispy Sisig",
+        "kr": "하우스 크리스피 시식",
+        "price": "₱400–₱600"
+      },
+      {
+        "en": "Sinigang na Beef Short Rib and Watermelon",
+        "kr": "수박을 곁들인 소갈비 시니강",
+        "price": "₱500–₱800"
+      },
+      {
+        "en": "Ube + Sago",
+        "kr": "우베와 사고 디저트",
+        "price": "₱150–₱250"
+      }
+    ],
+    "tip_en": "Manam has multiple branches and menus or prices can differ. Check the specific branch's current details, and consider ordering several smaller dishes to share.",
+    "tip_kr": "마남은 지점별로 메뉴와 가격이 다를 수 있습니다. 방문할 지점의 최신 정보를 확인하고, 여러 가지 음식을 작은 양으로 주문해 나눠 먹어 보세요.",
+    "hero_image_seed": "food-w2026-W48",
+    "image_query": "Filipino sisig modern restaurant",
+    "gallery_seeds": [
+      "food-g1-w2026-W48",
+      "food-g2-w2026-W48",
+      "food-g3-w2026-W48"
+    ]
+  },
+  "travel_cards": [
+    {
+      "image_seed": "travel1-w2026-W48",
+      "image_query": "Makati Ayala Triangle Gardens evening",
+      "badge_en": "CITY RESET",
+      "badge_kr": "도심 속 쉼",
+      "tags": [
+        {
+          "en": "Urban nature",
+          "kr": "도심 자연"
+        },
+        {
+          "en": "Walking",
+          "kr": "산책"
+        }
+      ],
+      "name_en": "Ayala Triangle Gardens",
+      "name_kr": "아얄라 트라이앵글 가든스",
+      "stars": "★★★★☆",
+      "rating": 4.5,
+      "lead_en": "In the middle of Makati's busy streets, this green pocket offers a welcome change of pace. Take a slow loop beneath the trees, then watch the office towers catch the last light of day. It is an easy stop to pair with dinner or a longer stroll around the business district. Check current park notices for access and seasonal displays.",
+      "lead_kr": "마카티의 분주한 거리 한가운데 자리한 녹지 공간에서 잠시 속도를 늦춰 보세요. 나무 아래를 천천히 한 바퀴 걷고, 해 질 무렵 빌딩에 내려앉는 빛을 바라보면 좋습니다. 저녁 식사 전후나 도심 산책 코스에 부담 없이 넣기 좋습니다. 출입 시간과 계절별 전시물은 공지로 확인하세요.",
+      "location": "Ayala Avenue corner Paseo de Roxas, Makati City, Metro Manila",
+      "cost": "Generally free; check current access notices.",
+      "tip_en": "Visit near sunset for cooler air, and check for temporary closures or event arrangements before setting out.",
+      "tip_kr": "선선한 해 질 무렵 방문해 보세요. 출발 전 임시 폐쇄나 행사 운영 공지를 확인하는 것이 좋습니다."
+    },
+    {
+      "image_seed": "travel2-w2026-W48",
+      "image_query": "Intramuros Manila stone walls horse carriage",
+      "badge_en": "HERITAGE",
+      "badge_kr": "유산 탐방",
+      "tags": [
+        {
+          "en": "History",
+          "kr": "역사"
+        },
+        {
+          "en": "Walking",
+          "kr": "도보"
+        }
+      ],
+      "name_en": "Intramuros",
+      "name_kr": "인트라무로스",
+      "stars": "★★★★★",
+      "rating": 4.7,
+      "lead_en": "The old walled city rewards an unhurried walk: weathered stone, leafy courtyards, and glimpses of the city's layered past appear around each turn. Begin near Plaza San Luis and leave time to explore the surrounding streets on foot. Individual museums and landmarks have separate admission rules and schedules, so plan those stops separately.",
+      "lead_kr": "오래된 성벽 도시 인트라무로스는 서두르지 않고 걸을수록 매력이 드러납니다. 빛바랜 돌벽과 나무 그늘이 드리운 안뜰, 거리마다 모습을 드러내는 도시의 역사를 만날 수 있습니다. 플라자 산 루이스 근처에서 시작해 주변 골목을 천천히 둘러보세요. 박물관과 명소는 입장료와 운영 시간이 각각 다르니 따로 확인해야 합니다.",
+      "location": "Intramuros, Manila, Metro Manila; visitor sites are spread throughout the walled city.",
+      "cost": "Walking the district is generally free; individual attractions charge separate admission.",
+      "tip_en": "Wear comfortable shoes and bring water. Confirm museum hours and any site-specific fees before your visit.",
+      "tip_kr": "걷기 편한 신발과 물을 준비하세요. 방문 전 박물관 운영 시간과 각 명소의 입장료를 확인하세요."
+    }
+  ],
+  "events": [
+    {
+      "date_badge": "NOV 25",
+      "day_of_week_en": "Wednesday",
+      "day_of_week_kr": "수요일",
+      "image_seed": "event1-w2026-W48",
+      "image_query": "Ayala Museum Philippine art gallery",
+      "title": "Midweek Museum Visit: Ayala Museum",
+      "desc_en": "Make room for a midweek art break at Ayala Museum, where Philippine history and art offer a thoughtful change of pace from the business district. Exhibition schedules, admission, and opening hours can change, so confirm details directly before making the trip.",
+      "desc_kr": "주중 한가운데 아얄라 뮤지엄에서 예술과 역사를 감상하며 잠시 일상의 속도를 늦춰 보세요. 필리핀의 역사와 예술을 만날 수 있는 도심 속 문화 공간입니다. 전시 일정과 입장료, 운영 시간은 변경될 수 있으니 방문 전에 직접 확인하세요.",
+      "venue_en": "Ayala Museum",
+      "venue_kr": "아얄라 뮤지엄",
+      "address_en": "Makati Avenue corner De La Rosa Street, Greenbelt Park, Makati City, Metro Manila, Philippines",
+      "address_kr": "필리핀 메트로 마닐라 마카티 시티, 그린벨트 파크, 마카티 애비뉴와 데 라 로사 스트리트 교차로",
+      "time_en": "Confirm current Wednesday opening hours and admission with the museum before visiting.",
+      "time_kr": "방문 전 박물관에 수요일 운영 시간과 입장료를 확인하세요.",
+      "price_en": "Admission varies; check the museum's official channels.",
+      "price_kr": "입장료는 변동될 수 있으니 박물관 공식 채널에서 확인하세요.",
+      "contact": "https://www.ayalamuseum.org/",
+      "note_en": "This is a suggested museum outing, not a separately ticketed event. Check current exhibitions, booking requirements, and visitor guidelines before traveling.",
+      "note_kr": "별도 티켓 행사라기보다 박물관 방문을 제안하는 일정입니다. 방문 전 전시와 예약 필요 여부, 관람 안내를 확인하세요."
+    },
+    {
+      "date_badge": "NOV 26",
+      "day_of_week_en": "Thursday",
+      "day_of_week_kr": "목요일",
+      "image_seed": "event2-w2026-W48",
+      "image_query": "National Museum Manila gallery paintings",
+      "title": "Thursday Culture Stop: National Museum of Fine Arts",
+      "desc_en": "Spend an afternoon with Philippine art inside the National Museum of Fine Arts, housed in a landmark neoclassical building. Check the museum's current visitor information for gallery access, hours, and any registration requirements before going.",
+      "desc_kr": "랜드마크인 신고전주의 건물 안에서 필리핀 미술을 만나는 오후를 보내 보세요. 국립미술관은 작품 감상과 건축 탐방을 함께 즐길 수 있는 곳입니다. 방문 전 갤러리 운영과 관람 시간, 등록 필요 여부를 최신 안내로 확인하세요.",
+      "venue_en": "National Museum of Fine Arts",
+      "venue_kr": "필리핀 국립미술관",
+      "address_en": "Padre Burgos Avenue, Ermita, Manila, Metro Manila, Philippines",
+      "address_kr": "필리핀 메트로 마닐라 마닐라 에르미타, 파드레 부르고스 애비뉴",
+      "time_en": "Confirm current Thursday visitor hours with the National Museum before setting out.",
+      "time_kr": "출발 전 국립박물관에 목요일 관람 시간을 확인하세요.",
+      "price_en": "Check the National Museum's current admission policy.",
+      "price_kr": "국립박물관의 최신 입장 정책을 확인하세요.",
+      "contact": "https://www.nationalmuseum.gov.ph/",
+      "note_en": "Suggested museum visit; no specific one-day program is verified here. Check current notices and visitor requirements.",
+      "note_kr": "박물관 방문 제안이며 특정 일회성 프로그램을 확인한 일정은 아닙니다. 최신 공지와 관람 요건을 확인하세요."
+    },
+    {
+      "date_badge": "NOV 28",
+      "day_of_week_en": "Saturday",
+      "day_of_week_kr": "토요일",
+      "image_seed": "event3-w2026-W48",
+      "image_query": "Intramuros Manila heritage walking tour",
+      "title": "Saturday Heritage Walk: Intramuros",
+      "desc_en": "Explore Intramuros on foot, taking in its historic lanes, plazas, and stone walls at your own pace. This is a self-guided outing rather than a confirmed scheduled tour; check access at individual sites and arrange a licensed guide separately if you want one.",
+      "desc_kr": "인트라무로스의 오래된 골목과 광장, 성벽을 따라 걸으며 각자의 속도로 역사를 만나 보세요. 정해진 단체 투어가 아닌 자유 산책 일정입니다. 개별 명소의 입장 가능 여부를 확인하고 가이드가 필요하면 별도로 예약하세요.",
+      "venue_en": "Intramuros Administration Visitor Center",
+      "venue_kr": "인트라무로스 행정청 방문자 센터",
+      "address_en": "General Luna Street, Intramuros, Manila, Metro Manila, Philippines; confirm the current visitor-center location before departure.",
+      "address_kr": "필리핀 메트로 마닐라 마닐라 인트라무로스, 헤네랄 루나 스트리트; 출발 전 방문자 센터의 현재 위치를 확인하세요.",
+      "time_en": "Self-guided; check current site and visitor-center hours before arrival.",
+      "time_kr": "자유 산책 일정입니다. 도착 전 명소와 방문자 센터의 운영 시간을 확인하세요.",
+      "price_en": "Walking the district is generally free; site and guide fees may apply.",
+      "price_kr": "지역 산책은 일반적으로 무료이며, 명소 입장료나 가이드 비용이 발생할 수 있습니다.",
+      "contact": "https://intramuros.gov.ph/",
+      "note_en": "Wear comfortable shoes, bring water, and verify opening hours for each landmark. No scheduled group tour is implied.",
+      "note_kr": "걷기 편한 신발과 물을 준비하고 각 명소의 운영 시간을 확인하세요. 정기 단체 투어가 포함된 일정은 아닙니다."
+    },
+    {
+      "date_badge": "NOV 29",
+      "day_of_week_en": "Sunday",
+      "day_of_week_kr": "일요일",
+      "image_seed": "event4-w2026-W48",
+      "image_query": "Pinto Art Museum sculpture garden",
+      "title": "Sunday Art Escape: Pinto Art Museum",
+      "desc_en": "For a slower Sunday, make a day trip to Pinto Art Museum and explore its galleries and garden paths. The museum is outside central Metro Manila, so allow extra travel time and confirm the day's opening schedule, admission, and transport options before setting off.",
+      "desc_kr": "여유로운 일요일을 보내고 싶다면 핀토 아트 뮤지엄으로 나들이를 떠나 갤러리와 정원 길을 둘러보세요. 메트로 마닐라 중심부에서 떨어져 있으니 이동 시간을 넉넉히 잡고, 출발 전 당일 운영 시간과 입장료, 교통편을 확인하세요.",
+      "venue_en": "Pinto Art Museum",
+      "venue_kr": "핀토 아트 뮤지엄",
+      "address_en": "1 Sierra Madre Street, Grand Heights Subdivision, Antipolo City, Rizal, Philippines",
+      "address_kr": "필리핀 리살주 안티폴로 시티, 그랜드 하이츠 서브디비전, 시에라 마드레 스트리트 1",
+      "time_en": "Confirm current Sunday opening hours and entry arrangements with the museum.",
+      "time_kr": "박물관에 일요일 운영 시간과 입장 절차를 확인하세요.",
+      "price_en": "Admission and reservation requirements may change; check the museum's official channels.",
+      "price_kr": "입장료와 예약 요건은 변경될 수 있으니 박물관 공식 채널에서 확인하세요.",
+      "contact": "https://www.pintoart.org/",
+      "note_en": "This is a suggested museum visit, not a confirmed special event. Check current travel conditions and museum visitor guidance.",
+      "note_kr": "특별 행사를 확인한 일정이 아니라 박물관 방문 제안입니다. 이동 상황과 박물관 관람 안내를 확인하세요."
+    }
+  ],
+  "picks": {
+    "date": "2026.11.25",
+    "title_en": "A Table Made for Sharing",
+    "title_kr": "함께 나누기 위해 차린 식탁",
+    "body_en": [
+      "Some meals are best measured not by the number of courses but by how quickly everyone reaches for the same dish. At Manam, the appeal is in familiar Filipino flavors that invite conversation as naturally as they invite another spoonful.",
+      "That spirit of sharing travels beyond the restaurant. A walk through Makati or Intramuros, a gallery visit, and a meal with friends can turn an ordinary day into a small collection of moments worth remembering.",
+      "Order a few things for the table, take your time, and let the conversation wander. Good food does more than fill the afternoon; it gives people a reason to sit together a little longer."
+    ],
+    "body_kr": [
+      "어떤 식사는 코스 수보다 모두가 같은 음식을 향해 손을 뻗는 순간으로 기억됩니다. 마남의 매력은 익숙한 필리핀의 맛에 있습니다. 한 숟갈 더 권하는 일이 대화를 시작하는 것만큼이나 자연스럽습니다.",
+      "함께 나누는 기분은 식당 밖으로도 이어집니다. 마카티나 인트라무로스를 걷고, 갤러리를 둘러본 뒤 친구들과 식사를 하면 평범한 하루가 기억할 만한 작은 순간들로 채워집니다.",
+      "음식을 여럿 주문해 가운데 놓고, 서두르지 말고 대화를 이어 가세요. 좋은 음식은 배를 채우는 데서 그치지 않고 사람들이 조금 더 오래 함께 앉아 있을 이유를 만들어 줍니다."
+    ],
+    "connect_label_en": "This story connects: ",
+    "connect_label_kr": "이 이야기가 연결하는 것: "
+  }
+}
