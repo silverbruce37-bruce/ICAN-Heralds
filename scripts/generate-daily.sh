@@ -62,6 +62,9 @@ call_claude() {
     local prompt="$1"
     local result=""
     local max_retries=3
+    # 호출부가 요청한 출력 토큰 한도($2)를 쓰되, 하한은 8192로 둔다.
+    local max_tokens="${2:-8192}"
+    [ "$max_tokens" -lt 8192 ] 2>/dev/null && max_tokens=8192
     OPENROUTER_MODEL="${OPENROUTER_MODEL:-google/gemma-4-26b-a4b-it}"
 
     _parse_openai_json() {
@@ -69,7 +72,11 @@ call_claude() {
 import sys, json, re
 try:
     resp = json.load(sys.stdin)
-    text = resp['choices'][0]['message']['content']
+    choice = resp['choices'][0]
+    text = (choice.get('message') or {}).get('content') or ''
+    if not text.strip():
+        print('Empty content (finish_reason=' + str(choice.get('finish_reason')) + ')', file=sys.stderr)
+        raise SystemExit(1)
     if text.startswith('\`\`\`json'): text = text[7:]
     if text.startswith('\`\`\`'): text = text[3:]
     if text.endswith('\`\`\`'): text = text[:-3]
@@ -98,7 +105,7 @@ except Exception as e:
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'maxOutputTokens': 8192, 'temperature': 0.7}}
+payload = {'contents': [{'parts': [{'text': prompt}]}], 'generationConfig': {'maxOutputTokens': $max_tokens, 'temperature': 0.7}}
 json.dump(payload, open('$gemini_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
@@ -144,7 +151,7 @@ except Exception as e:
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'model': 'gpt-6-luna', 'max_completion_tokens': 8192, 'reasoning_effort': 'low', 'messages': [{'role': 'user', 'content': prompt}]}
+payload = {'model': 'gpt-6-luna', 'max_completion_tokens': $max_tokens, 'reasoning_effort': 'low', 'messages': [{'role': 'user', 'content': prompt}]}
 json.dump(payload, open('$oai_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
@@ -173,7 +180,7 @@ json.dump(payload, open('$oai_payload', 'w'), ensure_ascii=False)
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'model': '$OPENROUTER_MODEL', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
+payload = {'model': '$OPENROUTER_MODEL', 'max_tokens': $max_tokens, 'messages': [{'role': 'user', 'content': prompt}], 'temperature': 0.7}
 json.dump(payload, open('$or_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
@@ -204,7 +211,7 @@ json.dump(payload, open('$or_payload', 'w'), ensure_ascii=False)
             python3 -c "
 import json
 prompt = open('$prompt_file').read()
-payload = {'model': 'claude-haiku-4-5-20251001', 'max_tokens': 8192, 'messages': [{'role': 'user', 'content': prompt}]}
+payload = {'model': 'claude-haiku-4-5-20251001', 'max_tokens': $max_tokens, 'messages': [{'role': 'user', 'content': prompt}]}
 json.dump(payload, open('$anthropic_payload', 'w'), ensure_ascii=False)
 "
             local raw_resp http_code body
