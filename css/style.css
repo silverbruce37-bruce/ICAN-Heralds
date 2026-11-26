@@ -5479,3 +5479,11 @@ body {
     .tok-card-dilemma { padding: 24px 16px 18px; }
     .section-title::after { display: none; }
 }
+
+/* Korean mode: keep the cover headline in the modern sans stack */
+body.lang-kr .herald-cover-section .main-title,
+body.lang-kr .herald-cover-section .sub-title {
+    font-family: 'Pretendard Variable', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.03em;
+}
+body.lang-kr .sub-title { font-weight: 500; }
