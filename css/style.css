@@ -5437,6 +5437,12 @@ body {
 .word-example { font-size: 0.95rem; }
 
 /* Header polish */
+.nyt-masthead {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+.nyt-sections { background: rgba(255, 255, 255, 0.8); }
 .nyt-masthead-meta { color: var(--muted); }
 .nyt-meta-left, .nyt-meta-right { letter-spacing: 0.16em; }
 .nyt-masthead { padding-bottom: 4px; }
