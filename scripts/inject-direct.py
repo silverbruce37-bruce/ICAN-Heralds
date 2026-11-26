@@ -862,7 +862,7 @@ def build_practice_studio(daily):
     word_chip = ""
     if word.get("word"):
         word_chip = (
-            f'<span class="practice-word-chip">today&rsquo;s word · <b>{word.get("word")}</b></span>'
+            f'<span class="practice-word-chip"><span class="en-content">today&rsquo;s word</span><span class="kr-content">오늘의 단어</span> · <b>{word.get("word")}</b></span>'
         )
 
     return f'''
@@ -901,7 +901,8 @@ def build_practice_studio(daily):
                         </span>
                     </button>
                     <a class="learn-btn learn-btn-secondary" href="https://englishtest.duolingo.com/" target="_blank" rel="noopener noreferrer">
-                        <span class="learn-icon">↗</span> About the DET
+                        <span class="learn-icon">↗</span>
+                        <span class="en-content">About the DET</span><span class="kr-content">DET 안내</span>
                     </a>
                 </div>
             </article>
@@ -1020,11 +1021,11 @@ def build_tok_lab(daily):
                     </div>
                     <div class="tok-claims">
                         <div class="tok-claim">
-                            <span class="tok-claim-label">Claim</span>
+                            <span class="tok-claim-label"><span class="en-content">Claim</span><span class="kr-content">주장</span></span>
                             <p><span class="en-content">{layer.get("claim_en", "")}</span><span class="kr-content">{layer.get("claim_kr", "")}</span></p>
                         </div>
                         <div class="tok-claim tok-claim-alt">
-                            <span class="tok-claim-label">Counterclaim</span>
+                            <span class="tok-claim-label"><span class="en-content">Counterclaim</span><span class="kr-content">반대 주장</span></span>
                             <p><span class="en-content">{layer.get("counterclaim_en", "")}</span><span class="kr-content">{layer.get("counterclaim_kr", "")}</span></p>
                         </div>
                     </div>
@@ -1091,7 +1092,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v10"
+    ver = date_str.replace("-", "") + "_v11"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")

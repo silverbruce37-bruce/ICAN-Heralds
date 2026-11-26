@@ -4116,8 +4116,9 @@ body.lang-kr .academy-insight p {
 
 .st-btn-primary {
     background: #fff;
-    color: #0047ab;
+    color: #002c66;
     border-color: #fff;
+    font-weight: 700;
 }
 
 .st-btn-primary:hover { background: #eaf1ff; }
