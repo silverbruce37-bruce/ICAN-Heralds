@@ -812,6 +812,22 @@ else
     echo "  WARNING: Academy generation failed"
 fi
 
+# ─── Step 2.7: Article images (photoreal editorial photos) ────────────
+# One matched photograph per main article → images/editions/<date>/ + data/image-manifest-<date>.json
+# inject-direct.py then links the local file. Every provider is optional: if the whole
+# step fails the edition still builds with keyword photos.
+echo "[2.7/5] Building article images..."
+if [ -f scripts/article-images.py ]; then
+    python3 -c "import PIL" 2>/dev/null || pip install --quiet --disable-pip-version-check Pillow >/dev/null 2>&1 || true
+    if timeout 600 python3 scripts/article-images.py --date "$DATE" 2>&1 | sed 's/^/  /'; then
+        echo "  Article images ready"
+    else
+        echo "  WARNING: image pipeline failed — keyword-photo fallback stays in place"
+    fi
+else
+    echo "  scripts/article-images.py missing — skipped"
+fi
+
 # ─── Step 3: Inject Content ─────────────────────────
 echo "[3/5] Building HTML from data..."
 python3 scripts/inject-direct.py
@@ -893,6 +909,15 @@ if [ "$DAY_NUM" = "1" ]; then
     # Re-run weekly generation would happen on next execution
     # For now, just flag it
     echo "REFRESH" > "data/.weekly-refresh-${CURRENT_WEEK}"
+fi
+
+# Stage this edition's article images + manifest so the workflow's commit step picks
+# them up (that step's own `git add` list has no images/, and .github/workflows cannot
+# be edited from this connection — so staging happens here, before the commit).
+if [ -d "images/editions/${DATE}" ]; then
+    git add "images/editions/${DATE}" "data/image-manifest-${DATE}.json" 2>/dev/null || true
+    IMG_COUNT=$(find "images/editions/${DATE}" -maxdepth 1 -type f 2>/dev/null | wc -l | tr -d ' ')
+    echo "Staged article images: ${IMG_COUNT} files (images/editions/${DATE})"
 fi
 
 echo ""

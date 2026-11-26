@@ -18,6 +18,9 @@ from pathlib import Path
 
 CACHE_DIR = Path("images/cache")
 EMERGENCY_IMAGE = "images/emergency-placeholder.svg"
+# data/image-manifest-<date>.json — article-matched local photos built by
+# scripts/article-images.py. Keyed by cover / feat / news1..news4.
+IMAGE_MANIFEST = {}
 IMAGE_RENDER_LOG = []
 IMAGE_STATS = {
     "total": 0,
@@ -121,33 +124,53 @@ def classify_image_src(src):
     return "other"
 
 
-def image_sources(prompt, w=400, h=200, seed=None):
+def manifest_source(key):
+    """Local article photo recorded by scripts/article-images.py, when it exists."""
+    if not key:
+        return None
+    entry = (IMAGE_MANIFEST or {}).get(key)
+    if not entry:
+        return None
+    src = str(entry.get("src") or "")
+    if not src:
+        return None
+    if src.startswith("images/") and not Path(src).exists():
+        return None
+    return entry
+
+
+def image_sources(prompt, w=400, h=200, seed=None, key=None):
     """Return primary, secondary, and fallback image sources.
 
-    Primary: loremflickr keyword-matched real photo (changes daily).
-    Secondary: Unsplash source keyword-matched photo (fallback provider).
-    Fallback: curated Unsplash static photo (always loads).
+    Primary: the article's own local photo (images/editions/<date>/<key>.jpg) when
+    scripts/article-images.py produced one for this edition.
+    Otherwise: loremflickr keyword photo, then a curated bright editorial photo, then
+    the emergency placeholder (source.unsplash.com is retired, so it is not used).
     """
+    entry = manifest_source(key)
+    if entry is not None:
+        return entry["src"], "", entry.get("fallback", EMERGENCY_IMAGE)
+
     primary = img_url(prompt, w, h, seed=seed, pass_no=1)
-    secondary = img_url(prompt, w, h, seed=seed, pass_no=2)
-    fallback = fallback_img_url(seed, w, h)
+    secondary = fallback_img_url(seed, w, h)
+    fallback = EMERGENCY_IMAGE
     return primary, secondary, fallback
 
 
 def fallback_img_url(seed, w=400, h=200):
-    """Stable fallback image URL when AI image generation fails."""
+    """Stable, bright editorial photo used when the local article photo is absent."""
     photo_map = {
-        "cover": "1555448248-2571daf6344b",
-        "feat": "1555448248-2571daf6344b",
-        "news1": "1611974789855-9c2a0a7236a3",
-        "news2": "1493225457124-a3eb161ffa5f",
-        "news3": "1605281317010-fe5ffe798166",
-        "news4": "1589829545856-d10d557cf95f",
-        "food": "1563245372-f21724e3856d",
-        "travel1": "1518509562904-e7ef99cdcc86",
-        "travel2": "1583417319070-4a69db38a482",
-        "event1": "1540039155733-5bb30b53aa14",
-        "event2": "1414235077428-338989a2e8c0",
+        "cover": "1436491865332-7a61a109cc05",   # airliner taking off, bright sky
+        "feat": "1436491865332-7a61a109cc05",
+        "news1": "1500382017468-9049fed747ef",   # farm field at golden hour
+        "news2": "1492684223066-81342ee5ff30",   # stage with warm lights
+        "news3": "1560179707-f14e90ef3623",      # city skyline daylight
+        "news4": "1473341304170-971dccb5ac1e",   # power lines / utility poles
+        "food": "1414235077428-338989a2e8c0",
+        "travel1": "1508009603885-50cf7c579365",
+        "travel2": "1518509562904-e7ef99cdcc86",
+        "event1": "1492684223066-81342ee5ff30",
+        "event2": "1540039155733-5bb30b53aa14",
         "event3": "1570168007204-dfb528c6958f",
         "event4": "1517245386807-bb43f82c33c4",
     }
@@ -470,6 +493,7 @@ def build_news_cards(news):
             280,
             220,
             seed=item.get("image_seed"),
+            key=f"news{i}",
         )
         phrases = derive_key_phrases(item, item.get("summary_en", ""))
         cards += f'''
@@ -1419,6 +1443,7 @@ def build_html(daily, weekly):
                     1200,
                     800,
                     seed=cover.get('image_seed'),
+                    key='cover',
                 ))}
                 <div class="image-caption" id="coverStoryCaption">{cover_caption}</div>
             </div>
@@ -1447,6 +1472,7 @@ def build_html(daily, weekly):
                         900,
                         600,
                         seed=feat.get('image_seed'),
+                        key='feat',
                     ))}
                     <span class="tag {feat.get('tag_class', 'tag-security')}">{feat.get('tag', 'News')}</span>
                 </div>
@@ -1545,15 +1571,42 @@ def build_html(daily, weekly):
 
 
 def main():
+    argv = [a for a in sys.argv[1:] if not a.startswith("-")]
+    wanted_date = ""
+    for i, a in enumerate(sys.argv[1:]):
+        if a == "--date" and i + 2 <= len(sys.argv) - 1:
+            wanted_date = sys.argv[i + 2]
+            break
+
     daily_files = sorted(glob.glob("data/daily-*.json"))
     if not daily_files:
         print("ERROR: No daily JSON found", file=sys.stderr)
         sys.exit(1)
 
-    daily_file = daily_files[-1]
+    if wanted_date:
+        daily_file = f"data/daily-{wanted_date}.json"
+        if not Path(daily_file).exists():
+            print(f"ERROR: {daily_file} not found", file=sys.stderr)
+            sys.exit(1)
+    else:
+        daily_file = daily_files[-1]
     print(f"  Loading daily: {daily_file}")
     with open(daily_file, encoding="utf-8") as f:
         daily = json.load(f)
+
+    edition_date = Path(daily_file).stem.replace("daily-", "")
+    manifest_file = Path(f"data/image-manifest-{edition_date}.json")
+    if manifest_file.exists():
+        try:
+            with open(manifest_file, encoding="utf-8") as f:
+                manifest = json.load(f)
+            IMAGE_MANIFEST.update(manifest.get("items", {}) or {})
+            ready = sum(1 for v in IMAGE_MANIFEST.values() if v.get("src") and Path(str(v["src"])).exists())
+            print(f"  Article images: {ready}/{len(IMAGE_MANIFEST)} local ({manifest_file.name})")
+        except Exception as exc:
+            print(f"  WARNING: image manifest unreadable ({exc}) — using keyword photos", file=sys.stderr)
+    else:
+        print(f"  No image manifest for {edition_date} — using keyword photos")
 
     weekly = None
     weekly_files = sorted(glob.glob("data/weekly-*.json"))
