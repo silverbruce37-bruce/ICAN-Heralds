@@ -144,6 +144,42 @@
     "dig_deeper_en": "Find the primary TIME list or its published methodology and compare its stated criteria with the evidence available in the news headline.",
     "dig_deeper_kr": "TIME의 원문 목록이나 공개된 평가 방법을 찾아, 명시된 기준을 뉴스 제목에서 확인할 수 있는 근거와 비교하세요.",
     "essay_task_en": "Write about 150 words answering the TOK question. In Human Sciences, discuss how a ranking might measure institutional performance; in Ethics, consider what makes public claims about improvement fair. Use Reason to assess the quality of evidence and Sense perception to reflect on passenger experience. Include the claim that recognition is evidence of reputation, then test it against the counterclaim that transparent criteria can make rankings meaningful.",
-    "essay_task_kr": "TOK 질문에 답하는 약 150단어의 글을 쓰세요. 인간과학에서는 순위가 기관의 성과를 어떻게 측정할 수 있는지 살펴보고, 윤리에서는 개선에 관한 공적 주장이 공정하려면 무엇이 필요한지 생각해 보세요. 이성을 활용해 근거의 질을 평가하고, 감각 지각을 바탕으로 승객의 경험을 돌아보세요. 인정은 평판의 근거라는 주장을 제시한 뒤, 투명한 기준이 있다면 순위가 의미 있는 지표가 될 수 있다는 반론으로 검토하세요."
+    "essay_task_kr": "TOK 질문에 답하는 약 150단어의 글을 쓰세요. 인간과학에서는 순위가 기관의 성과를 어떻게 측정할 수 있는지 살펴보고, 윤리에서는 개선에 관한 공적 주장이 공정하려면 무엇이 필요한지 생각해 보세요. 이성을 활용해 근거의 질을 평가하고, 감각 지각을 바탕으로 승객의 경험을 돌아보세요. 인정은 평판의 근거라는 주장을 제시한 뒤, 투명한 기준이 있다면 순위가 의미 있는 지표가 될 수 있다는 반론으로 검토하세요.",
+    "complex_dilemma": {
+      "title_en": "Conundrum · Complex Problem-Solving",
+      "title_kr": "Conundrum · 복합 난제 해결 과제",
+      "scenario_en": "NAIA has been named on TIME's list of best airports, and the President says the airport has \"come a long way.\" The recognition is real, but the people who depend on the airport face incompatible demands. Passengers — Korean residents, students, families and business travellers flying between Manila and Korea — judge the airport by queues, transfers and service on an ordinary day, not by a list. The airport operator and the airlines must keep flights running and costs stable while repairs close sections of the terminal. The government, which answers for both the recognition and the money, has to show that the improvement is real and that public trust was earned rather than announced. Each group wants something the other two cannot fully give: visible proof now, uninterrupted capacity, and lower costs.",
+      "scenario_kr": "NAIA가 TIME의 세계 최고 공항 목록에 이름을 올렸고, 대통령은 공항이 \"많이 발전했다\"고 말했습니다. 인정은 분명한 사실이지만, 공항에 기대는 사람들의 요구는 서로 충돌합니다. 마닐라와 한국을 오가는 한인 거주자·유학생·가족·출장자는 목록이 아니라 평범한 하루의 대기 줄, 환승, 서비스로 공항을 판단합니다. 공항 운영사와 항공사는 보수 공사로 터미널 일부가 닫히는 동안에도 운항과 비용을 안정적으로 유지해야 합니다. 인정과 예산 모두에 책임이 있는 정부는 개선이 실제이며 신뢰가 발표된 것이 아니라 쌓인 것임을 보여야 합니다. 각 집단이 원하는 것—지금 보이는 증거, 중단 없는 수용력, 낮은 비용—은 서로를 완전히 만족시킬 수 없습니다.",
+      "constraints": [
+        {
+          "en": "Recognition vs. everyday experience — a list rewards reputation, but passengers judge the airport by queues, transfers and service on an ordinary day.",
+          "kr": "인정 대 일상 경험 — 목록은 평판을 평가하지만, 승객은 평범한 하루의 대기 줄과 환승, 서비스로 공항을 판단합니다."
+        },
+        {
+          "en": "Repair time vs. capacity — closing a section to fix it removes capacity exactly when flights and passengers still need it; postponing the work keeps the problem alive.",
+          "kr": "공사 기간 대 수용력 — 고치려면 일부를 닫아야 하지만 그때도 항공편과 승객은 그 자리를 필요로 합니다. 공사를 미루면 문제는 그대로 남습니다."
+        },
+        {
+          "en": "Cost vs. access — upgrades funded by fees fall hardest on students and families who travel often on tight budgets; upgrades funded publicly compete with other services.",
+          "kr": "비용 대 접근성 — 수수료로 충당하면 자주 여행하는 유학생과 가족에게 부담이 집중되고, 공적 예산으로 충당하면 다른 공공 서비스와 경쟁해야 합니다."
+        }
+      ],
+      "question_en": "You chair a committee with one year and a budget that cannot cover everything. Choose the three improvements you would start first, the one you would postpone, and one standard — safety, honesty about delays, or fair pricing — that you would refuse to lower even if it slowed the rest. Then write what you would say publicly to the travellers whose problem will not be fixed this year, and explain how you would prove at the end of the year whether the recognition was deserved.",
+      "question_kr": "당신은 1년의 기간과 모든 일을 다 할 수는 없는 예산을 가진 위원회의 의장입니다. 가장 먼저 착수할 개선 세 가지와 미룰 한 가지, 그리고 나머지가 느려지더라도 낮추지 않을 기준 하나(안전, 지연에 대한 정직한 안내, 공정한 요금 중에서)를 정해 봅시다. 이어서 올해 안에 문제가 해결되지 않는 승객들에게 공개적으로 무슨 말을 할지 쓰고, 연말에 그 인정이 정당했는지를 어떻게 입증할지 설명해 봅시다.",
+      "evaluation_lens": [
+        {
+          "en": "Feasibility — can the three first moves actually be finished within one year with the people, money and terminal space available?",
+          "kr": "실현 가능성 — 그 세 가지를 1년 안에 가용한 인력·예산·터미널 공간으로 실제 완료할 수 있는가"
+        },
+        {
+          "en": "Unintended consequences — who carries the cost of your choice, and what could get worse while you fix something else?",
+          "kr": "의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며, 다른 것을 고치는 동안 무엇이 더 나빠질 수 있는가"
+        },
+        {
+          "en": "Evidence and accountability — what would count as proof at the end of the year, and who answers if the queues are no shorter?",
+          "kr": "근거와 책임 — 연말에 무엇을 성과의 증거로 인정할 것인가, 대기 줄이 줄지 않았다면 누가 책임지는가"
+        }
+      ]
+    }
   }
 }

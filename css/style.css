@@ -4011,6 +4011,146 @@ body.lang-kr .academy-insight p {
     color: var(--text);
 }
 
+/* ── STEP 03 · CONUNDRUM (복합 난제 해결 과제) ────────────── */
+.tok-card-dilemma {
+    position: relative;
+    gap: 16px;
+    border-color: rgba(255, 62, 0, 0.45);
+    border-top: 2px solid var(--accent);
+    background:
+        radial-gradient(720px 240px at 90% -30%, rgba(255, 62, 0, 0.15), transparent 62%),
+        linear-gradient(180deg, #171717, #141414);
+}
+
+.tok-dilemma-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(255, 62, 0, 0.22);
+}
+
+.tok-dilemma-kicker {
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 2.2px;
+    color: var(--accent-warm);
+    margin-bottom: 6px;
+}
+
+.tok-dilemma-head h3 { font-size: 1.12rem; }
+
+.tok-dilemma-badge {
+    flex: 0 0 auto;
+    font-family: 'Rajdhani', 'Outfit', sans-serif;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #ffb199;
+    background: rgba(255, 62, 0, 0.12);
+    border: 1px solid rgba(255, 107, 53, 0.45);
+    border-radius: 999px;
+    padding: 5px 13px;
+    white-space: nowrap;
+}
+
+.tok-dilemma-scenario {
+    font-family: Georgia, "Times New Roman", "Noto Serif KR", "Apple Myungjo", "Batang", serif;
+    font-size: 1rem;
+    line-height: 1.78;
+    color: var(--text);
+}
+
+.tok-dilemma-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tok-dilemma-label {
+    display: block;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.tok-dilemma-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.tok-dilemma-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-left: 2px solid rgba(255, 107, 53, 0.55);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+}
+
+.tok-dilemma-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.66rem;
+    color: var(--accent-warm);
+    padding-top: 2px;
+}
+
+.tok-dilemma-item p {
+    font-size: 0.84rem;
+    line-height: 1.66;
+    color: var(--text-secondary);
+}
+
+.tok-dilemma-task {
+    padding: 18px 20px;
+    background: rgba(255, 62, 0, 0.08);
+    border: 1px solid rgba(255, 62, 0, 0.35);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+}
+
+.tok-dilemma-task .tok-dilemma-label {
+    color: var(--accent-warm);
+    margin-bottom: 8px;
+}
+
+.tok-dilemma-question {
+    font-size: 0.98rem;
+    line-height: 1.72;
+    color: var(--text);
+}
+
+.tok-dilemma-lens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tok-lens-chip {
+    font-size: 0.76rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-light);
+    border-radius: 999px;
+    padding: 5px 13px;
+}
+
+.tok-lens-chip b {
+    color: #ffb199;
+    font-weight: 700;
+}
+
+.tok-card-essay { border-color: rgba(26, 94, 199, 0.4); }
+
 .tok-concepts {
     position: relative;
     z-index: 1;
@@ -4135,6 +4275,7 @@ body.lang-kr .academy-insight p {
 
 @media (max-width: 900px) {
     .tok-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .tok-dilemma-grid { grid-template-columns: 1fr; }
     .st-inner { grid-template-columns: 1fr; }
 }
 
@@ -4161,6 +4302,16 @@ body.lang-kr .academy-insight p {
     .tok-grid { grid-template-columns: 1fr; }
 
     .tok-claims { grid-template-columns: 1fr; }
+
+    .tok-dilemma-head { flex-direction: column; gap: 10px; }
+
+    .tok-dilemma-badge { align-self: flex-start; }
+
+    .tok-dilemma-scenario { font-size: 0.94rem; }
+
+    .tok-dilemma-task { padding: 16px 16px; }
+
+    .tok-dilemma-question { font-size: 0.94rem; }
 
     .tok-badge { align-self: flex-start; }
 

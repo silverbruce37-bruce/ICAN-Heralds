@@ -445,7 +445,25 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"dig_deeper_en\": \"A TED-Ed Dig Deeper style research task (find a primary source)\",
     \"dig_deeper_kr\": \"같은 과제의 한국어\",
     \"essay_task_en\": \"TOK essay extension task (about 150 words) with AOK and WOK named\",
-    \"essay_task_kr\": \"같은 과제의 한국어\"
+    \"essay_task_kr\": \"같은 과제의 한국어\",
+    \"complex_dilemma\": {
+      \"title_en\": \"Conundrum · Complex Problem-Solving\",
+      \"title_kr\": \"Conundrum · 복합 난제 해결 과제\",
+      \"scenario_en\": \"A realistic multi-stakeholder scenario (4-6 sentences) built from today's cover story: name the groups involved, what each one needs, and why those needs cannot all be met at once. Use only facts from the story — no invented statistics, names or quotes.\",
+      \"scenario_kr\": \"오늘 커버 스토리에 근거한 복합 상황 설명 (4-6문장). 관련 집단, 각 집단이 원하는 것, 그것이 동시에 충족될 수 없는 이유를 담은 한국어.\",
+      \"constraints\": [
+        {\"en\": \"First competing constraint: one group's need that directly conflicts with another's\", \"kr\": \"첫 번째 상충 조건의 한국어\"},
+        {\"en\": \"Second competing constraint: a limit such as time, budget, capacity or public trust\", \"kr\": \"두 번째 상충 조건의 한국어\"},
+        {\"en\": \"Third competing constraint: the cost that falls on a third group if the other two are satisfied\", \"kr\": \"세 번째 상충 조건의 한국어\"}
+      ],
+      \"question_en\": \"An open-ended problem-solving question: design a concrete plan, weigh the trade-offs, and state what you would sacrifice and what you would protect first. It must not be answerable with yes or no.\",
+      \"question_kr\": \"같은 과제 질문의 한국어 (해결안을 설계하고, 상충하는 가치 사이에서 무엇을 먼저 포기하고 무엇을 지킬지 근거와 함께 쓰게 하는 질문)\",
+      \"evaluation_lens\": [
+        {\"en\": \"Feasibility — can the plan actually be carried out with the people, money and time available?\", \"kr\": \"실현 가능성 — 가용한 사람·예산·시간으로 실제 실행할 수 있는가\"},
+        {\"en\": \"Unintended consequences — who bears the cost of this choice, and what could go wrong?\", \"kr\": \"의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며 무엇이 잘못될 수 있는가\"},
+        {\"en\": \"Evidence and accountability — how would we know it worked, and who answers if it fails?\", \"kr\": \"근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가\"}
+      ]
+    }
   }
 }
 
@@ -456,6 +474,10 @@ IMPORTANT RULES:
 - The word_of_day must appear meaningfully in the cover story.
 - practice.det_question must be answerable from today's story in one minute; it must be a real DET-style prompt, not a TOK question.
 - knowledge_layer.tok_question must be a genuine TOK knowledge question about knowledge itself (how we know), not a current-events question.
+- knowledge_layer.complex_dilemma must be a dilemma, not a quiz. Build it only from facts in today's cover story, with two or three named stakeholder groups whose needs genuinely conflict, three competing constraints, one open-ended design question, and three evaluation criteria.
+- The dilemma question must force a choice under scarcity and ask the learner to justify what they sacrifice and what they safeguard first. A single correct answer or a simple yes/no answer means the question has failed.
+- knowledge_layer.complex_dilemma is shown to learners as a Conundrum card; keep its title exactly “Conundrum · Complex Problem-Solving” / “Conundrum · 복합 난제 해결 과제”.
+- The dilemma scenario must never invent numbers, people, organisations or quotes. If the story gives no figure, the scenario names no figure.
 - aok values must come from: Mathematics, Natural Sciences, Human Sciences, History, The Arts, Ethics. wok values from: Language, Sense perception, Emotion, Reason, Imagination, Faith, Intuition, Memory.
 - teded_keyword: a searchable concept, never a fabricated lesson title or URL.
 - Every Korean line must read like natural Korean written for learners, not machine translation.

@@ -11,6 +11,9 @@ so the dashboard can never show invented numbers.
      when the URL was actually returned by the RSS fetcher (no fake links)
   4. Learning layer guard: fills any missing DET / TED-Ed / TOK fields with a
      deterministic fallback so the practice sections always render.
+  5. Dilemma guard: keeps knowledge_layer.complex_dilemma complete (story-
+     grounded scenario, competing constraints, open question, evaluation lens)
+     so the STEP 03 complex problem-solving challenge always renders.
 
 Usage:
     python3 scripts/fetch-live-data.py --json data/daily-2026-11-26.json \
@@ -401,6 +404,150 @@ def _topic_phrase(daily):
     return headline or word or "today's news"
 
 
+# ── 5b. Complex problem-solving dilemma ─────────────────────────────────────
+# The daily prompt asks the AI for knowledge_layer.complex_dilemma. When the
+# model omits it (or returns a half-built object), this builds a story-grounded
+# dilemma from today's cover story so STEP 03 always carries the challenge.
+DILEMMA_CONSTRAINTS = [
+    {
+        "en": "Time and certainty — a decision is expected before all the evidence is in.",
+        "kr": "시간과 확실성 — 모든 근거가 확인되기 전에 결정을 내려야 합니다.",
+    },
+    {
+        "en": "Cost and fairness — every option spends money, staff or attention that another group also needs.",
+        "kr": "비용과 공정성 — 어떤 선택이든 다른 집단도 필요로 하는 돈, 인력, 관심을 쓰게 됩니다.",
+    },
+    {
+        "en": "Trust and accountability — the people affected judge the decision by how openly it is explained and reviewed.",
+        "kr": "신뢰와 책임 — 영향을 받는 사람들은 결정이 얼마나 투명하게 설명되고 점검되는지로 판단합니다.",
+    },
+]
+
+DILEMMA_LENS = [
+    {
+        "en": "Feasibility — can the plan actually be carried out with the people, money and time available?",
+        "kr": "실현 가능성 — 가용한 사람·예산·시간으로 실제 실행할 수 있는가",
+    },
+    {
+        "en": "Unintended consequences — who bears the cost of this choice, and what could go wrong?",
+        "kr": "의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며 무엇이 잘못될 수 있는가",
+    },
+    {
+        "en": "Evidence and accountability — how would we know it worked, and who answers if it fails?",
+        "kr": "근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가",
+    },
+]
+
+
+def _bilingual(value):
+    """Read a string or an {en, kr} object as a bilingual pair."""
+    if isinstance(value, dict):
+        en = str(value.get("en") or value.get("text_en") or "").strip()
+        kr = str(value.get("kr") or value.get("text_kr") or "").strip()
+        return en, (kr or en)
+    text = str(value or "").strip()
+    return text, text
+
+
+def _same_dimension(left, right):
+    """True when two criteria open with the same keyword (Feasibility, Trust …)."""
+    def head(item):
+        text = str(item.get("en") or "").lower()
+        for dash in (" — ", " - ", " – ", ":"):
+            text = text.split(dash)[0]
+        return text.strip()
+    a, b = head(left), head(right)
+    return bool(a) and bool(b) and (a == b or a.startswith(b) or b.startswith(a))
+
+
+def _bilingual_list(value, defaults, minimum=2):
+    """Normalise a list of strings or {en, kr} objects and pad short lists."""
+    out = []
+    for item in value if isinstance(value, list) else []:
+        en, kr = _bilingual(item)
+        if en or kr:
+            out.append({"en": en or kr, "kr": kr or en})
+    if not out:
+        return [dict(default) for default in defaults[:3]]
+    for default in defaults:
+        if len(out) >= minimum:
+            break
+        if not any(_same_dimension(default, existing) for existing in out):
+            out.append(dict(default))
+    return out
+
+
+def ensure_complex_dilemma(layer, daily, topic_en, topic_kr):
+    """Guarantee a complete, story-grounded complex_dilemma object."""
+    cover = daily.get("cover_story", {}) or {}
+    headline_en = (cover.get("headline_en") or "").strip() or "today's story"
+    headline_kr = (cover.get("headline_kr") or "").strip() or topic_kr
+    subtitle_en = (cover.get("subtitle_en") or "").strip()
+    subtitle_kr = (cover.get("subtitle_kr") or "").strip()
+
+    scenario_default_en = (
+        "%s. %s In this challenge you are the person who has to act while the evidence is still "
+        "incomplete. Readers, institutions and the people closest to the story all want something "
+        "different from it: some want a clear public answer now, some want proof first, and some "
+        "want to be protected from the cost of either choice. The story does not settle which of "
+        "those demands should win, and no option satisfies all three at once."
+        % (headline_en, subtitle_en)
+    ).replace("  ", " ").strip()
+    scenario_default_kr = (
+        "%s. %s 이 과제에서 당신은 근거가 아직 충분하지 않은 상태에서 결정을 내려야 하는 사람입니다. "
+        "독자와 기관, 그리고 사안에 가장 가까운 사람들은 서로 다른 것을 원합니다. 어떤 이는 지금 분명한 공적 답을 "
+        "원하고, 어떤 이는 먼저 검증된 근거를 원하며, 또 어떤 이는 어느 쪽을 택하든 그 비용에서 보호받기를 "
+        "원합니다. 기사는 이 요구들 가운데 무엇이 우선인지 결론내리지 않으며, 세 가지를 동시에 만족시키는 선택지는 "
+        "없습니다."
+        % (headline_kr, subtitle_kr or "")
+    ).replace("  ", " ").strip()
+
+    question_default_en = (
+        "Design a six-month plan for the people responsible for this issue. Decide which option you "
+        "would act on first, which you would delay, and what you would refuse to give up even if it "
+        "made everything else slower. Then justify the trade-off you accepted and explain how the "
+        "groups who lose something in your plan would be told and heard."
+    )
+    question_default_kr = (
+        "이 사안을 책임진 사람들을 위한 6개월 계획을 설계해 봅시다. 어느 선택을 가장 먼저 실행하고, 무엇을 "
+        "미루며, 나머지가 느려지더라도 포기하지 않을 것은 무엇인지 정해 보세요. 이어서 받아들인 상충 관계를 "
+        "근거와 함께 설명하고, 계획에서 손해를 보는 집단에게 어떻게 알리고 의견을 들을지 밝혀 봅시다."
+    )
+
+    cd = layer.get("complex_dilemma")
+    if not isinstance(cd, dict):
+        cd = {}
+        filled_now = True
+    else:
+        filled_now = False
+
+    changed = []
+    defaults = {
+        "title_en": ("Conundrum · Complex Problem-Solving", "Conundrum · 복합 난제 해결 과제"),
+        "scenario_en": (scenario_default_en, scenario_default_kr),
+        "question_en": (question_default_en, question_default_kr),
+    }
+    for key, (default_en, default_kr) in defaults.items():
+        en, kr = _bilingual(cd.get(key))
+        kr_key = key.replace("_en", "_kr")
+        kr_value, _ = _bilingual(cd.get(kr_key))
+        if not en:
+            cd[key] = default_en
+            changed.append(key)
+            en = default_en
+        if not kr_value:
+            cd[kr_key] = default_kr
+            changed.append(kr_key)
+
+    cd["constraints"] = _bilingual_list(cd.get("constraints"), DILEMMA_CONSTRAINTS, 2)
+    cd["evaluation_lens"] = _bilingual_list(cd.get("evaluation_lens"), DILEMMA_LENS, 2)
+
+    layer["complex_dilemma"] = cd
+    if filled_now or changed:
+        return ["complex_dilemma"]
+    return []
+
+
 def ensure_learning(daily):
     """Fill any missing practice / knowledge fields so the sections always render."""
     date_str = daily.get("edition_date", "")
@@ -506,6 +653,7 @@ def ensure_learning(daily):
             "TOK 확장 과제(150단어): 위 지식 질문에 답하고, 지식 영역(AOK) 하나와 인식 방법(WOK) 하나를 밝힌 뒤, "
             "자신의 답을 복잡하게 만드는 반례를 하나 제시해 봅시다."
         )
+    filled.extend(ensure_complex_dilemma(layer, daily, topic_en, topic_kr))
     return filled
 
 

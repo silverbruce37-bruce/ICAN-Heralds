@@ -303,7 +303,7 @@ def build_learning_path(daily):
     steps = [
         ("01", "Today&rsquo;s News", "오늘의 뉴스", "Read the story first", "오늘 기사를 먼저 읽습니다", "#coverStory", "BRIEF"),
         ("02", "Background Layers", "배경지식 레이어", "Widen L1 → L2 → L3", "L1 → L2 → L3로 넓히기", "#learning-track", "L1 – L4"),
-        ("03", "TED-Ed × TOK", "TED-Ed × TOK 사고 확장", "Ask what we can know", "무엇을 알 수 있는지 질문하기", "#tok-lab", "AOK · WOK"),
+        ("03", "TED-Ed × TOK", "TED-Ed × TOK 사고 확장", "Ask what we can know, then face the conundrum", "무엇을 알 수 있는지 묻고, 난제에 도전하기", "#tok-lab", "AOK · WOK · CONUNDRUM"),
         ("04", "DET · Essay", "DET · 에세이 실전", "Say it in 60s, write 150 words", "60초로 말하고 150단어로 쓰기", "#practice-studio", "60 SEC"),
     ]
 
@@ -909,6 +909,130 @@ def build_practice_studio(daily):
         </section>'''
 
 
+def build_dilemma_card(layer):
+    """Complex problem-solving challenge: scenario, competing constraints, task, evaluation lens."""
+    dilemma = layer.get("complex_dilemma")
+    if not isinstance(dilemma, dict):
+        return ""
+
+    def pair(key):
+        """Read title_en/title_kr style fields, or a single {en, kr} object."""
+        base = key[:-3] if key.endswith("_en") else key
+        en_raw = dilemma.get(base + "_en") if dilemma.get(base + "_en") is not None else dilemma.get(base)
+        kr_raw = dilemma.get(base + "_kr")
+        if isinstance(en_raw, dict) or isinstance(kr_raw, dict):
+            en, kr = pair_text(en_raw if isinstance(en_raw, dict) else en_raw)
+            kr_en, kr_kr = pair_text(kr_raw if isinstance(kr_raw, dict) else kr_raw)
+            return en, (kr_kr or kr or en)
+        en = str(en_raw or "").strip()
+        kr = str(kr_raw or "").strip()
+        return en, (kr or en)
+
+    title_en, title_kr = pair("title_en")
+    scenario_en, scenario_kr = pair("scenario_en")
+    question_en, question_kr = pair("question_en")
+    if not question_en:
+        return ""
+
+    def item_list(key, minimum=2):
+        raw = dilemma.get(key)
+        items = []
+        for item in raw if isinstance(raw, list) else []:
+            en, kr = pair_text(item)
+            if en or kr:
+                items.append((en, kr))
+        return items[:3] if len(items) >= minimum else []
+
+    def pair_text(item):
+        if isinstance(item, dict):
+            en = str(item.get("en") or item.get("text_en") or "").strip()
+            kr = str(item.get("kr") or item.get("text_kr") or "").strip()
+        else:
+            en = str(item or "").strip()
+            kr = ""
+        return en, (kr or en)
+
+    def split_criterion(text):
+        for dash in (" — ", " – ", " - ", "—"):
+            if dash in text:
+                head, tail = text.split(dash, 1)
+                if head.strip() and tail.strip():
+                    return head.strip(), tail.strip()
+        return "", text.strip()
+
+    def render_item(index, en, kr):
+        return (
+            f'<div class="tok-dilemma-item">'
+            f'<span class="tok-dilemma-num">{index:02d}</span>'
+            f'<p><span class="en-content">{en}</span><span class="kr-content">{kr}</span></p>'
+            f'</div>'
+        )
+
+    constraints = [
+        render_item(i, en, kr) for i, (en, kr) in enumerate(item_list("constraints"), 1)
+    ]
+
+    lenses = []
+    for en, kr in item_list("evaluation_lens", 2):
+        en_head, en_body = split_criterion(en)
+        kr_head, kr_body = split_criterion(kr)
+        en_html = f'<b>{en_head}</b>{en_body}' if en_head else en_body
+        kr_html = f'<b>{kr_head}</b>{kr_body}' if kr_head else kr_body
+        if en_head and en_body and not en_body.startswith((" ", "—", "–", "-")):
+            en_html = f'<b>{en_head}</b> — {en_body}'
+        if kr_head and kr_body and not kr_body.startswith((" ", "—", "–", "-")):
+            kr_html = f'<b>{kr_head}</b> — {kr_body}'
+        lenses.append(
+            f'<span class="tok-lens-chip">'
+            f'<span class="en-content">{en_html}</span>'
+            f'<span class="kr-content">{kr_html}</span></span>'
+        )
+
+    constraints_html = (
+        f'''
+                <div class="tok-dilemma-block">
+                    <span class="tok-dilemma-label"><span class="en-content">Competing constraints</span><span class="kr-content">상충하는 조건</span></span>
+                    <div class="tok-dilemma-grid">{"".join(constraints)}</div>
+                </div>'''
+        if constraints
+        else ""
+    )
+    lens_html = (
+        f'''
+                <div class="tok-dilemma-block">
+                    <span class="tok-dilemma-label"><span class="en-content">Evaluation lens</span><span class="kr-content">평가 기준</span></span>
+                    <div class="tok-dilemma-lens">{"".join(lenses)}</div>
+                </div>'''
+        if lenses
+        else ""
+    )
+
+    return f'''
+                <article class="tok-card tok-card-wide tok-card-dilemma">
+                    <div class="tok-dilemma-head">
+                        <div class="tok-card-head">
+                            <span class="tok-card-icon">🧩</span>
+                            <div>
+                                <span class="tok-dilemma-kicker">STEP 03 · CONUNDRUM</span>
+                                <h3><span class="en-content">{title_en or "Conundrum · Complex Problem-Solving"}</span><span class="kr-content">{title_kr or "Conundrum · 복합 난제 해결 과제"}</span></h3>
+                            </div>
+                        </div>
+                        <span class="tok-dilemma-badge"><span class="en-content">Open-ended · No single answer</span><span class="kr-content">정답 없는 개방형 과제</span></span>
+                    </div>
+                    <p class="tok-dilemma-scenario">
+                        <span class="en-content">{scenario_en}</span>
+                        <span class="kr-content">{scenario_kr}</span>
+                    </p>{constraints_html}
+                <div class="tok-dilemma-task">
+                    <span class="tok-dilemma-label"><span class="en-content">Your task</span><span class="kr-content">과제</span></span>
+                    <p class="tok-dilemma-question">
+                        <span class="en-content">{question_en}</span>
+                        <span class="kr-content">{question_kr}</span>
+                    </p>
+                </div>{lens_html}
+                </article>'''
+
+
 def build_tok_lab(daily):
     """TED-Ed × IB TOK lab: knowledge question, AOK/WOK, Think, Dig Deeper, essay extension."""
     layer = daily.get("knowledge_layer", {}) or {}
@@ -942,6 +1066,7 @@ def build_tok_lab(daily):
     aok_kr = layer.get("aok_kr", "") or aok
     wok = layer.get("wok_en", "") or ""
     wok_kr = layer.get("wok_kr", "") or wok
+    dilemma_card = build_dilemma_card(layer)
 
     return f'''
         <section id="tok-lab" class="tok-lab">
@@ -953,8 +1078,8 @@ def build_tok_lab(daily):
                         <span class="kr-content">토큰 오브 날리지 · TOK 랩</span>
                     </h2>
                     <p class="studio-copy">
-                        <span class="en-content">Layers on one story become a question about knowledge itself. Follow the question, test the claim, then write.</span>
-                        <span class="kr-content">한 기사의 레이어가 &lsquo;지식&rsquo;에 대한 질문으로 이어집니다. 질문을 따라가며 주장을 검증하고, 글로 써 보세요.</span>
+                        <span class="en-content">Layers on one story become a question about knowledge itself. Follow the question, test the claim, then face the conundrum and write.</span>
+                        <span class="kr-content">한 기사의 레이어가 &lsquo;지식&rsquo;에 대한 질문으로 이어집니다. 질문을 따라가며 주장을 검증하고, 난제에 도전한 뒤 글로 써 보세요.</span>
                     </p>
                 </div>
                 <span class="tok-badge">TOK · TOKEN OF KNOWLEDGE</span>
@@ -1029,6 +1154,13 @@ def build_tok_lab(daily):
                             <p><span class="en-content">{layer.get("counterclaim_en", "")}</span><span class="kr-content">{layer.get("counterclaim_kr", "")}</span></p>
                         </div>
                     </div>
+                </article>{dilemma_card}
+
+                <article class="tok-card tok-card-wide tok-card-essay">
+                    <div class="tok-card-head">
+                        <span class="tok-card-icon">✍️</span>
+                        <h3><span class="en-content">TOK Essay Extension</span><span class="kr-content">TOK 에세이 확장</span></h3>
+                    </div>
                     <div class="tok-essay">
                         <span class="tok-essay-label">
                             <span class="en-content">TOK Essay Extension · 150 words</span>
@@ -1092,7 +1224,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v11"
+    ver = date_str.replace("-", "") + "_v12"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
