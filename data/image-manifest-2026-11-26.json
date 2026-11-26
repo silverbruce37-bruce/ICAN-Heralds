@@ -1,0 +1,79 @@
+{
+ "version": 1,
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T23:44:20Z",
+ "items": {
+  "cover": {
+   "key": "cover",
+   "src": "images/editions/2026-11-26/cover.jpg",
+   "provider": "editorial-generated",
+   "query": "NAIA airport passenger terminal",
+   "prompt": "Bright modern Manila airport passenger terminal: departure hall, travellers with luggage, check-in counters, tall glass walls, warm morning daylight, photorealistic editorial photograph, 35mm, no text/logos.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/nation/1010833/marcos-on-naia-in-time-s-best-airports-list-we-ve-come-a-long-way/story/",
+   "bytes": 243911,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  },
+  "feat": {
+   "key": "feat",
+   "src": "images/editions/2026-11-26/feat.jpg",
+   "provider": "editorial-generated",
+   "query": "aircraft over West Philippine Sea",
+   "prompt": "White maritime patrol aircraft with propellers flying low over a deep blue tropical sea at midday, seen from a second aircraft, bright sunlight, documentary photojournalism, no insignia/text.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/26/2572693/afp-confirms-china-plane-west-philippine-sea",
+   "bytes": 87881,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  },
+  "news1": {
+   "key": "news1",
+   "src": "images/editions/2026-11-26/news1.jpg",
+   "provider": "editorial-generated",
+   "query": "Philippine farmland dry season",
+   "prompt": "Philippine rice farmland in the dry season: cracked golden-brown paddies, farmer in a wide-brim hat on a field bund, bright tropical midday light, 35mm documentary photograph.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/business/2026/11/26/2572594/dar-earmarks-p600-million-el-nio-response-2027",
+   "bytes": 202364,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  },
+  "news2": {
+   "key": "news2",
+   "src": "images/editions/2026-11-26/news2.jpg",
+   "provider": "editorial-generated",
+   "query": "pageant stage crown",
+   "prompt": "Beauty pageant stage: ornate rhinestone crown on a satin pedestal in sharp focus, softly blurred warm cream and gold stage with gowns behind, bright well-exposed lighting, 85mm.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/26/2572686/philippines-misses-crown-bids-miss-universe-miss-international",
+   "bytes": 100417,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  },
+  "news3": {
+   "key": "news3",
+   "src": "images/editions/2026-11-26/news3.jpg",
+   "provider": "editorial-generated",
+   "query": "rocket launcher defense systems",
+   "prompt": "Military multiple-rocket-launcher truck on an open field at a defense equipment exhibition, bright overcast daylight, launch tubes angled skyward, documentary photojournalism, no insignia.",
+   "credit": "",
+   "source_url": "",
+   "bytes": 118322,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  },
+  "news4": {
+   "key": "news4",
+   "src": "images/editions/2026-11-26/news4.jpg",
+   "provider": "editorial-generated",
+   "query": "electricity transmission lines Visayas",
+   "prompt": "High-voltage transmission towers and power lines crossing green tropical hills in the Philippines, bright blue sky with soft clouds, sunny midday light, 35mm landscape photograph.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/regions/1010821/ngcp-visayas-grid-under-yellow-alert-on-thursday-nov-26-2026/story/",
+   "bytes": 137260,
+   "status": "created",
+   "created_at": "2026-11-26T23:44:20Z"
+  }
+ }
+}
