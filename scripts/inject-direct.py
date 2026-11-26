@@ -758,7 +758,7 @@ def build_weekly_sections(weekly, date_dot):
         picks_html = f'''
         <section id="picks">
             <h2 class="section-title">
-                <span class="en-content">Herald\\'s Pick</span>
+                <span class="en-content">Herald&rsquo;s Pick</span>
                 <span class="kr-content">헤럴드 픽</span>
             </h2>
             <div class="picks-card">
@@ -1091,7 +1091,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v9"
+    ver = date_str.replace("-", "") + "_v10"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1139,12 +1139,15 @@ def build_html(daily, weekly):
 
     word_html = ""
     if word:
+        _pron = str(word.get('pronunciation', '')).strip().strip('/').strip('[]')
+        _pron = _pron.replace('/', '').strip()
+        pron = _pron
         word_html = f'''
         <section class="word-banner">
             <div class="word-inner">
                 <div class="word-badge"><span class="en-content">WORD OF THE DAY</span><span class="kr-content">오늘의 단어</span></div>
                 <h2 class="word-title">{word.get('word', '')}</h2>
-                <div class="word-pronunciation">/{word.get('pronunciation', '')}/ — {word.get('type', 'noun')}</div>
+                <div class="word-pronunciation">/{pron}/ — {word.get('type', 'noun')}</div>
                 <p class="word-desc"><span class="en-content">{word.get('definition_en', '')}</span><span class="kr-content">{word.get('definition_kr', '')}</span></p>
                 <p class="word-example"><span class="en-content"><em>"{word.get('example_en', '')}"</em></span><span class="kr-content"><em>"{word.get('example_kr', '')}"</em></span></p>
                 <div class="word-grade">{word.get('grade', 'A+')}</div>

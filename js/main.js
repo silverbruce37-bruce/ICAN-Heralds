@@ -150,10 +150,13 @@ function renderHeraldCover(story) {
     }
 }
 
-// Korea Herald World top story: rendered through our API to avoid browser CORS.
+// Korea Herald World top story fallback: used only when the server-rendered
+// cover is empty. The daily edition now ships its own grounded cover story
+// (real RSS headline + real source link), so this must never overwrite it.
 document.addEventListener('DOMContentLoaded', () => {
     const coverTitleEl = document.getElementById('coverStoryTitle');
     if (!coverTitleEl) return;
+    if (coverTitleEl.textContent.trim()) return; // server cover present — keep it
 
     fetch('/api/herald-top')
         .then(response => {
