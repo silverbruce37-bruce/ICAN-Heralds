@@ -1,0 +1,101 @@
+{
+  "edition_date": "2026-11-26",
+  "header_date_line": "THURSDAY, NOVEMBER 26, 2026 | PHILIPPINES | VOL. 208",
+  "dashboard": {
+    "php_krw_rate": "24.00",
+    "weather_en": "32°C Sunny",
+    "weather_kr": "32°C 맑음",
+    "date": "2026.11.26",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영"
+  },
+  "cover_story": {
+    "headline_en": "Practical Preparedness Strengthens Korea–Philippines Community Ties",
+    "headline_kr": "실질적인 대비가 한·필 공동체를 더 단단하게 한다",
+    "subtitle_en": "For Korean residents and visitors, everyday safety depends on clear information, reliable contacts and preparation for local conditions. A practical checklist can help families and businesses respond calmly when plans change.",
+    "subtitle_kr": "한국인 거주자와 방문객에게 일상의 안전은 정확한 정보, 신뢰할 수 있는 연락망, 현지 상황에 대한 대비에서 시작됩니다. 실용적인 점검표는 일정에 변수가 생길 때 가족과 사업체가 침착하게 대응하는 데 도움이 됩니다.",
+    "body_en": [
+      "For Koreans living in or visiting the Philippines, preparation begins with knowing where to find verified information. Keep contact details for local emergency services, building management, schools and trusted community contacts in one accessible place. Check official advisories before travel, and confirm arrangements directly with airlines, transport providers or event organizers when conditions may affect a schedule.",
+      "Families can agree on a meeting point and a backup way to communicate if mobile service is disrupted. Residents should also learn the procedures for their building or neighborhood, including how to receive alerts and where to go during an evacuation. Visitors can share their itinerary with someone they trust and keep a copy of essential travel documents separate from the originals.",
+      "Preparedness is also a community effort. Employers, schools and cultural organizations can make instructions easier to understand by sharing them in clear English and Korean, while encouraging people to rely on official updates rather than forwarded rumors. These modest steps build confidence and make cooperation between Korean and Philippine neighbors more effective."
+    ],
+    "body_kr": [
+      "필리핀에 거주하거나 방문하는 한국인에게 대비의 출발점은 신뢰할 수 있는 정보를 어디서 확인할지 아는 것입니다. 현지 긴급 연락처와 건물 관리사무소, 학교, 믿을 만한 공동체 연락망을 쉽게 찾을 수 있는 곳에 정리해 두세요. 일정에 영향을 줄 수 있는 상황이 생기면 공식 안내를 확인하고 항공사와 교통편 제공업체, 행사 주최 측에 직접 문의하는 것이 좋습니다.",
+      "가족은 휴대전화 서비스가 원활하지 않을 때를 대비해 만날 장소와 대체 연락 방법을 미리 정할 수 있습니다. 거주자는 경보를 받는 방법과 대피 장소를 포함해 건물이나 지역사회의 안전 절차를 알아두는 것이 좋습니다. 방문객은 신뢰하는 사람에게 일정을 공유하고, 중요한 여행 서류 사본은 원본과 따로 보관할 수 있습니다.",
+      "대비는 공동체가 함께할 때 더욱 효과적입니다. 직장과 학교, 문화단체는 영어와 한국어로 명확한 안내를 제공하고, 전달받은 소문보다 공식 업데이트를 확인하도록 독려할 수 있습니다. 이런 작은 실천은 서로에 대한 신뢰를 높이고 한국인과 필리핀 이웃 간 협력을 더욱 원활하게 합니다."
+    ],
+    "image_seed": "cover-2026-11-26",
+    "image_query": "Korean Filipino neighbors reviewing emergency checklist Manila community center",
+    "image_caption": "Photo: Neighbors review a bilingual preparedness checklist at a community center (November 26, 2026)",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "A Simple Contact Plan Can Help Families Handle Disruptions",
+    "headline_kr": "간단한 연락 계획이 예기치 않은 상황에서 가족을 돕는다",
+    "lead_en": "Families can reduce confusion during an emergency by agreeing in advance on a meeting point and an out-of-area contact. Keep essential numbers and key medical information accessible, and follow instructions from local authorities and building management.",
+    "lead_kr": "가족은 미리 만날 장소와 지역 밖의 연락 담당자를 정해두면 비상 상황에서 혼란을 줄일 수 있습니다. 주요 연락처와 필수 의료 정보를 쉽게 확인할 수 있도록 보관하고, 현지 당국과 건물 관리자의 안내를 따르세요.",
+    "image_seed": "feat-2026-11-26",
+    "image_query": "Korean Filipino family checking emergency contacts Manila apartment",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Exchange-Rate Checks Matter for Cross-Border Budgets",
+      "headline_kr": "국경 간 예산 관리에 환율 확인이 중요",
+      "summary_en": "Families sending money or paying expenses across currencies should compare the displayed rate, fees and final amount before confirming a transfer. The dashboard rate is a reference; providers may apply different rates and charges.",
+      "summary_kr": "해외 송금이나 외화 결제를 할 때는 거래를 확정하기 전에 표시 환율과 수수료, 최종 수령액을 비교하세요. 대시보드 환율은 참고용이며 업체별 적용 환율과 비용은 다를 수 있습니다.",
+      "image_seed": "news1-2026-11-26",
+      "image_query": "person comparing currency exchange rates phone",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "K-Food Events Offer a Taste of Cultural Exchange",
+      "headline_kr": "K-푸드 행사가 문화 교류의 맛을 더하다",
+      "summary_en": "Food gatherings can introduce Korean flavors while giving Filipino guests a chance to share local favorites. Organizers can make events more welcoming with clear ingredient and allergen labels and bilingual information.",
+      "summary_kr": "음식 행사는 한국의 맛을 소개하고 필리핀 방문객이 현지 음식을 함께 나누는 기회가 될 수 있습니다. 주최 측은 재료와 알레르기 유발 성분을 명확히 표시하고 이중언어 안내를 제공해 행사를 더욱 편안하게 만들 수 있습니다.",
+      "image_seed": "news2-2026-11-26",
+      "image_query": "Korean Filipino food tasting table",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Bilingual Information Helps Communities Work Together",
+      "headline_kr": "이중언어 정보가 공동체 협력을 돕는다",
+      "summary_en": "Clear Korean and English notices can help residents understand school, workplace and community procedures. Organizers should verify important details with the relevant institution before sharing them.",
+      "summary_kr": "한국어와 영어로 작성된 명확한 안내문은 주민들이 학교와 직장, 지역사회의 절차를 이해하는 데 도움이 됩니다. 주최 측은 중요한 내용을 배포하기 전에 관련 기관을 통해 확인해야 합니다.",
+      "image_seed": "news3-2026-11-26",
+      "image_query": "bilingual Korean English community notice",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Travelers Should Confirm Routes Before Setting Out",
+      "headline_kr": "출발 전 이동 경로를 확인하세요",
+      "summary_en": "Traffic, weather and service changes can affect travel plans. Check current information through reliable local sources, allow extra time and share your route with someone you trust.",
+      "summary_kr": "교통과 날씨, 운행 변경은 이동 계획에 영향을 줄 수 있습니다. 신뢰할 수 있는 현지 경로로 최신 정보를 확인하고 여유 시간을 확보하며, 믿을 만한 사람에게 이동 경로를 알려두세요.",
+      "image_seed": "news4-2026-11-26",
+      "image_query": "traveler checking route phone Manila street",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "Preparedness",
+    "pronunciation": "/prɪˈpɛərɪdnəs/",
+    "type": "noun",
+    "definition_en": "The state of being ready to deal with a situation or emergency.",
+    "definition_kr": "상황이나 비상사태에 대응할 수 있도록 준비된 상태.",
+    "example_en": "Preparedness begins with a clear plan and reliable information.",
+    "example_kr": "대비는 명확한 계획과 신뢰할 수 있는 정보에서 시작됩니다.",
+    "grade": "A+"
+  }
+}
