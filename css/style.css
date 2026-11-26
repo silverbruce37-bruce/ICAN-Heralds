@@ -5490,3 +5490,16 @@ body.lang-kr .sub-title { font-weight: 500; }
 
 /* Korean spans inherit the modern sans stack (no per-span Noto override) */
 .kr-content { font-family: inherit; }
+
+/* Korean headings: never break a word mid-syllable */
+body.lang-kr .main-title,
+body.lang-kr .sub-title,
+body.lang-kr .today-brief-title,
+body.lang-kr .learn-path-title,
+body.lang-kr .section-title,
+body.lang-kr .practice-question,
+body.lang-kr .tok-question,
+body.lang-kr .tok-dilemma-question {
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
