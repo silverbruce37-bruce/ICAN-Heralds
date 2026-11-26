@@ -202,8 +202,8 @@ function installApp() {
 
 // ── Archive Preview ──
 const archiveTagColors = {
-    'Security': '#ff1744', 'Economy': '#2979ff', 'Culture': '#aa00ff',
-    'Diplomacy': '#00bfa5', 'Cooperation': '#00bfa5', 'Safety': '#00e676',
+    'Security': '#F04452', 'Economy': '#3182F6', 'Culture': '#7C5CFC',
+    'Diplomacy': '#0EA5A5', 'Cooperation': '#6366F1', 'Safety': '#0E9F6E',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 
                 const tagsHTML = (ed.tags || []).slice(0, 4).map(t => {
-                    const c = archiveTagColors[t] || '#888';
+                    const c = archiveTagColors[t] || '#8B95A1';
                     return `<span class="apc-tag" style="background:${c}22;color:${c};">${t}</span>`;
                 }).join('');
 

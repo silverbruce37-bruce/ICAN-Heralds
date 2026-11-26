@@ -1224,7 +1224,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v12"
+    ver = date_str.replace("-", "") + "_v13"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1294,7 +1294,7 @@ def build_html(daily, weekly):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICAN HERALDS - Daily Edition</title>
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0a0a0a">
+    <meta name="theme-color" content="#F2F4F6">
     <meta name="description" content="필리핀 한인 커뮤니티를 위한 프리미엄 데일리 뉴스 · 맛집 · 여행 · 문화">
     <link rel="apple-touch-icon" href="images/main_article.png">
     <link rel="stylesheet" href="css/style.css?v={ver}">
