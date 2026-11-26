@@ -21,6 +21,21 @@ EMERGENCY_IMAGE = "images/emergency-placeholder.svg"
 # data/image-manifest-<date>.json — article-matched local photos built by
 # scripts/article-images.py. Keyed by cover / feat / news1..news4.
 IMAGE_MANIFEST = {}
+
+# Weekly content names fixed places (Manam, Intramuros, museums); these photos live
+# in images/static/ and are matched by their content query.
+STATIC_RULES = [
+    (re.compile(r"sisig|manam"), "images/static/manam.jpg"),
+    (re.compile(r"restaurant interior"), "images/static/gallery-food-1.jpg"),
+    (re.compile(r"food plating"), "images/static/gallery-food-2.jpg"),
+    (re.compile(r"storefront"), "images/static/gallery-food-3.jpg"),
+    (re.compile(r"ayala triangle"), "images/static/ayala-triangle.jpg"),
+    (re.compile(r"intramuros.*(heritage|walking|walk)|heritage.*intramuros"), "images/static/intramuros-walk.jpg"),
+    (re.compile(r"intramuros"), "images/static/intramuros.jpg"),
+    (re.compile(r"ayala museum"), "images/static/ayala-museum.jpg"),
+    (re.compile(r"national museum"), "images/static/national-museum.jpg"),
+    (re.compile(r"pinto art"), "images/static/pinto-art.jpg"),
+]
 IMAGE_RENDER_LOG = []
 IMAGE_STATS = {
     "total": 0,
@@ -139,6 +154,15 @@ def manifest_source(key):
     return entry
 
 
+def static_source(prompt):
+    """Fixed places of the weekly Food & Travel / Events sections — real local photos."""
+    text = str(prompt or "").lower()
+    for pattern, path in STATIC_RULES:
+        if pattern.search(text) and Path(path).exists():
+            return path
+    return None
+
+
 def image_sources(prompt, w=400, h=200, seed=None, key=None):
     """Return primary, secondary, and fallback image sources.
 
@@ -150,6 +174,10 @@ def image_sources(prompt, w=400, h=200, seed=None, key=None):
     entry = manifest_source(key)
     if entry is not None:
         return entry["src"], "", entry.get("fallback", EMERGENCY_IMAGE)
+
+    fixed = static_source(prompt)
+    if fixed:
+        return fixed, "", EMERGENCY_IMAGE
 
     primary = img_url(prompt, w, h, seed=seed, pass_no=1)
     secondary = fallback_img_url(seed, w, h)
@@ -1270,7 +1298,7 @@ def build_html(daily, weekly):
     practice_studio_html = build_practice_studio(daily)
     tok_lab_html = build_tok_lab(daily)
     super_teens_html = build_super_teens_banner()
-    cache_check_html = build_cache_check_section()
+    cache_check_html = "<!--CACHE_CHECK-->"
     cover_phrases = derive_key_phrases(cover, cover.get("subtitle_en", ""))
     feat_phrases = derive_key_phrases(feat, feat.get("lead_en", ""))
 
@@ -1278,8 +1306,12 @@ def build_html(daily, weekly):
     cover_source_url = cover.get("source_url") or "https://www.koreaherald.com/World"
     cover_source_name = cover.get("source_name") or "The Korea Herald · World"
     cover_caption = cover.get("image_caption") or (
-        f"Editorial illustration for this story · Source: {cover_source_name}"
+        f"Editorial photograph for this story · Source: {cover_source_name}"
     )
+    if manifest_source("cover") is not None:
+        # A real photo now sits here, not a generated illustration.
+        cover_caption = re.sub(r"^\s*Illustration:\s*", "Photo: ", cover_caption)
+        cover_caption = cover_caption.replace("Editorial illustration", "Editorial photograph")
     feat_source_url = feat.get("source_url") or ""
     feat_source_name = feat.get("source_name") or feat.get("desk", "News Desk")
     feat_source_link = (
@@ -1311,7 +1343,7 @@ def build_html(daily, weekly):
             </div>
         </section>'''
 
-    return f'''<!DOCTYPE html>
+    html = f'''<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -1568,6 +1600,10 @@ def build_html(daily, weekly):
     <script src="js/academy.js?v={ver}"></script>
 </body>
 </html>'''
+    # The cache panel reports on every image of the page, so it is filled after the
+    # whole document (cover and featured photos included) has been rendered.
+    html = html.replace("<!--CACHE_CHECK-->", build_cache_check_section())
+    return html
 
 
 def main():

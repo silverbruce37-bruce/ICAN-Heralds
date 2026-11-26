@@ -1,0 +1,72 @@
+{
+ "manam": {
+  "src": "images/static/manam.jpg",
+  "provider": "openverse",
+  "credit": "Daniel Y. Go",
+  "query": "sisig Filipino dish",
+  "bytes": 125346
+ },
+ "gallery-food-1": {
+  "src": "images/static/gallery-food-1.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "modern Filipino restaurant dining room interior daylight",
+  "bytes": 46054
+ },
+ "gallery-food-2": {
+  "src": "images/static/gallery-food-2.jpg",
+  "provider": "openverse",
+  "credit": "zabethanne",
+  "query": "Filipino gourmet food plating on a table close up",
+  "bytes": 53409
+ },
+ "gallery-food-3": {
+  "src": "images/static/gallery-food-3.jpg",
+  "provider": "openverse",
+  "credit": "Ramon FVelasquez",
+  "query": "restaurant facade storefront Makati daytime",
+  "bytes": 41721
+ },
+ "ayala-triangle": {
+  "src": "images/static/ayala-triangle.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "File:Ayala Triangle Gardens Plaza.jpg",
+  "bytes": 206668
+ },
+ "intramuros": {
+  "src": "images/static/intramuros.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "File:Intramuros Entrance, Manila, June 2025.jpg",
+  "bytes": 178407
+ },
+ "ayala-museum": {
+  "src": "images/static/ayala-museum.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "File:Ayala Museum, Makati, Feb 2025 (1).jpg",
+  "bytes": 89019
+ },
+ "national-museum": {
+  "src": "images/static/national-museum.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "File:National Museum of Fine Arts façade golden hour (Manila, 2024).jpg",
+  "bytes": 64178
+ },
+ "intramuros-walk": {
+  "src": "images/static/intramuros-walk.jpg",
+  "provider": "wikimedia",
+  "credit": "Wikimedia Commons",
+  "query": "File:Intramuros, Manila- Part 4 - Casa Manila - Intramuros2038.jpg",
+  "bytes": 114846
+ },
+ "pinto-art": {
+  "src": "images/static/pinto-art.jpg",
+  "provider": "openverse",
+  "credit": "Ralff Nestor Nacor",
+  "query": "Pinto Art Museum Antipolo garden gallery white building",
+  "bytes": 110360
+ }
+}
