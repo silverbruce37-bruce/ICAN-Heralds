@@ -1,0 +1,461 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:50:30.537892+08:00",
+  "feeds": [
+    {
+      "name": "GMA News",
+      "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Philstar",
+      "url": "https://www.philstar.com/rss/headlines",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Rappler",
+      "url": "https://www.rappler.com/feed/",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "GMA News · Nation",
+      "url": "https://data.gmanetwork.com/gno/rss/news/nation/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korea-Philippines",
+      "url": "https://news.google.com/rss/search?q=Korea+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Philippines",
+      "url": "https://news.google.com/rss/search?q=Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Metro Manila",
+      "url": "https://news.google.com/rss/search?q=%22Metro+Manila%22&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korean community PH",
+      "url": "https://news.google.com/rss/search?q=Korean+community+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "title": "Marcos on NAIA making TIME's best airports list: We've come a long way",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010833/marcos-on-naia-in-time-s-best-airports-list-we-ve-come-a-long-way/story/",
+      "summary": "President Ferdinand Marcos Jr. on Thursday lauded the inclusion of the Ninoy Aquino International Airport (NAIA) in the inaugural World's Best Airports list of TIME Magazine.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T12:36:09+08:00",
+      "cite": true
+    },
+    {
+      "title": "Rodrigo Duterte at ICC: A cheat sheet on understanding his case, trial",
+      "link": "https://www.rappler.com/philippines/cheat-sheet-rodrigo-duterte-icc-case-trial/",
+      "summary": "Find answers to questions like: who are his co-perpetrators, what will happen during the trial, and can the decision be appealed?",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T12:30:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Ombudsman upholds graft raps vs ex-Bohol mayor over Christmas tree billboard",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572781/ombudsman-upholds-graft-raps-vs-ex-bohol-mayor-over-christmas-tree-billboard",
+      "summary": "The Office of the Ombudsman has affirmed its indictment of former Guindulman, Bohol Mayor Albino Balo, five former and current municipal officials and a private contractor for graft, following allegations that a giant Christmas tree was unl",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T12:10:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "[Rear View] Sara Duterte’s farewell walk?",
+      "link": "https://www.rappler.com/voices/thought-leaders/rear-view-sara-duterte-recent-visits-in-strongholds-impeachment-trial-resumption/",
+      "summary": "This is not a declared presidential candidate showing off the breadth of her political coalition. This is more like one thanking the people who stood by her as she prepares her exit.",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T12:01:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Crisis aid, medical assistance funds eyed for PhilHealth",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572777/crisis-aid-medical-assistance-funds-eyed-philhealth",
+      "summary": "Sen. JV Ejercito on Thursday, November 26, explained the rationale behind cutting social welfare allocations to give the Philippine Health Insurance Corp.’s budget a P19.8-billion increase to support the implementation of the Universal Heal",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T11:37:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sandiganbayan suspends Pasay judge over bribery case",
+      "link": "https://www.rappler.com/philippines/sandiganbayan-suspends-pasay-judge-albert-cansino-bribery-case/",
+      "summary": "The judge contests the suspension, claiming only the Supreme Court has the authority to discipline judges, but the Sandiganbayan maintains that its criminal proceedings are separate from administrative actions taken by the SC",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T09:59:33+08:00",
+      "cite": true
+    },
+    {
+      "title": "How China got access to Nvidia’s AI chips despite rules to stop them",
+      "link": "https://www.rappler.com/world/us-canada/how-china-got-access-nvidia-ai-chips/",
+      "summary": "The drama around Nvidia, the top US exporter of AI chips to China, thrusts the rules into the spotlight",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T09:08:31+08:00",
+      "cite": true
+    },
+    {
+      "title": "NGCP: Visayas grid under yellow alert on Thursday, Nov. 26, 2026",
+      "link": "https://www.gmanetwork.com/news/topstories/regions/1010821/ngcp-visayas-grid-under-yellow-alert-on-thursday-nov-26-2026/story/",
+      "summary": "The Visayas power grid will be placed under yellow alert Thursday afternoon to evening, raising the possibility of power interruptions amid the unavailability of several power plants.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T09:07:45+08:00",
+      "cite": true
+    },
+    {
+      "title": "76% of Australians struggling to tell apart real and AI content – new report",
+      "link": "https://www.rappler.com/technology/australians-struggling-real-ai-content-report/",
+      "summary": "The challenge is not just that AI-generated content is becoming more realistic. It’s that many people are unsure whether they’re able to recognize it at all.",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T08:43:28+08:00",
+      "cite": true
+    },
+    {
+      "title": "[Vantage Point] The Marcos estate tax: A test of presidential statesmanship",
+      "link": "https://www.rappler.com/voices/thought-leaders/vantage-point-marcos-estate-tax-test-presidential-statesmanship/",
+      "summary": "Taking the high ground would give real substance to the President’s own appeals for tax compliance",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T08:27:45+08:00",
+      "cite": true
+    },
+    {
+      "title": "Duran Duran guitarist and songwriter Andy Taylor dies at 65",
+      "link": "https://www.rappler.com/people/obituary/duran-duran-guitarist-songwriter-andy-taylor-dies/",
+      "summary": "'To the world, Andy was a brilliant guitarist, but to us, he was the most wonderful husband, a loving dad and the proudest grandfather,' says Taylor's wife, Tracy Wilson-Taylor",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T08:20:34+08:00",
+      "cite": true
+    },
+    {
+      "title": "DAR earmarks P600 million for El Niño response in 2027",
+      "link": "https://www.philstar.com/business/2026/11/26/2572594/dar-earmarks-p600-million-el-nio-response-2027",
+      "summary": "The fund will benefit 26,900 agrarian reform beneficiaries, 734 organizations and 579 communities.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T07:58:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "EXPLAINER: How scammers reach you, with or without your data",
+      "link": "https://www.rappler.com/technology/explainer-how-scammers-reach-you-with-or-without-your-data/",
+      "summary": "Scammers are no longer just sliding into your DMs; they have found new ways to slip onto your screen",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T07:27:16+08:00",
+      "cite": true
+    },
+    {
+      "title": "Jury selection discussed for trial of Quiboloy co-defendant Felina Salinas",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010816/jury-selection-discussed-for-trial-of-quiboloy-co-defendant-felina-salinas/story/",
+      "summary": "A federal judge and attorneys in Los Angeles discussed jury selection for the trial of Felina Salinas, also known as “Sis Eng Eng,” a Hawaii-based administrator of the Kingdom of Jesus Christ (KOJC).",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T07:25:10+08:00",
+      "cite": true
+    },
+    {
+      "title": "Taiwanese firms waiting to see US commitment before betting on Pax Silica",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572593/taiwanese-firms-waiting-see-us-commitment-betting-pax-silica",
+      "summary": "Taiwanese businesses are taking a \"wait-and-see\" stance on the proposed Pax Silica hub in New Clark City until Washington signs agreements for the project, a Taiwanese business leader said, amid signs the US is in no hurry to finalize the d",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T06:46:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Macy's Thanksgiving Day Parade postponed due to storm projections",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010814/macy-s-thanksgiving-day-parade-postponed-due-to-storm-projections/story/",
+      "summary": "The 100th annual Macy's Thanksgiving Day Parade in New York City will be postponed until Saturday due to projections of a major storm, US media reported on Wednesday.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T05:17:24+08:00",
+      "cite": true
+    },
+    {
+      "title": "30 killed, 15 injured in blaze after vehicle overturns in Egypt --health ministry",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010812/30-killed-15-injured-in-blaze-after-vehicle-overturns-in-egypt-health-ministry/story/",
+      "summary": "At least 30 people were killed and 15 injured when a vehicle carrying petroleum products overturned and caught fire on a major ring road in Egypt, the health ministry said on Wednesday.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T04:12:04+08:00",
+      "cite": true
+    },
+    {
+      "title": "Burglar breaks into Quezon City studio, eats and sleeps before theft",
+      "link": "https://www.gmanetwork.com/news/topstories/metro/1010810/burglar-breaks-into-quezon-city-studio-eats-and-sleeps-before-theft/story/",
+      "summary": "A burglar broke into a recording studio in Quezon City, but before stealing anything, he also turned on the air conditioner, slept, and ate.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T02:21:38+08:00",
+      "cite": true
+    },
+    {
+      "title": "Rodrigo Duterte camp: Link to alleged crimes against humanity \"untenable\"",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010809/rodrigo-duterte-camp-link-to-alleged-crimes-against-humanity-untenable/story/",
+      "summary": "In its major 77-page pre-trial brief released on November 25, Duterte\"s defense team questioned the Office of the Prosecutor\"s evidence that links Duterte to the allegations of murder and alleged murder during the charged period.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T02:05:05+08:00",
+      "cite": true
+    },
+    {
+      "title": "Father wins P21.69M lotto jackpot using Lucky Pick numbers",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010808/father-wins-p21-69m-lotto-jackpot-using-lucky-pick-numbers/story/",
+      "summary": "A longtime lotto player won the P21.69-million jackpot in the Philippine Charity Sweepstakes Office\"s (PCSO) Lotto 6/42 draw on October 29, 2026, after placing a Lucky Pick bet.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T01:38:57+08:00",
+      "cite": true
+    },
+    {
+      "title": "2 rider, patay sa magkahiwalay na aksidente sa Ilocos Norte",
+      "link": "https://www.gmanetwork.com/news/balitambayan/promdi/1010807/2-rider-patay-sa-magkahiwalay-na-aksidente-sa-ilocos-norte/story/",
+      "summary": "Dalawang rider na edad 22 at 36 ang nasawi sa magkahiwalay na aksidente sa Ilocos Norte.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T01:29:01+08:00",
+      "cite": true
+    },
+    {
+      "title": "Ama na nangungupahan kasama ang mga anak, panalo ng P21M sa Lotto 6/42",
+      "link": "https://www.gmanetwork.com/news/balitambayan/balita/1010806/ama-na-nangungupahan-kasama-ang-mga-anak-panalo-ng-p21m-sa-lotto-6-42/story/",
+      "summary": "Pumaldo ng P21 milyon ang isang ama matapos na ramaan ang lumabas na mga numero sa Lotto 6/42 draw ng Philippine Charity Sweepstakes Office\"s (PCSO).",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-26T00:46:52+08:00",
+      "cite": true
+    },
+    {
+      "title": "Lacson alleges House push to remove 'Anti-Epal' clause from 2027 budget",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010803/lacson-alleges-house-push-to-remove-anti-epal-clause-from-2027-budget/story/",
+      "summary": "Senator Panfilo Lacson on Wednesday floated that certain members of the House of Representatives are seeking to have the provision barring politicians from the distribution of financial assistance removed from the 2027 national budget.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T00:02:42+08:00",
+      "cite": true
+    },
+    {
+      "title": "Philippines misses crown bids in Miss Universe, Miss International",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572686/philippines-misses-crown-bids-miss-universe-miss-international",
+      "summary": "It is a sad day for the Philippines as the delegates of the country in the Miss Universe and Miss International pageants failed to bag the crown.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Romualdez appeals 90-day suspension order",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572688/romualdez-appeals-90-daysuspension-order",
+      "summary": "Leyte Rep. Martin Romualdez has asked the Sandiganbayan to reconsider its order imposing a 90-day suspension against him as he faces a P7.4-billion plunder case in connection with alleged kickbacks from government infrastructure projects.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Marcos wants multisector nutrition project sustained",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572690/marcos-wants-multisector-nutrition-project-sustained",
+      "summary": "President Marcos wants a multisectoral nutrition project to continue even after the end of its implementation this year, citing the need to sustain health measures and ensure the delivery of key services in the midst of a growing population",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "AFP confirms China plane in West Philippine Sea",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572693/afp-confirms-china-plane-west-philippine-sea",
+      "summary": "The Armed Forces of the Philippines yesterday confirmed it has monitored a Chinese H-6 strategic bomber plane over the West Philippine Sea this week.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Senate cuts P19.8 billion budget for 2 ayuda programs",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572695/senate-cuts-p198-billion-budget-2-ayuda-programs",
+      "summary": "The Senate has slashed P19.8 billion from two major cash aid programs to raise the subsidy for Philippine Health Insurance Corp. to P94.2 billion under the proposed national budget for next year, Senate finance committee chairman JV Ejercit",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "After 12 years, man receives P12.3 million lotto jackpot",
+      "link": "https://www.philstar.com/headlines/2026/11/26/2572696/after-12-years-man-receives-p123-million-lotto-jackpot",
+      "summary": "A man who spent more than a decade fighting for his P12.39-million lotto jackpot received his prize yesterday, despite his winning ticket having been partially burned by a flat iron.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-26T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "House passes bill penalizing piracy sites, counterfeit sellers up to P1 million",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010784/house-passes-bill-penalizing-piracy-sites-counterfeit-sellers-up-to-p1-million/story/",
+      "summary": "A bill increasing penalties on piracy sites and other counterfeit art sellers to P1 million has been approved on third and final reading in the House of Representatives.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T23:01:25+08:00",
+      "cite": true
+    },
+    {
+      "title": "Winning lotto bettor gets P12 million prize after 12 years",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010798/winning-lotto-bettor-gets-p12-million-prize-after-12-years/story/",
+      "summary": "A man who won the lottery 12 years ago was finally able to get his P12 million prize.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T22:37:49+08:00",
+      "cite": true
+    },
+    {
+      "title": "Trump’s offer on US energy | The wRap",
+      "link": "https://www.rappler.com/video/daily-wrap/november-25-2026/",
+      "summary": "Today’s headlines: Donald Trump, Senate, Miss Universe",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-25T22:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Here are the Philippine Navy’s newest warships",
+      "link": "https://www.rappler.com/philippines/video-navy-newest-warships/",
+      "summary": "Meet the latest acquisitions that comprise the Navy's modern fleet",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-25T21:24:15+08:00",
+      "cite": true
+    },
+    {
+      "title": "Justice Leonen concurs with dismissal but says SC should have ruled on Duterte arrest",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010792/justice-leonen-concurs-with-dismissal-but-says-sc-should-have-ruled-on-duterte-arrest/story/",
+      "summary": "Senior Associate Justice Marvic Leonen concurred with the Supreme Court's decision to dismiss the consolidated habeas corpus petitions challenging the arrest in March 2025 on a warrant from the International Criminal Court but stressed that",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T21:00:37+08:00",
+      "cite": true
+    },
+    {
+      "title": "DAR assures P600-M quick response fund amid El Niño threat",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010785/dar-assures-p600-m-quick-response-fund-amid-el-ni-o-threat/story/",
+      "summary": "The Department of Agrarian Reform (DAR) said it has a P600-million quick response fund (QRF) ready to cushion agrarian reform beneficiaries against the looming effects of Super El Niño.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T20:20:57+08:00",
+      "cite": true
+    },
+    {
+      "title": "House leaders: VP Sara's survey scores not a pass for unexplained wealth",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010773/house-leaders-vp-sara-s-survey-scores-not-a-pass-for-unexplained-wealth/story/",
+      "summary": "Vice President Sara Duterte's high ratings in opinion surveys do not give her a pass on the alleged unexplained wealth for which she has been impeached, House leaders said Wednesday.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T19:50:38+08:00",
+      "cite": true
+    },
+    {
+      "title": "DOJ vows to fast-track release of eligible PDLs aged 70 and up",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010774/doj-vows-to-fast-track-release-of-eligible-pdls-aged-70-and-up/story/",
+      "summary": "The Department of Justice (DOJ) on Wednesday committed to expedite the release of eligible persons deprived of liberty (PDLs) aged 70 and above as part of efforts to decongest jails.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T18:51:04+08:00",
+      "cite": true
+    },
+    {
+      "title": "Bill to teach students Critical Media and Info Literacy aims to counter fake news",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010766/bill-to-teach-students-critical-media-and-info-literacy-aims-to-counter-fake-news/story/",
+      "summary": "A bill requiring a Critical Media and Information Literacy subject across all levels of the Philippine educational system has been filed in the House of Representatives.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T18:33:51+08:00",
+      "cite": true
+    },
+    {
+      "title": "Ashes or sand? John Arcilla goes to NBI to check pets' remains in wake of dumped carcasses in Bulacan",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010771/john-arcilla-goes-to-nbi-to-check-pets-remains-dumped-carcasses-in-bulacan/story/",
+      "summary": "Actor John Arcilla went to the National Bureau of Investigation (NBI) on Wednesday to seek the bureau\"s help in authenticating the ashes of two of his pets. Arcilla made the move weeks after the remains of more than 20 dogs and cats were fo",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T18:21:34+08:00",
+      "cite": true
+    },
+    {
+      "title": "VP Sara questions SC dismissal of petitions challenging Rodrigo Duterte arrest",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010755/vp-sara-questions-sc-dismissal-of-petitions-challenging-rodrigo-duterte-arrest/story/",
+      "summary": "Vice President Sara Duterte on Wednesday decried the Supreme Court decision dismissing the petitions challenging the arrest of her father, former President Rodrigo Duterte, insisting that its underlying issues concern national sovereignty.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-25T16:50:27+08:00",
+      "cite": true
+    },
+    {
+      "title": "Marcos sees tourism, jobs boost from Mandarin Oriental reopening",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS2dUMVp4N3ZQX3VzNmpEQzlNYVJrbjVwVkNyOHpHYVVnU3hXUGJCV2RZdjlTUzFSR2NQV1R3djVBcmY3Y1c1MXhuVzdsT1k5V2NEMjZucWd6bUc4Q2dpX1dvdU1iODE1NEZBZ0dJb2VzUGRITW9RdklhREU0NTZZOGYtOHctV3ZlNnIzaUNiUDZMcTRWNTRGVkhn?oc=5",
+      "summary": "Marcos sees tourism, jobs boost from Mandarin Oriental reopening Philippine News Agency",
+      "source": "Philippine News Agency",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T04:35:33+00:00",
+      "cite": false
+    },
+    {
+      "title": "PH seeks 6 Chinook helicopters under $2-B US defense loan package",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVg0blNkUEJlWVAyUE01T3JuZFdvOFg1VGNCUFgyZGpYeENrQVlHejdGM1Zwc1lLdlVoMEdzRHdFTG16TlpmcG9pQzhNTnJKTlJVNXZZMFJXWGxzQXo4dFB6dTBSa0IxdldQNm55Sm9WSE05dFdDYVc5YmZSOVhmdDNhMjJQclJjRkxreUJTZDZueXY4STNwSzNOdWRac1Q5c3lJYtIBqgFBVV95cUxPdFN0TW1sdEpqRmdiY0NSNU5xaUJCYzJENTM0bUdodkxQVi05TXljSWFDekZIRWNtdmE5VTA0NWRpS1pDSlptMkViZHg4ckt5QVpfMGQyOTF2WHdZaEVrZVljc3JHMzAtQ2xTVmx4WG9LNXRRQlVmcGlmS2tCczlFTUFIUmloZWVhY2pWOUdzaG1NNEtLdG5Bbzk0WlpDVS14T3ltLVpSb1FwUQ?oc=5",
+      "summary": "PH seeks 6 Chinook helicopters under $2-B US defense loan package Inquirer.net",
+      "source": "Inquirer.net",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T04:21:00+00:00",
+      "cite": false
+    },
+    {
+      "title": "Emerging Asia’s best bond rally seen extending in Philippines",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2MtVU9GTGFuMFVvRGNjenRpYVI4ZXo0b3E0dmU3eGl3Qldob0dGR29vNkRtOVptR0N3ZHk0ZTIwX2tUSTd0ajAtbk4zT3RtVDFKOWx2T1diOG1UOWZ6R01vLWZRVzBUanVXZVFaN2VxaC00WjhDX1V3WnJ6SEhGMFRPNXFxMkVMQ29WeXVoMF91djdKd01ybFgwVHU0ai1ma2NWSHlvaXE0MDI0VDROVzRMRU8?oc=5",
+      "summary": "Emerging Asia’s best bond rally seen extending in Philippines BusinessWorld Online",
+      "source": "BusinessWorld Online",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T02:56:23+00:00",
+      "cite": false
+    },
+    {
+      "title": "S. Korea needs closer security partners in uncertain times",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVzV2dXdsNjBkdjZJWmdwRGl0SEY4aF9Jd0VpRXNhM0YyWHp3TUVDdmtjVnRaYVB2VFZkdG45WmxfZlJtOUkwQ25GOWRnRVI0amJnUm1UbFRIRUZRVXlIOElrTXVVVWhLa0ZvTThYVFRnU2xqYVpuNThUS0RFTXprcTB1blRtaDFWZENUdGpWSXBpTHpCbzN0U2xPS0ZLakgwYTVESVpR0gGrAUFVX3lxTFBFQ2ZzRnUtY3NFZkZyRjNRR0ZXeFRUQnNHX21HQVNsaDJUdVd2akZUbHc1dGtmWWZYZFdZN2VtZXVPUmdVb3FUY0pRdXZBdENVc0lDeTNqbEcxZVIxdF9nZk91THRQbWVRcG9YcVVVNlZHRUx1Q1FxanljSFpaYjlqYWtDbXBjdURsRnRFaUs0anRJd1Y2ejdFUlNzT3d5VGdZekl1c0xhSWphWQ?oc=5",
+      "summary": "S. Korea needs closer security partners in uncertain times The Korea Times",
+      "source": "The Korea Times",
+      "feed": "Google News · Korea-Philippines",
+      "published": "2026-11-26T00:30:03+00:00",
+      "cite": false
+    },
+    {
+      "title": "Korea's Chunmoo Faces India's Cheaper Pinaka in Philippine Rocket Race",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNm0zZ21QYkpCcVR2bW5QRWhpUUhqcmQxU3hpak5BQkMwaVFzOVQwWWpwb0VCaHJ6el8yOTExWkZWSm9PVkRzbW5kVGRnOWJmZUpZcEdYMU5lQW5fOFExQkRmWEVfVks4eldzWHVoUlJ6Y3pxOFR4aHRoX1dNeUVEdDFmSWRIMmdFb1l0VU5Ua1pWV041bi1xaUpsd2o3SC1V?oc=5",
+      "summary": "Korea's Chunmoo Faces India's Cheaper Pinaka in Philippine Rocket Race Seoul Economic Daily",
+      "source": "Seoul Economic Daily",
+      "feed": "Google News · Korea-Philippines",
+      "published": "2026-11-25T22:00:33+00:00",
+      "cite": false
+    }
+  ]
+}

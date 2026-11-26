@@ -3,79 +3,79 @@ var academyData = {
   "cover": {
     "tag": "News",
     "tagClass": "tag-economy",
-    "title_en": "Practical Preparedness Strengthens Korea–Philippines Community Ties",
-    "title_kr": "실질적인 대비가 한·필 공동체를 더 단단하게 한다",
-    "summary_en": "For Korean residents and visitors, everyday safety depends on clear information, reliable contacts and preparation for local conditions. A practical checklist can help families and businesses respond calmly when plans change.",
-    "summary_kr": "한국인 거주자와 방문객에게 일상의 안전은 정확한 정보, 신뢰할 수 있는 연락망, 현지 상황에 대한 대비에서 시작됩니다. 실용적인 점검표는 일정에 변수가 생길 때 가족과 사업체가 침착하게 대응하는 데 도움이 됩니다.",
+    "title_en": "Marcos says NAIA has come a long way after TIME list",
+    "title_kr": "마르코스 대통령, TIME 선정에 “NAIA 많이 발전했다”",
+    "summary_en": "The president reacted to NAIA appearing on TIME’s list of best airports. For Korean residents and visitors, the airport’s performance is part of the everyday experience of travelling to and from the Philippines.",
+    "summary_kr": "대통령은 NAIA가 TIME의 세계 최고 공항 목록에 오른 데 대해 언급했습니다. 필리핀을 오가는 한인과 방문객에게 공항의 운영 수준은 여행 경험의 중요한 부분입니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "Everyday Preparedness",
-        "title_kr": "일상 속 대비",
+        "title_en": "What an Airport Does",
+        "title_kr": "공항은 어떤 곳일까요?",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "Being prepared means knowing what to do when plans change. A simple <span class=kw>safety checklist</span> can include important phone numbers, useful information and items a family may need. Clear instructions help people stay calm and make sensible choices. Preparation is useful even when no emergency happens.",
-        "text_kr": "대비란 계획이 바뀌었을 때 무엇을 해야 하는지 미리 알아두는 것입니다. 간단한 <span class=kw>안전 점검표</span>에는 중요한 연락처와 필요한 정보, 가족에게 필요한 물품을 적을 수 있습니다. 분명한 안내는 침착하고 현명하게 행동하는 데 도움이 됩니다. 비상 상황이 생기지 않더라도 미리 준비하면 유용합니다.",
-        "bilingual_en": "A little preparation can make an unexpected day easier to handle.",
-        "bilingual_kr": "작은 준비가 예상치 못한 하루를 더 잘 대처하게 해 줍니다.",
-        "speaking_en": "Name two things you would put on your family's safety checklist.",
-        "speaking_kr": "가족 안전 점검표에 넣을 항목 두 가지를 말해 봅시다.",
-        "writing_en": "Write two checklist items that could help your family if plans change.",
-        "writing_kr": "계획이 바뀔 때 가족에게 도움이 될 점검표 항목 두 가지를 써 봅시다.",
+        "text_en": "An <span class=kw>airport</span> is a place where people board and leave airplanes. It also handles luggage, security checks, and other travel services. NAIA is a major airport serving the Philippine capital region. The article says President Marcos reacted after NAIA appeared on a TIME list of best airports.",
+        "text_kr": "<span class=kw>공항</span>은 사람들이 비행기를 타거나 내리는 곳입니다. 짐을 처리하고 보안 검색을 하는 등 여러 여행 서비스도 제공합니다. NAIA는 필리핀 수도권을 오가는 주요 공항입니다. 기사에 따르면 마르코스 대통령은 NAIA가 타임의 ‘최고 공항’ 목록에 오른 뒤 반응했습니다.",
+        "bilingual_en": "An airport is more than a runway; it is the start or finish of many journeys.",
+        "bilingual_kr": "공항은 활주로만 있는 곳이 아니라 많은 여행의 출발점이자 도착점입니다.",
+        "speaking_en": "Name two things travelers do at an airport.",
+        "speaking_kr": "공항에서 여행객이 하는 일 두 가지를 말해 봅시다.",
+        "writing_en": "Write one sentence explaining what an airport does.",
+        "writing_kr": "공항이 하는 일을 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "preparedness",
-            "kr": "대비"
+            "en": "airport",
+            "kr": "공항"
           },
           {
-            "en": "checklist",
-            "kr": "점검표"
+            "en": "traveler",
+            "kr": "여행객"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Why Clear Information Matters",
-        "title_kr": "분명한 정보가 중요한 이유",
+        "title_en": "A List Is Not the Whole Story",
+        "title_kr": "목록 하나가 모든 것을 말해 주지는 않아요",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "In a disruption, people may need to change travel, school or work plans quickly. <span class=kw>Reliable information</span> helps them decide what to do instead of relying on rumors. A useful plan also says who to contact and how family members can check in. In a community with different languages, sharing information clearly can help more people act safely.",
-        "text_kr": "예기치 못한 일이 생기면 이동이나 학교, 직장 계획을 빠르게 바꿔야 할 수 있습니다. <span class=kw>믿을 수 있는 정보</span>가 있으면 소문에 기대지 않고 다음 행동을 정할 수 있습니다. 유용한 계획에는 누구에게 연락할지, 가족끼리 어떻게 안부를 확인할지도 담깁니다. 여러 언어를 쓰는 공동체에서는 정보를 분명히 전달해야 더 많은 사람이 안전하게 행동할 수 있습니다.",
-        "bilingual_en": "A good plan connects trustworthy information with clear next steps.",
-        "bilingual_kr": "좋은 계획은 믿을 수 있는 정보와 분명한 다음 행동을 이어 줍니다.",
-        "speaking_en": "Explain why a family should choose a reliable source before sharing an urgent update.",
-        "speaking_kr": "긴급한 소식을 전하기 전에 믿을 수 있는 정보원을 확인해야 하는 이유를 말해 봅시다.",
-        "writing_en": "Write one sentence describing how your family could check in during a disruption.",
-        "writing_kr": "예기치 못한 상황에서 가족끼리 안부를 확인하는 방법을 한 문장으로 써 봅시다.",
+        "text_en": "A list can draw attention to an airport, but its meaning depends on how the list was made. Readers may want to know who chose the airports and what standards they used. The headline reports Marcos's positive reaction, but it does not give the list's full criteria or describe every part of NAIA's performance. One recognition should not be treated as proof that every traveler has the same experience.",
+        "text_kr": "목록은 공항에 관심을 모을 수 있지만, 그 의미는 목록이 어떻게 만들어졌는지에 따라 달라집니다. 누가 어떤 기준으로 공항을 골랐는지 궁금해할 수 있습니다. 제목은 마르코스 대통령의 긍정적인 반응을 전하지만, 선정 기준이나 NAIA의 모든 운영 상황을 설명하지는 않습니다. 한 번의 평가만으로 모든 여행객의 경험이 같다고 볼 수는 없습니다.",
+        "bilingual_en": "Recognition is useful information, but it is not a complete measure of every passenger's experience.",
+        "bilingual_kr": "좋은 평가는 참고가 되지만, 모든 승객의 경험을 완전히 보여 주지는 않습니다.",
+        "speaking_en": "Suggest one question you would ask about TIME's airport list.",
+        "speaking_kr": "타임의 공항 목록에 관해 궁금한 점 한 가지를 말해 봅시다.",
+        "writing_en": "Write one detail that would help you judge an airport fairly.",
+        "writing_kr": "공항을 공정하게 평가하는 데 필요한 정보 한 가지를 써 봅시다.",
         "vocab": [
           {
-            "en": "disruption",
-            "kr": "예기치 못한 상황"
+            "en": "criteria",
+            "kr": "평가 기준"
           },
           {
-            "en": "reliable",
-            "kr": "믿을 수 있는"
+            "en": "recognition",
+            "kr": "인정, 평가"
           }
         ],
         "quiz": {
-          "q_en": "What makes a safety plan useful during a disruption?",
-          "q_kr": "예기치 못한 상황에서 안전 계획이 유용한 이유는 무엇인가요?",
+          "q_en": "What does the headline alone tell us about TIME's list?",
+          "q_kr": "기사 제목만으로 타임의 목록에 대해 알 수 있는 것은 무엇일까요?",
           "opts": [
             {
-              "en": "It tells people where to find reliable information and what to do next.",
-              "kr": "믿을 수 있는 정보를 어디서 찾고 다음에 무엇을 할지 알려 준다.",
-              "correct": true
-            },
-            {
-              "en": "It guarantees that plans will never change.",
-              "kr": "계획이 절대 바뀌지 않도록 보장한다.",
+              "en": "It gives every airport's detailed score.",
+              "kr": "모든 공항의 자세한 점수를 알려 준다.",
               "correct": false
             },
             {
-              "en": "It replaces all communication with family members.",
-              "kr": "가족과의 모든 연락을 대신한다.",
+              "en": "It says NAIA appeared on the list, but not its full criteria.",
+              "kr": "NAIA가 목록에 올랐다고 전하지만 전체 선정 기준은 알려 주지 않는다.",
+              "correct": true
+            },
+            {
+              "en": "It proves that every passenger was satisfied.",
+              "kr": "모든 승객이 만족했다는 것을 증명한다.",
               "correct": false
             }
           ]
@@ -83,136 +83,146 @@ var academyData = {
       },
       {
         "depth": 3,
-        "title_en": "Preparedness for Koreans in the Philippines",
-        "title_kr": "필리핀 한인 사회의 생활 대비",
+        "title_en": "What It Means for Koreans in the Philippines",
+        "title_kr": "필리핀 한인 사회에는 어떤 의미일까요?",
         "sub_en": "Application",
         "sub_kr": "실생활 적용",
         "badge": "Advanced",
-        "text_en": "Korean residents and visitors in the Philippines may need to navigate unfamiliar local services, weather or travel conditions. Keeping key contacts and essential instructions in both Korean and English can make them easier to use. Families can agree on a check-in method and choose a trusted person to contact if they become separated. Plans should be checked and updated as circumstances change.",
-        "text_kr": "필리핀에 사는 한인과 방문객은 익숙하지 않은 현지 서비스나 날씨, 교통 상황에 대응해야 할 수 있습니다. 중요한 연락처와 안내를 한국어와 영어로 적어 두면 필요할 때 더 쉽게 확인할 수 있습니다. 가족끼리 안부를 확인할 방법과 서로 떨어졌을 때 연락할 사람을 정해 둘 수 있습니다. 상황이 바뀌면 계획도 점검하고 고쳐야 합니다.",
-        "bilingual_en": "For a cross-cultural community, practical plans work best when everyone can understand and use them.",
-        "bilingual_kr": "다문화 공동체에서는 모두가 이해하고 활용할 수 있는 실용적인 계획이 가장 효과적입니다.",
-        "speaking_en": "Describe one bilingual item a Korean family in the Philippines could keep ready.",
-        "speaking_kr": "필리핀에 사는 한인 가족이 미리 준비할 수 있는 한영 병기 자료 한 가지를 설명해 봅시다.",
-        "writing_en": "Draft a two-line check-in plan for a Korean family living in the Philippines.",
-        "writing_kr": "필리핀에 사는 한인 가족을 위한 두 줄짜리 안부 확인 계획을 써 봅시다.",
+        "text_en": "Korean residents and visitors may use NAIA when traveling to or from the Philippines. Their experience can depend on practical details such as queues, directions, and access to transport. The article does not report how Korean travelers rate the airport, so their views should not be assumed. Comparing personal experiences with broader evidence can help families plan trips more thoughtfully.",
+        "text_kr": "필리핀에 사는 한인과 방문객은 필리핀을 오갈 때 NAIA를 이용할 수 있습니다. 공항에서의 경험은 대기 줄, 안내 표지, 교통편 같은 실질적인 요소에 따라 달라질 수 있습니다. 기사에는 한국인 여행객의 평가가 나오지 않으므로 그들의 생각을 짐작해서는 안 됩니다. 개인의 경험과 더 넓은 자료를 함께 살피면 가족 여행을 더 꼼꼼히 준비할 수 있습니다.",
+        "bilingual_en": "A global ranking may interest travelers, but local needs shape their actual airport experience.",
+        "bilingual_kr": "세계적인 평가는 관심을 끌 수 있지만, 실제 공항 경험은 여행자의 구체적인 필요에 달려 있습니다.",
+        "speaking_en": "Tell a partner one airport service that matters to Korean families in the Philippines.",
+        "speaking_kr": "필리핀 한인 가족에게 중요한 공항 서비스 한 가지를 짝에게 말해 봅시다.",
+        "writing_en": "Write one practical question a Korean traveler could check before using NAIA.",
+        "writing_kr": "한국인 여행객이 NAIA를 이용하기 전에 확인할 실용적인 질문 한 가지를 써 봅시다.",
         "vocab": [
           {
-            "en": "check-in",
-            "kr": "안부 확인"
+            "en": "access",
+            "kr": "접근, 이용"
           },
           {
-            "en": "local conditions",
-            "kr": "현지 상황"
+            "en": "passenger experience",
+            "kr": "승객 경험"
           }
         ]
       },
       {
         "depth": 4,
-        "title_en": "Preparedness and Community Trust",
-        "title_kr": "대비와 공동체의 신뢰",
+        "title_en": "Debate: What Makes an Airport Best?",
+        "title_kr": "토론: 최고의 공항은 무엇으로 정할까요?",
         "sub_en": "Insight",
         "sub_kr": "심화",
         "badge": "Expert",
-        "text_en": "Preparedness is not only an individual responsibility: clear, verified public information can help whole communities respond together. At the same time, no checklist can predict every event, so people must use judgment and follow current local guidance. Communities can build trust by making information accessible while explaining what is known and what still needs confirmation. This balance makes preparation more useful than either panic or overconfidence.",
-        "text_kr": "대비는 개인만의 책임이 아닙니다. 확인된 공공 정보가 분명하게 전달되면 공동체 전체가 함께 대응하는 데 도움이 됩니다. 다만 점검표가 모든 상황을 예측할 수는 없으므로, 사람들은 판단력을 발휘하고 최신 현지 안내를 따라야 합니다. 공동체는 누구나 정보를 이용할 수 있게 하고, 확인된 내용과 더 확인해야 할 내용을 구분해 신뢰를 쌓을 수 있습니다. 이런 균형은 당황하거나 지나치게 안심하는 것보다 실질적인 대비에 도움이 됩니다.",
-        "bilingual_en": "Trustworthy preparedness combines shared information with personal judgment.",
-        "bilingual_kr": "믿을 수 있는 대비에는 공동 정보와 개인의 판단이 함께 필요합니다.",
-        "speaking_en": "State whether community safety information should be shared before every detail is confirmed, and explain your position.",
-        "speaking_kr": "모든 내용이 확인되기 전에 공동체 안전 정보를 공유해도 되는지 입장을 말하고 이유를 설명해 봅시다.",
-        "writing_en": "Write a short opinion paragraph on how a community can share useful information without spreading rumors.",
-        "writing_kr": "소문을 퍼뜨리지 않으면서 유용한 정보를 나누는 방법에 대한 짧은 의견 단락을 써 봅시다.",
-        "debate_en": "Should communities share a developing safety update quickly with a warning that details are unconfirmed, or wait until every detail is verified?",
-        "debate_kr": "안전 관련 소식은 아직 확인되지 않은 내용이 있더라도 주의 문구와 함께 신속히 공유해야 할까요, 아니면 모든 내용을 확인한 뒤 공유해야 할까요?",
+        "text_en": "The word “best” can describe different things: comfort, speed, safety, accessibility, or value. A ranking must choose which qualities count and how much each one matters. That means two lists could reach different conclusions using different methods. The article invites readers to distinguish an encouraging headline from a complete evaluation of airport services.",
+        "text_kr": "‘최고’라는 말은 편안함, 빠른 처리, 안전, 접근성, 비용 대비 가치 등 여러 의미를 가질 수 있습니다. 순위를 만들려면 어떤 요소를 평가할지, 각 요소에 얼마만큼 비중을 둘지 정해야 합니다. 따라서 서로 다른 방식을 사용한 두 목록은 다른 결론을 내릴 수 있습니다. 이 기사는 반가운 소식과 공항 서비스를 종합적으로 평가한 결과를 구분해 보도록 합니다.",
+        "bilingual_en": "A ranking reflects both airport performance and the values chosen by its judges.",
+        "bilingual_kr": "순위에는 공항의 운영 수준뿐 아니라 평가자가 중요하게 여긴 가치도 담깁니다.",
+        "speaking_en": "State which two qualities should matter most in an airport ranking and explain why.",
+        "speaking_kr": "공항 순위에서 가장 중요해야 할 요소 두 가지를 고르고 이유를 말해 봅시다.",
+        "writing_en": "Write a short opinion paragraph defining what makes an airport “best.”",
+        "writing_kr": "어떤 공항이 ‘최고’인지 자신의 기준을 담아 짧은 의견 글을 써 봅시다.",
+        "debate_en": "Should airport rankings focus more on passenger experience or on measurable operating performance?",
+        "debate_kr": "공항 순위는 승객 경험과 측정 가능한 운영 성과 중 무엇을 더 중요하게 다뤄야 할까요?",
         "vocab": [
           {
-            "en": "verification",
-            "kr": "확인"
+            "en": "ranking",
+            "kr": "순위"
           },
           {
-            "en": "community trust",
-            "kr": "공동체의 신뢰"
+            "en": "accessibility",
+            "kr": "접근성"
           }
         ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "How can we know whether a “best airport” list measures what matters to travelers?",
+      "question_kr": "‘최고 공항’ 목록이 여행객에게 중요한 것을 평가하는지 우리는 어떻게 알 수 있을까요?",
+      "aok_en": "Human Sciences",
+      "aok_kr": "인간과학",
+      "wok_en": "Reason, Language",
+      "wok_kr": "이성, 언어",
+      "task_en": "Test the claim that appearing on a best-airports list means travelers have a good experience. Give one possible counter-example and name evidence you would seek.",
+      "task_kr": "최고 공항 목록에 올랐으므로 여행객의 경험도 좋다는 주장을 살펴봅시다. 가능한 반례 한 가지와 확인하고 싶은 근거를 말해 봅시다."
+    }
   },
   "featured": {
     "tag": "Security",
     "tagClass": "tag-security",
-    "title_en": "A Simple Contact Plan Can Help Families Handle Disruptions",
-    "title_kr": "간단한 연락 계획이 예기치 않은 상황에서 가족을 돕는다",
-    "summary_en": "Families can reduce confusion during an emergency by agreeing in advance on a meeting point and an out-of-area contact. Keep essential numbers and key medical information accessible, and follow instructions from local authorities and building management.",
-    "summary_kr": "가족은 미리 만날 장소와 지역 밖의 연락 담당자를 정해두면 비상 상황에서 혼란을 줄일 수 있습니다. 주요 연락처와 필수 의료 정보를 쉽게 확인할 수 있도록 보관하고, 현지 당국과 건물 관리자의 안내를 따르세요.",
+    "title_en": "AFP confirms Chinese aircraft in West Philippine Sea",
+    "title_kr": "AFP, 서필리핀해에서 중국 항공기 확인",
+    "summary_en": "Philstar reports that the Armed Forces of the Philippines confirmed a Chinese plane was in the West Philippine Sea. The headline does not specify the aircraft’s purpose or provide further details, so the confirmation should not be read as establishing more than its presence.",
+    "summary_kr": "필스타는 필리핀군(AFP)이 서필리핀해에서 중국 항공기의 존재를 확인했다고 보도했습니다. 제목에는 항공기의 목적이나 추가 상황이 담겨 있지 않으므로, 확인된 내용은 해당 지역에 있었다는 점으로 한정해 이해해야 합니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "A Family Contact Plan",
-        "title_kr": "가족 연락 계획",
+        "title_en": "Aircraft and Airspace",
+        "title_kr": "항공기와 영공",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "A <span class=kw>contact plan</span> helps family members reach one another when normal plans are disrupted. It can list phone numbers, a meeting place and a trusted person to contact. Everyone should know where the plan is kept and how to use it. Keep the details simple enough to remember.",
-        "text_kr": "<span class=kw>연락 계획</span>은 평소의 일정이 어긋났을 때 가족끼리 서로 연락하도록 도와줍니다. 연락처와 만날 장소, 연락할 수 있는 믿을 만한 사람을 적어 둘 수 있습니다. 가족 모두가 계획을 어디에 보관하고 어떻게 활용하는지 알아야 합니다. 내용은 기억하기 쉽게 간단히 정리해 두세요.",
-        "bilingual_en": "A contact plan turns 'What do we do now?' into a few clear steps.",
-        "bilingual_kr": "연락 계획은 ‘이제 어떻게 하지?’라는 막막함을 몇 가지 분명한 행동으로 바꿔 줍니다.",
-        "speaking_en": "Name one important detail to include in a family contact plan and explain why.",
-        "speaking_kr": "가족 연락 계획에 꼭 넣을 정보 한 가지를 말하고 그 이유를 설명해 봅시다.",
-        "writing_en": "Write a short list of three details your household could include in a contact plan.",
-        "writing_kr": "가족 연락 계획에 넣을 수 있는 정보 세 가지를 짧은 목록으로 써 봅시다.",
+        "text_en": "An <span class=kw>aircraft</span> is a vehicle that flies, such as an airplane. <span class=kw>Airspace</span> is the part of the atmosphere where aircraft operate under rules. The Armed Forces of the Philippines, or AFP, confirmed the presence of Chinese aircraft in the West Philippine Sea, according to the headline. The headline does not give further details about the aircraft or the circumstances.",
+        "text_kr": "<span class=kw>항공기</span>는 비행기처럼 하늘을 나는 탈것입니다. <span class=kw>영공</span>은 항공기가 규칙에 따라 운항하는 공중 공간을 뜻합니다. 제목에 따르면 필리핀군(AFP)은 서필리핀해에서 중국 항공기가 있었다고 확인했습니다. 제목만으로는 항공기의 종류나 당시 상황을 더 알 수 없습니다.",
+        "bilingual_en": "A report of aircraft in a region is a starting point for questions, not a full account of what happened.",
+        "bilingual_kr": "어느 지역에 항공기가 있었다는 보도는 상황을 알아보기 위한 출발점이지, 사건의 전부는 아닙니다.",
+        "speaking_en": "Explain what an aircraft is and name one detail the headline does not provide.",
+        "speaking_kr": "항공기가 무엇인지 설명하고 제목에 나오지 않은 정보 한 가지를 말해 봅시다.",
+        "writing_en": "Write a sentence distinguishing a confirmed presence from an explanation of an event.",
+        "writing_kr": "항공기의 존재를 확인한 사실과 사건의 설명이 어떻게 다른지 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "contact plan",
-            "kr": "연락 계획"
+            "en": "aircraft",
+            "kr": "항공기"
           },
           {
-            "en": "trusted person",
-            "kr": "믿을 수 있는 사람"
+            "en": "airspace",
+            "kr": "영공"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Planning for a Communication Breakdown",
-        "title_kr": "연락이 어려운 상황에 대비하기",
+        "title_en": "Confirmation and Missing Details",
+        "title_kr": "확인된 사실과 아직 모르는 정보",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "During a disruption, a phone may lose power or a call may not connect. A useful plan includes another way to communicate, such as sending a text or contacting an agreed person. Family members should decide when to check in and where to meet if they cannot reach one another. Practicing the plan helps everyone remember it under stress.",
-        "text_kr": "예기치 못한 상황에서는 휴대전화 배터리가 다 되거나 통화가 연결되지 않을 수 있습니다. 유용한 계획에는 문자 보내기나 미리 정한 사람에게 연락하기처럼 다른 연락 방법도 포함됩니다. 가족끼리 언제 안부를 확인할지, 서로 연락이 닿지 않으면 어디서 만날지 정해 둘 수 있습니다. 계획을 연습해 두면 긴장되는 순간에도 기억하기 쉽습니다.",
-        "bilingual_en": "A strong plan has a backup for when the usual way of communicating fails.",
-        "bilingual_kr": "탄탄한 계획에는 평소의 연락 방법이 통하지 않을 때를 위한 대안이 있습니다.",
-        "speaking_en": "Suggest a backup communication method if a family member cannot make a phone call.",
-        "speaking_kr": "가족이 전화 통화를 할 수 없을 때 사용할 대체 연락 방법을 제안해 봅시다.",
-        "writing_en": "Write one simple backup step for a family whose calls are not connecting.",
-        "writing_kr": "가족의 전화가 연결되지 않을 때 취할 간단한 대체 행동 한 가지를 써 봅시다.",
+        "text_en": "An official confirmation tells readers that an organization has stated a claim is true. To understand an aircraft report fully, readers may also need its location, timing, flight path, and source of evidence. The headline confirms Chinese aircraft were present in the West Philippine Sea, but it does not say what they were doing or whether there was a confrontation. Careful readers separate confirmed information from questions that still need answers.",
+        "text_kr": "공식 확인은 어떤 기관이 특정 사실을 맞다고 밝혔다고 전해 줍니다. 항공기 관련 보도를 충분히 이해하려면 위치, 시간, 비행 경로, 근거의 출처도 필요할 수 있습니다. 제목은 서필리핀해에 중국 항공기가 있었다는 사실을 확인하지만, 항공기가 무엇을 했는지 또는 대치가 있었는지는 말하지 않습니다. 신중한 독자는 확인된 정보와 아직 답을 찾아야 할 질문을 구분합니다.",
+        "bilingual_en": "Knowing that something happened is not the same as knowing why it happened.",
+        "bilingual_kr": "어떤 일이 있었다는 사실을 아는 것과 그 일이 왜 일어났는지 아는 것은 다릅니다.",
+        "speaking_en": "Name one fact in the headline and one question it leaves unanswered.",
+        "speaking_kr": "제목에서 확인할 수 있는 사실 한 가지와 아직 답이 없는 질문 한 가지를 말해 봅시다.",
+        "writing_en": "Write two questions you would ask before explaining the aircraft's activity.",
+        "writing_kr": "항공기의 활동을 설명하기 전에 확인하고 싶은 질문 두 가지를 써 봅시다.",
         "vocab": [
           {
-            "en": "backup",
-            "kr": "대안"
+            "en": "confirmation",
+            "kr": "확인"
           },
           {
-            "en": "check in",
-            "kr": "안부를 확인하다"
+            "en": "flight path",
+            "kr": "비행 경로"
           }
         ],
         "quiz": {
-          "q_en": "Why should a family contact plan include a backup method?",
-          "q_kr": "가족 연락 계획에 대체 방법을 넣어야 하는 이유는 무엇인가요?",
+          "q_en": "What does the headline confirm?",
+          "q_kr": "기사 제목에서 확인할 수 있는 것은 무엇인가요?",
           "opts": [
             {
-              "en": "The usual phone or communication method may not work.",
-              "kr": "평소 사용하는 전화나 연락 방법이 작동하지 않을 수 있다.",
-              "correct": true
-            },
-            {
-              "en": "A backup makes it unnecessary to tell anyone the plan.",
-              "kr": "대체 방법이 있으면 누구에게도 계획을 알릴 필요가 없다.",
+              "en": "The aircraft's exact mission.",
+              "kr": "항공기의 정확한 임무",
               "correct": false
             },
             {
-              "en": "A backup guarantees that no disruption will happen.",
-              "kr": "대체 방법이 있으면 어떤 혼란도 일어나지 않는다.",
+              "en": "Chinese aircraft were present in the West Philippine Sea.",
+              "kr": "서필리핀해에 중국 항공기가 있었다는 사실",
+              "correct": true
+            },
+            {
+              "en": "A confrontation definitely took place.",
+              "kr": "대치가 확실히 벌어졌다는 사실",
               "correct": false
             }
           ]
@@ -220,473 +230,419 @@ var academyData = {
       },
       {
         "depth": 3,
-        "title_en": "Contact Plans for Korean Families in the Philippines",
-        "title_kr": "필리핀 한인 가족을 위한 연락 계획",
+        "title_en": "Questions for Korean Residents in the Philippines",
+        "title_kr": "필리핀 한인 사회가 살펴볼 점",
         "sub_en": "Application",
         "sub_kr": "실생활 적용",
         "badge": "Advanced",
-        "text_en": "Korean families in the Philippines may need to coordinate across different neighborhoods, schools or workplaces. A plan can include local contact numbers, an agreed meeting point and a relative or trusted contact who can pass along messages. Writing key details in Korean and English can help family members communicate with local helpers. Families should confirm that their chosen contacts and meeting places are still suitable.",
-        "text_kr": "필리핀에 사는 한인 가족은 서로 다른 동네나 학교, 직장에 있는 가족과 연락을 맞춰야 할 수 있습니다. 계획에 현지 연락처와 약속 장소, 소식을 전해 줄 친척이나 믿을 만한 연락 담당자를 포함할 수 있습니다. 중요한 내용을 한국어와 영어로 적어 두면 가족이 현지의 도움을 주는 사람과 소통하기 쉽습니다. 정해 둔 연락처와 만날 장소가 여전히 적절한지도 확인해야 합니다.",
-        "bilingual_en": "A contact plan is strongest when it fits the family's real locations, languages and routines.",
-        "bilingual_kr": "연락 계획은 가족의 실제 생활 장소와 언어, 일상에 맞을 때 가장 효과적입니다.",
-        "speaking_en": "Describe one detail a Korean family in the Philippines should check before relying on its contact plan.",
-        "speaking_kr": "필리핀 한인 가족이 연락 계획을 활용하기 전에 확인해야 할 점 한 가지를 설명해 봅시다.",
-        "writing_en": "Draft a bilingual reminder telling family members where to find their contact plan.",
-        "writing_kr": "가족에게 연락 계획을 어디서 찾을 수 있는지 알려 주는 짧은 한영 안내문을 써 봅시다.",
+        "text_en": "Korean residents in the Philippines may encounter reports about the West Philippine Sea through news and social media. This headline alone does not establish an immediate danger to residents or describe any effect on daily life. Checking reliable updates and distinguishing confirmed facts from speculation can help people discuss the story calmly. Families should use relevant official guidance if practical safety information becomes necessary.",
+        "text_kr": "필리핀에 사는 한인들은 뉴스나 소셜 미디어를 통해 서필리핀해 관련 소식을 접할 수 있습니다. 이 제목만으로는 한인 주민에게 당장 위험이 있는지, 일상에 어떤 영향이 있는지 알 수 없습니다. 믿을 만한 후속 정보를 확인하고 사실과 추측을 구분하면 차분하게 이야기를 나누는 데 도움이 됩니다. 실제 안전 정보가 필요할 때는 관련 기관의 안내를 확인해야 합니다.",
+        "bilingual_en": "For residents, careful information-checking is more useful than assuming the headline tells the whole story.",
+        "bilingual_kr": "필리핀에 사는 사람에게는 제목만으로 상황을 단정하기보다 정보를 꼼꼼히 확인하는 일이 중요합니다.",
+        "speaking_en": "Tell a partner one reliable way residents could check for updates.",
+        "speaking_kr": "필리핀 주민이 후속 정보를 확인할 믿을 만한 방법 한 가지를 짝에게 말해 봅시다.",
+        "writing_en": "Write a calm, evidence-based message explaining what the headline does and does not say.",
+        "writing_kr": "제목이 알려 주는 것과 알려 주지 않는 것을 차분하게 설명하는 문장을 써 봅시다.",
         "vocab": [
           {
-            "en": "meeting point",
-            "kr": "만날 장소"
+            "en": "reliable",
+            "kr": "신뢰할 수 있는"
           },
           {
-            "en": "coordinate",
-            "kr": "조율하다"
+            "en": "speculation",
+            "kr": "추측"
           }
         ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "When an official source confirms aircraft were present, what further evidence is needed to know what their presence meant?",
+      "question_kr": "공식 기관이 항공기의 존재를 확인했을 때, 그 존재의 의미를 알려면 어떤 추가 근거가 필요할까요?",
+      "aok_en": "Human Sciences, History",
+      "aok_kr": "인간과학, 역사",
+      "wok_en": "Language, Reason",
+      "wok_kr": "언어, 이성",
+      "task_en": "Test the claim that the aircraft's presence proves a specific intention. Offer a possible counter-example and identify evidence that could distinguish the explanations.",
+      "task_kr": "항공기가 있었다는 사실이 특정 의도를 증명한다는 주장을 검토해 봅시다. 가능한 반례와 여러 설명을 구분하는 데 필요한 근거를 제시해 봅시다."
+    }
   },
   "news_1": {
     "tag": "Economy",
     "tagClass": "tag-economy",
-    "title_en": "Exchange-Rate Checks Matter for Cross-Border Budgets",
-    "title_kr": "국경 간 예산 관리에 환율 확인이 중요",
-    "summary_en": "Families sending money or paying expenses across currencies should compare the displayed rate, fees and final amount before confirming a transfer. The dashboard rate is a reference; providers may apply different rates and charges.",
-    "summary_kr": "해외 송금이나 외화 결제를 할 때는 거래를 확정하기 전에 표시 환율과 수수료, 최종 수령액을 비교하세요. 대시보드 환율은 참고용이며 업체별 적용 환율과 비용은 다를 수 있습니다.",
+    "title_en": "DAR sets aside P600 million for 2027 El Niño response",
+    "title_kr": "농업개혁부, 2027년 엘니뇨 대응에 6억 페소 배정",
+    "summary_en": "Philstar reports that the Department of Agrarian Reform earmarked P600 million for an El Niño response in 2027. The headline identifies the planned allocation but gives no details on how it will be distributed.",
+    "summary_kr": "필스타에 따르면 농업개혁부(DAR)는 2027년 엘니뇨 대응을 위해 6억 페소를 배정했습니다. 제목에는 대응 재원 규모가 담겼지만, 구체적인 집행 방식은 제시되지 않았습니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "Understanding Exchange Rates",
-        "title_kr": "환율 이해하기",
+        "title_en": "Planning for El Niño",
+        "title_kr": "엘니뇨에 대비하기",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "An <span class=kw>exchange rate</span> tells how much one currency is worth in another currency. Families sending money or paying across currencies should look beyond the rate shown on a screen. A provider may add fees or use a different rate for the transaction. Check the final amount before confirming.",
-        "text_kr": "<span class=kw>환율</span>은 한 통화가 다른 통화로 얼마의 가치가 있는지를 보여 줍니다. 돈을 보내거나 다른 통화로 비용을 낼 때는 화면에 표시된 환율만 봐서는 안 됩니다. 서비스 제공업체가 수수료를 더하거나 거래에 다른 환율을 적용할 수 있습니다. 거래를 확정하기 전에 최종 금액을 확인하세요.",
-        "bilingual_en": "The displayed rate is a reference, but the final amount is what your budget must cover.",
-        "bilingual_kr": "표시된 환율은 참고 자료이며, 예산에서 실제로 따져야 할 것은 최종 금액입니다.",
-        "speaking_en": "Explain why a family should check the final amount before sending money.",
-        "speaking_kr": "송금 전에 최종 금액을 확인해야 하는 이유를 설명해 봅시다.",
-        "writing_en": "Write a one-sentence reminder about what to compare before confirming a transfer.",
-        "writing_kr": "송금을 확정하기 전에 비교할 사항을 한 문장으로 정리해 봅시다.",
+        "text_en": "<span class=kw>El Niño</span> is a climate pattern that can change weather conditions in different parts of the world. Its effects vary by place and time. The Department of Agrarian Reform, or DAR, reportedly set aside P600 million for a response in 2027. The headline gives the planned amount but not how the money will be distributed.",
+        "text_kr": "<span class=kw>엘니뇨</span>는 세계 여러 지역의 날씨에 변화를 일으킬 수 있는 기후 현상입니다. 영향은 지역과 시기에 따라 달라집니다. 보도에 따르면 농업개혁부(DAR)는 2027년 대응을 위해 6억 페소를 따로 마련했습니다. 제목은 계획된 금액을 알려 주지만, 돈을 어떻게 나눌지는 설명하지 않습니다.",
+        "bilingual_en": "Setting money aside shows a plan to prepare, but it does not tell us exactly what help people will receive.",
+        "bilingual_kr": "예산을 마련했다는 것은 대비 계획을 보여 주지만, 사람들이 어떤 도움을 받을지는 알려 주지 않습니다.",
+        "speaking_en": "Explain in one sentence why governments may plan ahead for a climate event.",
+        "speaking_kr": "정부가 기후 현상에 미리 대비하는 이유를 한 문장으로 말해 봅시다.",
+        "writing_en": "Write one question you have about the planned P600 million allocation.",
+        "writing_kr": "계획된 6억 페소 예산에 대해 궁금한 점 한 가지를 써 봅시다.",
         "vocab": [
           {
-            "en": "exchange rate",
-            "kr": "환율"
+            "en": "climate pattern",
+            "kr": "기후 현상"
           },
           {
-            "en": "transfer fee",
-            "kr": "송금 수수료"
+            "en": "allocation",
+            "kr": "예산 배정"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Comparing the Full Cost",
-        "title_kr": "전체 비용 비교하기",
+        "title_en": "From Budget to Response",
+        "title_kr": "예산이 실제 대응으로 이어지려면",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "Two providers may show similar rates but charge different fees. To compare them fairly, check the rate, fees and the amount the recipient will actually receive. Also check whether the displayed rate is only a reference or the rate used for your transaction. This makes it easier to choose based on the full cost rather than one attractive number.",
-        "text_kr": "두 업체가 비슷한 환율을 표시하더라도 수수료는 다를 수 있습니다. 공정하게 비교하려면 환율과 수수료, 받는 사람이 실제로 받게 될 금액을 확인하세요. 표시된 환율이 참고용인지 실제 거래에 적용되는 환율인지도 살펴봐야 합니다. 이렇게 하면 눈에 띄는 숫자 하나가 아니라 전체 비용을 기준으로 선택할 수 있습니다.",
-        "bilingual_en": "A fair comparison looks at what is paid and what is received, not just the headline rate.",
-        "bilingual_kr": "제대로 비교하려면 눈에 띄는 환율뿐 아니라 내는 돈과 받는 돈을 함께 살펴야 합니다.",
-        "speaking_en": "Name three details you would compare between two money-transfer providers.",
-        "speaking_kr": "두 송금 업체를 비교할 때 확인할 세 가지 정보를 말해 봅시다.",
-        "writing_en": "Write a short checklist for comparing two cross-border transfer offers.",
-        "writing_kr": "해외 송금 서비스 두 가지를 비교하는 짧은 점검표를 써 봅시다.",
+        "text_en": "A budget is a plan for using public money; it is not the same as money already reaching a family or farm. To understand this allocation, readers would need to know which programs it supports, who qualifies, and how the results will be checked. The headline does not provide those details. Asking these questions helps distinguish an announced plan from its eventual effects.",
+        "text_kr": "예산은 공공 자금을 어떻게 사용할지 정한 계획이며, 돈이 이미 가정이나 농가에 전달됐다는 뜻은 아닙니다. 이 예산을 이해하려면 어떤 사업에 쓰이는지, 누가 지원받을 수 있는지, 결과를 어떻게 확인할지 알아야 합니다. 제목에는 이런 정보가 없습니다. 이러한 질문을 하면 발표된 계획과 실제로 나타난 효과를 구분하는 데 도움이 됩니다.",
+        "bilingual_en": "A budget announcement describes an intention; outcomes depend on how the plan is carried out.",
+        "bilingual_kr": "예산 발표는 계획을 보여 주며, 실제 결과는 계획을 어떻게 실행하는지에 달려 있습니다.",
+        "speaking_en": "Name one detail needed to judge whether the response plan works.",
+        "speaking_kr": "대응 계획이 효과적인지 판단하는 데 필요한 정보 한 가지를 말해 봅시다.",
+        "writing_en": "Write a short question about how the announced fund could be monitored.",
+        "writing_kr": "발표된 예산의 사용을 어떻게 확인할 수 있을지 짧은 질문으로 써 봅시다.",
         "vocab": [
           {
-            "en": "provider",
-            "kr": "서비스 제공업체"
+            "en": "public money",
+            "kr": "공공 자금"
           },
           {
-            "en": "recipient",
-            "kr": "받는 사람"
+            "en": "implementation",
+            "kr": "실행"
           }
         ],
         "quiz": {
-          "q_en": "Which comparison gives a family the clearest picture of a transfer?",
-          "q_kr": "송금 내용을 가장 분명하게 비교하려면 무엇을 살펴봐야 하나요?",
+          "q_en": "What does the headline not explain?",
+          "q_kr": "기사 제목이 설명하지 않는 것은 무엇인가요?",
           "opts": [
             {
-              "en": "The displayed rate alone",
-              "kr": "화면에 표시된 환율만",
+              "en": "The planned amount of money.",
+              "kr": "계획된 예산 규모",
               "correct": false
             },
             {
-              "en": "The rate, fees and final amount received",
-              "kr": "환율, 수수료, 실제로 받는 최종 금액",
+              "en": "How the funds will be distributed.",
+              "kr": "예산이 어떻게 배분될지",
               "correct": true
             },
             {
-              "en": "The provider's name only",
-              "kr": "업체 이름만",
+              "en": "The department named in the report.",
+              "kr": "보도에 언급된 부처",
               "correct": false
             }
           ]
         }
-      },
-      {
-        "depth": 3,
-        "title_en": "Cross-Border Budgets for Koreans in the Philippines",
-        "title_kr": "필리핀 한인 사회의 국경 간 예산 관리",
-        "sub_en": "Application",
-        "sub_kr": "실생활 적용",
-        "badge": "Advanced",
-        "text_en": "Korean residents in the Philippines may plan expenses involving Korean won and Philippine pesos. The amount received can change with exchange rates and provider charges, so families should compare the transaction details before sending money. They can also keep a record of the rate, fees and date to understand their spending over time. This is especially helpful when budgeting for regular payments.",
-        "text_kr": "필리핀에 사는 한인은 한국 원화와 필리핀 페소가 관련된 지출을 계획할 수 있습니다. 환율과 업체 수수료에 따라 받는 금액이 달라질 수 있으므로 송금 전에 거래 내용을 비교해야 합니다. 환율과 수수료, 날짜를 기록하면 시간에 따른 지출을 파악하는 데 도움이 됩니다. 정기적으로 내는 비용을 계획할 때 특히 유용합니다.",
-        "bilingual_en": "Cross-border budgeting works better when families compare actual transaction amounts and keep clear records.",
-        "bilingual_kr": "국경 간 예산 관리는 실제 거래 금액을 비교하고 기록을 남길 때 더 효과적입니다.",
-        "speaking_en": "Explain how a Korean family in the Philippines could keep track of repeated transfers.",
-        "speaking_kr": "필리핀 한인 가족이 반복되는 송금을 어떻게 기록하고 관리할 수 있을지 설명해 봅시다.",
-        "writing_en": "Write one practical rule for comparing a peso-to-won transfer.",
-        "writing_kr": "페소와 원화 간 송금을 비교할 때 활용할 실용적인 원칙 한 가지를 써 봅시다.",
-        "vocab": [
-          {
-            "en": "cross-border",
-            "kr": "국경 간의"
-          },
-          {
-            "en": "budget",
-            "kr": "예산"
-          }
-        ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "How can we know whether a climate-response budget will reduce harm before its results are observed?",
+      "question_kr": "결과가 나타나기 전에 기후 대응 예산이 피해를 줄일지 우리는 어떻게 알 수 있을까요?",
+      "aok_en": "Natural Sciences, Human Sciences",
+      "aok_kr": "자연과학, 인간과학",
+      "wok_en": "Reason, Memory",
+      "wok_kr": "이성, 기억",
+      "task_en": "Test the claim that setting aside P600 million will protect farmers. Suggest a counter-example and name two results or records you would check.",
+      "task_kr": "6억 페소를 마련하면 농민을 보호할 수 있다는 주장을 검토해 봅시다. 가능한 반례와 확인할 결과나 기록 두 가지를 제시해 봅시다."
+    }
   },
   "news_2": {
     "tag": "Culture",
     "tagClass": "tag-culture",
-    "title_en": "K-Food Events Offer a Taste of Cultural Exchange",
-    "title_kr": "K-푸드 행사가 문화 교류의 맛을 더하다",
-    "summary_en": "Food gatherings can introduce Korean flavors while giving Filipino guests a chance to share local favorites. Organizers can make events more welcoming with clear ingredient and allergen labels and bilingual information.",
-    "summary_kr": "음식 행사는 한국의 맛을 소개하고 필리핀 방문객이 현지 음식을 함께 나누는 기회가 될 수 있습니다. 주최 측은 재료와 알레르기 유발 성분을 명확히 표시하고 이중언어 안내를 제공해 행사를 더욱 편안하게 만들 수 있습니다.",
+    "title_en": "Philippines misses crowns at Miss Universe and Miss International",
+    "title_kr": "필리핀, 미스 유니버스·미스 인터내셔널 우승 놓쳐",
+    "summary_en": "Philstar reports that the Philippines did not win the crowns at either pageant. The headline does not identify the contestants’ final placements.",
+    "summary_kr": "필스타는 필리핀이 미스 유니버스와 미스 인터내셔널에서 모두 우승하지 못했다고 전했습니다. 제목에는 참가자들의 최종 순위가 나와 있지 않습니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "Food as Cultural Exchange",
-        "title_kr": "문화 교류로서의 음식",
+        "title_en": "Pageants and Crowns",
+        "title_kr": "미인 대회와 우승 왕관",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "A food gathering can let people taste dishes from another culture and talk about their own favorites. Sharing <span class=kw>food traditions</span> can spark curiosity and friendly conversation. Guests may have different tastes or food needs, so clear labels help them choose. A welcoming event makes room for everyone to take part.",
-        "text_kr": "음식 모임은 다른 문화의 음식을 맛보고 각자 좋아하는 음식을 이야기하는 자리가 될 수 있습니다. <span class=kw>음식 문화</span>를 나누면 서로에 대한 호기심과 즐거운 대화가 생길 수 있습니다. 손님마다 입맛이나 먹지 못하는 음식이 다를 수 있으므로 분명한 표시는 음식을 고르는 데 도움이 됩니다. 누구나 참여할 수 있도록 배려하면 더욱 따뜻한 행사가 됩니다.",
-        "bilingual_en": "Sharing a dish can be a simple way to begin learning about another culture.",
-        "bilingual_kr": "음식을 나누는 일은 다른 문화를 알아가는 쉬운 출발점이 될 수 있습니다.",
-        "speaking_en": "Name a food you would share at a cultural gathering and say what story it might tell.",
-        "speaking_kr": "문화 교류 모임에서 나누고 싶은 음식을 말하고, 그 음식에 담긴 이야기를 설명해 봅시다.",
-        "writing_en": "Write a short invitation to a food gathering that welcomes guests to share a favorite dish.",
-        "writing_kr": "손님들이 좋아하는 음식을 나누도록 권하는 음식 모임 초대 문구를 써 봅시다.",
+        "text_en": "A <span class=kw>pageant</span> is an organized competition in which contestants are judged using the event's rules. Miss Universe and Miss International are separate international pageants. The report says the Philippines did not win the crown at either event. The headline does not state the contestants' final placements.",
+        "text_kr": "<span class=kw>미인 대회</span>는 대회 규칙에 따라 참가자를 평가하는 행사입니다. 미스 유니버스와 미스 인터내셔널은 서로 다른 국제 대회입니다. 보도에 따르면 필리핀은 두 대회에서 모두 우승 왕관을 차지하지 못했습니다. 제목에는 참가자들의 최종 순위가 나오지 않습니다.",
+        "bilingual_en": "Not winning the crown tells us the result at the top, but not every contestant's placement.",
+        "bilingual_kr": "우승하지 못했다는 사실은 왕관의 결과를 알려 주지만, 참가자들의 전체 순위까지 알려 주지는 않습니다.",
+        "speaking_en": "Explain what the headline tells us and name one thing it leaves out.",
+        "speaking_kr": "기사 제목이 알려 주는 사실과 빠뜨린 정보 한 가지를 말해 봅시다.",
+        "writing_en": "Write one sentence that reports the pageant result without guessing a placement.",
+        "writing_kr": "참가자의 순위를 짐작하지 않고 대회 결과를 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "food tradition",
-            "kr": "음식 문화"
+            "en": "pageant",
+            "kr": "미인 대회"
           },
           {
-            "en": "cultural exchange",
-            "kr": "문화 교류"
+            "en": "placement",
+            "kr": "최종 순위"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Making Food Events Welcoming",
-        "title_kr": "모두를 배려하는 음식 행사",
+        "title_en": "Judging and National Pride",
+        "title_kr": "심사와 국가적 자부심",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "A dish may contain ingredients that some guests avoid or cannot safely eat. An <span class=kw>allergen label</span> identifies ingredients that can cause an allergic reaction, while a clear ingredient list helps guests make informed choices. Bilingual signs can explain dish names, ingredients and serving details to more people. Organizers should check that labels are accurate rather than guessing.",
-        "text_kr": "음식에는 손님이 먹지 않거나 안전하게 먹을 수 없는 재료가 들어 있을 수 있습니다. <span class=kw>알레르기 유발 성분 표시</span>는 알레르기 반응을 일으킬 수 있는 재료를 알려 주며, 재료 목록은 손님이 알맞게 선택하도록 도와줍니다. 한영 안내문은 음식 이름과 재료, 제공 방법을 더 많은 사람에게 설명할 수 있습니다. 주최자는 추측하지 말고 표시 내용이 정확한지 확인해야 합니다.",
-        "bilingual_en": "Good food labels help guests enjoy cultural exchange while making informed choices.",
-        "bilingual_kr": "정확한 음식 표시는 손님이 안전하게 선택하며 문화 교류를 즐기도록 돕습니다.",
-        "speaking_en": "Explain what information you would want to see beside a dish at a shared food event.",
-        "speaking_kr": "음식 나눔 행사에서 음식 옆에 어떤 정보가 표시되면 좋을지 설명해 봅시다.",
-        "writing_en": "Create a sample bilingual label for a dish, including its name and one ingredient.",
-        "writing_kr": "음식 이름과 재료 한 가지를 포함해 음식의 한영 병기 표시를 만들어 봅시다.",
+        "text_en": "A pageant result follows the competition's judging process, but a headline may reduce many performances to a simple win-or-loss story. Readers should not assume the contestants did poorly just because they did not win. Their exact placements and the judges' criteria are not provided here. People can celebrate a contestant's effort while still recognizing the official result.",
+        "text_kr": "미인 대회 결과는 대회의 심사 과정을 거쳐 나오지만, 제목은 여러 참가자의 활동을 단순한 승패 이야기로 줄여 전할 수 있습니다. 우승하지 못했다고 해서 참가자들이 좋은 성과를 내지 못했다고 단정해서는 안 됩니다. 이 보도에는 정확한 순위나 심사 기준이 나오지 않습니다. 사람들은 공식 결과를 인정하면서도 참가자의 노력을 응원할 수 있습니다.",
+        "bilingual_en": "A result reports who won; it does not by itself describe every contestant's effort or performance.",
+        "bilingual_kr": "결과는 누가 우승했는지 알려 주지만, 참가자의 노력과 활약을 모두 설명하지는 않습니다.",
+        "speaking_en": "Give one respectful way to discuss a contestant who did not win.",
+        "speaking_kr": "우승하지 못한 참가자를 존중하며 이야기하는 방법 한 가지를 말해 봅시다.",
+        "writing_en": "Write a sentence that separates the official result from your opinion of a contestant's effort.",
+        "writing_kr": "공식 결과와 참가자의 노력에 대한 자신의 생각을 구분해 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "ingredient",
-            "kr": "재료"
+            "en": "judging",
+            "kr": "심사"
           },
           {
-            "en": "allergen",
-            "kr": "알레르기 유발 성분"
+            "en": "criteria",
+            "kr": "기준"
           }
         ],
         "quiz": {
-          "q_en": "Why should organizers provide accurate ingredient and allergen labels?",
-          "q_kr": "주최자가 정확한 재료 및 알레르기 유발 성분 표시를 해야 하는 이유는 무엇인가요?",
+          "q_en": "What can readers conclude from the headline?",
+          "q_kr": "기사 제목을 통해 알 수 있는 사실은 무엇인가요?",
           "opts": [
             {
-              "en": "So guests can make informed choices about what to eat.",
-              "kr": "손님이 무엇을 먹을지 알고 선택할 수 있도록 하기 위해",
-              "correct": true
-            },
-            {
-              "en": "So every guest has to try every dish.",
-              "kr": "모든 손님이 모든 음식을 먹어야 하므로",
+              "en": "The contestants' exact final placements.",
+              "kr": "참가자들의 정확한 최종 순위",
               "correct": false
             },
             {
-              "en": "So organizers can avoid explaining the event.",
-              "kr": "주최자가 행사에 대해 설명하지 않아도 되므로",
+              "en": "The Philippines did not win either crown.",
+              "kr": "필리핀은 두 대회에서 모두 우승하지 못했다.",
+              "correct": true
+            },
+            {
+              "en": "The contestants performed poorly.",
+              "kr": "참가자들이 좋은 성과를 내지 못했다.",
               "correct": false
             }
           ]
         }
-      },
-      {
-        "depth": 3,
-        "title_en": "K-Food Events in the Korean Community in the Philippines",
-        "title_kr": "필리핀 한인 사회의 K-푸드 행사",
-        "sub_en": "Application",
-        "sub_kr": "실생활 적용",
-        "badge": "Advanced",
-        "text_en": "A K-food event in the Philippines can introduce Korean dishes while inviting Filipino guests to share local favorites. This makes the gathering a two-way exchange rather than a one-sided presentation. Korean and English labels can help guests understand dishes, ingredients and possible allergens. Organizers can also invite participants to explain the stories and customs connected to the foods they bring.",
-        "text_kr": "필리핀에서 열리는 K-푸드 행사는 한국 음식을 소개하는 동시에 필리핀 손님들이 현지에서 좋아하는 음식을 나누는 자리가 될 수 있습니다. 이렇게 하면 한쪽 문화를 소개하는 데 그치지 않고 서로 주고받는 교류가 됩니다. 한국어와 영어로 음식 이름과 재료, 알레르기 유발 성분을 표시하면 손님들이 음식을 이해하는 데 도움이 됩니다. 참가자들이 가져온 음식에 얽힌 이야기와 풍습을 소개하도록 할 수도 있습니다.",
-        "bilingual_en": "The best cultural food events invite every community to contribute, not just sample.",
-        "bilingual_kr": "좋은 문화 음식 행사는 한쪽이 맛보게 하는 데 그치지 않고 모든 공동체가 함께 나누도록 합니다.",
-        "speaking_en": "Suggest one way a K-food event in the Philippines could give Filipino guests an active role.",
-        "speaking_kr": "필리핀의 K-푸드 행사에서 필리핀 손님들이 적극적으로 참여할 방법 한 가지를 제안해 봅시다.",
-        "writing_en": "Write a short plan for a food table featuring one Korean dish and one Filipino dish, with bilingual labels.",
-        "writing_kr": "한국 음식 한 가지와 필리핀 음식 한 가지를 한영 병기 표시와 함께 소개하는 음식 코너 계획을 써 봅시다.",
-        "vocab": [
-          {
-            "en": "two-way exchange",
-            "kr": "쌍방향 교류"
-          },
-          {
-            "en": "custom",
-            "kr": "풍습"
-          }
-        ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "How do judging rules and media language shape what we believe a pageant result says about a contestant?",
+      "question_kr": "심사 규칙과 언론의 표현은 대회 결과가 참가자에 대해 말해 준다고 우리가 믿는 바를 어떻게 바꿀까요?",
+      "aok_en": "The Arts, Human Sciences",
+      "aok_kr": "예술, 인간과학",
+      "wok_en": "Language, Emotion",
+      "wok_kr": "언어, 감정",
+      "task_en": "Test the claim that not winning means a contestant performed badly. Give a possible counter-example and identify information about the judging that would help.",
+      "task_kr": "우승하지 못했다는 것은 참가자의 활약이 좋지 않았다는 뜻이라는 주장을 검토해 봅시다. 가능한 반례와 심사에 관해 확인할 정보를 제시해 봅시다."
+    }
   },
   "news_3": {
     "tag": "Cooperation",
     "tagClass": "tag-diplomacy",
-    "title_en": "Bilingual Information Helps Communities Work Together",
-    "title_kr": "이중언어 정보가 공동체 협력을 돕는다",
-    "summary_en": "Clear Korean and English notices can help residents understand school, workplace and community procedures. Organizers should verify important details with the relevant institution before sharing them.",
-    "summary_kr": "한국어와 영어로 작성된 명확한 안내문은 주민들이 학교와 직장, 지역사회의 절차를 이해하는 데 도움이 됩니다. 주최 측은 중요한 내용을 배포하기 전에 관련 기관을 통해 확인해야 합니다.",
+    "title_en": "Chunmoo faces cheaper Pinaka in Philippine rocket competition",
+    "title_kr": "필리핀 로켓 경쟁에서 천무, 저렴한 피나카와 맞붙어",
+    "summary_en": "Seoul Economic Daily reports that South Korea’s Chunmoo faces competition from India’s less expensive Pinaka in the Philippines. The headline frames this as a contest between systems but provides no procurement outcome.",
+    "summary_kr": "서울경제는 필리핀에서 한국의 천무가 인도의 더 저렴한 피나카와 경쟁하고 있다고 보도했습니다. 제목은 두 무기체계 간 경쟁을 전하지만, 도입 결정이 내려졌다는 내용은 없습니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "Clear Bilingual Notices",
-        "title_kr": "명확한 이중언어 안내문",
+        "title_en": "Rocket Systems and Competition",
+        "title_kr": "로켓 시스템과 경쟁",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "A <span class=kw>bilingual notice</span> gives important information in two languages. Korean and English instructions can help more residents understand school, work or community procedures. The message should be easy to read and should give people clear next steps. Important details need to be checked before the notice is shared.",
-        "text_kr": "<span class=kw>이중언어 안내문</span>은 중요한 정보를 두 가지 언어로 전달합니다. 한국어와 영어로 된 안내는 더 많은 사람이 학교나 직장, 공동체의 절차를 이해하도록 도와줍니다. 안내문은 읽기 쉬워야 하고 다음에 무엇을 해야 하는지 분명히 알려 줘야 합니다. 공유하기 전에 중요한 내용을 확인해야 합니다.",
-        "bilingual_en": "A notice is helpful only when its readers can understand what to do.",
-        "bilingual_kr": "안내문은 읽는 사람이 무엇을 해야 하는지 이해할 수 있어야 도움이 됩니다.",
-        "speaking_en": "Name one kind of school or community instruction that would be useful in Korean and English.",
-        "speaking_kr": "한국어와 영어로 안내하면 유용할 학교 또는 공동체의 절차 한 가지를 말해 봅시다.",
-        "writing_en": "Write a simple bilingual heading for a notice about a community meeting.",
-        "writing_kr": "공동체 모임을 알리는 안내문의 쉬운 한영 제목을 써 봅시다.",
+        "text_en": "A <span class=kw>rocket system</span> is military equipment designed to launch rockets. The report says South Korea's Chunmoo faces competition from India's less expensive Pinaka in the Philippines. A lower price is one factor a buyer may consider. The headline does not say which system, if any, the Philippines will purchase.",
+        "text_kr": "<span class=kw>로켓 시스템</span>은 로켓을 발사하도록 설계된 군사 장비입니다. 보도에 따르면 한국의 천무는 필리핀 시장에서 인도의 더 저렴한 피나카와 경쟁하고 있습니다. 낮은 가격은 구매자가 고려할 수 있는 요소 중 하나입니다. 제목은 필리핀이 어느 체계를 구매할지, 또는 구매할지를 알려 주지 않습니다.",
+        "bilingual_en": "Competing for a contract does not mean that a buyer has made a final choice.",
+        "bilingual_kr": "계약을 두고 경쟁한다는 사실이 구매자의 최종 선택을 뜻하지는 않습니다.",
+        "speaking_en": "Name the two rocket systems and explain what is not yet known.",
+        "speaking_kr": "두 로켓 시스템의 이름을 말하고 아직 알 수 없는 점을 설명해 봅시다.",
+        "writing_en": "Write one sentence distinguishing a competition from a completed purchase.",
+        "writing_kr": "경쟁 상황과 구매 완료가 어떻게 다른지 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "bilingual",
-            "kr": "이중언어의"
+            "en": "rocket system",
+            "kr": "로켓 시스템"
           },
           {
-            "en": "procedure",
-            "kr": "절차"
+            "en": "purchase",
+            "kr": "구매"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Accuracy Before Sharing",
-        "title_kr": "공유하기 전 정확성 확인",
+        "title_en": "Price Is One Part of a Decision",
+        "title_kr": "가격은 선택 기준 중 하나",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "A notice can be easy to read but still cause problems if its information is wrong or out of date. For important procedures, organizers should check details with the relevant <span class=kw>institution</span>, such as a school or workplace. They should also make sure the Korean and English versions carry the same meaning. Clear, accurate notices help people follow shared rules with fewer misunderstandings.",
-        "text_kr": "안내문이 읽기 쉽더라도 내용이 틀리거나 오래되었다면 문제가 생길 수 있습니다. 중요한 절차는 학교나 직장처럼 관련된 <span class=kw>기관</span>에 세부 내용을 확인해야 합니다. 한국어와 영어 안내가 같은 뜻을 전달하는지도 살펴봐야 합니다. 분명하고 정확한 안내문은 오해를 줄이고 사람들이 공동의 규칙을 따르도록 도와줍니다.",
-        "bilingual_en": "Good bilingual communication depends on both clear language and verified facts.",
-        "bilingual_kr": "좋은 이중언어 소통에는 이해하기 쉬운 표현과 확인된 사실이 모두 필요합니다.",
-        "speaking_en": "Explain who should confirm a school procedure before it appears in a public notice.",
-        "speaking_kr": "학교 절차를 안내문에 싣기 전에 누가 내용을 확인해야 하는지 설명해 봅시다.",
-        "writing_en": "Write a short reminder asking organizers to verify important details with the relevant institution.",
-        "writing_kr": "주최자에게 관련 기관을 통해 중요한 내용을 확인하라고 알리는 짧은 문장을 써 봅시다.",
+        "text_en": "A lower price may make a product attractive, but a major purchase can involve many other considerations. A buyer could compare performance, upkeep, training, delivery, and how equipment fits existing plans. The headline highlights Pinaka's lower price but does not provide a full comparison of the two systems. It also gives no procurement outcome, so readers should not treat the contest as settled.",
+        "text_kr": "가격이 낮으면 제품이 매력적으로 보일 수 있지만, 큰 규모의 구매에는 다른 고려 사항도 많습니다. 구매자는 성능, 유지 관리, 교육, 납품, 기존 계획과의 적합성을 비교할 수 있습니다. 제목은 피나카의 낮은 가격을 강조하지만 두 체계를 종합적으로 비교하지는 않습니다. 구매 결과도 나오지 않으므로 경쟁이 이미 끝났다고 보면 안 됩니다.",
+        "bilingual_en": "The cheapest option is not automatically the best choice for every buyer.",
+        "bilingual_kr": "가장 저렴한 선택지가 모든 구매자에게 언제나 최선인 것은 아닙니다.",
+        "speaking_en": "Name two factors besides price that a buyer could compare.",
+        "speaking_kr": "구매자가 가격 외에 비교할 수 있는 요소 두 가지를 말해 봅시다.",
+        "writing_en": "Write a fair question that could help compare the two systems.",
+        "writing_kr": "두 체계를 공정하게 비교하는 데 도움이 될 질문 한 가지를 써 봅시다.",
         "vocab": [
           {
-            "en": "verify",
-            "kr": "확인하다"
+            "en": "upkeep",
+            "kr": "유지 관리"
           },
           {
-            "en": "misunderstanding",
-            "kr": "오해"
+            "en": "procurement",
+            "kr": "조달"
           }
         ],
         "quiz": {
-          "q_en": "What should organizers do before sharing a notice about an important procedure?",
-          "q_kr": "중요한 절차에 관한 안내문을 공유하기 전에 주최자가 해야 할 일은 무엇인가요?",
+          "q_en": "What procurement result does the headline provide?",
+          "q_kr": "기사 제목은 구매 결과를 어떻게 알려 주나요?",
           "opts": [
             {
-              "en": "Verify the details with the relevant institution.",
-              "kr": "관련 기관을 통해 세부 내용을 확인한다.",
+              "en": "It says Chunmoo was selected.",
+              "kr": "천무가 선정됐다고 말한다.",
+              "correct": false
+            },
+            {
+              "en": "It says Pinaka was selected.",
+              "kr": "피나카가 선정됐다고 말한다.",
+              "correct": false
+            },
+            {
+              "en": "It does not state an outcome.",
+              "kr": "결과를 밝히지 않는다.",
               "correct": true
-            },
-            {
-              "en": "Share it quickly without checking either language.",
-              "kr": "두 언어 모두 확인하지 않고 빠르게 공유한다.",
-              "correct": false
-            },
-            {
-              "en": "Remove all instructions from the notice.",
-              "kr": "안내문에서 모든 지시 사항을 지운다.",
-              "correct": false
             }
           ]
         }
-      },
-      {
-        "depth": 3,
-        "title_en": "Bilingual Communication for Koreans in the Philippines",
-        "title_kr": "필리핀 한인 사회의 이중언어 소통",
-        "sub_en": "Application",
-        "sub_kr": "실생활 적용",
-        "badge": "Advanced",
-        "text_en": "Korean residents in the Philippines may receive information from schools, workplaces and local community groups in different languages. A clear Korean-English notice can help people understand shared procedures and take part more confidently. Organizers should make sure both versions are accurate and confirm official requirements with the responsible institution. If a notice affects safety or important decisions, readers should check the original source too.",
-        "text_kr": "필리핀에 사는 한인은 학교나 직장, 현지 공동체 단체에서 여러 언어로 안내를 받을 수 있습니다. 분명한 한영 안내문은 공동의 절차를 이해하고 더 자신 있게 참여하도록 돕습니다. 주최자는 두 언어의 내용이 정확한지 확인하고, 공식적인 요구 사항은 담당 기관에 확인해야 합니다. 안전이나 중요한 결정과 관련된 안내라면 독자도 원래 출처를 확인하는 것이 좋습니다.",
-        "bilingual_en": "Bilingual access helps people participate, while official verification protects accuracy.",
-        "bilingual_kr": "이중언어 정보는 참여를 돕고, 공식 확인은 정확성을 지켜 줍니다.",
-        "speaking_en": "Describe how a Korean-English notice could help a Korean resident take part in a local school procedure.",
-        "speaking_kr": "한영 안내문이 필리핀 한인 주민의 현지 학교 절차 참여를 어떻게 도울 수 있는지 설명해 봅시다.",
-        "writing_en": "Write a two-sentence checklist for reviewing a bilingual community notice.",
-        "writing_kr": "이중언어 공동체 안내문을 검토할 때 확인할 사항을 두 문장으로 써 봅시다.",
-        "vocab": [
-          {
-            "en": "official source",
-            "kr": "공식 출처"
-          },
-          {
-            "en": "participate",
-            "kr": "참여하다"
-          }
-        ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "How can we judge which rocket system is a better choice when the headline gives price information but not a full comparison?",
+      "question_kr": "제목에 가격 정보만 있고 종합 비교는 없을 때 어떤 로켓 시스템이 더 나은 선택인지 어떻게 판단할 수 있을까요?",
+      "aok_en": "Human Sciences",
+      "aok_kr": "인간과학",
+      "wok_en": "Reason, Language",
+      "wok_kr": "이성, 언어",
+      "task_en": "Test the claim that a lower-priced system is the better choice. Give a counter-example and list two kinds of evidence needed for a fuller comparison.",
+      "task_kr": "가격이 더 낮은 시스템이 더 나은 선택이라는 주장을 검토해 봅시다. 가능한 반례와 종합적인 비교에 필요한 근거 두 가지를 제시해 봅시다."
+    }
   },
   "news_4": {
     "tag": "Safety",
     "tagClass": "tag-safety",
-    "title_en": "Travelers Should Confirm Routes Before Setting Out",
-    "title_kr": "출발 전 이동 경로를 확인하세요",
-    "summary_en": "Traffic, weather and service changes can affect travel plans. Check current information through reliable local sources, allow extra time and share your route with someone you trust.",
-    "summary_kr": "교통과 날씨, 운행 변경은 이동 계획에 영향을 줄 수 있습니다. 신뢰할 수 있는 현지 경로로 최신 정보를 확인하고 여유 시간을 확보하며, 믿을 만한 사람에게 이동 경로를 알려두세요.",
+    "title_en": "Visayas grid placed under yellow alert Thursday",
+    "title_kr": "목요일 비사야스 전력망에 옐로 경보",
+    "summary_en": "GMA News reports that the NGCP placed the Visayas grid under yellow alert on November 26. The headline does not state how long the alert lasted or whether it affected service.",
+    "summary_kr": "GMA 뉴스에 따르면 NGCP는 11월 26일 비사야스 전력망에 옐로 경보를 발령했습니다. 제목에는 경보 지속 시간이나 실제 전력 공급에 미친 영향은 나와 있지 않습니다.",
     "layers": [
       {
         "depth": 1,
-        "title_en": "Check Before You Travel",
-        "title_kr": "출발 전 이동 정보 확인하기",
+        "title_en": "Understanding a Yellow Alert",
+        "title_kr": "황색 경보 이해하기",
         "sub_en": "Foundation",
         "sub_kr": "기초 개념",
         "badge": "Beginner",
-        "text_en": "Travel plans can change because of traffic, weather or service updates. Checking <span class=kw>current information</span> before leaving can help you choose a suitable route and allow enough time. Use reliable local sources rather than guessing. Let someone you trust know your route.",
-        "text_kr": "교통이나 날씨, 운행 정보가 바뀌면 이동 계획도 달라질 수 있습니다. 출발 전에 <span class=kw>최신 정보</span>를 확인하면 알맞은 경로를 고르고 시간을 충분히 잡는 데 도움이 됩니다. 짐작에 기대기보다 믿을 수 있는 현지 정보원을 이용하세요. 믿을 만한 사람에게 이동 경로를 알려 두세요.",
-        "bilingual_en": "A quick check before leaving can prevent a small change from becoming a big problem.",
-        "bilingual_kr": "출발 전 잠깐 확인하면 작은 변화가 큰 문제로 번지는 것을 막을 수 있습니다.",
-        "speaking_en": "Name two things you would check before setting out on a journey.",
-        "speaking_kr": "길을 나서기 전에 확인할 사항 두 가지를 말해 봅시다.",
-        "writing_en": "Write a short pre-travel reminder that includes checking information and sharing your route.",
-        "writing_kr": "이동 정보 확인과 경로 공유를 포함해 출발 전 짧은 안내 문구를 써 봅시다.",
+        "text_en": "An electricity <span class=kw>grid</span> is a network that helps deliver power to users. NGCP manages the transmission system in the Philippines. GMA News reports that the Visayas grid was placed under yellow alert on November 26. The headline does not say how long the alert lasted or whether customers experienced service problems.",
+        "text_kr": "<span class=kw>전력망</span>은 전기를 이용자에게 보내는 데 필요한 연결망입니다. NGCP는 필리핀의 송전 시스템을 관리합니다. GMA 뉴스는 11월 26일 비사야스 전력망에 황색 경보가 내려졌다고 보도했습니다. 제목에는 경보가 얼마나 지속됐는지, 이용자가 정전 같은 불편을 겪었는지는 나오지 않습니다.",
+        "bilingual_en": "An alert reports a grid condition; it does not automatically tell us what each customer experienced.",
+        "bilingual_kr": "경보는 전력망의 상태를 알려 주지만, 각 이용자가 어떤 일을 겪었는지 자동으로 말해 주지는 않습니다.",
+        "speaking_en": "State what the headline reports and one outcome it does not confirm.",
+        "speaking_kr": "기사 제목이 전하는 사실과 확인해 주지 않는 결과 한 가지를 말해 봅시다.",
+        "writing_en": "Write one sentence explaining why an alert and a blackout are not the same claim.",
+        "writing_kr": "경보와 정전이 같은 뜻이 아닌 이유를 한 문장으로 써 봅시다.",
         "vocab": [
           {
-            "en": "route",
-            "kr": "경로"
+            "en": "grid",
+            "kr": "전력망"
           },
           {
-            "en": "current information",
-            "kr": "최신 정보"
+            "en": "alert",
+            "kr": "경보"
           }
         ]
       },
       {
         "depth": 2,
-        "title_en": "Reliable Sources and Extra Time",
-        "title_kr": "믿을 만한 정보와 여유 시간",
+        "title_en": "What an Alert Can and Cannot Tell Us",
+        "title_kr": "경보로 알 수 있는 것과 알 수 없는 것",
         "sub_en": "Context",
         "sub_kr": "맥락",
         "badge": "Intermediate",
-        "text_en": "A route that was clear earlier may become slow or unavailable after a change in traffic, weather or public transport service. Checking a reliable local source near departure time gives a more useful picture than relying on old information. Allowing extra time can reduce stress if the journey takes longer than expected. Sharing your route also helps someone notice if your plans change.",
-        "text_kr": "교통이나 날씨, 대중교통 운행이 바뀌면 조금 전까지 괜찮았던 경로가 막히거나 이용할 수 없게 될 수 있습니다. 출발 시간에 가까워졌을 때 믿을 만한 현지 정보원을 확인하면 오래된 정보에 기대는 것보다 도움이 됩니다. 이동 시간이 예상보다 길어질 때를 대비해 여유 시간을 두면 부담을 줄일 수 있습니다. 경로를 알려 두면 계획이 바뀌었을 때 다른 사람이 알아차리는 데도 도움이 됩니다.",
-        "bilingual_en": "Safe travel planning combines up-to-date information, a time buffer and communication.",
-        "bilingual_kr": "안전한 이동 계획에는 최신 정보와 시간 여유, 연락이 함께 필요합니다.",
-        "speaking_en": "Explain why checking a route before leaving is better than relying on information from earlier in the day.",
-        "speaking_kr": "하루 중 앞서 확인한 정보에만 기대지 않고 출발 전에 경로를 다시 확인해야 하는 이유를 설명해 봅시다.",
-        "writing_en": "Write two steps a traveler should take if a route changes before departure.",
-        "writing_kr": "출발 전에 경로가 바뀌었을 때 여행자가 취할 행동 두 가지를 써 봅시다.",
+        "text_en": "A grid alert is a status notice, and its meaning depends on the rules used by the responsible operator. To understand this report fully, readers would need details about the alert level, its duration, and any effect on electricity service. The headline identifies a yellow alert but does not provide those details. It is careful to ask what happened next rather than assume a disruption.",
+        "text_kr": "전력망 경보는 운영 상태를 알리는 안내이며, 정확한 의미는 담당 기관의 기준에 따라 달라집니다. 이 보도를 충분히 이해하려면 경보 단계의 의미, 지속 시간, 전력 서비스에 미친 영향을 확인해야 합니다. 제목은 황색 경보가 내려졌다고 전하지만 이런 세부 정보는 제공하지 않습니다. 전력 공급에 문제가 있었다고 단정하기보다 이후 상황을 확인해야 합니다.",
+        "bilingual_en": "A status warning may signal a concern, but its real-world effect needs separate evidence.",
+        "bilingual_kr": "상태 경보는 우려되는 상황을 알릴 수 있지만, 실제 영향은 별도의 근거로 확인해야 합니다.",
+        "speaking_en": "Name two follow-up details that would clarify the Visayas alert.",
+        "speaking_kr": "비사야스 경보 상황을 더 분명히 알려 줄 후속 정보 두 가지를 말해 봅시다.",
+        "writing_en": "Write a short question asking whether the alert affected electricity service.",
+        "writing_kr": "경보가 전력 공급에 영향을 주었는지 묻는 짧은 질문을 써 봅시다.",
         "vocab": [
           {
-            "en": "reliable source",
-            "kr": "믿을 만한 정보원"
+            "en": "status",
+            "kr": "상태"
           },
           {
-            "en": "time buffer",
-            "kr": "시간 여유"
+            "en": "duration",
+            "kr": "지속 시간"
           }
         ],
         "quiz": {
-          "q_en": "What is a sensible response to changing traffic or travel services?",
-          "q_kr": "교통이나 이동 서비스가 바뀌었을 때 현명한 대응은 무엇인가요?",
+          "q_en": "What does the headline say about the effects of the yellow alert?",
+          "q_kr": "기사 제목은 황색 경보의 영향에 대해 무엇이라고 전하나요?",
           "opts": [
             {
-              "en": "Check reliable current information and allow extra time.",
-              "kr": "믿을 만한 최신 정보를 확인하고 여유 시간을 둔다.",
+              "en": "It confirms that customers lost power.",
+              "kr": "이용자들이 정전을 겪었다고 확인한다.",
+              "correct": false
+            },
+            {
+              "en": "It says how long the alert lasted.",
+              "kr": "경보가 얼마나 지속됐는지 알려 준다.",
+              "correct": false
+            },
+            {
+              "en": "It does not state whether service was affected.",
+              "kr": "전력 서비스에 영향이 있었는지 밝히지 않는다.",
               "correct": true
-            },
-            {
-              "en": "Use the first route you remember without checking.",
-              "kr": "확인하지 않고 처음 떠오른 경로를 이용한다.",
-              "correct": false
-            },
-            {
-              "en": "Keep the route secret from everyone.",
-              "kr": "이동 경로를 누구에게도 알리지 않는다.",
-              "correct": false
             }
           ]
         }
-      },
-      {
-        "depth": 3,
-        "title_en": "Travel Safety for Koreans in the Philippines",
-        "title_kr": "필리핀 한인 사회의 이동 안전",
-        "sub_en": "Application",
-        "sub_kr": "실생활 적용",
-        "badge": "Advanced",
-        "text_en": "Korean residents and visitors in the Philippines may travel through places where they are unfamiliar with local routes or services. Before leaving, check reliable local updates, consider weather and traffic, and allow extra time. Share your route and expected arrival time with someone you trust, especially when traveling alone or somewhere unfamiliar. If conditions change, use updated information to reconsider the plan.",
-        "text_kr": "필리핀에 사는 한인과 방문객은 현지 경로나 교통 서비스를 잘 모르는 곳을 이동할 수 있습니다. 출발 전에 믿을 만한 현지 안내를 확인하고 날씨와 교통 상황을 살피며 여유 시간을 두세요. 혼자 이동하거나 낯선 곳에 갈 때는 믿을 만한 사람에게 경로와 도착 예정 시간을 알려 두세요. 상황이 바뀌면 최신 정보를 바탕으로 계획을 다시 살펴야 합니다.",
-        "bilingual_en": "In an unfamiliar place, local updates and a shared route make travel plans more practical and safer.",
-        "bilingual_kr": "낯선 곳에서는 현지 정보와 경로 공유가 더 현실적이고 안전한 이동 계획을 만들어 줍니다.",
-        "speaking_en": "Describe a safe pre-travel routine for a Korean visitor going somewhere unfamiliar in the Philippines.",
-        "speaking_kr": "필리핀의 낯선 곳으로 가는 한인 방문객을 위한 안전한 출발 전 습관을 설명해 봅시다.",
-        "writing_en": "Write a short message telling a trusted person your route and expected arrival time.",
-        "writing_kr": "믿을 만한 사람에게 경로와 도착 예정 시간을 알리는 짧은 메시지를 써 봅시다.",
-        "vocab": [
-          {
-            "en": "expected arrival time",
-            "kr": "도착 예정 시간"
-          },
-          {
-            "en": "local update",
-            "kr": "현지 최신 안내"
-          }
-        ]
       }
-    ]
+    ],
+    "tok": {
+      "question_en": "How do we know whether a grid warning affected everyday electricity service when the headline reports the alert but not its outcome?",
+      "question_kr": "제목은 전력망 경보를 전하지만 결과는 알려 주지 않을 때, 그 경보가 일상적인 전력 공급에 영향을 주었는지 어떻게 알 수 있을까요?",
+      "aok_en": "Natural Sciences, Human Sciences",
+      "aok_kr": "자연과학, 인간과학",
+      "wok_en": "Sense perception, Reason",
+      "wok_kr": "감각 지각, 이성",
+      "task_en": "Test the claim that a yellow alert means customers lost power. Give a possible counter-example and name service data or reports you would check.",
+      "task_kr": "황색 경보는 이용자들이 정전을 겪었다는 뜻이라는 주장을 검토해 봅시다. 가능한 반례와 확인할 전력 자료나 보도를 제시해 봅시다."
+    }
   }
 };
 var paulSuggestions = {};
-paulSuggestions["cover"] = { en: ["What belongs on a family's practical safety checklist?", "How can bilingual information help people respond calmly?", "How should a community balance speed and accuracy when sharing updates?"], kr: ["가족의 실용적인 안전 점검표에는 무엇을 넣을 수 있을까요?", "한영 병기 정보는 사람들이 침착하게 대응하는 데 어떻게 도움이 될까요?", "공동체는 소식을 전할 때 신속성과 정확성 사이에서 어떻게 균형을 잡아야 할까요?"] };
-paulSuggestions["featured"] = { en: ["What should family members agree on before a disruption?", "Why is it useful to choose a backup way to communicate?", "How could a Korean family make its contact plan useful in the Philippines?"], kr: ["예기치 못한 상황이 생기기 전에 가족끼리 무엇을 정해 두면 좋을까요?", "대체 연락 방법을 정해 두면 어떤 점이 유용할까요?", "한인 가족은 필리핀에서 활용하기 좋도록 연락 계획을 어떻게 만들 수 있을까요?"] };
-paulSuggestions["news_1"] = { en: ["Why is the displayed exchange rate not always the whole story?", "What details should a family compare before a transfer?", "How can keeping transfer records help a household budget?"], kr: ["표시된 환율만으로는 거래 내용을 모두 알 수 없는 이유가 무엇인가요?", "송금 전에 가족이 비교해야 할 정보는 무엇인가요?", "송금 기록은 가계 예산 관리에 어떻게 도움이 될까요?"] };
-paulSuggestions["news_2"] = { en: ["How can food help people learn about another culture?", "What should a clear food label tell guests?", "How could a K-food event in the Philippines make cultural exchange two-way?"], kr: ["음식은 사람들이 다른 문화를 배우는 데 어떻게 도움이 될까요?", "알기 쉬운 음식 표시는 손님에게 어떤 정보를 알려 줘야 할까요?", "필리핀의 K-푸드 행사는 어떻게 쌍방향 문화 교류를 만들 수 있을까요?"] };
-paulSuggestions["news_3"] = { en: ["What makes a bilingual notice easy to use?", "Why should important procedures be verified with an institution?", "How can clear notices support Korean residents in the Philippines?"], kr: ["이중언어 안내문을 쉽게 활용하려면 무엇이 필요할까요?", "중요한 절차를 기관에 확인해야 하는 이유는 무엇인가요?", "분명한 안내문은 필리핀 한인 주민에게 어떻게 도움이 될까요?"] };
-paulSuggestions["news_4"] = { en: ["What can change a travel route after you have planned it?", "Why should travelers use current local information and allow extra time?", "What should a Korean visitor in the Philippines share before traveling somewhere unfamiliar?"], kr: ["계획을 세운 뒤 이동 경로를 바꿀 수 있는 요인은 무엇인가요?", "여행자는 왜 최신 현지 정보를 확인하고 여유 시간을 둬야 할까요?", "필리핀의 낯선 곳으로 이동하기 전에 한인 방문객은 어떤 정보를 공유해야 할까요?"] };
+paulSuggestions["cover"] = { en: ["What makes an airport comfortable for travelers?", "What information would help you check an airport ranking?", "How might a resident's airport needs differ from a visitor's?"], kr: ["여행객이 편안하다고 느끼는 공항은 어떤 곳일까요?", "공항 순위를 확인할 때 어떤 정보가 필요할까요?", "거주자와 방문객의 공항 이용 필요는 어떻게 다를까요?"] };
+paulSuggestions["featured"] = { en: ["What details would help explain why aircraft were in a region?", "How can readers tell confirmed facts from speculation?", "Why should a headline not be treated as a complete report?"], kr: ["항공기가 어떤 지역에 있었던 이유를 설명하려면 어떤 정보가 필요할까요?", "확인된 사실과 추측을 어떻게 구별할 수 있을까요?", "왜 제목만으로 전체 상황을 판단하면 안 될까요?"] };
+paulSuggestions["news_1"] = { en: ["What information would help farmers understand a response plan?", "How can people check whether public funds reach their intended purpose?", "Why is preparation important before a climate risk occurs?"], kr: ["농민이 대응 계획을 이해하려면 어떤 정보가 필요할까요?", "공공 예산이 목적에 맞게 쓰이는지 어떻게 확인할 수 있을까요?", "기후 위험이 발생하기 전에 대비하는 것이 왜 중요할까요?"] };
+paulSuggestions["news_2"] = { en: ["Why might a headline focus on the winner rather than other placements?", "How can people celebrate contestants without changing the official result?", "What details would help readers understand a pageant's judging?"], kr: ["제목은 왜 다른 순위보다 우승 결과를 강조할까요?", "공식 결과를 바꾸지 않으면서 참가자를 어떻게 응원할 수 있을까요?", "미인 대회의 심사 과정을 이해하려면 어떤 정보가 필요할까요?"] };
+paulSuggestions["news_3"] = { en: ["What factors besides price might matter in a large equipment purchase?", "What evidence would make a comparison between two systems fair?", "Why should readers avoid assuming a procurement decision has been made?"], kr: ["대규모 장비 구매에서 가격 외에 어떤 요소가 중요할까요?", "두 시스템을 공정하게 비교하려면 어떤 근거가 필요할까요?", "조달 결정이 끝났다고 섣불리 생각하면 안 되는 이유는 무엇일까요?"] };
+paulSuggestions["news_4"] = { en: ["What follow-up information would help explain a grid alert?", "Why should an alert not automatically be described as a blackout?", "How could people check for accurate updates about local electricity service?"], kr: ["전력망 경보를 설명하는 데 어떤 후속 정보가 필요할까요?", "경보를 곧바로 정전이라고 표현하면 안 되는 이유는 무엇일까요?", "지역 전력 공급에 관한 정확한 소식을 어떻게 확인할 수 있을까요?"] };
