@@ -4726,7 +4726,10 @@ body {
 .nyt-section-links li + li::before { display: none; }
 
 /* ---------- Layout ---------- */
-.container { background: transparent; padding: 26px 60px 64px; }
+.container { background: transparent; padding: 0 60px 64px; }
+
+/* Cover section sits flush under the sticky header */
+.herald-cover-section { padding-top: 22px; }
 
 /* ---------- Dashboard (market · weather · status) ---------- */
 .dashboard {
