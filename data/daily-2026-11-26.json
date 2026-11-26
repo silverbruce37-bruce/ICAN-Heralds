@@ -149,7 +149,7 @@
       "title_en": "Conundrum · Complex Problem-Solving",
       "title_kr": "Conundrum · 복합 난제 해결 과제",
       "scenario_en": "NAIA has been named on TIME's list of best airports, and the President says the airport has \"come a long way.\" The recognition is real, but the people who depend on the airport face incompatible demands. Passengers — Korean residents, students, families and business travellers flying between Manila and Korea — judge the airport by queues, transfers and service on an ordinary day, not by a list. The airport operator and the airlines must keep flights running and costs stable while repairs close sections of the terminal. The government, which answers for both the recognition and the money, has to show that the improvement is real and that public trust was earned rather than announced. Each group wants something the other two cannot fully give: visible proof now, uninterrupted capacity, and lower costs.",
-      "scenario_kr": "NAIA가 TIME의 세계 최고 공항 목록에 이름을 올렸고, 대통령은 공항이 \"많이 발전했다\"고 말했습니다. 인정은 분명한 사실이지만, 공항에 기대는 사람들의 요구는 서로 충돌합니다. 마닐라와 한국을 오가는 한인 거주자·유학생·가족·출장자는 목록이 아니라 평범한 하루의 대기 줄, 환승, 서비스로 공항을 판단합니다. 공항 운영사와 항공사는 보수 공사로 터미널 일부가 닫히는 동안에도 운항과 비용을 안정적으로 유지해야 합니다. 인정과 예산 모두에 책임이 있는 정부는 개선이 실제이며 신뢰가 발표된 것이 아니라 쌓인 것임을 보여야 합니다. 각 집단이 원하는 것—지금 보이는 증거, 중단 없는 수용력, 낮은 비용—은 서로를 완전히 만족시킬 수 없습니다.",
+      "scenario_kr": "NAIA가 TIME의 세계 최고 공항 목록에 이름을 올렸고, 대통령은 공항이 \"많이 발전했다\"고 말했습니다. 인정은 분명한 사실이지만, 공항에 기대는 사람들의 요구는 서로 충돌합니다. 마닐라와 한국을 오가는 한인 거주자·유학생·가족·출장자는 목록이 아니라 평범한 하루의 대기 줄, 환승, 서비스로 공항을 판단합니다. 공항 운영사와 항공사는 보수 공사로 터미널 일부가 닫히는 동안에도 운항과 비용을 안정적으로 유지해야 합니다. 인정과 예산 모두에 책임이 있는 정부는 개선이 실제임을, 그리고 신뢰가 발표된 것이 아니라 쌓인 것임을 보여야 합니다. 각 집단이 원하는 것—지금 보이는 증거, 중단 없는 수용력, 낮은 비용—을 세 가지 모두 동시에 만족시킬 수는 없습니다.",
       "constraints": [
         {
           "en": "Recognition vs. everyday experience — a list rewards reputation, but passengers judge the airport by queues, transfers and service on an ordinary day.",
@@ -165,7 +165,7 @@
         }
       ],
       "question_en": "You chair a committee with one year and a budget that cannot cover everything. Choose the three improvements you would start first, the one you would postpone, and one standard — safety, honesty about delays, or fair pricing — that you would refuse to lower even if it slowed the rest. Then write what you would say publicly to the travellers whose problem will not be fixed this year, and explain how you would prove at the end of the year whether the recognition was deserved.",
-      "question_kr": "당신은 1년의 기간과 모든 일을 다 할 수는 없는 예산을 가진 위원회의 의장입니다. 가장 먼저 착수할 개선 세 가지와 미룰 한 가지, 그리고 나머지가 느려지더라도 낮추지 않을 기준 하나(안전, 지연에 대한 정직한 안내, 공정한 요금 중에서)를 정해 봅시다. 이어서 올해 안에 문제가 해결되지 않는 승객들에게 공개적으로 무슨 말을 할지 쓰고, 연말에 그 인정이 정당했는지를 어떻게 입증할지 설명해 봅시다.",
+      "question_kr": "당신은 1년의 시간과 모든 일을 다 하기에는 부족한 예산을 가진 위원회의 의장입니다. 가장 먼저 착수할 개선 세 가지와 미룰 한 가지, 그리고 나머지가 느려지더라도 낮추지 않을 기준 하나(안전, 지연에 대한 정직한 안내, 공정한 요금 중에서)를 정해 봅시다. 이어서 올해 안에 문제가 해결되지 않는 승객들에게 공개적으로 무슨 말을 할지 쓰고, 연말에 그 인정이 정당했는지를 어떻게 입증할지 설명해 봅시다.",
       "evaluation_lens": [
         {
           "en": "Feasibility — can the three first moves actually be finished within one year with the people, money and terminal space available?",
