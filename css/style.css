@@ -5397,3 +5397,76 @@ body {
     .word-banner { padding: 30px 22px; border-radius: 20px; }
     .today-brief, .learn-path, .tok-lab, .practice-studio, .super-teens { border-radius: 20px; }
 }
+
+/* ════════════════════════════════════════════════════════════════ */
+/* LIGHT THEME · REFINEMENTS (v13.1)                                */
+/* ════════════════════════════════════════════════════════════════ */
+
+/* Sentence-case section headings for a modern product feel */
+.section-title { text-transform: none; letter-spacing: -0.03em; }
+.section-title::after { margin-top: 0; align-self: center; }
+.section-title .live-badge { margin-left: 4px; }
+
+/* Tag chips: soft tinted pills instead of solid color bands */
+.tag { border-radius: 999px; letter-spacing: 0.04em; }
+.tag-security { background: #FFEEF0; color: #D62C3B; }
+.tag-economy { background: #E8F3FF; color: #1B64DA; }
+.tag-culture { background: #F1EDFF; color: #6D4AE0; }
+.tag-diplomacy { background: #E6F7F7; color: #0B7C7C; }
+.tag-safety { background: #E7F7EF; color: #0B7A54; }
+
+.news-card-body .tag,
+.news-card .tag,
+.learn-path-step .tag { align-self: flex-start; }
+.news-card-body .learn-btn { align-self: flex-start; }
+.news-card-body h3 { font-size: 1.08rem; line-height: 1.4; }
+
+/* Card typography */
+.brief-card h3,
+.learning-track-card h3 { font-weight: 700; letter-spacing: -0.022em; line-height: 1.42; }
+.brief-card p,
+.learning-track-card p { font-size: 0.92rem; }
+.today-brief-title { font-size: 1.9rem; }
+
+/* TOK claim pair — balanced indigo instead of warning red */
+.tok-claim-alt { background: #F3F1FF; border-color: rgba(99, 102, 241, 0.18); }
+.tok-claim-label { letter-spacing: 0.18em; }
+
+/* Word banner typography */
+.word-pronunciation { font-style: normal; letter-spacing: 0; }
+.word-example { font-size: 0.95rem; }
+
+/* Header polish */
+.nyt-masthead-meta { color: var(--muted); }
+.nyt-meta-left, .nyt-meta-right { letter-spacing: 0.16em; }
+.nyt-masthead { padding-bottom: 4px; }
+
+/* Dashboard numerals */
+.dash-value { font-size: 1.28rem; }
+.dash-source { font-size: 0.6rem; letter-spacing: 0.02em; opacity: 0.9; }
+
+/* Step chips + flow arrows */
+.step-chip { background: #FFFFFF; box-shadow: 0 1px 2px rgba(0, 27, 55, 0.04); }
+.learn-path-step { box-shadow: 0 1px 2px rgba(0, 27, 55, 0.03); }
+
+/* Practice studio timer button */
+.practice-timer-btn { border-radius: 12px; font-weight: 700; }
+
+/* Conundrum: give the card a little more air and a soft blue halo */
+.tok-card-dilemma { padding: 30px 24px 24px; }
+.tok-dilemma-task { box-shadow: 0 6px 18px rgba(49, 130, 246, 0.06); }
+
+/* Footer brand */
+.footer-brand h3 { text-transform: uppercase; letter-spacing: 0.06em; font-weight: 800; }
+.footer-links { gap: 8px; }
+.footer-links a { padding: 6px 12px; border-radius: 999px; }
+.footer-links a:hover { background: var(--primary-soft); }
+
+/* Mobile menu */
+.mobile-menu-btn span { background: var(--text-secondary); }
+
+@media (max-width: 768px) {
+    .today-brief-title { font-size: 1.55rem; }
+    .tok-card-dilemma { padding: 24px 16px 18px; }
+    .section-title::after { display: none; }
+}
