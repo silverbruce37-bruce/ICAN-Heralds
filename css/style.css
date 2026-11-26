@@ -1,5 +1,5 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 @font-face {
     font-family: 'Chomsky';
@@ -4579,7 +4579,7 @@ body {
         #F2F4F6;
     background-attachment: fixed;
     color: var(--text);
-    font-family: 'Pretendard', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', system-ui, sans-serif;
+    font-family: 'Pretendard Variable', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', system-ui, sans-serif;
     letter-spacing: -0.012em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -4616,7 +4616,7 @@ body {
 .food-lead,
 .column,
 .sub-title {
-    font-family: 'Pretendard', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Pretendard Variable', 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
     letter-spacing: -0.028em;
 }
 
@@ -4679,7 +4679,7 @@ body {
 .nyt-rule-bottom::after { display: none; }
 
 .nyt-nameplate {
-    font-family: 'Pretendard', 'Inter', sans-serif;
+    font-family: 'Pretendard Variable', 'Inter', sans-serif;
     font-weight: 800;
     font-size: clamp(2.2rem, 4.6vw, 3.4rem);
     letter-spacing: -0.048em;
@@ -4939,7 +4939,7 @@ body {
 }
 
 .learn-path-num {
-    font-family: 'Pretendard', 'Inter', sans-serif;
+    font-family: 'Pretendard Variable', 'Inter', sans-serif;
     font-weight: 800;
     letter-spacing: -0.04em;
     color: var(--primary);
@@ -5040,7 +5040,7 @@ body {
     box-shadow: var(--shadow-card);
 }
 
-.tok-lab::after { color: rgba(49, 130, 246, 0.05); font-family: 'Pretendard', 'Inter', sans-serif; }
+.tok-lab::after { color: rgba(49, 130, 246, 0.05); font-family: 'Pretendard Variable', 'Inter', sans-serif; }
 
 .tok-badge {
     background: var(--primary-soft);
