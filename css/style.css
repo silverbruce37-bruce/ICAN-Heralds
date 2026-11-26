@@ -5487,3 +5487,6 @@ body.lang-kr .herald-cover-section .sub-title {
     letter-spacing: -0.03em;
 }
 body.lang-kr .sub-title { font-weight: 500; }
+
+/* Korean spans inherit the modern sans stack (no per-span Noto override) */
+.kr-content { font-family: inherit; }
