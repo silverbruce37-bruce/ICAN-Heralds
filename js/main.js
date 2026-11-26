@@ -246,3 +246,46 @@ document.addEventListener('DOMContentLoaded', () => {
             grid.innerHTML = '<p style="color:var(--muted);text-align:center;grid-column:1/-1;padding:40px;"><span class="en-content">Archive coming soon — editions will appear here daily.</span><span class="kr-content">아카이브 준비 중 — 매일 발행되는 기사가 여기에 쌓입니다.</span></p>';
         });
 });
+
+/* ── DET 1-minute essay timer ─────────────────────────────── */
+let detTimer = null;
+let detRemaining = 60;
+
+function startDetTimer(btn) {
+    const label = btn ? btn.querySelector('.timer-label') : null;
+    const setLabel = (text) => {
+        if (!label) return;
+        const en = label.querySelector('.en-content');
+        const kr = label.querySelector('.kr-content');
+        if (en) en.textContent = text;
+        if (kr) kr.textContent = text;
+    };
+
+    if (detTimer) {
+        clearInterval(detTimer);
+        detTimer = null;
+        detRemaining = 60;
+        if (btn) btn.classList.remove('is-running');
+        setLabel('60s');
+        return;
+    }
+
+    detRemaining = 60;
+    if (btn) btn.classList.add('is-running');
+    setLabel('01:00');
+
+    detTimer = setInterval(() => {
+        detRemaining -= 1;
+        const mm = String(Math.floor(detRemaining / 60)).padStart(2, '0');
+        const ss = String(Math.max(detRemaining % 60, 0)).padStart(2, '0');
+        setLabel(mm + ':' + ss);
+        if (detRemaining <= 0) {
+            clearInterval(detTimer);
+            detTimer = null;
+            detRemaining = 60;
+            if (btn) btn.classList.remove('is-running');
+            setLabel('Time! 60s');
+            setTimeout(() => setLabel('60s'), 4000);
+        }
+    }, 1000);
+}

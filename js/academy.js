@@ -593,12 +593,29 @@ function renderAcademy(articleId) {
     // Paul-Sam Q&A
     layersHTML += buildPaulQA(articleId);
 
+    // TOK strip (TED-Ed × IB Theory of Knowledge) — only when the edition carries one
+    const tok = data.tok || null;
+    const tokHTML = tok && tok.question_en ? `
+        <div class="academy-tok">
+            <div class="academy-tok-head">
+                <span class="academy-tok-badge">TOK · TOKEN OF KNOWLEDGE</span>
+                <span class="academy-tok-label"><span class="en-content">Knowledge Question</span><span class="kr-content">지식 질문</span></span>
+            </div>
+            <p class="academy-tok-question"><span class="en-content">${tok.question_en}</span><span class="kr-content">${tok.question_kr || tok.question_en}</span></p>
+            <div class="academy-tok-tags">
+                <span class="academy-tok-tag"><b>AOK</b><span class="en-content">${tok.aok_en || ''}</span><span class="kr-content">${tok.aok_kr || tok.aok_en || ''}</span></span>
+                <span class="academy-tok-tag"><b>WOK</b><span class="en-content">${tok.wok_en || ''}</span><span class="kr-content">${tok.wok_kr || tok.wok_en || ''}</span></span>
+            </div>
+            ${tok.task_en ? `<p class="academy-tok-task"><span class="en-content">${tok.task_en}</span><span class="kr-content">${tok.task_kr || tok.task_en}</span></p>` : ''}
+        </div>` : '';
+
     document.getElementById('academyContent').innerHTML = `
         <div class="academy-article-header">
             <span class="academy-article-tag ${data.tagClass}">${data.tag}</span>
             <h2 class="academy-article-title"><span class="en-content">${data.title_en}</span><span class="kr-content">${data.title_kr}</span></h2>
             <p class="academy-article-summary"><span class="en-content">${data.summary_en}</span><span class="kr-content">${data.summary_kr}</span></p>
         </div>
+        ${tokHTML}
         <div class="academy-section-label"><span class="en-content">Level-by-Level Learning Path</span><span class="kr-content">레벨별 학습 경로</span></div>
         ${layersHTML}`;
 }

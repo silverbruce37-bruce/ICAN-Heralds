@@ -22,8 +22,14 @@ if [ -f "$VOLUME_FILE" ]; then
 else
     VOLUME=2
 fi
-VOLUME=$((VOLUME + 1))
-echo "$VOLUME" > "$VOLUME_FILE"
+if [ -f "data/daily-${DATE}.json" ]; then
+    # Re-publishing a day that already exists (workflow_dispatch force=true):
+    # keep the same volume number instead of incrementing again.
+    echo "  Re-publishing ${DATE} — keeping VOL. $(printf '%02d' "$VOLUME")"
+else
+    VOLUME=$((VOLUME + 1))
+    echo "$VOLUME" > "$VOLUME_FILE"
+fi
 VOLUME_DISPLAY=$(printf "VOL. %02d" "$VOLUME")
 
 HEADER_LINE="${DAY_OF_WEEK}, ${DATE_DISPLAY} | PHILIPPINES | ${VOLUME_DISPLAY}"
@@ -31,30 +37,26 @@ HEADER_LINE="${DAY_OF_WEEK}, ${DATE_DISPLAY} | PHILIPPINES | ${VOLUME_DISPLAY}"
 echo "=== ICAN Heralds Daily Generator v2 ==="
 echo "Date: $DATE | $VOLUME_DISPLAY | Week: $CURRENT_WEEK"
 
-# ─── Fetch PHP/KRW Exchange Rate from Naver ─────────
-echo "[0/5] Fetching PHP/KRW rate from Naver Finance..."
-PHP_KRW_RATE=$(curl -sL "https://finance.naver.com/marketindex/exchangeDetail.naver?marketindexCd=FX_PHPKRW" \
-    -H "User-Agent: Mozilla/5.0" 2>/dev/null | python3 -c "
-import sys, re
-data = sys.stdin.buffer.read()
-try:
-    html = data.decode('euc-kr', errors='replace')
-except:
-    html = data.decode('utf-8', errors='replace')
-idx = html.find('no_today')
-if idx > 0:
-    snippet = html[idx:idx+500]
-    digits = re.findall(r'class=\"no\d\">(\d)</span>|class=\"jum\">(\.)</span>', snippet)
-    rate = ''.join(d[0] or d[1] for d in digits)
-    if rate:
-        print(rate)
-    else:
-        print('24.00')
-else:
-    print('24.00')
-" 2>/dev/null)
+# ─── [0] Live market data (real numbers, never invented) ───────
+echo "[0/5] Fetching live PHP/KRW rate..."
+PHP_KRW_RATE=$(python3 scripts/fetch-live-data.py --rate-only 2>/dev/null || true)
+if [ -z "${PHP_KRW_RATE:-}" ]; then
+    PHP_KRW_RATE="unknown"
+    echo "  WARNING: live rate unavailable — the post-generation enrichment step will retry with all providers"
+else
+    echo "  Live rate: 1 PHP = ${PHP_KRW_RATE} KRW"
+fi
 
-echo "  Naver rate: 1 PHP = ${PHP_KRW_RATE} KRW"
+# ─── [0.5] Real headlines from RSS (grounding for the AI) ──────
+echo "[0.5/5] Fetching today's real headlines from RSS..."
+NEWS_DIGEST=$(timeout 90 python3 scripts/fetch-news.py --date "$DATE" 2>/dev/null || true)
+if [ -z "${NEWS_DIGEST:-}" ] || [ "${NEWS_DIGEST}" = "(no headlines available)" ]; then
+    NEWS_DIGEST="(no headlines could be fetched today — keep today's edition general and explicitly avoid specific statistics, names, quotes and URLs)"
+    echo "  WARNING: RSS fetch failed; the edition will run without news grounding"
+else
+    echo "  Headlines fetched: $(printf '%s\n' "$NEWS_DIGEST" | wc -l | tr -d ' ') lines"
+fi
+FETCH_STAMP=$(TZ="Asia/Manila" date +"%Y-%m-%d %H:%M")
 
 # ─── Anthropic API call with retry ──────────────────
 # Works both locally (claude CLI) and on GitHub Actions (API direct)
@@ -286,12 +288,17 @@ except Exception as e:
 
 validate_daily_json() {
     echo "$1" | python3 -c "
-import sys, json
+import sys, json, re
 data = json.load(sys.stdin)
 required = ['dashboard', 'cover_story', 'featured_news', 'news_grid', 'word_of_day']
 for key in required:
     assert key in data, f'Missing key: {key}'
 assert len(data['news_grid']) >= 4, 'Need at least 4 news cards'
+dash = data['dashboard']
+rate = str(dash.get('php_krw_rate', ''))
+assert re.match(r'^\d{1,3}\.\d{2}$', rate), f'php_krw_rate looks wrong: {rate!r}'
+assert '°C' in str(dash.get('weather_kr', '')), 'weather_kr missing temperature'
+assert '°C' in str(dash.get('weather_en', '')), 'weather_en missing temperature'
 print('VALID')
 "
 }
@@ -301,7 +308,21 @@ echo "[1/4] Generating daily content..."
 
 DAILY_PROMPT="You are a bilingual (English/Korean) news editor for ICAN Heralds, a premium daily news app for the Korean community in the Philippines.
 
-Today is ${DAY_OF_WEEK}, ${DATE_DISPLAY}. Generate today's news edition.
+Today is ${DAY_OF_WEEK}, ${DATE_DISPLAY}. Generate today's news edition for ${DATE}.
+
+=== REAL HEADLINES FETCHED TODAY (${FETCH_STAMP} PHT) ===
+These lines were fetched minutes ago from GMA News, Philstar, Rappler and Google News. They are your ONLY source of news facts today.
+
+${NEWS_DIGEST}
+=== END OF HEADLINES ===
+
+GROUNDING RULES (these override every other instruction):
+1. Every article you write must be built on one of the headlines above. Put that outlet's name in 'source_name'.
+2. Copy the URL exactly into 'source_url' when the line shows one. When the line says '(headline only, no direct link)', set 'source_url' to an empty string.
+3. Never invent statistics, percentages, prices, dates, people, quotes or URLs. If the headlines give no number, write no number.
+4. If the headlines carry little Korea-Philippines news, choose the closest real Philippine story and explain what it means for Korean residents. Never invent an event.
+5. Write like a careful newspaper editor: plain, specific, calm. No hype, no filler, no generic essays.
+6. The dashboard numbers are already correct — copy '${PHP_KRW_RATE}' into php_krw_rate and leave the weather fields as written; they are replaced by live data afterwards anyway.
 
 Return ONLY valid JSON (no markdown fences) with this exact structure:
 
@@ -310,8 +331,8 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
   \"header_date_line\": \"${HEADER_LINE}\",
   \"dashboard\": {
     \"php_krw_rate\": \"${PHP_KRW_RATE}\",
-    \"weather_en\": \"32°C Sunny\",
-    \"weather_kr\": \"32°C 맑음\",
+    \"weather_en\": \"29°C Cloudy\",
+    \"weather_kr\": \"29°C 흐림\",
     \"date\": \"${DATE_DOT}\",
     \"embassy_en\": \"Normal\",
     \"embassy_kr\": \"정상 운영\"
@@ -323,9 +344,11 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"subtitle_kr\": \"부제목 한국어\",
     \"body_en\": [\"Paragraph 1\", \"Paragraph 2\", \"Paragraph 3\"],
     \"body_kr\": [\"단락 1\", \"단락 2\", \"단락 3\"],
+    \"source_name\": \"Outlet name exactly as listed above\",
+    \"source_url\": \"https URL copied from the list, or empty string\",
     \"image_seed\": \"cover-${DATE}\",
-    \"image_query\": \"3-8 word English phrase for AI image gen, e.g. 'Korean Philippine officials handshake signing agreement'\",
-    \"image_caption\": \"Photo: Description of the image (date)\",
+    \"image_query\": \"3-8 word English phrase for AI image gen\",
+    \"image_caption\": \"Photo: Description of the image (source, date)\",
     \"author\": \"By ICAN Herald Editorial\",
     \"read_time_min\": 5
   },
@@ -336,6 +359,8 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"headline_kr\": \"피처드 헤드라인 KR\",
     \"lead_en\": \"2-3 sentence lead paragraph EN\",
     \"lead_kr\": \"리드 단락 KR\",
+    \"source_name\": \"Outlet name\",
+    \"source_url\": \"URL or empty string\",
     \"image_seed\": \"feat-${DATE}\",
     \"image_query\": \"3-8 word English phrase for AI image gen matching the featured story\",
     \"desk\": \"Security Desk\",
@@ -346,24 +371,28 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
       \"tag\": \"Economy\", \"tag_class\": \"tag-economy\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"1-2 sentence summary\", \"summary_kr\": \"...\",
+      \"source_name\": \"Outlet name\", \"source_url\": \"URL or empty string\",
       \"image_seed\": \"news1-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     },
     {
       \"tag\": \"Culture\", \"tag_class\": \"tag-culture\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
+      \"source_name\": \"Outlet name\", \"source_url\": \"URL or empty string\",
       \"image_seed\": \"news2-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     },
     {
       \"tag\": \"Cooperation\", \"tag_class\": \"tag-diplomacy\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
+      \"source_name\": \"Outlet name\", \"source_url\": \"URL or empty string\",
       \"image_seed\": \"news3-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 3
     },
     {
       \"tag\": \"Safety\", \"tag_class\": \"tag-safety\",
       \"headline_en\": \"...\", \"headline_kr\": \"...\",
       \"summary_en\": \"...\", \"summary_kr\": \"...\",
+      \"source_name\": \"Outlet name\", \"source_url\": \"URL or empty string\",
       \"image_seed\": \"news4-${DATE}\", \"image_query\": \"3-6 word English AI image prompt\", \"read_time_min\": 2
     }
   ],
@@ -376,19 +405,52 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"example_en\": \"Example sentence using the word.\",
     \"example_kr\": \"단어를 사용한 예문.\",
     \"grade\": \"A+\"
+  },
+  \"practice\": {
+    \"det_question_en\": \"One Duolingo English Test style 1-minute essay question (agree/disagree or preference), tied to today's cover story and word of the day\",
+    \"det_question_kr\": \"같은 질문의 한국어 버전\",
+    \"det_structure_en\": \"How to answer in 60 seconds (4 short moves)\",
+    \"det_structure_kr\": \"60초 답변 구조 (네 단계)\",
+    \"det_link_en\": \"One sentence telling the learner which part of today's edition to use as evidence\",
+    \"det_link_kr\": \"오늘 기사에서 근거로 쓸 부분 안내\"
+  },
+  \"knowledge_layer\": {
+    \"tok_question_en\": \"An IB Theory of Knowledge knowledge question grounded in today's cover story (open-ended, starts with How / To what extent / What role does / Why)\",
+    \"tok_question_kr\": \"같은 지식 질문의 한국어 버전\",
+    \"aok_en\": \"Two Areas of Knowledge that fit best, e.g. 'Human Sciences · Natural Sciences'\",
+    \"aok_kr\": \"지식 영역 한국어\",
+    \"wok_en\": \"Two Ways of Knowing that fit best, e.g. 'Reason · Emotion'\",
+    \"wok_kr\": \"인식 방법 한국어\",
+    \"claim_en\": \"A knowledge claim a careful reader could defend from today's story\",
+    \"claim_kr\": \"같은 지식 주장의 한국어\",
+    \"counterclaim_en\": \"A serious counterclaim that complicates the first\",
+    \"counterclaim_kr\": \"첫 주장을 흔드는 반대 주장의 한국어\",
+    \"teded_keyword\": \"2-3 English words to search on TED-Ed (concrete concept from today's story)\",
+    \"teded_why_en\": \"One sentence: what to look for in a TED-Ed lesson on this keyword\",
+    \"teded_why_kr\": \"같은 안내의 한국어\",
+    \"think_task_en\": \"A TED-Ed Think style critical-thinking task tied to today's story\",
+    \"think_task_kr\": \"같은 과제의 한국어\",
+    \"dig_deeper_en\": \"A TED-Ed Dig Deeper style research task (find a primary source)\",
+    \"dig_deeper_kr\": \"같은 과제의 한국어\",
+    \"essay_task_en\": \"TOK essay extension task (about 150 words) with AOK and WOK named\",
+    \"essay_task_kr\": \"같은 과제의 한국어\"
   }
 }
 
 IMPORTANT RULES:
 - tag_class must be one of: tag-security, tag-economy, tag-culture, tag-diplomacy, tag-safety
-- Focus on: Korea-Philippines relations, Korean community safety, ASEAN economy, K-culture, K-food events
-- Make it realistic and relevant to today's date
-- Cover story should have 3 substantial paragraphs per language
-- The word_of_day should connect thematically to the cover story
-- image_query: 3-8 concrete English nouns/actions describing the photo that would illustrate the article (visual subjects + setting). Examples: 'Korean Philippine officials handshake signing digital agreement Manila', 'Korean tourists police patrol Makati street safety', 'Seoul Manila container ship port trade'. Avoid abstract words.
+- Focus on what the real headlines say: Korea-Philippines relations, Korean community life and safety in Metro Manila, Philippine economy, ASEAN, K-culture, Korean food events.
+- Cover story body: 3 substantial paragraphs per language, each tied to a real headline.
+- The word_of_day must appear meaningfully in the cover story.
+- practice.det_question must be answerable from today's story in one minute; it must be a real DET-style prompt, not a TOK question.
+- knowledge_layer.tok_question must be a genuine TOK knowledge question about knowledge itself (how we know), not a current-events question.
+- aok values must come from: Mathematics, Natural Sciences, Human Sciences, History, The Arts, Ethics. wok values from: Language, Sense perception, Emotion, Reason, Imagination, Faith, Intuition, Memory.
+- teded_keyword: a searchable concept, never a fabricated lesson title or URL.
+- Every Korean line must read like natural Korean written for learners, not machine translation.
+- image_query: 3-8 concrete English nouns/actions describing the photo that would illustrate the article.
 - Return ONLY valid JSON, no explanation"
 
-DAILY_JSON=$(call_claude "$DAILY_PROMPT" 6000) || {
+DAILY_JSON=$(call_claude "$DAILY_PROMPT" 9000) || {
     echo "ERROR: Failed to generate daily content"
     exit 1
 }
@@ -401,6 +463,23 @@ fi
 
 echo "$DAILY_JSON" > "data/daily-${DATE}.json"
 echo "  Daily content saved to data/daily-${DATE}.json"
+
+# ─── Step 1.5: Overwrite AI numbers with live data ─────
+# The dashboard (FX rate + weather) and any source_url are re-checked here, so a
+# hallucinated or stale number can never reach the published page.
+echo "[1.5/5] Injecting live rate, weather and source checks..."
+NEWS_CONTEXT="data/news-context-${DATE}.json"
+if [ -f "$NEWS_CONTEXT" ]; then
+    python3 scripts/fetch-live-data.py --json "data/daily-${DATE}.json" --news "$NEWS_CONTEXT" \
+        || echo "  WARNING: live data enrichment failed — dashboard keeps the generated values"
+else
+    python3 scripts/fetch-live-data.py --json "data/daily-${DATE}.json" \
+        || echo "  WARNING: live data enrichment failed — dashboard keeps the generated values"
+fi
+if ! validate_daily_json "$(cat "data/daily-${DATE}.json")"; then
+    echo "ERROR: Daily JSON broken after live enrichment"
+    exit 1
+fi
 
 # ─── Step 2: Weekly Content (if needed) ─────────────
 WEEKLY_FILE="data/weekly-${CURRENT_WEEK}.json"
@@ -610,7 +689,17 @@ Return ONLY valid JSON (no markdown fences):
       }
     ],
     \"suggestions_en\": [\"Q1?\", \"Q2?\", \"Q3?\"],
-    \"suggestions_kr\": [\"질문1?\", \"질문2?\", \"질문3?\"]
+    \"suggestions_kr\": [\"질문1?\", \"질문2?\", \"질문3?\"],
+    \"tok\": {
+      \"question_en\": \"IB TOK knowledge question about how we know, drawn from THIS article\",
+      \"question_kr\": \"같은 지식 질문의 한국어\",
+      \"aok_en\": \"One or two Areas of Knowledge (Mathematics, Natural Sciences, Human Sciences, History, The Arts, Ethics)\",
+      \"aok_kr\": \"지식 영역 한국어\",
+      \"wok_en\": \"One or two Ways of Knowing (Language, Sense perception, Emotion, Reason, Imagination, Faith, Intuition, Memory)\",
+      \"wok_kr\": \"인식 방법 한국어\",
+      \"task_en\": \"A short critical-thinking task: test one claim in this article against a counter-example\",
+      \"task_kr\": \"같은 과제의 한국어\"
+    }
   },
   \"featured\": { ... same 3-layer structure ... },
   \"news_1\": { ... same 2-3 layer structure ... },
@@ -621,6 +710,7 @@ RULES:
 - Article MUST have at least 2 layers (Depth 1-2). Cover/Featured SHOULD have 3-4 layers.
 - Layer 3 MUST focus on the Korean community living in the Philippines.
 - Layer 4, when present, MUST be an article-specific debate/insight layer with 'debate_en' and 'debate_kr'.
+- Every article MUST include a 'tok' object: one genuine TOK knowledge question about how we come to know something in this story, with AOK and WOK values chosen from the official lists, and a short critical-thinking task. Never repeat the same tok question across articles.
 - Every layer MUST include 'speaking_en/kr' and 'writing_en/kr', and they must be specific to that article layer.
 - Korean 'speaking_kr' and 'writing_kr' MUST read like workbook prompts for learners. Prefer endings such as '-해 봅시다', '-정리해 봅시다', '-써 봅시다' over explanatory prose.
 - Use natural Korean (not AI-translated style). 
@@ -666,6 +756,9 @@ try:
             'summary_kr': art.get('subtitle_kr', art.get('summary_kr', art.get('lead_kr', ''))),
             'layers': academy[key].get('layers', []),
         }
+        tok = academy[key].get('tok')
+        if isinstance(tok, dict) and tok.get('question_en'):
+            js_data[key]['tok'] = tok
 
     js_content = f'// Auto-generated by generate-daily.sh — ${DATE}\n'
     js_content += 'var academyData = ' + json.dumps(js_data, ensure_ascii=False, indent=2) + ';\n'

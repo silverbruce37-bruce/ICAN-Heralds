@@ -11,6 +11,7 @@ import glob
 import re
 import hashlib
 import html
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
@@ -297,6 +298,49 @@ def build_today_brief(daily):
         </section>"""
 
 
+def build_learning_path(daily):
+    """The textbook spine: news -> background layers -> TED-Ed x TOK -> DET/essay."""
+    steps = [
+        ("01", "Today&rsquo;s News", "오늘의 뉴스", "Read the story first", "오늘 기사를 먼저 읽습니다", "#coverStory", "BRIEF"),
+        ("02", "Background Layers", "배경지식 레이어", "Widen L1 → L2 → L3", "L1 → L2 → L3로 넓히기", "#learning-track", "L1 – L4"),
+        ("03", "TED-Ed × TOK", "TED-Ed × TOK 사고 확장", "Ask what we can know", "무엇을 알 수 있는지 질문하기", "#tok-lab", "AOK · WOK"),
+        ("04", "DET · Essay", "DET · 에세이 실전", "Say it in 60s, write 150 words", "60초로 말하고 150단어로 쓰기", "#practice-studio", "60 SEC"),
+    ]
+
+    cards = ""
+    for num, label_en, label_kr, copy_en, copy_kr, anchor, tag in steps:
+        cards += f'''
+                <a class="learn-path-step" href="{anchor}">
+                    <span class="learn-path-num">{num}</span>
+                    <span class="learn-path-label">
+                        <span class="en-content">{label_en}</span>
+                        <span class="kr-content">{label_kr}</span>
+                    </span>
+                    <span class="learn-path-copy">
+                        <span class="en-content">{copy_en}</span>
+                        <span class="kr-content">{copy_kr}</span>
+                    </span>
+                    <span class="learn-path-tag">{tag}</span>
+                </a>'''
+
+    return f'''
+        <section id="learning-path" class="learn-path">
+            <div class="learn-path-head">
+                <span class="section-kicker">Today&rsquo;s Learning Flow</span>
+                <h2 class="learn-path-title">
+                    <span class="en-content">Read it like a newspaper. Study it like a textbook.</span>
+                    <span class="kr-content">신문처럼 읽고, 교재처럼 배웁니다</span>
+                </h2>
+                <p class="learn-path-intro">
+                    <span class="en-content">One story, four steps: read the news, widen the background knowledge layer by layer, stretch your thinking with TED-Ed and TOK, then speak and write it yourself.</span>
+                    <span class="kr-content">기사 하나로 네 단계: 뉴스를 읽고, 배경지식을 레이어로 넓히고, TED-Ed와 TOK로 사고를 확장한 뒤 직접 말하고 씁니다.</span>
+                </p>
+            </div>
+            <div class="learn-path-track">{cards}
+            </div>
+        </section>'''
+
+
 def build_learning_track(daily):
     cover = daily.get("cover_story", {})
     featured = daily.get("featured_news", {})
@@ -351,11 +395,12 @@ def build_learning_track(daily):
 
     return f"""
         <section id="learning-track" class="learning-track">
+            <span class="step-chip"><b>STEP 02</b><span class="en-content">Background Layers</span><span class="kr-content">배경지식 레이어</span></span>
             <h2 class="section-title">
                 <span class="en-content">Learning Track</span>
                 <span class="kr-content">레벨별 학습 트랙</span>
             </h2>
-            <p class="section-intro">신문처럼 읽고 끝내지 않도록, 초급부터 실전 영어까지 바로 이어지는 학습 동선을 첫 화면에 올렸습니다.</p>
+            <p class="section-intro">기사를 읽고 끝나지 않도록, 기초 개념(L1)에서 맥락(L2), 실전 표현(L3)까지 배경지식을 레이어로 하나씩 쌓는 구간입니다.</p>
             <div class="learning-track-grid">{cards_html}
             </div>
         </section>"""
@@ -792,6 +837,250 @@ def _build_travel_cards(weekly):
     return f'<div class="travel-grid">{cards}\n</div>'
 
 
+def build_practice_studio(daily):
+    """DET 1-minute essay practice — one prompt, one timed answer, one evidence link."""
+    practice = daily.get("practice", {}) or {}
+    word = (daily.get("word_of_day", {}) or {})
+    question_en = practice.get("det_question_en", "")
+    question_kr = practice.get("det_question_kr", "")
+    if not question_en:
+        return ""
+
+    steps = [
+        ("1", "Position", "입장 밝히기"),
+        ("2", "Reason", "이유 제시"),
+        ("3", "Example", "예시 들기"),
+        ("4", "Close", "마무리"),
+    ]
+    steps_html = "".join(
+        f'<li><span class="practice-step-num">{num}</span>'
+        f'<span class="practice-step-en en-content">{en}</span>'
+        f'<span class="practice-step-kr kr-content">{kr}</span></li>'
+        for num, en, kr in steps
+    )
+
+    word_chip = ""
+    if word.get("word"):
+        word_chip = (
+            f'<span class="practice-word-chip">today&rsquo;s word · <b>{word.get("word")}</b></span>'
+        )
+
+    return f'''
+        <section id="practice-studio" class="practice-studio">
+            <div class="studio-head">
+                <span class="step-chip"><b>STEP 04</b><span class="en-content">DET · Essay Practice</span><span class="kr-content">DET · 에세이 실전</span></span>
+                <h2 class="section-title">
+                    <span class="en-content">One-Minute Essay Practice</span>
+                    <span class="kr-content">1분 에세이 연습</span>
+                </h2>
+                <p class="studio-copy">
+                    <span class="en-content">Last step of the flow: one question, sixty seconds, four moves. Answer out loud first, then write it down.</span>
+                    <span class="kr-content">학습 흐름의 마지막 단계입니다. 질문 하나, 60초, 네 단계 — 먼저 소리 내어 말하고, 그 다음 글로 옮겨 보세요.</span>
+                </p>
+            </div>
+            <article class="practice-card">
+                <div class="practice-card-top">
+                    <span class="practice-badge">DET · 60 SEC</span>
+                    {word_chip}
+                </div>
+                <p class="practice-question">
+                    <span class="en-content">{question_en}</span>
+                    <span class="kr-content">{question_kr}</span>
+                </p>
+                <ol class="practice-steps">{steps_html}</ol>
+                <p class="practice-note">
+                    <span class="en-content">{practice.get("det_link_en", "")}</span>
+                    <span class="kr-content">{practice.get("det_link_kr", "")}</span>
+                </p>
+                <div class="practice-actions">
+                    <button class="learn-btn practice-timer-btn" onclick="startDetTimer(this)">
+                        <span class="learn-icon">⏱</span>
+                        <span class="timer-label">
+                            <span class="en-content">Start 60s Timer</span>
+                            <span class="kr-content">60초 타이머 시작</span>
+                        </span>
+                    </button>
+                    <a class="learn-btn learn-btn-secondary" href="https://englishtest.duolingo.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="learn-icon">↗</span> About the DET
+                    </a>
+                </div>
+            </article>
+        </section>'''
+
+
+def build_tok_lab(daily):
+    """TED-Ed × IB TOK lab: knowledge question, AOK/WOK, Think, Dig Deeper, essay extension."""
+    layer = daily.get("knowledge_layer", {}) or {}
+    question_en = layer.get("tok_question_en", "")
+    question_kr = layer.get("tok_question_kr", "")
+    if not question_en:
+        return ""
+
+    keyword = str(layer.get("teded_keyword") or "").strip()
+    teded_url = "https://ed.ted.com/lessons"
+    if keyword:
+        teded_url += "?q=" + urllib.parse.quote(keyword)
+
+    concepts = [
+        ("Evidence", "근거"),
+        ("Certainty", "확실성"),
+        ("Interpretation", "해석"),
+        ("Perspective", "관점"),
+        ("Justification", "정당화"),
+        ("Power", "권력"),
+        ("Values", "가치"),
+        ("Responsibility", "책임"),
+    ]
+    concepts_html = "".join(
+        f'<span class="tok-concept"><span class="en-content">{en}</span>'
+        f'<span class="kr-content">{kr}</span></span>'
+        for en, kr in concepts
+    )
+
+    aok = layer.get("aok_en", "") or ""
+    aok_kr = layer.get("aok_kr", "") or aok
+    wok = layer.get("wok_en", "") or ""
+    wok_kr = layer.get("wok_kr", "") or wok
+
+    return f'''
+        <section id="tok-lab" class="tok-lab">
+            <div class="tok-head">
+                <div>
+                    <span class="step-chip"><b>STEP 03</b><span class="en-content">TED-Ed × IB TOK</span><span class="kr-content">TED-Ed × TOK 사고 확장</span></span>
+                    <h2 class="section-title tok-title">
+                        <span class="en-content">Token of Knowledge Lab</span>
+                        <span class="kr-content">토큰 오브 날리지 · TOK 랩</span>
+                    </h2>
+                    <p class="studio-copy">
+                        <span class="en-content">Layers on one story become a question about knowledge itself. Follow the question, test the claim, then write.</span>
+                        <span class="kr-content">한 기사의 레이어가 &lsquo;지식&rsquo;에 대한 질문으로 이어집니다. 질문을 따라가며 주장을 검증하고, 글로 써 보세요.</span>
+                    </p>
+                </div>
+                <span class="tok-badge">TOK · TOKEN OF KNOWLEDGE</span>
+            </div>
+
+            <div class="tok-question-block">
+                <span class="tok-question-label">
+                    <span class="en-content">Knowledge Question</span>
+                    <span class="kr-content">지식 질문</span>
+                </span>
+                <p class="tok-question">
+                    <span class="en-content">{question_en}</span>
+                    <span class="kr-content">{question_kr}</span>
+                </p>
+                <div class="tok-tags">
+                    <span class="tok-tag"><b>AOK</b><span class="en-content">{aok}</span><span class="kr-content">{aok_kr}</span></span>
+                    <span class="tok-tag"><b>WOK</b><span class="en-content">{wok}</span><span class="kr-content">{wok_kr}</span></span>
+                </div>
+            </div>
+
+            <div class="tok-grid">
+                <article class="tok-card tok-card-teded">
+                    <div class="tok-card-head">
+                        <span class="tok-card-icon">🎬</span>
+                        <h3><span class="en-content">TED-Ed Connection</span><span class="kr-content">TED-Ed 연결 탐구</span></h3>
+                    </div>
+                    <p class="tok-card-copy">
+                        <span class="en-content">{layer.get("teded_why_en", "")}</span>
+                        <span class="kr-content">{layer.get("teded_why_kr", "")}</span>
+                    </p>
+                    <span class="tok-keyword">#{keyword or "critical thinking"}</span>
+                    <a class="learn-btn" href="{teded_url}" target="_blank" rel="noopener noreferrer">
+                        <span class="learn-icon">↗</span>
+                        <span class="en-content">Search on TED-Ed</span><span class="kr-content">TED-Ed에서 탐색</span>
+                    </a>
+                </article>
+
+                <article class="tok-card">
+                    <div class="tok-card-head">
+                        <span class="tok-card-icon">🧠</span>
+                        <h3><span class="en-content">Think</span><span class="kr-content">싱크 · 비판적 사고</span></h3>
+                    </div>
+                    <p class="tok-card-copy">
+                        <span class="en-content">{layer.get("think_task_en", "")}</span>
+                        <span class="kr-content">{layer.get("think_task_kr", "")}</span>
+                    </p>
+                </article>
+
+                <article class="tok-card">
+                    <div class="tok-card-head">
+                        <span class="tok-card-icon">🔎</span>
+                        <h3><span class="en-content">Dig Deeper</span><span class="kr-content">디그 디퍼 · 1차 자료 탐구</span></h3>
+                    </div>
+                    <p class="tok-card-copy">
+                        <span class="en-content">{layer.get("dig_deeper_en", "")}</span>
+                        <span class="kr-content">{layer.get("dig_deeper_kr", "")}</span>
+                    </p>
+                </article>
+
+                <article class="tok-card tok-card-wide">
+                    <div class="tok-card-head">
+                        <span class="tok-card-icon">⚖️</span>
+                        <h3><span class="en-content">Claim vs Counterclaim</span><span class="kr-content">지식 주장 vs 반대 주장</span></h3>
+                    </div>
+                    <div class="tok-claims">
+                        <div class="tok-claim">
+                            <span class="tok-claim-label">Claim</span>
+                            <p><span class="en-content">{layer.get("claim_en", "")}</span><span class="kr-content">{layer.get("claim_kr", "")}</span></p>
+                        </div>
+                        <div class="tok-claim tok-claim-alt">
+                            <span class="tok-claim-label">Counterclaim</span>
+                            <p><span class="en-content">{layer.get("counterclaim_en", "")}</span><span class="kr-content">{layer.get("counterclaim_kr", "")}</span></p>
+                        </div>
+                    </div>
+                    <div class="tok-essay">
+                        <span class="tok-essay-label">
+                            <span class="en-content">TOK Essay Extension · 150 words</span>
+                            <span class="kr-content">TOK 에세이 확장 · 150단어</span>
+                        </span>
+                        <p>
+                            <span class="en-content">{layer.get("essay_task_en", "")}</span>
+                            <span class="kr-content">{layer.get("essay_task_kr", "")}</span>
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="tok-concepts">
+                <span class="tok-concepts-label"><span class="en-content">TOK concepts</span><span class="kr-content">TOK 개념어</span></span>
+                {concepts_html}
+            </div>
+        </section>'''
+
+
+def build_super_teens_banner():
+    """Verified ICAN Academy / Super Teens contact points only (icanacademy.com)."""
+    return '''
+        <section id="super-teens" class="super-teens">
+            <div class="st-inner">
+                <div class="st-copy">
+                    <span class="st-kicker">NEXT STEP · ICAN ACADEMY · SUPER TEENS</span>
+                    <h2 class="st-title">
+                        <span class="en-content">Take the flow into class</span>
+                        <span class="kr-content">혼자 한 학습 흐름, 수업에서 완성합니다</span>
+                    </h2>
+                    <p class="st-lead">
+                        <span class="en-content">Heralds becomes the textbook: today&rsquo;s story, its background layers, a TOK question and a DET answer — reviewed with a teacher.</span>
+                        <span class="kr-content">오늘의 기사 · 배경지식 레이어 · TOK 질문 · DET 답안까지, 헤럴드가 그대로 교재가 됩니다. 상담과 체험 수업으로 이어가세요.</span>
+                    </p>
+                    <p class="st-meta">16F Strata 100 Building, Emerald Ave, Ortigas Center, Pasig City</p>
+                </div>
+                <div class="st-actions">
+                    <a class="st-btn st-btn-primary" href="https://leveltest.icanacademy.work/" target="_blank" rel="noopener noreferrer">
+                        <span class="en-content">Free Level Test</span><span class="kr-content">무료 레벨테스트</span>
+                    </a>
+                    <a class="st-btn" href="https://pf.kakao.com/_jMuBxb" target="_blank" rel="noopener noreferrer">
+                        <span class="en-content">KakaoTalk Chat</span><span class="kr-content">카카오톡 상담</span>
+                    </a>
+                    <a class="st-btn" href="https://icanacademy.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="en-content">Academy Website</span><span class="kr-content">학원 홈페이지</span>
+                    </a>
+                    <a class="st-btn st-btn-tel" href="tel:070-7014-2233">070-7014-2233</a>
+                </div>
+            </div>
+        </section>'''
+
+
 def build_html(daily, weekly):
     d = daily
     dash = d.get("dashboard", {})
@@ -819,10 +1108,34 @@ def build_html(daily, weekly):
     news_cards = build_news_cards(news)
     food_html, _, events_html, picks_html = build_weekly_sections(weekly, date_dot)
     today_brief_html = build_today_brief(daily)
+    learning_path_html = build_learning_path(daily)
     learning_track_html = build_learning_track(daily)
+    practice_studio_html = build_practice_studio(daily)
+    tok_lab_html = build_tok_lab(daily)
+    super_teens_html = build_super_teens_banner()
     cache_check_html = build_cache_check_section()
     cover_phrases = derive_key_phrases(cover, cover.get("subtitle_en", ""))
     feat_phrases = derive_key_phrases(feat, feat.get("lead_en", ""))
+
+    # Live-data honesty: link the original article only when the URL really came from RSS.
+    cover_source_url = cover.get("source_url") or "https://www.koreaherald.com/World"
+    cover_source_name = cover.get("source_name") or "The Korea Herald · World"
+    cover_caption = cover.get("image_caption") or (
+        f"Editorial illustration for this story · Source: {cover_source_name}"
+    )
+    feat_source_url = feat.get("source_url") or ""
+    feat_source_name = feat.get("source_name") or feat.get("desk", "News Desk")
+    feat_source_link = (
+        f'<a class="learn-btn" href="{feat_source_url}" target="_blank" rel="noopener noreferrer" '
+        f'style="margin-left:8px;margin-top:0;"><span class="learn-icon">↗</span> READ</a>'
+        if feat_source_url
+        else ""
+    )
+    rate_source_en = dash.get("rate_source_en") or "via exchangerate-api.com"
+    rate_source_kr = dash.get("rate_source_kr") or "exchangerate-api.com 기준"
+    weather_source = dash.get("weather_source") or ""
+    weather_range_en = dash.get("weather_range_en") or ""
+    weather_range_kr = dash.get("weather_range_kr") or ""
 
     word_html = ""
     if word:
@@ -895,6 +1208,9 @@ def build_html(daily, weekly):
                 <li><a href="#food-travel"><span class="en-content">Food & Travel</span><span class="kr-content">맛집·여행</span></a></li>
                 <li><a href="#events"><span class="en-content">Events</span><span class="kr-content">주요 행사</span></a></li>
                 <li><a href="#picks"><span class="en-content">Herald's Pick</span><span class="kr-content">헤럴드 픽</span></a></li>
+                <li><a href="#learning-path"><span class="en-content">Learning Flow</span><span class="kr-content">학습 흐름</span></a></li>
+                <li><a href="#practice-studio"><span class="en-content">Practice</span><span class="kr-content">1분 연습</span></a></li>
+                <li><a href="#tok-lab"><span class="en-content">TOK Lab</span><span class="kr-content">TOK 랩</span></a></li>
                 <li><a href="#academy"><span class="en-content">Academy</span><span class="kr-content">아카데미</span></a></li>
                 <li><a href="archive.html"><span class="en-content">Archive</span><span class="kr-content">지난 기사</span></a></li>
             </ul>
@@ -905,15 +1221,16 @@ def build_html(daily, weekly):
         <section class="dashboard">
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">PHP / KRW</span><span class="kr-content">페소 / 원</span></span>
-                <span class="dash-value" id="dashRate">{dash.get('php_krw_rate', '24.62')}</span>
-                <span class="dash-source"><span class="en-content">via Naver Finance</span><span class="kr-content">네이버 금융</span></span>
+                <span class="dash-value" id="dashRate">{dash.get('php_krw_rate', '')}</span>
+                <span class="dash-source"><span class="en-content">{rate_source_en}</span><span class="kr-content">{rate_source_kr}</span></span>
             </div>
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">Manila Weather</span><span class="kr-content">마닐라 날씨</span></span>
                 <span class="dash-value">
-                    <span class="en-content">{dash.get('weather_en', '32°C Sunny')}</span>
-                    <span class="kr-content">{dash.get('weather_kr', '32°C 맑음')}</span>
+                    <span class="en-content">{dash.get('weather_en', '')}</span>
+                    <span class="kr-content">{dash.get('weather_kr', '')}</span>
                 </span>
+                <span class="dash-source"><span class="en-content">{weather_range_en}{(' · ' + weather_source) if weather_source else ''}</span><span class="kr-content">{weather_range_kr}{(' · ' + weather_source) if weather_source else ''}</span></span>
             </div>
             <div class="dash-item">
                 <span class="dash-label"><span class="en-content">Today's Date</span><span class="kr-content">오늘의 날짜</span></span>
@@ -947,7 +1264,7 @@ def build_html(daily, weekly):
                     </div>
                     <div class="article-phrase-row">{phrase_chips_html(cover_phrases)}</div>
                     <div class="cover-learning-actions">
-                        <a class="learn-btn" id="coverStoryReadLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer"><span class="learn-icon">↗</span>Read Original</a>
+                        <a class="learn-btn" id="coverStoryReadLink" href="{cover_source_url}" target="_blank" rel="noopener noreferrer"><span class="learn-icon">↗</span>Read Original</a>
                         <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Study English</button>
                     </div>
                 </div>
@@ -967,13 +1284,13 @@ def build_html(daily, weekly):
                     800,
                     seed=cover.get('image_seed'),
                 ))}
-                <div class="image-caption" id="coverStoryCaption">Source image: The Korea Herald World desk. Updated daily from the World RSS top story.</div>
+                <div class="image-caption" id="coverStoryCaption">{cover_caption}</div>
             </div>
             <div class="article-meta">
-                <span class="meta-author" id="coverStorySource">The Korea Herald · World</span>
+                <span class="meta-author" id="coverStorySource">{cover_source_name}</span>
                 <span class="meta-divider">·</span>
                 <span class="meta-time" id="coverStoryPublished"><span class="en-content">Updated daily</span><span class="kr-content">매일 업데이트</span></span>
-                <a class="learn-btn" id="coverStoryMetaLink" href="https://www.koreaherald.com/World" target="_blank" rel="noopener noreferrer" style="margin-left:12px;margin-top:0;"><span class="learn-icon">↗</span> READ</a>
+                <a class="learn-btn" id="coverStoryMetaLink" href="{cover_source_url}" target="_blank" rel="noopener noreferrer" style="margin-left:12px;margin-top:0;"><span class="learn-icon">↗</span> READ</a>
             </div>
             <div class="content-columns" id="coverStoryBody"><div class="column"><div class="en-content">{body_en}</div><div class="kr-content">{body_kr}</div></div></div>
         </section>
@@ -1006,11 +1323,12 @@ def build_html(daily, weekly):
                     </div>
                     <div class="article-phrase-row">{phrase_chips_html(feat_phrases)}</div>
                     <div class="article-meta">
-                        <span class="meta-author">{feat.get('desk', 'News Desk')}</span>
+                        <span class="meta-author">{feat_source_name}</span>
                         <span class="meta-divider">·</span>
                         <span class="meta-time"><span class="en-content">{feat.get('read_time_min', 3)} min read</span><span class="kr-content">{feat.get('read_time_min', 3)}분 읽기</span></span>
                         <span class="meta-divider">·</span>
                         <span class="meta-date">{date_dot}</span>
+                        {feat_source_link}
                         <button class="learn-btn" onclick="openAcademy('featured')" style="margin-left:8px;margin-top:0;"><span class="learn-icon">📚</span> LEARN</button>
                     </div>
                 </div>
@@ -1019,8 +1337,12 @@ def build_html(daily, weekly):
             </div>
         </section>
 
+        {learning_path_html}
         {learning_track_html}
         {word_html}
+        {tok_lab_html}
+        {practice_studio_html}
+        {super_teens_html}
         {food_html}
         {events_html}
         {picks_html}
