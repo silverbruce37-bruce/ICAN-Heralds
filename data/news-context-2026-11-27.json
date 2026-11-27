@@ -1,0 +1,461 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T08:05:56.339827+08:00",
+  "feeds": [
+    {
+      "name": "GMA News",
+      "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Philstar",
+      "url": "https://www.philstar.com/rss/headlines",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Rappler",
+      "url": "https://www.rappler.com/feed/",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "GMA News · Nation",
+      "url": "https://data.gmanetwork.com/gno/rss/news/nation/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korea-Philippines",
+      "url": "https://news.google.com/rss/search?q=Korea+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "Google News · Philippines",
+      "url": "https://news.google.com/rss/search?q=Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Metro Manila",
+      "url": "https://news.google.com/rss/search?q=%22Metro+Manila%22&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korean community PH",
+      "url": "https://news.google.com/rss/search?q=Korean+community+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "title": "Ombudsman orders graft raps vs 3 ex-Landbank officials, businessman",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572822/ombudsman-orders-graft-raps-vs-3-ex-landbank-officials-businessman",
+      "summary": "The Office of the Ombudsman has ordered the filing of graft charges against three former officials of the Land Bank of the Philippines and a private businessman over alleged irregularities in the approval and renewal of loans extended to Am",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T07:30:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "DILG eyes rescue funding increase to improve tourist accident response",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572826/dilg-eyes-rescue-funding-increase-improve-tourist-accident-response",
+      "summary": "Sen. Erwin Tulfo interpolated during the hearing, citing the earlier hearing with the Department of Tourism, where accidents and drowning events at beaches caused by lacking safety signs were discussed.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T07:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "[Market Rider] PSE’s 2027 rebalancing: Will it unlock broader market activity?",
+      "link": "https://www.rappler.com/business/market-rider-pse-2027-rebalancing-will-unlock-broader-stock-activity/",
+      "summary": "The message is clear: Size alone is no longer enough for a sure spot of a company’s stock in the PSEi.",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T07:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Agence France Presse hit by cyber attack",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010916/agence-france-presse-hit-by-cyber-attack/story/",
+      "summary": "PARIS, France - Agence France-Presse was hit by a cyber attack on Thursday, the France-based international news agency's management said, requiring the AFP Forum content platform to be taken offline.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T06:28:02+08:00",
+      "cite": true
+    },
+    {
+      "title": "Musk pledges two SpaceX shares for every US child",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010915/musk-pledges-two-spacex-shares-for-every-us-child/story/",
+      "summary": "Elon Musk plans to gift every child in the United States two SpaceX shares, as he attempts to build public support for his satellite and AI businesses during a period of intense public and political scrutiny of the technology sector.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T06:07:09+08:00",
+      "cite": true
+    },
+    {
+      "title": "Catholic maritime ministry plans expanded port visit for seafarers and fishers support",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010914/catholic-maritime-ministry-plans-expanded-port-visit-for-seafarers-and-fishers-support/story/",
+      "summary": "A ministry that caters to the concerns of seafarers, fishers, and their families has announced plans to expand its pastoral visits to more local and international ports, CBCP News reported.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T05:28:07+08:00",
+      "cite": true
+    },
+    {
+      "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010913/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast/story/",
+      "summary": "A powerful storm disrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power for hundreds of thousands of users as wind gusts of up to 70 mph (112 kph) toppled trees and power lines.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T04:48:56+08:00",
+      "cite": true
+    },
+    {
+      "title": "LTO issues SCO against pickup truck driver in Pasig City viral road rage incident",
+      "link": "https://www.gmanetwork.com/news/topstories/metro/1010911/lto-issues-sco-against-pickup-truck-driver-in-pasig-city-viral-road-rage-incident/story/",
+      "summary": "The Land Transportation Office has issued a Show Cause Order (SCO) on Thursday against the driver of a pickup truck involved in the viral road rage incident in Pasig City, according to a statement posted by the LTO.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T03:31:02+08:00",
+      "cite": true
+    },
+    {
+      "title": "Vehicle owner and driver, who blocked fire truck to face LTO inquiry",
+      "link": "https://www.gmanetwork.com/news/topstories/metro/1010910/vehicle-and-driver-who-blocked-fire-truck-to-face-lto-inquiry/story/",
+      "summary": "The driver and registered owner of the vehicle that blocked a fire truck that was responding to a fire alarm in Sta. Mesa, Manila are scheduled to appear before the Intelligence and Investigation Division (IID) of the LTO Central Office on ",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T02:21:15+08:00",
+      "cite": true
+    },
+    {
+      "title": "Bagong pinuno ng LTO, itinuloy ang pagpapalabas ng SCO, pagsuspinde sa lisensiya ng mga 'pasaway' na motorista",
+      "link": "https://www.gmanetwork.com/news/balitambayan/balita/1010909/bagong-pinuno-ng-lto-itinuloy-ang-pagpapalabas-ng-sco-pagsuspinde-sa-lisensiya-ng-mga-pasaway-na/story/",
+      "summary": "Tuloy ang paglalabas ng Show Cause Order (SCO) ng Land Transportation Office (LTO) sa ilalim ng bagong liderato ni Assistant Secretary Noreen Bernadette San Luis. Kasama sa mga unang nasampolan ang isang pickup driver na nasangkot sa road r",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T01:38:41+08:00",
+      "cite": true
+    },
+    {
+      "title": "Ukraine says North Korea temporarily halted missile shipments to ally Russia",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1010870/ukraine-says-north-korea-temporarily-halted-missile-shipments-to-ally-russia/story/",
+      "summary": "Ukraine's military intelligence agency said North Korea has halted some military cooperation with Russia, including deliveries of KN-23 ballistic missiles, amid diplomatic tensions.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T01:23:26+08:00",
+      "cite": true
+    },
+    {
+      "title": "Rodrigo Duterte camp discloses 63-item evidence batch ahead of ICC trial",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010906/rodrigo-duterte-camp-discloses-63-item-evidence-batch-ahead-of-icc-trial/story/",
+      "summary": "Duterte\"s defense submitted 63 items, including a number of press articles, opinion columns, reports, lists of tables and graphics, photographs, ordinances, and legal and court documents.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T01:06:22+08:00",
+      "cite": true
+    },
+    {
+      "title": "2 kambing na ninakaw, ibinenta; nakabili, isinauli ang mga kambing pero 'di na nabawi ang pera niya",
+      "link": "https://www.gmanetwork.com/news/balitambayan/promdi/1010908/2-kambing-na-ninakaw-ibinenta-nakabili-isinauli-ang-mga-kambing-pero-di-na-nabawi-ang-pera-niya/story/",
+      "summary": "Nahuli-cam ang pagtakas ng apat na lalaking sakay ng kolong-kolong (uri ng tricycle) dala ang dalawang kambing na kanilang ninakaw sa Lubao, Pampanga.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T00:49:09+08:00",
+      "cite": true
+    },
+    {
+      "title": "Lacson seeks return of P8.1B cut from DOTr budget for Davao, Cebu projects",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010907/lacson-seeks-return-of-p8-1b-cut-from-dotr-budget-for-davao-cebu-projects/story/",
+      "summary": "Senator Panfilo Lacson on Thursday called for the restoration of the P8.1 billion slashed from the budget of the Department of Transportation (DOTr) that would support two foreign-assisted projects (FAPs) located in Davao City and Cebu prov",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T00:38:53+08:00",
+      "cite": true
+    },
+    {
+      "title": "ICC Trial Chamber III sets conduct for Duterte trial proceedings",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010903/icc-trial-chamber-iii-sets-conduct-for-duterte-trial-proceedings/story/",
+      "summary": "PRAGUE, Czech Republic - The International Criminal Court\"s (ICC) Trial Chamber III has set the conduct of proceedings for its trial of former President Rodrigo Duterte, which will start on November 30.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T00:10:05+08:00",
+      "cite": true
+    },
+    {
+      "title": "PAO proposes aligning compensation for unjustly detained with minimum wage",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010902/pao-proposes-aligning-compensation-for-unjustly-detained-with-minimum-wage/story/",
+      "summary": "The Public Attorney\"s Office (PAO) has recommended raising the compensation for victims of unjust imprisonment, detention, and violent crimes. It said the increase should be pegged to the minimum wage.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T00:05:17+08:00",
+      "cite": true
+    },
+    {
+      "title": "‘Food insecurity, poor sleep linked’",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572909/food-insecurity-poor-sleep-linked",
+      "summary": "Older Filipino adults with insufficient access to nutritious food are sleeping poorly, according to local and foreign experts.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sandigan to NBI: Bring Romualdez co-accused to court",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572912/sandigan-nbi-bring-romualdez-co-accused-court",
+      "summary": "The Sandiganbayan Third Division has ordered the National Bureau of Investigation (NBI) to bring to court on Dec. 4 Felicito Guevarra, a co-accused of former speaker Martin Romualdez in the P7.4-billion plunder case in connection with alleg",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "JV eyes restoration of P130 billion for 2027 infra projects",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572915/jv-eyes-restoration-p130-billion-2027-infra-projects",
+      "summary": "Senate finance committee chairman JV Ejercito is pushing for the restoration of some P130 billion in the proposed 2027 budget to fund railway, bridge and highway projects.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Marcos commits to science, technology investments",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572920/marcos-commits-science-technology-investments",
+      "summary": "President Marcos committed on Wednesday to investing in science and technology as “vital instruments of national development.”",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Marcos joins AFP boodle fight",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572922/marcos-joins-afp-boodle-fight",
+      "summary": "President Marcos capped his loaded schedule yesterday by joining a boodle fight with the Armed Forces of the Philippines Council of Sergeants Major, providing him an opportunity to listen to and speak directly with the soldiers.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Palace: Duterte arrest, ICC turnover in line with Philippines laws",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572925/palace-duterte-arrest-icc-turnover-line-philippines-laws",
+      "summary": "The arrest and transfer of former president Rodrigo Duterte to The Hague was not about sovereignty and was in line with existing laws, Malacañang said yesterday.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Repeated cancellation of impeach hearings hit",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572932/repeated-cancellation-impeach-hearings-hit",
+      "summary": "The House prosecution panel has questioned the defense team of Vice President Sara Duterte over scheduling difficulties, pointing to the number of canceled trial hearings due to the unavailability of its witnesses.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Marcos welcomes ‘old friend’ as Mandarin reopens",
+      "link": "https://www.philstar.com/headlines/2026/11/27/2572936/marcos-welcomes-old-friend-mandarin-reopens",
+      "summary": "Globally renowned hotel chain Mandarin Oriental reopened its doors yesterday, a development President Marcos described as a return of an “old friend” and an “expression of confidence” in the Philippines.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-27T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sara Duterte can best answer allegations, says House prosecutor",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010899/sara-duterte-can-best-answer-allegations-says-house-prosecutor/story/",
+      "summary": "House lead impeachment prosecutor Representative Gerville Luistro on Thursday said she was left wanting more after the defense panel submitted only two names of witnesses it wants to present before the impeachment court on December 1.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T23:20:33+08:00",
+      "cite": true
+    },
+    {
+      "title": "Mother of drug war victims set to observe Duterte's ICC proceedings in The Hague",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010897/mother-of-drug-war-victims-set-to-observe-duterte-s-icc-proceedings-in-the-hague/story/",
+      "summary": "The mother of two drug war victims is set to observe former President Rodrigo Duterte\"s trial proceedings at the International Criminal Court (ICC) in The Hague, Netherlands.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T22:37:22+08:00",
+      "cite": true
+    },
+    {
+      "title": "VP Sara wants relentless crackdown on illegal drugs",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010895/vp-sara-wants-relentless-crackdown-on-illegal-drugs/story/",
+      "summary": "“Dapat relentless talaga yung paghahabol sa ilegal na droga. Maraming problema ang nagsisimula sa iligal na droga… Kaya dapat kinokontrol , sinu-suppress at ginagawang almost zero ng gobyerno ang iligal na droga,” Sara Duterte said.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T22:20:33+08:00",
+      "cite": true
+    },
+    {
+      "title": "Senate approves OVP 2027 budget in one minute | The wRap",
+      "link": "https://www.rappler.com/video/daily-wrap/november-26-2026/",
+      "summary": "Today’s headlines: Sara Duterte, Excise tax on coffee, Jensen Huang",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T22:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Nicholas Ty takes oath as new Deputy Ombudsman",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010893/nicholas-ty-takes-oath-as-new-deputy-ombudsman/story/",
+      "summary": "Lawyer Nicholas Felix Ty took his oath on Thursday, November 26, 2026, as the new deputy ombudsman for Luzon.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T21:47:04+08:00",
+      "cite": true
+    },
+    {
+      "title": "Muni Network: Newsrooms unite against AI disruption",
+      "link": "https://www.rappler.com/about/special-projects/southeast-asia-newsrooms-unite-ai-threats-muni-future-news/",
+      "summary": "Facing the threats of AI-induced disruption and declining web traffic, Southeast Asian newsrooms unite through the Muni Network for the future of news",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T21:43:54+08:00",
+      "cite": true
+    },
+    {
+      "title": "CHR maintains stance vs. abortion except in extreme cases",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010890/maintains-stance-vs-abortion-except-in-extreme-cases/story/",
+      "summary": "CHR maintains stance vs abortion except in extreme cases",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T21:32:02+08:00",
+      "cite": true
+    },
+    {
+      "title": "Ex-Cale88 co-owner, BOC official to testify in Sara Duterte impeachment trial",
+      "link": "https://www.rappler.com/philippines/former-cale88-co-owner-boc-official-testify-sara-duterte-impeachment-trial/",
+      "summary": "Dr. Lourdes Tingson-Lebosada, who is also the Vice President's dentist, is expected to testify on Cale88's organizational structure, government registrations, business operations, ownership, and financial affairs",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T21:24:04+08:00",
+      "cite": true
+    },
+    {
+      "title": "When bicam convenes for 2027 budget, advocates want to be in the room",
+      "link": "https://www.rappler.com/philippines/social-watch-hopes-genuine-budget-bicam-meeting-2027/",
+      "summary": "‘Ang mga tinanggal ng Senado sa ngalan ng paglaban sa korupsiyon ay hindi dapat palihim na ibalik sa bicam sa ngalan ng kompromiso,’ says Social Watch Philippines co-convenor Maria Victoria Raquiza",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T19:16:18+08:00",
+      "cite": true
+    },
+    {
+      "title": "[OPINION] Slowly but surely, Washington drifts away from Asia",
+      "link": "https://www.rappler.com/voices/thought-leaders/opinion-washington-drifts-away-from-asia-trump-visit-manila/",
+      "summary": "The US security relationship with the region has also come under stress",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T19:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Duterte defense cites 'bugalbugal' for 'I-will-kill-you' rhetoric",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010874/duterte-defense-cites-bugalbugal-for-i-will-kill-you-rhetoric/story/",
+      "summary": "Former President Rodrigo Duterte\"s lawyers are asking the International Criminal Court (ICC) to consider Visayan culture and language in assessing the profanity and alleged threats he made amid his drug war. These statements attributed to D",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T18:52:54+08:00",
+      "cite": true
+    },
+    {
+      "title": "Lacson asks: Why settle unpaid 2024 DSWD guarantee letters in 2027?",
+      "link": "https://www.rappler.com/philippines/lacson-flags-unpaid-dswd-guarantee-letters-2024/",
+      "summary": "Service providers reportedly filed money claims and submitted supporting documents belatedly, which is why the special provision was only proposed in the 2027 budget bill",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T18:05:21+08:00",
+      "cite": true
+    },
+    {
+      "title": "1Password customer data, source code taken in GitHub breach",
+      "link": "https://www.rappler.com/technology/1password-customer-data-source-code-taken-github-breach/",
+      "summary": "1Password says customer vault data, the items in them, and the keys that protect them are safe and unaffected as the platform does not have access to user passwords or secret keys",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T18:02:29+08:00",
+      "cite": true
+    },
+    {
+      "title": "Excise tax on your coffee? House leader shuts down suggestion",
+      "link": "https://www.rappler.com/philippines/house-leader-shuts-down-suggestion-impose-excise-tax-coffee/",
+      "summary": "Previously, a group of liquor makers jokingly quipped that lawmakers consider taxing coffee, citing younger consumers’ apparent preference for it over alcohol",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T18:01:56+08:00",
+      "cite": true
+    },
+    {
+      "title": "[READOUT] What businesses can get out of ASEAN 2026",
+      "link": "https://www.rappler.com/voices/newsletters/readout-business-investment-asean-2026/",
+      "summary": "From a landmark digital economy agreement to investment-ready energy projects, here's what businesses can take away from the Philippines' ASEAN hosting",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-26T18:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Philippines requests 6 Chinook helicopters under $2-B US financing",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010867/philippines-requests-6-chinook-helicopters-under-2-b-us-financing/story/",
+      "summary": "The Philippine government, through the Department of National Defense (DND), has requested the purchase of six CH-47 Chinook helicopters under the $2-billion US Foreign Military Financing, Defense Secretary Gilberto Teodoro said on Thursday",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-26T17:54:41+08:00",
+      "cite": true
+    },
+    {
+      "title": "PH seeks 6 Chinook helicopters under $2-B US defense loan package",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX3FIX1J6STRwT09YN3JQaERHdUs0RkxCWFpBQzRNN1BkdV9GbEJPb1Y4NExodVlNLVVCMDNZYTdSWS1NMkNJTW90NmNWOThxR3lZZ0x3TmRnS0laOUNHMFNNSWxta290aWhvdkdNaXFUaXpiTTZfOGJvc29PUHRxck5YWUpma3puNG9FV1YwOEg4ZjZZYWVQcHpLaml2Sk84N3I0V0s3ZGjSAa4BQVVfeXFMT0lycUQ5RmlsTlBfTl8yMjBuLW4zY3I3R1ZINkx2NXhkZWdsaks1MmhlZFdfbEZXRXAyRDJzRUo3M0ZhWDBOMDlqRmxQZHhDU1FIUjFzWkRYYzlRTEFLUVBOT3BqRzRjYXdUUnUxeUZjX2ZxbVl0WmRJbENmRWFnblJLQWRUckVfVEZtV3BSMC16ejBnMFdGWGZwbkVGZjJaLUJBNjRGN3FwbWVxYVdR?oc=5",
+      "summary": "PH seeks 6 Chinook helicopters under $2-B US defense loan package Inquirer.net",
+      "source": "Inquirer.net",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T21:50:00+00:00",
+      "cite": false
+    },
+    {
+      "title": "Gov’t agencies to strengthen support for local construction manufacturers",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNl8wdkRDZEItZDZWOEtNQjlDc3lBaEQxWThBNTk5ckRZb0hkaXJvMkVvaG5EX1otXzA5WDBRdHhLV2xJRXI5NEIybXVpdGo4VU9yMkMyNl9fc3ZpQzJQbW1KTS16WGNfMzBLc1FJUTRVN25WQ0wtWWNzRktGZlBvUHQzcjYzb2FoQ1ZiVWtnOTdfRjRHYlJUeHl4RGdTakNVYlI5LVh3?oc=5",
+      "summary": "Gov’t agencies to strengthen support for local construction manufacturers Philippine News Agency",
+      "source": "Philippine News Agency",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T21:42:14+00:00",
+      "cite": false
+    },
+    {
+      "title": "Duterte defense: Killings in PH not ‘crimes vs humanity’",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd3R2ektMUXlNajdqXzlDWWZ6dmUybHRFMkllc3dSYkRFSG13elNRa2Q2UEZUTHZuVDQ4VHM4ZE1IVVpqUU5tN1p6VUptQ1JVbEwya2VhSjFpWG1oMDYwZTZDLV9ISXI3VnJOZXR2LXV3VUtlTi1IS1FKWWdBUmVGN29peVRvYV9Iajl5SmY1VlE2bnp4MUVvNWV30gGfAUFVX3lxTE1Dbk5qMXp1V3ozdmVvX3ZBMXQ1WkMwdFg5Sm1NdVg4ZjRXNVEtQnNWZlJOX3lIbk5VY0huUlBDeVdBNWQ2RDFKajZCbEliYTZtYVBDYU5wVzRySEM1T1RxSFBrckxOOXo4SE5MckxpTUZWN3ZtX1E3NHg0bDBMZUdTRWZldVA1UnZDTUFwYkEySnBYN21XMEhBOVhoQVE0NA?oc=5",
+      "summary": "Duterte defense: Killings in PH not ‘crimes vs humanity’ Inquirer.net",
+      "source": "Inquirer.net",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T21:30:00+00:00",
+      "cite": false
+    },
+    {
+      "title": "US aid to benefit drought-hit folk in Eastern Visayas, Bicol",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSE5OZGxHR1hMaHFXTjgyYVM1VUxSbFZVYndVWHRKdG55N2JncTNoM25oUm9JX1Z0N2IyVWtwSGo5c2xIMTJ6ZlhKVkJkdDI2VkJHY1Q5RzR0MU9USENKZllmQm92MzNFVG11OTBpd2ZBQmQ3aWhFVDJnbHFEbl92Y1hKWDlqLVl6cy02a1IzUTdYNWJST1Z6ZE16NWprbWdhcmfSAacBQVVfeXFMT1BmNVI4b0IxRzlIcnpRVnZiUnJKUFVsUWMxU1RoTGNnWHRBM2lGOWRKVzRhUThhUHI5RDhMcURnZ0xiVkVIV2dwU1ZlY0hGdGJsRVJicF9hejh5anNqWWpfZHphMjh6aUtVcjRhc3NuOVhlYUtVZVVWMi1tQXJLdWFrYWp6SUZQRTZxRDJmNXpKdXNkY1JEU1JBZjZwZTdmWGNkc0k4RTA?oc=5",
+      "summary": "US aid to benefit drought-hit folk in Eastern Visayas, Bicol Inquirer.net",
+      "source": "Inquirer.net",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-26T21:02:00+00:00",
+      "cite": false
+    },
+    {
+      "title": "Duterte-aligned bets lead Metro Manila mayoral preferences for 2028: poll",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbWRkbW8xZkIxUktKalFBazhnSnhZclhDdUFDN3h3Q1RhbFowaVVXWC1vNUpRUkx5ZFZPeXJnQVRHR2JUTmhaZHNPU2ltQWlqazEyQ3EtVndzYVVQcjd0WGhMVVE5YWdJLW05Vi14WjZaeTI5MTJSX29vU0FMaTBSLUp5RkhaRVkxRGx3TVh4US1fMXl1YmgwcHNyTVFmUktVQUk4UUtlVm9QWUJ0RDJRcWhVXzlVUFlEeXdWQlUtRDJJZTg?oc=5",
+      "summary": "Duterte-aligned bets lead Metro Manila mayoral preferences for 2028: poll Metro News Central",
+      "source": "Metro News Central",
+      "feed": "Google News · Metro Manila",
+      "published": "2026-11-26T17:15:00+00:00",
+      "cite": false
+    }
+  ]
+}

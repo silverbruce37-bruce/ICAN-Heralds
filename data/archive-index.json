@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-27",
+    "vol": 209,
+    "cover_en": "DILG considers more funding for tourist accident rescues",
+    "cover_kr": "관광객 사고 대응 위해 구조 예산 증액 검토",
+    "headlines_en": [
+      "Agence France-Presse reports cyber attack",
+      "Could PSE's 2027 rebalancing broaden market activity?",
+      "Marcos welcomes an old friend as Mandarin reopens",
+      "Marcos commits to investment in science and technology",
+      "LTO issues show-cause order over viral Pasig road-rage incident"
+    ],
+    "headlines_kr": [
+      "AFP, 사이버 공격 받아",
+      "PSE의 2027년 재조정, 시장 활동 넓힐까",
+      "만다린 재개장에 ‘오랜 친구’ 맞이한 마르코스",
+      "마르코스, 과학기술 투자 약속",
+      "LTO, 파식 도로 분노 사건 관련 소명 명령"
+    ],
+    "tags": [
+      "Culture",
+      "Security",
+      "Safety",
+      "Cooperation",
+      "Economy"
+    ]
+  },
+  {
     "date": "2026-11-26",
     "vol": 208,
     "cover_en": "Marcos says NAIA has come a long way after TIME list",

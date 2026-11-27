@@ -1,0 +1,145 @@
+{
+ "version": 1,
+ "date": "2026-11-27",
+ "items": {
+  "cover": {
+   "key": "cover",
+   "src": "images/editions/2026-11-27/cover.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "rescue team assisting tourist",
+   "prompt": "Subject: rescue team assisting tourist. Story context: The department is looking at increased rescue funding to improve responses to tourist accidents. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/27/2572826/dilg-eyes-rescue-funding-increase-improve-tourist-accident-response",
+   "image_url": "",
+   "bytes": 174360,
+   "width": 1440,
+   "height": 960,
+   "luma": 112.3,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [15.0s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:26Z"
+  },
+  "feat": {
+   "key": "feat",
+   "src": "images/editions/2026-11-27/feat.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "newsroom cybersecurity incident",
+   "prompt": "Subject: newsroom cybersecurity incident. Story context: GMA News reports that Agence France-Presse was hit by a cyber attack. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/world/1010916/agence-france-presse-hit-by-cyber-attack/story/",
+   "image_url": "",
+   "bytes": 96653,
+   "width": 1200,
+   "height": 800,
+   "luma": 122.6,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [16.8s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:28Z"
+  },
+  "news1": {
+   "key": "news1",
+   "src": "images/editions/2026-11-27/news1.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "stock exchange market screens",
+   "prompt": "Subject: stock exchange market screens. Story context: Rappler's Market Rider examines whether the Philippine Stock Exchange's planned 2027 rebalancing could unlock broader market activity. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.rappler.com/business/market-rider-pse-2027-rebalancing-will-unlock-broader-stock-activity/",
+   "image_url": "",
+   "bytes": 108860,
+   "width": 960,
+   "height": 720,
+   "luma": 69.4,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [13.8s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:40Z"
+  },
+  "news2": {
+   "key": "news2",
+   "src": "images/editions/2026-11-27/news2.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "Mandarin reopening welcome",
+   "prompt": "Subject: Mandarin reopening welcome. Story context: Philstar reports that a government official welcomed an “old friend” as Mandarin reopened. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/27/2572936/marcos-welcomes-old-friend-mandarin-reopens",
+   "image_url": "",
+   "bytes": 68798,
+   "width": 960,
+   "height": 720,
+   "luma": 139.1,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [16.1s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:44Z"
+  },
+  "news3": {
+   "key": "news3",
+   "src": "images/editions/2026-11-27/news3.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "science technology research",
+   "prompt": "Subject: science technology research. Story context: Philstar reports that a government official committed to investments in science and technology. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/27/2572920/marcos-commits-science-technology-investments",
+   "image_url": "",
+   "bytes": 76980,
+   "width": 960,
+   "height": 720,
+   "luma": 125.3,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [13.6s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:54Z"
+  },
+  "news4": {
+   "key": "news4",
+   "src": "images/editions/2026-11-27/news4.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "traffic safety pickup truck",
+   "prompt": "Subject: traffic safety pickup truck. Story context: GMA News reports that the Land Transportation Office issued a show-cause order to the pickup truck driver involved in a viral road-rage incident in Pasig City. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/metro/1010911/lto-issues-sco-against-pickup-truck-driver-in-pasig-city-viral-road-rage-incident/story/",
+   "image_url": "",
+   "bytes": 90813,
+   "width": 960,
+   "height": 720,
+   "luma": 101.3,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [14.1s]"
+    }
+   ],
+   "created_at": "2026-11-27T00:08:58Z"
+  }
+ },
+ "generated_at": "2026-11-27T00:08:58Z"
+}

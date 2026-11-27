@@ -1,0 +1,186 @@
+{
+  "edition_date": "2026-11-27",
+  "header_date_line": "FRIDAY, NOVEMBER 27, 2026 | PHILIPPINES | VOL. 209",
+  "dashboard": {
+    "php_krw_rate": "21.06",
+    "weather_en": "28°C Partly Cloudy",
+    "weather_kr": "28°C 구름 조금",
+    "date": "2026.11.27",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영",
+    "rate_source_en": "via exchangerate-api.com",
+    "rate_source_kr": "exchangerate-api.com 기준",
+    "weather_code": "metno:partlycloudy_day",
+    "weather_source": "MET Norway",
+    "weather_range_en": "High 34° / Low 24°",
+    "weather_range_kr": "최고 34° / 최저 24°",
+    "date_iso": "2026-11-27",
+    "updated_at_pht": "2026-11-27 08:06 PHT"
+  },
+  "cover_story": {
+    "headline_en": "DILG considers more funding for tourist accident rescues",
+    "headline_kr": "관광객 사고 대응 위해 구조 예산 증액 검토",
+    "subtitle_en": "The department is looking at increased rescue funding to improve responses to tourist accidents. The headline signals a proposal under consideration, not a confirmed increase.",
+    "subtitle_kr": "DILG가 관광객 사고에 더 잘 대응하기 위해 구조 예산 증액을 검토하고 있습니다. 보도된 내용은 검토 단계이며, 증액이 확정됐다는 뜻은 아닙니다.",
+    "body_en": [
+      "The Department of the Interior and Local Government is considering an increase in rescue funding to improve responses to accidents involving tourists, Philstar reports. The headline does not specify the amount or say that the funding has been approved.",
+      "For Korean residents and visitors, the issue is a reminder that emergency response is part of travel safety. The proposal points to a public service need, but the available report does not describe particular incidents, locations or changes to existing rescue arrangements.",
+      "The next question is how decision-makers would allocate any additional support and assess whether it improves response. Clear priorities matter: funding is a public resource, and a proposal alone does not show what services will change or how results will be measured."
+    ],
+    "body_kr": [
+      "필스타에 따르면 내무지방자치부(DILG)는 관광객 사고에 더 잘 대응하기 위해 구조 예산을 늘리는 방안을 검토하고 있습니다. 보도된 제목에는 증액 규모가 제시되지 않았으며, 예산이 승인됐다는 내용도 없습니다.",
+      "한국인 거주자와 방문객에게도 이번 소식은 긴급 대응 체계가 여행 안전의 한 부분임을 환기합니다. 다만 현재 보도만으로는 특정 사고나 지역, 기존 구조 체계의 변화 여부를 알 수 없습니다.",
+      "앞으로는 추가 지원이 이뤄질 경우 어디에 우선 배분하고 효과를 어떻게 평가할지가 중요합니다. 공공 재원에는 분명한 우선순위가 필요하며, 검토 단계의 제안만으로 어떤 서비스가 바뀌거나 성과가 확인됐다고 볼 수는 없습니다."
+    ],
+    "source_name": "Philstar",
+    "source_url": "https://www.philstar.com/headlines/2026/11/27/2572826/dilg-eyes-rescue-funding-increase-improve-tourist-accident-response",
+    "image_seed": "cover-2026-11-27",
+    "image_query": "rescue team assisting tourist",
+    "image_caption": "Photo: Illustrative image of a rescue response; generated for this edition, November 27, 2026.",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "Agence France-Presse reports cyber attack",
+    "headline_kr": "AFP, 사이버 공격 받아",
+    "lead_en": "GMA News reports that Agence France-Presse was hit by a cyber attack. The headline does not specify what systems or information were affected, so the impact remains unclear from the available report.",
+    "lead_kr": "GMA 뉴스는 AFP가 사이버 공격을 받았다고 보도했습니다. 현재 확인된 제목만으로는 어떤 시스템이나 정보가 영향을 받았는지 알 수 없어 피해 범위는 불분명합니다.",
+    "source_name": "GMA News",
+    "source_url": "https://www.gmanetwork.com/news/topstories/world/1010916/agence-france-presse-hit-by-cyber-attack/story/",
+    "image_seed": "feat-2026-11-27",
+    "image_query": "newsroom cybersecurity incident",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "Could PSE's 2027 rebalancing broaden market activity?",
+      "headline_kr": "PSE의 2027년 재조정, 시장 활동 넓힐까",
+      "summary_en": "Rappler's Market Rider examines whether the Philippine Stock Exchange's planned 2027 rebalancing could unlock broader market activity. The headline poses a question rather than reporting a confirmed outcome.",
+      "summary_kr": "라플러의 마켓 라이더가 필리핀증권거래소(PSE)의 2027년 재조정이 더 폭넓은 시장 활동으로 이어질 수 있을지 살펴봅니다. 제목은 가능성을 묻고 있으며, 결과가 확정됐다는 뜻은 아닙니다.",
+      "source_name": "Rappler",
+      "source_url": "https://www.rappler.com/business/market-rider-pse-2027-rebalancing-will-unlock-broader-stock-activity/",
+      "image_seed": "news1-2026-11-27",
+      "image_query": "stock exchange market screens",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "Marcos welcomes an old friend as Mandarin reopens",
+      "headline_kr": "만다린 재개장에 ‘오랜 친구’ 맞이한 마르코스",
+      "summary_en": "Philstar reports that Marcos welcomed an “old friend” as Mandarin reopened. The headline does not identify the person or provide further details about the reopening.",
+      "summary_kr": "필스타는 만다린이 다시 문을 연 가운데 마르코스 대통령이 ‘오랜 친구’를 맞이했다고 보도했습니다. 제목에는 그 인물이나 재개장에 관한 자세한 정보는 담기지 않았습니다.",
+      "source_name": "Philstar",
+      "source_url": "https://www.philstar.com/headlines/2026/11/27/2572936/marcos-welcomes-old-friend-mandarin-reopens",
+      "image_seed": "news2-2026-11-27",
+      "image_query": "Mandarin reopening welcome",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Marcos commits to investment in science and technology",
+      "headline_kr": "마르코스, 과학기술 투자 약속",
+      "summary_en": "Philstar reports that Marcos committed to investments in science and technology. The headline does not specify the amount, timeline or programs involved.",
+      "summary_kr": "필스타는 마르코스 대통령이 과학기술 분야에 투자하겠다고 약속했다고 보도했습니다. 제목에는 투자 규모와 시기, 구체적인 사업이 제시되지 않았습니다.",
+      "source_name": "Philstar",
+      "source_url": "https://www.philstar.com/headlines/2026/11/27/2572920/marcos-commits-science-technology-investments",
+      "image_seed": "news3-2026-11-27",
+      "image_query": "science technology research",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "LTO issues show-cause order over viral Pasig road-rage incident",
+      "headline_kr": "LTO, 파식 도로 분노 사건 관련 소명 명령",
+      "summary_en": "GMA News reports that the Land Transportation Office issued a show-cause order to the pickup truck driver involved in a viral road-rage incident in Pasig City. The headline does not describe the order's outcome.",
+      "summary_kr": "GMA 뉴스에 따르면 육상교통청(LTO)은 파식시에서 온라인에 확산된 도로 분노 사건과 관련해 픽업트럭 운전자에게 소명 명령을 내렸습니다. 명령의 후속 결과는 제목에 나오지 않았습니다.",
+      "source_name": "GMA News",
+      "source_url": "https://www.gmanetwork.com/news/topstories/metro/1010911/lto-issues-sco-against-pickup-truck-driver-in-pasig-city-viral-road-rage-incident/story/",
+      "image_seed": "news4-2026-11-27",
+      "image_query": "traffic safety pickup truck",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "allocate",
+    "pronunciation": "/ˈæl.ə.keɪt/",
+    "type": "verb",
+    "definition_en": "To distribute or assign resources for a particular purpose.",
+    "definition_kr": "특정 목적을 위해 자원이나 예산을 배분하다.",
+    "example_en": "Officials must decide how to allocate any additional rescue funding.",
+    "example_kr": "당국은 추가 구조 예산을 어떻게 배분할지 결정해야 합니다.",
+    "grade": "A+"
+  },
+  "practice": {
+    "det_question_en": "Do you agree or disagree that improving emergency response should be a priority when public officials consider tourism safety? Use the rescue-funding proposal in today's story to explain your view.",
+    "det_question_kr": "공공기관이 관광 안전을 검토할 때 긴급 대응 개선을 우선 과제로 삼아야 한다는 의견에 동의하나요, 반대하나요? 오늘 구조 예산 검토 기사를 근거로 자신의 생각을 설명하세요.",
+    "det_structure_en": "1. State your position. 2. Give one reason. 3. Use the reported funding proposal as an example. 4. Conclude by naming the priority you would protect.",
+    "det_structure_kr": "1. 입장을 밝힙니다. 2. 이유를 하나 제시합니다. 3. 보도된 구조 예산 검토를 사례로 듭니다. 4. 지키고 싶은 우선순위를 말하며 마무리합니다.",
+    "det_link_en": "Use the cover story's account of DILG considering increased rescue funding, and remember that the report does not say the increase is approved.",
+    "det_link_kr": "커버 스토리에서 DILG가 구조 예산 증액을 검토한다는 점을 근거로 활용하되, 증액이 승인됐다고 보도된 것은 아니라는 점을 기억하세요."
+  },
+  "knowledge_layer": {
+    "tok_question_en": "How does the distinction between a policy proposal and an approved measure shape what we can reasonably claim about public safety?",
+    "tok_question_kr": "정책 제안과 승인된 조치를 구분하는 일이 공공 안전에 관해 우리가 합리적으로 주장할 수 있는 범위에 어떤 영향을 미칠까요?",
+    "aok_en": "Human Sciences · Ethics",
+    "aok_kr": "인간과학 · 윤리",
+    "wok_en": "Language · Reason",
+    "wok_kr": "언어 · 이성",
+    "claim_en": "A careful reader can conclude that DILG is considering increased rescue funding for tourist accident response, but cannot conclude from the headline that the increase has been approved.",
+    "claim_kr": "신중한 독자는 DILG가 관광객 사고 대응을 위한 구조 예산 증액을 검토 중이라고 말할 수 있지만, 제목만으로 증액이 승인됐다고 결론 내릴 수는 없습니다.",
+    "counterclaim_en": "Even without confirmation of approval, a reported proposal may still signal that officials see tourist accident response as an issue worth addressing.",
+    "counterclaim_kr": "승인 여부가 확인되지 않았더라도, 제안이 보도됐다는 사실은 당국이 관광객 사고 대응을 다룰 필요가 있는 문제로 보고 있음을 시사할 수 있습니다.",
+    "teded_keyword": "emergency response",
+    "teded_why_en": "Look for a lesson explaining how emergency-response systems coordinate people and resources when an incident occurs.",
+    "teded_why_kr": "사고가 발생했을 때 긴급 대응 체계가 인력과 자원을 어떻게 조율하는지 설명하는 강의를 찾아보세요.",
+    "think_task_en": "Separate the cover story's confirmed information from what remains unknown, then identify one additional piece of evidence needed to judge whether the proposal would improve rescue response.",
+    "think_task_kr": "커버 스토리에서 확인된 정보와 아직 알 수 없는 내용을 나눈 뒤, 이 제안이 구조 대응을 개선할지 판단하려면 어떤 근거가 더 필요한지 하나 제시하세요.",
+    "dig_deeper_en": "Find a primary source, such as an official DILG statement or document, about the proposed increase; check whether it confirms the proposal's scope, status or intended use.",
+    "dig_deeper_kr": "증액 검토의 범위와 진행 단계, 용도를 확인할 수 있도록 DILG의 공식 발표나 문서 같은 1차 자료를 찾아보세요.",
+    "essay_task_en": "Write about 150 words on how readers should judge a public-safety proposal before its results are known. Use Human Sciences to consider how emergency services and communities may be affected, and Ethics to examine how limited public resources should be allocated. Use Language and Reason to distinguish what the report states from what you infer, and address a counterclaim.",
+    "essay_task_kr": "결과가 나오기 전에 공공 안전 제안을 독자가 어떻게 평가해야 하는지 약 150단어로 쓰세요. 인간과학의 관점에서 응급 서비스와 지역사회에 미칠 영향을 살피고, 윤리의 관점에서 한정된 공공 자원을 어떻게 배분해야 하는지 검토하세요. 언어와 이성을 활용해 보도 내용과 자신의 추론을 구분하고, 반대 주장도 다루세요.",
+    "complex_dilemma": {
+      "title_en": "Conundrum · Complex Problem-Solving",
+      "title_kr": "Conundrum · 복합 난제 해결 과제",
+      "scenario_en": "DILG is considering increased rescue funding to improve responses to tourist accidents. Tourists and visitors need reliable help when accidents occur, while rescue services need resources that can support an effective response. Public officials must decide how to allocate any additional funds and what evidence would show that the change helps. These needs may compete with other public priorities, and the headline does not specify the amount available or a plan for distribution. You must recommend a way forward without treating the proposed increase as already approved.",
+      "scenario_kr": "DILG는 관광객 사고에 더 잘 대응하기 위해 구조 예산 증액을 검토하고 있습니다. 관광객과 방문객은 사고가 났을 때 믿을 수 있는 도움을 필요로 하고, 구조 서비스는 효과적으로 대응할 자원을 필요로 합니다. 공공기관은 추가 재원이 생긴다면 어떻게 배분할지, 어떤 근거로 개선 여부를 판단할지 결정해야 합니다. 이러한 필요는 다른 공공 우선순위와 충돌할 수 있으며, 보도 제목에는 가용 예산이나 배분 계획이 제시되지 않았습니다. 증액이 이미 승인됐다고 전제하지 말고 실행 방안을 제안하세요.",
+      "constraints": [
+        {
+          "en": "Visitors' need for stronger accident response may conflict with the claims of other public services on limited public resources.",
+          "kr": "방문객의 사고 대응 개선 요구는 한정된 공공 재원을 필요로 하는 다른 서비스의 요구와 충돌할 수 있습니다."
+        },
+        {
+          "en": "The report gives no funding amount or distribution plan, limiting what officials can promise before resources and capacity are assessed.",
+          "kr": "보도에는 예산 규모나 배분 계획이 없어, 재원과 대응 역량을 살피기 전에는 당국이 약속할 수 있는 범위가 제한됩니다."
+        },
+        {
+          "en": "If additional support is directed to tourist accident response, other public priorities may have less access to those resources.",
+          "kr": "추가 지원을 관광객 사고 대응에 배정하면 다른 공공 우선순위에 돌아갈 자원이 줄어들 수 있습니다."
+        }
+      ],
+      "question_en": "Design a concrete plan for deciding whether and how to allocate additional rescue funding. Weigh the competing needs, explain what you would sacrifice and what you would safeguard first, and state what evidence would justify your choice.",
+      "question_kr": "추가 구조 예산을 배정할지, 배정한다면 어떻게 할지 결정하는 구체적인 계획을 세우세요. 서로 충돌하는 필요를 비교하고 무엇을 포기하며 무엇을 먼저 지킬지, 또 어떤 근거가 그 선택을 정당화할지 설명하세요.",
+      "evaluation_lens": [
+        {
+          "en": "Feasibility — can the plan actually be carried out with the people, money and time available?",
+          "kr": "실현 가능성 — 가용한 사람·예산·시간으로 실제 실행할 수 있는가"
+        },
+        {
+          "en": "Unintended consequences — who bears the cost of this choice, and what could go wrong?",
+          "kr": "의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며 무엇이 잘못될 수 있는가"
+        },
+        {
+          "en": "Evidence and accountability — how would we know it worked, and who answers if it fails?",
+          "kr": "근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가"
+        }
+      ]
+    }
+  }
+}
