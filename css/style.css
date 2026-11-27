@@ -5115,7 +5115,7 @@ body {
 
 .walg-intro {
     margin-top: 8px;
-    max-width: 62ch;
+    max-width: 70ch;
     font-size: 0.93rem;
     line-height: 1.7;
     color: var(--text-secondary);
@@ -5205,7 +5205,7 @@ body {
 
 .walg-a {
     margin-top: 9px;
-    max-width: 74ch;
+    max-width: 80ch;
     font-size: 0.99rem;
     font-weight: 500;
     line-height: 1.78;
