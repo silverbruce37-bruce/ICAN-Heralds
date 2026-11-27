@@ -300,7 +300,7 @@ def http_post_json(url, payload, headers, timeout=180):
         return 0, {"error": {"message": str(exc)}}
 
 
-OPENAI_MODELS = ["gpt-image-1", "gpt-image-1-mini", "dall-e-3"]
+OPENAI_MODELS = ["gpt-image-1-mini", "gpt-image-1", "dall-e-3"]
 
 
 def provider_openai(prompt, kind, deadline):
