@@ -82,7 +82,7 @@ STYLE = (
 )
 
 # Words that suggest a photo of the story's own place. Used to enrich short queries.
-COUNTRY_HINTS = ("philippines", "manila", "cebu", "davao", "visayas", "mindanao", "luzon", "pasig")
+COUNTRY_HINTS = ("philippin", "manila", "cebu", "davao", "visayas", "mindanao", "luzon", "pasig", "makati")
 
 PUBLIC_FIGURE = re.compile(
     r"\b(marcos|duterte|sara duterte|romualdez|trump|xi jinping|putin|kim jong|lee jae|"
@@ -127,24 +127,33 @@ def load_jobs(date):
 
 # ── prompt building ────────────────────────────────────────────────────────────
 
+def anonymize(text):
+    """Drop real names from a photo brief: an image model cannot show a real person."""
+    out = PUBLIC_FIGURE.sub("a government official", str(text or ""))
+    out = re.sub(r"\bthe a government official", "a government official", out, flags=re.I)
+    return out
+
+
 def scene_words(article):
     """A concrete, photo-able subject line for the article."""
     query = " ".join(str(article.get("image_query") or "").split())
     headline = " ".join(str(article.get("headline_en") or "").split())
-    summary = " ".join(str(article.get("summary_en") or article.get("lead_en") or "").split())
+    summary = " ".join(
+        str(article.get("summary_en") or article.get("lead_en") or article.get("subtitle_en") or "").split()
+    )
 
     subject = query
     if not subject or len(subject) < 4:
         # Fall back to the headline, minus any public figure's name.
-        subject = PUBLIC_FIGURE.sub("", headline).strip(" ,.-")
-    subject = PUBLIC_FIGURE.sub("", subject).strip(" ,.-")
+        subject = anonymize(headline).strip(" ,.-")
+    subject = anonymize(subject).strip(" ,.-")
     if not subject:
         subject = "Philippine daily life"
 
     detail = ""
     if summary:
         first = re.split(r"(?<=[.!?])\s", summary)[0]
-        first = PUBLIC_FIGURE.sub("a government official", first)
+        first = anonymize(first)
         if len(first) > 24:
             detail = first[:220]
 
@@ -172,14 +181,11 @@ def thumb_query(article):
 def compose_search(article):
     """Search terms for Wikimedia Commons: the story subject plus its setting."""
     q = thumb_query(article)
-    q = PUBLIC_FIGURE.sub("", q).strip(" ,.")
+    q = anonymize(q).strip(" ,.")
     blob = q.lower()
     if not any(h in blob for h in COUNTRY_HINTS):
-        tag = str(article.get("tag") or "").lower()
-        q = f"{q} Philippines" if "philippines" not in blob else q
-        if not q.strip():
-            q = tag or "Philippines"
-    return q
+        q = f"{q} Philippines"
+    return q.strip() or "Philippines"
 
 
 # ── image validation & finishing ───────────────────────────────────────────────
