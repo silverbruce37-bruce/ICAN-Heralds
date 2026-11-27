@@ -1,7 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-URL = "https://ican-heralds.vercel.app/?v=63d299f"
+URL = "https://ican-heralds.vercel.app/?v=ca565ac"
 
 
 async def main():
