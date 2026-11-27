@@ -208,7 +208,7 @@ Based on this daily news JSON, generate background knowledge layers for each art
 
 $(cat "$DAILY_FILE")
 
-Return ONLY valid JSON with 3 layers per article (cover, featured, news_1-4).
+Return ONLY valid JSON with 4 layers per article (cover, featured, news_1-4): depth 1 foundation, depth 2 context, depth 3 real-life English for Koreans in the Philippines, depth 4 an article-specific debate/insight layer with debate_en and debate_kr.
 "
 
 call_gemini "$ACADEMY_PROMPT" > "$ACADEMY_FILE"

@@ -278,6 +278,38 @@
             "kr": "복구"
           }
         ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Reporting Uncertainty Without Guessing",
+        "title_kr": "추측 없이 불확실성 보도하기",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A cyberattack report often arrives before the full picture is known. Newsrooms then choose between publishing early with clear limits about what remains unknown, and waiting for confirmed details while the story grows old. Both choices carry costs, because readers who are not told what is unconfirmed may fill the gap with guesses. A useful test is whether a report separates what its source said from what the reporter inferred, and names what should be checked next.",
+        "text_kr": "사이버 공격 보도는 전체 상황이 확인되기 전에 나오는 경우가 많습니다. 언론은 무엇이 아직 확인되지 않았는지 분명히 밝히고 빨리 보도할지, 세부 사실이 확인될 때까지 기다리며 보도가 늦어질 위험을 감수할지 선택해야 합니다. 독자에게 확인되지 않은 부분을 알려 주지 않으면 독자가 추측으로 빈틈을 채울 수 있으므로 두 선택 모두 대가가 있습니다. 보도가 출처가 말한 것과 기자가 추론한 것을 구분하는지, 다음에 무엇을 확인해야 하는지 밝히는지가 좋은 판단 기준이 됩니다.",
+        "bilingual_en": "Saying plainly what is not yet known can be more honest than filling the gap.",
+        "bilingual_kr": "아직 모르는 것을 분명히 말하는 태도가 빈틈을 채우는 것보다 정직할 수 있습니다.",
+        "speaking_en": "State whether you would publish a cyberattack report before its impact is confirmed, and give one reason.",
+        "speaking_kr": "피해 범위가 확인되기 전에 사이버 공격 소식을 보도할지, 그 이유 한 가지와 함께 말해 봅시다.",
+        "writing_en": "Write a short newsroom note that lists what this report confirms, what it does not, and what should be checked next.",
+        "writing_kr": "이 보도에서 확인된 것, 확인되지 않은 것, 다음에 점검할 것을 정리한 짧은 편집 메모를 써 봅시다.",
+        "debate_en": "When an attack is reported but its impact is unknown, should a newsroom publish immediately with clear caveats, or wait until more is confirmed?",
+        "debate_kr": "공격은 보도됐지만 피해가 확인되지 않았을 때, 언론은 불확실성을 밝히고 즉시 보도해야 할까요, 아니면 더 확인될 때까지 기다려야 할까요?",
+        "vocab": [
+          {
+            "en": "caveat",
+            "kr": "유보 조건"
+          },
+          {
+            "en": "inference",
+            "kr": "추론"
+          },
+          {
+            "en": "verification",
+            "kr": "확인"
+          }
+        ]
       }
     ],
     "suggestions_en": [
@@ -413,6 +445,38 @@
             "kr": "근거"
           }
         ]
+      },
+      {
+        "depth": 4,
+        "title_en": "What Would “Broader” Market Activity Actually Mean?",
+        "title_kr": "‘더 넓은’ 시장 활동은 무엇을 뜻할까?",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "“Broader market activity” sounds positive, but the phrase needs a definition before anyone can measure it. It could mean more trading volume, more participating investors, more listed companies, or activity spread across more sectors. Each meaning needs different evidence, such as trading records, account data, or sector comparisons. Because the article only asks a question about a planned rebalancing, a claim of improvement is a hypothesis to test, not a result.",
+        "text_kr": "‘시장 활동이 넓어진다’는 표현은 긍정적으로 들리지만, 측정하려면 먼저 무엇이 넓어지는지 정의해야 합니다. 거래량이 늘어난 것일 수도, 참여 투자자가 많아진 것일 수도, 상장 기업이 늘어난 것일 수도, 활동이 여러 업종으로 퍼진 것일 수도 있습니다. 각 의미는 거래 기록, 계좌 자료, 업종 비교처럼 서로 다른 근거를 필요로 합니다. 이 기사는 예정된 재조정에 관한 질문만 던지고 있으므로, 개선되었다는 주장은 결과가 아니라 검증할 가설로 다루어야 합니다.",
+        "bilingual_en": "A word like “broader” becomes measurable only after we say broader in what way.",
+        "bilingual_kr": "‘더 넓다’는 말은 무엇이 넓어지는지 정한 뒤에야 측정할 수 있습니다.",
+        "speaking_en": "Define “broader market activity” in your own words, then name one number that would test it.",
+        "speaking_kr": "‘시장 활동이 넓어졌다’를 자신의 말로 정의하고, 그것을 확인할 수 있는 수치 한 가지를 말해 봅시다.",
+        "writing_en": "Write the opening paragraph of a fact-check on the claim that rebalancing broadened the market.",
+        "writing_kr": "재조정으로 시장이 넓어졌다는 주장을 검증하는 글의 첫 문단을 써 봅시다.",
+        "debate_en": "Is a market healthier with many active traders, or with more long-term investors who trade less often?",
+        "debate_kr": "시장은 활발히 거래하는 투자자가 많을 때 더 건강할까요, 아니면 자주 거래하지 않는 장기 투자자가 많을 때 더 건강할까요?",
+        "vocab": [
+          {
+            "en": "trading volume",
+            "kr": "거래량"
+          },
+          {
+            "en": "hypothesis",
+            "kr": "가설"
+          },
+          {
+            "en": "participation",
+            "kr": "참여"
+          }
+        ]
       }
     ],
     "suggestions_en": [
@@ -518,6 +582,68 @@
             }
           ]
         }
+      },
+      {
+        "depth": 3,
+        "title_en": "What a Reopening Means for Koreans in the Philippines",
+        "title_kr": "재개장이 필리핀 한인에게 갖는 의미",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "For Korean residents in the Philippines, a reopening can matter in practical ways: a place people used to visit may be operating again, or a meeting between leaders may point to closer cultural or business ties. This report gives none of those details, so readers should not assume a benefit or a change for the local Korean community. Checking the venue's own announcement, or a fuller report, is a reasonable step before planning around the news. Noticing what a headline leaves out is part of reading carefully.",
+        "text_kr": "필리핀에 사는 한인에게 재개장은 실생활에서 의미가 있을 수 있습니다. 자주 찾던 장소가 다시 문을 열었을 수도 있고, 지도자 간 만남이 문화·경제 교류의 신호일 수도 있습니다. 그러나 이 보도에는 그런 세부 내용이 없으므로, 지역 한인 사회에 이익이나 변화가 생겼다고 단정해서는 안 됩니다. 방문 계획을 세우기 전에 해당 장소의 공지나 더 자세한 기사를 확인하는 것이 합리적인 다음 단계입니다. 제목이 무엇을 빼고 있는지 알아차리는 것도 꼼꼼한 읽기의 일부입니다.",
+        "bilingual_en": "A reopening can be welcome news and still say very little about what changes for residents.",
+        "bilingual_kr": "재개장은 반가운 소식일 수 있지만, 거주민에게 무엇이 달라지는지는 거의 알려 주지 않습니다.",
+        "speaking_en": "Say what a Korean resident should check before assuming a reopening affects them.",
+        "speaking_kr": "재개장이 자신에게 영향을 준다고 생각하기 전에 한인 거주자가 확인해야 할 것을 말해 봅시다.",
+        "writing_en": "Write a short message to a friend separating what is known and unknown about this reopening.",
+        "writing_kr": "이번 재개장에 대해 확인된 것과 확인되지 않은 것을 나누어 친구에게 보낼 짧은 메시지를 써 봅시다.",
+        "vocab": [
+          {
+            "en": "venue",
+            "kr": "장소"
+          },
+          {
+            "en": "announcement",
+            "kr": "공지"
+          },
+          {
+            "en": "significance",
+            "kr": "의미"
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Reading a Headline That Names No One",
+        "title_kr": "이름을 밝히지 않는 제목 읽기",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A headline that mentions an unnamed “old friend” invites curiosity, and a short news item can make use of that curiosity. Readers face a choice: fill the gap with a guess, or hold the question open until a source names the person. Photo captions, anonymous sources, and vague titles can all leave the same gap. Asking why the ambiguity exists, and who it helps, is often more revealing than the ambiguity itself.",
+        "text_kr": "이름 없는 ‘오랜 친구’를 언급한 제목은 호기심을 자극하며, 짧은 기사는 그 호기심을 활용할 수 있습니다. 독자는 빈틈을 추측으로 채울지, 출처가 그 인물을 밝힐 때까지 질문을 열어 둘지 선택해야 합니다. 사진 설명, 익명 출처, 모호한 제목은 모두 같은 빈틈을 남길 수 있습니다. 그 모호함이 왜 생겼는지, 누구에게 유리한지 묻는 일이 모호함 자체보다 더 많은 것을 알려 주는 경우가 많습니다.",
+        "bilingual_en": "When a headline hides a name, the useful question is not who it is but why the name is missing.",
+        "bilingual_kr": "제목이 이름을 감출 때 유용한 질문은 ‘누구인가’가 아니라 ‘왜 빠졌는가’입니다.",
+        "speaking_en": "Explain why a news outlet might choose not to name a person, and whether that choice can be justified.",
+        "speaking_kr": "언론이 인물의 이름을 밝히지 않기로 선택할 수 있는 이유와 그 선택이 정당화될 수 있는지 말해 봅시다.",
+        "writing_en": "Write a short paragraph arguing whether readers should keep speculating about the unnamed person.",
+        "writing_kr": "독자가 이름 없는 인물을 계속 추측해야 하는지 주장하는 짧은 단락을 써 봅시다.",
+        "debate_en": "Should news outlets avoid hinting at a person's identity when they cannot publish the name?",
+        "debate_kr": "언론은 이름을 밝힐 수 없을 때 인물의 정체를 암시하는 표현도 피해야 할까요?",
+        "vocab": [
+          {
+            "en": "ambiguity",
+            "kr": "모호함"
+          },
+          {
+            "en": "anonymous source",
+            "kr": "익명 출처"
+          },
+          {
+            "en": "speculation",
+            "kr": "추측"
+          }
+        ]
       }
     ],
     "suggestions_en": [
@@ -651,6 +777,38 @@
           {
             "en": "public policy",
             "kr": "공공 정책"
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Who Decides Which Science Gets Funded?",
+        "title_kr": "어떤 과학에 자금이 갈지는 누가 정할까?",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A promise to invest raises a harder question than the amount: who decides which research and programs receive it. Funding choices shape what gets studied, and fields with easily measured results can win over fields whose value appears later. Transparent criteria, independent review, and published results help the public judge whether a choice was sound. This report names no programs and no amounts, so readers can note the promise and watch what follows.",
+        "text_kr": "투자 약속은 얼마를 쓰는지보다 어려운 질문을 던집니다. 어떤 연구와 사업에 자금이 갈지 누가 정하는가입니다. 지원 선택은 무엇이 연구되는지를 정하며, 성과를 재기 쉬운 분야가 가치를 나중에 드러내는 분야보다 우선될 수 있습니다. 투명한 기준, 독립적 검토, 결과 공개가 있어야 대중은 그 선택이 타당했는지 판단할 수 있습니다. 이 보도에는 사업명과 규모가 없으므로, 독자는 약속을 기록해 두고 뒤따르는 내용을 지켜볼 수 있습니다.",
+        "bilingual_en": "An investment promise matters less than the rules that decide who receives the money.",
+        "bilingual_kr": "투자 약속은 누가 그 돈을 받는지 정하는 규칙만큼 중요하지 않습니다.",
+        "speaking_en": "Describe one fair way to decide which science programs should receive public funding.",
+        "speaking_kr": "어떤 과학 사업에 공적 자금을 지원할지 공정하게 정하는 방법 한 가지를 설명해 봅시다.",
+        "writing_en": "Write a short proposal offering two criteria for judging a science and technology investment.",
+        "writing_kr": "과학기술 투자를 평가할 기준 두 가지를 제안하는 짧은 글을 써 봅시다.",
+        "debate_en": "Should public science funding favor projects with clear near-term benefits, or risky research that may pay off much later?",
+        "debate_kr": "공적 과학 자금은 단기 성과가 분명한 사업에 먼저 지원해야 할까요, 아니면 성과가 훨씬 나중에 나올 수 있는 도전적 연구에 지원해야 할까요?",
+        "vocab": [
+          {
+            "en": "criteria",
+            "kr": "기준"
+          },
+          {
+            "en": "independent review",
+            "kr": "독립 검토"
+          },
+          {
+            "en": "transparency",
+            "kr": "투명성"
           }
         ]
       }

@@ -492,18 +492,32 @@ function buildPracticeTask(layer, focus) {
 }
 
 // ── Render Academy ──
-function renderAcademy(articleId) {
+function academyMaxDepth(data) {
+    if (!data || !Array.isArray(data.layers) || !data.layers.length) return 1;
+    return data.layers.reduce((max, l) => Math.max(max, parseInt(l.depth, 10) || 1), 1);
+}
+
+function renderAcademy(articleId, options) {
     const data = academyData[articleId];
     if (!data) return;
 
     const isKorean = document.body.classList.contains('lang-kr');
     const t = (en, kr) => isKorean ? kr : en;
 
+    // Level N opens layers up to depth N. An article that carries fewer layers
+    // than the selector offers caps at its own deepest layer, and the extra
+    // level buttons are disabled instead of silently doing nothing.
+    const maxDepth = academyMaxDepth(data);
+    const level = Math.min(Math.max(academyLevel, 1), maxDepth);
+    const openDepth = options && options.openDepth ? parseInt(options.openDepth, 10) : null;
+
     let layersHTML = '';
     data.layers.forEach((layer, idx) => {
-        const isLocked = layer.depth > academyLevel + 1;
+        const depth = parseInt(layer.depth, 10) || 1;
+        const isLocked = depth > level;
         const lockClass = isLocked ? 'layer-locked' : '';
-        const depthLabel = isLocked ? '🔒' : `L${layer.depth}`;
+        const depthLabel = isLocked ? '🔒' : `L${depth}`;
+        const isOpen = !isLocked && openDepth === depth;
         const focus = getLayerLearningFocus(layer);
         if (layer.speaking_en) focus.speaking_en = layer.speaking_en;
         if (layer.speaking_kr) focus.speaking_kr = layer.speaking_kr;
@@ -560,9 +574,9 @@ function renderAcademy(articleId) {
         bodyHTML += buildPracticeTask(layer, focus);
 
         layersHTML += `
-            <div class="knowledge-layer ${lockClass}" data-depth="${layer.depth}">
+            <div class="knowledge-layer ${lockClass}${isOpen ? ' open' : ''}" data-depth="${depth}">
                 <div class="kl-header" onclick="toggleKnowledgeLayer(this)">
-                    <div class="kl-depth kl-depth-${layer.depth}">${depthLabel}</div>
+                    <div class="kl-depth kl-depth-${depth}">${depthLabel}</div>
                     <div class="kl-info">
                         <div class="kl-title"><span class="en-content">${layer.title_en}</span><span class="kr-content">${layer.title_kr}</span></div>
                         <div class="kl-subtitle"><span class="en-content">${layer.sub_en}</span><span class="kr-content">${layer.sub_kr}</span></div>
@@ -575,12 +589,12 @@ function renderAcademy(articleId) {
     });
 
     // Progress
-    const accessible = data.layers.filter(l => l.depth <= academyLevel + 1).length;
-    const pct = Math.round((accessible / data.layers.length) * 100);
+    const accessible = data.layers.filter(l => (parseInt(l.depth, 10) || 1) <= level).length;
+    const pct = Math.round((accessible / maxDepth) * 100);
     layersHTML += `
         <div class="kl-progress">
             <div class="kl-progress-bar-bg"><div class="kl-progress-bar-fill" style="width:${pct}%;"></div></div>
-            <div class="kl-progress-label">Level ${academyLevel} · ${accessible}/${data.layers.length} ${t('layers', '레이어')}</div>
+            <div class="kl-progress-label">Level ${level} / ${maxDepth} · ${accessible}/${maxDepth} ${t('layers open', '레이어 열림')}</div>
         </div>`;
 
     // Insight
@@ -618,6 +632,29 @@ function renderAcademy(articleId) {
         ${tokHTML}
         <div class="academy-section-label"><span class="en-content">Level-by-Level Learning Path</span><span class="kr-content">레벨별 학습 경로</span></div>
         ${layersHTML}`;
+
+    syncAcademyLevelSelector(maxDepth, level);
+}
+
+// Keep the Level 1-4 buttons honest about what this article actually carries:
+// every level that has a layer stays pressable, the rest are shown as unavailable.
+function syncAcademyLevelSelector(maxDepth, activeLevel) {
+    document.querySelectorAll('.academy-level-dot').forEach(d => {
+        const lv = parseInt(d.dataset.level, 10);
+        if (!lv) return;
+        const usable = lv <= maxDepth;
+        d.classList.toggle('active', lv === activeLevel);
+        d.classList.toggle('is-unavailable', !usable);
+        d.disabled = !usable;
+        d.setAttribute('aria-disabled', usable ? 'false' : 'true');
+        d.title = usable
+            ? (document.body.classList.contains('lang-kr')
+                ? `Level ${lv} · L${lv} 레이어까지 열립니다`
+                : `Level ${lv} · opens the knowledge layers up to L${lv}`)
+            : (document.body.classList.contains('lang-kr')
+                ? `이 기사에는 L${lv} 레이어가 없습니다`
+                : `This article has no L${lv} layer`);
+    });
 }
 
 // ── Open / Close ──
@@ -653,10 +690,15 @@ function closeAcademy() {
 // ── Level ──
 function setAcademyLevel(level) {
     academyLevel = level;
-    document.querySelectorAll('.academy-level-dot').forEach(d => {
-        d.classList.toggle('active', parseInt(d.dataset.level) === level);
-    });
-    if (currentAcademyArticle) renderAcademy(currentAcademyArticle);
+    const data = currentAcademyArticle ? academyData[currentAcademyArticle] : null;
+    if (data) {
+        const maxDepth = academyMaxDepth(data);
+        // 이 기사가 가진 깊이보다 높은 레벨을 누르면 그 기사의 최고 레이어로 맞춘다.
+        if (level > maxDepth) academyLevel = maxDepth;
+        renderAcademy(currentAcademyArticle, { openDepth: academyLevel });
+    } else {
+        syncAcademyLevelSelector(4, academyLevel);
+    }
 }
 
 // ── Layer Toggle ──

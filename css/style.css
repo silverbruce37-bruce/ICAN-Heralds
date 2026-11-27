@@ -2878,6 +2878,20 @@ header:hover .tagline-sub {
     color: var(--primary-light);
 }
 
+/* A level with no layer in this article stays visible but unpressable. */
+.academy-level-dot.is-unavailable,
+.academy-level-dot:disabled {
+    opacity: 0.32;
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
+
+.academy-level-dot.is-unavailable:hover,
+.academy-level-dot:disabled:hover {
+    border-color: var(--border);
+    color: var(--muted);
+}
+
 /* Article Header in Academy */
 .academy-article-header {
     margin-bottom: 32px;
@@ -5304,6 +5318,7 @@ body {
 .academy-level-dot { background: #FFFFFF; border: 1px solid var(--hairline); color: var(--text-secondary); }
 .academy-level-dot:hover { border-color: rgba(49, 130, 246, 0.4); color: var(--primary-light); }
 .academy-level-dot.active { background: var(--primary); border-color: var(--primary); color: #FFFFFF; }
+.academy-level-dot.is-unavailable, .academy-level-dot:disabled { background: #F7F8FA; border-color: var(--hairline); color: var(--muted); opacity: 0.5; }
 .academy-level-label { color: var(--muted); }
 .academy-article-title { font-weight: 800; letter-spacing: -0.035em; }
 .academy-article-summary { color: var(--text-secondary); }

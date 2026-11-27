@@ -646,168 +646,38 @@ else
 fi
 
 # ─── Step 2.5: Academy Knowledge Layers ───────────────
-echo "[2.5/5] Generating ICAN Academy knowledge layers (Full 3 Levels)..."
+# 기사마다 L1 기초 · L2 맥락 · L3 실전 · L4 토론 네 레이어를 만든다.
+# 여섯 기사를 한 번에 요청하면 출력이 잘려 JSON이 깨지고 L4가 통째로 빠지므로,
+# 세 기사씩 두 번 불러 합친다(scripts/academy-merge.py).
+echo "[2.5/5] Generating ICAN Academy knowledge layers (L1-L4)..."
 
-ACADEMY_PROMPT="You are an educational content designer for ICAN Academy, part of ICAN Heralds.
-Given today's news articles, generate background knowledge layers for bilingual (Korean/English) smart 14-year-old learners.
+rm -f "data/academy-${DATE}-part"*.json
+ACADEMY_GROUPS=("cover,featured,news_1" "news_2,news_3,news_4")
+ACADEMY_OK=0
 
-Today's articles (from daily JSON):
-$(cat "data/daily-${DATE}.json" | python3 -c "
-import sys, json
-d = json.load(sys.stdin)
-# Cover story
-print(f\"COVER: {d['cover_story']['headline_en']}\")
-print(f\"  {d['cover_story']['subtitle_en']}\")
-# Featured
-print(f\"FEATURED: {d['featured_news']['headline_en']}\")
-# News grid
-for i, n in enumerate(d['news_grid'], 1):
-    print(f\"NEWS_{i}: [{n['tag']}] {n['headline_en']}\")
-    print(f\"  {n['summary_en']}\")
-")
+for ACADEMY_GROUP in "${ACADEMY_GROUPS[@]}"; do
+    ACADEMY_PART_NUM=$((ACADEMY_OK + 1))
+    ACADEMY_PART_FILE="data/academy-${DATE}-part${ACADEMY_PART_NUM}.json"
+    ACADEMY_PROMPT=$(python3 scripts/academy-prompt.py --date "$DATE" --keys "$ACADEMY_GROUP" 2>/dev/null) || ACADEMY_PROMPT=""
+    if [ -z "$ACADEMY_PROMPT" ]; then
+        echo "  WARNING: could not build the academy prompt for ${ACADEMY_GROUP}"
+        continue
+    fi
+    ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 14000) || true
+    if [ -n "${ACADEMY_JSON:-}" ]; then
+        echo "$ACADEMY_JSON" > "$ACADEMY_PART_FILE"
+        ACADEMY_OK=$((ACADEMY_OK + 1))
+        echo "  academy part ${ACADEMY_PART_NUM} saved (${ACADEMY_GROUP})"
+    else
+        echo "  WARNING: academy generation failed for ${ACADEMY_GROUP}"
+    fi
+done
 
-For EACH article (cover, featured, news_1 through news_4), generate knowledge layers.
-Return ONLY valid JSON (no markdown fences):
-
-{
-  \"cover\": {
-    \"layers\": [
-      {
-        \"depth\": 1, \"title_en\": \"Foundation title\", \"title_kr\": \"기초 개념 제목\",
-        \"sub_en\": \"Foundation\", \"sub_kr\": \"기초 개념\", \"badge\": \"Beginner\",
-        \"text_en\": \"Simple explanation (3-5 sentences). Use <span class=kw>key terms</span>.\",
-        \"text_kr\": \"<span class=kw>핵심 용어</span>가 포함된 쉬운 설명 (3-5문장).\",
-        \"bilingual_en\": \"Aha-moment sentence in English\",
-        \"bilingual_kr\": \"핵심 요약 한국어\",
-        \"speaking_en\": \"One short speaking task tied to this exact layer.\",
-        \"speaking_kr\": \"이 레이어에 딱 맞는 짧은 말하기 과제.\",
-        \"writing_en\": \"One short writing task tied to this exact layer.\",
-        \"writing_kr\": \"이 레이어에 딱 맞는 짧은 쓰기 과제.\",
-        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
-      },
-      {
-        \"depth\": 2, \"title_en\": \"Context & Why it matters\", \"title_kr\": \"맥락과 중요성\",
-        \"sub_en\": \"Context\", \"sub_kr\": \"맥락\", \"badge\": \"Intermediate\",
-        \"text_en\": \"Deeper context...\", \"text_kr\": \"더 깊은 맥락...\",
-        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
-        \"speaking_en\": \"Layer-specific speaking task.\", \"speaking_kr\": \"레이어 맞춤 말하기 과제.\",
-        \"writing_en\": \"Layer-specific writing task.\", \"writing_kr\": \"레이어 맞춤 쓰기 과제.\",
-        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}],
-        \"quiz\": {
-          \"q_en\": \"Question?\", \"q_kr\": \"질문?\",
-          \"opts\": [
-            {\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false},
-            {\"en\": \"Correct\", \"kr\": \"정답\", \"correct\": true},
-            {\"en\": \"Wrong\", \"kr\": \"오답\", \"correct\": false}
-          ]
-        }
-      },
-      {
-        \"depth\": 3, \"title_en\": \"Impact for Koreans in PH\", \"title_kr\": \"필리핀 한인 사회 영향\",
-        \"sub_en\": \"Application\", \"sub_kr\": \"실생활 적용\", \"badge\": \"Advanced\",
-        \"text_en\": \"Practical implications...\", \"text_kr\": \"실질적 시사점...\",
-        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
-        \"speaking_en\": \"Layer-specific speaking task.\", \"speaking_kr\": \"레이어 맞춤 말하기 과제.\",
-        \"writing_en\": \"Layer-specific writing task.\", \"writing_kr\": \"레이어 맞춤 쓰기 과제.\",
-        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
-      },
-      {
-        \"depth\": 4, \"title_en\": \"Debate & Insight\", \"title_kr\": \"토론과 통찰\",
-        \"sub_en\": \"Insight\", \"sub_kr\": \"심화\", \"badge\": \"Expert\",
-        \"text_en\": \"Higher-level perspective connected to the article.\", \"text_kr\": \"기사와 연결된 심화 관점 설명.\",
-        \"bilingual_en\": \"...\", \"bilingual_kr\": \"...\",
-        \"speaking_en\": \"State your position aloud.\", \"speaking_kr\": \"자신의 입장을 말해보세요.\",
-        \"writing_en\": \"Write a short opinion paragraph.\", \"writing_kr\": \"짧은 의견 단락을 써보세요.\",
-        \"debate_en\": \"A discussion prompt tied to this specific article.\",
-        \"debate_kr\": \"이 기사에 맞춘 토론 질문.\",
-        \"vocab\": [{\"en\": \"term\", \"kr\": \"용어\"}]
-      }
-    ],
-    \"suggestions_en\": [\"Q1?\", \"Q2?\", \"Q3?\"],
-    \"suggestions_kr\": [\"질문1?\", \"질문2?\", \"질문3?\"],
-    \"tok\": {
-      \"question_en\": \"IB TOK knowledge question about how we know, drawn from THIS article\",
-      \"question_kr\": \"같은 지식 질문의 한국어\",
-      \"aok_en\": \"One or two Areas of Knowledge (Mathematics, Natural Sciences, Human Sciences, History, The Arts, Ethics)\",
-      \"aok_kr\": \"지식 영역 한국어\",
-      \"wok_en\": \"One or two Ways of Knowing (Language, Sense perception, Emotion, Reason, Imagination, Faith, Intuition, Memory)\",
-      \"wok_kr\": \"인식 방법 한국어\",
-      \"task_en\": \"A short critical-thinking task: test one claim in this article against a counter-example\",
-      \"task_kr\": \"같은 과제의 한국어\"
-    }
-  },
-  \"featured\": { ... same 3-layer structure ... },
-  \"news_1\": { ... same 2-3 layer structure ... },
-  \"news_2\": { ... }, \"news_3\": { ... }, \"news_4\": { ... }
-}
-
-RULES:
-- Article MUST have at least 2 layers (Depth 1-2). Cover/Featured SHOULD have 3-4 layers.
-- Layer 3 MUST focus on the Korean community living in the Philippines.
-- Layer 4, when present, MUST be an article-specific debate/insight layer with 'debate_en' and 'debate_kr'.
-- Every article MUST include a 'tok' object: one genuine TOK knowledge question about how we come to know something in this story, with AOK and WOK values chosen from the official lists, and a short critical-thinking task. Never repeat the same tok question across articles.
-- Every layer MUST include 'speaking_en/kr' and 'writing_en/kr', and they must be specific to that article layer.
-- Korean 'speaking_kr' and 'writing_kr' MUST read like workbook prompts for learners. Prefer endings such as '-해 봅시다', '-정리해 봅시다', '-써 봅시다' over explanatory prose.
-- Use natural Korean (not AI-translated style). 
-- Write for a smart 14-year-old.
-- Return ONLY valid JSON."
-
-ACADEMY_JSON=$(call_claude "$ACADEMY_PROMPT" 15000) || true
-
-if [ -n "${ACADEMY_JSON:-}" ]; then
-    echo "$ACADEMY_JSON" > "data/academy-${DATE}.json"
-    
-    # Inject academy data into JS with titles from the DAILY JSON to prevent mismatches
-    python3 -c "
-import json, re, sys
-
-try:
-    with open('data/academy-${DATE}.json') as f:
-        raw = f.read()
-    raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', ' ', raw)
-    if not raw.strip().startswith('{'):
-        start = raw.find('{'); end = raw.rfind('}')
-        if start >= 0 and end > start: raw = raw[start:end+1]
-    academy = json.loads(raw)
-
-    with open('data/daily-${DATE}.json') as f:
-        daily = json.load(f)
-
-    # Sync titles/summaries from Daily JSON to prevent 'Frankenstein' articles
-    article_map = {'cover': daily['cover_story'], 'featured': daily['featured_news']}
-    for i in range(1, 5):
-        if i-1 < len(daily.get('news_grid', [])):
-            article_map[f'news_{i}'] = daily['news_grid'][i-1]
-
-    js_data = {}
-    for key, art in article_map.items():
-        if key not in academy: continue
-        js_data[key] = {
-            'tag': art.get('tag', 'News'),
-            'tagClass': art.get('tag_class', 'tag-economy'),
-            'title_en': art.get('headline_en', ''),
-            'title_kr': art.get('headline_kr', ''),
-            'summary_en': art.get('subtitle_en', art.get('summary_en', art.get('lead_en', ''))),
-            'summary_kr': art.get('subtitle_kr', art.get('summary_kr', art.get('lead_kr', ''))),
-            'layers': academy[key].get('layers', []),
-        }
-        tok = academy[key].get('tok')
-        if isinstance(tok, dict) and tok.get('question_en'):
-            js_data[key]['tok'] = tok
-
-    js_content = f'// Auto-generated by generate-daily.sh — ${DATE}\n'
-    js_content += 'var academyData = ' + json.dumps(js_data, ensure_ascii=False, indent=2) + ';\n'
-    js_content += 'var paulSuggestions = {};\n'
-    for key in js_data:
-        if key in academy and 'suggestions_en' in academy[key]:
-            js_content += f'paulSuggestions[\"{key}\"] = {{ en: {json.dumps(academy[key][\"suggestions_en\"])}, kr: {json.dumps(academy[key][\"suggestions_kr\"], ensure_ascii=False)} }};\n'
-
-    with open('js/academy-data.js', 'w') as f:
-        f.write(js_content)
-    print('  Successfully updated js/academy-data.js with 3-level layers')
-except Exception as e:
-    print(f'  WARNING: Academy sync failed: {e}', file=sys.stderr)
-" || echo "  Academy injection skipped"
+if [ "$ACADEMY_OK" -lt 2 ] && [ -s "data/academy-${DATE}.json" ]; then
+    echo "  WARNING: only ${ACADEMY_OK}/2 academy groups generated — keeping the existing data/academy-${DATE}.json"
+elif [ "$ACADEMY_OK" -gt 0 ]; then
+    python3 scripts/academy-merge.py --date "$DATE" || echo "  WARNING: academy merge reported incomplete layers"
+    python3 scripts/sync-academy.py --date "$DATE" || echo "  WARNING: academy sync reported incomplete layers"
 else
     echo "  WARNING: Academy generation failed"
 fi

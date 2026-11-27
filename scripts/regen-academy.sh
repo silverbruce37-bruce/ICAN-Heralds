@@ -156,7 +156,8 @@ Return ONLY valid JSON (no markdown):
     "layers": [
       {{"depth":1,"title_en":"Foundation title","title_kr":"기초 제목","sub_en":"Foundation","sub_kr":"기초 개념","badge":"Beginner","text_en":"3-5 sentences with <span class=kw>key term</span>.","text_kr":"<span class=kw>핵심 용어</span> 포함 설명.","bilingual_en":"Key insight.","bilingual_kr":"핵심 요약.","speaking_en":"Speaking task.","speaking_kr":"말하기 과제.","writing_en":"Writing task.","writing_kr":"쓰기 과제.","vocab":[{{"en":"term","kr":"용어"}}]}},
       {{"depth":2,"title_en":"Context title","title_kr":"맥락 제목","sub_en":"Context","sub_kr":"맥락","badge":"Intermediate","text_en":"Deeper context.","text_kr":"더 깊은 맥락.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","vocab":[{{"en":"term","kr":"용어"}}],"quiz":{{"q_en":"Q?","q_kr":"질문?","opts":[{{"en":"Wrong","kr":"오답","correct":false}},{{"en":"Right","kr":"정답","correct":true}},{{"en":"Wrong","kr":"오답","correct":false}}]}}}},
-      {{"depth":3,"title_en":"Impact for Koreans in PH","title_kr":"필리핀 한인 영향","sub_en":"Application","sub_kr":"실생활 적용","badge":"Advanced","text_en":"Practical impact.","text_kr":"실질적 시사점.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","vocab":[{{"en":"term","kr":"용어"}}]}}
+      {{"depth":3,"title_en":"Impact for Koreans in PH","title_kr":"필리핀 한인 영향","sub_en":"Application","sub_kr":"실생활 적용","badge":"Advanced","text_en":"Practical impact.","text_kr":"실질적 시사점.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","vocab":[{{"en":"term","kr":"용어"}}]}},
+      {{"depth":4,"title_en":"Debate & Insight","title_kr":"토론과 통찰","sub_en":"Insight","sub_kr":"심화","badge":"Expert","text_en":"Higher-level perspective.","text_kr":"심화 관점.","bilingual_en":"...","bilingual_kr":"...","speaking_en":"...","speaking_kr":"...","writing_en":"...","writing_kr":"...","debate_en":"Article-specific debate prompt.","debate_kr":"이 기사에 맞춘 토론 질문.","vocab":[{{"en":"term","kr":"용어"}}]}}
     ],
     "suggestions_en":["Q1?","Q2?","Q3?"],
     "suggestions_kr":["질문1?","질문2?","질문3?"],
@@ -165,7 +166,7 @@ Return ONLY valid JSON (no markdown):
   "featured":{{...}},
   "news_1":{{...}},"news_2":{{...}},"news_3":{{...}},"news_4":{{...}}
 }}
-Rules: 3 layers each, layer 2 has quiz, natural Korean, article-specific titles. Every article also needs a "tok" object (TOK knowledge question + AOK + WOK + one critical-thinking task) that is specific to that article."""
+Rules: exactly 4 layers each (depth 1, 2, 3, 4) — an article with three layers is a failed answer; layer 3 focuses on the Korean community living in the Philippines; layer 4 is an article-specific debate/insight layer that includes debate_en and debate_kr; layer 2 has quiz, natural Korean, article-specific titles. Every article also needs a "tok" object (TOK knowledge question + AOK + WOK + one critical-thinking task) that is specific to that article."""
 
 result = ""
 

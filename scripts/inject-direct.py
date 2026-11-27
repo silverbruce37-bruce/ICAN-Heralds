@@ -22,6 +22,12 @@ EMERGENCY_IMAGE = "images/emergency-placeholder.svg"
 # scripts/article-images.py. Keyed by cover / feat / news1..news4.
 IMAGE_MANIFEST = {}
 
+# article key -> deepest knowledge layer that article carries, read from
+# data/academy-<date>.json. The LEARN modal and the level pills both read it, so
+# a card never promises a level its article does not have.
+ACADEMY_DEPTHS = {}
+ACADEMY_LAYERS = {}
+
 # Weekly content names fixed places (Manam, Intramuros, museums); these photos live
 # in images/static/ and are matched by their content query.
 STATIC_RULES = [
@@ -276,6 +282,43 @@ def compact_text(text, limit=140):
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
+def load_academy_layers(edition_date):
+    """Remember how many knowledge layers each article carries this edition."""
+    ACADEMY_DEPTHS.clear()
+    ACADEMY_LAYERS.clear()
+    path = Path(f"data/academy-{edition_date}.json")
+    if not path.exists():
+        print(f"  No academy JSON for {edition_date} — level pills fall back to L1-L4")
+        return
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as exc:
+        print(f"  WARNING: academy JSON unreadable ({exc}) — level pills fall back to L1-L4",
+              file=sys.stderr)
+        return
+    for key, art in data.items():
+        layers = [l for l in (art.get("layers") or []) if isinstance(l, dict)]
+        depths = sorted({int(l.get("depth", 0) or 0) for l in layers} - {0})
+        if depths:
+            ACADEMY_DEPTHS[key] = max(depths)
+            ACADEMY_LAYERS[key] = {int(l.get("depth", 0) or 0): l for l in layers}
+    short = [k for k in ("cover", "featured", "news_1", "news_2", "news_3", "news_4")
+             if ACADEMY_DEPTHS.get(k, 0) < 4]
+    if short:
+        print(f"  WARNING: {', '.join(short)} carry fewer than four layers this edition", file=sys.stderr)
+
+
+def level_label(article_key, fallback=4):
+    depth = ACADEMY_DEPTHS.get(article_key, fallback)
+    return "L1" if depth <= 1 else f"L1-L{depth}"
+
+
+def layer_text(article_key, depth, field):
+    layer = (ACADEMY_LAYERS.get(article_key) or {}).get(depth) or {}
+    return str(layer.get(field, "") or "").strip()
+
+
 def build_today_brief(daily):
     cover = daily.get("cover_story", {})
     featured = daily.get("featured_news", {})
@@ -287,7 +330,7 @@ def build_today_brief(daily):
             "title": cover.get("headline_en", ""),
             "summary": cover.get("subtitle_en", ""),
             "tag": cover.get("author", "Editorial"),
-            "level": "L1-L4",
+            "level": level_label("cover"),
             "cta": "Start Learning",
         },
         {
@@ -296,7 +339,7 @@ def build_today_brief(daily):
             "title": featured.get("headline_en", ""),
             "summary": featured.get("lead_en", ""),
             "tag": featured.get("tag", "News"),
-            "level": "L1-L3",
+            "level": level_label("featured"),
             "cta": "See Why",
         },
     ]
@@ -309,7 +352,7 @@ def build_today_brief(daily):
                 "title": item.get("headline_en", ""),
                 "summary": item.get("summary_en", ""),
                 "tag": item.get("tag", "News"),
-                "level": "L1-L3",
+                "level": level_label(f"news_{idx}"),
                 "cta": "Learn Fast",
             }
         )
@@ -353,7 +396,7 @@ def build_learning_path(daily):
     """The textbook spine: news -> background layers -> TED-Ed x TOK -> DET/essay."""
     steps = [
         ("01", "Today&rsquo;s News", "오늘의 뉴스", "Read the story first", "오늘 기사를 먼저 읽습니다", "#coverStory", "BRIEF"),
-        ("02", "Background Layers", "배경지식 레이어", "Widen L1 → L2 → L3", "L1 → L2 → L3로 넓히기", "#learning-track", "L1 – L4"),
+        ("02", "Background Layers", "배경지식 레이어", "Widen L1 → L2 → L3 → L4", "L1 → L2 → L3 → L4로 넓히기", "#learning-track", "L1 – L4"),
         ("03", "TED-Ed × TOK", "TED-Ed × TOK 사고 확장", "Ask what we can know, then face the conundrum", "무엇을 알 수 있는지 묻고, 난제에 도전하기", "#tok-lab", "AOK · WOK · CONUNDRUM"),
         ("04", "DET · Essay", "DET · 에세이 실전", "Say it in 60s, write 150 words", "60초로 말하고 150단어로 쓰기", "#practice-studio", "60 SEC"),
     ]
@@ -426,7 +469,17 @@ def build_learning_track(daily):
             "level_copy": "Practical",
             "article_name": practical.get("headline_en", ""),
         },
+        {
+            "eyebrow": "Debate & Insight",
+            "title": "L4 토론 질문으로 한 걸음 더",
+            "copy": layer_text("cover", 4, "bilingual_en") or "토론과 통찰로 오늘 이슈를 더 깊이 읽습니다.",
+            "article_id": "cover",
+            "level": 4,
+            "level_copy": "Insight",
+            "article_name": cover.get("headline_en", ""),
+        },
     ]
+    tracks = [t for t in tracks if t["level"] <= ACADEMY_DEPTHS.get(t["article_id"], 4)]
 
     cards_html = ""
     for track in tracks:
@@ -451,7 +504,7 @@ def build_learning_track(daily):
                 <span class="en-content">Learning Track</span>
                 <span class="kr-content">레벨별 학습 트랙</span>
             </h2>
-            <p class="section-intro">기사를 읽고 끝나지 않도록, 기초 개념(L1)에서 맥락(L2), 실전 표현(L3)까지 배경지식을 레이어로 하나씩 쌓는 구간입니다.</p>
+            <p class="section-intro">기사를 읽고 끝나지 않도록, 기초 개념(L1)에서 맥락(L2), 실전 표현(L3), 토론·통찰(L4)까지 배경지식을 레이어로 하나씩 쌓는 구간입니다.</p>
             <div class="learning-track-grid">{cards_html}
             </div>
         </section>"""
@@ -538,7 +591,7 @@ def build_news_cards(news):
                             <span class="kr-content">{item.get('summary_kr', '')}</span>
                         </p>
                         <div class="article-study-meta">
-                            <span class="study-pill">L1-L3 Path</span>
+                            <span class="study-pill">{level_label(f'news_{i}')} Path</span>
                             <span class="study-key-label">Key phrase</span>
                         </div>
                         <div class="article-phrase-row">{phrase_chips_html(phrases)}</div>
@@ -1276,7 +1329,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v14"
+    ver = date_str.replace("-", "") + "_v15"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1458,12 +1511,12 @@ def build_html(daily, weekly):
                     <div class="cover-learning-levels">
                         <span class="study-pill">L1 Foundation</span>
                         <span class="study-pill">L2 Context</span>
-                        <span class="study-pill">L3 Real-life English</span>
+                        <span class="study-pill">L3 Real-life English</span>{'<span class="study-pill">L4 Debate</span>' if ACADEMY_DEPTHS.get('cover', 4) >= 4 else ''}
                     </div>
                     <div class="article-phrase-row">{phrase_chips_html(cover_phrases)}</div>
                     <div class="cover-learning-actions">
                         <a class="learn-btn" id="coverStoryReadLink" href="{cover_source_url}" target="_blank" rel="noopener noreferrer"><span class="learn-icon">↗</span>Read Original</a>
-                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', 3)"><span class="learn-icon">⚡</span>Study English</button>
+                        <button class="learn-btn learn-btn-secondary" onclick="openAcademyAtLevel('cover', {ACADEMY_DEPTHS.get('cover', 4)})"><span class="learn-icon">⚡</span>Study English</button>
                     </div>
                 </div>
             </div>
@@ -1518,7 +1571,7 @@ def build_html(daily, weekly):
                     <h3><span class="en-content">{feat.get('headline_en', '')}</span><span class="kr-content">{feat.get('headline_kr', '')}</span></h3>
                     <p class="featured-news-lead"><span class="en-content">{feat.get('lead_en', '')}</span><span class="kr-content">{feat.get('lead_kr', '')}</span></p>
                     <div class="article-study-meta">
-                        <span class="study-pill">L1-L3 Path</span>
+                        <span class="study-pill">{level_label('featured')} Path</span>
                         <span class="study-key-label">Key phrase</span>
                     </div>
                     <div class="article-phrase-row">{phrase_chips_html(feat_phrases)}</div>
@@ -1637,6 +1690,7 @@ def main():
         daily = json.load(f)
 
     edition_date = Path(daily_file).stem.replace("daily-", "")
+    load_academy_layers(edition_date)
     manifest_file = Path(f"data/image-manifest-{edition_date}.json")
     if manifest_file.exists():
         try:
