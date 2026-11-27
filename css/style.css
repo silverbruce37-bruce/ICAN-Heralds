@@ -5049,6 +5049,227 @@ body {
 .grade-label { color: rgba(255, 255, 255, 0.78); }
 .grade-value { color: #FFFFFF; }
 
+/* ---------- Word-Thinking Algorithm · 4-step concept origin ---------- */
+/* The word corner continues below the blue banner as a light card: the word is
+   read as world knowledge — community rule → value made real → sandcastle
+   check → new axis of value, then one line the learner writes. */
+.word-alg {
+    position: relative;
+    margin: 0 0 4px;
+    padding: 40px 44px 38px;
+    background: #FFFFFF;
+    border: 1px solid var(--hairline);
+    border-radius: 24px;
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+}
+
+.word-alg::before {
+    content: '';
+    position: absolute;
+    top: -150px;
+    right: -110px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(49, 130, 246, 0.10), rgba(49, 130, 246, 0) 68%);
+    pointer-events: none;
+}
+
+.walg-head {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.walg-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--primary-light);
+}
+
+.walg-kicker::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary);
+    box-shadow: 0 0 0 4px rgba(49, 130, 246, 0.12);
+}
+
+.walg-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.34;
+    color: var(--text);
+}
+
+.walg-intro {
+    margin-top: 8px;
+    max-width: 62ch;
+    font-size: 0.93rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.walg-badge {
+    flex: 0 0 auto;
+    padding: 7px 14px;
+    border-radius: 999px;
+    background: var(--primary-soft);
+    border: 1px solid rgba(49, 130, 246, 0.18);
+    color: var(--primary-light);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    white-space: nowrap;
+}
+
+.walg-track {
+    position: relative;
+    margin: 26px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.walg-track::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 24px;
+    bottom: 24px;
+    width: 2px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, rgba(49, 130, 246, 0.34), rgba(49, 130, 246, 0.08));
+}
+
+.walg-step {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.walg-num {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    background: var(--primary-soft);
+    border: 1px solid rgba(49, 130, 246, 0.2);
+    color: var(--primary-light);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.walg-body { min-width: 0; padding-top: 1px; }
+
+.walg-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.walg-emoji { font-size: 0.88rem; line-height: 1; }
+
+.walg-q {
+    margin-top: 7px;
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: #6B7684;
+}
+
+.walg-a {
+    margin-top: 9px;
+    max-width: 74ch;
+    font-size: 0.99rem;
+    font-weight: 500;
+    line-height: 1.78;
+    color: var(--text);
+}
+
+.walg-prompt {
+    position: relative;
+    margin-top: 26px;
+    padding: 22px 24px 20px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #EAF3FF 0%, #F6FAFF 100%);
+    border: 1px solid rgba(49, 130, 246, 0.16);
+}
+
+.walg-prompt-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--primary-light);
+}
+
+.walg-prompt-text {
+    margin-top: 8px;
+    max-width: 74ch;
+    font-size: 0.97rem;
+    line-height: 1.72;
+    color: var(--text);
+}
+
+.walg-prompt-line {
+    display: block;
+    margin-top: 16px;
+    height: 0;
+    border-bottom: 1.5px dashed rgba(49, 130, 246, 0.32);
+}
+
+/* Korean blocks: never break a word mid-syllable */
+body.lang-kr .walg-title,
+body.lang-kr .walg-intro,
+body.lang-kr .walg-q,
+body.lang-kr .walg-a,
+body.lang-kr .walg-prompt-text {
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+@media (max-width: 768px) {
+    .word-alg { padding: 26px 20px 24px; border-radius: 20px; }
+    .walg-head { flex-direction: column; gap: 10px; }
+    .walg-badge { display: none; }
+    .walg-title { font-size: 1.24rem; }
+    .walg-track { margin-top: 20px; gap: 18px; }
+    .walg-track::before { left: 17px; top: 20px; bottom: 20px; }
+    .walg-step { gap: 13px; }
+    .walg-num { width: 36px; height: 36px; border-radius: 12px; font-size: 0.8rem; }
+    .walg-a { font-size: 0.94rem; line-height: 1.72; }
+    .walg-prompt { padding: 18px; border-radius: 16px; }
+}
+
 /* ---------- STEP 03 · TOK lab ---------- */
 .tok-lab {
     background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FC 100%);

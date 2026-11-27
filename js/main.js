@@ -43,7 +43,7 @@ function toggleMenu() {
 document.addEventListener('DOMContentLoaded', () => {
     const targets = document.querySelectorAll(
         '.news-card, .event-card, .travel-card, .food-feature, ' +
-        '.picks-card, .word-banner, .headline-section, .dashboard, ' +
+        '.picks-card, .word-banner, .word-alg, .headline-section, .dashboard, ' +
         '.featured-news, .section-title, .section-intro'
     );
     targets.forEach(el => el.classList.add('fade-up'));

@@ -548,6 +548,80 @@ def ensure_complex_dilemma(layer, daily, topic_en, topic_kr):
     return []
 
 
+# ── 5c. Word of the day · 4-step concept-origin algorithm ────────────────────
+# The daily prompt asks the model for word_of_day.concept_algorithm. When an
+# edition arrives without it (older data, or a model that dropped the field),
+# the block would silently vanish, so every field gets an honest generic answer.
+# It never invents a word origin.
+def word_algorithm_fallback(word):
+    w = str(word.get("word") or "this word").strip() or "this word"
+    d_en = str(word.get("definition_en") or "").strip().rstrip(".")
+    d_kr = str(word.get("definition_kr") or "").strip().rstrip(".")
+    return {
+        "rule_en": (
+            f'Before “{w}” could mean anything, a community had to agree on one rule: '
+            f'someone decides how the thing is shared, and by what standard. '
+            f'“{d_en}” is only the surface of that agreement.'
+        ),
+        "rule_kr": (
+            f'“{w}”가 뜻을 가지려면 먼저 공동체가 한 가지 약속을 정해야 했습니다. '
+            f'무엇을 어떤 기준으로 나눌지 정하는 사람이 있다는 약속입니다. '
+            f'“{d_kr}”는 그 약속의 표면일 뿐입니다.'
+        ),
+        "reality_en": (
+            'On top of that rule people raised a value — fairness, safety or trust. '
+            'The word is where that value stops being an idea and becomes something '
+            'you can see in daily life.'
+        ),
+        "reality_kr": (
+            '그 규칙 위에 사람들은 공정함, 안전, 신뢰 같은 가치를 세웠습니다. '
+            '이 단어는 그 가치가 생각에서 그치지 않고 생활 속에서 눈에 보이는 것이 되는 자리입니다.'
+        ),
+        "sandcastle_en": (
+            'The rule holds only while the people who keep it can be watched and the '
+            'facts are true. When they are not, the word stays in use while the thing '
+            'it points to disappears — a castle of sand.'
+        ),
+        "sandcastle_kr": (
+            '그 약속은 지키는 사람을 지켜볼 수 있고 사실이 확인될 때만 버팁니다. '
+            '그렇지 않으면 단어는 그대로 쓰이는데 가리키던 것은 사라집니다. 모래로 지은 성이 됩니다.'
+        ),
+        "new_axis_en": (
+            'Today the situation behind the word is changing. Ask who the old rule left '
+            'out, and what new value should be built on this word now.'
+        ),
+        "new_axis_kr": (
+            '오늘 이 단어를 둘러싼 상황이 달라지고 있습니다. 옛 규칙이 빠뜨린 사람은 누구인지, '
+            '이제 이 단어 위에 어떤 새 가치를 세워야 하는지 물어보세요.'
+        ),
+        "kid_prompt_en": (
+            'Pick one thing you share with others — time, space or money. Write one line '
+            'about who is left out when it is divided, and what rule would put them back in.'
+        ),
+        "kid_prompt_kr": (
+            '여럿이 함께 쓰는 것 하나를 골라 보세요. 시간, 공간, 돈 무엇이든 좋습니다. '
+            '나눌 때 누가 빠지는지, 그 사람을 다시 넣으려면 어떤 규칙이 필요한지 한 줄로 써 보세요.'
+        ),
+    }
+
+
+def ensure_word_algorithm(daily):
+    """Guarantee word_of_day.concept_algorithm is complete enough to render."""
+    word = daily.get("word_of_day")
+    if not isinstance(word, dict) or not str(word.get("word") or "").strip():
+        return []
+    alg = word.get("concept_algorithm")
+    if not isinstance(alg, dict):
+        alg = {}
+        word["concept_algorithm"] = alg
+    filled = []
+    for key, value in word_algorithm_fallback(word).items():
+        if not str(alg.get(key) or "").strip():
+            alg[key] = value
+            filled.append("concept_algorithm." + key)
+    return filled
+
+
 def ensure_learning(daily):
     """Fill any missing practice / knowledge fields so the sections always render."""
     date_str = daily.get("edition_date", "")
@@ -654,6 +728,7 @@ def ensure_learning(daily):
             "자신의 답을 복잡하게 만드는 반례를 하나 제시해 봅시다."
         )
     filled.extend(ensure_complex_dilemma(layer, daily, topic_en, topic_kr))
+    filled.extend(ensure_word_algorithm(daily))
     return filled
 
 

@@ -416,7 +416,19 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
     \"definition_kr\": \"한국어 정의\",
     \"example_en\": \"Example sentence using the word.\",
     \"example_kr\": \"단어를 사용한 예문.\",
-    \"grade\": \"A+\"
+    \"grade\": \"A+\",
+    \"concept_algorithm\": {
+      \"rule_en\": \"Step 01 — the community promise this word had to exist for: what a group had to agree on so that the thing could be shared or decided (1-2 sentences, concrete, no invented word origin)\",
+      \"rule_kr\": \"01단계 한국어\",
+      \"reality_en\": \"Step 02 — the abstract value raised on that rule (fairness, safety, trust, freedom) and how it becomes something you can see in real life\",
+      \"reality_kr\": \"02단계 한국어\",
+      \"sandcastle_en\": \"Step 03 — the sandcastle check: the concrete condition under which the rule cracks in today's fast-changing world and the word turns into an empty castle of sand\",
+      \"sandcastle_kr\": \"03단계 한국어\",
+      \"new_axis_en\": \"Step 04 — the new axis of value this era needs on top of the word, tied to today's story\",
+      \"new_axis_kr\": \"04단계 한국어\",
+      \"kid_prompt_en\": \"One sentence inviting a 12-year-old to connect the word to today's news and write their own line; end with a question\",
+      \"kid_prompt_kr\": \"같은 초대 문장의 한국어\"
+    }
   },
   \"practice\": {
     \"det_question_en\": \"One Duolingo English Test style 1-minute essay question (agree/disagree or preference), tied to today's cover story and word of the day\",
@@ -472,6 +484,9 @@ IMPORTANT RULES:
 - Focus on what the real headlines say: Korea-Philippines relations, Korean community life and safety in Metro Manila, Philippine economy, ASEAN, K-culture, Korean food events.
 - Cover story body: 3 substantial paragraphs per language, each tied to a real headline.
 - The word_of_day must appear meaningfully in the cover story.
+- word_of_day.concept_algorithm is the engine of the word corner: 01 the community rule the word was coined to define, 02 the abstract value raised on that rule and how it becomes real, 03 the sandcastle check — the condition under which the rule cracks and the word turns empty, 04 the new axis of value this changing era needs — plus one prompt inviting the learner to write their own line.
+- Write concept_algorithm for a 12-year-old: short sentences, concrete images, no philosophy jargon, no invented word origins, no statistics. One to two sentences per English field; Korean fields in natural Korean for learners.
+- Steps must build on each other (rule → value → crack → new axis) and step 04 or the prompt must connect to today's cover story when the story gives a real link. Never state a fact the headlines do not support.
 - practice.det_question must be answerable from today's story in one minute; it must be a real DET-style prompt, not a TOK question.
 - knowledge_layer.tok_question must be a genuine TOK knowledge question about knowledge itself (how we know), not a current-events question.
 - knowledge_layer.complex_dilemma must be a dilemma, not a quiz. Build it only from facts in today's cover story, with two or three named stakeholder groups whose needs genuinely conflict, three competing constraints, one open-ended design question, and three evaluation criteria.

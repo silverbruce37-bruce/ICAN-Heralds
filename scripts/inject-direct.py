@@ -1319,6 +1319,138 @@ def build_super_teens_banner():
         </section>'''
 
 
+# ── Word of the day · 4-step concept-origin algorithm ───────────────────────
+# The word corner is not a flashcard. Each word is read as a piece of world
+# knowledge: the community rule it was coined to define, the abstract value
+# raised on that rule, the moment the rule cracks (sandcastle check), and the
+# new axis of value today's world needs. The questions are fixed here; the
+# answers come from word_of_day.concept_algorithm in the daily JSON.
+WORD_ALG_STEPS = [
+    (
+        "01", "🤝", "Community Rule", "공동체 약속",
+        "Which promise did a community make so that this word could exist?",
+        "이 단어는 공동체가 함께 살기 위해 만든 어떤 약속을 담고 있을까요?",
+        "rule",
+    ),
+    (
+        "02", "🏛️", "Value → Reality", "가치의 실제화",
+        "Which value stands on that rule, and how does it become real?",
+        "그 약속 위에 세운 어떤 추상적 가치가 현실에서 작동하게 될까요?",
+        "reality",
+    ),
+    (
+        "03", "🏰", "Sandcastle Check", "사상누각 점검",
+        "If the world changes fast and the rule cracks, when does this word become a castle of sand?",
+        "시대가 급변해 그 약속이 흔들리면, 이 단어는 언제 공허한 사상누각이 될까요?",
+        "sandcastle",
+    ),
+    (
+        "04", "🧭", "New Axis of Value", "새로운 추상의 축",
+        "What new axis of value should be raised on this word for today?",
+        "변화하는 오늘의 시대에는 이 단어 위에 어떤 새로운 가치의 축을 다시 세워야 할까요?",
+        "new_axis",
+    ),
+]
+
+
+# Used when an edition carries no concept_algorithm (older editions, or a model
+# that dropped the field). Honest and generic: it never invents a word origin.
+def word_algorithm_fallback(word):
+    w = (word.get("word") or "this word").strip() or "this word"
+    d_en = (word.get("definition_en") or "").strip().rstrip(".")
+    d_kr = (word.get("definition_kr") or "").strip().rstrip(".")
+    return {
+        "rule_en": (
+            f'Before “{w}” could mean anything, a community had to agree on one rule: '
+            f'someone decides how the thing is shared, and by what standard. '
+            f'“{d_en}” is only the surface of that agreement.'
+        ),
+        "rule_kr": (
+            f'“{w}”가 뜻을 가지려면 먼저 공동체가 한 가지 약속을 정해야 했습니다. '
+            f'무엇을 어떤 기준으로 나눌지 정하는 사람이 있다는 약속입니다. '
+            f'“{d_kr}”는 그 약속의 표면일 뿐입니다.'
+        ),
+        "reality_en": (
+            'On top of that rule people raised a value — fairness, safety or trust. '
+            'The word is where that value stops being an idea and becomes something '
+            'you can see in daily life.'
+        ),
+        "reality_kr": (
+            '그 규칙 위에 사람들은 공정함, 안전, 신뢰 같은 가치를 세웠습니다. '
+            '이 단어는 그 가치가 생각에서 그치지 않고 생활 속에서 눈에 보이는 것이 되는 자리입니다.'
+        ),
+        "sandcastle_en": (
+            'The rule holds only while the people who keep it can be watched and the '
+            'facts are true. When they are not, the word stays in use while the thing '
+            'it points to disappears — a castle of sand.'
+        ),
+        "sandcastle_kr": (
+            '그 약속은 지키는 사람을 지켜볼 수 있고 사실이 확인될 때만 버팁니다. '
+            '그렇지 않으면 단어는 그대로 쓰이는데 가리키던 것은 사라집니다. 모래로 지은 성이 됩니다.'
+        ),
+        "new_axis_en": (
+            'Today the situation behind the word is changing. Ask who the old rule left '
+            'out, and what new value should be built on this word now.'
+        ),
+        "new_axis_kr": (
+            '오늘 이 단어를 둘러싼 상황이 달라지고 있습니다. 옛 규칙이 빠뜨린 사람은 누구인지, '
+            '이제 이 단어 위에 어떤 새 가치를 세워야 하는지 물어보세요.'
+        ),
+        "kid_prompt_en": (
+            'Pick one thing you share with others — time, space or money. Write one line '
+            'about who is left out when it is divided, and what rule would put them back in.'
+        ),
+        "kid_prompt_kr": (
+            '여럿이 함께 쓰는 것 하나를 골라 보세요. 시간, 공간, 돈 무엇이든 좋습니다. '
+            '나눌 때 누가 빠지는지, 그 사람을 다시 넣으려면 어떤 규칙이 필요한지 한 줄로 써 보세요.'
+        ),
+    }
+
+
+def build_word_algorithm(word):
+    """The 4-step concept-origin block that sits under the word banner."""
+    if not isinstance(word, dict) or not str(word.get("word") or "").strip():
+        return ""
+    alg = word.get("concept_algorithm")
+    if not isinstance(alg, dict):
+        alg = {}
+    fallback = word_algorithm_fallback(word)
+
+    def text(key):
+        return str(alg.get(key) or "").strip() or fallback[key]
+
+    steps_html = ""
+    for num, emoji, label_en, label_kr, q_en, q_kr, key in WORD_ALG_STEPS:
+        steps_html += f'''
+                <li class="walg-step">
+                    <span class="walg-num">{num}</span>
+                    <div class="walg-body">
+                        <div class="walg-label"><span class="walg-emoji" aria-hidden="true">{emoji}</span><span class="en-content">{label_en}</span><span class="kr-content">{label_kr}</span></div>
+                        <p class="walg-q"><span class="en-content">{q_en}</span><span class="kr-content">{q_kr}</span></p>
+                        <p class="walg-a"><span class="en-content">{text(key + '_en')}</span><span class="kr-content">{text(key + '_kr')}</span></p>
+                    </div>
+                </li>'''
+
+    return f'''
+        <section class="word-alg" id="word-alg">
+            <div class="walg-head">
+                <div class="walg-head-copy">
+                    <span class="walg-kicker"><span class="en-content">Word-Thinking Algorithm · Concept Origin</span><span class="kr-content">세상지식 어휘 알고리즘</span></span>
+                    <h3 class="walg-title"><span class="en-content">From one word to the frame of the world</span><span class="kr-content">단어 하나에서 세상의 뼈대까지</span></h3>
+                    <p class="walg-intro"><span class="en-content">Most of what we know is built from words like this one: a community&rsquo;s rule, a value raised on it, and the moment that value becomes real. Four questions, one word a day.</span><span class="kr-content">세상지식의 대부분은 이런 단어들로 세워집니다. 공동체의 약속, 그 위에 세운 가치, 그리고 그 가치가 현실이 되는 순간. 하루 한 단어, 네 개의 질문입니다.</span></p>
+                </div>
+                <span class="walg-badge">4 STEPS</span>
+            </div>
+            <ol class="walg-track">{steps_html}
+            </ol>
+            <div class="walg-prompt">
+                <span class="walg-prompt-badge">✏️ <span class="en-content">Your turn · Build your own axis</span><span class="kr-content">나만의 새 축 세우기</span></span>
+                <p class="walg-prompt-text"><span class="en-content">{text('kid_prompt_en')}</span><span class="kr-content">{text('kid_prompt_kr')}</span></p>
+                <span class="walg-prompt-line" aria-hidden="true"></span>
+            </div>
+        </section>'''
+
+
 def build_html(daily, weekly):
     d = daily
     dash = d.get("dashboard", {})
@@ -1329,7 +1461,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v15"
+    ver = date_str.replace("-", "") + "_v16"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1400,7 +1532,8 @@ def build_html(daily, weekly):
                 <p class="word-example"><span class="en-content"><em>"{word.get('example_en', '')}"</em></span><span class="kr-content"><em>"{word.get('example_kr', '')}"</em></span></p>
                 <div class="word-grade">{word.get('grade', 'A+')}</div>
             </div>
-        </section>'''
+        </section>
+        {build_word_algorithm(word)}'''
 
     html = f'''<!DOCTYPE html>
 <html lang="ko">
