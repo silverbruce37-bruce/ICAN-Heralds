@@ -28,22 +28,22 @@
   "feat": {
    "key": "feat",
    "src": "images/editions/2026-11-27/feat.jpg",
-   "provider": "openai",
-   "model": "gpt-image-1-mini",
+   "provider": "editorial-generated",
+   "model": "pickle-images",
    "query": "newsroom cybersecurity incident",
-   "prompt": "Subject: newsroom cybersecurity incident. Story context: GMA News reports that Agence France-Presse was hit by a cyber attack. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "prompt": "Bright open-plan Manila office: IT staff at desks seen from behind, plain monitors and a large wall display showing only soft blurred blue-green light, no text or logos, daylight.",
    "credit": "",
    "source_url": "https://www.gmanetwork.com/news/topstories/world/1010916/agence-france-presse-hit-by-cyber-attack/story/",
    "image_url": "",
-   "bytes": 96653,
+   "bytes": 134744,
    "width": 1200,
    "height": 800,
    "luma": 122.6,
    "status": "created",
    "attempts": [
     {
-     "provider": "openai",
-     "result": "ok [16.8s]"
+     "provider": "editorial",
+     "result": "regenerated without embedded text"
     }
    ],
    "created_at": "2026-11-27T00:08:28Z"
@@ -51,22 +51,22 @@
   "news1": {
    "key": "news1",
    "src": "images/editions/2026-11-27/news1.jpg",
-   "provider": "openai",
-   "model": "gpt-image-1-mini",
+   "provider": "editorial-generated",
+   "model": "pickle-images",
    "query": "stock exchange market screens",
-   "prompt": "Subject: stock exchange market screens. Story context: Rappler's Market Rider examines whether the Philippine Stock Exchange's planned 2027 rebalancing could unlock broader market activity. Set in the Philippines, Southeast Asia. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "prompt": "Modern trading room from behind: professionals watching large plain display panels showing only soft blurred blue graphs, no readable numbers or ticker text, bright daylight.",
    "credit": "",
    "source_url": "https://www.rappler.com/business/market-rider-pse-2027-rebalancing-will-unlock-broader-stock-activity/",
    "image_url": "",
-   "bytes": 108860,
+   "bytes": 81107,
    "width": 960,
    "height": 720,
    "luma": 69.4,
    "status": "created",
    "attempts": [
     {
-     "provider": "openai",
-     "result": "ok [13.8s]"
+     "provider": "editorial",
+     "result": "regenerated without embedded text"
     }
    ],
    "created_at": "2026-11-27T00:08:40Z"
@@ -120,22 +120,22 @@
   "news4": {
    "key": "news4",
    "src": "images/editions/2026-11-27/news4.jpg",
-   "provider": "openai",
-   "model": "gpt-image-1-mini",
+   "provider": "editorial-generated",
+   "model": "pickle-images",
    "query": "traffic safety pickup truck",
-   "prompt": "Subject: traffic safety pickup truck. Story context: GMA News reports that the Land Transportation Office issued a show-cause order to the pickup truck driver involved in a viral road-rage incident in Pasig City. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "prompt": "Busy Philippine city road in bright midday sun: plain white pickup at the kerb and a traffic officer directing vehicles, no lettering or readable plates, palm trees, clean and orderly.",
    "credit": "",
    "source_url": "https://www.gmanetwork.com/news/topstories/metro/1010911/lto-issues-sco-against-pickup-truck-driver-in-pasig-city-viral-road-rage-incident/story/",
    "image_url": "",
-   "bytes": 90813,
+   "bytes": 140989,
    "width": 960,
    "height": 720,
    "luma": 101.3,
    "status": "created",
    "attempts": [
     {
-     "provider": "openai",
-     "result": "ok [14.1s]"
+     "provider": "editorial",
+     "result": "regenerated without embedded text"
     }
    ],
    "created_at": "2026-11-27T00:08:58Z"

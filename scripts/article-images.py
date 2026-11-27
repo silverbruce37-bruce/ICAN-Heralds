@@ -73,13 +73,25 @@ MAX_LUMA = 248         # reject blown-out / white-on-white images
 MIN_STDDEV = 14        # reject flat colour fields / blank images
 
 STYLE = (
+    "A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or "
+    "brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, "
+    "newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank "
+    "or soft out-of-focus light. "
     "Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, "
     "true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. "
-    "It is a real photograph: no illustration, no 3D render, no digital art, no collage, no text, "
-    "no letters, no captions, no signage, no watermarks, no logos, no borders, no graphic overlays. "
-    "Bright and optimistic tone; avoid night scenes, heavy shadows, neon or abstract patterns. "
-    "Show anonymous everyday people only — no recognizable public figures or politicians."
+    "No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid "
+    "night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — "
+    "no recognizable public figures or politicians."
 )
+
+# Subjects that make an image model draw text; they are rewritten to plain visuals.
+TEXT_PRONE = [
+    (re.compile(r"\bscreens?\b", re.I), "plain displays seen at a distance"),
+    (re.compile(r"\bmonitors?\b", re.I), "desks with plain displays"),
+    (re.compile(r"\bnewsroom\b", re.I), "modern open-plan office"),
+    (re.compile(r"\btickers?\b", re.I), "glowing display panels"),
+    (re.compile(r"\bnews ?paper\b", re.I), "folded papers"),
+]
 
 # Words that suggest a photo of the story's own place. Used to enrich short queries.
 COUNTRY_HINTS = ("philippin", "manila", "cebu", "davao", "visayas", "mindanao", "luzon", "pasig", "makati")
@@ -147,6 +159,8 @@ def scene_words(article):
         # Fall back to the headline, minus any public figure's name.
         subject = anonymize(headline).strip(" ,.-")
     subject = anonymize(subject).strip(" ,.-")
+    for pattern, replacement in TEXT_PRONE:
+        subject = pattern.sub(replacement, subject)
     if not subject:
         subject = "Philippine daily life"
 

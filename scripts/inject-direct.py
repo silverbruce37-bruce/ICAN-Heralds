@@ -1309,9 +1309,15 @@ def build_html(daily, weekly):
         f"Editorial photograph for this story · Source: {cover_source_name}"
     )
     if manifest_source("cover") is not None:
-        # A real photo now sits here, not a generated illustration.
-        cover_caption = re.sub(r"^\s*Illustration:\s*", "Photo: ", cover_caption)
-        cover_caption = cover_caption.replace("Editorial illustration", "Editorial photograph")
+        # Label the caption by what the photo actually is: a real photo or a generated illustration.
+        cover_provider = str((IMAGE_MANIFEST.get("cover") or {}).get("provider") or "")
+        if cover_provider in ("og", "wikimedia", "openverse", "flickr", "local"):
+            cover_caption = re.sub(r"^\s*(Illustration|Illustrative image|Photo):\s*", "Photo: ", cover_caption)
+            cover_caption = cover_caption.replace("Editorial illustration", "Editorial photograph")
+        elif re.search(r"illustrat|generated", cover_caption, re.I):
+            # The model sometimes writes "Photo: Illustrative image …"; drop the contradictory label.
+            cover_caption = re.sub(r"^\s*(Illustration|Illustrative image|Photo):\s*", "", cover_caption)
+            cover_caption = cover_caption[:1].upper() + cover_caption[1:] if cover_caption else cover_caption
     feat_source_url = feat.get("source_url") or ""
     feat_source_name = feat.get("source_name") or feat.get("desk", "News Desk")
     feat_source_link = (
