@@ -1,0 +1,199 @@
+{
+  "edition_date": "2026-11-28",
+  "header_date_line": "SATURDAY, NOVEMBER 28, 2026 | PHILIPPINES | VOL. 210",
+  "dashboard": {
+    "php_krw_rate": "20.92",
+    "weather_en": "28°C Cloudy",
+    "weather_kr": "28°C 흐림",
+    "date": "2026.11.28",
+    "embassy_en": "Normal",
+    "embassy_kr": "정상 운영",
+    "rate_source_en": "via exchangerate-api.com",
+    "rate_source_kr": "exchangerate-api.com 기준",
+    "weather_code": "wmo:3",
+    "weather_source": "Open-Meteo",
+    "weather_range_en": "High 34° / Low 25°",
+    "weather_range_kr": "최고 34° / 최저 25°",
+    "weather_pop": 98,
+    "date_iso": "2026-11-28",
+    "updated_at_pht": "2026-11-28 08:20 PHT"
+  },
+  "cover_story": {
+    "headline_en": "Coffee tax proposal draws pushback in the Philippines",
+    "headline_kr": "필리핀 커피세 제안에 반대 목소리",
+    "subtitle_en": "A lawmaker says 3-in-1 coffee may be taxed if its sugar content stays high. The proposal has also drawn opposition from a group, the Palace and several senators.",
+    "subtitle_kr": "한 의원은 당 함량이 계속 높으면 3-in-1 커피에 세금이 부과될 수 있다고 밝혔습니다. 이 제안에는 한 단체와 대통령궁, 여러 상원의원이 반대했습니다.",
+    "body_en": [
+      "A proposal to tax 3-in-1 coffee if its sugar content remains high is drawing opposition in the Philippines. GMA News reported the comment by Quimbo, while Philstar separately reported that a group pushed back against the coffee tax.",
+      "GMA News also reported that the Palace and several senators rejected the proposed tax. The headlines do not provide details of the proposal or the arguments made by its opponents, so its design and prospects remain unclear.",
+      "For Korean residents who buy everyday groceries in the Philippines, the proposal is worth watching, but the headlines do not say that a tax has been enacted or that prices have changed. The public debate turns on a practical question of accountability: what rule would make a tax fair, and how would people know whether it serves its purpose?"
+    ],
+    "body_kr": [
+      "필리핀에서 당 함량이 높은 3-in-1 커피에 세금을 매기자는 제안이 반대에 부딪혔습니다. GMA News는 퀴임보 의원의 발언을 보도했고, Philstar는 한 단체가 커피세에 반대했다고 전했습니다.",
+      "GMA News에 따르면 대통령궁과 여러 상원의원도 제안된 세금에 반대했습니다. 헤드라인에는 제안의 세부 내용이나 반대 측의 구체적인 논거가 나오지 않아, 제안의 설계와 향후 전망은 분명하지 않습니다.",
+      "필리핀에서 장을 보는 한국 교민도 이 논의를 지켜볼 만하지만, 헤드라인만으로는 세금이 이미 시행됐거나 가격이 변했다고 볼 수 없습니다. 핵심은 책임성에 관한 실질적인 질문입니다. 어떤 기준이 세금을 공정하게 만들고, 그 목적을 이루었는지는 어떻게 확인할 수 있을까요?"
+    ],
+    "source_name": "GMA News",
+    "source_url": "https://www.gmanetwork.com/news/topstories/nation/1011001/quimbo-3-in-1-coffee-may-be-taxed-if-sugar-content-remains-high/story/",
+    "image_seed": "cover-2026-11-28",
+    "image_query": "instant coffee sachets grocery shelf",
+    "image_caption": "Photo: Illustrative image of instant coffee sachets; AI-generated, November 28, 2026.",
+    "author": "By ICAN Herald Editorial",
+    "read_time_min": 5
+  },
+  "featured_news": {
+    "tag": "Security",
+    "tag_class": "tag-security",
+    "headline_en": "US military says it disabled ship trying to run Iran blockade",
+    "headline_kr": "미군, 이란 봉쇄 돌파 시도 선박 무력화했다고 밝혀",
+    "lead_en": "The US military said it disabled a commercial ship that was trying to run an Iran blockade, GMA News reported. The headline does not provide further details about the ship or the operation.",
+    "lead_kr": "GMA News는 미군이 이란 봉쇄를 돌파하려던 상업용 선박을 무력화했다고 보도했습니다. 헤드라인에는 선박이나 작전에 관한 추가 정보가 담기지 않았습니다.",
+    "source_name": "GMA News",
+    "source_url": "https://www.gmanetwork.com/news/topstories/world/1011016/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/story/",
+    "image_seed": "feat-2026-11-28",
+    "image_query": "commercial ship at sea",
+    "desk": "Security Desk",
+    "read_time_min": 3
+  },
+  "news_grid": [
+    {
+      "tag": "Economy",
+      "tag_class": "tag-economy",
+      "headline_en": "ERC orders P1.99-billion Meralco refund",
+      "headline_kr": "ERC, 메랄코에 19억9천만 페소 환불 명령",
+      "summary_en": "Philstar reports that the Energy Regulatory Commission ordered Meralco to issue a P1.99-billion refund. The headline does not specify who will receive it or how it will be distributed.",
+      "summary_kr": "Philstar는 에너지규제위원회가 메랄코에 19억9천만 페소를 환불하라고 명령했다고 보도했습니다. 환불 대상과 지급 방식은 헤드라인에 나오지 않았습니다.",
+      "source_name": "Philstar",
+      "source_url": "https://www.philstar.com/headlines/2026/11/28/2573120/erc-orders-p199-billion-meralco-refund",
+      "image_seed": "news1-2026-11-28",
+      "image_query": "electric meter power lines",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Culture",
+      "tag_class": "tag-culture",
+      "headline_en": "UP Diliman church named an Important Cultural Property",
+      "headline_kr": "UP 딜리만 ‘부활의 교회’, 중요문화재 지정",
+      "summary_en": "GMA News reports that the Church of the Risen Lord at UP Diliman was declared an Important Cultural Property. The designation recognizes the church as a cultural property.",
+      "summary_kr": "GMA News는 UP 딜리만의 ‘부활의 교회’가 중요문화재로 지정됐다고 보도했습니다. 이번 지정은 해당 교회를 문화재로 인정한 것입니다.",
+      "source_name": "GMA News",
+      "source_url": "https://www.gmanetwork.com/news/topstories/metro/1011011/up-diliman-s-church-of-the-risen-lord-declared-important-cultural-property/story/",
+      "image_seed": "news2-2026-11-28",
+      "image_query": "church architecture campus",
+      "read_time_min": 2
+    },
+    {
+      "tag": "Cooperation",
+      "tag_class": "tag-diplomacy",
+      "headline_en": "Philippines launches mRNA Ebola vaccine trial in Uganda",
+      "headline_kr": "우간다에서 mRNA 에볼라 백신 시험 시작",
+      "summary_en": "GMA News reports that an mRNA Ebola vaccine trial has been launched in Uganda. The headline provides no details about the trial's size or results.",
+      "summary_kr": "GMA News는 우간다에서 mRNA 에볼라 백신 시험이 시작됐다고 보도했습니다. 시험 규모나 결과는 헤드라인에 제시되지 않았습니다.",
+      "source_name": "GMA News",
+      "source_url": "https://www.gmanetwork.com/news/topstories/world/1011014/mrna-ebola-vaccine-trial-launched-in-uganda/story/",
+      "image_seed": "news3-2026-11-28",
+      "image_query": "vaccine research laboratory",
+      "read_time_min": 3
+    },
+    {
+      "tag": "Safety",
+      "tag_class": "tag-safety",
+      "headline_en": "Two killed in bus and van collision in Isabela",
+      "headline_kr": "이사벨라주 버스·승합차 충돌로 2명 사망",
+      "summary_en": "GMA News reports that two people died after a bus and van collided in Tumauini, Isabela. The headline does not give further information about the crash.",
+      "summary_kr": "GMA News는 이사벨라주 투마우이니에서 버스와 승합차가 충돌해 2명이 숨졌다고 보도했습니다. 사고에 관한 추가 정보는 헤드라인에 나오지 않았습니다.",
+      "source_name": "GMA News",
+      "source_url": "https://www.gmanetwork.com/news/balitambayan/promdi/1011006/2-patay-sa-salpukan-ng-bus-at-van-sa-tumauini-isabela/story/",
+      "image_seed": "news4-2026-11-28",
+      "image_query": "bus van road collision",
+      "read_time_min": 2
+    }
+  ],
+  "word_of_day": {
+    "word": "accountability",
+    "pronunciation": "/əˌkaʊntəˈbɪləti/",
+    "type": "noun",
+    "definition_en": "The duty to explain a decision and take responsibility for its results.",
+    "definition_kr": "결정의 이유를 설명하고 그 결과에 책임지는 의무.",
+    "example_en": "Accountability means explaining how a proposed coffee tax would work.",
+    "example_kr": "책임성이란 제안된 커피세가 어떻게 작동하는지 설명하는 것을 뜻합니다.",
+    "grade": "A+",
+    "concept_algorithm": {
+      "rule_en": "Step 01 — When people share a decision, they need a rule for who must explain it and answer for what happens next. Accountability names that duty.",
+      "rule_kr": "01단계 — 사람들이 함께 결정을 내릴 때는 누가 그 결정을 설명하고 이후 결과에 답할지 정하는 기준이 필요해요. ‘Accountability’는 그 책임을 뜻해요.",
+      "reality_en": "Step 02 — That rule can build trust: people can ask why a choice was made and see who must respond. In real life, a public proposal should come with a clear explanation.",
+      "reality_kr": "02단계 — 그 기준은 신뢰를 만들 수 있어요. 사람들은 결정의 이유를 묻고 누가 답해야 하는지 알 수 있죠. 현실에서는 공공 제안에 분명한 설명이 따라야 해요.",
+      "sandcastle_en": "Step 03 — The rule cracks if nobody explains how a policy works or accepts responsibility for its effects. Then accountability is just an empty label, like a sandcastle washed away by the tide.",
+      "sandcastle_kr": "03단계 — 정책이 어떻게 작동하는지 아무도 설명하지 않고 결과에 책임지지도 않으면 기준은 무너져요. 그때 책임성은 파도에 쓸려 간 모래성처럼 이름뿐이에요.",
+      "new_axis_en": "Step 04 — The coffee-tax headlines show why people need more than a proposal: they need clear reasons and a way to check what happens. Ask who would explain the rule and answer for its effects.",
+      "new_axis_kr": "04단계 — 커피세 관련 헤드라인은 제안만으로는 부족하다는 점을 보여줘요. 사람들은 분명한 이유와 결과를 확인할 방법이 필요하죠. 누가 기준을 설명하고 그 영향을 책임질지 생각해 보세요.",
+      "kid_prompt_en": "Write one line about who should explain a proposed coffee tax and why; what would you say?",
+      "kid_prompt_kr": "제안된 커피세를 누가 설명해야 하는지, 그 이유는 무엇인지 한 문장으로 써 보세요. 어떻게 쓰겠어요?"
+    }
+  },
+  "practice": {
+    "det_question_en": "Do you agree that a proposed tax on high-sugar 3-in-1 coffee should be explained clearly before it is adopted? Use today's story and the word accountability to support your opinion.",
+    "det_question_kr": "당 함량이 높은 3-in-1 커피에 세금을 매기려면 시행 전에 그 내용을 분명히 설명해야 한다고 생각하나요? 오늘 기사와 ‘accountability’를 활용해 의견을 뒷받침하세요.",
+    "det_structure_en": "1. State your view. 2. Give one reason. 3. Refer to the coffee-tax debate. 4. End with a practical conclusion.",
+    "det_structure_kr": "1. 의견을 밝히세요. 2. 이유를 하나 제시하세요. 3. 커피세 논의를 근거로 드세요. 4. 실질적인 결론으로 마무리하세요.",
+    "det_link_en": "Use the cover story's report that a tax was proposed if sugar content remains high and that the proposal drew opposition.",
+    "det_link_kr": "커버 스토리에서 당 함량이 계속 높으면 세금을 매길 수 있다는 제안과 이에 반대하는 목소리가 나왔다는 내용을 근거로 활용하세요."
+  },
+  "knowledge_layer": {
+    "tok_question_en": "How does the information available to us shape what we can responsibly claim about a proposed public policy?",
+    "tok_question_kr": "우리가 접할 수 있는 정보는 공공 정책 제안에 대해 책임 있게 주장할 수 있는 범위를 어떻게 정할까요?",
+    "aok_en": "Human Sciences · Ethics",
+    "aok_kr": "인간과학 · 윤리",
+    "wok_en": "Language · Reason",
+    "wok_kr": "언어 · 이성",
+    "claim_en": "A careful reader can claim that a tax on 3-in-1 coffee may be proposed if its sugar content remains high and that the proposal faces opposition.",
+    "claim_kr": "주의 깊은 독자는 당 함량이 계속 높을 경우 3-in-1 커피에 세금을 매기는 방안이 제기될 수 있고, 이 제안에 반대가 있다는 점을 주장할 수 있습니다.",
+    "counterclaim_en": "A headline alone cannot show the proposal's details, the opponents' reasoning, or whether a tax will actually be adopted.",
+    "counterclaim_kr": "헤드라인만으로는 제안의 세부 내용과 반대 측의 논거, 실제 세금 도입 여부를 알 수 없습니다.",
+    "teded_keyword": "sugar taxation policy",
+    "teded_why_en": "Look for a lesson explaining how governments assess the effects and trade-offs of taxes on sugary products.",
+    "teded_why_kr": "당 함량이 높은 제품에 세금을 매길 때 정부가 효과와 상충 관계를 어떻게 검토하는지 설명하는 자료를 찾아보세요.",
+    "think_task_en": "Separate what the headlines confirm about the coffee-tax proposal from what remains unknown, then list two questions you would ask before judging it.",
+    "think_task_kr": "커피세 제안에 관해 헤드라인이 확인해 주는 내용과 아직 알 수 없는 내용을 나누고, 판단 전에 물어볼 질문 두 가지를 적어 보세요.",
+    "dig_deeper_en": "Find a primary source for the proposed coffee tax, such as an official bill or statement, and compare its wording with the headlines.",
+    "dig_deeper_kr": "공식 법안이나 성명 등 커피세 제안의 1차 자료를 찾아 헤드라인의 표현과 비교해 보세요.",
+    "essay_task_en": "Write about 150 words on how we should judge a proposed public policy when news reports provide limited detail. Use Human Sciences and Ethics as your Areas of Knowledge, and Language and Reason as your Ways of Knowing. Refer to the coffee-tax headlines and distinguish evidence from unanswered questions.",
+    "essay_task_kr": "뉴스 보도에 세부 정보가 적을 때 공공 정책 제안을 어떻게 판단해야 하는지 약 150단어로 쓰세요. 지식 영역으로 인간과학과 윤리를, 인식 방법으로 언어와 이성을 활용하세요. 커피세 헤드라인을 언급하고 근거와 아직 답을 얻지 못한 질문을 구분하세요.",
+    "complex_dilemma": {
+      "title_en": "Conundrum · Complex Problem-Solving",
+      "title_kr": "Conundrum · 복합 난제 해결 과제",
+      "scenario_en": "A proposal says 3-in-1 coffee may be taxed if its sugar content remains high. Consumers want clear information about any rule that could affect what they buy. People concerned about sugar may want the proposal to address high sugar content. Coffee sellers may want a rule they can understand and follow. The headlines report opposition from a group, the Palace and several senators, but provide no details of their arguments. Decision-makers must choose how to handle the proposal while these needs compete and the available information is limited.",
+      "scenario_kr": "당 함량이 계속 높으면 3-in-1 커피에 세금을 매길 수 있다는 제안이 나왔습니다. 소비자들은 구매에 영향을 줄 수 있는 기준을 명확히 알고 싶어 합니다. 당 문제를 걱정하는 사람들은 제안이 높은 당 함량을 다루길 바랄 수 있습니다. 커피 판매자들은 이해하고 따를 수 있는 기준을 원할 수 있습니다. 헤드라인에 따르면 한 단체와 대통령궁, 여러 상원의원이 반대했지만 그들의 구체적인 논거는 보도되지 않았습니다. 의사결정자는 정보가 제한된 가운데 서로 다른 필요를 고려해 제안을 어떻게 다룰지 정해야 합니다.",
+      "constraints": [
+        {
+          "en": "Consumers' need for clear information can conflict with the desire to act quickly on a proposal addressing high sugar content.",
+          "kr": "소비자에게 명확한 정보를 제공해야 한다는 요구는 높은 당 함량을 다루는 제안을 신속히 추진하려는 요구와 충돌할 수 있습니다."
+        },
+        {
+          "en": "Decision-makers have limited information in the headlines about the proposal's design and the reasons for opposition.",
+          "kr": "헤드라인에는 제안의 설계와 반대 이유에 관한 정보가 제한적으로만 담겨 있습니다."
+        },
+        {
+          "en": "If a rule is designed mainly around consumers' or public-health concerns, sellers may bear the burden of understanding and following it; if sellers' concerns dominate, consumers may receive less clarity about the policy's purpose.",
+          "kr": "소비자나 공중보건 우려에만 맞춰 기준을 만들면 판매자가 이를 이해하고 따르는 부담을 질 수 있습니다. 반대로 판매자의 우려를 우선하면 소비자가 정책의 목적을 충분히 알기 어려울 수 있습니다."
+        }
+      ],
+      "question_en": "Design a concrete way to review and explain the coffee-tax proposal that balances consumers, people concerned about sugar, and sellers. Explain what you would sacrifice first and what you would safeguard, and justify how your plan could work despite limited information.",
+      "question_kr": "소비자, 당 문제를 우려하는 사람들, 판매자의 필요를 조정하면서 커피세 제안을 검토하고 설명할 구체적인 방안을 설계하세요. 무엇을 먼저 양보하고 무엇을 우선 지킬지 밝히고, 정보가 제한된 상황에서 계획을 어떻게 실행할지 근거를 들어 설명하세요.",
+      "evaluation_lens": [
+        {
+          "en": "Feasibility — can the plan be carried out with the people, money and time available?",
+          "kr": "실현 가능성 — 가용한 사람·예산·시간으로 실제 실행할 수 있는가"
+        },
+        {
+          "en": "Unintended consequences — who bears the cost of this choice, and what could go wrong?",
+          "kr": "의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며 무엇이 잘못될 수 있는가"
+        },
+        {
+          "en": "Evidence and accountability — how would we know it worked, and who answers if it fails?",
+          "kr": "근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가"
+        }
+      ]
+    }
+  }
+}

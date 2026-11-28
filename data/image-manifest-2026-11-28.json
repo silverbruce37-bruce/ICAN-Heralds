@@ -1,0 +1,145 @@
+{
+ "version": 1,
+ "date": "2026-11-28",
+ "items": {
+  "cover": {
+   "key": "cover",
+   "src": "images/editions/2026-11-28/cover.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "instant coffee sachets grocery shelf",
+   "prompt": "Subject: instant coffee sachets grocery shelf. Story context: A lawmaker says 3-in-1 coffee may be taxed if its sugar content stays high. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/nation/1011001/quimbo-3-in-1-coffee-may-be-taxed-if-sugar-content-remains-high/story/",
+   "image_url": "",
+   "bytes": 170873,
+   "width": 1440,
+   "height": 960,
+   "luma": 110.1,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [14.4s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:25Z"
+  },
+  "feat": {
+   "key": "feat",
+   "src": "images/editions/2026-11-28/feat.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "commercial ship at sea",
+   "prompt": "Subject: commercial ship at sea. Story context: The US military said it disabled a commercial ship that was trying to run an Iran blockade, GMA News reported. Set in the Philippines, Southeast Asia. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/world/1011016/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/story/",
+   "image_url": "",
+   "bytes": 98097,
+   "width": 1200,
+   "height": 800,
+   "luma": 114.2,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [15.6s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:26Z"
+  },
+  "news1": {
+   "key": "news1",
+   "src": "images/editions/2026-11-28/news1.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "electric meter power lines",
+   "prompt": "Subject: electric meter power lines. Story context: Philstar reports that the Energy Regulatory Commission ordered Meralco to issue a P1.99-billion refund. Set in the Philippines, Southeast Asia. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.philstar.com/headlines/2026/11/28/2573120/erc-orders-p199-billion-meralco-refund",
+   "image_url": "",
+   "bytes": 97560,
+   "width": 960,
+   "height": 720,
+   "luma": 143.6,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [14.3s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:39Z"
+  },
+  "news2": {
+   "key": "news2",
+   "src": "images/editions/2026-11-28/news2.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "church architecture campus",
+   "prompt": "Subject: church architecture campus. Story context: GMA News reports that the Church of the Risen Lord at UP Diliman was declared an Important Cultural Property. Set in the Philippines, Southeast Asia. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/metro/1011011/up-diliman-s-church-of-the-risen-lord-declared-important-cultural-property/story/",
+   "image_url": "",
+   "bytes": 88277,
+   "width": 960,
+   "height": 720,
+   "luma": 133.8,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [12.9s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:39Z"
+  },
+  "news3": {
+   "key": "news3",
+   "src": "images/editions/2026-11-28/news3.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "vaccine research laboratory",
+   "prompt": "Subject: vaccine research laboratory. Story context: GMA News reports that an mRNA Ebola vaccine trial has been launched in Uganda. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/topstories/world/1011014/mrna-ebola-vaccine-trial-launched-in-uganda/story/",
+   "image_url": "",
+   "bytes": 76723,
+   "width": 960,
+   "height": 720,
+   "luma": 164.3,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [14.1s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:53Z"
+  },
+  "news4": {
+   "key": "news4",
+   "src": "images/editions/2026-11-28/news4.jpg",
+   "provider": "openai",
+   "model": "gpt-image-1-mini",
+   "query": "bus van road collision",
+   "prompt": "Subject: bus van road collision. Story context: GMA News reports that two people died after a bus and van collided in Tumauini, Isabela. Set in the Philippines, Southeast Asia. A real press photograph. CRITICAL: the picture contains no words, letters, numbers, logos or brand marks anywhere — no signage, posters, banners, badges, number plates, product labels, newspaper mastheads, news tickers or on-screen graphics; any screen, board or display is blank or soft out-of-focus light. Photorealistic editorial news photograph, natural bright daylight, well-lit clean scene, true-to-life colours, sharp focus, shallow depth of field, 35mm lens, wide landscape framing. No illustration, no 3D render, no digital art, no collage. Bright and optimistic tone; avoid night scenes, heavy shadows, neon and abstract patterns. Show anonymous everyday people only — no recognizable public figures or politicians.",
+   "credit": "",
+   "source_url": "https://www.gmanetwork.com/news/balitambayan/promdi/1011006/2-patay-sa-salpukan-ng-bus-at-van-sa-tumauini-isabela/story/",
+   "image_url": "",
+   "bytes": 89922,
+   "width": 960,
+   "height": 720,
+   "luma": 114.9,
+   "status": "created",
+   "attempts": [
+    {
+     "provider": "openai",
+     "result": "ok [13.3s]"
+    }
+   ],
+   "created_at": "2026-11-28T00:22:53Z"
+  }
+ },
+ "generated_at": "2026-11-28T00:22:53Z"
+}

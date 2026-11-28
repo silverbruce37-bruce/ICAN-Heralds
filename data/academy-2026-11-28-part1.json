@@ -1,0 +1,503 @@
+{
+  "cover": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What Is a Tax?",
+        "title_kr": "세금이란 무엇일까요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>tax</span> is money people or businesses pay to the government. Governments use tax revenue to fund public services and programs. In the Philippines, a lawmaker has proposed taxing 3-in-1 coffee if it continues to contain a high amount of sugar. The proposal has drawn opposition, but the article does not say that the tax has become law.",
+        "text_kr": "<span class=kw>세금</span>은 사람이나 기업이 정부에 내는 돈입니다. 정부는 세금으로 공공 서비스와 여러 사업에 필요한 비용을 마련합니다. 필리핀의 한 의원은 3-in-1 커피의 당 함량이 계속 높으면 세금을 부과하는 방안을 제안했습니다. 반대 의견도 나왔지만, 기사만으로는 이 제안이 법으로 확정됐다고 볼 수 없습니다.",
+        "bilingual_en": "A tax proposal is an idea for a possible rule, not automatically a rule that is already in force.",
+        "bilingual_kr": "세금 제안은 검토 중인 생각이지, 이미 시행 중인 규칙이라는 뜻은 아닙니다.",
+        "speaking_en": "Explain in one sentence what a tax is and what the proposed coffee tax might apply to.",
+        "speaking_kr": "세금이 무엇인지, 제안된 커피 세금이 무엇에 적용될 수 있는지 한 문장으로 말해 봅시다.",
+        "writing_en": "Write two sentences distinguishing a tax proposal from a tax that is already in force.",
+        "writing_kr": "세금 제안과 이미 시행 중인 세금의 차이를 두 문장으로 써 봅시다.",
+        "vocab": [
+          {
+            "en": "tax",
+            "kr": "세금"
+          },
+          {
+            "en": "proposal",
+            "kr": "제안"
+          },
+          {
+            "en": "sugar content",
+            "kr": "당 함량"
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Public Health and Policy",
+        "title_kr": "공중 보건과 정책",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Governments sometimes consider taxes on products linked to health concerns, such as drinks with high sugar content. A higher price may encourage some people to buy less, while the tax may also raise public revenue. But a tax can affect consumers and businesses differently, and people may disagree about whether it is fair or effective. The article reports opposition from a group, the Palace, and several senators; it does not explain their reasons.",
+        "text_kr": "정부는 당 함량이 높은 음료처럼 건강 문제와 관련된 제품에 세금을 매기는 방안을 검토하기도 합니다. 가격이 오르면 일부 소비자가 구매를 줄일 수 있고, 세금으로 공공 재원을 마련할 수도 있습니다. 하지만 세금은 소비자와 기업에 서로 다른 영향을 줄 수 있어 공정한지, 효과가 있는지를 두고 의견이 갈릴 수 있습니다. 기사에는 한 단체와 대통령궁, 여러 상원의원이 반대한다고 나오지만, 그 이유까지 설명하지는 않습니다.",
+        "bilingual_en": "A health-related tax can influence choices, but its actual effect needs evidence.",
+        "bilingual_kr": "건강을 위한 세금이 사람들의 선택에 영향을 줄 수는 있지만, 실제 효과는 근거를 살펴봐야 합니다.",
+        "speaking_en": "Give one possible reason to support the proposal and one possible concern, without claiming either was stated in the article.",
+        "speaking_kr": "기사에 나온 입장이라고 단정하지 말고, 이 제안을 지지할 이유와 우려할 점을 하나씩 말해 봅시다.",
+        "writing_en": "Write a short claim and one piece of evidence you would want before judging whether the tax works.",
+        "writing_kr": "이 세금의 효과를 판단할 때 확인하고 싶은 근거 하나와 자신의 주장을 짧게 써 봅시다.",
+        "vocab": [
+          {
+            "en": "public health",
+            "kr": "공중 보건"
+          },
+          {
+            "en": "revenue",
+            "kr": "세수"
+          },
+          {
+            "en": "consumer",
+            "kr": "소비자"
+          }
+        ],
+        "quiz": {
+          "q_en": "What does the article establish about the coffee tax?",
+          "q_kr": "이 기사에서 커피 세금에 관해 확인할 수 있는 내용은 무엇인가요?",
+          "opts": [
+            {
+              "en": "It has already become law.",
+              "kr": "이미 법으로 확정되었습니다.",
+              "correct": false
+            },
+            {
+              "en": "A lawmaker proposed it, and it has faced opposition.",
+              "kr": "한 의원이 제안했고 반대 의견에 부딪혔습니다.",
+              "correct": true
+            },
+            {
+              "en": "All coffee products are already taxed under it.",
+              "kr": "모든 커피 제품에 이미 이 세금이 부과되고 있습니다.",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 한인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Korean residents in the Philippines who buy 3-in-1 coffee may want to check product labels and follow whether the proposal advances. The article does not confirm that a tax will be introduced, so shoppers should not assume prices have changed because of this proposal. Korean-owned cafés, shops, or distributors may also want to watch for official updates if a rule is eventually passed. A final policy could depend on its exact design, including which products it covers.",
+        "text_kr": "필리핀에 사는 한인 중 3-in-1 커피를 구매하는 사람은 제품 표시를 확인하고 이 제안이 실제로 추진되는지 지켜볼 수 있습니다. 기사에는 세금이 도입된다고 확정되어 있지 않으므로, 이 제안 때문에 가격이 이미 바뀌었다고 생각해서는 안 됩니다. 한인 소유 카페나 상점, 유통업체도 법안이 통과될 경우를 대비해 공식 발표를 살펴볼 수 있습니다. 실제 영향은 어떤 제품에 세금을 매길지 등 최종 제도의 설계에 따라 달라질 수 있습니다.",
+        "bilingual_en": "For residents and businesses, the key practical step is to distinguish a proposal from an official, final rule.",
+        "bilingual_kr": "주민과 사업자에게 중요한 실천은 제안과 공식적으로 확정된 규칙을 구별하는 것입니다.",
+        "speaking_en": "Imagine advising a Korean shop owner in the Philippines: explain what is known and what still needs checking.",
+        "speaking_kr": "필리핀의 한인 상점 주인에게 알려 준다고 생각하고, 확인된 사실과 더 알아봐야 할 점을 나누어 말해 봅시다.",
+        "writing_en": "Write a two-item checklist for a Korean resident who wants to follow this proposal responsibly.",
+        "writing_kr": "이 제안을 정확히 살펴보려는 필리핀 거주 한인을 위한 확인 목록을 두 가지로 써 봅시다.",
+        "vocab": [
+          {
+            "en": "resident",
+            "kr": "거주자"
+          },
+          {
+            "en": "product label",
+            "kr": "제품 표시"
+          },
+          {
+            "en": "official update",
+            "kr": "공식 발표"
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A sugar-related tax raises a policy question: should government guide choices by changing prices, or should people decide without that pressure? To assess the proposal, ask what counts as high sugar, whether the rule would cover the products people actually buy, and how its effects would be measured. It is also important to compare possible health benefits with costs for consumers and businesses. The article tells us there is opposition, but more information is needed to evaluate each side.",
+        "text_kr": "당 함량과 관련된 세금은 정부가 가격을 바꾸어 선택에 영향을 주어야 하는지, 아니면 사람들이 그런 압박 없이 결정해야 하는지 묻습니다. 제안을 평가하려면 ‘당 함량이 높다’는 기준이 무엇인지, 사람들이 실제로 구매하는 제품이 대상인지, 효과를 어떻게 측정할지 살펴봐야 합니다. 예상되는 건강상의 이점과 소비자·기업이 부담할 비용도 비교해야 합니다. 기사에는 반대가 있다고 나오지만, 각 입장을 판단하려면 더 많은 정보가 필요합니다.",
+        "bilingual_en": "Good policy debate weighs likely benefits and costs using evidence, not just slogans.",
+        "bilingual_kr": "좋은 정책 토론은 구호만이 아니라 근거를 바탕으로 기대 효과와 비용을 따져 봅니다.",
+        "speaking_en": "State whether you support or oppose a tax on high-sugar 3-in-1 coffee, and give one reason and one question you still have.",
+        "speaking_kr": "당 함량이 높은 3-in-1 커피에 세금을 부과하는 데 찬성하는지 반대하는지 말하고, 이유 하나와 아직 궁금한 점 하나를 덧붙여 봅시다.",
+        "writing_en": "Write a short opinion paragraph that weighs one possible benefit against one possible cost of the proposal.",
+        "writing_kr": "이 제안의 기대 효과 하나와 예상되는 부담 하나를 비교하는 짧은 의견 단락을 써 봅시다.",
+        "debate_en": "Should the Philippines tax high-sugar 3-in-1 coffee to encourage healthier choices, or would the tax unfairly burden consumers?",
+        "debate_kr": "더 건강한 선택을 유도하기 위해 필리핀이 당 함량이 높은 3-in-1 커피에 세금을 부과해야 할까요, 아니면 소비자에게 부당한 부담을 줄까요?",
+        "vocab": [
+          {
+            "en": "policy",
+            "kr": "정책"
+          },
+          {
+            "en": "evidence",
+            "kr": "근거"
+          },
+          {
+            "en": "burden",
+            "kr": "부담"
+          }
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What details would you need to know before deciding whether the coffee tax is fair?",
+      "How could researchers test whether a sugar-related tax changes what people buy?",
+      "Why is it important to check whether a proposal has become law?"
+    ],
+    "suggestions_kr": [
+      "커피 세금이 공정한지 판단하려면 어떤 세부 정보를 알아야 할까요?",
+      "당 관련 세금이 사람들의 구매를 바꾸는지 연구자들은 어떻게 확인할 수 있을까요?",
+      "세금 제안이 실제 법이 되었는지 확인하는 일이 왜 중요할까요?"
+    ],
+    "tok": {
+      "question_en": "How can we know whether a proposed sugar tax would improve health when the policy has not yet been shown to work?",
+      "question_kr": "아직 시행 효과가 확인되지 않은 당 세금 제안이 건강을 개선할지 우리는 어떻게 알 수 있을까요?",
+      "aok_en": "Human Sciences",
+      "aok_kr": "인간과학",
+      "wok_en": "Reason, Sense perception",
+      "wok_kr": "이성, 감각 지각",
+      "task_en": "Test the claim that a higher price would reduce sugary coffee purchases against the counter-example of shoppers switching to another sweet product. Name one kind of evidence that could help decide.",
+      "task_kr": "가격이 오르면 당이 든 커피 구매가 줄어든다는 주장을, 소비자가 다른 단 음료로 바꿀 수 있다는 반례와 비교해 봅시다. 어느 쪽이 맞는지 판단하는 데 필요한 근거를 한 가지 제시해 봅시다."
+    }
+  },
+  "featured": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What Is a Blockade?",
+        "title_kr": "봉쇄란 무엇일까요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>blockade</span> is an attempt to stop people or goods from entering or leaving an area, often during a conflict. A ship that tries to pass one may be challenged by military forces. In this story, the US military said it disabled a commercial ship trying to run a blockade involving Iran. The headline gives no further details about the ship or the operation.",
+        "text_kr": "<span class=kw>봉쇄</span>는 분쟁 중인 지역에 사람이나 물자가 드나드는 것을 막으려는 조치입니다. 봉쇄를 통과하려는 선박은 군의 제지를 받을 수 있습니다. 이 기사에서 미군은 이란과 관련된 봉쇄를 뚫으려던 상업용 선박을 움직이지 못하게 했다고 밝혔습니다. 제목에는 선박이나 작전에 관한 자세한 내용이 나오지 않습니다.",
+        "bilingual_en": "The report says the military disabled a ship, but does not explain exactly how or why the ship was stopped.",
+        "bilingual_kr": "보도는 군이 선박을 움직이지 못하게 했다고 전하지만, 구체적으로 어떻게 또는 왜 막았는지는 설명하지 않습니다.",
+        "speaking_en": "Explain what a blockade is and identify what the headline says happened to the ship.",
+        "speaking_kr": "봉쇄가 무엇인지 설명하고, 제목에서 선박에 어떤 일이 있었다고 했는지 말해 봅시다.",
+        "writing_en": "Write one sentence about the reported event and one sentence naming a detail the headline does not provide.",
+        "writing_kr": "보도된 사건을 한 문장으로 쓰고, 제목에 나오지 않은 정보를 한 문장으로 정리해 봅시다.",
+        "vocab": [
+          {
+            "en": "blockade",
+            "kr": "봉쇄"
+          },
+          {
+            "en": "commercial ship",
+            "kr": "상업용 선박"
+          },
+          {
+            "en": "disable",
+            "kr": "작동하지 못하게 하다"
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "Ships, Rules, and Conflict",
+        "title_kr": "선박과 규칙, 분쟁",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Commercial ships carry goods between ports, and their routes can become important during international disputes. A blockade may be connected to efforts to control movement, but the details and legal claims matter. This report gives only the US military's statement that it disabled a ship attempting to run an Iran blockade. It does not identify the cargo, the ship's owner, the location, or the method used, so those details should not be guessed.",
+        "text_kr": "상업용 선박은 항구 사이로 물자를 나르며, 국제 분쟁이 벌어지면 선박의 항로가 중요한 문제가 될 수 있습니다. 봉쇄는 이동을 통제하려는 조치와 관련될 수 있지만, 구체적인 상황과 법적 주장을 따져 봐야 합니다. 이 보도는 이란 봉쇄를 뚫으려던 선박을 미군이 움직이지 못하게 했다는 설명만 전합니다. 화물과 선박 소유주, 위치, 사용된 방법은 밝히지 않았으므로 이를 추측해서는 안 됩니다.",
+        "bilingual_en": "In a military report, separating confirmed details from missing information helps prevent speculation.",
+        "bilingual_kr": "군 관련 보도에서는 확인된 내용과 빠진 정보를 구별해야 추측을 사실처럼 받아들이지 않습니다.",
+        "speaking_en": "Name two facts in the report and two important details it leaves unknown.",
+        "speaking_kr": "보도에서 확인할 수 있는 사실 두 가지와 알 수 없는 중요 정보 두 가지를 말해 봅시다.",
+        "writing_en": "Write a cautious news summary using only the information provided in the article.",
+        "writing_kr": "기사에 나온 정보만 사용해 신중한 뉴스 요약을 써 봅시다.",
+        "vocab": [
+          {
+            "en": "route",
+            "kr": "항로"
+          },
+          {
+            "en": "statement",
+            "kr": "발표"
+          },
+          {
+            "en": "speculation",
+            "kr": "추측"
+          }
+        ],
+        "quiz": {
+          "q_en": "Which detail does the report leave unspecified?",
+          "q_kr": "보도에서 구체적으로 밝히지 않은 정보는 무엇인가요?",
+          "opts": [
+            {
+              "en": "That the US military said it disabled a ship.",
+              "kr": "미군이 선박을 움직이지 못하게 했다고 밝혔다는 점",
+              "correct": false
+            },
+            {
+              "en": "The ship's cargo and the method used in the operation.",
+              "kr": "선박의 화물과 작전에 사용된 방법",
+              "correct": true
+            },
+            {
+              "en": "That the ship was described as commercial.",
+              "kr": "그 선박이 상업용으로 설명됐다는 점",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 한인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Koreans living in the Philippines may encounter this news through conversations about international security or shipping. The article does not establish that the reported operation changed shipping routes, prices, or local conditions in the Philippines. People working in trade or logistics should rely on verified updates from relevant companies and authorities rather than infer a local impact from the headline alone. Families can also discuss the story without treating incomplete information as proof of wider events.",
+        "text_kr": "필리핀에 사는 한인은 국제 안보나 해상 운송에 관한 대화에서 이 소식을 접할 수 있습니다. 하지만 기사만으로는 이번 작전이 필리핀의 운송 경로나 물가, 현지 상황을 바꾸었다고 볼 수 없습니다. 무역이나 물류 분야에서 일하는 사람은 제목만 보고 현지 영향을 추측하기보다 관련 기업과 당국의 확인된 정보를 살펴야 합니다. 가족끼리 이야기를 나눌 때도 불완전한 정보를 더 큰 사건의 증거처럼 여기지 않는 것이 좋습니다.",
+        "bilingual_en": "A distant military event may attract attention, but local effects require separate evidence.",
+        "bilingual_kr": "먼 지역의 군사 사건에 관심을 가질 수는 있지만, 현지 영향은 별도의 근거로 확인해야 합니다.",
+        "speaking_en": "Explain to a Korean friend in the Philippines what the article confirms and why it does not prove a local shipping impact.",
+        "speaking_kr": "필리핀에 사는 한인 친구에게 기사에서 확인되는 내용과 현지 운송에 미친 영향을 단정할 수 없는 이유를 설명해 봅시다.",
+        "writing_en": "Write a short note advising a local reader how to check for verified updates about possible shipping effects.",
+        "writing_kr": "현지 독자가 운송에 미칠 수 있는 영향을 확인할 때 참고할 점을 짧은 안내문으로 써 봅시다.",
+        "vocab": [
+          {
+            "en": "logistics",
+            "kr": "물류"
+          },
+          {
+            "en": "verified",
+            "kr": "확인된"
+          },
+          {
+            "en": "local impact",
+            "kr": "현지 영향"
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A blockade can be presented as a security measure, but it can also raise questions about trade, civilian needs, and the rules governing movement at sea. Judging a particular operation requires more than a headline: readers would need reliable information about the ship, the circumstances, and the applicable rules. Because those details are absent here, strong conclusions about responsibility or consequences would go beyond the report. Careful readers can discuss the broader issues while clearly marking what remains unknown.",
+        "text_kr": "봉쇄는 안보를 위한 조치로 설명될 수 있지만, 무역과 민간인의 필요, 해상 이동을 정하는 규칙에 관한 질문도 낳을 수 있습니다. 특정 작전을 판단하려면 제목만으로는 부족하며, 선박과 당시 상황, 적용되는 규칙에 관한 신뢰할 만한 정보가 필요합니다. 이 기사에는 그런 내용이 없으므로 책임이나 결과를 단정하면 보도 범위를 넘어설 수 있습니다. 신중한 독자는 모르는 점을 분명히 하면서 더 넓은 쟁점을 토론할 수 있습니다.",
+        "bilingual_en": "We can debate the principles while admitting that this report lacks details needed to judge the specific operation.",
+        "bilingual_kr": "이 보도만으로 특정 작전을 판단하기 어렵다는 점을 인정하면서도 원칙에 관해 토론할 수 있습니다.",
+        "speaking_en": "State whether a blockade can be justified to protect security, and identify one fact you would need to assess this operation.",
+        "speaking_kr": "안보를 지키기 위한 봉쇄가 정당화될 수 있는지 말하고, 이번 작전을 판단하려면 필요한 사실 하나를 제시해 봅시다.",
+        "writing_en": "Write a short opinion paragraph that weighs security concerns against the effects of restricting ship movement.",
+        "writing_kr": "안보 우려와 선박 이동 제한의 영향을 비교하는 짧은 의견 단락을 써 봅시다.",
+        "debate_en": "When a ship tries to pass a blockade, should military forces be allowed to disable it, or should other responses be required first?",
+        "debate_kr": "선박이 봉쇄를 통과하려 할 때 군이 이를 움직이지 못하게 해도 될까요, 아니면 먼저 다른 대응을 해야 할까요?",
+        "vocab": [
+          {
+            "en": "civilian",
+            "kr": "민간인"
+          },
+          {
+            "en": "justify",
+            "kr": "정당화하다"
+          },
+          {
+            "en": "restriction",
+            "kr": "제한"
+          }
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What information would help you assess the military's account?",
+      "Why might a ship's cargo matter when discussing a blockade?",
+      "How can readers report a military event without filling gaps with guesses?"
+    ],
+    "suggestions_kr": [
+      "군의 설명을 판단하는 데 어떤 정보가 더 필요할까요?",
+      "봉쇄를 논의할 때 선박의 화물 정보가 중요한 이유는 무엇일까요?",
+      "독자는 군사 사건을 보도할 때 정보의 빈틈을 추측으로 채우지 않으려면 어떻게 해야 할까요?"
+    ],
+    "tok": {
+      "question_en": "When a military source says a ship was disabled, what evidence would let us know whether the account is complete and reliable?",
+      "question_kr": "군 당국이 선박을 움직이지 못하게 했다고 발표했을 때, 그 설명이 완전하고 신뢰할 만한지 알려면 어떤 근거가 필요할까요?",
+      "aok_en": "History, Human Sciences",
+      "aok_kr": "역사, 인간과학",
+      "wok_en": "Language, Reason",
+      "wok_kr": "언어, 이성",
+      "task_en": "Test the claim that the ship was disabled because it tried to breach a blockade against the counter-example that a headline may omit other circumstances. Identify one independent source or detail that could help check the claim.",
+      "task_kr": "선박이 봉쇄를 뚫으려 했기 때문에 움직이지 못하게 됐다는 주장을, 제목이 다른 상황을 빠뜨렸을 수 있다는 반례와 비교해 봅시다. 주장을 확인하는 데 도움이 될 독립적인 출처나 세부 정보 하나를 제시해 봅시다."
+    }
+  },
+  "news_1": {
+    "layers": [
+      {
+        "depth": 1,
+        "title_en": "What Is a Refund?",
+        "title_kr": "환급이란 무엇일까요?",
+        "sub_en": "Foundation",
+        "sub_kr": "기초 개념",
+        "badge": "Beginner",
+        "text_en": "A <span class=kw>refund</span> is money returned to someone after they have paid too much or are found to be owed money. The Energy Regulatory Commission, or ERC, ordered Meralco to issue a refund worth P1.99 billion. The headline does not say who will receive the money or how it will be shared. So, it is not possible from this information alone to calculate what any one customer might get.",
+        "text_kr": "<span class=kw>환급</span>은 돈을 더 냈거나 돌려받을 돈이 있다고 확인된 사람에게 돈을 반환하는 것입니다. 에너지규제위원회(ERC)는 메랄코에 19억 9천만 페소를 환급하라고 명령했습니다. 제목에는 누가 돈을 받는지, 어떤 방식으로 나누는지 나오지 않습니다. 따라서 이 정보만으로 개인 고객이 얼마를 받을지 계산할 수는 없습니다.",
+        "bilingual_en": "The total refund amount is reported, but the article does not explain how much any individual will receive.",
+        "bilingual_kr": "전체 환급액은 보도됐지만, 개인별로 얼마를 받는지는 설명되지 않았습니다.",
+        "speaking_en": "Explain the difference between the total refund amount and the amount one customer might receive.",
+        "speaking_kr": "전체 환급액과 고객 한 명이 받을 수 있는 금액의 차이를 설명해 봅시다.",
+        "writing_en": "Write one sentence stating what the ERC ordered and one sentence stating what the headline leaves unclear.",
+        "writing_kr": "ERC의 명령을 한 문장으로 쓰고, 제목에 나오지 않은 점을 한 문장으로 정리해 봅시다.",
+        "vocab": [
+          {
+            "en": "refund",
+            "kr": "환급"
+          },
+          {
+            "en": "regulator",
+            "kr": "규제 기관"
+          },
+          {
+            "en": "amount",
+            "kr": "금액"
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "title_en": "How Utility Regulation Works",
+        "title_kr": "공공요금 규제는 어떻게 작동할까요?",
+        "sub_en": "Context",
+        "sub_kr": "맥락",
+        "badge": "Intermediate",
+        "text_en": "Electricity regulators oversee parts of the relationship between utilities and customers. A regulator may issue an order requiring a company to return money, but the reason, eligible customers, and payment method depend on the details of that order. Philstar reports that the ERC ordered Meralco to issue a P1.99-billion refund. Since the headline does not explain the calculation or distribution, readers should wait for more specific information before drawing conclusions about individual bills.",
+        "text_kr": "전기 규제 기관은 전력 회사와 고객의 관계에서 여러 부분을 감독합니다. 규제 기관은 회사에 돈을 돌려주라고 명령할 수 있지만, 환급 사유와 대상 고객, 지급 방식은 명령의 세부 내용에 따라 달라집니다. 필스타는 ERC가 메랄코에 19억 9천만 페소를 환급하라고 명령했다고 보도했습니다. 제목에는 금액을 계산한 방법이나 분배 방식이 나오지 않으므로, 개인 전기 요금에 어떤 변화가 있을지 판단하기 전에 더 구체적인 정보를 기다려야 합니다.",
+        "bilingual_en": "A large total refund does not tell us how the money will be divided among customers.",
+        "bilingual_kr": "전체 환급액이 크다는 사실만으로 고객마다 돈이 어떻게 나뉠지는 알 수 없습니다.",
+        "speaking_en": "Describe two questions a customer should ask before estimating their personal refund.",
+        "speaking_kr": "개인 환급액을 예상하기 전에 고객이 확인해야 할 질문 두 가지를 말해 봅시다.",
+        "writing_en": "Write a short list of details you would look for in the ERC's full order.",
+        "writing_kr": "ERC의 전체 명령문에서 찾아볼 세부 정보를 짧은 목록으로 써 봅시다.",
+        "vocab": [
+          {
+            "en": "utility",
+            "kr": "공공요금 사업자"
+          },
+          {
+            "en": "eligible",
+            "kr": "대상이 되는"
+          },
+          {
+            "en": "distribution",
+            "kr": "분배"
+          }
+        ],
+        "quiz": {
+          "q_en": "What does the headline tell us about the refund?",
+          "q_kr": "제목에서 환급에 관해 알 수 있는 내용은 무엇인가요?",
+          "opts": [
+            {
+              "en": "Every customer will receive the same amount.",
+              "kr": "모든 고객이 같은 금액을 받습니다.",
+              "correct": false
+            },
+            {
+              "en": "The ERC ordered Meralco to issue a P1.99-billion refund.",
+              "kr": "ERC가 메랄코에 19억 9천만 페소를 환급하라고 명령했습니다.",
+              "correct": true
+            },
+            {
+              "en": "The refund has already appeared on every customer's bill.",
+              "kr": "환급액이 모든 고객의 청구서에 이미 반영됐습니다.",
+              "correct": false
+            }
+          ]
+        }
+      },
+      {
+        "depth": 3,
+        "title_en": "Impact for Koreans in PH",
+        "title_kr": "필리핀 한인 사회 영향",
+        "sub_en": "Application",
+        "sub_kr": "실생활 적용",
+        "badge": "Advanced",
+        "text_en": "Korean residents and businesses in Meralco's service area may want to check official notices and their own bills for details about the order. The headline alone does not confirm which customers qualify, when a refund will be issued, or whether it will appear as a bill adjustment or another form of payment. Korean-owned businesses should avoid including an assumed refund in budgets until the rules are clear. If a notice is difficult to understand, checking its source and asking the provider or a qualified adviser can help.",
+        "text_kr": "메랄코 서비스 지역에 사는 한인과 한인 사업자는 이번 명령에 관한 공식 안내와 자신의 청구서를 확인해 볼 수 있습니다. 제목만으로는 어떤 고객이 대상인지, 환급 시기가 언제인지, 청구서 조정이나 다른 방식 중 무엇으로 지급되는지 알 수 없습니다. 한인 사업자는 규칙이 명확해지기 전까지 받을 것으로 예상한 환급액을 예산에 넣지 않는 편이 안전합니다. 안내문이 어렵다면 출처를 확인하고 전력 회사나 자격을 갖춘 전문가에게 문의해 볼 수 있습니다.",
+        "bilingual_en": "For Korean residents in the Philippines, check eligibility and official payment details before expecting a personal refund.",
+        "bilingual_kr": "필리핀 거주 한인은 개인 환급을 기대하기 전에 대상 여부와 공식 지급 방식을 확인해야 합니다.",
+        "speaking_en": "Role-play advising a Korean household how to check whether it may qualify for the refund.",
+        "speaking_kr": "한인 가정이 환급 대상인지 확인하는 방법을 안내하는 역할극을 해 봅시다.",
+        "writing_en": "Draft a short message asking where a customer can find official information about eligibility and payment.",
+        "writing_kr": "환급 대상 여부와 지급 방식을 어디에서 확인할 수 있는지 묻는 짧은 메시지를 써 봅시다.",
+        "vocab": [
+          {
+            "en": "service area",
+            "kr": "서비스 지역"
+          },
+          {
+            "en": "eligibility",
+            "kr": "대상 여부"
+          },
+          {
+            "en": "bill adjustment",
+            "kr": "청구 금액 조정"
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "title_en": "Debate & Insight",
+        "title_kr": "토론과 통찰",
+        "sub_en": "Insight",
+        "sub_kr": "심화",
+        "badge": "Expert",
+        "text_en": "A regulator-ordered refund can be understood as a way to correct a payment issue, but judging the decision requires knowing why the money is being returned and how the total was calculated. The distribution method also matters: a refund might reach eligible customers in different ways, depending on the official order. Fairness can involve more than dividing a total equally; the rules must identify who is owed money and explain the process clearly. This headline confirms the order and total, but does not provide those details.",
+        "text_kr": "규제 기관이 명령한 환급은 요금 문제를 바로잡는 방법으로 볼 수 있지만, 결정을 판단하려면 왜 돈을 돌려주는지와 전체 금액을 어떻게 계산했는지 알아야 합니다. 공식 명령에 따라 환급 대상 고객에게 돈을 전달하는 방식이 달라질 수 있으므로 분배 방법도 중요합니다. 공정성은 전체 금액을 똑같이 나누는 것만을 뜻하지 않습니다. 누구에게 돈을 돌려줘야 하는지 기준을 세우고 절차를 분명히 설명해야 합니다. 이 제목은 명령과 전체 금액을 알려 주지만, 이런 세부 사항은 제공하지 않습니다.",
+        "bilingual_en": "A refund is fair only if the rules clearly explain who is owed money and how it will be returned.",
+        "bilingual_kr": "누가 돈을 돌려받아야 하는지, 어떻게 돌려받는지 규칙이 분명해야 환급의 공정성을 따질 수 있습니다.",
+        "speaking_en": "State what would make this refund process fair, and name one detail you would need to judge it.",
+        "speaking_kr": "이번 환급 절차가 공정하려면 무엇이 필요한지 말하고, 판단에 필요한 세부 정보 하나를 들어 봅시다.",
+        "writing_en": "Write a short opinion paragraph on what information a regulator should publish when ordering a large refund.",
+        "writing_kr": "큰 규모의 환급을 명령할 때 규제 기관이 공개해야 할 정보를 주제로 짧은 의견 단락을 써 봅시다.",
+        "debate_en": "Should a utility refund be divided equally among all customers, or should it go only to customers shown to be owed money?",
+        "debate_kr": "전력 요금 환급은 모든 고객에게 똑같이 나누어야 할까요, 아니면 돈을 돌려받을 대상이라고 확인된 고객에게만 지급해야 할까요?",
+        "vocab": [
+          {
+            "en": "fairness",
+            "kr": "공정성"
+          },
+          {
+            "en": "calculation",
+            "kr": "계산"
+          },
+          {
+            "en": "procedure",
+            "kr": "절차"
+          }
+        ]
+      }
+    ],
+    "suggestions_en": [
+      "What information would help a Meralco customer find out whether they qualify?",
+      "Why might a refund be issued as a bill adjustment instead of cash?",
+      "How can a regulator make the distribution of a large refund transparent?"
+    ],
+    "suggestions_kr": [
+      "메랄코 고객이 환급 대상인지 확인하려면 어떤 정보가 필요할까요?",
+      "환급을 현금이 아니라 청구 금액 조정으로 제공할 수도 있는 이유는 무엇일까요?",
+      "규제 기관은 큰 환급액의 분배 과정을 어떻게 투명하게 공개할 수 있을까요?"
+    ],
+    "tok": {
+      "question_en": "What evidence and reasoning would help us know whether a regulator's refund amount is accurate and fairly distributed?",
+      "question_kr": "규제 기관의 환급액이 정확하고 공정하게 분배되는지 알려면 어떤 근거와 추론이 필요할까요?",
+      "aok_en": "Mathematics, Human Sciences",
+      "aok_kr": "수학, 인간과학",
+      "wok_en": "Reason, Language",
+      "wok_kr": "이성, 언어",
+      "task_en": "Test the claim that dividing the P1.99 billion equally among all customers would be fair against the counter-example that only some customers may be owed money. Identify the customer and calculation information needed to compare the options.",
+      "task_kr": "19억 9천만 페소를 모든 고객에게 똑같이 나누는 것이 공정하다는 주장을, 실제로 돈을 돌려받을 대상이 일부 고객일 수도 있다는 반례와 비교해 봅시다. 두 방식을 판단하려면 어떤 고객 정보와 계산 자료가 필요한지 제시해 봅시다."
+    }
+  }
+}

@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-28",
+    "vol": 210,
+    "cover_en": "Coffee tax proposal draws pushback in the Philippines",
+    "cover_kr": "필리핀 커피세 제안에 반대 목소리",
+    "headlines_en": [
+      "US military says it disabled ship trying to run Iran blockade",
+      "ERC orders P1.99-billion Meralco refund",
+      "UP Diliman church named an Important Cultural Property",
+      "Philippines launches mRNA Ebola vaccine trial in Uganda",
+      "Two killed in bus and van collision in Isabela"
+    ],
+    "headlines_kr": [
+      "미군, 이란 봉쇄 돌파 시도 선박 무력화했다고 밝혀",
+      "ERC, 메랄코에 19억9천만 페소 환불 명령",
+      "UP 딜리만 ‘부활의 교회’, 중요문화재 지정",
+      "우간다에서 mRNA 에볼라 백신 시험 시작",
+      "이사벨라주 버스·승합차 충돌로 2명 사망"
+    ],
+    "tags": [
+      "Security",
+      "Economy",
+      "Cooperation",
+      "Safety",
+      "Culture"
+    ]
+  },
+  {
     "date": "2026-11-27",
     "vol": 209,
     "cover_en": "DILG considers more funding for tourist accident rescues",

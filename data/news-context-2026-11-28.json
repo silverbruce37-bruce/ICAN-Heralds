@@ -1,0 +1,461 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T08:19:58.781346+08:00",
+  "feeds": [
+    {
+      "name": "GMA News",
+      "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Philstar",
+      "url": "https://www.philstar.com/rss/headlines",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Rappler",
+      "url": "https://www.rappler.com/feed/",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "GMA News · Nation",
+      "url": "https://data.gmanetwork.com/gno/rss/news/nation/feed.xml",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korea-Philippines",
+      "url": "https://news.google.com/rss/search?q=Korea+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "Google News · Philippines",
+      "url": "https://news.google.com/rss/search?q=Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Metro Manila",
+      "url": "https://news.google.com/rss/search?q=%22Metro+Manila%22&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Google News · Korean community PH",
+      "url": "https://news.google.com/rss/search?q=Korean+community+Philippines&hl=en-PH&gl=PH&ceid=PH:en",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "title": "US military says it disabled commercial ship trying to run Iran blockade",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1011016/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/story/",
+      "summary": "The US military said on Friday it disabled a commercial ship in the Gulf of Oman on Thursday after its crew attempted to run the US blockade of Iran. Military aircraft launched precision munitions that struck the stern of the Palau-flagged ",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T07:35:53+08:00",
+      "cite": true
+    },
+    {
+      "title": "mRNA Ebola vaccine trial launched in Uganda",
+      "link": "https://www.gmanetwork.com/news/topstories/world/1011014/mrna-ebola-vaccine-trial-launched-in-uganda/story/",
+      "summary": "NAIROBI, Kenya - Trials of an experimental Ebola vaccine launched in Uganda on Friday, while a global NGO said it had bought 1.5 million doses of another candidate, as the race heats up to contain the outbreak in the Democratic Republic of ",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T05:58:36+08:00",
+      "cite": true
+    },
+    {
+      "title": "UP Diliman's Church of the Risen Lord declared Important Cultural Property",
+      "link": "https://www.gmanetwork.com/news/topstories/metro/1011011/up-diliman-s-church-of-the-risen-lord-declared-important-cultural-property/story/",
+      "summary": "The National Commission for Culture and the Arts (NCCA) has declared the Church of the Risen Lord at the University of the Philippines (UP) Diliman in Quezon City an Important Cultural Property (ICP).",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T02:07:43+08:00",
+      "cite": true
+    },
+    {
+      "title": "Lalaki, patay matapos pagbabarilin ng riding-in-tandem sa Pangasinan",
+      "link": "https://www.gmanetwork.com/news/balitambayan/promdi/1011008/lalaki-patay-matapos-pagbabarilin-ng-riding-in-tandem-sa-pangasinan/story/",
+      "summary": "Nasawi ang isang 48-anyos na lalaki matapos siyang pagbabarilin ng mga salarin na sakay ng motorsiklo sa Santa Barbara, Pangasinan.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T01:25:55+08:00",
+      "cite": true
+    },
+    {
+      "title": "2, patay sa salpukan ng bus at van sa Tumauini, Isabela",
+      "link": "https://www.gmanetwork.com/news/balitambayan/promdi/1011006/2-patay-sa-salpukan-ng-bus-at-van-sa-tumauini-isabela/story/",
+      "summary": "Nasawi ang driver at pasahero ng isang van matapos na masalpok ng bus ang kanilang sasakyan sa Tumauini, Isabela.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T01:01:07+08:00",
+      "cite": true
+    },
+    {
+      "title": "Bumili ng tiket sa Bulacan, pumaldo ng P44-M jackpot sa Megalotto 6/45 ng PCSO",
+      "link": "https://www.gmanetwork.com/news/balitambayan/balita/1011005/bumili-ng-tiket-sa-bulacan-pumaldo-ng-p44-m-jackpot-sa-megalotto-6-45-ng-pcso/story/",
+      "summary": "Isang mananaya ang nanalo ng P44 milyon sa Megalotto 6/45 draw nitong Biyernes ng gabi, November 27, 2026.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T00:49:21+08:00",
+      "cite": true
+    },
+    {
+      "title": "Bangkay ng 18-anyos na babae na natatakpan ng mga dahon ng saging, nakita sa Palo, Leyte",
+      "link": "https://www.gmanetwork.com/news/balitambayan/promdi/1011002/bangkay-ng-18-anyos-na-babae-na-natatakpan-ng-mga-dahon-ng-saging-nakita-sa-palo-leyte/story/",
+      "summary": "Patay na nang matagpuan ang 18-anyos na babae na unang iniulat ng kaniyang mga kaanak na nawawala sa Palo, Leyte. Natatakpan ng mga dahon ng saging ang bangkay ng biktima nang makita sa gilid ng daan.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T00:25:30+08:00",
+      "cite": true
+    },
+    {
+      "title": "Quimbo: 3-in-1 coffee may be taxed if sugar content remains high",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1011001/quimbo-3-in-1-coffee-may-be-taxed-if-sugar-content-remains-high/story/",
+      "summary": "House Committee on Ways and Means Chairperson Miro Quimbo on Friday warned that 3-in-1 coffee could be subjected to taxation in three years if manufacturers fail to reduce the sugar content of their products.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-28T00:13:10+08:00",
+      "cite": true
+    },
+    {
+      "title": "Internal probe led to graft case vs employees – Landbank",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573113/internal-probe-led-graft-case-vs-employees-landbank",
+      "summary": "The Land Bank of the Philippines (LBP) said its internal investigation prompted the filing of a graft complaint against three long-sacked employees and a businessman over alleged irregularities involving a P115-million loan.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sandiganbayan affirms grant of bail to Revilla",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573115/sandiganbayan-affirms-grant-bail-revilla",
+      "summary": "The Sandiganbayan Third Division has upheld its granting of bail to former senator Ramon Revilla Jr. in his malversation case involving an alleged ghost flood control project in Pandi, Bulacan.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Public officials told: No Christmas solicitations",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573116/public-officials-told-no-christmas-solicitations",
+      "summary": "The Office of the Ombudsman has warned public officials and employees against soliciting donations for Christmas parties and other unauthorized purposes, after suspending a barangay secretary in Makati over solicitation letters using offici",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Group pushes back on coffee tax",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573117/group-pushes-back-coffee-tax",
+      "summary": "A local coffee group has called out a proposal to impose excise taxes on coffee, warning that this could undermine the development of the country’s coffee industry.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "President Marcos to non-commissioned AFP officers: We stand behind you",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573118/president-marcos-non-commissioned-afp-officers-we-stand-behind-you",
+      "summary": "President Marcos has asked non-commissioned officers (NCOs) of the Armed Forces of the Philippines (AFP) to keep up the good work as he assured them of the government’s full support in the performance of their duties.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Impeachment court summons BOC official, Carpio business partner",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573119/impeachment-court-summons-boc-official-carpio-business-partner",
+      "summary": "The Senate impeachment court has subpoenaed a Bureau of Customs (BOC) official and a former co-owner of Cale88 Foods Corp. to testify on the company’s business operations and export records when proceedings on the trial of Vice President Sa",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "ERC orders P1.99 billion Meralco refund",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573120/erc-orders-p199-billion-meralco-refund",
+      "summary": "The Energy Regulatory Commission (ERC) has ordered Manila Electric Co. (Meralco) to return around P1.99 billion to its more than eight million customers over three months.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Pump prices seen going down by P3 per liter",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573121/pump-prices-seen-going-down-p3-liter",
+      "summary": "Gasoline and diesel prices could be headed for another rollback next week, with industry projections of P3 to P3.50 per liter decrease for both following four days of trading in the Mean of Platts Singapore.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "VP incurs P5 million debt from impeach defense, trips",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573122/vp-incurs-p5-million-debt-impeach-defense-trips",
+      "summary": "Vice President Sara Duterte says she has incurred a debt of P5 million in 2025 to fund her visits to The Hague, Netherlands where her father, former president Rodrigo Duterte, has been detained, and to cover the initial cost of the defense ",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Duterte to enter plea on first day of trial",
+      "link": "https://www.philstar.com/headlines/2026/11/28/2573123/duterte-enter-plea-first-day-trial",
+      "summary": "Former president Rodrigo Duterte will be asked to enter a plea of guilty or not guilty on the first day of his crimes against humanity trial at the International Criminal Court (ICC) on Nov. 30.",
+      "source": "Philstar",
+      "feed": "Philstar",
+      "published": "2026-11-28T00:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "DICT: No money stolen from accounts in reported government data breaches",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1011000/dict-no-money-stolen-from-accounts-in-reported-government-data-breaches/story/",
+      "summary": "No money was stolen from accounts in connection with reported data breaches involving several government agencies, based on the information currently available to the Department of Information and Communications Technology (DICT), Secretary",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T23:46:07+08:00",
+      "cite": true
+    },
+    {
+      "title": "Gilas Pilipinas, panalo vs Syria sa unang sabak ni Bennie Boatwright sa FIBA World Cup Asian Qualifiers",
+      "link": "https://www.gmanetwork.com/news/balitambayan/balita/1010999/gilas-pilipinas-panalo-vs-syria-sa-unang-sabak-ni-bennie-boatwright-sa-fiba-world-cup-asian-qual/story/",
+      "summary": "Tinalo ng Gilas Pilipinas ang Syria, 97-58, sa unang paglalaro ni Bennie Boatwright bilang miyembro ng national team sa ikalimang window ng FIBA World Cup Asian Qualifiers nitong Biyernes na ginanap sa Malaysia.",
+      "source": "GMA News",
+      "feed": "GMA News",
+      "published": "2026-11-27T23:40:50+08:00",
+      "cite": true
+    },
+    {
+      "title": "Palace, several senators reject proposed coffee tax",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010998/palace-several-senators-reject-proposed-coffee-tax/story/",
+      "summary": "Malacañang and several senators on Friday expressed opposition to a proposal to impose taxes on coffee products.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T23:33:42+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sara Duterte to Claire Castro: Are you admitting Marcos ordered 'kidnapping' of FPRRD?",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010997/sara-duterte-to-claire-castro-are-you-admitting-marcos-ordered-kidnapping-of-fprrd/story/",
+      "summary": "Vice President Sara Duterte on Friday questioned the supposed contrasting statements of Palace Press Officer Usec. Claire Castro with those of President Ferdinand “Bongbong” Marcos regarding the arrest and transfer of former President Rodri",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T23:29:30+08:00",
+      "cite": true
+    },
+    {
+      "title": "PCSO Lotto Results: Megalotto 6/45 bettor bags P44-M jackpot",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010996/pcso-lotto-results-megalotto-6-45-bettor-bags-p44-m-jackpot/story/",
+      "summary": "One bettor won the Megalotto 6/45 jackpot in Friday night's draw, the Philippine Charity Sweepstakes Office (PCSO) said.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T22:39:52+08:00",
+      "cite": true
+    },
+    {
+      "title": "Raffy Tulfo flags expired medicines, P556M Tala warehouse delays",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010992/raffy-tulfo-flags-expired-medicines-p556m-tala-warehouse-delays/story/",
+      "summary": "Senator Raffy Tulfo slammed the Department of Health (DOH) for wasting medicine, citing a P13 million delivery worth of supplies that remained unused. He also flagged the slow construction of a warehouse in Caloocan City despite the half-bi",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T22:00:46+08:00",
+      "cite": true
+    },
+    {
+      "title": "Nobel Committee chair pushes human accountability for AI’s potential harms | The wRap",
+      "link": "https://www.rappler.com/video/daily-wrap/november-27-2026/",
+      "summary": "Today’s headlines: Artificial Intelligence, Sara Duterte, Ping Lacson",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T22:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "LIVE UPDATES: Rodrigo Duterte on trial at the ICC",
+      "link": "https://www.rappler.com/philippines/rodrigo-duterte-trial-international-criminal-court-hague-updates-videos/",
+      "summary": "Bookmark this page for the latest developments in former president Rodrigo Duterte’s landmark trial at the International Criminal Court",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T22:00:00+08:00",
+      "cite": true
+    },
+    {
+      "title": "Boatwright debuts strong as Gilas routs Syria in FIBA World Cup qualifiers",
+      "link": "https://www.rappler.com/sports/gilas-pilipinas/philippines-syria-fiba-world-cup-asian-qualifiers-november-27-2026/",
+      "summary": "New naturalized Filipino Bennie Boatwright and star center Kai Sotto live up to the hype as Gilas Pilipinas pummels Syria to kick off its fifth-window campaign in the 2027 FIBA World Cup Asian qualifiers",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T21:59:55+08:00",
+      "cite": true
+    },
+    {
+      "title": "DOH eyes faster upgrades for LGU-run hospitals in 2027",
+      "link": "https://www.rappler.com/philippines/doh-eyes-faster-upgrades-lgu-run-hospitals-2027/",
+      "summary": "The Senate finance committee recommends an additional P5.4 billion for the Health Facilities Enhancement Program, pushing its proposed 2027 allocation to P15.58 billion",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T21:12:38+08:00",
+      "cite": true
+    },
+    {
+      "title": "Lacson questions P5B 'insertion' for 353 farm-to-market roads in 2027 budget",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010983/lacson-questions-p5b-insertion-for-353-farm-to-market-roads-in-2027-budget/story/",
+      "summary": "Senator Panfilo Lacson on Friday questioned the House of Representatives' \"insertion\" of P5 billion for more than 350 farm-to-market road (FMR) projects that were not originally proposed by the Department of Agriculture (DA).",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T20:22:12+08:00",
+      "cite": true
+    },
+    {
+      "title": "Bureau of Customs seizes P661M worth of marijuana, shabu",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010982/bureau-of-customs-seize-p661m-worth-of-marijuana-shabu/story/",
+      "summary": "The Bureau of Customs at the Ninoy Aquino International Airport has confiscated 350 kilos of illegal drugs worth P661 million in six inbound shipments examined at a warehouse in Pasay City.",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T20:00:06+08:00",
+      "cite": true
+    },
+    {
+      "title": "SKIT: What happened this time at COP31?",
+      "link": "https://www.rappler.com/world/global-affairs/skit-what-happened-cop31/",
+      "summary": "Watch this skit to look back on how this year's heated climate negotiations went down",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T19:39:02+08:00",
+      "cite": true
+    },
+    {
+      "title": "PSEi rallies 2.22% ahead of MSCI rebalancing; peso weakens",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010980/psei-rallies-2-22-ahead-of-msci-rebalancing-peso-weakens/story/",
+      "summary": "Philippine financial markets ended mixed on Friday, with the peso weakening slightly against the US dollar while the local stock market rallied 2.22% as investors positioned themselves ahead of the MSCI index rebalancing. The local currency",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T19:27:02+08:00",
+      "cite": true
+    },
+    {
+      "title": "Robin Padilla faces DOJ investigation for obstruction of justice complaint",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010975/robin-padilla-faces-doj-investigation-for-obstruction-of-justice-complaint/story/",
+      "summary": "Senator Robin Padilla on Friday went to the Department of Justice to attend the preliminary investigation on the obstruction of justice complaint filed against him in connection with the alleged escape of Senator Bato dela Rosa from the Sen",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T18:50:52+08:00",
+      "cite": true
+    },
+    {
+      "title": "Order in the Court: Why did SC junk petitions vs Duterte’s ICC arrest?",
+      "link": "https://www.rappler.com/philippines/order-in-the-court-reasons-sc-junk-petitions-rodrigo-duterte-icc-arrest/",
+      "summary": "How did this happen? Watch this episode with Jairo Bolledo.",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T18:42:50+08:00",
+      "cite": true
+    },
+    {
+      "title": "Sara Duterte decries dad Rodrigo's required attendance in ICC trial",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010974/sara-duterte-decries-dad-rodrigo-s-required-attendance-in-icc-trial/story/",
+      "summary": "Vice President Sara Duterte on Friday said it was \"unfair\" that her father, former president Rodrigo Duterte, is being required to attend trial proceedings for his crimes against humanity case before the International Criminal Court (ICC) o",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T18:36:01+08:00",
+      "cite": true
+    },
+    {
+      "title": "DBM releases P336M for hog raisers affected by ASF",
+      "link": "https://www.gmanetwork.com/news/topstories/nation/1010972/dbm-releases-p336m-for-hog-raisers-affected-by-asf/story/",
+      "summary": "The Department of Budget and Management (DBM) has released P336 million to fund the compensation of hog raisers affected by African swine fever (ASF).",
+      "source": "GMA News · Nation",
+      "feed": "GMA News · Nation",
+      "published": "2026-11-27T18:13:52+08:00",
+      "cite": true
+    },
+    {
+      "title": "The coral reef watchers saving our ocean",
+      "link": "https://www.rappler.com/environment/coral-reef-watchers-saving-ocean/",
+      "summary": "Filipino marine scientists and volunteer divers work together to keep an eye on coral reefs — a collective pursuit in protecting the country's marine environment",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T17:39:04+08:00",
+      "cite": true
+    },
+    {
+      "title": "SM Nuvali brings a new flagship mall – and traffic – to Laguna",
+      "link": "https://www.rappler.com/business/sm-nuvali-opening-november-27-2026-traffic/",
+      "summary": "SM's 91st mall distinguishes itself with an indoor garden inspired by Singapore's Gardens by the Bay",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T17:34:11+08:00",
+      "cite": true
+    },
+    {
+      "title": "X launches parental controls to help manage teen use",
+      "link": "https://www.rappler.com/technology/social-media/x-launches-parental-controls-manage-teen-use/",
+      "summary": "The parental controls feature launch comes some 20 years after X, formerly Twitter, was built",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T16:37:22+08:00",
+      "cite": true
+    },
+    {
+      "title": "FACT CHECK: Suan did not propose parliamentary gov’t if VP Sara isn’t impeached",
+      "link": "https://www.rappler.com/newsbreak/fact-check/lordan-suan-fake-audio-parliamentary-if-sara-duterte-not-impeached/",
+      "summary": "The Cagayan de Oro Press Club also debunked the claim, saying the congressman never made the remarks shown in the altered videos circulating online",
+      "source": "Rappler",
+      "feed": "Rappler",
+      "published": "2026-11-27T16:01:18+08:00",
+      "cite": true
+    },
+    {
+      "title": "Opinion | Philippines could be key player in US-China AI competition",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFdQMnJmN3RSSWlqSVJxQTBOdGtHeC1lMVAweUt0SzU0TjNXRWl1TU1MM2wyMTY3SVpnU3ZqMzYzcWswVGNzTzBsbGgyR3pBU05RVFgxcHdpOEs4Mk9hajhlTFozZ0hNYTc0NElMaWxna0MyelQtN2VXZk9qdXAxUGxKNUh1V3Q5dkYxN2E1SkpYQVVZeHlJWWVGU3A2UlNWNTRJRmx4NWlnMm8xaDRnM0QwONIBswFBVV95cUxPckdnMHNmbTRSV2FHOWNQc2xGdEE4d1A0cFhyMGx4VVVjLUNER19uNVg4dkJReWktNzIyOG5xWjJmZmZnanlKanNCWC1qUUJmc18wQWNLS1lIS0JnUWhtNkctT1hmeHUwNXBnWEpFNU56Z1I3MktQVkhyMHRKZUJjOFR5NmlOMVkyOExZVGtEakFGajVEWUFEejFadkYtQ3MyQmdULURGN3UzWTQzT29pcTJlQQ?oc=5",
+      "summary": "Opinion | Philippines could be key player in US-China AI competition South China Morning Post",
+      "source": "South China Morning Post",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-27T21:30:08+00:00",
+      "cite": false
+    },
+    {
+      "title": "Why is former Philippine president Rodrigo Duterte on trial at The Hague?",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aWFJvaU5zalp3aHlHUjQ2UjROM05makxZaEFoUE1TSlNZVlJ6TUowaU55OHF1MFV6cmhxdmp3OWJBcTRqbm9kRVN6VW5wR0xxdGl2bmtaeHE4Ync?oc=5",
+      "summary": "Why is former Philippine president Rodrigo Duterte on trial at The Hague? BBC",
+      "source": "BBC",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-27T18:35:27+00:00",
+      "cite": false
+    },
+    {
+      "title": "Philippines signs Meta safety pact as it weighs national ID for age checks",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZpeU5qUUxxcEtCNFJSa0pXYkpUZ0g2V2prTU9PdHBtaVk2bFdKMjMtWnJvQkNGOXBGZThSQ2hIdGEtNElLakg1dFA5LW5uUmFwWEp1WjRzNzQ5RHBpOVMxdG5lN2c4YUFzR1I5WU1RNklNWDNWWmFnYlBTb0UySjFqRUF2NlF1VWFxTW41czJwc3RHMWZvNzB1djFkaGFBLW1oZEo5QVZadWhqMWxtRlNGaw?oc=5",
+      "summary": "Philippines signs Meta safety pact as it weighs national ID for age checks Biometric Update",
+      "source": "Biometric Update",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-27T17:37:00+00:00",
+      "cite": false
+    },
+    {
+      "title": "Bennie Boatwright III - Philippines - Player Profile - FIBA Basketball World Cup 2027 Asian Qualifiers",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSmdJcFVDRndHQVpMYjk4aXVidTR0T3RNTTZ0bEtlcGJXWTM1SFFtWU1VSGRKOUh2RDExc09rU0JUV25YQ21yUVZtTFRYRk1hU0VtNFQ4eER6M3JTbk02d2ltLXhFVkgyRTJ0c0xJMmlkSXh5QVIwclcxbDJuTnVyNDB0RnpLT01vOS0zazh5YllmSDV2YnBBcXBkaFhKbGNIUUxnakllc1Rnajg5MDR5ejBObTJsSTg0YzdGZGl1VmdhS2FRWklpY2hnQnE?oc=5",
+      "summary": "Bennie Boatwright III - Philippines - Player Profile - FIBA Basketball World Cup 2027 Asian Qualifiers FIBA",
+      "source": "FIBA",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-27T15:23:58+00:00",
+      "cite": false
+    },
+    {
+      "title": "Philippines elected to head global rule-of-law body",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQjhZTEFoREU5cEQtZm9tcDFQakR6MFFDSzVFVHBNU183ZXNNa3NMTVJmbXBoNl91ak1HTkVJNmUtOWthdURxM3dNVk9GdXd6a05jdjFhRnp4VzNqdkpaUWJtUkVpOFVzdG54d240aFRhRGtTdVJfQXRReUVleTJlSFhKZzBJN1JoN0dZOFJlNkMyTkF6UGR2Ng?oc=5",
+      "summary": "Philippines elected to head global rule-of-law body BusinessMirror",
+      "source": "BusinessMirror",
+      "feed": "Google News · Philippines",
+      "published": "2026-11-27T13:59:33+00:00",
+      "cite": false
+    }
+  ]
+}
