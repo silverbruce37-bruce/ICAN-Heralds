@@ -5925,6 +5925,7 @@ body.lang-kr .tok-dilemma-question {
 .cd-alg-track {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
     gap: 12px;
     margin: 16px 0 0;
     padding: 0;
@@ -5950,7 +5951,7 @@ body.lang-kr .tok-dilemma-question {
     height: 34px;
     border-radius: 12px;
     background: var(--primary-soft);
-    color: var(--primary-light);
+    color: #1B64DA;
     font-family: 'Outfit', sans-serif;
     font-size: 0.78rem;
     font-weight: 800;

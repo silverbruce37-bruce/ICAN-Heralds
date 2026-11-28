@@ -1569,7 +1569,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v18"
+    ver = date_str.replace("-", "") + "_v19"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
