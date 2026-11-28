@@ -76,9 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Close mobile menu if open
                 const navLinks = document.querySelector('.nav-links');
                 const menuBtn = document.querySelector('.mobile-menu-btn');
-                if (navLinks.classList.contains('open')) {
+                if (navLinks && navLinks.classList.contains('open')) {
                     navLinks.classList.remove('open');
-                    menuBtn.classList.remove('active');
+                    if (menuBtn) menuBtn.classList.remove('active');
                 }
             }
         });
