@@ -5860,7 +5860,7 @@ body.lang-kr .tok-dilemma-question {
 .cd-vocab-anchor .cd-vocab-badge { color: var(--primary-light); }
 
 .cd-vocab-word {
-    font-family: 'Outfit', sans-serif;
+    font-family: inherit;
     font-size: 1.14rem;
     font-weight: 800;
     letter-spacing: -0.02em;
