@@ -193,6 +193,59 @@
           "en": "Evidence and accountability — how would we know it worked, and who answers if it fails?",
           "kr": "근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가"
         }
+      ],
+      "linked_vocab": [
+        {
+          "word": "accountability",
+          "meaning_en": "The duty to explain a decision and take responsibility for its results",
+          "meaning_kr": "결정의 이유를 설명하고 그 결과에 책임지는 의무",
+          "role_in_dilemma_en": "It names who must explain the coffee-tax rule and answer to buyers and sellers if it changes what they pay.",
+          "role_in_dilemma_kr": "커피세 기준을 누가 설명하고, 구매와 판매에 영향이 생겼을 때 누가 소비자와 판매자에게 답해야 하는지 가리킵니다."
+        },
+        {
+          "word": "trade-off",
+          "meaning_en": "giving up one benefit to gain another",
+          "meaning_kr": "하나를 얻기 위해 다른 하나를 포기하는 것",
+          "role_in_dilemma_en": "It names what decision-makers give up either way: acting fast on sugar, or giving buyers and sellers time to understand the rule.",
+          "role_in_dilemma_kr": "당 문제에 빨리 대응하는 것과 소비자·판매자가 기준을 이해할 시간을 주는 것 중 무엇을 포기하는지 가리킵니다."
+        },
+        {
+          "word": "burden",
+          "meaning_en": "the cost or work one group has to carry",
+          "meaning_kr": "한 집단이 떠안아야 하는 비용이나 부담",
+          "role_in_dilemma_en": "It asks who carries the cost: sellers who must follow a new rule, or consumers who pay more for the same sachet.",
+          "role_in_dilemma_kr": "새 기준을 따라야 하는 판매자와 같은 커피를 더 비싸게 사야 하는 소비자 중 누가 비용을 지는지 묻습니다."
+        }
+      ],
+      "solving_algorithm": [
+        {
+          "step": "01",
+          "title_en": "Decode with Vocabulary",
+          "title_kr": "어휘로 난제 해독",
+          "body_en": "Read the story with three words. Accountability asks who explains the rule and answers for it, trade-off asks what is given up either way, and burden asks who pays. Once the words are fixed, “coffee tax” stops being a headline and becomes a choice between named people.",
+          "body_kr": "세 단어로 기사를 읽습니다. Accountability는 누가 기준을 설명하고 책임지는지, trade-off는 어느 쪽을 택해도 무엇을 포기하는지, burden은 누가 비용을 지는지 묻습니다. 단어가 정해지면 ‘커피세’는 헤드라인이 아니라 이름 붙은 사람들 사이의 선택이 됩니다."
+        },
+        {
+          "step": "02",
+          "title_en": "Map Constraints & Cracks",
+          "title_kr": "제약·사상누각 점검",
+          "body_en": "Line up the constraints: consumers want clear information, people worried about sugar want action, and sellers want a rule they can follow — while the headlines still show neither the proposal's details nor the opponents' reasons. The crack sits there: a rule explained only as “a tax” leaves every group guessing, and accountability becomes an empty label.",
+          "body_kr": "제약을 나란히 놓습니다. 소비자는 분명한 정보를, 당을 걱정하는 사람들은 행동을, 판매자는 따를 수 있는 기준을 원합니다. 그런데 헤드라인에는 제안의 세부 내용도 반대 측 논거도 없습니다. 금이 가는 지점이 여기입니다. ‘세금’이라는 말만 있는 기준은 모든 집단을 추측하게 만들고, 책임성은 이름뿐인 표찰이 됩니다."
+        },
+        {
+          "step": "03",
+          "title_en": "IF → THEN Path Search",
+          "title_kr": "IF → THEN 경로 탐색",
+          "body_en": "Test two branches. IF the sugar threshold, the reason and the review date are published before any rate is set, THEN sellers can prepare and consumers can check the rule — but the sugar response slows down. IF the tax is announced first and explained later, THEN the message travels fast, but the whole burden of trust rests on an unexplained rule.",
+          "body_kr": "두 갈래를 시험합니다. IF 세율을 정하기 전에 당 기준과 이유, 재검토 시점을 먼저 공개하면 THEN 판매자는 준비하고 소비자는 기준을 확인할 수 있지만 당 대응은 늦어집니다. IF 세금을 먼저 발표하고 나중에 설명하면 THEN 소식은 빠르게 퍼지지만 신뢰의 부담 전체가 설명되지 않은 기준에 걸립니다."
+        },
+        {
+          "step": "04",
+          "title_en": "Build a New Axis · Decide",
+          "title_kr": "새로운 축 세우기 · 최종 결정",
+          "body_en": "Do not settle for “tax or no tax”. Set a new axis: explain first, then decide. Publish the threshold, the reason and who answers for the result, let buyers and sellers respond, and only then fix the rate. The decision then rests on explained evidence, not on a headline.",
+          "body_kr": "‘세금이냐 아니냐’로 끝내지 않습니다. 새 축을 세웁니다. 먼저 설명하고, 그다음에 정합니다. 당 기준과 이유, 결과에 답할 사람을 공개하고 소비자와 판매자의 의견을 들은 뒤에야 세율을 확정합니다. 그러면 결정은 헤드라인이 아니라 설명된 근거 위에 서게 됩니다."
+        }
       ]
     }
   }

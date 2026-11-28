@@ -438,6 +438,34 @@ DILEMMA_LENS = [
     },
 ]
 
+# The four-step solving algorithm that turns the linked vocabulary into a
+# decision: 01 decode the conflict in words → 02 map the constraints and the
+# crack → 03 test IF → THEN branches → 04 set a new axis and decide.
+DILEMMA_ALG_STEPS = [
+    ("01", "Decode with Vocabulary", "어휘로 난제 해독"),
+    ("02", "Map Constraints & Cracks", "제약·사상누각 점검"),
+    ("03", "IF → THEN Path Search", "IF → THEN 경로 탐색"),
+    ("04", "Build a New Axis · Decide", "새로운 축 세우기 · 최종 결정"),
+]
+
+# Supporting words used only when the model supplies no linked_vocab of its own.
+DILEMMA_SUPPORT_WORDS = [
+    (
+        "trade-off",
+        "giving up one good to gain another",
+        "하나를 얻기 위해 다른 하나를 포기하는 것",
+        "It names what has to be given up in this story so that the other need can be met.",
+        "이 기사에서 다른 요구를 채우기 위해 무엇을 포기해야 하는지 가리킵니다.",
+    ),
+    (
+        "burden",
+        "the cost or work one group has to carry",
+        "한 집단이 떠안아야 하는 비용이나 일",
+        "It names which group carries the cost when the other needs are met first.",
+        "다른 요구를 먼저 채울 때 어느 집단이 그 비용을 떠안는지 가리킵니다.",
+    ),
+]
+
 
 def _bilingual(value):
     """Read a string or an {en, kr} object as a bilingual pair."""
@@ -474,6 +502,204 @@ def _bilingual_list(value, defaults, minimum=2):
             break
         if not any(_same_dimension(default, existing) for existing in out):
             out.append(dict(default))
+    return out
+
+
+def _dilemma_word(daily):
+    """Today's word_of_day as a plain string, or an empty string."""
+    word = daily.get("word_of_day")
+    if isinstance(word, dict):
+        return str(word.get("word") or "").strip()
+    return ""
+
+
+def _linked_vocab_defaults(daily, scenario_en="", scenario_kr=""):
+    """Two or three vocabulary items that let a learner read the dilemma.
+
+    The first item is always today's Word of the Day, so the word corner and
+    the conundrum card are visibly one flow.
+    """
+    word_block = daily.get("word_of_day") if isinstance(daily.get("word_of_day"), dict) else {}
+    word = str(word_block.get("word") or "").strip()
+    items = []
+    if word:
+        items.append(
+            {
+                "word": word,
+                "meaning_en": str(word_block.get("definition_en") or "").strip().rstrip(".") or "today's key word",
+                "meaning_kr": str(word_block.get("definition_kr") or "").strip().rstrip(".") or "오늘의 핵심 어휘",
+                "role_in_dilemma_en": (
+                    "It asks who has to explain this decision and answer for what happens to the groups in the story."
+                ),
+                "role_in_dilemma_kr": (
+                    "이 결정을 누가 설명하고, 그 결과가 기사의 집단들에게 미칠 때 누가 답해야 하는지 묻는 말입니다."
+                ),
+            }
+        )
+    for sup_word, mean_en, mean_kr, role_en, role_kr in DILEMMA_SUPPORT_WORDS:
+        if word and sup_word.lower() == word.lower():
+            continue
+        items.append(
+            {
+                "word": sup_word,
+                "meaning_en": mean_en,
+                "meaning_kr": mean_kr,
+                "role_in_dilemma_en": role_en,
+                "role_in_dilemma_kr": role_kr,
+            }
+        )
+    return items[:3]
+
+
+def _linked_vocab_normalise(raw, daily):
+    """Normalise linked_vocab: 2-3 bilingual items, today's word first."""
+    items = []
+    for item in raw if isinstance(raw, list) else []:
+        if not isinstance(item, dict):
+            continue
+        word = str(item.get("word") or "").strip()
+        if not word:
+            continue
+        mean_en, mean_kr = _bilingual(item.get("meaning_en") or item.get("meaning"))
+        if str(item.get("meaning_kr") or "").strip():
+            mean_kr = str(item.get("meaning_kr")).strip()
+        role_en, role_kr = _bilingual(
+            item.get("role_in_dilemma_en") or item.get("role_in_dilemma") or item.get("role")
+        )
+        if str(item.get("role_in_dilemma_kr") or "").strip():
+            role_kr = str(item.get("role_in_dilemma_kr")).strip()
+        items.append(
+            {
+                "word": word,
+                "meaning_en": mean_en,
+                "meaning_kr": mean_kr or mean_en,
+                "role_in_dilemma_en": role_en,
+                "role_in_dilemma_kr": role_kr or role_en,
+            }
+        )
+
+    today = _dilemma_word(daily)
+    if today and not any(item["word"].lower() == today.lower() for item in items):
+        items.insert(0, _linked_vocab_defaults(daily)[0])
+    elif today and items and items[0]["word"].lower() != today.lower():
+        # Keep today's word in the anchor slot without dropping what the model wrote.
+        for index, item in enumerate(items):
+            if item["word"].lower() == today.lower():
+                items.insert(0, items.pop(index))
+                break
+
+    defaults = [item for item in _linked_vocab_defaults(daily) if not any(
+        item["word"].lower() == existing["word"].lower() for existing in items
+    )]
+    while len(items) < 2 and defaults:
+        items.append(defaults.pop(0))
+    return items[:3]
+
+
+def _algorithm_defaults(cd, daily):
+    """Honest, story-grounded text for the four solving steps."""
+    word_block = daily.get("word_of_day") if isinstance(daily.get("word_of_day"), dict) else {}
+    word = str(word_block.get("word") or "").strip() or "the key word"
+    def_en = str(word_block.get("definition_en") or "").strip().rstrip(".")
+    def_kr = str(word_block.get("definition_kr") or "").strip().rstrip(".")
+    constraints = cd.get("constraints") if isinstance(cd.get("constraints"), list) else []
+    c1_en, c1_kr = _bilingual(constraints[0]) if constraints else ("", "")
+    c2_en, c2_kr = _bilingual(constraints[1]) if len(constraints) > 1 else ("", "")
+
+    decode_en = (
+        (f'Start with the word “{word}” — {def_en}.' if def_en else f'Start with the word “{word}”.')
+        + " Now point it at the story: who has to explain this choice, and which group is asked to give something up?"
+    ).replace("  ", " ").strip()
+    decode_kr = (
+        (f'“{word}”로 시작합니다. {def_kr + "." if def_kr else ""} '
+         "그다음 기사에 대 봅니다. 누가 이 선택을 설명해야 하며, 어느 집단이 무엇을 내놓으라는 요구를 받는지 확인합니다.")
+    ).replace("  ", " ").strip()
+
+    map_en = (
+        "Lay the competing constraints side by side and mark the crack: the point where the rules in the story "
+        "no longer settle who should act and who pays."
+    )
+    if c1_en:
+        map_en += " One constraint: " + c1_en.rstrip(".") + "."
+    if c2_en:
+        map_en += " Another: " + c2_en.rstrip(".") + "."
+    map_kr = (
+        "상충하는 조건을 나란히 놓고 금이 가는 지점을 표시합니다. 기사의 규칙만으로는 누가 행동하고 누가 비용을 "
+        "부담할지 정해지지 않는 자리입니다."
+    )
+    if c1_kr:
+        map_kr += " 첫 조건: " + c1_kr.rstrip(".") + "."
+    if c2_kr:
+        map_kr += " 둘째 조건: " + c2_kr.rstrip(".") + "."
+
+    branch_en = (
+        "Test two branches in words. IF the decision-makers explain the rule and its reason before acting, THEN "
+        "the people affected can check it, but action slows down. IF they act first and explain later, THEN the "
+        "message arrives fast, but “" + word + "” rests on trust alone."
+    )
+    branch_kr = (
+        "두 갈래를 말로 시험합니다. IF 결정하는 사람이 행동 전에 기준과 이유를 먼저 밝히면 THEN 영향을 받는 "
+        "사람들이 그것을 확인할 수 있지만 행동은 늦어집니다. IF 먼저 행동하고 나중에 설명하면 THEN 소식은 빨리 "
+        "전해지지만 “" + word + "”는 오로지 신뢰에만 기대게 됩니다."
+    )
+
+    axis_en = (
+        "Do not answer yes or no. Set a new standard: judge the decision by whether the reason is public, the "
+        "people affected can respond, and someone is named to answer for the result."
+    )
+    axis_kr = (
+        "예나 아니오로 답하지 않습니다. 새 기준을 세웁니다. 이유가 공개되었는지, 영향을 받는 사람이 의견을 낼 수 "
+        "있는지, 결과에 답할 사람이 이름으로 정해졌는지로 판단합니다."
+    )
+
+    bodies = [
+        (decode_en, decode_kr),
+        (map_en, map_kr),
+        (branch_en, branch_kr),
+        (axis_en, axis_kr),
+    ]
+    out = []
+    for (step, title_en, title_kr), (body_en, body_kr) in zip(DILEMMA_ALG_STEPS, bodies):
+        out.append(
+            {
+                "step": step,
+                "title_en": title_en,
+                "title_kr": title_kr,
+                "body_en": body_en,
+                "body_kr": body_kr,
+            }
+        )
+    return out
+
+
+def _solving_algorithm_normalise(raw, cd, daily):
+    """Keep exactly four ordered steps (01→04), filling any gap honestly."""
+    given = [item for item in (raw if isinstance(raw, list) else []) if isinstance(item, dict)]
+    defaults = _algorithm_defaults(cd, daily)
+    keyed = {}
+    for item in given:
+        key = str(item.get("step") or "").strip().lstrip("0")
+        if key and key not in keyed:
+            keyed[key] = item
+    out = []
+    for index, (step, title_en, title_kr) in enumerate(DILEMMA_ALG_STEPS):
+        if keyed:
+            item = keyed.get(step.lstrip("0"), {})
+        else:
+            item = given[index] if index < len(given) else {}
+        body_en, body_kr = _bilingual(item.get("body_en") or item.get("body") or item.get("text"))
+        if str(item.get("body_kr") or "").strip():
+            body_kr = str(item.get("body_kr")).strip()
+        fallback = defaults[index]
+        out.append(
+            {
+                "step": step,
+                "title_en": str(item.get("title_en") or "").strip() or title_en,
+                "title_kr": str(item.get("title_kr") or "").strip() or title_kr,
+                "body_en": body_en or fallback["body_en"],
+                "body_kr": body_kr or fallback["body_kr"],
+            }
+        )
     return out
 
 
@@ -541,6 +767,20 @@ def ensure_complex_dilemma(layer, daily, topic_en, topic_kr):
 
     cd["constraints"] = _bilingual_list(cd.get("constraints"), DILEMMA_CONSTRAINTS, 2)
     cd["evaluation_lens"] = _bilingual_list(cd.get("evaluation_lens"), DILEMMA_LENS, 2)
+
+    # Vocabulary bridge + four-step solving algorithm (backward compatible: the
+    # original scenario / constraints / question / lens stay exactly as they are).
+    linked_raw = cd.get("linked_vocab")
+    linked = _linked_vocab_normalise(linked_raw, daily)
+    if linked and linked != linked_raw:
+        changed.append("linked_vocab")
+    cd["linked_vocab"] = linked
+
+    algorithm_raw = cd.get("solving_algorithm")
+    algorithm = _solving_algorithm_normalise(algorithm_raw, cd, daily)
+    if algorithm and algorithm != algorithm_raw:
+        changed.append("solving_algorithm")
+    cd["solving_algorithm"] = algorithm
 
     layer["complex_dilemma"] = cd
     if filled_now or changed:

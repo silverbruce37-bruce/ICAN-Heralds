@@ -474,6 +474,17 @@ Return ONLY valid JSON (no markdown fences) with this exact structure:
         {\"en\": \"Feasibility — can the plan actually be carried out with the people, money and time available?\", \"kr\": \"실현 가능성 — 가용한 사람·예산·시간으로 실제 실행할 수 있는가\"},
         {\"en\": \"Unintended consequences — who bears the cost of this choice, and what could go wrong?\", \"kr\": \"의도하지 않은 결과 — 이 선택의 비용은 누가 부담하며 무엇이 잘못될 수 있는가\"},
         {\"en\": \"Evidence and accountability — how would we know it worked, and who answers if it fails?\", \"kr\": \"근거와 책임 — 성과를 어떻게 확인하며 실패하면 누가 책임지는가\"}
+      ],
+      \"linked_vocab\": [
+        {\"word\": \"today's word_of_day word, copied exactly\", \"meaning_en\": \"2-6 word English meaning of the word as it works in today's story\", \"meaning_kr\": \"같은 뜻의 한국어\", \"role_in_dilemma_en\": \"One sentence naming the exact part of the dilemma this word lets the learner see (who must explain, what is traded away, who carries the cost)\", \"role_in_dilemma_kr\": \"난제의 어느 지점을 이 어휘로 보게 되는지 담은 한국어 한 문장\"},
+        {\"word\": \"supporting word 1 — a real English word the dilemma needs, 2-4 syllables, not a synonym of the first\", \"meaning_en\": \"...\", \"meaning_kr\": \"...\", \"role_in_dilemma_en\": \"...\", \"role_in_dilemma_kr\": \"...\"},
+        {\"word\": \"supporting word 2 — another word that names a different pressure in the story\", \"meaning_en\": \"...\", \"meaning_kr\": \"...\", \"role_in_dilemma_en\": \"...\", \"role_in_dilemma_kr\": \"...\"}
+      ],
+      \"solving_algorithm\": [
+        {\"step\": \"01\", \"title_en\": \"Decode with Vocabulary\", \"title_kr\": \"어휘로 난제 해독\", \"body_en\": \"Apply the linked words to the scenario: name the values in conflict in precise vocabulary and say which word does which job (1-2 sentences)\", \"body_kr\": \"같은 내용의 한국어 1-2문장\"},
+        {\"step\": \"02\", \"title_en\": \"Map Constraints & Cracks\", \"title_kr\": \"제약·사상누각 점검\", \"body_en\": \"Name the stakeholder conflicts and the point where the existing rule cracks — what the headlines still do not settle (1-2 sentences, story facts only)\", \"body_kr\": \"같은 내용의 한국어 1-2문장\"},
+        {\"step\": \"03\", \"title_en\": \"IF → THEN Path Search\", \"title_kr\": \"IF → THEN 경로 탐색\", \"body_en\": \"Two conditional branches written as IF … THEN …, each with the trade-off it buys and what it costs, using the linked vocabulary\", \"body_kr\": \"IF … THEN … 형태의 조건 분기 두 개를 담은 한국어\"},
+        {\"step\": \"04\", \"title_en\": \"Build a New Axis · Decide\", \"title_kr\": \"새로운 축 세우기 · 최종 결정\", \"body_en\": \"The decision the learner should reach, stated as a new value axis rather than a yes/no vote (1-2 sentences)\", \"body_kr\": \"같은 내용의 한국어 1-2문장\"}
       ]
     }
   }
@@ -492,6 +503,9 @@ IMPORTANT RULES:
 - knowledge_layer.complex_dilemma must be a dilemma, not a quiz. Build it only from facts in today's cover story, with two or three named stakeholder groups whose needs genuinely conflict, three competing constraints, one open-ended design question, and three evaluation criteria.
 - The dilemma question must force a choice under scarcity and ask the learner to justify what they sacrifice and what they safeguard first. A single correct answer or a simple yes/no answer means the question has failed.
 - knowledge_layer.complex_dilemma is shown to learners as a Conundrum card; keep its title exactly “Conundrum · Complex Problem-Solving” / “Conundrum · 복합 난제 해결 과제”.
+- complex_dilemma.linked_vocab is the vocabulary bridge: 2-3 items, and the first word must be today's word_of_day word copied exactly. Use the standard dictionary meaning — never invent a definition. Each role_in_dilemma line must point at a specific part of this scenario (who must explain, what is traded away, who carries the cost), not a generic usage note.
+- complex_dilemma.solving_algorithm must hold exactly four steps with step values 01, 02, 03, 04 and these titles: “Decode with Vocabulary” / “어휘로 난제 해독”, “Map Constraints & Cracks” / “제약·사상누각 점검”, “IF → THEN Path Search” / “IF → THEN 경로 탐색”, “Build a New Axis · Decide” / “새로운 축 세우기 · 최종 결정”.
+- The four algorithm steps must build on each other: 01 uses the linked vocabulary to name the conflicting values, 02 names the stakeholder conflict and where the current rule cracks, 03 gives two IF … THEN … branches with the trade-off each one buys, 04 states a decision standard (a new value axis), never a yes/no answer. Reuse the linked words by name across the steps, keep each body to 1-2 sentences, and use only facts the story supports.
 - The dilemma scenario must never invent numbers, people, organisations or quotes. If the story gives no figure, the scenario names no figure.
 - aok values must come from: Mathematics, Natural Sciences, Human Sciences, History, The Arts, Ethics. wok values from: Language, Sense perception, Emotion, Reason, Imagination, Faith, Intuition, Memory.
 - teded_keyword: a searchable concept, never a fabricated lesson title or URL.

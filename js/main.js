@@ -68,6 +68,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (target) {
                 e.preventDefault();
                 target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Brief highlight so the reader sees what the link moved them to.
+                target.classList.remove('anchor-flash');
+                void target.offsetWidth;
+                target.classList.add('anchor-flash');
+                setTimeout(() => target.classList.remove('anchor-flash'), 1900);
                 // Close mobile menu if open
                 const navLinks = document.querySelector('.nav-links');
                 const menuBtn = document.querySelector('.mobile-menu-btn');

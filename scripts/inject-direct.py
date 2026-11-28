@@ -1112,8 +1112,116 @@ def build_dilemma_card(layer):
         else ""
     )
 
+    # ── Linked vocabulary: today's word + supporting words as chips ────────
+    def esc(value):
+        return html.escape(str(value or "").strip(), quote=False)
+
+    def vocab_items():
+        raw = dilemma.get("linked_vocab")
+        out = []
+        for item in raw if isinstance(raw, list) else []:
+            if not isinstance(item, dict):
+                continue
+            word = str(item.get("word") or "").strip()
+            if not word:
+                continue
+            mean_en, mean_kr = pair_text(item.get("meaning_en") or item.get("meaning") or "")
+            if str(item.get("meaning_kr") or "").strip():
+                mean_kr = str(item.get("meaning_kr")).strip()
+            role_en, role_kr = pair_text(
+                item.get("role_in_dilemma_en") or item.get("role_in_dilemma") or item.get("role") or ""
+            )
+            if str(item.get("role_in_dilemma_kr") or "").strip():
+                role_kr = str(item.get("role_in_dilemma_kr")).strip()
+            out.append((word, mean_en, mean_kr or mean_en, role_en, role_kr or role_en))
+        return out[:3]
+
+    vocab_html = ""
+    v_items = vocab_items()
+    if v_items:
+        chips = []
+        for idx, (vword, mean_en, mean_kr, role_en, role_kr) in enumerate(v_items):
+            anchor = idx == 0
+            cls = "cd-vocab-chip cd-vocab-anchor" if anchor else "cd-vocab-chip"
+            badge_en = "Today&rsquo;s word" if anchor else "Support word"
+            badge_kr = "오늘의 단어" if anchor else "보조 어휘"
+            mean_html = (
+                f'<span class="en-content">{esc(mean_en)}</span>'
+                f'<span class="kr-content">{esc(mean_kr)}</span>'
+            )
+            role_html = (
+                f'<span class="en-content">{esc(role_en)}</span>'
+                f'<span class="kr-content">{esc(role_kr)}</span>'
+            )
+            chips.append(
+                f'<div class="{cls}">'
+                f'<span class="cd-vocab-badge"><span class="en-content">{badge_en}</span>'
+                f'<span class="kr-content">{badge_kr}</span></span>'
+                f'<span class="cd-vocab-word">{esc(vword)}</span>'
+                f'<span class="cd-vocab-mean">{mean_html}</span>'
+                f'<span class="cd-vocab-role">{role_html}</span>'
+                f'</div>'
+            )
+        vocab_html = f'''
+                <div class="tok-dilemma-block cd-vocab-block">
+                    <div class="cd-block-head">
+                        <span class="tok-dilemma-label"><span class="en-content">Linked vocabulary · the words this dilemma runs on</span><span class="kr-content">연결 어휘 · 이 난제를 움직이는 말들</span></span>
+                        <span class="cd-block-hint"><span class="en-content">Read the word, then see what it shows you.</span><span class="kr-content">단어를 읽고, 그 단어가 보여 주는 것을 찾아보세요.</span></span>
+                    </div>
+                    <div class="cd-vocab-row">{"".join(chips)}</div>
+                </div>'''
+
+    # ── Four-step solving algorithm ────────────────────────────────────────
+    def algo_steps():
+        raw = dilemma.get("solving_algorithm")
+        out = []
+        for idx, item in enumerate(raw if isinstance(raw, list) else []):
+            if not isinstance(item, dict):
+                continue
+            step = str(item.get("step") or f"{idx + 1:02d}").strip()
+            title_en, title_kr = pair_text(item.get("title_en") or item.get("title") or "")
+            if str(item.get("title_kr") or "").strip():
+                title_kr = str(item.get("title_kr")).strip()
+            body_en, body_kr = pair_text(item.get("body_en") or item.get("body") or "")
+            if str(item.get("body_kr") or "").strip():
+                body_kr = str(item.get("body_kr")).strip()
+            if not (title_en or body_en):
+                continue
+            if_not_then = step in ("03", "3") or "IF" in (body_en or "").upper()
+            out.append((step, title_en, title_kr or title_en, body_en, body_kr or body_en, if_not_then))
+        return out[:4]
+
+    algo_html = ""
+    a_steps = algo_steps()
+    if a_steps:
+        step_cards = []
+        for s_step, s_title_en, s_title_kr, s_body_en, s_body_kr, branch in a_steps:
+            cls = "cd-alg-step cd-alg-branch" if branch else "cd-alg-step"
+            step_cards.append(
+                f'<li class="{cls}">'
+                f'<span class="cd-alg-num">{esc(s_step)}</span>'
+                f'<div class="cd-alg-body">'
+                f'<h4 class="cd-alg-title"><span class="en-content">{esc(s_title_en)}</span>'
+                f'<span class="kr-content">{esc(s_title_kr)}</span></h4>'
+                f'<p class="cd-alg-text"><span class="en-content">{esc(s_body_en)}</span>'
+                f'<span class="kr-content">{esc(s_body_kr)}</span></p>'
+                f'</div>'
+                f'</li>'
+            )
+        algo_html = f'''
+                <div class="cd-alg">
+                    <div class="cd-alg-head">
+                        <div>
+                            <span class="tok-dilemma-label"><span class="en-content">Solving algorithm · four steps from words to a decision</span><span class="kr-content">난제 해결 알고리즘 · 어휘에서 결정까지 네 단계</span></span>
+                            <p class="cd-alg-lede"><span class="en-content">Do not jump to an answer. Walk the four steps in order and let the vocabulary carry the reasoning.</span><span class="kr-content">곧바로 답으로 뛰지 마세요. 네 단계를 차례로 걸으며, 어휘가 사고를 운반하게 하세요.</span></p>
+                        </div>
+                        <span class="cd-alg-badge">01 → 04</span>
+                    </div>
+                    <ol class="cd-alg-track">{"".join(step_cards)}</ol>
+                </div>'''
+
     return f'''
-                <article class="tok-card tok-card-wide tok-card-dilemma">
+                <article id="conundrum-card" class="tok-card tok-card-wide tok-card-dilemma">
                     <div class="tok-dilemma-head">
                         <div class="tok-card-head">
                             <span class="tok-card-icon">🧩</span>
@@ -1127,7 +1235,7 @@ def build_dilemma_card(layer):
                     <p class="tok-dilemma-scenario">
                         <span class="en-content">{scenario_en}</span>
                         <span class="kr-content">{scenario_kr}</span>
-                    </p>{constraints_html}
+                    </p>{constraints_html}{vocab_html}{algo_html}
                 <div class="tok-dilemma-task">
                     <span class="tok-dilemma-label"><span class="en-content">Your task</span><span class="kr-content">과제</span></span>
                     <p class="tok-dilemma-question">
@@ -1461,7 +1569,7 @@ def build_html(daily, weekly):
     date_str = d.get("edition_date", datetime.now().strftime("%Y-%m-%d"))
     date_dot = date_str.replace("-", ".")
     # Append suffix to bust cached static assets after layout update.
-    ver = date_str.replace("-", "") + "_v16"
+    ver = date_str.replace("-", "") + "_v17"
 
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
@@ -1522,6 +1630,19 @@ def build_html(daily, weekly):
         _pron = str(word.get('pronunciation', '')).strip().strip('/').strip('[]')
         _pron = _pron.replace('/', '').strip()
         pron = _pron
+        # One-line bridge: the word corner hands the learner to the Conundrum
+        # card, where the same word becomes the first lens of the algorithm.
+        _dilemma = (d.get("knowledge_layer", {}) or {}).get("complex_dilemma")
+        _conundrum_ready = isinstance(_dilemma, dict) and str(_dilemma.get("question_en") or "").strip()
+        word_bridge = '''
+                <a class="word-bridge" href="#conundrum-card">
+                    <span class="word-bridge-icon" aria-hidden="true">🧩</span>
+                    <span class="word-bridge-copy">
+                        <span class="en-content">Today&rsquo;s word is the first lens of the Conundrum — walk the 4-step solving algorithm with it.</span>
+                        <span class="kr-content">오늘의 단어는 난제의 첫 번째 렌즈입니다. 이 단어로 4단계 해결 알고리즘을 걸어 보세요.</span>
+                    </span>
+                    <span class="word-bridge-go"><span class="en-content">Go to Conundrum</span><span class="kr-content">난제로 이동</span><span class="word-bridge-arrow" aria-hidden="true">↓</span></span>
+                </a>''' if _conundrum_ready else ""
         word_html = f'''
         <section class="word-banner">
             <div class="word-inner">
@@ -1530,7 +1651,7 @@ def build_html(daily, weekly):
                 <div class="word-pronunciation">/{pron}/ — {word.get('type', 'noun')}</div>
                 <p class="word-desc"><span class="en-content">{word.get('definition_en', '')}</span><span class="kr-content">{word.get('definition_kr', '')}</span></p>
                 <p class="word-example"><span class="en-content"><em>"{word.get('example_en', '')}"</em></span><span class="kr-content"><em>"{word.get('example_kr', '')}"</em></span></p>
-                <div class="word-grade">{word.get('grade', 'A+')}</div>
+                <div class="word-grade">{word.get('grade', 'A+')}</div>{word_bridge}
             </div>
         </section>
         {build_word_algorithm(word)}'''

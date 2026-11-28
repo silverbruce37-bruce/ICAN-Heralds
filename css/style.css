@@ -5739,3 +5739,272 @@ body.lang-kr .tok-dilemma-question {
     word-break: keep-all;
     overflow-wrap: normal;
 }
+
+/* ═══════════════════════════════════════════ */
+/* CONUNDRUM × VOCABULARY                      */
+/* Word bridge → linked vocabulary chips →     */
+/* 4-step solving algorithm (01 → 04)          */
+/* ═══════════════════════════════════════════ */
+
+/* --- Word of the Day → Conundrum bridge (inside the blue banner) --- */
+.word-bridge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 22px;
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+    backdrop-filter: blur(6px);
+}
+
+.word-bridge:hover {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px);
+}
+
+.word-bridge-icon { font-size: 1.08rem; line-height: 1; flex: 0 0 auto; }
+
+.word-bridge-copy {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 0.87rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.word-bridge-go {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #FFFFFF;
+    color: #1B64DA;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 35, 80, 0.12);
+}
+
+.word-bridge-arrow { font-size: 0.82rem; line-height: 1; }
+
+/* --- Anchor landing --- */
+#conundrum-card { scroll-margin-top: 84px; }
+
+@keyframes anchorFlash {
+    0%   { box-shadow: 0 0 0 0 rgba(49, 130, 246, 0.42); }
+    45%  { box-shadow: 0 0 0 12px rgba(49, 130, 246, 0.0); }
+    100% { box-shadow: 0 14px 40px rgba(49, 130, 246, 0.10); }
+}
+
+.anchor-flash { animation: anchorFlash 1.8s ease-out; }
+
+/* --- Linked vocabulary --- */
+.cd-vocab-block { margin-top: 6px; }
+
+.cd-block-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px 14px;
+    flex-wrap: wrap;
+}
+
+.cd-block-hint {
+    font-size: 0.76rem;
+    line-height: 1.5;
+    color: var(--muted);
+}
+
+.cd-vocab-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.cd-vocab-chip {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 15px 16px 14px;
+    border-radius: 16px;
+    background: #F9FAFB;
+    border: 1px solid var(--hairline);
+    border-top: 3px solid rgba(99, 102, 241, 0.30);
+}
+
+.cd-vocab-anchor {
+    background: linear-gradient(180deg, #F2F7FF 0%, #FBFDFF 100%);
+    border-color: rgba(49, 130, 246, 0.26);
+    border-top-color: var(--primary);
+    box-shadow: 0 8px 20px rgba(49, 130, 246, 0.08);
+}
+
+.cd-vocab-badge {
+    font-size: 0.59rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.cd-vocab-anchor .cd-vocab-badge { color: var(--primary-light); }
+
+.cd-vocab-word {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.14rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+    color: var(--text);
+}
+
+.cd-vocab-anchor .cd-vocab-word { color: #1B64DA; }
+
+.cd-vocab-mean {
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.cd-vocab-role {
+    margin-top: 2px;
+    font-size: 0.82rem;
+    line-height: 1.62;
+    color: #6B7684;
+}
+
+/* --- 4-step solving algorithm --- */
+.cd-alg {
+    margin-top: 18px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #F5F8FF 0%, #FFFFFF 58%);
+    border: 1px solid rgba(49, 130, 246, 0.16);
+}
+
+.cd-alg-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.cd-alg-lede {
+    margin-top: 6px;
+    max-width: 72ch;
+    font-size: 0.84rem;
+    line-height: 1.62;
+    color: var(--text-secondary);
+}
+
+.cd-alg-badge {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #FFFFFF;
+    border: 1px solid rgba(49, 130, 246, 0.22);
+    color: var(--primary-light);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+}
+
+.cd-alg-track {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cd-alg-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 16px 15px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    border: 1px solid var(--hairline);
+    box-shadow: 0 2px 10px rgba(0, 27, 55, 0.04);
+}
+
+.cd-alg-num {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 12px;
+    background: var(--primary-soft);
+    color: var(--primary-light);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+.cd-alg-body { min-width: 0; }
+
+.cd-alg-title {
+    font-size: 0.91rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.42;
+    color: var(--text);
+}
+
+.cd-alg-text {
+    margin-top: 5px;
+    font-size: 0.86rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+/* Step 03 · the IF → THEN branch gets the indigo accent */
+.cd-alg-branch {
+    background: linear-gradient(180deg, #FBFAFF 0%, #FFFFFF 70%);
+    border-color: rgba(99, 102, 241, 0.26);
+}
+
+.cd-alg-branch .cd-alg-num { background: rgba(99, 102, 241, 0.12); color: #4F46E5; }
+.cd-alg-branch .cd-alg-title { color: #4338CA; }
+
+/* Korean: keep words whole inside the new blocks */
+body.lang-kr .word-bridge-copy,
+body.lang-kr .cd-vocab-role,
+body.lang-kr .cd-vocab-mean,
+body.lang-kr .cd-alg-text,
+body.lang-kr .cd-alg-lede,
+body.lang-kr .cd-block-hint {
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+@media (max-width: 900px) {
+    .cd-alg-track { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+    .word-bridge { flex-wrap: wrap; padding: 13px 14px; }
+    .word-bridge-copy { flex-basis: calc(100% - 32px); font-size: 0.84rem; }
+    .word-bridge-go { margin-left: auto; }
+    .cd-alg { padding: 16px 14px; border-radius: 16px; }
+    .cd-alg-head { flex-direction: column; gap: 8px; }
+    .cd-alg-badge { display: none; }
+    .cd-vocab-row { grid-template-columns: 1fr; }
+    .cd-alg-step { padding: 14px 14px 13px; }
+}
